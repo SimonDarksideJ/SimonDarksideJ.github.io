@@ -1,0 +1,63 @@
+---
+layout: post
+title: What is in store 2009
+date: '2009-01-02 15:19:30'
+tags:
+- ramblings
+---
+
+2008 was not a good year for me.  Work ramped up to 1000% and my family got a surprising present before the year had even begun.  This did not bode well for my progress as a game developer so I became what is referred to as a slacker ![Wink](http://shared.live.com/csi!Rvmz5kFbfVkDrhMJKg/emoticons/smile_wink.gif "Wink").
+
+I could moan, whimper and hide under a rock or I could move on.  I choose the latter and so on with 2009. (got to stop writing 2008, have had to correct myself several times now)
+
+Now I have not been totally remiss last year, I have kept up to date with all the recent developments in XNA and beyond, I have also been designing heavily and helping out others with their designs (although not much coding work), I just did not post about it much.  A few of the major points were:
+
+1. I joined Dark Omen Games (curtsey of my good friend [Charles (randomchaos) Humphrey](http://xna-uk.net/blogs/randomchaos/default) with a bit of arm twisting ![Secret telling](http://shared.live.com/csi!Rvmz5kFbfVkDrhMJKg/emoticons/smile_secret.gif "Secret telling")) and have already contributed a little bit with new game designs and ear bendings), even added some more resources to the group.  I hope to continue this more and more as the year goes on. (BTW, Charles has a fantastic series going on about HLSL, so worth a peek over there!, he has also revived his [old Blog for some C++ stuff](http://randomchaosuk.blogspot.com/), I do not know where he finds the time)
+2. I have started heavily designing an upgrade for my old Hack-1 project, it will probably be a complete rewrite but keeping to the same game ideas
+3. Finally, I have waded wholeheartedly in to Modeling (the 3D software type, none of that underwear or skin tight lycra malarkey).  I have been soaking myself up in all the 3D training material I could find including come commercial stuff (I actually paid for something, gahh)
+
+## So what for 2009?
+
+Well the 2 goals I have set for myself are to make a major dent in the development of an improved Hack-1 project which when finished will probably be published under the Dark Omen Game banner.  I will blog as much as I can about that, taking a lead of my new Dark Omen buddies and see if I can pull a video or two together during the progress.
+
+Secondarily, I am going to comprise a new 3D modeling tutorial.  this seems to be an area lacking in the XNA community (or most other places unless you watch all the big heavy 3D sites).  The tutorials will not be in just one product either, it will feature 3DS Max for sure and will likely include Blender and maybe Truespace or the XSI mod tool.  this is a heavy demand on me so please be patient.
+
+[![](http://resources.autodesk.com/img/med/3dsMax09.jpg)](http://www.autodesk.com/3dsmax)
+
+[![](http://www.blender.org/fileadmin/site/_gfx/nav-home.png)](http://www.blender.org/) [![](http://www.caligari.com/store/Special/images/tS7_logo_341x68.jpg)](http://www.caligari.com/)  [![](http://www.softimage.com/Products/images/boxshots/ModTool_logo.jpg)](http://www.softimage.com/products/modtool/)
+
+In the 3D Modeling series I’ll cover:
+
+- Basic terminology – what things are called and why
+- Generic interfaces – get to know your way around each product
+- Basic modeling techniques – Simple stuff to get you started
+- Texturing – make it look pretty 🙂
+- Materials – make it look shiny
+- Animation – get your body moving
+
+This is by no means a fixed schedule and you will notice there’s no dates there, reason being I am still learning myself.  So like I did when I started this blog, you will be learning as I do (a few steps behind so I can make all those beginner mistakes and fix them).
+
+I am no stranger to 3D modeling but I do have to get myself back up to date, you may think showing multiple tools at the same time is going to be tricky, but it’s not that bad really, they all use very similar terminology and the thing you really need to get under your belt when modeling are the techniques rather than the tools.  Sure there are some application specific things but the basics (and even some of the advanced stuff) is fairly common in all tools.
+
+## Lastly
+
+now with all this going on there is one last thing I will be doing before all this starts.   The blog is going to move (or at least most of the new stuff), this old blog with remain and I will still update it from time to time (and even reference some of my old stuff) but for my main blogging I will be using the new one (or maybe 2 depending on the speed of Hack-1 stuff).
+
+Reason I am doing this is because I finally became sick as hell ![Sick](http://shared.live.com/csi!Rvmz5kFbfVkDrhMJKg/emoticons/smile_sick.gif "Sick") ![Angry](http://shared.live.com/csi!Rvmz5kFbfVkDrhMJKg/emoticons/smile_angry.gif "Angry") of all the junk appearing on the spaces site, I have got to constantly monitor the site and the comments that appear.   It is supposed to be managed and controlled to stop spammers but more and more I come back to check on it (either before making a post or just from looking at my homepage) to find umpteen amounts of sales or spam comments or stuff just randomly appearing on my posts.  No matter what you do it always comes back, so I have had enough.
+
+My next post on this blog will be the new address when I have chosen a new one (I’ve had a few good suggestions so far but not tried them yet)
+
+Do not forget to go and visit Charles either on his [XNA-UK blog](http://xna-uk.net/) or his old [BlogSpot one](http://randomchaosuk.blogspot.com/). ![Party](http://shared.live.com/csi!Rvmz5kFbfVkDrhMJKg/emoticons/smile_party.gif "Party")
+
+ 
+
+So Merry Christmas (for those of you who have not touched a computer since leaving work for the break) and a Happy new Year to you all, here is hoping I hear more from you and that I get on with something (other than work and family, time for more time for me!)
+
+P.S. Just in case my work reads this, I am not putting off work, I am just going to work even harder on myself.  Just not doing less (well  hopefully you get the picture)
+
+On another note, i must admit I also have to try and spend more time on my charitable work as I also look after a [blog site](http://pwsa.serveblog.net/) for my sons charity, the [Prader-Willi Syndrome Association](http://www.pwsa.co.uk/).   It is only been going a Year but it is doing well with a few contributors now and I still need to add more myself whilst looking after it.  If you are curious what PWS is, then have a look on the [site](http://pwsa.serveblog.net/) or the Charities [main page here](http://www.pwsa.co.uk/). (Do not even bother if your a Spammer, I am watching out for you!!! 
+
+![Cat face](http://shared.live.com/csi!Rvmz5kFbfVkDrhMJKg/emoticons/cat.gif "Cat face"))
+
+ [![](http://www.pwsa.co.uk/forum/templates/subSilver/images/logo_phpBB.gif)](http://www.pwsa.co.uk/)
+

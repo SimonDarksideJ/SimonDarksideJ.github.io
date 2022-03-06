@@ -1,0 +1,30 @@
+---
+layout: post
+title: AboutMe
+date: '2012-07-02 14:55:13'
+---
+
+So you have read all my stuff, gone through all my things and now you want to also know about me?
+
+I’m a long time community developer focusing on all things XNA / Windows Phone / Windows 8 / Windows 10 and beyond.  I’m also proficient in most of the game development engine’s out there including [Unity](http://unity3d.com/)/ Scratch and [Unreal](https://www.unrealengine.com), as well as most of the common 2D/3D tools used in game creation. I’m also looking to expand with [CryEngine](https://www.cryengine.com/)this year.
+
+I’m also the UK [ID@Xbox](http://www.xbox.com/id) MVP and soon to be XBOX MVP. Always looking to help developers through the ID program and get their titles on all of Microsoft’s platforms, as well as help and encourage them to be as successful as possible.
+
+Technical Architect by day in the Healthcare division of a large services company while at night I come alive with endless stories and possibilities.
+
+(I really should keep this bit up to date)
+
+Now that my books are both published (and doing well), I’ve been writing more articles and working on the awesome open source [UI Extensions project](https://bitbucket.org/ddreaper/unity-ui-extensions) which is chock full of community written UI controls for the new [Unity](http://unity3d.com/)UI framework.  
+Been working on [AdRotator](https://getadrotator.codeplex.com/ "AdRotator V2 - The return")whilst working behinds the scenes and with the [MonoGame](http://monogame.net/ "Monogame - the indie future of XNA and managed multi-platform game development")team with lots of blog posts appearing from both of these activities.  
+Former admin of the XNAUK group and Master Chief of ZenithMoon Studios
+
+Simon (Darkside) Jackson
+
+[@SimonDarksideJ](http://twitter.com/SimonDarksideJ)
+
+[zenithmoon.com](http://zenithmoon.com "The Game Studio page for ZenithMoon, news apps being added regually. (just do not ask how often)")
+
+Feel free to drop me a line
+
+[contact\_form]
+
