@@ -2,18 +2,14 @@
 layout: post
 title: Welcome to Mixed Reality - Oct 17th launch edition
 date: '2017-10-17 12:35:21'
+img: /assets/img/wordpress/2017/10/image.png
 tags:
 - events
-- fall-creators
 - mixed-reality
 - windows-10
 ---
 
-[![image](/assets/img/wordpress/2017/10/image.png "image")](https://www.microsoft.com/en-us/windows/windows-mixed-reality)
-
 Well, it is October 17th (as I am writing this) which means it is the official launch of the Fall creators update of Windows 10 and the release of the Windows Mixed Reality headsets from Acer, Asus, Dell and more.
-
- 
 
 # The Windows Mixed Reality Family
 
@@ -21,29 +17,19 @@ Well, it is October 17th (as I am writing this) which means it is the official l
 
 Microsoft refer to the new “Mixed Reality” setup as their “Windows Mixed Reality Family”, pairing up “Mixed Reality Ready” PCs, with headsets and controllers.
 
- 
-
 You should see this advertised wherever you see the new headsets or mixed reality enabled PC’s on offer.  Just to make it clear, it is not just the headset you need, but a PC to run the experience as well. Not a lot of manufactures highlight the PC component of the setup, so Microsoft is trying to be upfront as to the requirements.  Most people will find however, that their existing gaming PC should be up to the task or may simply need a graphics card update (I recommend a minimum of an Nvidia GTX1050, which is fairly cheap).
-
-####  
 
 > #### [Unsure if your PC is up to the task, then check out this handy App in the Microsoft Store to test your PC and see if it is Mixed Reality ready](https://www.microsoft.com/en-us/store/p/windows-mixed-reality-pc-check/9nzvl19n7cnc).
 
-#  
-
-# The Headsets
+## The Headsets
 
 The headsets are out there and all the vendor outlets are already publishing and promoting their new wares. They can also be found on the Microsoft store and popular online retailers, such as [Amazon](https://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=mixed+reality), [Currys/PCWorld](http://www.pcworld.co.uk/gbuk/search-keywords/xx_xx_xx_xx_xx/mixed%2Breality/xx-criteria.html) and more, just search for “ **Mixed Reality** ” and let the offers commence.
 
 [![image](/assets/img/wordpress/2017/10/image_thumb-1.png "image")](/assets/img/wordpress/2017/10/image-2.png)
 
- 
-
 The prices for the headsets range from £300 to £550, depending on manufacturer, quality, build and offers. Most come with controllers included, others allow you to purchase separately if you wish.
 
- 
-
-# Mixed Reality PC Requirements
+## Mixed Reality PC Requirements
 
 [![image](/assets/img/wordpress/2017/10/image_thumb-2.png "image")](/assets/img/wordpress/2017/10/image-3.png)
 
@@ -51,31 +37,27 @@ What is surprising, is that unlike the competitive VR offerings from other provi
 
 **Test your PC using the handy “** [**Windows Mixed Reality PC Check**](https://www.microsoft.com/en-us/store/p/windows-mixed-reality-pc-check/9nzvl19n7cnc) **” app on the Microsoft Store.**
 
-# Easiest Setup and Portability
+## Easiest Setup and Portability
 
 [![image](/assets/img/wordpress/2017/10/image_thumb-3.png "image")](/assets/img/wordpress/2017/10/image-4.png)
 
 Another differentiating factor of the Mixed Line-up, is that it does not require any complex setup, no sensors or beacons. Literally just plug in, walk around your room and you are ready to go.  All the necessary sensors, tracking and such are pre-built into the headset itself. The only connection is the wire from the headset to the PC, which is long enough for most experiences (but can be extended using traditional HDMI & USB3 extension cables).  Although the length of the wire is no issue for seated experiences (although I do recommend a swivel chair ![Open-mouthed smile](/assets/img/wordpress/2017/10/wlEmoticon-openmouthedsmile.png))
 
-# Titles on launch
+## Titles on launch
 
 Many developers I have talked to have been hard at work on their titles ready for the October 17th launch, such as [Gunspinning VR](http://www.demonixis.net/games/gunspinning-vr/) by [Demonixis Games](http://www.demonixis.net/):
 
- 
-
-[![ src=]()](http://www.demonixis.net/games/gunspinning-vr/)
+![](http://www.demonixis.net/games/gunspinning-vr/)
 
 I have been testing and playing this title for some time now (even taking it with me for workshops and demos), everyone agrees, it is awesome! (until the Zombies creep up behind you!)
 
 And there are many more titles already listed in the Microsoft Store showcase for VR:
 
-[![image](/assets/img/wordpress/2017/10/image_thumb-4.png "image")](/assets/img/wordpress/2017/10/image-5.png)
-
- 
+![image](/assets/img/wordpress/2017/10/image-5.png)
 
 (Downloading Halo Recruit as I write ![Open-mouthed smile](/assets/img/wordpress/2017/10/wlEmoticon-openmouthedsmile.png))
 
-# Time to get on the Mixed Reality train
+## Time to get on the Mixed Reality train
 
 ![Immersive environment apps](https://az835927.vo.msecnd.net/sites/mixed-reality/Resources/images/Windows_Mixed_Reality.jpg)
 
@@ -83,21 +65,15 @@ So, if you are interested in VR and VR gaming (although, I am preferable to watc
 
 > If you prefer Vive and Oculus, they both have recently announced price drops to match the Mixed Reality series of headsets, however, you still need to factor in the level of PC you will need to run them.  The cost of VR, should include the PC you will need as an entire package!
 
- 
-
-# Wait, there is more – incoming SteamVR!
+## Wait, there is more – incoming SteamVR!
 
 ![](http://blog.inf.ed.ac.uk/atate/files/2016/08/SteamVR-Header.jpg)
 
 As was announced earlier by Microsoft and Steam, Windows Mixed Reality will fully support games published on the SteamVR service.  Further extending the amount of experiences available to all consumers.  If you already have VR titles (or titles with VR support) in your Steam Library, then you will also be able to activate them on Windows Mixed Reality PC’s and headsets.
 
- 
+> **Note, no actual date has been announced for the launch of SteamVR for Windows Mixed Reality.  But from the previews I have experienced, it should not be too long.**
 
-> **\*Note, no actual date has been announced for the launch of SteamVR for Windows Mixed Reality.  But from the previews I have experienced, it should not be too long.**
-
- 
-
-# For Developers!
+## For Developers!
 
 ![Image result for mixed reality development](http://www.ourarcade.com/wp-content/uploads/2017/03/windows-vr-mixed-reality-640x375.png "View source image")
 

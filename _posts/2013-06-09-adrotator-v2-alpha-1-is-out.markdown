@@ -1,12 +1,9 @@
 ---
 layout: post
 title: AdRotator V2 - Alpha 1 is out
-date: '2013-06-09 12:41:15'
+date: 2013-06-09 12:41:15
 tags:
 - adrotator
-- alpha
-- information
-- release
 ---
 
 Cross Posted from [this post](http://wp.me/p3yEc2-O) on AdRotator’s new site – [http://getadrotator.com/](http://getadrotator.com/) (still a work in progress but a start :D)

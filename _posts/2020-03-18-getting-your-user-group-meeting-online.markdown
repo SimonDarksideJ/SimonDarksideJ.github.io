@@ -1,18 +1,16 @@
 ---
 layout: post
 title: Getting your user group or meeting online
-date: '2020-03-18 00:25:00'
+date: 2020-03-18 00:25:00
+img: /assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d.png
 tags:
-- virtual-meetings
-- virtual-reality
+- online-meetings
 - vr
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1920" height="1080" src="/assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d.png?fit=660%2C371&amp;ssl=1" alt=" class=" wp-image-97249 srcset="/assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d.png 1920w, /assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d-300x169.png 300w, /assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d-1024x576.png 1024w, /assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d-768x432.png 768w, /assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d-1536x864.png 1536w, /assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d-700x393.png 700w" sizes="(max-width: 1920px) 100vw, 1920px"></figure>
-
 In the wake of events in 2019 events, sessions and conferences are being cancelled leaving a gap for those who want to meet up and share information or just talk.
 
-This article will walk through some of the most commonly used online services for organising and scheduling an online meeting, mainly targetted at user groups or conferences who need to move their physical events online, but it is also useful if you just need to talk and share content.
+This article will walk through some of the most commonly used online services for organizing and scheduling an online meeting, mainly targeted at user groups or conferences who need to move their physical events online, but it is also useful if you just need to talk and share content.
 
 ## What types of services are available?
 <figure class="wp-block-image size-large"><img loading="lazy" width="800" height="450" src="/assets/img/wordpress/2020/03/image-13.png" alt=" class=" wp-image-97653 srcset="/assets/img/wordpress/2020/03/image-13.png 800w, /assets/img/wordpress/2020/03/image-13-300x169.png 300w, /assets/img/wordpress/2020/03/image-13-768x432.png 768w, /assets/img/wordpress/2020/03/image-13-700x393.png 700w" sizes="(max-width: 800px) 100vw, 800px"></figure>

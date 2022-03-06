@@ -1,15 +1,11 @@
 ---
 layout: post
 title: Entering the brave new world of VR
-date: '2015-09-23 11:43:03'
+date: 2015-09-23 11:43:03
 tags:
 - ar
-- augmented-reality
-- book-offers
 - book-review
-- unity-3d-tutorials
 - unity3d
-- virtual-reality
 - vr
 ---
 

@@ -2,13 +2,12 @@
 layout: post
 title: Running an event in AltspaceVR - an end to end guide
 date: '2020-04-01 21:29:49'
+img: /assets/img/wordpress/2021/06/image-15-1-.png
 tags:
 - altspacevr
 - online-meetings
 - vr
 ---
-
-<figure class="wp-block-image size-large"><img loading="lazy" width="1175" height="605" src="/assets/img/wordpress/2020/03/image-15.png?fit=660%2C340&amp;ssl=1" alt=" class=" wp-image-97663 srcset="/assets/img/wordpress/2020/03/image-15.png 1175w, /assets/img/wordpress/2020/03/image-15-300x154.png 300w, /assets/img/wordpress/2020/03/image-15-1024x527.png 1024w, /assets/img/wordpress/2020/03/image-15-768x395.png 768w, /assets/img/wordpress/2020/03/image-15-700x360.png 700w" sizes="(max-width: 1175px) 100vw, 1175px"></figure>
 
 Following on from my previous overview of the most common virtual services, this article is the first in the series doing a much deeper dive into each service, its offerings and how to set up and run an event.
 

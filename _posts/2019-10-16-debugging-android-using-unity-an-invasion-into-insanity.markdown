@@ -2,15 +2,12 @@
 layout: post
 title: Debugging Android using Unity (an invasion into insanity)
 date: '2019-10-16 18:14:43'
+img: /assets/img/wordpress/2019/10/d6a25324780567.56339f4d42e29.jpg
 tags:
 - android
-- codeproject
 - tutorials-resources
 - unity3d
-- xrtk
 ---
-
-<figure class="wp-block-image"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d6a25324780567.56339f4d42e29.jpg" alt='rnToScuba(RAID) Android App Development Australia" by iPhone Developer is licensed under CC BY-NC 4.0 '></figure>
 
 Since we started supporting Android platforms fully in the [XRTK](https://xrtk.io), we’ve been through the mill working through all the possible combinations of testing, debugging and banging heads against tables to make Android platforms behave.
 

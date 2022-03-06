@@ -1,14 +1,10 @@
 ---
 layout: post
 title: MVVMLight and Async
-date: '2012-07-02 14:02:58'
+date: 2012-07-02 14:02:58
 tags:
-- async
-- mvvm
 - tutorials-resources
-- windows-8
-- windows8-tutorials
-- windows-phone
+- mvvm
 ---
 
 ![width=](http://lh3.ggpht.com/-tt4lAT0YJak/T2rqCrWuiWI/AAAAAAAABS8/WcQAEjOpQmw/mvvmlight%25255B2%25255D.png) ![width=](http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/220px-Heart_coraz%C3%B3n.svg.png) ![width=](http://ecn.channel9.msdn.com/o9/ch9/09af/7a327d14-54de-4846-8cd0-9e1a015009af/AndersHejlsbergAsyncNET_220_ch9.jpg)

@@ -6,8 +6,6 @@ tags:
 - ramblings
 ---
 
-<figure class="wp-block-image size-large"><img loading="lazy" width="1440" height="900" src="/assets/img/wordpress/2020/04/image-8.png?fit=660%2C413&amp;ssl=1" alt=" class=" wp-image-98211 srcset="/assets/img/wordpress/2020/04/image-8.png 1440w, /assets/img/wordpress/2020/04/image-8-300x188.png 300w, /assets/img/wordpress/2020/04/image-8-1024x640.png 1024w, /assets/img/wordpress/2020/04/image-8-768x480.png 768w, /assets/img/wordpress/2020/04/image-8-700x438.png 700w" sizes="(max-width: 1440px) 100vw, 1440px"></figure>
-
 Following my [recent in-depth article](https://darkgenesis.zenithmoon.com/running-an-event-in-altspacevr-an-end-to-end-guide/) on getting your online meeting running in AltspaceVR ([part of a series for online events services](https://darkgenesis.zenithmoon.com/getting-your-user-group-meeting-online/)), I’ve been asked by several people to “show me the money” and do a show and tell in AltspaceVR to demonstrate how easy it is.
 
 ## Running an event in AltspaceVR an end to end guide  

@@ -2,12 +2,10 @@
 layout: post
 title: Windows 10 Mixed Reality Devices - The definitive consumer review
 date: '2017-09-06 14:53:07'
+img: /assets/img/wordpress/2017/09/2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80.png
 tags:
 - mixed-reality
-- showcase
 ---
-
-[![Image result for windows 10 mixed reality](http://winsupersite.com/site-files/winsupersite.com/files/gallery_images/mixedrealityapp2.PNG?1488303227)](https://www.google.co.uk/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiZqJ7-lo7WAhVC0hoKHRXaBJ4QjRwIBw&url=http%3A%2F%2Fwinsupersite.com%2Fwindows-10%2Fmixed-reality-app-simulation-windows-10-creator-update-build-15042&psig=AFQjCNFarSpZiGvqNXUX3wlkiLFc_inpPA&ust=1504705485178658)
 
 Since Microsoft launched its Mixed Reality program, initially with the business focused HoloLens program, a lot of interest has been garnered for the experiences it has generated, especially with most of its game focused demos.  Now that the program has begun targeting the consumer space with its new range of entry level Mixed Reality headsets (or Immersive Headsets as they are referred to) from Acer, Asus, Dell and others, the pace is certainly heating up.
 
@@ -37,7 +35,7 @@ So far, they’ve announced the following headsets and vendors:
 
 ![Acer Windows Mixed Reality headset](https://winblogs.azureedge.net/win/2017/05/b3b42c0273b64c0433afc55cad9628a9-1024x819.jpg)
 
- | [![image](/assets/img/wordpress/2017/09/image_thumb-3.png "image")](/assets/img/wordpress/2017/09/image-9.png) | [![image](/assets/img/wordpress/2017/09/image_thumb-4.png "image")](/assets/img/wordpress/2017/09/image-10.png) | [![image](/assets/img/wordpress/2017/09/image_thumb-5.png "image")](/assets/img/wordpress/2017/09/image-11.png) | [![image](/assets/img/wordpress/2017/09/image_thumb-6.png "image")](/assets/img/wordpress/2017/09/image-12.png) |
+ | ![image](/assets/img/wordpress/2017/09/image-9.png) | ![image](/assets/img/wordpress/2017/09/image-10.png) | ![image](/assets/img/wordpress/2017/09/image-11.png) | ![image](/assets/img/wordpress/2017/09/image-12.png) |
 | 
 
 Acer
@@ -79,7 +77,7 @@ $449 Headset + Controllers
 
  |
 
-_ **\*All prices are subject to change and based on current published figures** _
+_ **All prices are subject to change and based on current published figures** _
 
 As you can see each device has a very similar look and feel based on Microsoft’s base specification, providing:
 
@@ -95,7 +93,7 @@ Each manufacturer has taken its own view and design with the specs to give a uni
 
 The one main thing that sets the Microsoft Mixed Reality setup different to every other high-powered VR style experience (excluding the likes of Cardboard / mobile VR) is that it requires absolutely no external setup, no additional devices or sensors, it is literally just plug and go.
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-7.png "image")](/assets/img/wordpress/2017/09/image-13.png)
+![image](/assets/img/wordpress/2017/09/image-13.png)
 
 This is all provided by the two front motion sensors and a collection of other sensors built in to the visor which track all movement within the headset and project it is view outwards.  It knows which way you are facing, what altitude you are at (standing, sitting and even lying down) as well as the angle of your head.  In my own testing, this is extremely accurate, even if you “shake your head”.  The tracking system is also not bothered by the light levels in the room, so whether it is dark or extremely bright (I have personally tested both) it makes no difference.   The only environment I have not tested in is outside, as the PC cords do not reach that far.
 
@@ -142,7 +140,7 @@ There is no additional setup, simply plug in your headset and you are good to go
 
 # Testing the Consumer Experience
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-14.png "image")](/assets/img/wordpress/2017/09/image-20.png)
+![image](/assets/img/wordpress/2017/09/image-20.png)
 
 With the preamble out of the way, let’s dig in to the real meat of this review.  Being a developer, we usually have mega machines to cope with running both the title and the development environment at the same time, which creates an issue with testing.  However, to get the real-world consumer experience, I dropped all that (actually, I replaced my setup because my main uber PC actually died and I needed a replacement that did not hurt the wallet too much) and began with what I had out of the box with my new PC.
 
@@ -152,7 +150,7 @@ Given most consumers will walk in to a computer shop or browse amazon (insert pr
 
 For my part I settled on a mid-range gaming PC which had enough power and did not stretch my wallet too much.  With a keen eye on the Mixed Reality specs above, it had enough wiggle room and the only area I was particularly concerned with was the graphics card (I did however have a backup plan as my main graphics card was still good from my old PC).
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-9.png "image")](/assets/img/wordpress/2017/09/image-15.png)
+![image](/assets/img/wordpress/2017/09/image-15.png)
 
 Breaking it down:
 
@@ -168,7 +166,7 @@ I hoped would this PC setup would be sufficient for a good Mixed Reality experie
 
 ## <u>The Headset</u>
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-10.png "image")](/assets/img/wordpress/2017/09/image-16.png)
+![image](/assets/img/wordpress/2017/09/image-16.png)
 
 The headset that I was sent, is the Acer development version of their Mixed Reality headset.
 
@@ -180,7 +178,7 @@ My only real complaint with the Acer headset is the head strap, it uses a push b
 
 ## <u>My Test Area</u>
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-11.png "image")](/assets/img/wordpress/2017/09/image-17.png)
+![image](/assets/img/wordpress/2017/09/image-17.png)
 
 Not the tidiest of rooms (I am a dev after all) and with a casual onlooker, but my test room is good for a variety of reasons:
 
@@ -199,7 +197,7 @@ Will all this ready, let’s unbox the headset, plug it in and get it setup.
 
 # Challenge 1: Testing the setup process
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-12.png "image")](/assets/img/wordpress/2017/09/image-18.png)
+![image](/assets/img/wordpress/2017/09/image-18.png)
 
 After you have unboxed all your toys and the boxes are strewn all over the living room floor, the first task any new Mixed Reality consumer is going to face is “how to plug all this stuff in anyway”.  Sure, the headset looks cool while you are wearing it and you can look kind of space age while walking around. Eventually though you will want to actually turn the thing on.
 
@@ -219,11 +217,11 @@ Once the device is recognised and drivers are installed, you are ready to get st
 
 When you start the “Mixed Reality Portal” application for the first time (this new app is installed by default with the Creators Update), the first step will test your PC, your headset and then get everything else installed and ready:
 
-| 1  [![90EB3467-3324-428C-96C4-6D94C56A5B69](/assets/img/wordpress/2017/09/90EB3467-3324-428C-96C4-6D94C56A5B69_thumb.png "90EB3467-3324-428C-96C4-6D94C56A5B69")](/assets/img/wordpress/2017/09/90EB3467-3324-428C-96C4-6D94C56A5B69.png) | 2  [![7DCFF597-7E52-447E-B647-D286221E0262](/assets/img/wordpress/2017/09/7DCFF597-7E52-447E-B647-D286221E0262_thumb.png "7DCFF597-7E52-447E-B647-D286221E0262")](/assets/img/wordpress/2017/09/7DCFF597-7E52-447E-B647-D286221E0262.png) | 3  [![2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80](/assets/img/wordpress/2017/09/2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80_thumb.png "2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80")](/assets/img/wordpress/2017/09/2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80.png) |
-| 4  [![65599636-0251-4482-86C9-87436ECB8E82](/assets/img/wordpress/2017/09/65599636-0251-4482-86C9-87436ECB8E82_thumb.png "65599636-0251-4482-86C9-87436ECB8E82")](/assets/img/wordpress/2017/09/65599636-0251-4482-86C9-87436ECB8E82.png) | 5  [![BEC4E715-543D-4765-8233-53A6E93A4813](/assets/img/wordpress/2017/09/BEC4E715-543D-4765-8233-53A6E93A4813_thumb.png "BEC4E715-543D-4765-8233-53A6E93A4813")](/assets/img/wordpress/2017/09/BEC4E715-543D-4765-8233-53A6E93A4813.png) | 6  [![F6675628-2A06-4CFE-A853-74FE87969D2A](/assets/img/wordpress/2017/09/F6675628-2A06-4CFE-A853-74FE87969D2A_thumb.png "F6675628-2A06-4CFE-A853-74FE87969D2A")](/assets/img/wordpress/2017/09/F6675628-2A06-4CFE-A853-74FE87969D2A.png) |
-| 7  [![2DA8A4F3-3077-4600-B568-D6C266590640](/assets/img/wordpress/2017/09/2DA8A4F3-3077-4600-B568-D6C266590640_thumb.png "2DA8A4F3-3077-4600-B568-D6C266590640")](/assets/img/wordpress/2017/09/2DA8A4F3-3077-4600-B568-D6C266590640.png) | 8  [![39D8F204-8B32-4FBD-ADE1-7A4AE95259D1](/assets/img/wordpress/2017/09/39D8F204-8B32-4FBD-ADE1-7A4AE95259D1_thumb.png "39D8F204-8B32-4FBD-ADE1-7A4AE95259D1")](/assets/img/wordpress/2017/09/39D8F204-8B32-4FBD-ADE1-7A4AE95259D1.png) | 9  [![CC105FAC-6ADD-4ED2-8056-10302BE83A85](/assets/img/wordpress/2017/09/CC105FAC-6ADD-4ED2-8056-10302BE83A85_thumb.png "CC105FAC-6ADD-4ED2-8056-10302BE83A85")](/assets/img/wordpress/2017/09/CC105FAC-6ADD-4ED2-8056-10302BE83A85.png) |
-| 10[![1E2C07EF-47AC-4131-ADCB-C681FD16E13C](/assets/img/wordpress/2017/09/1E2C07EF-47AC-4131-ADCB-C681FD16E13C_thumb.png "1E2C07EF-47AC-4131-ADCB-C681FD16E13C")](/assets/img/wordpress/2017/09/1E2C07EF-47AC-4131-ADCB-C681FD16E13C.png) | 11[![6D3F9F53-91FA-4DCD-8EFD-3FDAE46808C1](/assets/img/wordpress/2017/09/6D3F9F53-91FA-4DCD-8EFD-3FDAE46808C1_thumb.png "6D3F9F53-91FA-4DCD-8EFD-3FDAE46808C1")](/assets/img/wordpress/2017/09/6D3F9F53-91FA-4DCD-8EFD-3FDAE46808C1.png) | 12[![5B77631E-E5F2-4287-8860-6DBBD2A9B494](/assets/img/wordpress/2017/09/5B77631E-E5F2-4287-8860-6DBBD2A9B494_thumb.png "5B77631E-E5F2-4287-8860-6DBBD2A9B494")](/assets/img/wordpress/2017/09/5B77631E-E5F2-4287-8860-6DBBD2A9B494.png) |
-| 13 [![7A7D0AD4-70E0-409C-B98F-38988F7C8BEB](/assets/img/wordpress/2017/09/7A7D0AD4-70E0-409C-B98F-38988F7C8BEB_thumb.png "7A7D0AD4-70E0-409C-B98F-38988F7C8BEB")](/assets/img/wordpress/2017/09/7A7D0AD4-70E0-409C-B98F-38988F7C8BEB.png) | 14 [![0EB34879-D82C-47D6-9094-85B656E3CEEE](/assets/img/wordpress/2017/09/0EB34879-D82C-47D6-9094-85B656E3CEEE_thumb.png "0EB34879-D82C-47D6-9094-85B656E3CEEE")](/assets/img/wordpress/2017/09/0EB34879-D82C-47D6-9094-85B656E3CEEE.png) |   |
+| 1  ![90EB3467-3324-428C-96C4-6D94C56A5B69](/assets/img/wordpress/2017/09/90EB3467-3324-428C-96C4-6D94C56A5B69.png) | 2  ![7DCFF597-7E52-447E-B647-D286221E0262](/assets/img/wordpress/2017/09/7DCFF597-7E52-447E-B647-D286221E0262.png) | 3  ![2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80](/assets/img/wordpress/2017/09/2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80.png) |
+| 4  ![65599636-0251-4482-86C9-87436ECB8E82](/assets/img/wordpress/2017/09/65599636-0251-4482-86C9-87436ECB8E82.png) | 5  ![BEC4E715-543D-4765-8233-53A6E93A4813](/assets/img/wordpress/2017/09/BEC4E715-543D-4765-8233-53A6E93A4813.png) | 6  ![F6675628-2A06-4CFE-A853-74FE87969D2A](/assets/img/wordpress/2017/09/F6675628-2A06-4CFE-A853-74FE87969D2A.png) |
+| 7  ![2DA8A4F3-3077-4600-B568-D6C266590640](/assets/img/wordpress/2017/09/2DA8A4F3-3077-4600-B568-D6C266590640.png) | 8  ![39D8F204-8B32-4FBD-ADE1-7A4AE95259D1](/assets/img/wordpress/2017/09/39D8F204-8B32-4FBD-ADE1-7A4AE95259D1.png) | 9  ![CC105FAC-6ADD-4ED2-8056-10302BE83A85](/assets/img/wordpress/2017/09/CC105FAC-6ADD-4ED2-8056-10302BE83A85.png) |
+| 10 ![1E2C07EF-47AC-4131-ADCB-C681FD16E13C](/assets/img/wordpress/2017/09/1E2C07EF-47AC-4131-ADCB-C681FD16E13C.png) | 11 ![6D3F9F53-91FA-4DCD-8EFD-3FDAE46808C1](/assets/img/wordpress/2017/09/6D3F9F53-91FA-4DCD-8EFD-3FDAE46808C1.png) | 12 ![5B77631E-E5F2-4287-8860-6DBBD2A9B494](/assets/img/wordpress/2017/09/5B77631E-E5F2-4287-8860-6DBBD2A9B494.png) |
+| 13 ![7A7D0AD4-70E0-409C-B98F-38988F7C8BEB](/assets/img/wordpress/2017/09/7A7D0AD4-70E0-409C-B98F-38988F7C8BEB.png) | 14 ![0EB34879-D82C-47D6-9094-85B656E3CEEE](/assets/img/wordpress/2017/09/0EB34879-D82C-47D6-9094-85B656E3CEEE.png) |   |
 
  
 
@@ -277,11 +275,12 @@ I fully expect SteamVR applications to “Just Start” else that would break th
 
 If you know Windows 10, you will already be familiar with the “Settings” application, which is simply accessed by clicking on the start button and then clicking on the COG.  It is nice to see Microsoft are keeping trend with this when it comes to Mixed Reality, so the config is all under its own banner in the Settings application. No faffing and searching for hidden options.
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-13.png "image")](/assets/img/wordpress/2017/09/image-19.png)
+![image](/assets/img/wordpress/2017/09/image-19.png)
 
 It is also nice to see that this option is only available once you have completed the “Mixed Reality Portal” setup and is removed when the Mixed Reality extensions are uninstalled (yes you can remove them). Behind this are a small selection of options to customise your setup, including:
 
-| [![D2AEC53E-6553-49C7-B41E-78379BEAC90B](/assets/img/wordpress/2017/09/D2AEC53E-6553-49C7-B41E-78379BEAC90B_thumb-1.png "D2AEC53E-6553-49C7-B41E-78379BEAC90B")](/assets/img/wordpress/2017/09/D2AEC53E-6553-49C7-B41E-78379BEAC90B-1.png) | 
+![D2AEC53E-6553-49C7-B41E-78379BEAC90B](/assets/img/wordpress/2017/09/D2AEC53E-6553-49C7-B41E-78379BEAC90B-1.png)
+
 ## Audio and Speech Setup
 
 Includes options to:
@@ -296,35 +295,32 @@ Is speech recognition (aka Cortana) enabled in Mixed reality
 
 Plus, it includes some feedback and help options (actually, these are every screen so they are always to hand)
 
- |
-| [![C9FD3C93-F9AB-4F92-A6ED-B0DFB45E80AF](/assets/img/wordpress/2017/09/C9FD3C93-F9AB-4F92-A6ED-B0DFB45E80AF_thumb-1.png "C9FD3C93-F9AB-4F92-A6ED-B0DFB45E80AF")](/assets/img/wordpress/2017/09/C9FD3C93-F9AB-4F92-A6ED-B0DFB45E80AF-1.png) | 
+![C9FD3C93-F9AB-4F92-A6ED-B0DFB45E80AF](/assets/img/wordpress/2017/09/C9FD3C93-F9AB-4F92-A6ED-B0DFB45E80AF-1.png)
+
 ## Environment Controls
 
 This will reset any boundary or scans of your environment from the PC.   
 Useful if you travel and need to re-setup the experience.
 
- 
-
 It also includes options to “Reset Your Home” VR environment.  
 (Like when your kids fill it with animals and delete all your stuff)
 
- |
-| [![5CC135BB-9209-4AEA-BA00-920766977ED8](/assets/img/wordpress/2017/09/5CC135BB-9209-4AEA-BA00-920766977ED8_thumb-1.png "5CC135BB-9209-4AEA-BA00-920766977ED8")](/assets/img/wordpress/2017/09/5CC135BB-9209-4AEA-BA00-920766977ED8-1.png) | 
+![5CC135BB-9209-4AEA-BA00-920766977ED8](/assets/img/wordpress/2017/09/5CC135BB-9209-4AEA-BA00-920766977ED8-1.png)
+
 ## Headset display options
 
 Through this screen, you can alter your perceived experience, this includes options to:
 
-- 
-Increase or decrease the Visual Quality pushed to the headset  
+- Increase or decrease the Visual Quality pushed to the headset  
 Useful if you PC is struggling or you want to see if it can perform at higher settings  
 The Default is “Automatic” where the Mixed Reality setup will manage it for you
-- 
-Calibration  
+- Calibration  
 If you are regularly having issues focusing on the display, you can tweak the focal distance the eyepiece uses to display visuals  
 This can help especially if you use it without your glasses or have regular trouble.  
 Usually tightening the headset band.  There is enough space to also use it with your glasses on.
- |
-| [![41FE1CB3-5DB0-47A7-9F46-78397B466766](/assets/img/wordpress/2017/09/41FE1CB3-5DB0-47A7-9F46-78397B466766_thumb-1.png "41FE1CB3-5DB0-47A7-9F46-78397B466766")](/assets/img/wordpress/2017/09/41FE1CB3-5DB0-47A7-9F46-78397B466766-1.png) | 
+
+![41FE1CB3-5DB0-47A7-9F46-78397B466766](/assets/img/wordpress/2017/09/41FE1CB3-5DB0-47A7-9F46-78397B466766-1.png)
+
 ## Uninstall
 
 If by some chance you have had enough, are returning the headset or (more likely) transferring to another PC, you can remove all the Mixed Reality config from the PC
@@ -334,10 +330,6 @@ It is also useful if you had an issue in the install / setup and just want to re
 Through doing this write-up, I have had to do this several times. It is quick, painless and leaves no lasting scars thankfully.
 
 Do not worry about clicking it by accident, it will still ask you if you are sure and even if you do, reinstalling is as simple as opening the “Mixed Reality Portal” again.
-
- |
-
- 
 
 * * *
 
@@ -351,35 +343,21 @@ I do hope the “first run” experience is tweaked or improved on the run up to
 
 ## Pro’s
 
-###  
 
-- 
-#### Lightweight and comfortable to wear
-- 
-#### No additional hardware sensors required, it is all built in
-- 
-#### No need to remove the headset just to run another game, can be done in the environment or by simply “Flipping” up the visor and using your PC
-- 
-#### Extremely easy setup experience and detailed setup guide, even a 14yr old could follow it.
+- ### Lightweight and comfortable to wear
+- ### No additional hardware sensors required, it is all built in
+- ### No need to remove the headset just to run another game, can be done in the environment or by simply “Flipping” up the visor and using your PC
+- ### Extremely easy setup experience and detailed setup guide, even a 14yr old could follow it.
 
 ## Con’s
 
-###  
+- ### Preview hardware had issues with the cushioning foam, did not touch face in places (might be different with release or other headsets).
+- ### If you started the headset whilst it was outside of it is boundary, it sometimes had trouble and you had to reset up the boundary.
+- ### Like it is cousins, it is a wired setup. 3rd party providers will need to come up with ways to improve this, either going wireless or having a Wire Stand.  Kids will need supervision, at least at first
+- ### No way to “turn it off”. Might sound odd for a con, but by default the settings will wake the Mixed Reality Portal when the headset moves. this includes if you nudge it by accident.
 
-- 
-#### Preview hardware had issues with the cushioning foam, did not touch face in places (might be different with release or other headsets).
-- 
-#### If you started the headset whilst it was outside of it is boundary, it sometimes had trouble and you had to reset up the boundary.
-- 
-#### Like it is cousins, it is a wired setup. 3rd party providers will need to come up with ways to improve this, either going wireless or having a Wire Stand.  Kids will need supervision, at least at first
-- 
-#### No way to “turn it off”. Might sound odd for a con, but by default the settings will wake the Mixed Reality Portal when the headset moves. this includes if you nudge it by accident.
-
-#### The simple fix is to turn this option off.  But for first time users, they may not know where to look (even though it is in the common settings screens).
-
- 
+> The simple fix is to turn this option off.  But for first time users, they may not know where to look (even though it is in the common settings screens).
 
 All in all, I am very happy with the headset and the options this opens for me, as a parent, a consumer and a developer. The fact it can run on modest and fairly inexpensive hardware is a huge boon. That I have a full VR setup for just over £1000 means it is very accessible and not cost prohibitive. If you already have a capable gaming machine, which meet these lower specifications, then your outlay is even less.
 
 All in all, I do think that Oculus and Vive have some serious competition on their hands with the new Mixed Reality range. The fact there are several suppliers and not just one vendor that are bringing these to market shows just how much Microsoft has thought about its strategy and has returned to the days when PC’s were great.  **Now VR truly has a chance of being great with it so readily accessible**.
-

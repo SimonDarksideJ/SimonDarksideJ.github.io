@@ -2,6 +2,7 @@
 layout: post
 title: MonoGame blasts into the future with DotNet core
 date: '2020-08-13 21:31:15'
+img: /assets/img/wordpress/2017/03/image-13.png
 tags:
 - game-development
 - monogame

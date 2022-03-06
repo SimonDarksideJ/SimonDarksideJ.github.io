@@ -2,14 +2,10 @@
 layout: post
 title: Monster set of FREE resources for game design - Updated 2014-07
 date: '2013-08-22 16:37:47'
+img: /assets/img/wordpress/2013/08/MonsterFreeResources.jpg
 tags:
-- 2d
-- 3d
-- audio
 - free
-- links
 - resources
-- tutorials-resources
 - unity3d
 ---
 

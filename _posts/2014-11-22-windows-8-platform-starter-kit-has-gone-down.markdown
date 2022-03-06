@@ -1,15 +1,11 @@
 ---
 layout: post
 title: Windows 8 Platform starter kit has gone down
-date: '2014-11-22 10:35:31'
+date: 2014-11-22 10:35:31
 tags:
-- assets
-- free
-- tutorials-resources
-- win8platstarter
+- mastering-unity-2d
 ---
 
-[ ![ /></a></p>
 <p>It’s truly a sad day today. I was notified by one of the newest readers of my book that the site that hosted the FREE game art I use as the basis of the books game has gone DOWN…</p>
 <blockquote><p><strong>*Update.</strong></p>
 <p>Some of the content has started to come back (thanks to Matthew for pointing that out) at the bottom of the site page.  Resources have been moved over to some Azure hosting pages to keep them alive.</p></blockquote>

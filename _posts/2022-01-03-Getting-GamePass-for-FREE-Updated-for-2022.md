@@ -6,7 +6,7 @@ title:  Getting GamePass for FREE - updated for 2022
 date:   2022-01-03 15:27:55
 description: GamePass is an awesome service provided by Xbox to grant access to 100's of games. However, most don't know it is possible to keep it for free with just a little play!
 img: posts/20220103/gamepass.webp
-tags: [Xbox, GamePass]
+tags: [xbox, gamepass]
 author: Simon Jackson
 github:  
 mathjax: no

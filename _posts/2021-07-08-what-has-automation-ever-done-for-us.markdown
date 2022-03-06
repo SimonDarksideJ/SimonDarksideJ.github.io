@@ -6,7 +6,7 @@ title:  Building and testing "Smarter" with Unity
 date:   2021-06-17 13:38:43
 description: Opening up the doors to automation for Unity3D and all the advantages it can bring.
 img: posts/20210708/automatic-1-.jpg
-tags: [Azure, Automation, Unity3D]
+tags: [azure, automation, unity3d]
 author: Simon Jackson
 github:  
 mathjax: no

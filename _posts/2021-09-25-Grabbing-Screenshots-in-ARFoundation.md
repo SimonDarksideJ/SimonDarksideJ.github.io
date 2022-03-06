@@ -6,7 +6,7 @@ title:  Grabbing Screenshots in AR Foundation
 date:   2021-09-25 15:27:55
 description: Quick tutorial on grabbing screenshots using AR Foundation in Unity3D, and the fun to be had
 img: posts/20210925/arcamera.webp
-tags: [AR Foundation, Unity3D]
+tags: [ar foundation, unity3d]
 author: Simon Jackson
 github:  
 mathjax: no
