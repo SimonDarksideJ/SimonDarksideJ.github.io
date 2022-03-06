@@ -7,9 +7,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 permalink: ':title:output_ext'
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://simondarksidej.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/img/branding/MVM-logo-full.svg"
-logo-icon: "/assets/img/branding/MVM-symbol.svg"
-logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG file
+logo: "/assets/img/branding/darkgenesis-logo-full-light.png"
+logo-icon: "/assets/img/branding/ZenithMoonLogo.png"
+logo-icon-SEO: "/assets/img/branding/ZenithMoonLogo.png" # must be a non SVG file
+logo-dark: "/assets/img/branding/darkgenesis-logo-full-dark.png"
 
 # Night/Dark mode
 # Default mode is "auto", "auto" is for auto nightshift
@@ -23,12 +24,11 @@ logo-icon-SEO: "/assets/img/branding/MVM-symbol-black.png" # must be a non SVG f
 # the browser is closed or not)
 night_mode: "auto"
 
-logo-dark: "/assets/img/branding/MVM-logo-full-dark.svg"
 highlight_theme: syntax-base16.monokai.dark # select a dark theme for the code highlighter if needed
 
 # Author settings
 author: Simon (darkside) Jackson
-author-pic: Myself_Neon_grey.jpg
+author-pic: Myself_grey.jpg
 about-author: Engineer, industry executive, research enthusiast. Avid learner with diverse interests in coding, game development, Mixed Reality (AR/VR/XR) and reinforcement learning. 25+ years of experience working in multinational corporations and startups.
 
 # Contact links
