@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Updating the UI for Mastering Unity 2D Game Development
-date: '2015-05-24 14:41:06'
-tags:
-- mastering-unity-2d
-- tutorials-resources
-- unity-3d-ui-essentials
+date: 2015-05-24 14:41:06
+tags: [mastering-unity-2d]
 ---
 
  [![](https://www.packtpub.com/sites/default/files/7347OT_Mastering%20Unity%202D%20Game%20Development_cover.jpg)](https://www.packtpub.com/game-development/mastering-unity-2d-game-development#)

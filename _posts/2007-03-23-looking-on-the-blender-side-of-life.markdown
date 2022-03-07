@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Looking on the Blender side of Life
-date: '2007-03-23 12:28:55'
-tags:
-- tutorials-resources
+date: 2007-03-23 12:28:55
+tags: [blender]
 ---
 
 Along the trail of my ever growing Blog roll (must be up to about 50 rolls a day from about 300, it’s a wonder I’m not putting on weight!!), More Blender goodness has come my way.

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Going back to go forward
-date: '2007-07-31 11:49:52'
-tags:
-- tutorials-resources
+date: 2007-07-31 11:49:52
+tags: [ramblings]
 ---
 
 One day I’ll get back into my regular blog cycle, but today is not that day.

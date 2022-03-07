@@ -1,15 +1,11 @@
 ---
 layout: post
 title: The Unity UI Extensions update
-date: '2015-09-01 15:37:12'
-tags:
-- tutorials-resources
-- uiextensions
-- unity-3d-tutorials
-- unity3d
+date: 2015-09-01 15:37:12
+tags: [uiextensions, unity3d]
 ---
 
-> **\*Note, UI Extensions project now updated for 5.2 (with its pesky updates), together with a 5.2 asset.  Enjoy**
+> **Note, UI Extensions project now updated for 5.2 (with its pesky updates), together with a 5.2 asset.  Enjoy**
 
 Time is always against us, especially when your building your projects, tweaking your code or just getting ready for a release, wading through mountains of contracts, marketing PR or getting greenlit.
 

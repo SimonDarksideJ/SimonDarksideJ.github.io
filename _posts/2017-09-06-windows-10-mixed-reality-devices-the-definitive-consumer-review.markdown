@@ -1,10 +1,9 @@
 ---
 layout: post
 title: Windows 10 Mixed Reality Devices - The definitive consumer review
-date: '2017-09-06 14:53:07'
-img: /assets/img/wordpress/2017/09/2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80.png
-tags:
-- mixed-reality
+date: 2017-09-06 14:53:07
+img: wordpress/2017/09/2E4E1FEA-D7E1-45F3-BCE5-A8AE326D8E80.png
+tags: [mixed reality]
 ---
 
 Since Microsoft launched its Mixed Reality program, initially with the business focused HoloLens program, a lot of interest has been garnered for the experiences it has generated, especially with most of its game focused demos.  Now that the program has begun targeting the consumer space with its new range of entry level Mixed Reality headsets (or Immersive Headsets as they are referred to) from Acer, Asus, Dell and others, the pace is certainly heating up.

@@ -1,13 +1,9 @@
 ---
 layout: post
 title: The Mixed Reality Toolkit Beta has launched
-date: '2018-11-04 12:48:08'
-img: /assets/img/wordpress/2018/11/MRTK_Logo_Rev-e1541340237232.png
-tags:
-- ar
-- mixed-reality
-- unity3d
-- vr
+date: 2018-11-04 12:48:08
+img: wordpress/2018/11/MRTK_Logo_Rev-e1541340237232.png
+tags: [ar, mixed reality, unity3d,vr]
 ---
 
 # Enter the next stage of the Mixed Reality Toolkit

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Things to note when Writing XNA components
-date: '2006-10-06 12:56:58'
-tags:
-- tutorials-resources
+date: 2006-10-06 12:56:58
+tags: [xna]
 ---
 
 From over in [Mitch Walkers Blog](http://blogs.msdn.com/mitchw/default "Mitch Walkers Blog"), he notes back in September some important facts about XNA component writing and things to take into consideration.

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 'Lost Garden: Celestial Music'
-date: '2007-09-03 15:11:55'
-tags:
-- tutorials-resources
+date: 2007-09-03 15:11:55
+tags: [audio]
 ---
 
  

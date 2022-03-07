@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Making it work - The new SHIP sample game from the XNA creators club
-date: '2007-08-16 13:34:20'
-tags:
-- tutorials-resources
+date: 2007-08-16 13:34:20
+tags: [xna]
 ---
 
 Like quiet a few developers these days, I like nothing more that sitting in the garden or relaxing on the couch (sofa) when I’m fumbling over some code, this is a bit hard to do with my trusty power hungry workhorse dev PC (just doesn’t feel nice to carry around in a backpack you know! :-)).

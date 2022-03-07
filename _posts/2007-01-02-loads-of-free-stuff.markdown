@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Loads of FREE stuff
-date: '2007-01-02 17:07:01'
-tags:
-- ramblings
-- tutorials-resources
+date: 2007-01-02 17:07:01
+tags: [free, game development]
 ---
 
 Over on [Gamedev](http://www.gamedev.net/) the [Four Elements V](http://www.gamedev.net/community/contest/4e5/) competition has just ended, a good few entrant there, head over and have a look.

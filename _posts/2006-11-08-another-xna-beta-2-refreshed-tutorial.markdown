@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Another XNA Beta 2 refreshed Tutorial
-date: '2006-11-08 13:33:34'
-tags:
-- ramblings
-- tutorials-resources
+date: 2006-11-08 13:33:34
+tags: [xna]
 ---
 
 This one from  Mike Schuld’s, [The Ramblings of a Hazy Mind](http://www.thehazymind.com/ "The Ramblings of a Hazy Mind") site.

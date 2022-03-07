@@ -1,9 +1,8 @@
 ---
 layout: post
 title: MonoGaming all the things at Future Decoded!
-date: '2015-11-06 17:45:16'
-tags:
-- ramblings
+date: 2015-11-06 17:45:16
+tags: [ramblings]
 ---
 
  

@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Open Live Writer is a GO!!
-date: '2015-12-09 18:26:17'
-tags:
-- ramblings
+date: 2015-12-09 18:26:17
+tags: [ramblings]
 ---
 
 Thought I would give this a go as some cunning bods have taking the decade old code of the awesome Windows Live Writer (WLW for short) and open sourced it, creating Open Live Writer

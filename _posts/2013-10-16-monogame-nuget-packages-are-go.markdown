@@ -1,16 +1,13 @@
 ---
 layout: post
 title: MonoGame NuGet packages are go!
-date: '2013-10-16 13:48:57'
-tags:
-- monogame
-- nuget
-- tutorials-resources
+date: 2013-10-16 13:48:57
+tags: [monogame]
 ---
 
 After a few last rash hours and feedback from the NuGet team themselves, I can finally announce that MonoGame finally has NuGet support 😀
 
-> **\*Note**
+> **Note**
 > 
 > Just did a quick browse on NuGet for MonoGame and you may see a few interesting surprises as there are several packages for engines and updates already available that make use of MonoGame.  Sadly this also means the actual MonoGame packages are listed last???
 

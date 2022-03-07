@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Collision detection - A little more info
-date: '2007-01-29 12:13:34'
-tags:
-- tutorials-resources
+date: 2007-01-29 12:13:34
+tags: [xna]
 ---
 
  **\*Update –** Sharky has now completed the 3D collision tutorial in 3 parts, get reading!

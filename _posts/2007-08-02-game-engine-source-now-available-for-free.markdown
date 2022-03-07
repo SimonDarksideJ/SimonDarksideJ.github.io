@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Game engine source now available for Free
-date: '2007-08-02 15:27:36'
-tags:
-- tutorials-resources
+date: 2007-08-02 15:27:36
+tags: [game development]
 ---
 
 Seems a few guys now are really dishing it out to the public and rolling out their sweat ‘n’ guts and slitting their writs for the community.

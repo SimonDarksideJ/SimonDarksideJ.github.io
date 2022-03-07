@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Dream Build Play Returns - Time to get your Game on and this time you can
-  use ANYTHING
+title: Dream Build Play Returns - Time to get your Game on and this time you can use ANYTHING
 date: 2017-06-29 12:36:02
 tags: [competitions]
 ---

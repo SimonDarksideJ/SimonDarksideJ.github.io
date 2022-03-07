@@ -1,11 +1,8 @@
 ---
 layout: post
 title: A new breed of samples for MonoGame
-date: '2014-04-14 14:03:12'
-tags:
-- information
-- monogame
-- samples
+date: 2014-04-14 14:03:12
+tags: [monogame]
 ---
 
 [![ku-xlarge](/assets/img/wordpress/2014/04/ku-xlarge.jpg)](/assets/img/wordpress/2014/04/ku-xlarge.jpg)

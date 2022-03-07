@@ -1,15 +1,10 @@
 ---
 layout: post
 title: Unity3D and Opensource get acquainted
-date: '2014-04-22 10:15:19'
-tags:
-- information
-- opensource
-- unity-3d-tutorials
-- unity3d
+date: 2014-04-22 10:15:19
+tags: [unity3d]
 ---
 
-![ /></p>
 <p>The Opensource movement is truly one of the great things of the current generation, almost bringing back the sharing and caring community of the 60’s (not that I was around then but I hear it was nice), well almost <img class=](http://www.mopub.com/wp-content/uploads/2013/01/3d-open-source-word-sphere-on-white-background-500x500.jpg).  The main idea being that everyone should share and help each other out building their projects.
 
 Before bringing this post to focus on Unity3D it is important to understand what Opensource is all about and break down some myths. To explain this a recent video got release which I feel is the best explanation of what Opensource is all about:

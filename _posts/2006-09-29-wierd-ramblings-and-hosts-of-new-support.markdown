@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Wierd Ramblings and hosts of new support
-date: '2006-09-29 10:42:57'
-tags:
-- ramblings
-- tutorials-resources
+date: 2006-09-29 10:42:57
+tags: [ramblings]
 ---
 
 Life is taking strange turns these days, work is getting dull, I have reverted to playing an old 1993 game called "Megatraveller 2" which I never got to complete in my youth (fantastic vga graphics!!!)

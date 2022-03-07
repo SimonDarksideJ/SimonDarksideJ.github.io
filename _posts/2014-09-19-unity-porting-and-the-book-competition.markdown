@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Unity Porting and the Book competition
-date: '2014-09-19 09:28:20'
-tags:
-- mastering-unity-2d
-- unity-3d-tutorials
-- unity3d
-- unityportinguk
+date: 2014-09-19 09:28:20
+tags: [events, mastering-unity-2d]
 ---
 
 It’s been a fun ride over the past year, I’ve written a Unity book and I’ve attended over 4 Unity porting events for Microsoft and Nokia, it’s fair to say Unity and I have been on good terms this year :D.

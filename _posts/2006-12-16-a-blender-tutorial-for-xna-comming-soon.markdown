@@ -1,9 +1,8 @@
 ---
 layout: post
 title: A Blender tutorial for XNA - Comming Soon
-date: '2006-12-16 23:13:04'
-tags:
-- tutorials-resources
+date: 2006-12-16 23:13:04
+tags: [blender, xna]
 ---
 
 Lots of goodness over the weekend, the biggest (as titled) is that [Mykre](http://www.virtualrealm.com.au/blogs/mykre/default), posts that after a change of job, the choice of 3D tools available has reduced to the free one’s, namely Blender.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unnecessary deaths and implausible plotlines
-date: '2015-04-14 10:50:06'
+date: 2015-04-14 10:50:06
 ---
 
 I love games, I especially love games which long complicated plot-lines or inter-twisting stories. They don’t have to be complex, they just need to make sense and not conflict with reality.  I’m not really a multi-player gamer, I just love my single / coop experience so much.  In short, I love stories, whether they are in print, on the large/small screen or are in games.

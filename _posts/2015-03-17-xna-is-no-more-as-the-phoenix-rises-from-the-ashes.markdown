@@ -1,11 +1,8 @@
 ---
 layout: post
 title: XNA is no more, as the phoenix rises from the ashes
-date: '2015-03-17 23:44:04'
-tags:
-- monogame
-- nuget
-- xna
+date: 2015-03-17 23:44:04
+tags: [monogame, xna]
 ---
 
 I personally hate link-baity titles, however this one is completely justified.

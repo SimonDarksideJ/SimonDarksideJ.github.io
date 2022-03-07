@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Ziggyware
-date: '2006-10-04 13:28:58'
-tags:
-- tutorials-resources
+date: 2006-10-04 13:28:58
+tags: [xna]
 ---
 
 ![](http://www.ziggyware.com/ziggyware.gif)

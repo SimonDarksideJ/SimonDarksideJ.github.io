@@ -2,10 +2,7 @@
 layout: post
 title: Developing games for Cystic Fibrosis treatment - Getting started with Fizzyo
 date: 2017-05-09 13:08:45
-tags:
-- fizzyo
-- monogame
-- unity3d
+tags: [fizzyo]
 ---
 
 In [a recent post, I talked about the ICHealthHack event in London](https://darkgenesis.zenithmoon.com/developing-for-a-cause-the-ichealthhack-for-cystic-fibrosis/) where many medical students gathered in order to win prizes and try to make the lives of children with Cystic Fibrosis easier, or at least more fun, when performing their daily treatment exercises.

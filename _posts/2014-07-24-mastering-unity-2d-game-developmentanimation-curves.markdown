@@ -1,25 +1,19 @@
 ---
 layout: post
 title: Mastering Unity 2D Game Development - Animation Curves
-date: '2014-07-24 20:12:43'
-tags:
-- information
-- unity-3d-tutorials
+date: 2014-07-24 20:12:43
+tags: [mastering-unity-2d, unity3d]
 ---
 
 In the run up to the launch of my first published title (a book this time) I’m going to be doing some short snippets from some of the many exciting things you will learn within its pages.
 
 The sample project and code for this snippet can be found here: – [AnimationCurves.zip](http://bit.ly/MU2D-AnimationCurves "Mastering Unity 2D Game Development - Animation Curves snippet")
 
-> \*Edit – seems only 5 minutes since I posted this article and already we fine other useful frameworks to assist with using AnimationCurves on their own.  This [handy little project](https://github.com/JoshuaGlazer/AnimationCurveTools "Animation Curves editor extensions") enables some interesting Editor enhancements to allow copying, pasting and even the extraction of animation steps from a curve.  Here’s [a nice article](http://www.joshuaglazer.com/blog/copy-and-paste-unity-animation-curves-extract-animation-curve-from-animation/ "Article on the Animation Curve extensions") that explains it all, fantastic effort!
-
- 
-
-[![FrontCover](/assets/img/wordpress/2014/10/FrontCover-234x300.png)](/assets/img/wordpress/2014/10/FrontCover.png)
+> Edit – seems only 5 minutes since I posted this article and already we fine other useful frameworks to assist with using AnimationCurves on their own.  This [handy little project](https://github.com/JoshuaGlazer/AnimationCurveTools "Animation Curves editor extensions") enables some interesting Editor enhancements to allow copying, pasting and even the extraction of animation steps from a curve.  Here’s [a nice article](http://www.joshuaglazer.com/blog/copy-and-paste-unity-animation-curves-extract-animation-curve-from-animation/ "Article on the Animation Curve extensions") that explains it all, fantastic effort!
 
 ### [Mastering Unity 2D Game Development](https://www.packtpub.com/mastering-unity/book)
 
-* * *
+[![Mastering Unity 2D Game development](https://images-na.ssl-images-amazon.com/images/I/51iAHMURoPL._SX404_BO1,204,203,200_.jpg)](https://www.amazon.co.uk/gp/product/1849697345/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1849697345&linkCode=as2&tag=zenistud-21&linkId=3c469276675c4d3a8de510a7a7b53421)
 
 # About the book
 

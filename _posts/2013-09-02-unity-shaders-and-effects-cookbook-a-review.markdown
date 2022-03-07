@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Unity Shaders and Effects Cookbook - A Review
-date: '2013-09-02 17:51:40'
-tags:
-- shaders
-- unity-3d-tutorials
-- unity3d
+date: 2013-09-02 17:51:40
+tags: [book review, shaders, unity3d]
 ---
 
 In yet another book review in game development and graphics land, I was handed a copy of the excellent Unity Shaders and Effects cookbook.  This sturdy reference is a nice comparison to the previous HLSL cookbook I reviewed earlier.

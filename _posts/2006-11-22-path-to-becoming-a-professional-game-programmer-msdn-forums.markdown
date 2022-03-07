@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Path to becoming a professional game programmer - MSDN Forums
-date: '2006-11-22 11:44:36'
-tags:
-- ramblings
-- tutorials-resources
+date: 2006-11-22 11:44:36
+tags: [xna]
 ---
 
 XNA Rockstar posted a good go-to article on the XNA Framwork forum recently, little run up on what to learn to progress into being a better game programmer.

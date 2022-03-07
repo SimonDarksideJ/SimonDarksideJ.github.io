@@ -1,11 +1,8 @@
 ---
 layout: post
 title: MonoGame Content Project tool walkthrough
-date: '2016-08-29 11:30:34'
-tags:
-- monogame
-- tutorials-resources
-- xna
+date: 2016-08-29 11:30:34
+tags: [content pipeline, monogame]
 ---
 
 To accompany the video project for the Content Project/pipeline tool, this blog post will also show you all the features of the MGCB tool, along with a few tips and tricks.

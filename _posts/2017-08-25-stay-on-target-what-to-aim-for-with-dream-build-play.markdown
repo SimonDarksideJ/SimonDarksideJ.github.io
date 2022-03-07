@@ -2,7 +2,7 @@
 layout: post
 title: Stay on Target - What to aim for with Dream Build Play
 date: 2017-08-25 17:15:19
-tags: [[dream build play]]
+tags: [dream build play]
 ---
 
 [![TrenchRun](/assets/img/wordpress/2017/08/TrenchRun.gif "TrenchRun")](/assets/img/wordpress/2017/08/TrenchRun.gif)

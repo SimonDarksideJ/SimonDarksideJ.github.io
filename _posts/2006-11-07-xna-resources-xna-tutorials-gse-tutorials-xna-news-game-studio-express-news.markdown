@@ -1,11 +1,8 @@
 ---
 layout: post
-title: XNA Resources - XNA Tutorials, GSE Tutorials, XNA News, Game Studio Express
-  News
-date: '2006-11-07 10:26:57'
-tags:
-- ramblings
-- tutorials-resources
+title: XNA Resources - XNA Tutorials, GSE Tutorials, XNA News, Game Studio Express News
+date: 2006-11-07 10:26:57
+tags: [xna]
 ---
 
 Kurt Jagers has yet again  excelled himself with his latest edition to the 2D ile engine tutorial, now written for XNA Beta 2 as well.

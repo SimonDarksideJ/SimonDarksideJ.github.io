@@ -1,10 +1,8 @@
 ---
 layout: post
 title: First beginings
-date: '2006-06-20 17:40:38'
-tags:
-- ramblings
-- tutorials-resources
+date: 2006-06-20 17:40:38
+tags: [ramblings]
 ---
 
 When I first got into Game Development I thought I had a fairly rough Idea of what I was getting into.

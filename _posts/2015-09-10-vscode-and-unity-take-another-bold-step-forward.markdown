@@ -1,9 +1,8 @@
 ---
 layout: post
 title: VSCode and Unity take another bold step forward
-date: '2015-09-10 23:20:29'
-tags:
-- ramblings
+date: 2015-09-10 23:20:29
+tags: [ramblings]
 ---
 
 Today (September 10th) marks another notch in the VS Code journey to become THE lightweight multi-platform editor, the one editor to rule them all.

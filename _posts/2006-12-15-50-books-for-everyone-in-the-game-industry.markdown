@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 50 Books For Everyone In the Game Industry
-date: '2006-12-15 13:35:23'
-tags:
-- tutorials-resources
+date: 2006-12-15 13:35:23
+tags: [game development]
 ---
 
 I came across several lists in my past about what book to read, where to go N Such, but over at [Next-Gen](http://www.next-gen.biz), they have [compiled a list](http://www.next-gen.biz/index.php?option=com_content&task=view&id=3962&Itemid=34&limit=1&limitstart=0) as a consensus from some big names in the industry.

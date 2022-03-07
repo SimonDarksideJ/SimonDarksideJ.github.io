@@ -2,9 +2,7 @@
 layout: post
 title: Announcing the winners of the Unity 3D UI Essentials launch party
 date: '2015-03-27 14:24:57'
-tags:
-- information
-- unity-3d-ui-essentials
+tags: [unity-3d-ui-essentials]
 ---
 
 After clearing away all the drinks, party streamers and general clutter from the launch party, a few stragglers were found loitering in the rubble, so we picked a few randomly and awarded them some prizes.  Well almost.

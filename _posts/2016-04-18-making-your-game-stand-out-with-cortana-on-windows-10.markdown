@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Making your game stand out with Cortana on Windows 10
-date: '2016-04-18 09:19:40'
+date: 2016-04-18 09:19:40
 tags: [cortana, windows 10]
 ---
 

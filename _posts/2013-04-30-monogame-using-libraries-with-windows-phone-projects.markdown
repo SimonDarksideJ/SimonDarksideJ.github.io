@@ -2,7 +2,7 @@
 layout: post
 title: 'MonoGame: Using libraries with Windows Phone projects'
 date: 2013-04-30 13:17:06
-tags: [monogame, windows-phone]
+tags: [monogame, windows phone]
 ---
 
 [![image](/assets/img/wordpress/2013/04/image18.png "image")](/assets/img/wordpress/2013/04/image19.png)

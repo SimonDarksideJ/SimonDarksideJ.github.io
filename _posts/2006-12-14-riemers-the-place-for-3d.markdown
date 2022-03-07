@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Riemers - The place for 3D
-date: '2006-12-14 09:40:16'
-tags:
-- tutorials-resources
+date: 2006-12-14 09:40:16
+tags: [xna]
 ---
 
 if your learning 3D, one of the best places to go is the good and the great [XNA101.net](http://xna101.spaces.live.com/) site (now hosted on Live Spaces and Run by Bill Reiss). 

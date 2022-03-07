@@ -1,12 +1,8 @@
 ---
 layout: post
 title: The Unity3D samples (beta) - An overview
-date: '2014-05-12 15:39:29'
-tags:
-- information
-- samples
-- unity-3d-tutorials
-- unity3d
+date: 2014-05-12 15:39:29
+tags: [unity3d]
 ---
 
 Unity has a very big focus at the moment (when it’s not building awesome tools) to help better educate its adopters and raise the bar on the quality of its samples.

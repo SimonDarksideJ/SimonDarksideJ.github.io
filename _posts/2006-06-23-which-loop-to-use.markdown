@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Which Loop to Use
-date: '2006-06-23 12:43:22'
-tags:
-- tutorials-resources
+date: 2006-06-23 12:43:22
+tags: [monogame]
 ---
 
 From my first entires into the Gaming development arena was my induction to the central part of any game, the Game loop.

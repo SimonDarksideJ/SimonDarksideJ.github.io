@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Pictures, barcodes and effects - oh my
-date: '2012-06-29 21:34:15'
-tags:
-- samples
-- tutorials-resources
+date: 2012-06-29 21:34:15
+tags: [game development]
 ---
 
 Now this was an unexpected surprise since I should still be wo deep rehearsing for my webcast next week (already?), but I’ll get back to that.

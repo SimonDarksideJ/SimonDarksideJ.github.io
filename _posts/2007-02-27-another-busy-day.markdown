@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Another Busy day
-date: '2007-02-27 14:56:52'
-tags:
-- tutorials-resources
+date: 2007-02-27 14:56:52
+tags: [ramblings]
 ---
 
 Life just does not slow down Not that I want it to, really!!, but a rest every now and then would be nice.

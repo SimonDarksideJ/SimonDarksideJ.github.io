@@ -1,20 +1,17 @@
 ---
 layout: post
 title: Mastering Unity 2D Game Development - AI and State machines
-date: '2014-08-28 18:50:01'
-tags: [mastering-unity-2d, unty3d]
+date: 2014-08-28 18:50:01
+tags: [mastering-unity-2d, unity3d]
 ---
 
 It’s finally here, my first title has now been published on Packt’s publishing site and all of the leading online bookstores (probably a few less reputable as well ??).  If you like what you see in these snippets, they you are going to love the full book. Here is an overview of what is in store for you.
 
 > The sample project and code for this snippet can be found here: – [Mecanim State Machines.zip](http://bit.ly/MU2D-MecanimStateMachines "Mastering Unity 2D Game Development - Animation Curves snippet")
 
- 
-
-<figure style="width: 500px" class="wp-caption alignnone"><img loading="lazy" class=" src=" https: alt=" width=" height="617"><figcaption class="wp-caption-text">Mastering Unity 2D Game Development on Packt</figcaption></figure>
 ### [Mastering Unity 2D Game Development](https://www.packtpub.com/mastering-unity/book)
 
-* * *
+[![Mastering Unity 2D Game development](https://images-na.ssl-images-amazon.com/images/I/51iAHMURoPL._SX404_BO1,204,203,200_.jpg)](https://www.amazon.co.uk/gp/product/1849697345/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1849697345&linkCode=as2&tag=zenistud-21&linkId=3c469276675c4d3a8de510a7a7b53421)
 
 # About the book
 

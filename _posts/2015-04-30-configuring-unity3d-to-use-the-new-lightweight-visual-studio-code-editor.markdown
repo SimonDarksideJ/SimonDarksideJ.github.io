@@ -1,17 +1,13 @@
 ---
 layout: post
 title: Configuring Unity3D to use the new lightweight Visual Studio Code editor
-date: '2015-04-30 17:30:14'
-tags:
-- unity-3d-tutorials
-- unity3d
-- visual-studio-code
-- vscode
+date: 2015-04-30 17:30:14
+tags: [unity3d, vscode]
 ---
 
 ![width=](http://blogs.msdn.com/resized-image.ashx/ __size/250x0/__ key/communityserver-blogs-components-weblogfiles/00-00-01-48-94/0116.VS-Code.png)
 
-> **\*\*Note, this article has now been superseded with a new version for the VSCode 0.8.0 release and the new Unity Asset plugin  
+> **Note, this article has now been superseded with a new version for the VSCode 0.8.0 release and the new Unity Asset plugin  
 > http://darkgenesis.zenithmoon.com/vscode-and-unity-take-another-bold-step-forward/**
 
 On day 1 of the [Microsoft Build](http://www.buildwindows.com/) conference, Microsoft announced an all new, streamlines and lightweight code editor called [Visual Studio Code](https://code.visualstudio.com).  The big thing about this announcement is that it’s available for Windows, Mac and Linux natively (deployed as a modern cross-platform web app judging by it’s innards).

@@ -1,13 +1,8 @@
 ---
 layout: post
 title: PCL targets for Mono / MonoGame projects
-date: '2013-03-30 21:48:09'
-tags:
-- mono
-- monogame
-- tutorials-resources
-- visual-studio
-- xamarin-studio
+date: 2013-03-30 21:48:09
+tags: [monogame, mono]
 ---
 
 I will be blogging over the next few weeks about my involvement with the [MonoGame](http://monogame.net/) project in the dark dark backgrounds, all around the area of PCL support within the project.
@@ -25,7 +20,7 @@ For Mono platforms such as iOS and Android however you need to enable these manu
 
  
 
-\*Note, yes you will need to install either [Mono](http://www.mono-project.com) or [Xamarin Studio](http://xamarin.com/download "Xamarin Studio by Xamarin") to enable Mono platform targeting support
+Note, yes you will need to install either [Mono](http://www.mono-project.com) or [Xamarin Studio](http://xamarin.com/download "Xamarin Studio by Xamarin") to enable Mono platform targeting support
 
  
 

@@ -1,11 +1,8 @@
 ---
 layout: post
 title: MonoGame 3.2 NuGet packages are GO!
-date: '2014-04-13 10:05:52'
-tags:
-- information
-- monogame
-- nuget
+date: 2014-04-13 10:05:52
+tags: [monogame]
 ---
 
 [![image](/assets/img/wordpress/2014/04/image.png "image")](/assets/img/wordpress/2014/04/image.png)  [![image](/assets/img/wordpress/2014/04/image1.png "image")](/assets/img/wordpress/2014/04/image1.png)     [![image](/assets/img/wordpress/2014/04/image2.png "image")](/assets/img/wordpress/2014/04/image2.png)
