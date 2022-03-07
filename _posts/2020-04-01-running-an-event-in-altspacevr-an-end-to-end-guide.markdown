@@ -5,7 +5,7 @@ show_date: true
 title: Running an event in AltspaceVR - an end to end guide
 date: 2020-04-01 21:29:49
 description: Get an intro into AltspaceVR and what it takes to host a successful meeting / usergroup online.
-img: wordpress/2021/06/image-15-1-.png
+img: wordpress/2020/03/image-15.png
 tags: [altspacevr,online-meetings]
 author: Simon Jackson
 github:  
