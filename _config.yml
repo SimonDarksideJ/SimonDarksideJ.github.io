@@ -89,7 +89,7 @@ jekyll_compose:
   default_front_matter:
     drafts:
       description:
-      img: posts/
+      img: posts/defaultpostimage.jpg
       category:
       tags: []
       author: Simon Jackson

@@ -2,6 +2,7 @@
 layout: post
 title: Building an RPG with Unity 2018 - A Review
 date: 2018-09-30 10:44:57
+img: posts/defaultpostimage.jpg
 tags: [book review,unity3d]
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: Can you improve children's lives through games? - Medium
 date: 2019-05-15 14:03:19
+img: posts/defaultpostimage.jpg
 tags: [fizzyo, information]
 ---
 
