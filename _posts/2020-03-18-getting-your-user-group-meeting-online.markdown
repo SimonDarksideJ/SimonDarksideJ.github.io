@@ -1,11 +1,15 @@
 ---
 layout: post
+read_time: true
+show_date: true
 title: Getting your user group or meeting online
 date: 2020-03-18 00:25:00
-img: /assets/img/wordpress/2020/03/MVP_Global_Summit_2020_d.png
-tags:
-- online-meetings
-- vr
+description: An overview of online meetings options and where to get more information
+img: wordpress/2020/03/MVP_Global_Summit_2020_d.png
+tags: [altspacevr,online-meetings]
+author: Simon Jackson
+github:  
+mathjax: no
 ---
 
 In the wake of events in 2019 events, sessions and conferences are being cancelled leaving a gap for those who want to meet up and share information or just talk.

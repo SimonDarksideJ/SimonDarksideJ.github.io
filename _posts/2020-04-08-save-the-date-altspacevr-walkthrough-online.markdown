@@ -1,12 +1,20 @@
 ---
 layout: post
+read_time: true
+show_date: true
 title: 'Save the Date: AltspaceVR walkthrough online'
-date: '2020-04-08 19:15:08'
-tags:
-- ramblings
+date: 2020-04-08 19:15:08
+description: Get an intro into AltspaceVR and what it takes to host a successful meeting / usergroup online.
+img: brands/altspacevr-beginners.png
+tags: [events, altspacevr]
+author: Simon Jackson
+github:  
+mathjax: no
 ---
 
 Following my [recent in-depth article](https://darkgenesis.zenithmoon.com/running-an-event-in-altspacevr-an-end-to-end-guide/) on getting your online meeting running in AltspaceVR ([part of a series for online events services](https://darkgenesis.zenithmoon.com/getting-your-user-group-meeting-online/)), I’ve been asked by several people to “show me the money” and do a show and tell in AltspaceVR to demonstrate how easy it is.
+
+> If you missed the event, [check out the write up here](/running-an-event-in-altspacevr-an-end-to-end-guide)
 
 ## Running an event in AltspaceVR an end to end guide  
 The virtual tour not on tour 

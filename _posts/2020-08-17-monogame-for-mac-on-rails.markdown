@@ -1,10 +1,15 @@
 ---
 layout: post
+read_time: true
+show_date: true
 title: MonoGame for Mac on Rails
-date: '2020-08-17 16:16:36'
-tags:
-- mac
-- monogame
+date: 2020-08-17 16:16:36
+description: Getting MonoGame running on Mac using the command-line and your favourite code editor. Video included
+img: brands/monogame.png
+tags: [mac, monogame]
+author: Simon Jackson
+github:  
+mathjax: no
 ---
 
 <p>There are those who either do not like or prefer not to use big heavy-hitting coding IDE's, prefer the raw metal of cutting their teeth on code using nothing but their wits (and a good spellchecker), thanks to MonoGame 3.8's new .NET Core delivery approach they can.</p>

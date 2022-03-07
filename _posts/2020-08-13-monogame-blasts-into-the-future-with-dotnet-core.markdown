@@ -1,9 +1,15 @@
 ---
 layout: post
+read_time: true
+show_date: true
 title: MonoGame blasts into the future with DotNet core
 date: 2020-08-13 21:31:15
-img: /assets/img/wordpress/2017/03/image-13.png
+description: Dotnet core is now the preferred style for getting access to MonoGame, learn all the tips and tricks here to get started. Video included.
+img: brands/monogame.png
 tags: [monogame]
+author: Simon Jackson
+github:  
+mathjax: no
 ---
 
 MonoGame is certainly one of those frameworks where if you take your eye off it for a little while, it comes back to slap you in the face and remind you why it is still relevant.  

@@ -1,12 +1,15 @@
 ---
 layout: post
+read_time: true
+show_date: true
 title: Debugging Android using Unity (an invasion into insanity)
-date: '2019-10-16 18:14:43'
-img: /assets/img/wordpress/2019/10/d6a25324780567.56339f4d42e29.jpg
-tags:
-- android
-- tutorials-resources
-- unity3d
+date: 2019-10-16 18:14:43
+description: Struggling to get Androids builds working or figuring out what has gone wrong on your device, then check out this article to learn the truth.
+img: wordpress/2019/10/d6a25324780567.56339f4d42e29.jpg
+tags: [android, unity3d]
+author: Simon Jackson
+github:  
+mathjax: no
 ---
 
 Since we started supporting Android platforms fully in the [XRTK](https://xrtk.io), we’ve been through the mill working through all the possible combinations of testing, debugging and banging heads against tables to make Android platforms behave.

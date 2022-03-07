@@ -1,9 +1,15 @@
 ---
 layout: post
+read_time: true
+show_date: true
 title: The eternal battle with disk space
 date: 2019-05-15 13:42:31
-img: /assets/img/wordpress/2019/05/image.png
-tags: [tips and tricks]
+description: If you find you are low on space on your C drive/ system drive.  Here are a few tips and tricks to help you make the most out of your available space.
+img: wordpress/2019/05/image.png
+tags: [android, unity3d]
+author: Simon Jackson
+github:  
+mathjax: no
 ---
 
 From the earliest days of my youth, we have always battled with finding space to install “stuff” on our computers.  Whether it was fragmentation, whittling down all the unnecessary things we don’t need or just plain burring millions of cat pictures to CD’s, we always needed more space.
