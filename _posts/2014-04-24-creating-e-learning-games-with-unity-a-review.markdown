@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Creating E-Learning Games with Unity - A Review
-date: '2014-04-24 17:24:02'
-tags:
-- packtpub
-- ramblings
-- unity-3d-tutorials
-- unity3d
+date: 2014-04-24 17:24:02
+tags: [book review, unity3d]
 ---
 
 Continuing the book review season, here is the second book I have looked at recently, an interesting twist in the series of game development.

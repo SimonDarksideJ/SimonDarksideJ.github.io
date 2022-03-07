@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #2 - Spritesheets (and Clean-up)'
-date: '2012-06-29 10:21:54'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:21:54
+tags: [2d tutorial, game development, xna]
 ---
 
 (coming to you from 45,000 feet 🙂 on yet another flight to India with work, sound glamorous, but when you are leaving behind the wife, kids and 2 week old puppy, not so much.  Although I do get more work done….)
@@ -47,7 +43,7 @@ If we use a spritesheet however, it is always the same image, what the spritebat
 Our current assets for displaying our trooper are like this, six individual images:
 
 | Animation step 1 | Animation step 2 | Animation step 3 | Animation step 4 | Animation step 5 | Animation step 6 |
-| ![image](/assets/img/wordpress/2012/07/image_thumb27.png) | ![image](/assets/img/wordpress/2012/07/image_thumb28.png) | ![image](/assets/img/wordpress/2012/07/image_thumb29.png) | ![image](/assets/img/wordpress/2012/07/image_thumb30.png) | ![image](/assets/img/wordpress/2012/07/image_thumb31.png) | ![image](/assets/img/wordpress/2012/07/image_thumb32.png) |
+| ![image](/assets/img/wordpress/2012/07/image27.png) | ![image](/assets/img/wordpress/2012/07/image28.png) | ![image](/assets/img/wordpress/2012/07/image29.png) | ![image](/assets/img/wordpress/2012/07/image30.png) | ![image](/assets/img/wordpress/2012/07/image31.png) | ![image](/assets/img/wordpress/2012/07/image32.png) |
 
  
 
@@ -55,7 +51,7 @@ Managing these can be a pain as that is six images you need to maintain the same
 
 What we need is a single image like this:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb41.png "image")](/assets/img/wordpress/2012/07/image40.png)
+[![image](/assets/img/wordpress/2012/07/image41.png "image")](/assets/img/wordpress/2012/07/image40.png)
 
 Now to change this into a spritesheet (merge all six images in to one long image) we have several options:
 
@@ -65,7 +61,7 @@ Now to change this into a spritesheet (merge all six images in to one long image
 
 If you already have your images then Glue-IT is the way to go (there are some other free open source image stitching tools and even some written for XNA however most of them need you to change your code to support them).  [Glue-IT](http://sysimage.250free.com/) (as the name suggests) simply does the hard work for you, takes you are separate images and pulls them together in a strip, even sorting out lining up the images so that they are in a line correctly.
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb42.png "image")](/assets/img/wordpress/2012/07/image41.png) | [![image](/assets/img/wordpress/2012/07/image_thumb43.png "image")](/assets/img/wordpress/2012/07/image42.png) |
+| [![image](/assets/img/wordpress/2012/07/image42.png "image")](/assets/img/wordpress/2012/07/image41.png) | [![image](/assets/img/wordpress/2012/07/image43.png "image")](/assets/img/wordpress/2012/07/image42.png) |
 | 
 
 Glue-IT main window

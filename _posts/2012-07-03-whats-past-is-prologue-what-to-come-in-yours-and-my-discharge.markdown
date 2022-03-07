@@ -1,20 +1,11 @@
 ---
 layout: post
 title: What is past is prologue; what to come, In yours and my discharge
-date: '2012-07-03 12:22:24'
-tags:
-- c
-- directx
-- futures
-- information
-- metro
-- mono
-- sunburn
-- unity3d
-- xna
+date: 2012-07-03 12:22:24
+tags: [information,xna]
 ---
 
-[![image](/assets/img/wordpress/2012/07/image_thumb142.png "image")](/assets/img/wordpress/2012/07/image139.png)
+[![image](/assets/img/wordpress/2012/07/image142.png "image")](/assets/img/wordpress/2012/07/image139.png)
 
 I am not one for quotes but this seemed apt considering the recent move.
 

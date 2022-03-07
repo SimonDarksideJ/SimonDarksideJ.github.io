@@ -1,13 +1,8 @@
 ---
 layout: post
 title: OneDrive is my saviour
-date: '2014-03-02 13:21:00'
-tags:
-- backup
-- information
-- onedrive
-- unity-3d-tutorials
-- unity3d
+date: 2014-03-02 13:21:00
+tags: [information]
 ---
 
 ![width=](http://www.avforums.com/image.php?imageparameters=editorial/products/32a33b60732140cdc54f039ab4bdc42c_6782.jpg%7C500%7C1%7C0)
@@ -43,17 +38,17 @@ This is one feature of OneDrive that is not really shouted about or even mention
 
 Finding the Recycle Bin is really easy, it is just located in the bottom left of your online storage account.
 
-[![image](/assets/img/wordpress/2014/03/image_thumb.png "image")](/assets/img/wordpress/2014/03/image.png)
+[![image](/assets/img/wordpress/2014/03/image.png "image")](/assets/img/wordpress/2014/03/image.png)
 
 In here you will find a normal recycle bin view with the options to empty it or restore all / individual items:
 
-[![image](/assets/img/wordpress/2014/03/image_thumb1.png "image")](/assets/img/wordpress/2014/03/image1.png)
+[![image](/assets/img/wordpress/2014/03/image1.png "image")](/assets/img/wordpress/2014/03/image1.png)
 
 And here is where my glorious work was saved, ready to be reborn and VERY quickly mailed to my publisher !!
 
 If you do manage to delete an item accidentally in the online view, you go get a “Hail Mary” Undo option, however such a feature is not available locally and items are deleted automatically.  Which just means you need to go online to your recycle bin to save your bacon.
 
-[![image](/assets/img/wordpress/2014/03/image_thumb2.png "image")](/assets/img/wordpress/2014/03/image2.png)
+[![image](/assets/img/wordpress/2014/03/image2.png "image")](/assets/img/wordpress/2014/03/image2.png)
 
 # The missing pieces
 

@@ -44,7 +44,7 @@ You also get access to discounts to keep titles that are on GamePass (approx 10-
 
 If you are a GamePass Ultimate member, you can also use Microsoft's Game streaming service to access Cloud-Based games on Xbox, PC and Mobile (both iOS and Android), instant play with no download.
 
-![](https://www.satyrnet.it/wp-content/uploads/bfi_thumb/Xbox-Cloud-Gaming-in-arrivo-in-Beta-3d3q10f95gy3x9e6m44etc.jpg)
+![](https://www.satyrnet.it/wp-content/uploads/bfi/Xbox-Cloud-Gaming-in-arrivo-in-Beta-3d3q10f95gy3x9e6m44etc.jpg)
 
 > ### [Join Xbox GamePass Ultimate for £1/$1](https://www.xbox.com/en-GB/xbox-game-pass#join)
 

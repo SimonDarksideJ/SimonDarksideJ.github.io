@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #4 - Moving to Windows Phone'
-date: '2012-06-29 10:31:55'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:31:55
+tags: [2d tutorial, game development, xna]
 ---
 
 No need to guess what this little section is about.  Games on [Windows Phone 7](http://developer.windowsphone.com/).
@@ -30,7 +26,7 @@ For the Windows Phone side of this tutorial you are going to need the [Windows P
 
 Get them installed and started and you see the great new Visual studio 2010 interface now completely re-written in WPF.
 
-![VS2010ExpressPhone](http://xna-uk.net/blogs/darkgenesis/VS2010ExpressPhone_thumb_1878E542.png)
+![VS2010ExpressPhone](http://xna-uk.net/blogs/darkgenesis/VS2010ExpressPhone_1878E542.png)
 
  
 
@@ -42,7 +38,7 @@ Get them installed and started and you see the great new Visual studio 2010 inte
 
 Now exactly the same as before in this [earlier post](/blogs/darkgenesis/archive/2010/06/04/intermission-3-updating-to-allow-for-changeable-resolution), you need to set up a new project, except this time you need to browse to the XNA Game Studio 4.0 section and select the “Windows Phone Game (4.0)” project.
 
-![NewPhoneProject](http://xna-uk.net/blogs/darkgenesis/NewPhoneProject_thumb_581E6C2E.png)
+![NewPhoneProject](http://xna-uk.net/blogs/darkgenesis/NewPhoneProject_581E6C2E.png)
 
  
 
@@ -50,7 +46,7 @@ I suggest calling the project “XNAStarTrooper2D\_Phone7”, select an appropri
 
 First thing you should notice is that in a new phone solution the content and code projects are already split up for you, bear this in mind for the next step.
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_1C5ABF7C.png)
+![image](http://xna-uk.net/blogs/darkgenesis/image_1C5ABF7C.png)
 
 Now copy over the Engine Folder from your current Startrooper game to the code project and then copy over the class files beginning with StarTrooper (StarTrooperGame, StarTrooperSprites and StarTrooperBackground).
 
@@ -58,7 +54,7 @@ Finally copy over the Pictures, Music and Sounds folders from the content projec
 
 You should now have a solution made up like the following:
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_1CF28E32.png)
+![image](http://xna-uk.net/blogs/darkgenesis/image_1CF28E32.png)
 
 * * *
 
@@ -1112,7 +1108,7 @@ What you should end up with is the following.
             
             
             
-            ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_7D2B669E.png)
+            ![image](http://xna-uk.net/blogs/darkgenesis/image_7D2B669E.png)
             
             
             

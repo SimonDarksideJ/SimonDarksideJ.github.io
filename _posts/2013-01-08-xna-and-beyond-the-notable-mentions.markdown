@@ -1,19 +1,8 @@
 ---
 layout: post
 title: XNA and Beyond, the notable mentions
-date: '2013-01-08 16:24:51'
-tags:
-- frameworks
-- gearset
-- information
-- sunburn
-- tide
-- tiled
-- tools
-- xna
-- xna-related
-- xtiled
-- yna
+date: 2013-01-08 16:24:51
+tags: [xna]
 ---
 
 Just to round up the overview part of this series where I have covered frameworks doing their level best to take the dream of XNA onward and available to more platforms, plus looking further into the future to extend and build upon XNA’s humble beginnings, it is worth looking over some of the other frameworks which use XNA as a baseline and give you more bang for your buck (time wise).
@@ -157,7 +146,7 @@ I must say that [CJ Bailey](http://twitter.com/GreedyGoblins) ([@GreedyGoblins](
 
 The Visual Scripting Framework was born out of my frustration with programmatically creating cut-scenes for my game. My workflow usually ended up being: code cut-scene, build and execute game, wait for game to start (maybe traversing a few menu options in the process), test the cut-scene, find something is not right, stop the game, tweak the code, build and execute, wait for game to start, test the cut-scene, stop the game, tweak the…. well… you get the idea. It was driving me mad. I wanted to be able to tweak things while the game was running; that would allow me to try out different ideas and get things just right, without all the tedium of my previous workflow.
 
-[![Untitled](/assets/img/wordpress/2013/01/Untitled_thumb.png "Untitled")](/assets/img/wordpress/2013/01/Untitled.png)
+[![Untitled](/assets/img/wordpress/2013/01/Untitled.png "Untitled")](/assets/img/wordpress/2013/01/Untitled.png)
 
 The Visual Scripting Framework allows you to build scripts by dragging and dropping script elements into a script. A script element can contain both inputs and outputs which can be connected to other script elements. The Visual Scripting Framework is designed to be game engine agnostic. This means that out of the box the framework does not contain many script elements, since every game engine and every game developer’s requirements are different there is no way I could account for every eventuality. Instead, the framework allows you to load additional components as required or even write your own components which it will automatically detect and make available at runtime.
 
@@ -385,7 +374,7 @@ Here’s a glimpse of what Gearset have to offer to professional and hobbyist XN
 
 #### Inspector
 
-[![Inspector window](http://www.thecomplot.com/inspector2_thumb.png)](http://www.thecomplot.com/inspector2.png)
+[![Inspector window](http://www.thecomplot.com/inspector2.png)](http://www.thecomplot.com/inspector2.png)
 
 Everybody loves Visual Studio’s Watch Window, we definitely do, it shows us in a convenient place the state of our data, and this information becomes extremely important when developing any kind of software and especially when debugging it.
 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: NGUI for Unity - A Review
-date: '2014-07-18 13:43:20'
-tags:
-- book-review
-- packtpub
-- unity-3d-tutorials
-- unity3d
+date: 2014-07-18 13:43:20
+tags: [book review,unity3d]
 ---
 
 Unity is by far outstripping all the competition with its multi-platform game framework, especially with their recent win in the Develop awards for best game engine (well done team).  So with the influx of new books to aid new developers, things are only going to keep moving and fast.

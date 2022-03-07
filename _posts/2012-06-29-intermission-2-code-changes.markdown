@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #2 - Code Changes'
-date: '2012-06-29 10:27:58'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:27:58
+tags: [2d tutorial, game development, xna]
 ---
 
 Since we are moving from single images stored as frames looped together to a single image with a picking rectangle, we need to update the framework.

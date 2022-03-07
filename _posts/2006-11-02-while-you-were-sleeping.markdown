@@ -1,10 +1,8 @@
 ---
 layout: post
 title: While you were sleeping
-date: '2006-11-02 11:00:16'
-tags:
-- ramblings
-- xna-related
+date: 2006-11-02 11:00:16
+tags: [ramblings, xna]
 ---
 
 Well as I mentioned in my last post, XNA Game Studio express Beta 2 would be coming soon and lo and behold what did I find while checking my blog posts this morning, just this lovely little post from the XNA team

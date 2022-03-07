@@ -1,13 +1,8 @@
 ---
 layout: post
 title: XNA to SilverXNA-part 5 Control, Control, we must have control
-date: '2012-07-01 22:54:48'
-tags:
-- silverlight
-- silverxna
-- silverxna-tutorials
-- windows-phone
-- xna
+date: 2012-07-01 22:54:48
+tags: [silverlight, xna]
 ---
 
 ![width=](http://alientongues.com/wp-content/uploads/2011/06/yoda-toon.jpg)
@@ -92,7 +87,7 @@ Launch up Blend if you have not already and open up the “GamePage.XAML” page
 
 Next we just need to set up their properties as follows:
 
-| ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_thumb_5F00_00BBA042.png) | 
+| ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_5F00_00BBA042.png) | 
 
 > ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Set the RowSpan and ColumnSpan to “2”
 > 
@@ -130,7 +125,7 @@ So let’s add the following function:
 
     
     
-         ![image](/assets/img/wordpress/2012/07/image_thumb69.png "image")
+         ![image](/assets/img/wordpress/2012/07/image69.png "image")
         * * *
         
         ## BUGS, BUGS, We got BUGS over here!!!
@@ -160,7 +155,7 @@ So let’s add the following function:
             
             
             
-                 ![image](/assets/img/wordpress/2012/07/image_thumb70.png "image")
+                 ![image](/assets/img/wordpress/2012/07/image70.png "image")
                 * * *
                 
                 ## The Wright way (pun intended)
@@ -241,7 +236,7 @@ So let’s add the following function:
                             
                             
                             
-                            [![image](/assets/img/wordpress/2012/07/image_thumb71.png "image")](/assets/img/wordpress/2012/07/image69.png)
+                            [![image](/assets/img/wordpress/2012/07/image71.png "image")](/assets/img/wordpress/2012/07/image69.png)
                             
                             
                             
@@ -249,7 +244,7 @@ So let’s add the following function:
                             
                             
                             
-                            [![image](/assets/img/wordpress/2012/07/image_thumb72.png "image")](/assets/img/wordpress/2012/07/image70.png)
+                            [![image](/assets/img/wordpress/2012/07/image72.png "image")](/assets/img/wordpress/2012/07/image70.png)
                             
                             
                             
@@ -257,7 +252,7 @@ So let’s add the following function:
                             
                             
                             
-                            [![image](/assets/img/wordpress/2012/07/image_thumb73.png "image")](/assets/img/wordpress/2012/07/image71.png)
+                            [![image](/assets/img/wordpress/2012/07/image73.png "image")](/assets/img/wordpress/2012/07/image71.png)
                             
                             
                             
@@ -286,7 +281,7 @@ So let’s add the following function:
                             
                             
                             
-                            | [![image](/assets/img/wordpress/2012/07/image_thumb74.png "image")](/assets/img/wordpress/2012/07/image72.png) | [![image](/assets/img/wordpress/2012/07/image_thumb75.png "image")](/assets/img/wordpress/2012/07/image73.png) | [![image](/assets/img/wordpress/2012/07/image_thumb76.png "image")](/assets/img/wordpress/2012/07/image74.png) |
+                            | [![image](/assets/img/wordpress/2012/07/image74.png "image")](/assets/img/wordpress/2012/07/image72.png) | [![image](/assets/img/wordpress/2012/07/image75.png "image")](/assets/img/wordpress/2012/07/image73.png) | [![image](/assets/img/wordpress/2012/07/image76.png "image")](/assets/img/wordpress/2012/07/image74.png) |
                             | Win | Loose | Die |
                             
                             

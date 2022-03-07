@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Windows 8 Corrupt Packages
-date: '2012-09-28 09:08:55'
-tags:
-- windows-8
-- windows8-tutorials
-- winrt
+date: 2012-09-28 09:08:55
+tags: [windows 8]
 ---
 
 Like with any new system there are bound to be some kinks in the road, issues or just downright annoyances that will send you spiralling into the deepest dark pits of annoyance (the last has been me for the last few weeks).

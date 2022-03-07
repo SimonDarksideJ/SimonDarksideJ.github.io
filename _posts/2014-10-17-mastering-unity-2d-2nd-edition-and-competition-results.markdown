@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Mastering Unity 2D 2nd Edition and competition results!
-date: '2014-10-17 13:59:03'
-tags:
-- competitions
-- mastering-unity-2d
-- packtpub
-- unity3d
+date: 2014-10-17 13:59:03
+tags: [competitions, mastering-unity-2d, unity3d]
 ---
 
 Phew, it has been a torturous time since my book was released back in August, my first experience releasing my work in printed / ebook form through a publisher only to find that lots of changes made it in to the book on release.  Needless to say I was shocked and have been working hard with the publisher to fix what had been broken.
@@ -87,17 +83,17 @@ Not wanting to be dull, I decided to let the hero in my title do the picking, he
 
  
 
-[![CompetitionGif3](/assets/img/wordpress/2014/10/CompetitionGif3_thumb.gif "CompetitionGif3")](/assets/img/wordpress/2014/10/CompetitionGif3.gif)
+[![CompetitionGif3](/assets/img/wordpress/2014/10/CompetitionGif3.gif "CompetitionGif3")](/assets/img/wordpress/2014/10/CompetitionGif3.gif)
 
  
 
 So the winners are:
 
-### [![StarMox](/assets/img/wordpress/2014/10/StarMox_thumb.png "StarMox")](/assets/img/wordpress/2014/10/StarMox.png)   StarMox
+### [![StarMox](/assets/img/wordpress/2014/10/StarMox.png "StarMox")](/assets/img/wordpress/2014/10/StarMox.png)   StarMox
 
-### [![Derek Lakin](/assets/img/wordpress/2014/10/Derek-Lakin_thumb.jpg "Derek Lakin")](/assets/img/wordpress/2014/10/Derek-Lakin.jpg)   Derek Lakin
+### [![Derek Lakin](/assets/img/wordpress/2014/10/Derek-Lakin.jpg "Derek Lakin")](/assets/img/wordpress/2014/10/Derek-Lakin.jpg)   Derek Lakin
 
-### [![Symyon](/assets/img/wordpress/2014/10/Symyon_thumb.png "Symyon")](/assets/img/wordpress/2014/10/Symyon.png)   Symyon
+### [![Symyon](/assets/img/wordpress/2014/10/Symyon.png "Symyon")](/assets/img/wordpress/2014/10/Symyon.png)   Symyon
 
  
 

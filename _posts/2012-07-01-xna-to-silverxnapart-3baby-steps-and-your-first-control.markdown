@@ -1,18 +1,13 @@
 ---
 layout: post
 title: XNA to SilverXNA - Part 3 Baby steps and your first control
-date: '2012-07-01 21:24:22'
-tags:
-- silverlight
-- silverxna
-- silverxna-tutorials
-- windows-phone
-- xna
+date: 2012-07-01 21:24:22
+tags: [silverlight, xna]
 ---
 
 Continuing on From [Part 1](http://bit.ly/qgJr56 "XNA to SilverXNA part 1 - The Overview") and [Part 2](http://bit.ly/qrMXIC "XNA to SilverXNA–Part 2 Getting our XNA project running in Silverlight") of the SilverXNA series, we continue to start doing some actual Silverlight rendering of our own.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb56.png "image")](/assets/img/wordpress/2012/07/image54.png)
+[![image](/assets/img/wordpress/2012/07/image56.png "image")](/assets/img/wordpress/2012/07/image54.png)
 
 Now if you compare the image above to the screenshots from the previous parts of this series or if you are running the game on the emulator currently, you may not see much difference, if so Yay I’ve succeeded.
 
@@ -60,7 +55,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 
                 
                 
-                [![image](/assets/img/wordpress/2012/07/image_thumb57.png "image")](/assets/img/wordpress/2012/07/image55.png)
+                [![image](/assets/img/wordpress/2012/07/image57.png "image")](/assets/img/wordpress/2012/07/image55.png)
                 
                 
                 
@@ -76,7 +71,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 
                 
                 
-                [![image](/assets/img/wordpress/2012/07/image_thumb58.png "image")](/assets/img/wordpress/2012/07/image56.png)
+                [![image](/assets/img/wordpress/2012/07/image58.png "image")](/assets/img/wordpress/2012/07/image56.png)
                 
                 
                 
@@ -88,7 +83,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 
                 
                 
-                [![image](/assets/img/wordpress/2012/07/image_thumb59.png "image")](/assets/img/wordpress/2012/07/image57.png)
+                [![image](/assets/img/wordpress/2012/07/image59.png "image")](/assets/img/wordpress/2012/07/image57.png)
                 
                 
                 
@@ -101,7 +96,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 
                 
                 
-                | [![image](/assets/img/wordpress/2012/07/image_thumb60.png "image")](/assets/img/wordpress/2012/07/image58.png) | 
+                | [![image](/assets/img/wordpress/2012/07/image60.png "image")](/assets/img/wordpress/2012/07/image58.png) | 
                 
                 Once you have gotten the drawing line just below the textboxes simply left click to create a new Row.
                 
@@ -162,7 +157,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                 
                 
                 
-                 | [![image](/assets/img/wordpress/2012/07/image_thumb61.png "image")](/assets/img/wordpress/2012/07/image59.png) |
+                 | [![image](/assets/img/wordpress/2012/07/image61.png "image")](/assets/img/wordpress/2012/07/image59.png) |
                 
                 
                 
@@ -214,7 +209,7 @@ So first off we just declare a new “UIElementRenderer” variable to hold our 
                     
                     
                     
-                    So rest for now and if you are watching the Mango Jumpstart at present (or the recordings) enjoy what Mango has to offer from those who’ve been tinkering for quite some time now [![image](/assets/img/wordpress/2012/07/image_thumb62.png "image")](/assets/img/wordpress/2012/07/image60.png)
+                    So rest for now and if you are watching the Mango Jumpstart at present (or the recordings) enjoy what Mango has to offer from those who’ve been tinkering for quite some time now [![image](/assets/img/wordpress/2012/07/image62.png "image")](/assets/img/wordpress/2012/07/image60.png)
                     
                     
                     

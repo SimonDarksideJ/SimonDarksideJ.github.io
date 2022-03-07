@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Getting the most out of your assets - The MonoGame Content Pipeline
-date: '2016-10-15 17:50:46'
-tags:
-- content-pipeline
-- monogame
-- samples
-- tutorials-resources
-- xna
+date: 2016-10-15 17:50:46
+tags: [content pipeline, monogame]
 ---
 
 ![Image result for content](http://espresso-digital.de/wp-content/uploads/content-1315878_1920-765x300.jpg)
@@ -73,15 +68,15 @@ When you add/copy your assets in to the project, it is assigned a default Conten
 
 | 
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-2.png "image")](/assets/img/wordpress/2016/10/image-2.png)
+[![image](/assets/img/wordpress/2016/10/image-2.png "image")](/assets/img/wordpress/2016/10/image-2.png)
 
  | 
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-3.png "image")](/assets/img/wordpress/2016/10/image-3.png)
+[![image](/assets/img/wordpress/2016/10/image-3.png "image")](/assets/img/wordpress/2016/10/image-3.png)
 
  | 
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-4.png "image")](/assets/img/wordpress/2016/10/image-4.png)
+[![image](/assets/img/wordpress/2016/10/image-4.png "image")](/assets/img/wordpress/2016/10/image-4.png)
 
  |
 | 
@@ -107,7 +102,7 @@ As you can see, MonoGame just decides on the best path for your asset (which you
 
 The complete list of the out of the box importers / processors include:
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-5.png "image")](/assets/img/wordpress/2016/10/image-5.png)
+[![image](/assets/img/wordpress/2016/10/image-5.png "image")](/assets/img/wordpress/2016/10/image-5.png)
 
 * * *
 
@@ -152,15 +147,15 @@ Create yourself a little project in the platform of your choice and then build a
 
 Open the Content Project (double click on the Content.MGCB in the Content folder or [open it manually in the Content Pipeline tool](https://www.youtube.com/watch?v=OZpW13ERTnQ)) and then “_right-click-\>Add-\>New Item”_.
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-6.png "image")](/assets/img/wordpress/2016/10/image-6.png)
+[![image](/assets/img/wordpress/2016/10/image-6.png "image")](/assets/img/wordpress/2016/10/image-6.png)
 
 Once clicked, you should see the following dialog, type in the name of “BasicSpriteFont”, select SpriteFont from the list and click OK.
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-7.png "image")](/assets/img/wordpress/2016/10/image-7.png)
+[![image](/assets/img/wordpress/2016/10/image-7.png "image")](/assets/img/wordpress/2016/10/image-7.png)
 
 Now in your project you should have a nice new and shiny SpriteFont file, if you open it up you should see the following (this is just a snippet, there is more):
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-8.png "image")](/assets/img/wordpress/2016/10/image-8.png)
+[![image](/assets/img/wordpress/2016/10/image-8.png "image")](/assets/img/wordpress/2016/10/image-8.png)
 
  
 
@@ -195,7 +190,7 @@ With that done, we only need to then draw some text to the screen in the Draw fu
 
 Now when you run the project, you will get some text drawn to the screen in the default font (unless you changed it) Arial.
 
-[![image](/assets/img/wordpress/2016/10/image34_thumb.png "image")](/assets/img/wordpress/2016/10/image34.png)
+[![image](/assets/img/wordpress/2016/10/image34.png "image")](/assets/img/wordpress/2016/10/image34.png)
 
 * * *
 
@@ -213,17 +208,17 @@ Now .NET provides us with a robust system for managing localised strings and res
 
 If you return to your studio project and in the Solution Explorer, right click on your project’s name (not the solution) and select Add –\> New Item and then select / search for a **_Resource_** file as shown here:
 
-[![image](/assets/img/wordpress/2016/10/image37_thumb.png "image")](/assets/img/wordpress/2016/10/image37.png)
+[![image](/assets/img/wordpress/2016/10/image37.png "image")](/assets/img/wordpress/2016/10/image37.png)
 
 Name it “Strings.resx” and click OK. When done, the Resources editor should appear as shown below:
 
-[![image](/assets/img/wordpress/2016/10/image43_thumb.png "image")](/assets/img/wordpress/2016/10/image43.png)
+[![image](/assets/img/wordpress/2016/10/image43.png "image")](/assets/img/wordpress/2016/10/image43.png)
 
 This allows us to create a dictionary of string names and values that we want to use in our project. We can even include formatting values if we wish to alter them in the game (although note, strings in the game wo not be translated! unless you do something special, like use a system resource or pre-localised content or numbers).
 
 Update the resources as follows with some handy keys and values:
 
-[![image](/assets/img/wordpress/2016/10/image46_thumb.png "image")](/assets/img/wordpress/2016/10/image46.png)
+[![image](/assets/img/wordpress/2016/10/image46.png "image")](/assets/img/wordpress/2016/10/image46.png)
 
 Now if you return to your Draw code and replace your string as follows, it will use the text from the resource file and no long be hard coded:
 
@@ -237,7 +232,7 @@ Now an optional but recommended step is to also set your project’s default nat
 
 Setting it is quite simple and worth the effort, simply right-click your project and select **Properties** , then click the “Assembly Information” button, you will see the Assembly information dialog, at the bottom you will find the Neutral Language option as shown here:
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-13.png "image")](/assets/img/wordpress/2016/10/image-13.png)
+[![image](/assets/img/wordpress/2016/10/image-13.png "image")](/assets/img/wordpress/2016/10/image-13.png)
 
 > Notice that these are organised by **Language** and not Culture. So it is the language first and then the region. Can be a bit confusing but easily recognisable.
 
@@ -251,11 +246,11 @@ For example, if you only supply a resource for “en”, then both the US and UK
 
 > When you copy / create the regionalised ResX files, best you also change the **Access Modifier** for the new files to “No code Generation”.
 > 
-> [![image](/assets/img/wordpress/2016/10/image_thumb-26.png "image")](/assets/img/wordpress/2016/10/image-26.png)
+> [![image](/assets/img/wordpress/2016/10/image-26.png "image")](/assets/img/wordpress/2016/10/image-26.png)
 > 
 > This avoids nasty conflicts when you are trying to access the contents through code. Only your main ResX file should have code generation enabled and all regional versions should only contain translated text.
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-14.png "image")](/assets/img/wordpress/2016/10/image-14.png)
+[![image](/assets/img/wordpress/2016/10/image-14.png "image")](/assets/img/wordpress/2016/10/image-14.png)
 
 Here I have my default “Strings.resx” with my copies for Danish (da), French (fr), Japanese (ja) and Korean (ko).
 
@@ -267,11 +262,11 @@ Once you have your new resource files setup all that is required is for you to e
 
 If you look inside each of the resource files for this project (thanks to Microsoft’s original XNA sample), you will see the following translations:
 
-| default English – en (strings.resx) | [![image](/assets/img/wordpress/2016/10/image_thumb-15.png "image")](/assets/img/wordpress/2016/10/image-15.png) |
-| Danish – da (strings.da.resx) | [![image](/assets/img/wordpress/2016/10/image_thumb-16.png "image")](/assets/img/wordpress/2016/10/image-16.png) |
-| French – fr (strings.fr.resx) | [![image](/assets/img/wordpress/2016/10/image_thumb-17.png "image")](/assets/img/wordpress/2016/10/image-17.png) |
-| Japanese – ja (strings.ja.resx) | [![image](/assets/img/wordpress/2016/10/image_thumb-18.png "image")](/assets/img/wordpress/2016/10/image-18.png) |
-| Korean – ko (strings.ko.resx) | [![image](/assets/img/wordpress/2016/10/image_thumb-19.png "image")](/assets/img/wordpress/2016/10/image-19.png) |
+| default English – en (strings.resx) | [![image](/assets/img/wordpress/2016/10/image-15.png "image")](/assets/img/wordpress/2016/10/image-15.png) |
+| Danish – da (strings.da.resx) | [![image](/assets/img/wordpress/2016/10/image-16.png "image")](/assets/img/wordpress/2016/10/image-16.png) |
+| French – fr (strings.fr.resx) | [![image](/assets/img/wordpress/2016/10/image-17.png "image")](/assets/img/wordpress/2016/10/image-17.png) |
+| Japanese – ja (strings.ja.resx) | [![image](/assets/img/wordpress/2016/10/image-18.png "image")](/assets/img/wordpress/2016/10/image-18.png) |
+| Korean – ko (strings.ko.resx) | [![image](/assets/img/wordpress/2016/10/image-19.png "image")](/assets/img/wordpress/2016/10/image-19.png) |
 
 Now all that is left is to tell the ResourceManager (which controls which resource to pick) what the current culture the game is running in and it will pick the variant that is needed, we do this in the games constructor when setting up the game as follows:
 
@@ -303,7 +298,7 @@ Continuing this sample, we will take our SpriteFont approach and extend it to wo
 
 The first step in building your extension is to create a new Content Extension project, for which MonoGame has a template for. So right click your Solution and choose “_Add –\> New Project_”, then select the MonoGame Content Pipeline Extension Project template, being sure to also select .NET Framework 4.5 as the target framework and name it as “LocalisationPipeline”, as shown below:
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-20.png "image")](/assets/img/wordpress/2016/10/image-20.png)
+[![image](/assets/img/wordpress/2016/10/image-20.png "image")](/assets/img/wordpress/2016/10/image-20.png)
 
 > If you do not select .Net Framework 4.5 (sometimes .NET 4.0 is the default) then you will see reference errors / warnings saying it cannot resolve Microsoft.XNA.Framework. Just open the **Properties** of the **project** and update the **Target Framework** to **4.5** and it will resolve that.
 
@@ -363,7 +358,7 @@ This function is called by the content pipeline when it builds, it processes the
 
 To make our extension available, we need to build it. For simplicity (and to avoid confusion later) I recommend you set the “Build Action” to “Release” for any build type. To do this simply right-click the Solution and click on “Configuration Manager”, then make sure the configuration for the pipeline extension is set to **Release** for all the **Active Solution Configurations** , as shown below (also make sure “Build” is checked) :
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-21.png "image")](/assets/img/wordpress/2016/10/image-21.png)
+[![image](/assets/img/wordpress/2016/10/image-21.png "image")](/assets/img/wordpress/2016/10/image-21.png)
 
 > You may wonder about debugging a content pipeline extension, but that is a whole other subject with its own little tricks. More on that another time. For now, let’s assume this always works.
 
@@ -402,21 +397,21 @@ Here we add our _ResourceFiles_ collection with individual elements of _ResX_, o
 
 Returning back to the Content Pipeline tool, let’s add a reference to our new Extension so we can use it. Select the top most node in the Content list (the content project itself) and then click on the **References** property in the window below, as shown here:
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-22.png "image")](/assets/img/wordpress/2016/10/image-22.png)
+[![image](/assets/img/wordpress/2016/10/image-22.png "image")](/assets/img/wordpress/2016/10/image-22.png)
 
 This will open up a new dialog where you can add paths to extension projects. Click on “Add” and then browse to the Pipeline Extensions “_bin\release_” folder to locate your **LocalisationPipeline.dll**. (this is why we set the project to only build its release version, as it means it is always the same one). There will be other dll’s in this folder, but just ignore them, just focus on your extension dll.
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-23.png "image")](/assets/img/wordpress/2016/10/image-23.png)
+[![image](/assets/img/wordpress/2016/10/image-23.png "image")](/assets/img/wordpress/2016/10/image-23.png)
 
 With that done, you can click **OK** to close the dialog and return to the project. Now at this point I always **Save** and then **close / reopen** the project to ensure it picks up the new extension. This may not always be needed, it is just what I do.
 
 Now that the extension is loaded, if you select your new “_LocalisedSpriteFont.spritefont_” file in the content project and click on the **ContentProcessor** dropdown, you should have a new **LocalisedFontProcessor** option.
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-24.png "image")](/assets/img/wordpress/2016/10/image-24.png)
+[![image](/assets/img/wordpress/2016/10/image-24.png "image")](/assets/img/wordpress/2016/10/image-24.png)
 
 it gets its name by default from the name of the _ContentProcessor_ class as shown below, you can customise this if you wish but We will cover that in a more advanced tutorial at some point:
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-25.png "image")](/assets/img/wordpress/2016/10/image-25.png)
+[![image](/assets/img/wordpress/2016/10/image-25.png "image")](/assets/img/wordpress/2016/10/image-25.png)
 
 And we’re done as far as the asset goes. Now build and verify there are no other issues with your asset or the processor.
 
@@ -447,7 +442,7 @@ An example of which is provided in the above article:
 
 In an extension of the original article (the one where the code actually comes from) Bevel, Mitre and Rounding support was also added, as shown below:
 
-![StrokeShape](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/80/32/metablogapi/6763.StrokeShape_thumb_24537B9E.png "StrokeShape")
+![StrokeShape](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/80/32/metablogapi/6763.StrokeShape_24537B9E.png "StrokeShape")
 
 It does not have to be used with only Japanese, this Font Processor can be used with any font for any language to produce better font graphics.
 
@@ -472,5 +467,5 @@ For now, I need to sit back and finish up my presentation for Future Decoded 201
 
 As ever, Solidarity Brothers, and Sisters ![Open-mouthed smile](/assets/img/wordpress/2016/10/wlEmoticon-openmouthedsmile.png)
 
-[![Solidaritary](/assets/img/wordpress/2016/10/Solidaritary_thumb.png "Solidaritary")](/assets/img/wordpress/2016/10/Solidaritary.png)
+[![Solidaritary](/assets/img/wordpress/2016/10/Solidaritary.png "Solidaritary")](/assets/img/wordpress/2016/10/Solidaritary.png)
 

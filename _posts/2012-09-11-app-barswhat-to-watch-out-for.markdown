@@ -1,12 +1,8 @@
 ---
 layout: post
 title: App Bars - What to watch out for
-date: '2012-09-11 10:39:56'
-tags:
-- tutorials-resources
-- windows-8
-- windows8-tutorials
-- winrt
+date: 2012-09-11 10:39:56
+tags: [windows 8]
 ---
 
 Quickly following up from my “[Snapped View](http://bit.ly/QCeDr6)” article there was another little caveat I wanted to add, but it also deserved it’ own little post.

@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Get a little extra help with Dream Build Play 2017
-date: '2017-08-22 16:11:41'
-tags:
-- dbp2017
-- unity-3d-tutorials
+date: 2017-08-22 16:11:41
+tags: [dream build play]
 ---
 
 [![Image result for dream build play](https://cdn.tproger.ru/wp-content/uploads/2017/07/dreambuildplay-mini.png "View source image")](http://dreambuildplay.com/)
@@ -60,11 +58,11 @@ Give people more reason to follow your project and help you promote your entry. 
 
 # We are the champions!
 
-# [![Excited](/assets/img/wordpress/2017/08/Excited_thumb.gif "Excited")](/assets/img/wordpress/2017/08/Excited.gif)
+# [![Excited](/assets/img/wordpress/2017/08/Excited.gif "Excited")](/assets/img/wordpress/2017/08/Excited.gif)
 
 For now, all the best to everyone competing! It is already starting to shape up like the best Dream Build Play competition of all time and we’re only a few days in!
 
-![image](/assets/img/wordpress/2017/06/image_thumb-2.png?resize=660%2C188&ssl=1)
+![image](/assets/img/wordpress/2017/06/image-2.png?resize=660%2C188&ssl=1)
 
 P.S.  
 If you have read this far, be sure to check out my upcoming post about game dev diaries.  In short, if you have not already, START ONE NOW!! ![Open-mouthed smile](/assets/img/wordpress/2017/08/wlEmoticon-openmouthedsmile.png)

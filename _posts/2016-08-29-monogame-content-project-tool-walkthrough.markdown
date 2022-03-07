@@ -24,7 +24,7 @@ The video for this post can be found here if you prefer video:
 
 In the XNA days, to manage content we had a separate project type (The Content Project) which allowed us to store the assets for our project in one place.  It also gave us access to the Content Pipeline, an arguably very powerful framework for managing the importing and consumptions of those assets:
 
-[![image](/assets/img/wordpress/2016/08/image_thumb.png "image")](/assets/img/wordpress/2016/08/image.png)
+[![image](/assets/img/wordpress/2016/08/image.png "image")](/assets/img/wordpress/2016/08/image.png)
 
 _The content project, referenced in the XNA game solution using a Content reference._
 
@@ -37,7 +37,7 @@ _The content project, referenced in the XNA game solution using a Content refere
 
 Now MonoGame also has the same setup, you can create Content Projects using the MonoGame Content Project tool and reference them in the same way as XNA did:
 
-[![image](/assets/img/wordpress/2016/08/image_thumb-1.png "image")](/assets/img/wordpress/2016/08/image-1.png)[![image](/assets/img/wordpress/2016/08/image_thumb-2.png "image")](/assets/img/wordpress/2016/08/image-2.png)
+[![image](/assets/img/wordpress/2016/08/image-1.png "image")](/assets/img/wordpress/2016/08/image-1.png)[![image](/assets/img/wordpress/2016/08/image-2.png "image")](/assets/img/wordpress/2016/08/image-2.png)
 
 _The MonoGame Content reference which links to the MonoGame Content Pipeline_
 
@@ -45,7 +45,7 @@ The only main difference between the two methods is that MonoGame uses a separat
 
 > If you want you can still add compiled .XNB files in to your project, or even add the raw files (MonoGame supports both ways) and load them both the same way:
 > 
-> [![image](/assets/img/wordpress/2016/08/image_thumb-3.png "image")](/assets/img/wordpress/2016/08/image-3.png)
+> [![image](/assets/img/wordpress/2016/08/image-3.png "image")](/assets/img/wordpress/2016/08/image-3.png)
 > 
 > However you will lose the power of the content pipeline and you will manually need to manage compression and cross-platform compatibility of the assets. All of which are included with Content Projects by default.
 
@@ -65,7 +65,7 @@ Whichever path you chose with your MonoGame Content projects, you can manage the
 
 Either use the one new MonoGame Projects or create your own. Just open the MonoGame Content Project tool and do file / new:
 
-[![NewContentProject](/assets/img/wordpress/2016/08/NewContentProject_thumb.gif "NewContentProject")](/assets/img/wordpress/2016/08/NewContentProject.gif)
+[![NewContentProject](/assets/img/wordpress/2016/08/NewContentProject.gif "NewContentProject")](/assets/img/wordpress/2016/08/NewContentProject.gif)
 
 When creating a new project, it is best to:
 
@@ -80,7 +80,7 @@ When adding content, you can either:
 - Create new folders to store content in
 - Add entire folders, which will also add the content within that folder
 
-[![AddingContent](/assets/img/wordpress/2016/08/AddingContent_thumb.gif "AddingContent")](/assets/img/wordpress/2016/08/AddingContent.gif)
+[![AddingContent](/assets/img/wordpress/2016/08/AddingContent.gif "AddingContent")](/assets/img/wordpress/2016/08/AddingContent.gif)
 
 When selecting existing files, you can opt to either copy the files in to the Content Projects folder, or leave them in place and simply reference them.  I would always recommend copying so that you keep all your games actual content in one place. Makes it easier to transport or publish to a source code repository as well.
 
@@ -90,7 +90,7 @@ When selecting existing files, you can opt to either copy the files in to the Co
 
 One of the great features of the MonoGame Content Project tool is that you can build the content in the tool and see the debug output of that process. This helps you identify any content issues early on, especially if you are going down the advanced route and building your own content importers / processors (more on that later)
 
-[![BuildContent](/assets/img/wordpress/2016/08/BuildContent_thumb.gif "BuildContent")](/assets/img/wordpress/2016/08/BuildContent.gif)
+[![BuildContent](/assets/img/wordpress/2016/08/BuildContent.gif "BuildContent")](/assets/img/wordpress/2016/08/BuildContent.gif)
 
  
 
@@ -100,7 +100,7 @@ Once you have your project built and ready, you can add it to your MonoGame solu
 
 > \*Note, new MonoGame game Templates already come with a Content Project, so you can skip this step if it is already in your solution.
 
-[![AddingReference](/assets/img/wordpress/2016/08/AddingReference_thumb.gif "AddingReference")](/assets/img/wordpress/2016/08/AddingReference.gif)
+[![AddingReference](/assets/img/wordpress/2016/08/AddingReference.gif "AddingReference")](/assets/img/wordpress/2016/08/AddingReference.gif)
 
 A few tips when adding the content reference manually to your project:
 

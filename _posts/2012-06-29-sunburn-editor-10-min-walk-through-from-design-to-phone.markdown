@@ -1,10 +1,8 @@
 ---
 layout: post
 title: SunBurn editor 10 min walk-through - from design to phone
-date: '2012-06-29 22:52:09'
-tags:
-- sunburn
-- sunburn-tutorials
+date: 2012-06-29 22:52:09
+tags: [sunburn, xna]
 ---
 
 ![border=](http://blogs.msdn.com/cfs-file.ashx/__key/CommunityServer-Blogs-Components-WeblogFiles/00-00-00-36-92-metablogapi/7444.TechDays5_5F00_435EE4EB.jpg)

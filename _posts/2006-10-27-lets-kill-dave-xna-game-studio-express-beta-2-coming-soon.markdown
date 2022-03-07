@@ -1,10 +1,8 @@
 ---
 layout: post
 title: 'Let''s Kill Dave! : XNA Game Studio Express Beta 2: Coming Soon!'
-date: '2006-10-27 08:51:39'
-tags:
-- ramblings
-- xna-related
+date: 2006-10-27 08:51:39
+tags: [ramblings, xna]
 ---
 
 Thanks to  good old (well maybe not all that old) Dave Webber on the XNA team for this little heads up and in case you haven’t heard yet, the XNA team are going to release another Beta of the XNA Game Studio Express V.Soon with even more goodness in the package.

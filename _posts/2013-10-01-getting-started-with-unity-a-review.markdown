@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Getting Started with Unity - A Review
-date: '2013-10-01 15:21:38'
-tags:
-- book-review
-- packtpub
-- unity-3d-tutorials
-- unity3d
+date: 2013-10-01 15:21:38
+tags: [book review,unity3d]
 ---
 
 Keeping with the Unity3D season I seem to be having, here is another Unity3D book, this time focusing on beginners.

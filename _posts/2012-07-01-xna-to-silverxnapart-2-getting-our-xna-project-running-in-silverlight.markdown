@@ -1,13 +1,8 @@
 ---
 layout: post
 title: XNA to SilverXNA - Part 2 Getting our XNA project running in Silverlight
-date: '2012-07-01 21:18:55'
-tags:
-- silverlight
-- silverxna
-- silverxna-tutorials
-- windows-phone
-- xna
+date: 2012-07-01 21:18:55
+tags: [silverlight, xna]
 ---
 
 In [Part 1](/blogs/darkgenesis/archive/2011/08/21/xna-to-silverxna-part-1-an-overview "SilverXNA part 1 - the Overview") I went over some of the things you will need to do to get your current XNA project ready for use in the Silverlight XNA integration which I’ve dubbed as SilverXNA for this tutorial series.
@@ -20,7 +15,7 @@ I am endeavouring to keep this tutorial open to all levels of dev’s, so if som
 
 Full source for the completed project can be found [here on codeplex](http://silverxna.codeplex.com/releases/view/72220 "Source code for initial completed project")
 
-[![image](/assets/img/wordpress/2012/07/image_thumb47.png "image")](/assets/img/wordpress/2012/07/image46.png)
+[![image](/assets/img/wordpress/2012/07/image47.png "image")](/assets/img/wordpress/2012/07/image46.png)
 
 The main focus of this chapter is to just get us running and the problems I’ve faced in getting this to just run, nothing fancy just simple baby steps to show off the impact of the changes were going to make later.
 
@@ -48,13 +43,13 @@ So keeping it simple we will create a new SilverXNA project, thankfully in the l
 
 So now it does not matter which one you pick as they are both effectively the same so just pick the one nearest to you (I used the XNA version when prepping for this tutorial series and am now using the Silverlight one for the sample project ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile1.png))
 
-[![image](/assets/img/wordpress/2012/07/image_thumb48.png "image")](/assets/img/wordpress/2012/07/image47.png)
+[![image](/assets/img/wordpress/2012/07/image48.png "image")](/assets/img/wordpress/2012/07/image47.png)
 
 Once you have got it setup you should see the new SilverXNA solution with it is three projects, A Silverlight C# project(if you chose C# that is, if you are running VB then it will obviously be VB, but this tutorial is written for C# so you will just have to follow along and convert in your head, the same tricks will work through), an XNA game library (the bridge between Silverlight and XNA) and the XNA Content Project.
 
 If you run this now you will get the two new starter screens:
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb49.png "image")](/assets/img/wordpress/2012/07/image48.png) | [![image](/assets/img/wordpress/2012/07/image_thumb50.png "image")](/assets/img/wordpress/2012/07/image49.png) |
+| [![image](/assets/img/wordpress/2012/07/image49.png "image")](/assets/img/wordpress/2012/07/image48.png) | [![image](/assets/img/wordpress/2012/07/image50.png "image")](/assets/img/wordpress/2012/07/image49.png) |
 | Main Page (Start) | Game Page |
 
 Nothing spectacular but it does give us a chance to see a good old clean Cornflower Blue page again ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile1.png).
@@ -67,7 +62,7 @@ So with our new project setup, first thing we need to do is bring in our XNA gam
 
 First remove the “Content” project as we are going to be using the one from our XNA game project, next right click on the Solution and select “Add –\> New Project” then select from the XNA branch of the New Project wizard the “Windows Phone Game Library (4.0)” project, name it something appropriate as this is were we are going to copy the Platformer code to (I used PlatformerGameLibrary).
 
-[![image](/assets/img/wordpress/2012/07/image_thumb52.png "image")](/assets/img/wordpress/2012/07/image50.png)
+[![image](/assets/img/wordpress/2012/07/image52.png "image")](/assets/img/wordpress/2012/07/image50.png)
 
 Next Right-Click on the new PlatformerGameLibrary project and select “Add –\> Existing Item” which will pop up the File Browse wizard and navigate to the folder where the Platformer sample game code is located, this is key especially if you want to maintain a multi-platform project where we want to share code.
 
@@ -77,7 +72,7 @@ If you just want a separate SilverXNA project in which case just copy the code d
 
 Next Right click the Solution and select “Add –\> Existing Project” and browse to the location of the Platformer sample Content folder, then select the content project there.  You should now end up with the following:
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb53.png "image")](/assets/img/wordpress/2012/07/image51.png) | So our project is now made up of:
+| [![image](/assets/img/wordpress/2012/07/image53.png "image")](/assets/img/wordpress/2012/07/image51.png) | So our project is now made up of:
 
 > ![align=](http://www.dotnetscraps.com/samples/bullets/013.gif)    The Content project from our existing XNA solution unchanged (although make sure it is a phone variation of the Content project with assets resized and compressed appropriately using the same asset names as it is XBOX / PC counterpart if you have one)
 > 
@@ -239,9 +234,9 @@ Now if you are doing your own project you should have already done the prerequis
 >                                     
 >                                     
 >                                     
-> ![image](/assets/img/wordpress/2012/07/image_thumb54.png "image")
+> ![image](/assets/img/wordpress/2012/07/image54.png "image")
 >                                         
-> Now one reason for this is simple, by default XNA will start games in Landscape, in Silverlight the default is Portrait, simples [![image](/assets/img/wordpress/2012/07/image_thumb55.png "image")](/assets/img/wordpress/2012/07/image53.png).  So we just need to tell the GamePage that we would like it in Landscape Pretty please (note that every page needs to be set to Landscape or Portrait unlike XNA where it is set once on start-up and only changes if you tell it to or if the user rotates the device if supported)
+> Now one reason for this is simple, by default XNA will start games in Landscape, in Silverlight the default is Portrait, simples [![image](/assets/img/wordpress/2012/07/image55.png "image")](/assets/img/wordpress/2012/07/image53.png).  So we just need to tell the GamePage that we would like it in Landscape Pretty please (note that every page needs to be set to Landscape or Portrait unlike XNA where it is set once on start-up and only changes if you tell it to or if the user rotates the device if supported)
 >                                         
 >                                         
 >                                         

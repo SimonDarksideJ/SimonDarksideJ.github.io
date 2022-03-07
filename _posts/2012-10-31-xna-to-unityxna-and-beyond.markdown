@@ -1,13 +1,8 @@
 ---
 layout: post
 title: XNA to UnityXNA and Beyond
-date: '2012-10-31 15:38:34'
-tags:
-- unity-3d-tutorials
-- unity3d
-- xna
-- xna-2d-tutorials
-- xna-related
+date: 2012-10-31 15:38:34
+tags: [xna, unity3d]
 ---
 
 Continuing on the exploration of XNA future I posted about an interesting new framework that was brewing by [Barnaby Smith over at MVINetwork](http://mvinetwork.co.uk/), a curious project aiming to bring the ease of use of XNA into the Unity3D engine.
@@ -74,27 +69,27 @@ To use the package simply copy it to the Unity install folder under “Editor\St
 
 Now create a folder on your machine for the project and then start a new project in Unity using “File –\> New Project”
 
-[![image](/assets/img/wordpress/2012/10/image_thumb7.png "image")](/assets/img/wordpress/2012/10/image7.png)
+[![image](/assets/img/wordpress/2012/10/image7.png "image")](/assets/img/wordpress/2012/10/image7.png)
 
 You should now see the “New Project” dialog, select the folder you created for the project and if you copied the “UnityXNA” package into the correct location you will also see the “Import Package” for UnityXNA:
 
-[![image](/assets/img/wordpress/2012/10/image_thumb8.png "image")](/assets/img/wordpress/2012/10/image8.png)
+[![image](/assets/img/wordpress/2012/10/image8.png "image")](/assets/img/wordpress/2012/10/image8.png)
 
 Now (after selecting the UnityXNA package) if you click on create you will be presented with the Unity3D editor and the UnityXNA package contents:
 
 (If you just opened the downloaded source from GitHub you would see the following plus the XNA platformer content)
 
-[![image](/assets/img/wordpress/2012/10/image_thumb9.png "image")](/assets/img/wordpress/2012/10/image9.png)
+[![image](/assets/img/wordpress/2012/10/image9.png "image")](/assets/img/wordpress/2012/10/image9.png)
 
 This is what we get in the project contents:
 
-[![image](/assets/img/wordpress/2012/11/image_thumb3.png "image")](/assets/img/wordpress/2012/11/image4.png)
+[![image](/assets/img/wordpress/2012/11/image3.png "image")](/assets/img/wordpress/2012/11/image4.png)
 
 * * *
 
 # Content Processing
 
-[![image](/assets/img/wordpress/2012/10/image_thumb14.png "image")](/assets/img/wordpress/2012/10/image14.png)
+[![image](/assets/img/wordpress/2012/10/image14.png "image")](/assets/img/wordpress/2012/10/image14.png)
 
 Now unlike MonoGame, Unity does not need you to pre-process your assets before loading them in to Unity, you can just copy them directly into the Unity project by dragging and dropping them into the Content Folder.  There are a few exceptions that I’ve found:
 
@@ -106,7 +101,7 @@ Other than that there is NO change, all your assets will work as is, +1 for Unit
 
 Unity3D (like Visual Studio 2012) also has an asset / model inspector so you can see your assets from inside the editor without having to run your game, great for checking the asset has been prepared correctly:
 
-[![image](/assets/img/wordpress/2012/10/image_thumb10.png "image")](/assets/img/wordpress/2012/10/image10.png)
+[![image](/assets/img/wordpress/2012/10/image10.png "image")](/assets/img/wordpress/2012/10/image10.png)
 
 * * *
 
@@ -120,7 +115,7 @@ If you are porting your project over just ensure that you update your “Namespa
 
 Now by default the Unity3D editor uses MonoDevelop as its development studio to edit code files, but thankfully since Unity3D 3.5 you can now also use Visual Studio, to configure this just go to “Edit –\> Preferences” in the Unity Editor and under the “External Tools” tab just change the “External Script Editor” option to “Visual Studio” (it is unclear from the documentation whether Visual Studio Express is enough to enable this integration, possibly only Standard and above may do)
 
-[![image](/assets/img/wordpress/2012/10/image_thumb11.png "image")](/assets/img/wordpress/2012/10/image11.png)
+[![image](/assets/img/wordpress/2012/10/image11.png "image")](/assets/img/wordpress/2012/10/image11.png)
 
 * * *
 
@@ -138,7 +133,7 @@ When you have your game all up and running and you are ready to deploy, then Uni
 
 Just Select “File –\> Build & Run” (or just “Build Settings”) and you will be presented with the “Build Settings” screen:
 
-[![image](/assets/img/wordpress/2012/10/image_thumb12.png "image")](/assets/img/wordpress/2012/10/image12.png)
+[![image](/assets/img/wordpress/2012/10/image12.png "image")](/assets/img/wordpress/2012/10/image12.png)
 
 From here (after you select / add your scene) you can select the platform you wish to create a package for from the selection available plus any additional options for either development or platform purposes, for example the Windows “Target Platform” option lets you target 64bit Windows, 32Bit Windows or Mac.
 
@@ -184,7 +179,7 @@ If you want a quick and easy answer without learning all of Unity’s quirks and
 
 And just to show I’m building from a strong base, here is my Starter 2D series tutorial ported to UnityXNA in only 1 hour, most of which was just removing touch / accelerometer functionality because it was a Windows Phone project.
 
-[![image](/assets/img/wordpress/2012/10/image_thumb13.png "image")](/assets/img/wordpress/2012/10/image13.png)
+[![image](/assets/img/wordpress/2012/10/image13.png "image")](/assets/img/wordpress/2012/10/image13.png)
 
 As with the MonoGame article I will release my sample above when I get a chance ![Open-mouthed smile](/assets/img/wordpress/2012/10/wlEmoticon-openmouthedsmile1.png).
 

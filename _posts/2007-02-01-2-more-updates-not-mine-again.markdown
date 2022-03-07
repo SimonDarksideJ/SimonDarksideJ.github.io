@@ -1,9 +1,8 @@
 ---
 layout: post
 title: 2 More updates - not mine again!
-date: '2007-02-01 10:33:53'
-tags:
-- xna-related
+date: 2007-02-01 10:33:53
+tags: [xna]
 ---
 
 I should really get back to writing my own posts soon, My camera guide is moving along and the sample code does do both Matrix and Quaternion based calculations (and reuses the Quaternion method for rotating models in the view – works best)

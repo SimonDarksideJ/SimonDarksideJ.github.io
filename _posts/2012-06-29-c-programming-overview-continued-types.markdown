@@ -1,12 +1,8 @@
 ---
 layout: post
 title: C# Programming Overview continued - Types
-date: '2012-06-29 09:17:40'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:17:40
+tags: [2d tutorial, game development, xna]
 ---
 
 ### 1. Value Types

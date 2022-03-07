@@ -11,7 +11,7 @@ I finally managed to get my Marketplace account sorted for my own indie game stu
 
 What follows is a brief post about what it took to get these up there and my plans for the future of them, it will be brief because I am currently in the middle of a release cycle for my proper app (I will mention that at the end)
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb105.png "image")](/assets/img/wordpress/2012/07/image102.png) | [![image](/assets/img/wordpress/2012/07/image_thumb106.png "image")](/assets/img/wordpress/2012/07/image103.png) |
+| [![image](/assets/img/wordpress/2012/07/image105.png "image")](/assets/img/wordpress/2012/07/image102.png) | [![image](/assets/img/wordpress/2012/07/image106.png "image")](/assets/img/wordpress/2012/07/image103.png) |
 | 
 
 > [The 2D XNA StarTrooper series](http://bit.ly/gmivLx "The StarTrooper XNA 2D tutorial series")
@@ -126,7 +126,7 @@ All in all it took me less than one day to get ready, granted this was spaced ov
 
 ### ”Flipped” – The first release under ZenithMoon Studios
 
-| [![ZenithMoon Logo](/assets/img/wordpress/2012/07/ZenithMoon-Logo_thumb.png "ZenithMoon Logo")](/assets/img/wordpress/2012/07/ZenithMoon-Logo.png) | 
+| [![ZenithMoon Logo](/assets/img/wordpress/2012/07/ZenithMoon-Logo.png "ZenithMoon Logo")](/assets/img/wordpress/2012/07/ZenithMoon-Logo.png) | 
 
 | 
 ##### [Flipped – Paid version (With Trial)](http://windowsphone.com/s?appid=c069cb34-4adb-4997-8365-b51a93a80db0)

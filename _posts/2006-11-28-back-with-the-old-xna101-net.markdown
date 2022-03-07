@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Back with the old - XNA101.NET
-date: '2006-11-28 20:01:43'
-tags:
-- ramblings
-- xna-related
+date: 2006-11-28 20:01:43
+tags: [ramblings, xna]
 ---
 
  

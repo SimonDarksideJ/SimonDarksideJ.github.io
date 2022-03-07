@@ -1,12 +1,8 @@
 ---
 layout: post
 title: WCF on the Windows Phone 7 - The How to Guide
-date: '2012-06-29 21:06:53'
-tags:
-- networking
-- tutorials-resources
-- wcf
-- windows-phone
+date: 2012-06-29 21:06:53
+tags: [windows phone, networking]
 ---
 
 Well at the behest of [Michael B McLaughlin](http://geekswithblogs.net/mikebmcl/Default) ([@MikeBMCL](http://twitter.com/mikebmcl) on Twitter), Here’s a run down of what you need to know to get WCF working on the Windows Phone 7, both for Silverlight and XNA.  this is just going to be a brief overview and the full detail will be included in the LeaderBoard sample for Silverlight and XNA coming soon.

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Insomnia56, ID@Xbox and Hour of code mashup
-date: '2016-01-07 18:07:19'
-tags:
-- events
-- hour-of-code
-- idxbox
-- insomnia
+date: 2016-01-07 18:07:19
+tags: [events]
 ---
 
 ![](http://bc-gb.com/wp-content/uploads/2015/09/i562-900x450.jpg)
@@ -25,7 +21,7 @@ For my sins, I offered my services to come and help out on the Microsoft stand a
 
 A large part of the Microsoft stand was dedicated to a host of recently released and upcoming [ID@Xbox](mailto:ID@Xbox) titles, running both on XboxOne and also Windows10.
 
-[![WP_20151212_09_58_41_Pro_LI[1]](/assets/img/wordpress/2015/12/WP_20151212_09_58_41_Pro_LI1_thumb.jpg "WP\_20151212\_09\_58\_41\_Pro\_LI[1]")](/assets/img/wordpress/2015/12/WP_20151212_09_58_41_Pro_LI1.jpg)
+[![WP_20151212_09_58_41_Pro_LI[1]](/assets/img/wordpress/2015/12/WP_20151212_09_58_41_Pro_LI1.jpg "WP\_20151212\_09\_58\_41\_Pro\_LI[1]")](/assets/img/wordpress/2015/12/WP_20151212_09_58_41_Pro_LI1.jpg)
 
 Many of the ID developer’s themselves were on hand to answer queries and probe players on their enjoyment factor. With a lot of these being pre-release, the developers were using the opportunity to take notes and make final alterations to make their games the best they could be.
 
@@ -51,11 +47,11 @@ Seeing all of these titles on the big stage and indeed, the big screen was total
 
 Starting with the most awesome part of the event I was supporting, the Hour of code is yet another initiative by Microsoft to get people involved in learning to code, this time they are lowering the barrier even further aiming at primary kids and higher (ages 6.106). This new track builds a more visual interface for understanding the base concepts behind coding, the logic and underlying bricks needed to chain commands together to achieve a task.  What is really nice this time around is that the lessons are now themed, taking the gamification of learning to a whole new level, see here:
 
-[![image](/assets/img/wordpress/2015/12/image_thumb.png "image")](/assets/img/wordpress/2015/12/image.png)
+[![image](/assets/img/wordpress/2015/12/image.png "image")](/assets/img/wordpress/2015/12/image.png)
 
 Each theme follows a level paced course complete with teaching notes for assistance as well, for parents and teachers alike.  Although to be honest based on the masses of kids who jumped in on the stand, they seemed to make short work of the basic classes, ready and hungry to tackle the more advanced courses.
 
-[![WP_20151212_12_21_42_Pro_LI[1]](/assets/img/wordpress/2015/12/WP_20151212_12_21_42_Pro_LI1_thumb.jpg "WP\_20151212\_12\_21\_42\_Pro\_LI[1]")](/assets/img/wordpress/2015/12/WP_20151212_12_21_42_Pro_LI1.jpg)
+[![WP_20151212_12_21_42_Pro_LI[1]](/assets/img/wordpress/2015/12/WP_20151212_12_21_42_Pro_LI1.jpg "WP\_20151212\_12\_21\_42\_Pro\_LI[1]")](/assets/img/wordpress/2015/12/WP_20151212_12_21_42_Pro_LI1.jpg)
 
 As you can see, we were very busy.  it was like this most of the day, by the end both I and the two MSP’s (Microsoft Student Partners Khalid and Edward) were very tired, yet eager to help out the next student or parent.
 
@@ -80,11 +76,11 @@ So what are you waiting for, get learning, get coding and get building your own 
 
 # Xbox marketing at its best
 
-[![image](/assets/img/wordpress/2015/12/image_thumb-1.png "image")](/assets/img/wordpress/2015/12/image-1.png)
+[![image](/assets/img/wordpress/2015/12/image-1.png "image")](/assets/img/wordpress/2015/12/image-1.png)
 
 If you like Xbox games, as many of the visitors to the stands did, you will have a wealth of games to try out (and then head to the Game stand next door to buy), anything from the new Tomb Raider, Halo 5, Fifa, Forzza and much much more.  Even if you just want to stand by the sidelines and jest at those playing the latest Guitar hero on their custom stands.  Also in attendance was Lego Dimensions, which by all accounts will drain me of any remaining cash I have in this festive period. Might even let my youngest son play as well ![Open-mouthed smile](/assets/img/wordpress/2015/12/wlEmoticon-openmouthedsmile.png)
 
-[![WP_20151212_17_20_30_Pro_LI[1]](/assets/img/wordpress/2015/12/WP_20151212_17_20_30_Pro_LI1_thumb.jpg "WP\_20151212\_17\_20\_30\_Pro\_LI[1]")](/assets/img/wordpress/2015/12/WP_20151212_17_20_30_Pro_LI1.jpg)
+[![WP_20151212_17_20_30_Pro_LI[1]](/assets/img/wordpress/2015/12/WP_20151212_17_20_30_Pro_LI1.jpg "WP\_20151212\_17\_20\_30\_Pro\_LI[1]")](/assets/img/wordpress/2015/12/WP_20151212_17_20_30_Pro_LI1.jpg)
 
 P.S. If you spot this guy on an Xbox stand, give him a hug pat on the back from me. He works his socks off to ensure everything goes off without a hitch! ![Open-mouthed smile](/assets/img/wordpress/2015/12/wlEmoticon-openmouthedsmile.png)
 
@@ -98,9 +94,9 @@ All in all the event was a complete blast. Talking to kids young and old alike a
 
 If you get a chance to get to the next event, I highly recommend it.  If you are really hard core, you can also stay at their custom accommodation, not for the faint of heart!
 
-[![WP_20151212_15_32_35_Pro_LI[1]](/assets/img/wordpress/2015/12/WP_20151212_15_32_35_Pro_LI1_thumb.jpg "WP\_20151212\_15\_32\_35\_Pro\_LI[1]")](/assets/img/wordpress/2015/12/WP_20151212_15_32_35_Pro_LI1.jpg)
+[![WP_20151212_15_32_35_Pro_LI[1]](/assets/img/wordpress/2015/12/WP_20151212_15_32_35_Pro_LI1.jpg "WP\_20151212\_15\_32\_35\_Pro\_LI[1]")](/assets/img/wordpress/2015/12/WP_20151212_15_32_35_Pro_LI1.jpg)
 
 I would also like to thank the rest of the team on the stand, you just never know who you are going to meet ![Open-mouthed smile](/assets/img/wordpress/2015/12/wlEmoticon-openmouthedsmile.png)
 
-[![WP_20151212_17_21_16_Pro[1]](/assets/img/wordpress/2015/12/WP_20151212_17_21_16_Pro1_thumb.jpg "WP\_20151212\_17\_21\_16\_Pro[1]")](/assets/img/wordpress/2015/12/WP_20151212_17_21_16_Pro1.jpg)
+[![WP_20151212_17_21_16_Pro[1]](/assets/img/wordpress/2015/12/WP_20151212_17_21_16_Pro1.jpg "WP\_20151212\_17\_21\_16\_Pro[1]")](/assets/img/wordpress/2015/12/WP_20151212_17_21_16_Pro1.jpg)
 

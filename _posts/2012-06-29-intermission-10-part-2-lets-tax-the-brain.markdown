@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #10 - (Part 2) lets tax the brain'
-date: '2012-06-29 11:22:49'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 11:22:49
+tags: [2d tutorial, game development, xna]
 ---
 
 Apologies, had to split the post do to some technical issues on teh XNA-UK site, were working hard to resolve that but fo rnow, here is the continuation of the Intermission 10 post.

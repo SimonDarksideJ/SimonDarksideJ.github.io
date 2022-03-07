@@ -1,13 +1,8 @@
 ---
 layout: post
 title: XNA to SilverXNA-part 6 Adding a bit of Flash
-date: '2012-07-01 23:09:06'
-tags:
-- silverlight
-- silverxna
-- silverxna-tutorials
-- windows-phone
-- xna
+date: 2012-07-01 23:09:06
+tags: [silverlight, xna]
 ---
 
 ![width=](http://media.digikey.com/photos/Winbond/256-20-DIP.jpg)
@@ -78,19 +73,19 @@ Next we will setup our Visual State group and define our initial Visual state th
 
 So in the States tab click on the “Add State Group” icon to define our top level group (State groups are just a way of organising groups of states) as shown below:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb90.png "image")](/assets/img/wordpress/2012/07/image87.png)
+[![image](/assets/img/wordpress/2012/07/image90.png "image")](/assets/img/wordpress/2012/07/image87.png)
 
 Do not worry about Naming the state group here, as we only have one it does not really matter, if you have multiple groups on a page then by all means name them just to make it easier to organise them.
 
 Next we need to add our default state so click the “Add State” icon on our new state group and name it “GameRunning” as follows:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb91.png "image")](/assets/img/wordpress/2012/07/image88.png)
+[![image](/assets/img/wordpress/2012/07/image91.png "image")](/assets/img/wordpress/2012/07/image88.png)
 
 You will notice that the design window at this point now has a red border and a red icon is next to our new state, this means Blend is now in state recording mode, any property or control you change now will be recorded against the selected state.  As this is our default state and everything is ready what ever you do do not change anything ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile6.png).
 
 Click on the “Add State” button on the state group again to add another state and call it “DisplayWin”:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb92.png "image")](/assets/img/wordpress/2012/07/image89.png)
+[![image](/assets/img/wordpress/2012/07/image92.png "image")](/assets/img/wordpress/2012/07/image89.png)
 
 Now with this state selected we want to update our screen to represent what we want displayed when this state is active, so update the “WinOverlayControl” properties to the following (effectively resetting the control back in to the foreground)
 
@@ -103,13 +98,13 @@ Now with this state selected we want to update our screen to represent what we w
 
 You should now see the “WinOverlayControl” front and centre in the design window as shown below:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb93.png "image")](/assets/img/wordpress/2012/07/image90.png)
+[![image](/assets/img/wordpress/2012/07/image93.png "image")](/assets/img/wordpress/2012/07/image90.png)
 
 As before, make sure what you touch because everything you change will be recorded against the selected state, there has been many a time when I thought I then selected another state and started to update more properties only to fine I would just messed everything up by doing everything on the same or the default state ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile6.png), thank goodness for Ctrl-Z.
 
 Now repeat the steps for the “WinOverlayControl” by creating new States (NOT state groups) and naming / updating properties appropriately, you should end up with the following state tree:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb94.png "image")](/assets/img/wordpress/2012/07/image91.png)
+[![image](/assets/img/wordpress/2012/07/image94.png "image")](/assets/img/wordpress/2012/07/image91.png)
 
 If you need to make changes to the base / default state or just look at the design view without mucking up any of your recorded states then just click on the “Base” state as shown above.
 
@@ -117,7 +112,7 @@ Now we have our states defined but we do not actually have any animation as yet,
 
 So on the “Default Transition”, click on the “Easing Function” icon to show all the different ways you can animate between each of the states, for simplicity I selected the “Circle” function and then set the “Transition Duration” (next to the easing function button) to 1 meaning it will take 1 second to perform the animation (more than enough in most cases!)
 
-[![image](/assets/img/wordpress/2012/07/image_thumb95.png "image")](/assets/img/wordpress/2012/07/image92.png)
+[![image](/assets/img/wordpress/2012/07/image95.png "image")](/assets/img/wordpress/2012/07/image92.png)
 
 Now when you click on each of the visual states you will see a nice animation for how each control with appear on the screen.  You can go a lot further than this by controlling how each state transitions between each other and how they interact so I suggest you play around with this a lot more, even for a basic system it can give you a lot of functionality.
 
@@ -182,7 +177,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    [![image](/assets/img/wordpress/2012/07/image_thumb96.png "image")](/assets/img/wordpress/2012/07/image93.png)
+    [![image](/assets/img/wordpress/2012/07/image96.png "image")](/assets/img/wordpress/2012/07/image93.png)
     
     
     
@@ -194,7 +189,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    [![image](/assets/img/wordpress/2012/07/image_thumb97.png "image")](/assets/img/wordpress/2012/07/image94.png)
+    [![image](/assets/img/wordpress/2012/07/image97.png "image")](/assets/img/wordpress/2012/07/image94.png)
     
     
     
@@ -202,7 +197,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    [![image](/assets/img/wordpress/2012/07/image_thumb98.png "image")](/assets/img/wordpress/2012/07/image95.png)
+    [![image](/assets/img/wordpress/2012/07/image98.png "image")](/assets/img/wordpress/2012/07/image95.png)
     
     
     
@@ -234,7 +229,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    [![image](/assets/img/wordpress/2012/07/image_thumb99.png "image")](/assets/img/wordpress/2012/07/image96.png)
+    [![image](/assets/img/wordpress/2012/07/image99.png "image")](/assets/img/wordpress/2012/07/image96.png)
     
     
     
@@ -255,7 +250,7 @@ I also decided to keep these dependency properties and behaviours separate in th
     
     
     
-    | [![image](/assets/img/wordpress/2012/07/image_thumb100.png "image")](/assets/img/wordpress/2012/07/image97.png) | [![image](/assets/img/wordpress/2012/07/image_thumb101.png "image")](/assets/img/wordpress/2012/07/image98.png) |
+    | [![image](/assets/img/wordpress/2012/07/image100.png "image")](/assets/img/wordpress/2012/07/image97.png) | [![image](/assets/img/wordpress/2012/07/image101.png "image")](/assets/img/wordpress/2012/07/image98.png) |
     | Visual tree with Behaviour | Behaviour property window |
     
     

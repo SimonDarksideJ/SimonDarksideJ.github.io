@@ -1,13 +1,8 @@
 ---
 layout: post
 title: HLSL Development Cookbook - a review
-date: '2013-08-02 16:25:21'
-tags:
-- book-review
-- hlsl
-- information
-- shaders
-- tutorials-resources
+date: 2013-08-02 16:25:21
+tags: [book review,shaders]
 ---
 
 While finally getting back round to me game development roots another interesting book crossed my desk which delves into the mysterious and sometimes scary world of shaders.

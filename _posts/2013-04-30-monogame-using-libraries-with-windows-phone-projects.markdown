@@ -1,14 +1,11 @@
 ---
 layout: post
 title: 'MonoGame: Using libraries with Windows Phone projects'
-date: '2013-04-30 13:17:06'
-tags:
-- monogame
-- tutorials-resources
-- windows-phone
+date: 2013-04-30 13:17:06
+tags: [monogame, windows-phone]
 ---
 
-[![image](/assets/img/wordpress/2013/04/image_thumb18.png "image")](/assets/img/wordpress/2013/04/image19.png)
+[![image](/assets/img/wordpress/2013/04/image18.png "image")](/assets/img/wordpress/2013/04/image19.png)
 
 A challenge faced by the [MonoGame](http://monogame.net/) team when they created Windows Phone 8 support was that XNA is actually included with the platform, this created a unique challenge because it was
 

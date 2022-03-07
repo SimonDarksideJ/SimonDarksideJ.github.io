@@ -1,10 +1,9 @@
 ---
 layout: post
 title: The eternal battle with disk space
-date: '2019-05-15 13:42:31'
+date: 2019-05-15 13:42:31
 img: /assets/img/wordpress/2019/05/image.png
-tags:
-- tips-and-tricks
+tags: [tips and tricks]
 ---
 
 From the earliest days of my youth, we have always battled with finding space to install “stuff” on our computers.  Whether it was fragmentation, whittling down all the unnecessary things we don’t need or just plain burring millions of cat pictures to CD’s, we always needed more space.

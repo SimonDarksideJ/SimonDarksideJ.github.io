@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Would you like Ads with that! - Intro to AdRotator for WP7
-date: '2012-07-02 13:16:37'
-tags:
-- adrotator
-- mobile-advertising
-- silverlight
-- silverxna
-- tutorials-resources
+date: 2012-07-02 13:16:37
+tags: [monetisation, adrotator, windows phone]
 ---
 
 One of those things we always strive for when we write games and apps for a platform is the hope of some recognition for our efforts or failing that a huge pile of cash to admire from our yacht parked in some temperate climate ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile10.png)
@@ -76,17 +71,17 @@ If you already have all the Ad Providers you want then jump past this section to
 
 Pubcenter is Microsoft’s Ad network, it has the highest pay-out rates in the US, one thing to check is if your county is supported for publishing Ads as it is only recently expanded outside the US with other countries on the roadmap.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb107.png "image")](/assets/img/wordpress/2012/07/image104.png)
+[![image](/assets/img/wordpress/2012/07/image107.png "image")](/assets/img/wordpress/2012/07/image104.png)
 
 Login / Sign up to Pubcenter using your Microsoft Live ID and register a new app / Ad Unit, this will create your new account and setup your first application also select 3 Categories of ads to be served to your app and a Banner size of “480×80 XX-Large banner”.
 
 Note down the Application ID and Ad Unit ID for use later:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb108.png "image")](/assets/img/wordpress/2012/07/image105.png)
+[![image](/assets/img/wordpress/2012/07/image108.png "image")](/assets/img/wordpress/2012/07/image105.png)
 
 If you already have an account, be sure to setup BOTH an application and an Add Unit ID as shown below:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb109.png "image")](/assets/img/wordpress/2012/07/image106.png)
+[![image](/assets/img/wordpress/2012/07/image109.png "image")](/assets/img/wordpress/2012/07/image106.png)
 
 ## <u></u>
 
@@ -94,25 +89,25 @@ If you already have an account, be sure to setup BOTH an application and an Add 
 
 AdDuplex is an App Sharing network, not really focused on Ad Revenue but rather cross promotion of your apps.  They do offer some cash generating options but is it business orientated and requires you to pay for the service.  Check back often though as they are always doing offers and competitions.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb110.png "image")](/assets/img/wordpress/2012/07/image107.png)
+[![image](/assets/img/wordpress/2012/07/image110.png "image")](/assets/img/wordpress/2012/07/image107.png)
 
 Once you have registered your account and logged on, create a new app
 
-[![image](/assets/img/wordpress/2012/07/image_thumb111.png "image")](/assets/img/wordpress/2012/07/image108.png)
+[![image](/assets/img/wordpress/2012/07/image111.png "image")](/assets/img/wordpress/2012/07/image108.png)
 
 Next Create a new Ad
 
-[![image](/assets/img/wordpress/2012/07/image_thumb112.png "image")](/assets/img/wordpress/2012/07/image109.png)
+[![image](/assets/img/wordpress/2012/07/image112.png "image")](/assets/img/wordpress/2012/07/image109.png)
 
 Next up you need to decide what text to be displayed in other apps as 4 separate text lines (displayed in pairs)
 
-[![image](/assets/img/wordpress/2012/07/image_thumb113.png "image")](/assets/img/wordpress/2012/07/image110.png)
+[![image](/assets/img/wordpress/2012/07/image113.png "image")](/assets/img/wordpress/2012/07/image110.png)
 
 If your app is already on the marketplace then place the DeepLink for your app in the APP ID field, if not just leave it blank for now
 
 Once done then just record the APP ID from the Ad details:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb114.png "image")](/assets/img/wordpress/2012/07/image111.png)
+[![image](/assets/img/wordpress/2012/07/image114.png "image")](/assets/img/wordpress/2012/07/image111.png)
 
 ## <u></u>
 
@@ -122,15 +117,15 @@ AdMob has been around for ages and is the premier Ad Provider on Android (no sur
 
 Visit the site logon using your google ID and click on “Get Started” button and register your details for AdMon, with that done “Create a New App”:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb115.png "image")](/assets/img/wordpress/2012/07/image112.png)
+[![image](/assets/img/wordpress/2012/07/image115.png "image")](/assets/img/wordpress/2012/07/image112.png)
 
 Once you have selected the Windows 7 Option you will be presented with the Ad details:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb116.png "image")](/assets/img/wordpress/2012/07/image113.png)
+[![image](/assets/img/wordpress/2012/07/image116.png "image")](/assets/img/wordpress/2012/07/image113.png)
 
 Once created navigate back to the app lists and select “Manage” against your new app, then note down the Publisher ID:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb117.png "image")](/assets/img/wordpress/2012/07/image114.png)
+[![image](/assets/img/wordpress/2012/07/image117.png "image")](/assets/img/wordpress/2012/07/image114.png)
 
 ## <u></u>
 
@@ -140,7 +135,7 @@ InnerActive is one of the new boys to the Ad Provider network, their signup proc
 
 Navigate to the site and click on “Getting Started”
 
-[![image](/assets/img/wordpress/2012/07/image_thumb118.png "image")](/assets/img/wordpress/2012/07/image115.png)
+[![image](/assets/img/wordpress/2012/07/image118.png "image")](/assets/img/wordpress/2012/07/image115.png)
 
 Now here is where it stops for a while with Inneractive, you will get a mail to activate your account and some contact to set up your Ad Unit ID, once you have that keep it safe, it should look something like this:
 
@@ -154,19 +149,19 @@ Another stable platform for use in delivering Ads, not much more to say on this 
 
 Go to the site and click on the link to register as a Publisher:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb119.png "image")](/assets/img/wordpress/2012/07/image116.png)
+[![image](/assets/img/wordpress/2012/07/image119.png "image")](/assets/img/wordpress/2012/07/image116.png)
 
 Once logged in click on the link to “Create your mobile application or website” and you will be taken to the following screen:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb120.png "image")](/assets/img/wordpress/2012/07/image117.png)
+[![image](/assets/img/wordpress/2012/07/image120.png "image")](/assets/img/wordpress/2012/07/image117.png)
 
 After you have selected WP7 Application you then need to enter the details for your app as follows:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb121.png "image")](/assets/img/wordpress/2012/07/image118.png)
+[![image](/assets/img/wordpress/2012/07/image121.png "image")](/assets/img/wordpress/2012/07/image118.png)
 
 Lastly you will be presented with your Publisher ID, keep it safe for later:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb122.png "image")](/assets/img/wordpress/2012/07/image119.png)
+[![image](/assets/img/wordpress/2012/07/image122.png "image")](/assets/img/wordpress/2012/07/image119.png)
 
 ## <u></u>
 
@@ -180,11 +175,11 @@ When you first logon you will be asked to enter payment details, you can either 
 
 When you get the main account screen up, click on the “Create Ad Space” button and you will be presented with the following screen:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb123.png "image")](/assets/img/wordpress/2012/07/image120.png)
+[![image](/assets/img/wordpress/2012/07/image123.png "image")](/assets/img/wordpress/2012/07/image120.png)
 
 Once you have setup your ad space you will have an Ad Space ID and Publisher ID, make sure you make a reference of these:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb124.png "image")](/assets/img/wordpress/2012/07/image121.png)
+[![image](/assets/img/wordpress/2012/07/image124.png "image")](/assets/img/wordpress/2012/07/image121.png)
 
 One tip with Smaato, you will get more Ads and references if you fill out your profile for the Ad Space, just click on the Icon under profile to do this.  It is important that you supply the Marketplace Deep link on your profile to start generating revenue!
 
@@ -328,7 +323,7 @@ I have updated both of the SilverXNA solutions from the Starter tutorial set and
 
 What are you waiting for Go Get some Ads.
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb125.png "image")](/assets/img/wordpress/2012/07/image122.png) | [![image](/assets/img/wordpress/2012/07/image_thumb126.png "image")](/assets/img/wordpress/2012/07/image123.png) |
+| [![image](/assets/img/wordpress/2012/07/image125.png "image")](/assets/img/wordpress/2012/07/image122.png) | [![image](/assets/img/wordpress/2012/07/image126.png "image")](/assets/img/wordpress/2012/07/image123.png) |
 | 
 
 The Starter 2D app with Ads in Game   
@@ -354,11 +349,11 @@ I have also put the new ad control into my Current game on the marketplace and i
 
 | 
 
-| [![Screenshot](/assets/img/wordpress/2012/07/Screenshot_thumb.png "Screenshot")](/assets/img/wordpress/2012/07/Screenshot.png) | [![Screenshot3](/assets/img/wordpress/2012/07/Screenshot3_thumb.png "Screenshot3")](/assets/img/wordpress/2012/07/Screenshot3.png) |
+| [![Screenshot](/assets/img/wordpress/2012/07/Screenshot.png "Screenshot")](/assets/img/wordpress/2012/07/Screenshot.png) | [![Screenshot3](/assets/img/wordpress/2012/07/Screenshot3.png "Screenshot3")](/assets/img/wordpress/2012/07/Screenshot3.png) |
 
  | 
 
-| [![Screenshot4](/assets/img/wordpress/2012/07/Screenshot4_thumb.png "Screenshot4")](/assets/img/wordpress/2012/07/Screenshot4.png) | [![Screenshot5](/assets/img/wordpress/2012/07/Screenshot5_thumb.png "Screenshot5")](/assets/img/wordpress/2012/07/Screenshot5.png) |
+| [![Screenshot4](/assets/img/wordpress/2012/07/Screenshot4.png "Screenshot4")](/assets/img/wordpress/2012/07/Screenshot4.png) | [![Screenshot5](/assets/img/wordpress/2012/07/Screenshot5.png "Screenshot5")](/assets/img/wordpress/2012/07/Screenshot5.png) |
 
  |
 | [![download](/assets/img/wordpress/2012/07/download.png "download")](http://windowsphone.com/s?appid=c069cb34-4adb-4997-8365-b51a93a80db0) | [![downloadfree](/assets/img/wordpress/2012/07/downloadfree.png "downloadfree")](http://windowsphone.com/s?appid=7dea31e4-b0c5-4582-8a20-2817f2fb7a65) |

@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Start building for XBOX ONE - NOW!!!
-date: '2013-12-12 17:26:41'
-tags:
-- game-development
-- information
-- publishing
-- unity3d
-- xboxone
+date: 2013-12-12 17:26:41
+tags: [xbox, information]
 ---
 
 ![src=]()

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: The gift that keeps on Giving - Packt Publishing donates sales to Charity
-date: '2015-02-17 17:49:10'
-tags:
-- information
-- packtpub
-- pwsa
-- unity-3d-ui-essentials
+date: 2015-02-17 17:49:10
+tags: [information]
 ---
 
 Today I am very proud, not just of the efforts and feedback I’ve been getting for my latest title Unity 3D UI Essentials but also for my publisher who (against all odds) has done an amazing thing, **promised a portion of sales revenue for my book to Charity**.
@@ -31,7 +27,7 @@ We were lucky in some aspects as we were informed about his condition when he wa
 
 # Power to the UI
 
-[![3560_Unity 3D GUI Essentials_0](/assets/img/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0-243x300.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
+[![3560_Unity 3D GUI Essentials_0](/assets/img/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
 
  
 

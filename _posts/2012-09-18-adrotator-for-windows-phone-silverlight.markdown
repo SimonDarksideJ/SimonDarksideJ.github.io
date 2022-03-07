@@ -1,15 +1,11 @@
 ---
 layout: post
 title: AdRotator for Windows Phone Silverlight
-date: '2012-09-18 16:07:22'
-tags:
-- adrotator
-- silverlight
-- tutorials-resources
-- windows-phone
+date: 2012-09-18 16:07:22
+tags: [adrotator, windows phone]
 ---
 
-[![Icon_1_purple](/assets/img/wordpress/2012/09/Icon_1_purple_thumb.png "Icon\_1\_purple")](/assets/img/wordpress/2012/09/Icon_1_purple.png)          ![ /></p>
+[![Icon_1_purple](/assets/img/wordpress/2012/09/Icon_1_purple.png "Icon\_1\_purple")](/assets/img/wordpress/2012/09/Icon_1_purple.png)          ![ /></p>
 <h1>AdRotator for Windows Phone Silverlight V1.2 release</h1>
 <p>With the release of what is likely the last version in the V1 branch of AdRotator for Windows Phone Silverlight I have gone some lengths to make sure the documentation and samples are also feature complete.</p>
 <p>For the XNA version read this article and then <a href=](http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Microsoft_Silverlight_logo.png/150px-Microsoft_Silverlight_logo.png)continue on to here
@@ -30,7 +26,7 @@ Now for the important bit!, just add the control to your Silverlight project on 
 
 First copy the AdRotator DLL and the supported Ad Providers DLL’s to a folder in your project (at this time you have to add references to all the Ad Providers even if you only intend to use a few (we hope to remove this limitation in V2), but in any case it does not harm your solution or its size doing so, plus if you wish to later configure another provider you still do not have to change your deployed product.  Then add the references in your project as follows:
 
-[![image](/assets/img/wordpress/2012/09/image_thumb5.png "image")](/assets/img/wordpress/2012/09/image5.png)
+[![image](/assets/img/wordpress/2012/09/image5.png "image")](/assets/img/wordpress/2012/09/image5.png)
 
 **\*Note,** we now provide Location aware and Non Location aware DLL’s for AdRotator, so if you do not want to use location services for your Ads then you no longer have to, just select the “Non Location aware” versions of the DLL’s
 
@@ -38,12 +34,12 @@ First copy the AdRotator DLL and the supported Ad Providers DLL’s to a folder 
 
 When you have the references in then either switch to Blend and add the AdRoator control to your pages (do not forget to BUILD your project first):
 
-| [![image](/assets/img/wordpress/2012/09/image_thumb6.png "image")](/assets/img/wordpress/2012/09/image6.png) | 
+| [![image](/assets/img/wordpress/2012/09/image6.png "image")](/assets/img/wordpress/2012/09/image6.png) | 
 
 Find the “AdRotatorControl” in the assets panel and drag it to your page or simply double click it
 
  |
-| [![image](/assets/img/wordpress/2012/09/image_thumb7.png "image")](/assets/img/wordpress/2012/09/image7.png) | 
+| [![image](/assets/img/wordpress/2012/09/image7.png "image")](/assets/img/wordpress/2012/09/image7.png) | 
 
 Configure the properties of the AdRotator control setting options like:
 
@@ -58,7 +54,7 @@ Remote URL where external XML configuration file can be sourced from.
 For full list of settings see the previous article mentioned above
 
  |
-| [![image](/assets/img/wordpress/2012/09/image_thumb8.png "image")](/assets/img/wordpress/2012/09/image8.png) | 
+| [![image](/assets/img/wordpress/2012/09/image8.png "image")](/assets/img/wordpress/2012/09/image8.png) | 
 
 Now just align the control to where you want it on your page as you would any other control
 
@@ -70,7 +66,7 @@ Or you can simply paste in the XAML and configure it that way ![Open-mouthed smi
 
     
     
-         ![image](/assets/img/wordpress/2012/09/image_thumb9.png "image")
+         ![image](/assets/img/wordpress/2012/09/image9.png "image")
         
         Here is a full configuration file as a starter:
         

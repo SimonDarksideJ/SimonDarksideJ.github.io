@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #3 - updating to allow for changeable resolution'
-date: '2012-06-29 10:29:36'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:29:36
+tags: [2d tutorial, game development, xna]
 ---
 
 One problem with the original code from DigiPen (which the author freely admitted to) was that it was fixed to a resolution of 640 x 480 (640 pixels wide by 480 pixels high), this basically was the original VGA resolution only available on the earliest computers (by earliest I am only talking about 10 or 20 years ago now :-))

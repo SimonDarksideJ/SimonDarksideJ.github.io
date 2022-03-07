@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Learning Windows 8 Game Development - A Review
-date: '2014-01-07 19:40:28'
-tags:
-- book-review
-- c
-- directx
-- game-development
-- windows8-tutorials
+date: 2014-01-07 19:40:28
+tags: [book review,game development, windows 8]
 ---
 
 The game development landscape, especially for Indies is certainly changing.  With the recent XBOXOne and PS4 console releases show that skills like C++ are still very much in demand, as a fellow Indie this does concern be greatly.  I left my C++ skills in the past once MDX and then XNA were born and the thoughts of going back does intimidate me somewhat.

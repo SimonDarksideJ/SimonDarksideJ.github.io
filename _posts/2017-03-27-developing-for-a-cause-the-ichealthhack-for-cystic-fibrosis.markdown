@@ -2,14 +2,7 @@
 layout: post
 title: Developing for a cause - The ICHealthHack for Cystic Fibrosis
 date: '2017-03-27 13:55:14'
-tags:
-- call-to-action
-- cystic-fibrosis
-- events
-- fizzyo
-- monogame
-- unity-3d-tutorials
-- unity3d
+tags: [events, fizzyo]
 ---
 
 As a Microsoft MVP (Most Valuable Professional), out helping my community of game developers and technology peeps, I am often asked to talk at some event, speak at a user group or support a community in its open source work. in short, donating my free time to help others in a developer way.
@@ -177,7 +170,7 @@ In this project the team had the player driving through alien ship filled astero
 
 In the spirit of the hack, some of the organisers also jumped in to build their own game for the hack. Since they also helped build the framework and were hosting the event they could not “win” but they certainly showed the art of the possible.
 
-[![Qubi](/assets/img/wordpress/2017/03/Qubi_thumb.gif "Qubi")](/assets/img/wordpress/2017/03/Qubi.gif)
+[![Qubi](/assets/img/wordpress/2017/03/Qubi.gif "Qubi")](/assets/img/wordpress/2017/03/Qubi.gif)
 
 A nicely polished game (all done in the 48 hours, honest), setting up the breathing session and having an endless runner character jump across a platform environment with the button. In order to collect coins faster and thus gain more points, the player needs to breathe into their device at the same time to charge up the player (shown by the inner green circle). Once done the player gets a burst of speed.  As another nice UI feature, good boost breathers also fill an inner circle on the player indicating how far they need to keep going with their treatment.  Also, to ensure the player does not feel “pressured”, play does not stop when they need to cough, it simply continues until they are ready to return.
 
@@ -185,7 +178,7 @@ A nicely polished game (all done in the 48 hours, honest), setting up the breath
 
 Another team also using the “charging” pattern in a side scrolling space invaders style game.
 
-[![image](/assets/img/wordpress/2017/03/image_thumb.png "image")](/assets/img/wordpress/2017/03/image-11.png)
+[![image](/assets/img/wordpress/2017/03/image.png "image")](/assets/img/wordpress/2017/03/image-11.png)
 
 From nothing to a working 2D game is certainly no mean feat for a group of students with little to now Unity or C# experience, so the team pulled off something really nice.  Might not look much to the trained eye but this was done in less than 48 hours (and these were medical students, so they were well training in taking much needed sleep breaks ).  Their dreams were certainly much larger but sadly they were hampered with GIT merging issues thanks to Unity. (anyone using GIT between multiple machines with Unity should feel this pain)
 

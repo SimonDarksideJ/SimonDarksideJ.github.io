@@ -1,10 +1,8 @@
 ---
 layout: post
 title: XNA Game Studio Express Released
-date: '2006-12-11 13:15:25'
-tags:
-- ramblings
-- xna-related
+date: 2006-12-11 13:15:25
+tags: [ramblings, xna]
 ---
 
 Exert from [Mykre’s Blog](http://www.virtualrealm.com.au/blogs/mykre/rss) – damn he was quick, even the XNA team blog or any of the XNA team haven’t even announced it yet!!!

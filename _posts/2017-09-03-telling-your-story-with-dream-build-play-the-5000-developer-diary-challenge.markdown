@@ -1,16 +1,11 @@
 ---
 layout: post
 title: Telling your story with Dream Build Play - the $5000 developer diary challenge
-date: '2017-09-03 17:54:36'
-tags:
-- dbp2017
-- events
-- information
-- tutorials-resources
-- unity-3d-tutorials
+date: 2017-09-03 17:54:36
+tags: [dream build play]
 ---
 
-[![image](/assets/img/wordpress/2017/09/image_thumb.png "image")](/assets/img/wordpress/2017/09/image.png)
+[![image](/assets/img/wordpress/2017/09/image.png "image")](/assets/img/wordpress/2017/09/image.png)
 
 [Dream Build Play](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge) is well under way and everyone is hammering away at their keyboards (or waving their arms in the air for Mixed Reality entries) working to perfect their masterpiece entry for the competition.  Your journey however should not be an isolated task, you need to tell your audience what you are doing, what you are up to and the challenges you face. You need to shout about it to let everyone know how hard you are working and these days, you can even earn some extra cash for doing so.
 
@@ -20,7 +15,7 @@ tags:
 
 # [The Great Developer Diary Contest](https://developer.microsoft.com/en-us/windows/dream-build-play/contest/diary2017)
 
-[![developinghard](/assets/img/wordpress/2017/09/developinghard_thumb.gif "developinghard")](/assets/img/wordpress/2017/09/developinghard.gif)
+[![developinghard](/assets/img/wordpress/2017/09/developinghard.gif "developinghard")](/assets/img/wordpress/2017/09/developinghard.gif)
 
 As promised in my recent posts about the Dream Build Play contest, a new challenge has arisen in addition to the main event. The challenge is to chronical or tell the story of your DBP journey from its humble beginnings to your final submission.
 
@@ -68,13 +63,13 @@ Above all, just have fun.  I have found such activities a nice distraction from 
 
 Highlighting this from the Diary Competition T&C’s, these are the specific criteria the judges will be using for reviewing and scoring your Diary Entries.  The entries are taken as a whole, not on a per post basis (unless one of your posts does not qualify against the above criteria)
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-1.png "image")](/assets/img/wordpress/2017/09/image-1.png)
+[![image](/assets/img/wordpress/2017/09/image-1.png "image")](/assets/img/wordpress/2017/09/image-1.png)
 
 * * *
 
 # Where can I do this diary thing anyway?
 
-[![vlogging](/assets/img/wordpress/2017/09/vlogging_thumb.gif "vlogging")](/assets/img/wordpress/2017/09/vlogging.gif)
+[![vlogging](/assets/img/wordpress/2017/09/vlogging.gif "vlogging")](/assets/img/wordpress/2017/09/vlogging.gif)
 
 There are soo many options these days for Blogging / Vlogging / Logging, it can be hard which to choose. Ultimately you want something easy to use, does not require a lot of work and above all, is FREE. 
 
@@ -179,7 +174,7 @@ Vimeo is the unsung hero of the video world, but offers enough tools and support
 
 # Useful tools and resources
 
-[![usefultools](/assets/img/wordpress/2017/09/usefultools_thumb.gif "usefultools")](/assets/img/wordpress/2017/09/usefultools.gif)
+[![usefultools](/assets/img/wordpress/2017/09/usefultools.gif "usefultools")](/assets/img/wordpress/2017/09/usefultools.gif)
 
 Now I would be remiss if I did not round off with a little extra help and walking you through some of the tools I use to integrate with the above services. Whether you are typing, videoing, streaming or annotating, there are tons of resources out there to help you get the best professional look.  Granted a lot of the services above do provide their own editors and content management systems, so these are tools I use to enhance my experience but they are mostly optional.
 
@@ -216,7 +211,7 @@ Quite a few devs have already taken up arms in their race to meet the demands of
 
 - [Antimatter Instance](https://antimatterinstance.wordpress.com/) by [Tarh Ik](https://tarhik.wordpress.com/) – Some games do truly defy categorisation and this one certainly fits that bucket as a martial arts vs boxing brawler named after an astrophysics concept ![](https://tarhik.files.wordpress.com/2017/08/tempcoverart2.jpg)
 - [Puck-Off](http://puckoffgame.com/news/2017/09/02/puck-of-site-is-live.html) by [Erik Skoglund](https://disqus.com/by/Skoggy/) – A great little table-top ice hockey game with 4-Player multiplayer already! ![](http://puckoffgame.com/assets/images/gameplay/1.png)
-- [The Long Night](https://thelongnightgame.blogspot.co.uk/) by [Charles Humphrey](https://plus.google.com/103026455724142455023) (aka @NemoKrad) a Scifi Story driven game about humanity rediscovering it is spacefaring journeys and discovering new races.[![image](/assets/img/wordpress/2017/09/image_thumb-2.png "image")](/assets/img/wordpress/2017/09/image-8.png)
+- [The Long Night](https://thelongnightgame.blogspot.co.uk/) by [Charles Humphrey](https://plus.google.com/103026455724142455023) (aka @NemoKrad) a Scifi Story driven game about humanity rediscovering it is spacefaring journeys and discovering new races.[![image](/assets/img/wordpress/2017/09/image-2.png "image")](/assets/img/wordpress/2017/09/image-8.png)
 
 * * *
 

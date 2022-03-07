@@ -1,14 +1,12 @@
 ---
 layout: post
 title: Windows 8 in a week on reflection
-date: '2012-07-02 12:30:59'
-tags:
-- information
-- windows-8
+date: 2012-07-02 12:30:59
+tags: [windows 8]
 ---
 
 ![ /></p>
-<p>So pretty much from Day 1 of the Developer preview of Windows 8 being released i set myself the same challenge I always do and see if I can actually work in the new world, thankfully this was made much easier this time round with Windows 7’s way of booting from VHD’s and the fantastic help from <a title=](http://data.whicdn.com/images/4063267/3617924055_119c9961b0_z_thumb.jpg)Scott Hanselman’s blog post on installing Windows 8 to a VHD (saving me the time and effort to sacrifice a physical machine, I just do not do virtual machines for this kind of test).
+<p>So pretty much from Day 1 of the Developer preview of Windows 8 being released i set myself the same challenge I always do and see if I can actually work in the new world, thankfully this was made much easier this time round with Windows 7’s way of booting from VHD’s and the fantastic help from <a title=](http://data.whicdn.com/images/4063267/3617924055_119c9961b0_z.jpg)Scott Hanselman’s blog post on installing Windows 8 to a VHD (saving me the time and effort to sacrifice a physical machine, I just do not do virtual machines for this kind of test).
 
 So 1 week (or so on) what were my thoughts, if you have been following me on twitter ([@DDreaper](http://twitter.com/#!/DDReaper)) you should have a pretty good idea!!
 
@@ -107,7 +105,7 @@ Now while my experience with Windows 8 through the week has been largely positiv
 
 ![ /></p>
 <p>I am trying to be as impartial as I can in my experiences with Windows 8 and while I love it so far (hence my soon to be permanent move) there are some things which do put you off, granted some of these may be because I’m an admin as well as a dev at heart but all the same.</p>
-<blockquote><p><img src=](http://4.bp.blogspot.com/_MEPUZHDWkFU/TFOvm5krCXI/AAAAAAAACks/KTorVjZ1iTc/s1600/rome_thumbs_down.jpg)    **Twice as many things does not mean twice the fun**
+<blockquote><p><img src=](http://4.bp.blogspot.com/_MEPUZHDWkFU/TFOvm5krCXI/AAAAAAAACks/KTorVjZ1iTc/s1600/romes_down.jpg)    **Twice as many things does not mean twice the fun**
 
 There are a lot of places where a metro version has been added on top of a base piece of functionality, in some places this works and in others it adds a barrier to getting things done. For instance there are two versions of Internet explorer but the default for when you launch links is just the Metro version which at times can feel odd but at least you can understand why. However items such as the control panel do not make much sense, granted this could be just a halfway house for the dev release but it does not feel like that, it seems to have been designed that way but you can only launch from the Metro version, so if you want to just get access to a feature only in the desktop version then you have to launch the Metro version first and then click through to it, there may be another way but I’m yet to find it.
 

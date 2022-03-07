@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Android 4: New features for Application Development - PacktPub Book Review'
-date: '2013-02-05 18:26:09'
-tags:
-- android
-- book-review
-- information
-- packtpub
+date: 2013-02-05 18:26:09
+tags: [book review,android]
 ---
 
 As a break from my normal programming schedule I was passed a new Android book for review, I ‘m always interested how the other side lives (before I come running back to C# and Windows), in many cases we can see similarity with platforms which seems to grow closer with each release as each learns from new developments in the other and tried to improve on them.

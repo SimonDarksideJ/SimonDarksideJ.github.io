@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Windows 8 License Checker / tester / thingy
-date: '2012-09-12 14:43:52'
-tags:
-- tutorials-resources
-- windows-8
-- winrt
+date: 2012-09-12 14:43:52
+tags: [windows 8]
 ---
 
 There are probably a lot of people I could blame for me writing this article but at the end of the day it is my own damn fault for trying.

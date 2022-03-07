@@ -1,13 +1,8 @@
 ---
 layout: post
 title: The long road back
-date: '2012-06-29 21:44:13'
-tags:
-- game-development
-- real-world-experiences
-- tutorials-resources
-- windows-phone
-- xna
+date: 2012-06-29 21:44:13
+tags: [game development, ramblings]
 ---
 
 Since I am a glutton for punishment, before and shortly after working on the WP7 app for work, I got involved with a talented developer in Auz called Chris Hughes.
@@ -176,7 +171,7 @@ A good point to make here is that if you are making a multi-platform project (de
 
 | 
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8030.image_5F00_thumb_5F00_67B750B5.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5126.image_5F00_2F88FF6A.png)
+[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8030.image_5F00_5F00_67B750B5.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5126.image_5F00_2F88FF6A.png)
 
  |
 
@@ -188,12 +183,12 @@ A good point to make here is that if you are making a multi-platform project (de
 
  
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2161.image_5F00_thumb_5F00_3F2848D4.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_10FE72E7.png)
+[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2161.image_5F00_5F00_3F2848D4.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_10FE72E7.png)
 
  |
 | Windows Project |   | Phone Project |
 
-| [![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0412.image_5F00_thumb_5F00_731C9C8D.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6371.image_5F00_24D7B9E3.png) |
+| [![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0412.image_5F00_5F00_731C9C8D.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6371.image_5F00_24D7B9E3.png) |
 | File Directory |
 
 So in the windows project you have an asset file called “Background.png” and named “Background”, in the Phone content project you have a file called “Background\_Phone.png” and named “Background”.  To the code they are both the Background image, it is just the actual file being used as the background is different.

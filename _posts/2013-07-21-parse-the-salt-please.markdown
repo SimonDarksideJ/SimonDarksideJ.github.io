@@ -2,11 +2,7 @@
 layout: post
 title: Parse the salt please
 date: '2013-07-21 13:39:33'
-tags:
-- facebook
-- information
-- parse
-- tutorials-resources
+tags: [information, parse]
 ---
 
 After playing a lot with Parse over the last few weeks I thought I would share some of my findings.
@@ -84,15 +80,15 @@ As you will find with Parse, everything is built from an understanding that EVER
 
 Walking through, once you have signed up and reach the dashboard, just watch how simple setting up a new app is:
 
-| [![image](/assets/img/wordpress/2013/07/image_thumb5.png "image")](/assets/img/wordpress/2013/07/image5.png) |
+| [![image](/assets/img/wordpress/2013/07/image5.png "image")](/assets/img/wordpress/2013/07/image5.png) |
 | Give your app a name |
-| [![image](/assets/img/wordpress/2013/07/image_thumb6.png "image")](/assets/img/wordpress/2013/07/image6.png) |
+| [![image](/assets/img/wordpress/2013/07/image6.png "image")](/assets/img/wordpress/2013/07/image6.png) |
 | Done, your app is setup (say wahhh), |
-| [![image](/assets/img/wordpress/2013/07/image_thumb7.png "image")](/assets/img/wordpress/2013/07/image7.png) |
+| [![image](/assets/img/wordpress/2013/07/image7.png "image")](/assets/img/wordpress/2013/07/image7.png) |
 | Clicking on the “Quick Start Guide” leads you in to information to get your app up and running, whether it is an existing app or brand new |
-| [![image](/assets/img/wordpress/2013/07/image_thumb8.png "image")](/assets/img/wordpress/2013/07/image8.png) |
+| [![image](/assets/img/wordpress/2013/07/image8.png "image")](/assets/img/wordpress/2013/07/image8.png) |
 | Selecting “New App” gives you a readymade app preconfigured for your service, just uncomment the start-up point to enable Parse. |
-| [![image](/assets/img/wordpress/2013/07/image_thumb9.png "image")](/assets/img/wordpress/2013/07/image9.png) |
+| [![image](/assets/img/wordpress/2013/07/image9.png "image")](/assets/img/wordpress/2013/07/image9.png) |
 | Selecting “Existing App” gives you all the instructions you need to install the SDK (Windows versions are all on NuGet) and the code specific to you app to get it connected. |
 
 There are also some steps for testing your app and its connection with some dummy data if you are new to this.

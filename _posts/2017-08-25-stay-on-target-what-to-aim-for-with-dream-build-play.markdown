@@ -1,15 +1,11 @@
 ---
 layout: post
 title: Stay on Target - What to aim for with Dream Build Play
-date: '2017-08-25 17:15:19'
-tags:
-- competition
-- dbp2017
-- events
-- unity-3d-tutorials
+date: 2017-08-25 17:15:19
+tags: [[dream build play]]
 ---
 
-[![TrenchRun](/assets/img/wordpress/2017/08/TrenchRun_thumb.gif "TrenchRun")](/assets/img/wordpress/2017/08/TrenchRun.gif)
+[![TrenchRun](/assets/img/wordpress/2017/08/TrenchRun.gif "TrenchRun")](/assets/img/wordpress/2017/08/TrenchRun.gif)
 
 Many devs I have spoken to or given advice for with regards [Dream Build Play](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge) all worry about one BIG thing – Will It all be finished ready for the Big December deadline!
 
@@ -25,7 +21,7 @@ What you are aiming for is enough to demonstrate your game, it is gameplay and e
 
 # 1: Minimum Viable Product
 
-[![MossFire](/assets/img/wordpress/2017/08/MossFire_thumb.gif "MossFire")](/assets/img/wordpress/2017/08/MossFire.gif)
+[![MossFire](/assets/img/wordpress/2017/08/MossFire.gif "MossFire")](/assets/img/wordpress/2017/08/MossFire.gif)
 
 The minimum you should be aiming for with the Dream Build Play competition is a MVP or Minimum Viable Product.  Not to say that is all you are aiming for but it is your bare minimum.
 
@@ -45,7 +41,7 @@ All in all, you are aiming to showcase what you game can be and how it stands ou
 
 # 2: Expand your base
 
-[![LegoBuild](/assets/img/wordpress/2017/08/LegoBuild_thumb.gif "LegoBuild")](/assets/img/wordpress/2017/08/LegoBuild.gif)
+[![LegoBuild](/assets/img/wordpress/2017/08/LegoBuild.gif "LegoBuild")](/assets/img/wordpress/2017/08/LegoBuild.gif)
 
 Even with your MVP, try to add other elements which may or may not relate you your core game mechanic, including (but not limited to)
 
@@ -71,7 +67,7 @@ These are small things that you should have in your final submission, as shippin
 
 # 3: Polish and Finish
 
-[![Finishing](/assets/img/wordpress/2017/08/Finishing_thumb.gif "Finishing")](/assets/img/wordpress/2017/08/Finishing.gif)
+[![Finishing](/assets/img/wordpress/2017/08/Finishing.gif "Finishing")](/assets/img/wordpress/2017/08/Finishing.gif)
 
 With your submission ready and if you still have time, there are a few other things to consider:
 
@@ -112,5 +108,5 @@ If you can delight your followers throughout the competition, you have won half 
 
 Good luck to all
 
-[![datesgrey-pdn](/assets/img/wordpress/2017/08/datesgrey-pdn_thumb.png "datesgrey-pdn")](/assets/img/wordpress/2017/08/datesgrey-pdn.png)
+[![datesgrey-pdn](/assets/img/wordpress/2017/08/datesgrey-pdn.png "datesgrey-pdn")](/assets/img/wordpress/2017/08/datesgrey-pdn.png)
 

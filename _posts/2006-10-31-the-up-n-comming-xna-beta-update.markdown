@@ -1,10 +1,8 @@
 ---
 layout: post
 title: The up-n-comming XNA beta update
-date: '2006-10-31 12:21:29'
-tags:
-- ramblings
-- xna-related
+date: 2006-10-31 12:21:29
+tags: [ramblings, xna]
 ---
 
 For most of you in the know the XNA framework and XNA Games Studio Express are going to get a refresh to beta 2, thanks to Dave "LetsKillDave" Weller (still gotta love his alias), he has given an example of the changes to a sample tutorial, in this case Kurt Jagers 2D Tile game tutorial (I happen to like this one a lot)

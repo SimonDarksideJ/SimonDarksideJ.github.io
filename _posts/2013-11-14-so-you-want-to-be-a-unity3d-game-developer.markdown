@@ -1,14 +1,11 @@
 ---
 layout: post
 title: So you want to be a Unity3D game developer?
-date: '2013-11-14 18:14:06'
-tags:
-- information
-- unity-3d-tutorials
-- unity3d
+date: 2013-11-14 18:14:06
+tags: [information,unity3d]
 ---
 
-[![UnityDeveloper](/assets/img/wordpress/2013/11/UnityDeveloper_thumb.jpg "UnityDeveloper")](/assets/img/wordpress/2013/11/UnityDeveloper.jpg)
+[![UnityDeveloper](/assets/img/wordpress/2013/11/UnityDeveloper.jpg "UnityDeveloper")](/assets/img/wordpress/2013/11/UnityDeveloper.jpg)
 
 Unity3D has been making great strides of late, it is has been one of the big go-to middleware engines for budding iOS and Android game developers and even expanded its reach to Web, Windows desktop and other platforms.
 

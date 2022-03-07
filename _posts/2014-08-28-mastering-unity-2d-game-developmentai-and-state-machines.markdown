@@ -2,12 +2,7 @@
 layout: post
 title: Mastering Unity 2D Game Development - AI and State machines
 date: '2014-08-28 18:50:01'
-tags:
-- mastering-unity-2d
-- packtpub
-- unity-3d-tutorials
-- unity3d
-- unitytips
+tags: [mastering-unity-2d, unty3d]
 ---
 
 It’s finally here, my first title has now been published on Packt’s publishing site and all of the leading online bookstores (probably a few less reputable as well ??).  If you like what you see in these snippets, they you are going to love the full book. Here is an overview of what is in store for you.
@@ -64,7 +59,7 @@ If we try to do a simple game state system in code, we usually end up with a com
 
 Say we have the current flow:
 
-[![image](/assets/img/wordpress/2014/08/image_thumb.png "image")](/assets/img/wordpress/2014/08/image.png)
+[![image](/assets/img/wordpress/2014/08/image.png "image")](/assets/img/wordpress/2014/08/image.png)
 
 In normal code we would most likely start with an _Enum_ definition for each state (or just use strings if you are daring) like this:
 
@@ -86,7 +81,7 @@ A very basic example indeed, but just imaging it 50x bigger with several complic
 
 Using Mecanim itself to implement the flow of the state machine is very simple, in fact we’ve practically drawn it above. Taking our outline in the image, we can convert this to a Mecanim design board looking something like this:
 
-[![image](/assets/img/wordpress/2014/08/image_thumb1.png "image")](/assets/img/wordpress/2014/08/image1.png)
+[![image](/assets/img/wordpress/2014/08/image1.png "image")](/assets/img/wordpress/2014/08/image1.png)
 
 We’ve replicated the flow of our game state design as empty Mecanim states and added some parameters to the Animator to track health, whether we are in battle and a trigger to denote an attack has occurred.  So what about the code, how does using Mecanim simplify things?
 

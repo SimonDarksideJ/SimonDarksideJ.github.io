@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Mastering Unity 4 Scripting (video series) - A Review
-date: '2013-10-22 21:15:28'
-tags:
-- book-review
-- packtpub
-- unity-3d-tutorials
-- unity3d
+date: 2013-10-22 21:15:28
+tags: [book review,unity3d]
 ---
 
 I am being battered and getting knackered with my schedule at the moment, not to mention work decided it is a good month to “ramp up” but I am coping.  Still, I found time to have a look at one of PacktPubs newest titles and rather surprisingly it is a video book. So sit back relax, get your favourite 3D glasses on and have a look.

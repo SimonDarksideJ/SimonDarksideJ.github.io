@@ -1,12 +1,8 @@
 ---
 layout: post
 title: AdRotator release for XNA
-date: '2012-07-02 13:23:14'
-tags:
-- adrotator
-- mobile-advertising
-- tutorials-resources
-- xna
+date: 2012-07-02 13:23:14
+tags: [monetisation, xna, adrotator]
 ---
 
 For once I’m going with a simple yet boring title for this blog post (since I’m known for naming things in a weird and wacky way ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png)) simply because the content will speak for itself
@@ -55,13 +51,13 @@ So what is involved
 
 First off lets copy in the required DLL’s and references to your project, using the Starter XNA Projects as reference I created a new folder in the Solution called “ExternalLibraries” in windows explorer so that my folder structure now looks as follows:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb127.png "image")](/assets/img/wordpress/2012/07/image124.png)
+[![image](/assets/img/wordpress/2012/07/image127.png "image")](/assets/img/wordpress/2012/07/image124.png)
 
 Then I copied the release files for XNA into the new folder, AdRotatorXNA.DLL and AdDuplex.Xna.dll.  (We do not ship the MS Pubcenter DLL’s as they are part of the WP7 development tools but more on that later), you will notice there are no libraries for Inneractive and MobFox ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png), but that is another blog post.
 
 Next as usual add references to the new DLL’s in your Main XNA project and also add a reference to “Microsoft.Advertising.Mobile.Xna” library as shown below: (note you only have to add references to the Publisher libraries you intend to use, but if you try to use one you have not reference your project will crash!!)
 
-[![image](/assets/img/wordpress/2012/07/image_thumb128.png "image")](/assets/img/wordpress/2012/07/image125.png)
+[![image](/assets/img/wordpress/2012/07/image128.png "image")](/assets/img/wordpress/2012/07/image125.png)
 
 * * *
 
@@ -71,7 +67,7 @@ One of the improvements added with the XNA version was the capability to complet
 
 The new XML file looks like this:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb129.png "image")](/assets/img/wordpress/2012/07/image126.png)
+[![image](/assets/img/wordpress/2012/07/image129.png "image")](/assets/img/wordpress/2012/07/image126.png)
 
 Not too much different just additional settings by Ad provider to identify the channels to use, this obviously can be greatly simplified to just the “Default” culture settings, the rest are just local overrides if you want to use different providers in different orders by culture (especially useful if certain markets are not supported or well filled in certain markets)
 
@@ -104,7 +100,7 @@ As stated previously these changes are option and are FULLY BACKWARDS COMPATIBLE
 
 So configure or just copy in a configuration file into your project BUT make sure that you set it is Build action to **Content** and set the “Copy option” to “Copy if newer” as shown below:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb130.png "image")](/assets/img/wordpress/2012/07/image127.png)
+[![image](/assets/img/wordpress/2012/07/image130.png "image")](/assets/img/wordpress/2012/07/image127.png)
 
 You should find a blank xml configuration file in the file you downloaded from Codeplex or in the example project if you are looking at the source.
 
@@ -146,7 +142,7 @@ Here is what I did to implement the XNA [AdRotator](http://wp7adrotator.codeplex
                                         
                                         
                                         
-                                        [![image](/assets/img/wordpress/2012/07/image_thumb131.png "image")](/assets/img/wordpress/2012/07/image128.png)
+                                        [![image](/assets/img/wordpress/2012/07/image131.png "image")](/assets/img/wordpress/2012/07/image128.png)
                                         
                                         
                                         
@@ -172,7 +168,7 @@ Here is what I did to implement the XNA [AdRotator](http://wp7adrotator.codeplex
                                                 
                                                 
                                                 
-                                                | ![](http://xna-uk.net/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8422.PortraitAd_5F00_06A8101D.png) | [![image](/assets/img/wordpress/2012/07/image_thumb132.png "image")](/assets/img/wordpress/2012/07/image129.png) |
+                                                | ![](http://xna-uk.net/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8422.PortraitAd_5F00_06A8101D.png) | [![image](/assets/img/wordpress/2012/07/image132.png "image")](/assets/img/wordpress/2012/07/image129.png) |
                                                 | 
                                                 
                                                 Portrait

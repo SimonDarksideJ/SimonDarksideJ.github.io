@@ -1,13 +1,8 @@
 ---
 layout: post
 title: 'MonoGame: Building Portable Solutions'
-date: '2013-05-19 22:50:41'
-tags:
-- monogame
-- portable-class-libraries
-- tutorials-resources
-- xna
-- xna-related
+date: 2013-05-19 22:50:41
+tags: [monogame]
 ---
 
 ![src=]()
@@ -53,11 +48,11 @@ I will start with [the sample](http://lightningdemo.codeplex.com/releases/view/1
 
 What you will find in the source is a project which currently looks like this:
 
-[![image](/assets/img/wordpress/2013/05/image_thumb38.png "image")](/assets/img/wordpress/2013/05/image39.png)
+[![image](/assets/img/wordpress/2013/05/image38.png "image")](/assets/img/wordpress/2013/05/image39.png)
 
 What we want to get to is a project that looks more like this:
 
-[![image](/assets/img/wordpress/2013/05/image_thumb39.png "image")](/assets/img/wordpress/2013/05/image40.png)
+[![image](/assets/img/wordpress/2013/05/image39.png "image")](/assets/img/wordpress/2013/05/image40.png)
 
 * * *
 
@@ -101,17 +96,17 @@ So to start off by creating a new MonoGame project of your choosing. Myself I am
 
 > \*Note If you have not done so already and are using Xamarin Studio, be sure to grab the Xamarin Studio add-on for the [MonoGame templates here](http://monogame.codeplex.com/releases/view/102870) (also available for MonoDevelop if that is your fancy)
 
-[![image](/assets/img/wordpress/2013/05/image_thumb35.png "image")](/assets/img/wordpress/2013/05/image36.png)
+[![image](/assets/img/wordpress/2013/05/image35.png "image")](/assets/img/wordpress/2013/05/image36.png)
 
 That’ll get you a brand new MonoGame Project, next up lets add a Portable Library to the mix for our Engine, so add a new Project using the “Portable” template (in the C# folder or search for portable)
 
-[![image](/assets/img/wordpress/2013/05/image_thumb36.png "image")](/assets/img/wordpress/2013/05/image37.png)
+[![image](/assets/img/wordpress/2013/05/image36.png "image")](/assets/img/wordpress/2013/05/image37.png)
 
 Just give the new PCL (Engine) library a simple name, in this case I have named it “Lightning.Engine”.
 
 Next we will add our original engine code into the portable library, so copy these over from the previous sample and then rename the namespaces in each class to “Lightning.Engine” to match our project:
 
-[![image](/assets/img/wordpress/2013/05/image_thumb37.png "image")](/assets/img/wordpress/2013/05/image38.png)
+[![image](/assets/img/wordpress/2013/05/image37.png "image")](/assets/img/wordpress/2013/05/image38.png)
 
 Now if you build the Engine project at present you will get a whole load of build errors.
 

@@ -1,17 +1,8 @@
 ---
 layout: post
 title: Getting Started with MonoGame using Visual Studio
-date: '2017-03-10 12:04:02'
-tags:
-- android
-- game-development
-- getting-started
-- ios
-- monogame
-- tutorials-resources
-- uwp
-- windows-10
-- windows-8
+date: 2017-03-10 12:04:02
+tags: [game development, getting started, monogame]
 ---
 
 MonoGame (for those of you not yet aware) is a Game Building Framework / API born from the ashes that was the Microsoft XNA Framework that provides a very easy to use API to build games. (or 3D Apps)

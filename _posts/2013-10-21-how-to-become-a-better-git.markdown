@@ -1,12 +1,8 @@
 ---
 layout: post
 title: How to become a better GIT Collaborator
-date: '2013-10-21 13:07:59'
-tags:
-- codeproject
-- git
-- tutorial
-- tutorials-resources
+date: 2013-10-21 13:07:59
+tags: [git]
 ---
 
 ![src=]()
@@ -114,11 +110,11 @@ Depending on which site the project is listed on there should be an option to �
 
 ###### Main Repository:
 
-[![image](/assets/img/wordpress/2013/10/image_thumb.png "image")](/assets/img/wordpress/2013/10/image.png)
+[![image](/assets/img/wordpress/2013/10/image.png "image")](/assets/img/wordpress/2013/10/image.png)
 
 ###### Forked Repository
 
-[![image](/assets/img/wordpress/2013/10/image_thumb1.png "image")](/assets/img/wordpress/2013/10/image1.png)
+[![image](/assets/img/wordpress/2013/10/image1.png "image")](/assets/img/wordpress/2013/10/image1.png)
 
 And yes,, you may have noticed you can Fork a Forked repository, there is no end to the madness ![Open-mouthed smile](/assets/img/wordpress/2013/10/wlEmoticon-openmouthedsmile3.png) (but I would not if I were you, unless you are merging)
 
@@ -130,13 +126,13 @@ With your own Forked repository in hand, it is now time to get a copy of that lo
 
 There are a number of ways to do this, the simplest is to click on the “Clone in Desktop” button on the site (if it has one) which will launch up your local Git Client, set up a local repository and start copying it down to your machine:
 
-[![image](/assets/img/wordpress/2013/10/image_thumb2.png "image")](/assets/img/wordpress/2013/10/image2.png)
+[![image](/assets/img/wordpress/2013/10/image2.png "image")](/assets/img/wordpress/2013/10/image2.png)
 
 If you do not have a compatible client installed, you may get forwarded to install one or it simply won’t work.
 
 The other method is to copy the Clone URL (link to your online repository) and then manually use your Git client to Clone the repository onto your machine:
 
-| [![image](/assets/img/wordpress/2013/10/image_thumb3.png "image")](/assets/img/wordpress/2013/10/image3.png) | [![image](/assets/img/wordpress/2013/10/image_thumb4.png "image")](/assets/img/wordpress/2013/10/image4.png) |
+| [![image](/assets/img/wordpress/2013/10/image3.png "image")](/assets/img/wordpress/2013/10/image3.png) | [![image](/assets/img/wordpress/2013/10/image4.png "image")](/assets/img/wordpress/2013/10/image4.png) |
 | Tortoise GIT right click menu | TortoiseGit clone prompt, source and local directory |
 
 If you choose to simply download the project manually and unzip it, that can work but you will need to add a source (shown later) to the local repository once you create it.
@@ -157,7 +153,7 @@ To create a branch you have three options:
 > ![src=]()    If your client supports it, select “create new branch” – almost the same as the first option but not…  
 > ![src=]()    Start making changes in the main / default / master branch but when you “Commit” your changes, elect the new branch option – this will move your changes to a brand new branch.
 
-| [![image](/assets/img/wordpress/2013/10/image_thumb5.png "image")](/assets/img/wordpress/2013/10/image5.png) | [![image](/assets/img/wordpress/2013/10/image_thumb6.png "image")](/assets/img/wordpress/2013/10/image6.png) |
+| [![image](/assets/img/wordpress/2013/10/image5.png "image")](/assets/img/wordpress/2013/10/image5.png) | [![image](/assets/img/wordpress/2013/10/image6.png "image")](/assets/img/wordpress/2013/10/image6.png) |
 | TortiseGit Switch/Checkout & Create Branch | TortoieGit “Create Branch” option on commit |
 
 The safest thing to do is obviously option 1 or 2 as this protects you in-case you need to update the main / master / default branch while you are working (a hopefully unlikely situation).  It also protects you from forgetting to select the “new branch” option on commit and accidentally merging your changes with your local main / master / default branch #facepalm,  If this happens then you are really stuck (you can go back but then you will lose your changes and ultimately you have dirtied your local copy of the main / master / default branch)
@@ -198,8 +194,8 @@ So you got your changes done and you have tested it and are happy, now what?
 
 First off you need to update your local dev copy of your code with your hosted forked repository, this is called a Push request.  You can do this as often as you like and it wo not affect anyone else, in most cases you will do this after every commit just to ensure you changes are backed up remotely.  Note you cannot push if you have not committed (no half way)
 
-| [![image](/assets/img/wordpress/2013/10/image_thumb7.png "image")](/assets/img/wordpress/2013/10/image7.png) | Simply use the Push command (sometimes called Sync) to send your code to your forked repositories server |
-| Once you are happy with your finished changes and all your code is on your forked repositories server you can instigate a “Pull request” | [![image](/assets/img/wordpress/2013/10/image_thumb8.png "image")](/assets/img/wordpress/2013/10/image8.png) |
+| [![image](/assets/img/wordpress/2013/10/image7.png "image")](/assets/img/wordpress/2013/10/image7.png) | Simply use the Push command (sometimes called Sync) to send your code to your forked repositories server |
+| Once you are happy with your finished changes and all your code is on your forked repositories server you can instigate a “Pull request” | [![image](/assets/img/wordpress/2013/10/image8.png "image")](/assets/img/wordpress/2013/10/image8.png) |
 
 As with everything there are several ways to start a pull request, some clients offer this option after performing a push request, however I find the best way is to go to the site hosting the forked repository and using their button or command. GitHub now actually highlights on your forked repository page (for example) a button to start the process.
 
@@ -219,7 +215,7 @@ A pull request simply means you want to take changes from one project and add th
 
 Now, so as not to pollute any development work you are doing, make sure you have checked in whatever changes you were doing and then switch / checkout the main / default / master branch in your local repository, either using the same technique as mentioned before but not choosing the “new branch” option and selecting the main / default / master branch, or using the handy explorer context menu that MSysGut (Git for Windows) gives you:
 
-[![image](/assets/img/wordpress/2013/10/image_thumb9.png "image")](/assets/img/wordpress/2013/10/image9.png)
+[![image](/assets/img/wordpress/2013/10/image9.png "image")](/assets/img/wordpress/2013/10/image9.png)
 
 Once you have done that **CHECK AGAIN!!**
 
@@ -241,7 +237,7 @@ Again the process is very simple once you get used to it.  Now depending on your
 > ![src=]()    A Manage button next to your source selection (usually in the push / sync window)  
 > ![src=]()    A sources or manage button on the switch / check out option
 
-| [![image](/assets/img/wordpress/2013/10/image_thumb10.png "image")](/assets/img/wordpress/2013/10/image10.png) |
+| [![image](/assets/img/wordpress/2013/10/image10.png "image")](/assets/img/wordpress/2013/10/image10.png) |
 | 
 
 Remotes windows in TortoiseGIT project settings
@@ -256,7 +252,7 @@ you should note you can add many remotes to your project, I am sure this was don
 
 Now with your new remote added, use your GIT client to do a pull request but this time change the “Source” to our new “upstream” path:
 
-[![image](/assets/img/wordpress/2013/10/image_thumb11.png "image")](/assets/img/wordpress/2013/10/image11.png)
+[![image](/assets/img/wordpress/2013/10/image11.png "image")](/assets/img/wordpress/2013/10/image11.png)
 
 **BEFORE** you actually throw the switch, be sure to check:
 

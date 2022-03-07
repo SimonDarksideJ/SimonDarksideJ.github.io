@@ -1,13 +1,8 @@
 ---
 layout: post
 title: In lament for XNA Framework, long live the XNA platform
-date: '2013-02-02 00:45:48'
-tags:
-- book
-- codeproject
-- information
-- xna
-- xna-related
+date: 2013-02-02 00:45:48
+tags: [information, xna]
 ---
 
 [![ src=]()](http://blogs.msdn.com/b/mikeormond/archive/2011/09/22/windows-phone-ebook-1st-edition-published)

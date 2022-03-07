@@ -119,7 +119,7 @@ One of the biggest things that has put off a lot of consumers from the VR space 
 
 With the Windows 10 Mixed Reality setup, things are different.  Sure, if you want the Uber high end experience, you will need a PC to meet that level but for the everyday consumer who just wants to experiment and play, there is now a much more comfortable zone which meets the means of the average gaming PC.
 
-[![image](/assets/img/wordpress/2017/09/image_thumb-8.png "image")](/assets/img/wordpress/2017/09/image-14.png)
+[![image](/assets/img/wordpress/2017/09/image-8.png "image")](/assets/img/wordpress/2017/09/image-14.png)
 
 > **\*** For Windows PCs with integrated graphics hardware, please note the following:
 > 

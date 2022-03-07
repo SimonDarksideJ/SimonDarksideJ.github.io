@@ -92,11 +92,11 @@ For some of the more advanced effects you need to either affect the entire rende
 
 Chapter 11 follows swiftly on from the last chapter to focus on two advanced scene effects to create an old Movie style effect (remember bioshock ![Open-mouthed smile](/assets/img/wordpress/2013/09/wlEmoticon-openmouthedsmile.png))
 
-[![image](/assets/img/wordpress/2013/09/image_thumb.png "image")](/assets/img/wordpress/2013/09/image.png)
+[![image](/assets/img/wordpress/2013/09/image.png "image")](/assets/img/wordpress/2013/09/image.png)
 
 Or a night scene effect in your game.
 
-[![image](/assets/img/wordpress/2013/09/image_thumb1.png "image")](/assets/img/wordpress/2013/09/image1.png)
+[![image](/assets/img/wordpress/2013/09/image1.png "image")](/assets/img/wordpress/2013/09/image1.png)
 
 By deconstructing these you can see just what is need to create such effects (or tweak them for your own) in your games.
 

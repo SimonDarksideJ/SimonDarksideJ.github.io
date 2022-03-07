@@ -12,7 +12,7 @@ Posted on DeJohn’s blog is a screenshot of the new "Loading" image for your Av
 
 I’m all for just changing it to a Red colour, got to Love those Klingon transporters.
 
-[![clip_image001](http://blogs.msdn.com/blogfiles/dejohn/WindowsLiveWriter/Whattodowhileanavatarloads_9CBE/clip_image001_thumb.jpg)](http://blogs.msdn.com/blogfiles/dejohn/WindowsLiveWriter/Whattodowhileanavatarloads_9CBE/clip_image001_2.jpg)
+[![clip_image001](http://blogs.msdn.com/blogfiles/dejohn/WindowsLiveWriter/Whattodowhileanavatarloads_9CBE/clip_image001.jpg)](http://blogs.msdn.com/blogfiles/dejohn/WindowsLiveWriter/Whattodowhileanavatarloads_9CBE/clip_image001_2.jpg)
 
  
 

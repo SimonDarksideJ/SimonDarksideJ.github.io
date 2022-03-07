@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Can we get a little service here?
-date: '2012-06-29 21:15:21'
-tags:
-- networking
-- tutorials-resources
-- wcf
-- windows-phone
+date: 2012-06-29 21:15:21
+tags: [networking]
 ---
 
 Following on the heals of my last post on WCF service implementations on the Windows Phone 7, here is a nice little sample to give you a bit more detail / meat on the bone.
@@ -99,17 +95,17 @@ However you do it, you should have a nice new library project setup, ready and w
 
 > Next up is adding the service reference, in a Silverlight project (or any other really) this could not be simpler. In the solution explorer, right click on the References folder and select “Add Service Reference”
 > 
-> ![image[16]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3225.image16_5F00_thumb_5F00_1C4A43AA.png)
+> ![image[16]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3225.image16_5F00_5F00_1C4A43AA.png)
 > 
 > Once you have done that you will be presented with the following screen. Simply enter the Dark Omen Games sample Leader board service address in to the address field and click Go. This will set Visual Studio to the task of discovering the service and interrogating it for the methods it exposes.
 > 
-> ![image[17]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5775.image17_5F00_thumb_5F00_30FBF090.png)
+> ![image[17]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5775.image17_5F00_5F00_30FBF090.png)
 > 
 > Once it is found the service (if you hare having trouble, type the address into your web browser and ensure you can reach the address, check your network settings if you are having trouble. or your firewall if you are at work!), then Enter the namespace for the service, as you can see I’ve chosen something nice and descriptive. You do not have to set a name, you can just leave it at the default “ServiceReference1”.
 > 
 > Now do not click OK just yet. another trick I’ve found is that it is best to be prepared when using web services with the WP7, so click on the Advanced tab and you should see the following screen:
 > 
-> ![image[18]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2063.image18_5F00_thumb_5F00_44D5378C.png)
+> ![image[18]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2063.image18_5F00_5F00_44D5378C.png)
 > 
 > Here you can see the flag for “Generating asynchronous operations” is checked and the control disabled 9as described in the last post, the phone only uses Asynch operations and does not even generate synchronous methods in the proxy (which you can in XNA projects, so hopefully that is just an oversight and they will fix that)
 > 
@@ -117,7 +113,7 @@ However you do it, you should have a nice new library project setup, ready and w
 > 
 > now click on OK (and Ok again ![Winking smile](/assets/img/wordpress/2012/06/wlEmoticon-winkingsmile4.png)) and after a few minutes whirring, the newly generated Service reference and it is proxy code will appear in the solution explorer under a new branch of “Service References”
 > 
-> ![image[19]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.image19_5F00_thumb_5F00_278F43E8.png)
+> ![image[19]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.image19_5F00_5F00_278F43E8.png)
 > 
 > The other things it adds are several references required for the Service reference to work properly and the all important (if you read the last post) ServiceReferences.ClientConfig file!
 > 
@@ -137,7 +133,7 @@ However you do it, you should have a nice new library project setup, ready and w
 > 
 > Looking though the class files, you should see the following basic structure:
 > 
-> ![image[20]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6283.image20_5F00_thumb_5F00_4B57CFA8.png)
+> ![image[20]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6283.image20_5F00_5F00_4B57CFA8.png)
 > 
 > So basically we have a Leader boards collection, which holds a list of leader boards, which in turn holds a collection of leader board entries (scores).
 > 
@@ -195,11 +191,11 @@ However you do it, you should have a nice new library project setup, ready and w
 > 
 > Which is the event exposed by the WCF service to tell a client when it is ready to send a response back. Visual Studio understands you are trying to hook on to an event and does this:
 
-![image[21]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image21_5F00_thumb_5F00_74030F24.png)
+![image[21]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image21_5F00_5F00_74030F24.png)
 
 > It automatically knows from the event what type it is and if you press tab at this point it fills in the code for you, if you press Tab again:
 
-![image[22]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3632.image22_5F00_thumb_5F00_12C95D36.png)
+![image[22]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3632.image22_5F00_5F00_12C95D36.png)
 
 > It will even go as far as generating a new function for you, like so:
 > 
@@ -320,7 +316,7 @@ Do not forget to add references to the library and copy over the Client Configur
 
 As a glimpse of what is coming next, see here (all data served by the Free hosted Web service for you):
 
-![image[23]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3632.image23_5F00_thumb_5F00_31237852.png)  ![image[24]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2642.image24_5F00_thumb_5F00_28AF7D2E.png)  ![image[25]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6283.image25_5F00_thumb_5F00_0020754D.png)  ![image[26]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.image26_5F00_thumb_5F00_37E293A3.png)  ![image[27]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0511.image27_5F00_thumb_5F00_219C5284.png)
+![image[23]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3632.image23_5F00_5F00_31237852.png)  ![image[24]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2642.image24_5F00_5F00_28AF7D2E.png)  ![image[25]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6283.image25_5F00_5F00_0020754D.png)  ![image[26]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.image26_5F00_5F00_37E293A3.png)  ![image[27]](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0511.image27_5F00_5F00_219C5284.png)
 
 And if you do not like the UI, just remember it is a sample after all and I am only a lowly programmer (I’ll have to stop calling myself a developer because I can not design good looking screens to save my life), so Programmer Art / Style.
 

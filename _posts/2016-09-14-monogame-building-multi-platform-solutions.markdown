@@ -1,12 +1,8 @@
 ---
 layout: post
 title: MonoGame - Building multi-platform solutions
-date: '2016-09-14 19:50:53'
-tags:
-- monogame
-- tutorials-resources
-- xna
-- xna-related
+date: 2016-09-14 19:50:53
+tags: [monogame]
 ---
 
 To accompany the video project for the walkthrough of building multi-platform solutions with [MonoGame](http://www.monogame.net/), this blog post will walk you through some best practices and tips and tricks for starting and managing your MonoGame projects, with the aim to take them to as many platforms as possible with the least amount of pain.
@@ -33,7 +29,7 @@ XNA Game Studio did not really have a multi-platform strategy as such, sure you 
 
 As you can see here, sharing content was easy enough between any platform.  You just had to be sensible about what content you shared paying careful attention to resolution, size and so on:
 
-[![image](/assets/img/wordpress/2016/09/image_thumb.png "image")](/assets/img/wordpress/2016/09/image.png)
+[![image](/assets/img/wordpress/2016/09/image.png "image")](/assets/img/wordpress/2016/09/image.png)
 
 _Xbox and Windows Project using the same Content Project_
 
@@ -41,7 +37,7 @@ _Xbox and Windows Project using the same Content Project_
 
 XNA provided you with special Game Library projects to allow you to store code outside of your project, similar to normal C#/VB Library Projects.  If you tried normal library projects they would only work on Windows and not on Xbox or Phone.  The drawback with these specific class libraries was that you could only use them on the platform you created them for, so they could not be used by any other platform:
 
-[![image](/assets/img/wordpress/2016/09/image_thumb-1.png "image")](/assets/img/wordpress/2016/09/image-1.png)
+[![image](/assets/img/wordpress/2016/09/image-1.png "image")](/assets/img/wordpress/2016/09/image-1.png)
 
 _Libraries only compatible with projects for the same platform_
 
@@ -74,7 +70,7 @@ With MonoGame, a lot of the above still applies, but I will walk-through some of
 
 ## Sharing Content
 
-[![image](/assets/img/wordpress/2016/09/image_thumb-2.png "image")](/assets/img/wordpress/2016/09/image-2.png)
+[![image](/assets/img/wordpress/2016/09/image-2.png "image")](/assets/img/wordpress/2016/09/image-2.png)
 
 _Sharing Content Projects are quick and easy. Multiple Content Projects per-platform are supported._
 
@@ -130,24 +126,24 @@ This is to create a centralized home for all your shared content.  You can alway
 
 _Click on the images to enlarge them_
 
-[![NewContentFolder](/assets/img/wordpress/2016/09/NewContentFolder_thumb.gif "NewContentFolder")](/assets/img/wordpress/2016/09/NewContentFolder.gif)
+[![NewContentFolder](/assets/img/wordpress/2016/09/NewContentFolder.gif "NewContentFolder")](/assets/img/wordpress/2016/09/NewContentFolder.gif)
 
 2. 
 #### Move / Copy the default MGCB content project definition to the new Content folder.
 
-When starting fresh, it is best to just move the MGCB file that the templates created for you, or alternatively use the Content Builder tool to create a new one.  Either way is fine, just so you end up with your main shared content project definition. Feel free to rename it if you wish.[![CopyContentProject](/assets/img/wordpress/2016/09/CopyContentProject_thumb.gif "CopyContentProject")](/assets/img/wordpress/2016/09/CopyContentProject.gif)
+When starting fresh, it is best to just move the MGCB file that the templates created for you, or alternatively use the Content Builder tool to create a new one.  Either way is fine, just so you end up with your main shared content project definition. Feel free to rename it if you wish.[![CopyContentProject](/assets/img/wordpress/2016/09/CopyContentProject.gif "CopyContentProject")](/assets/img/wordpress/2016/09/CopyContentProject.gif)
 
 3. 
 #### Delete / remove the existing content definition from the project and create a new link to the one in the new Content folder
 
-This is to clean up your project so that it uses your new central shared content project.   Another option is to leave the old platform content project there (renaming it to be clear) and just adding the shared project to the platform.  Either way is fine and all depends on how you want to manage your content.[![ReferenceContent](/assets/img/wordpress/2016/09/ReferenceContent_thumb.gif "ReferenceContent")](/assets/img/wordpress/2016/09/ReferenceContent.gif)
+This is to clean up your project so that it uses your new central shared content project.   Another option is to leave the old platform content project there (renaming it to be clear) and just adding the shared project to the platform.  Either way is fine and all depends on how you want to manage your content.[![ReferenceContent](/assets/img/wordpress/2016/09/ReferenceContent.gif "ReferenceContent")](/assets/img/wordpress/2016/09/ReferenceContent.gif)
 
 4. 
 #### Update the Build Action of the MGCB file to “MonoGameContentReference” \<- never forget ![Open-mouthed smile](/assets/img/wordpress/2016/09/wlEmoticon-openmouthedsmile.png)
 
 No Retreat, No Surrender
 
-[![MonoGameContentReference](/assets/img/wordpress/2016/09/MonoGameContentReference_thumb.gif "MonoGameContentReference")](/assets/img/wordpress/2016/09/MonoGameContentReference.gif)
+[![MonoGameContentReference](/assets/img/wordpress/2016/09/MonoGameContentReference.gif "MonoGameContentReference")](/assets/img/wordpress/2016/09/MonoGameContentReference.gif)
 
  
 
@@ -156,7 +152,7 @@ No Retreat, No Surrender
 
 Do the same for the game code as you did with the shared content project bycreating a new shared area for your game code in one place.  There are other things to consider if you are using any additional source libraries (libraries you create in source rather than just reference DLL’s), like whether to have their own folder or store in the project. Use whatever makes sense to you.
 
-[![CreateGameCodeFolder](/assets/img/wordpress/2016/09/CreateGameCodeFolder_thumb.gif "CreateGameCodeFolder")](/assets/img/wordpress/2016/09/CreateGameCodeFolder.gif)
+[![CreateGameCodeFolder](/assets/img/wordpress/2016/09/CreateGameCodeFolder.gif "CreateGameCodeFolder")](/assets/img/wordpress/2016/09/CreateGameCodeFolder.gif)
 
  
 
@@ -165,7 +161,7 @@ Do the same for the game code as you did with the shared content project bycreat
 
 You already have a starting class, so you might as well reuse it. If you are coming from an existing project, just move the code across.
 
-[![CopyGamecsFile](/assets/img/wordpress/2016/09/CopyGamecsFile_thumb.gif "CopyGamecsFile")](/assets/img/wordpress/2016/09/CopyGamecsFile.gif)
+[![CopyGamecsFile](/assets/img/wordpress/2016/09/CopyGamecsFile.gif "CopyGamecsFile")](/assets/img/wordpress/2016/09/CopyGamecsFile.gif)
 
  
 
@@ -174,7 +170,7 @@ You already have a starting class, so you might as well reuse it. If you are com
 
 As this is shared game code, best to make it clear and name it appropriately, this is also to ensure it is not confused with your platform or library code.
 
-[![LinkGameCS](/assets/img/wordpress/2016/09/LinkGameCS_thumb.gif "LinkGameCS")](/assets/img/wordpress/2016/09/LinkGameCS.gif)
+[![LinkGameCS](/assets/img/wordpress/2016/09/LinkGameCS.gif "LinkGameCS")](/assets/img/wordpress/2016/09/LinkGameCS.gif)
 
  
 
@@ -183,7 +179,7 @@ As this is shared game code, best to make it clear and name it appropriately, th
 
 VERY IMPORTANT, you should encapsulate all your game code within its own coding namespace to ensure any code you write is not going to conflict with anything else (platform code, libraries, dependencies, etc)
 
-[![NamingNamespaces](/assets/img/wordpress/2016/09/NamingNamespaces_thumb.gif "NamingNamespaces")](/assets/img/wordpress/2016/09/NamingNamespaces.gif)
+[![NamingNamespaces](/assets/img/wordpress/2016/09/NamingNamespaces.gif "NamingNamespaces")](/assets/img/wordpress/2016/09/NamingNamespaces.gif)
 
  
 
@@ -193,14 +189,14 @@ VERY IMPORTANT, you should encapsulate all your game code within its own coding 
 _(remembering to also rename the constructor to the same)_Might as well make the game code unique, so that you know when you are calling it from your platform projects, makes it easier to you know what you are referring to.  
 _ **\*Note, Do not name any classes in your project the same as the Namespace else it will create confusion.** _
 
-[![NamingTheGame](/assets/img/wordpress/2016/09/NamingTheGame_thumb.gif "NamingTheGame")](/assets/img/wordpress/2016/09/NamingTheGame.gif)
+[![NamingTheGame](/assets/img/wordpress/2016/09/NamingTheGame.gif "NamingTheGame")](/assets/img/wordpress/2016/09/NamingTheGame.gif)
 
  
 
 10. 
 #### Update platform project instantiation class (program.cs on windows  activity.cs on Android)
 
-You need to add a “ **using** ” reference to your shared game project and update the Game class object to initialize.  This will fix the project and enable it to build and run using your new shared code.[![FixingTheProgram](/assets/img/wordpress/2016/09/FixingTheProgram_thumb.gif "FixingTheProgram")](/assets/img/wordpress/2016/09/FixingTheProgram.gif)
+You need to add a “ **using** ” reference to your shared game project and update the Game class object to initialize.  This will fix the project and enable it to build and run using your new shared code.[![FixingTheProgram](/assets/img/wordpress/2016/09/FixingTheProgram.gif "FixingTheProgram")](/assets/img/wordpress/2016/09/FixingTheProgram.gif)
 
 Now that you have your project setup, I would recommend adding another platform project and repeating the above steps where you remove and re-link the shared assets (not the copying of course) as well as the final step.  Even if you do not intend to do anything with it at the moment, it is good to practice.
 
@@ -226,7 +222,7 @@ In the clip below, I assume you have followed the steps above and want to add a 
 - I then copy in the old Game.CS and re-reference it in my Platform project
 - Finally, I then create a new class, just for fun and link it in my platform project to show the workflow for adding new classes.
 
-[![UsingALibrary](/assets/img/wordpress/2016/09/UsingALibrary_thumb.gif "UsingALibrary")](/assets/img/wordpress/2016/09/UsingALibrary.gif)
+[![UsingALibrary](/assets/img/wordpress/2016/09/UsingALibrary.gif "UsingALibrary")](/assets/img/wordpress/2016/09/UsingALibrary.gif)
 
  
 
@@ -242,7 +238,7 @@ Whilst you want to keep as much of the platform specific “stuff” in the plat
 
 You can see the directives MonoGame supplies you by default if you look at the Build tab of your project properties, as shown below:
 
-| [![image](/assets/img/wordpress/2016/09/image_thumb-3.png "image")](/assets/img/wordpress/2016/09/image-3.png) | [![image](/assets/img/wordpress/2016/09/image_thumb-4.png "image")](/assets/img/wordpress/2016/09/image-4.png) | [![image](/assets/img/wordpress/2016/09/image_thumb-5.png "image")](/assets/img/wordpress/2016/09/image-5.png) |
+| [![image](/assets/img/wordpress/2016/09/image-3.png "image")](/assets/img/wordpress/2016/09/image-3.png) | [![image](/assets/img/wordpress/2016/09/image-4.png "image")](/assets/img/wordpress/2016/09/image-4.png) | [![image](/assets/img/wordpress/2016/09/image-5.png "image")](/assets/img/wordpress/2016/09/image-5.png) |
 | Windows | Linux / OpenGL | Android |
 
 Where these come in handy is where you need to:
@@ -272,7 +268,7 @@ As you can see:
 
 There are many ways this can be done. However, there is one really nice thing that most code editors will do for you, is that it will highlight the “Active” code branch, depending on which project you opened the file from, even if it is the same shared / linked file.  As shown here:
 
-| [![image](/assets/img/wordpress/2016/09/image_thumb-6.png "image")](/assets/img/wordpress/2016/09/image-6.png) | [![image](/assets/img/wordpress/2016/09/image_thumb-7.png "image")](/assets/img/wordpress/2016/09/image-7.png) | [![image](/assets/img/wordpress/2016/09/image_thumb-8.png "image")](/assets/img/wordpress/2016/09/image-8.png) |
+| [![image](/assets/img/wordpress/2016/09/image-6.png "image")](/assets/img/wordpress/2016/09/image-6.png) | [![image](/assets/img/wordpress/2016/09/image-7.png "image")](/assets/img/wordpress/2016/09/image-7.png) | [![image](/assets/img/wordpress/2016/09/image-8.png "image")](/assets/img/wordpress/2016/09/image-8.png) |
 | 
 
 File opened from Windows project
@@ -327,5 +323,5 @@ As I said earlier, if you have other tips or suggestions to better work with a m
 
 Solidarity brothers and sisters!
 
-[![Solidaritary](/assets/img/wordpress/2016/09/Solidaritary_thumb.png "Solidaritary")](/assets/img/wordpress/2016/09/Solidaritary.png)
+[![Solidaritary](/assets/img/wordpress/2016/09/Solidaritary.png "Solidaritary")](/assets/img/wordpress/2016/09/Solidaritary.png)
 

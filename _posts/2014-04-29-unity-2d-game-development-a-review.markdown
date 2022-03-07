@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Unity 2D Game Development - A Review
-date: '2014-04-29 11:20:13'
-tags:
-- 2d
-- book-review
-- unity-3d-tutorials
-- unity3d
+date: 2014-04-29 11:20:13
+tags: [book review, unity3d]
 ---
 
 While I am busy working on my own Unity3D 2D title coming soon to PacktPub, I decided to come up for air to see what other titles are now gracing the shelves, I was pleasantly surprised.

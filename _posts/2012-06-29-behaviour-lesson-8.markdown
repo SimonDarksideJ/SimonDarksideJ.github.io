@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Behaviour - Lesson 8
-date: '2012-06-29 21:08:07'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 21:08:07
+tags: [2d tutorial, game development, xna]
 ---
 
 Welcome to the conclusion of the original DigiPen tutorial, although fear not, this wont be the end of the series as we still have lots more to do.
@@ -314,7 +310,7 @@ Technorati Tags: [XNA](http://technorati.com/tags/XNA),[wp7dev](http://technorat
 ## Addendum – a wandering story in the path of madness
 When finalising all the code and packaging it up, I ran into a curious little bug. In the Phone 7 project collisions were happening as expected and all was fine, however the same was not true of the Windows project. In the Windows project the collision rectangles were offset from the actual sprite was on the screen, but here is the weird part, only for the Condor and fire sprite and NOT the trooper, how odd.
 
-| ![Collisions](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6765.Collisions_5F00_thumb_5F00_16CBFC67.png) |
+| ![Collisions](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6765.Collisions_5F00_5F00_16CBFC67.png) |
 |---|---|
 | Trooper OK, Collision rectangle centred on Sprite | Condor, woah. What on earth is going on here |
 |

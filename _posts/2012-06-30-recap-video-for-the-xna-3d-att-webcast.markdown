@@ -1,12 +1,8 @@
 ---
 layout: post
 title: ReCap video for the XNA 3D AT&T Webcast
-date: '2012-06-30 23:18:30'
-tags:
-- 3d
-- game-development
-- xna
-- xna-3d-tutorials
+date: 2012-06-30 23:18:30
+tags: [3d, xna]
 ---
 
 Catching up on the webcasts I’ve done now for AT&T, here’s the recording from the event in September last year.

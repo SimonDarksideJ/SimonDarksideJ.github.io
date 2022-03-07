@@ -1,16 +1,8 @@
 ---
 layout: post
 title: Syncfusion 'Succinctly' series of Free ebooks
-date: '2013-07-19 23:33:39'
-tags:
-- book-review
-- information
-- ios
-- javascript
-- jquery
-- syncfusion
-- windows-8
-- winrt
+date: 2013-07-19 23:33:39
+tags: [book review,syncfusion]
 ---
 
 The main reason I have been so quiet of late is because I have been focusing on entries for Nokia’s @DVLUP challenges in the hope to earn some XP and get some fantastic goodies.  Just about finished on my last project and decided to have a breather (also they extended my current challenge, more time is always good for QA)

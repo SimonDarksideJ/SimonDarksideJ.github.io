@@ -1,12 +1,8 @@
 ---
 layout: post
 title: C# Programming Overview continued - Variables
-date: '2012-06-29 09:15:58'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:15:58
+tags: [2d tutorial, game development, xna]
 ---
 
 ### 1. Introduction

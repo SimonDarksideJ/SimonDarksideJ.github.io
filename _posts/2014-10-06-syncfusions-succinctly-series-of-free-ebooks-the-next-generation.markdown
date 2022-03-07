@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Syncfusion 'Succinctly' series of Free ebooks - The next generation
-date: '2014-10-06 20:21:09'
-tags:
-- book-review
-- competitions
-- information
-- syncfusion
+date: 2014-10-06 20:21:09
+tags: [book review,syncfusion]
 ---
 
 Knowledge is power and with what [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview)are doing to educate the masses , then they must be very powerful indeed. Training and educating developers far and wide, growing their own developer army.  Or they could just be very nice people ![Open-mouthed smile](/assets/img/wordpress/2014/10/wlEmoticon-openmouthedsmile.png)

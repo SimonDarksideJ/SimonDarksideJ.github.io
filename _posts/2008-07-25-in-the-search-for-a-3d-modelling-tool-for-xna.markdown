@@ -1,11 +1,8 @@
 ---
 layout: post
 title: In the Search for a 3D modelling tool for XNA
-date: '2008-07-25 10:12:31'
-tags:
-- 3d
-- information
-- tools
+date: 2008-07-25 10:12:31
+tags: [3d, xna]
 ---
 
 ![width=](http://www.digivision.com.tw/news/20080725/EmmanuelAsset_villefranche_s.jpg "caligari Truespace")

@@ -1,16 +1,8 @@
 ---
 layout: post
 title: XNA to the Sunburn Gaming Engine and Beyond
-date: '2013-01-04 15:00:00'
-tags:
-- codeproject
-- futures
-- information
-- sunburn
-- sunburn-tutorials
-- tutorials-resources
-- xna
-- xna-related
+date: 2013-01-04 15:00:00
+tags: [xna, sunburn]
 ---
 
 So far in this series I have covered:
@@ -172,17 +164,17 @@ The Sunburn guys have already ported 3 of their main gaming engine samples to th
 
 | 
 
-[![Cavern](/assets/img/wordpress/2013/01/Cavern_thumb.png "Cavern")](/assets/img/wordpress/2013/01/Cavern.png)
+[![Cavern](/assets/img/wordpress/2013/01/Cavern.png "Cavern")](/assets/img/wordpress/2013/01/Cavern.png)
 
  | 
 
-[![Sci-Fi](/assets/img/wordpress/2013/01/Sci-Fi_thumb.png "Sci-Fi")](/assets/img/wordpress/2013/01/Sci-Fi.png)
+[![Sci-Fi](/assets/img/wordpress/2013/01/Sci-Fi.png "Sci-Fi")](/assets/img/wordpress/2013/01/Sci-Fi.png)
 
  |
 
 | 
 
-[![DoJo](/assets/img/wordpress/2013/01/DoJo_thumb.png "DoJo")](/assets/img/wordpress/2013/01/DoJo.png)
+[![DoJo](/assets/img/wordpress/2013/01/DoJo.png "DoJo")](/assets/img/wordpress/2013/01/DoJo.png)
 
  |
 

@@ -2,20 +2,11 @@
 layout: post
 title: Dream Build Play Returns - Time to get your Game on and this time you can
   use ANYTHING
-date: '2017-06-29 12:36:02'
-tags:
-- competition
-- directx
-- dream-build-play
-- events
-- monogame
-- unity3d
-- unreal
-- uwp
-- windows-10
+date: 2017-06-29 12:36:02
+tags: [competitions]
 ---
 
-[![image](/assets/img/wordpress/2017/06/image_thumb.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
+[![image](/assets/img/wordpress/2017/06/image.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 
 It is official, the world has ended as Microsoft has resurrected the hugely successful Dream Build Play challenge for 2017. The biggest main difference in this resurgence, is that you can now use any tool, framework or language you wish, So long as it targets Windows 10 UWP!.
 
@@ -23,7 +14,7 @@ It is official, the world has ended as Microsoft has resurrected the hugely succ
 
 The competition is broken up in to 4 main categories with various Prize levels for each, totalling a MASSIVE $200,000 prize fund for entrants to win!
 
-[![image](/assets/img/wordpress/2017/06/image_thumb-1.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
+[![image](/assets/img/wordpress/2017/06/image-1.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 
 The competition is open to all ( **AS IN WORLDWIDE** ) with only a few of the usual exceptions:
 
@@ -42,7 +33,7 @@ You also ca not (of note) submit a game that is being built by a major publishin
 
 If you are up to the challenge, there are a few key dates to be aware of!
 
-[![image](/assets/img/wordpress/2017/06/image_thumb-2.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
+[![image](/assets/img/wordpress/2017/06/image-2.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 
 * * *
 
@@ -68,7 +59,7 @@ Now, with the new and improved Dream Build play, the competition is open to anyo
 
 Now you might think this is just one big push to get developers to build games for Windows 10 and you would be completely right in that but nothing says more than “come build for my platform” than the promise of money. However, this competition is SOOO much more than that.
 
-[![image](/assets/img/wordpress/2017/06/image_thumb-3.png "image")](/assets/img/wordpress/2017/06/image-3.png)
+[![image](/assets/img/wordpress/2017/06/image-3.png "image")](/assets/img/wordpress/2017/06/image-3.png)
 
  
 
@@ -93,17 +84,17 @@ Where previously the competition was limited to Microsoft’s own game developme
 
 For instance, these companies all support UWP natively as an export platform:
 
-| [![image](/assets/img/wordpress/2017/06/image_thumb-4.png "MonoGame")](/assets/img/wordpress/2017/06/image-4.png) | [![image](/assets/img/wordpress/2017/06/image_thumb-5.png "Unreal Engine")](/assets/img/wordpress/2017/06/image-5.png) | [![Image result for unity3d logo](https://libuntu.files.wordpress.com/2015/10/unity3d-logo.png)](https://libuntu.files.wordpress.com/2015/10/unity3d-logo.png) | [![image](/assets/img/wordpress/2017/06/image_thumb-6.png "CoCos")](/assets/img/wordpress/2017/06/image-6.png) | [![image](/assets/img/wordpress/2017/06/image_thumb-7.png "Marmalade")](/assets/img/wordpress/2017/06/image-7.png) |
+| [![image](/assets/img/wordpress/2017/06/image-4.png "MonoGame")](/assets/img/wordpress/2017/06/image-4.png) | [![image](/assets/img/wordpress/2017/06/image-5.png "Unreal Engine")](/assets/img/wordpress/2017/06/image-5.png) | [![Image result for unity3d logo](https://libuntu.files.wordpress.com/2015/10/unity3d-logo.png)](https://libuntu.files.wordpress.com/2015/10/unity3d-logo.png) | [![image](/assets/img/wordpress/2017/06/image-6.png "CoCos")](/assets/img/wordpress/2017/06/image-6.png) | [![image](/assets/img/wordpress/2017/06/image-7.png "Marmalade")](/assets/img/wordpress/2017/06/image-7.png) |
 
 And that is not to say you ca not just go your own way, as UWP has a full D3D rendering surface under the hood, so you can always roll your own C++ engine and just start firing things at the screen.
 
-[![image](/assets/img/wordpress/2017/06/image_thumb-8.png "image")](/assets/img/wordpress/2017/06/image-8.png)
+[![image](/assets/img/wordpress/2017/06/image-8.png "image")](/assets/img/wordpress/2017/06/image-8.png)
 
 * * *
 
 # Making your Game stand out!
 
-[![clip_image002_thumb](/assets/img/wordpress/2017/06/clip_image002_thumb_thumb.png "clip\_image002\_thumb")](/assets/img/wordpress/2017/06/clip_image002_thumb.png)
+[![clip_image002](/assets/img/wordpress/2017/06/clip_image002.png "clip\_image002\")](/assets/img/wordpress/2017/06/clip_image002.png)
 
 As ever with these competitions, it is all about making your game stand out, making your Unique features scream at a judges face saying Pick me.  Microsoft has already gone a long way to give you some pointers to make your final submission a big success, such as:
 
@@ -143,5 +134,5 @@ So, what are you waiting for, the clock is ticking. Get registered and be ready 
 
  
 
-[![image](/assets/img/wordpress/2017/06/image_thumb-9.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
+[![image](/assets/img/wordpress/2017/06/image-9.png "image")](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 

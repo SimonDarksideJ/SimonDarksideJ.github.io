@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Game Web Cast Project: Game Components'
-date: '2012-06-29 09:26:00'
-tags:
-- 2d
-- windows-phone
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:26:00
+tags: [2d tutorial, game development, xna]
 ---
 
 ### This section is pretty much as-is from the original Digipen webcast.  View the [original video for the webcast here](http://startrooper2dxna.codeplex.com/releases/view/43706 "Original lesson three webcast and supporting documentation") on codeplex.
@@ -29,11 +25,11 @@ The orientation can be over the x, y and z-axis.
 
 The rotation along the x-axis is called pitch, along the y-axis yaw, and along the z-axis roll.
 
- | [![image](/assets/img/wordpress/2012/07/image_thumb5.png "image")](/assets/img/wordpress/2012/07/image5.png) |
+ | [![image](/assets/img/wordpress/2012/07/image5.png "image")](/assets/img/wordpress/2012/07/image5.png) |
 
 |   |   |
 | For example, in a flight simulation, the plane can pitch, yaw, and roll. |
-| [![image](/assets/img/wordpress/2012/07/image_thumb6.png "image")](/assets/img/wordpress/2012/07/image6.png) |
+| [![image](/assets/img/wordpress/2012/07/image6.png "image")](/assets/img/wordpress/2012/07/image6.png) |
 
 ### 1.3. Bitmap-Based Graphics
 
@@ -57,7 +53,7 @@ These graphics are often more practical for typesetting or graphic design like t
 
 ### 2.1. Keyboards
 
-[![image](/assets/img/wordpress/2012/07/image_thumb7.png "image")](/assets/img/wordpress/2012/07/image7.png)
+[![image](/assets/img/wordpress/2012/07/image7.png "image")](/assets/img/wordpress/2012/07/image7.png)
 
 The keyboard is an input device with systematically arranged keys that allow users to type information, move the cursor, or activate functions assigned to keys. The keys on computer keyboards are often classified as follows:
 
@@ -69,13 +65,13 @@ In a game, the keyboard is used to enter text or data, to move objects, to acces
 
 ### 2.2. Mouse
 
-[![image](/assets/img/wordpress/2012/07/image_thumb8.png "image")](/assets/img/wordpress/2012/07/image8.png)
+[![image](/assets/img/wordpress/2012/07/image8.png "image")](/assets/img/wordpress/2012/07/image8.png)
 
 A mouse is a small object, which is rolled along a hard, flat surface. Mouse devices control the movement of the cursor or pointer on a display screen. As you move the mouse, the pointer on the display screen moves in the same direction. The mouse is used to move game objects and to shoot. The mouse frees users to a large extent from using the keyboard. In particular, the mouse is important for graphical user interfaces (GUI) because users can simply point to options and objects and click a mouse button to select that option. The mouse is also useful for graphics programs that allow users to draw images by using the mouse like a pen, pencil, or paintbrush.
 
 ### 2.3. Joystick
 
-[![image](/assets/img/wordpress/2012/07/image_thumb9.png "image")](/assets/img/wordpress/2012/07/image9.png)
+[![image](/assets/img/wordpress/2012/07/image9.png "image")](/assets/img/wordpress/2012/07/image9.png)
 
 A joystick is a pointing device consisting of a hand-held stick that pivots about one end and transmits its angle in two or three dimensions to a computer. Most joysticks are two-dimensional, having two axes of movement, just like a mouse, but three-dimensional joysticks do exist. Joysticks are often used to control games, and usually have one or more push-buttons whose state can also be read by the computer and often set by the user. An analogue joystick is a joystick that has continuous states – it returns an angle measure of the movement in any direction in the plane or the space. A digital joystick gives only on/off signals for four different directions and mechanically possible combinations (such as up-right, down-left, etc). Digital joysticks are very common as game controllers for video game consoles. Joysticks often have one or more fire buttons, used to trigger some kind of action which is visible on the screen. These are digital.
 
@@ -94,7 +90,7 @@ The magnitude is the strength of the force. It is measured in units starting fro
 
 | 
 
-[![image](/assets/img/wordpress/2012/07/image_thumb10.png "image")](/assets/img/wordpress/2012/07/image10.png)
+[![image](/assets/img/wordpress/2012/07/image10.png "image")](/assets/img/wordpress/2012/07/image10.png)
 
  |
 | A sawtooth periodic effect with a magnitude of 5,000, or half the maximum force for the device. |
@@ -139,7 +135,7 @@ Sound and music always play a major role in games. Designers depend on sound and
 > 
 > • Using facts like these, voices shrink considerably by a factor of 10 to 12 at least.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb11.png "image")](/assets/img/wordpress/2012/07/image11.png)
+[![image](/assets/img/wordpress/2012/07/image11.png "image")](/assets/img/wordpress/2012/07/image11.png)
 
 > ### 3.3.2. OGG VORBIS
 > 
@@ -178,7 +174,7 @@ Multi-player games can be implemented by the application setting up and sending 
 > 
 > Peer-to-peer mode requires no server application to be developed. An application embedded in the game itself handles communication, and each player maintains his or her own copy of the game database. This solves the potential problem of a server bottleneck. If there are n players in the game, then a single change made by one player needs to be communicated to the other (n – 1) players. If all players make changes–the usual situation at any time during a game–then n(n-1) messages need to be sent.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb12.png "image")](/assets/img/wordpress/2012/07/image12.png)
+[![image](/assets/img/wordpress/2012/07/image12.png "image")](/assets/img/wordpress/2012/07/image12.png)
 
 > ### 4.2.2. Client-Server
 > 
@@ -198,7 +194,7 @@ Multi-player games can be implemented by the application setting up and sending 
 
 \*  On receipt of an acknowledgement, the client applies the command contained in the message.
 
- | [![image](/assets/img/wordpress/2012/07/image_thumb13.png "image")](/assets/img/wordpress/2012/07/image13.png) |
+ | [![image](/assets/img/wordpress/2012/07/image13.png "image")](/assets/img/wordpress/2012/07/image13.png) |
 
 > In multi-player games, new technologies are adding excitement and amusement because players can see (using web cams) and talk (using voice-over IP) to each other during game play.
 

@@ -1,15 +1,8 @@
 ---
 layout: post
 title: Can you improve children's lives through games? - Medium
-date: '2019-05-15 14:03:19'
-tags:
-- cf
-- cystic-fibrosis
-- fizzyo
-- information
-- ramblings
-- unity3d
-- windows-10
+date: 2019-05-15 14:03:19
+tags: [fizzyo, information]
 ---
 
 I have been working long and hard on one of the most beneficial projects of my life.  I have worked in healthcare for the past 2 decades professionally with healthcare software, ever since my Son was born with an untreatable genetic condition.  I have wanted to “Pay forward” to all those clinical staff who helped us through our early years by creating better software to enable them to care more (and type less). 

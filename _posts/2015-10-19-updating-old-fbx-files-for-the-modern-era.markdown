@@ -1,14 +1,11 @@
 ---
 layout: post
 title: Updating old FBX files for the modern era
-date: '2015-10-19 08:43:21'
-tags:
-- fbx
-- monogame
-- tutorials-resources
+date: 2015-10-19 08:43:21
+tags: [monogame]
 ---
 
-[![image](/assets/img/wordpress/2015/10/image_thumb.png "image")](/assets/img/wordpress/2015/10/image.png)
+[![image](/assets/img/wordpress/2015/10/image.png "image")](/assets/img/wordpress/2015/10/image.png)
 
 FBX as a standard for 3D model files has been around a while now, it is robust and commonly used simply because formats like .X (DirectX) and obj (Wavefront) either are not supported or implementations can vary (but everyone always has an opinion on which format is their favourite. Use what you prefer!).
 
@@ -18,7 +15,7 @@ Now standards improve / change over time and FBX is no different, Autodesk (who 
 
 I stumbled across this recently while updating some old samples and tests for MonoGame. Normally with MonoGame (99.5% of the time) the old XNA samples just work, you simply need to build a new MonoGame project, copy over the code and assets and you are up and running, however with the recent releases they have deprecated some of the older FBX standards in favour of only supporting the newer variety.  When you add an old FBX into your content project you will get the following error:
 
-[![image](/assets/img/wordpress/2015/10/image_thumb1.png "image")](/assets/img/wordpress/2015/10/image1.png)
+[![image](/assets/img/wordpress/2015/10/image1.png "image")](/assets/img/wordpress/2015/10/image1.png)
 
 As you can see, we get a fairly explanatory error:
 
@@ -66,7 +63,7 @@ With Visual Studio, you can simply double click an FBX (and some other) files, t
 
 One last note when reviewing the upgraded FBX file was that it was in fact MUCH smaller, check for yourself:
 
-[![image](/assets/img/wordpress/2015/10/image_thumb3.png "image")](/assets/img/wordpress/2015/10/image4.png)
+[![image](/assets/img/wordpress/2015/10/image3.png "image")](/assets/img/wordpress/2015/10/image4.png)
 
 Not sure what the actual cause of the reduction is or it is full effect, however the new FBX works just as well as the old from what I can tell.
 

@@ -1,19 +1,16 @@
 ---
 layout: post
 title: Welcome to Mixed Reality - Oct 17th launch edition
-date: '2017-10-17 12:35:21'
-img: /assets/img/wordpress/2017/10/image.png
-tags:
-- events
-- mixed-reality
-- windows-10
+date: 2017-10-17 12:35:21
+img: wordpress/2017/10/image.png
+tags: [mixed reality]
 ---
 
 Well, it is October 17th (as I am writing this) which means it is the official launch of the Fall creators update of Windows 10 and the release of the Windows Mixed Reality headsets from Acer, Asus, Dell and more.
 
 # The Windows Mixed Reality Family
 
-[![image](/assets/img/wordpress/2017/10/image_thumb.png "image")](/assets/img/wordpress/2017/10/image-1.png)
+[![image](/assets/img/wordpress/2017/10/image.png "image")](/assets/img/wordpress/2017/10/image-1.png)
 
 Microsoft refer to the new “Mixed Reality” setup as their “Windows Mixed Reality Family”, pairing up “Mixed Reality Ready” PCs, with headsets and controllers.
 
@@ -25,13 +22,13 @@ You should see this advertised wherever you see the new headsets or mixed realit
 
 The headsets are out there and all the vendor outlets are already publishing and promoting their new wares. They can also be found on the Microsoft store and popular online retailers, such as [Amazon](https://www.amazon.co.uk/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=mixed+reality), [Currys/PCWorld](http://www.pcworld.co.uk/gbuk/search-keywords/xx_xx_xx_xx_xx/mixed%2Breality/xx-criteria.html) and more, just search for “ **Mixed Reality** ” and let the offers commence.
 
-[![image](/assets/img/wordpress/2017/10/image_thumb-1.png "image")](/assets/img/wordpress/2017/10/image-2.png)
+[![image](/assets/img/wordpress/2017/10/image-1.png "image")](/assets/img/wordpress/2017/10/image-2.png)
 
 The prices for the headsets range from £300 to £550, depending on manufacturer, quality, build and offers. Most come with controllers included, others allow you to purchase separately if you wish.
 
 ## Mixed Reality PC Requirements
 
-[![image](/assets/img/wordpress/2017/10/image_thumb-2.png "image")](/assets/img/wordpress/2017/10/image-3.png)
+[![image](/assets/img/wordpress/2017/10/image-2.png "image")](/assets/img/wordpress/2017/10/image-3.png)
 
 What is surprising, is that unlike the competitive VR offerings from other providers, the PC requirements for running Mixed Reality are considerably lower, making the PC purchase even easier.  Granted, if you want that uber experience, then you will need a beefier PC.  On the whole, a modest gaming rig (I paid £700 for mine) is more than sufficient to run the Mixed Reality line-up.
 
@@ -39,7 +36,7 @@ What is surprising, is that unlike the competitive VR offerings from other provi
 
 ## Easiest Setup and Portability
 
-[![image](/assets/img/wordpress/2017/10/image_thumb-3.png "image")](/assets/img/wordpress/2017/10/image-4.png)
+[![image](/assets/img/wordpress/2017/10/image-3.png "image")](/assets/img/wordpress/2017/10/image-4.png)
 
 Another differentiating factor of the Mixed Line-up, is that it does not require any complex setup, no sensors or beacons. Literally just plug in, walk around your room and you are ready to go.  All the necessary sensors, tracking and such are pre-built into the headset itself. The only connection is the wire from the headset to the PC, which is long enough for most experiences (but can be extended using traditional HDMI & USB3 extension cables).  Although the length of the wire is no issue for seated experiences (although I do recommend a swivel chair ![Open-mouthed smile](/assets/img/wordpress/2017/10/wlEmoticon-openmouthedsmile.png))
 

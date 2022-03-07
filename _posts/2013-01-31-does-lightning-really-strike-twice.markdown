@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Does lightning really strike twice?
-date: '2013-01-31 22:15:56'
-tags:
-- lightning
-- monogame
-- tutorials-resources
-- xna
-- xna-related
+date: 2013-01-31 22:15:56
+tags: [monogame]
 ---
 
 ![src=]()
@@ -40,19 +35,19 @@ First off you had better swing over to the new MonoGame website and grab the lat
 
 With the new version installed you will be presented with the new project templates when starting a new project:
 
-[![image](/assets/img/wordpress/2013/01/image_thumb.png "image")](/assets/img/wordpress/2013/01/image1.png)
+[![image](/assets/img/wordpress/2013/01/image.png "image")](/assets/img/wordpress/2013/01/image1.png)
 
 As expected the Android and Linux builds are still there, there is a new player to the party with the Ouya (be sure to check on the requirements as Ouya deployment will also need a Xamarin Android license to deploy), two features to existing users that will catch your eye is that the Windows Project has now been renamed to OpenGL (unknown as yet whether there will be a DX variant or if this is a permanent shift?), the other thing of note is that there has been significant work on the Content building side (also now supported in VS 2012 but more on that later).  After much criticism the content project has been simplified and updated to support more traditional content plus the addition of content building for the new platforms.
 
 After you have started your new Windows project just add an additional project for the Content to the solution and you should have a clean setup as below:
 
-[![image](/assets/img/wordpress/2013/01/image_thumb1.png "image")](/assets/img/wordpress/2013/01/image2.png)
+[![image](/assets/img/wordpress/2013/01/image1.png "image")](/assets/img/wordpress/2013/01/image2.png)
 
 > \*\*Note, at the time of writing there is an issue in the new “Windows OpenGL” project template which incorrectly references the SDL.DLL, The MonoGame team are aware of the issue and no doubt it will be resolved shortly.  For now you can simply remove the SD.dll.
 
 As with any simple conversion project like this with MonoGame, getting started is easy, just copy over all the class files to your new project (except for the Game class, always best to port that manually,, just in case), then copy over all the content from the original project in to the Content Project solution and you should have something now looking like this:
 
-[![image](/assets/img/wordpress/2013/01/image_thumb2.png "image")](/assets/img/wordpress/2013/01/image3.png)
+[![image](/assets/img/wordpress/2013/01/image2.png "image")](/assets/img/wordpress/2013/01/image3.png)
 
 (\*Note do not forget to update the namespace in the copied files)
 
@@ -82,7 +77,7 @@ Once you have linked the files make sure you also
 > ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Change the “Build Action” of the .XNB files to “Content”  
 > ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    And the “Copy to Output Directory” option to “Copy if newer”
 
-[![image](/assets/img/wordpress/2013/02/image_thumb.png "image")](/assets/img/wordpress/2013/02/image.png)
+[![image](/assets/img/wordpress/2013/02/image.png "image")](/assets/img/wordpress/2013/02/image.png)
 
 > TIPS
 > 
@@ -104,7 +99,7 @@ Al that has changed is the “SurfaceFormat” used to prepare the render target
 
 Now fire it up and you will get the same experience as you saw in the previous demos but now running smoothly in MonoGame:
 
-[![image](/assets/img/wordpress/2013/02/image_thumb1.png "image")](/assets/img/wordpress/2013/02/image1.png)
+[![image](/assets/img/wordpress/2013/02/image1.png "image")](/assets/img/wordpress/2013/02/image1.png)
 
 * * *
 

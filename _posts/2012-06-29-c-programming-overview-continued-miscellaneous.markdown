@@ -1,12 +1,8 @@
 ---
 layout: post
 title: C# Programming Overview continued - Miscellaneous
-date: '2012-06-29 09:24:09'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:24:09
+tags: [2d tutorial, game development, xna]
 ---
 
  **This section of the tutorial is provided as is from the original Digipen tutorial, I will post a supplement to this post later which will cover the updates for XNA as well as for new features in .NET 3.5 and .NET 4 together with Visual Studio 2008 and 2010 respectively.**

@@ -1,13 +1,8 @@
 ---
 layout: post
 title: SunBurn 2.0 goes Gold! And FREE Framework Edition Ships!
-date: '2012-07-02 14:15:43'
-tags:
-- information
-- sunburn
-- sunburn-tutorials
-- windows-phone
-- xna
+date: 2012-07-02 14:15:43
+tags: [sunburn, xna]
 ---
 
 ##### Hot off the press, SunBurn 2.0 is now fully release, see what the Synapse Gaming guys have to say about it!

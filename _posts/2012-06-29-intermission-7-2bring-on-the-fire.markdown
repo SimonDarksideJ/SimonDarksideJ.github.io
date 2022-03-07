@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #7 / 2 - Bring on the Fire'
-date: '2012-06-29 11:01:40'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 11:01:40
+tags: [2d tutorial, game development, xna]
 ---
 
 2D,XNA,Game DevelopmentIn the last post we set the groundwork with the particle system itself.  Now we can move on to making use of this and adding / customising our effects.
@@ -31,7 +27,7 @@ As usual all the code for this section can be found [here on codeplex](http://st
 
 Below is a diagram of what we are aiming for with our replacement fireball effect, a bit more snazzy than our original sprite:
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_23722C7D.png)
+![image](http://xna-uk.net/blogs/darkgenesis/image_23722C7D.png)
 
 We need the emitter to be thrown up spewing out fire as it does and trailed with a smoke plume to give it an extra edge.  We could just launch out particles together from our trooper for the effect but we would loose cohesion from our fireball and loose a level of control should we wish to add similar effects for other weapons.
 
@@ -45,7 +41,7 @@ We need the emitter to be thrown up spewing out fire as it does and trailed with
 
 Below is a diagram of the framework we have setup:
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_7A2A48A4.png)
+![image](http://xna-uk.net/blogs/darkgenesis/image_7A2A48A4.png)
 
 From here you can see our standard particle system framework.  Within our framework we will define several emitter effect definitions based on the emitter control template.  This gives us a wide array of capabilities and options for setting up our effects, we can implement either:
 
@@ -950,7 +946,7 @@ Add the following to the beginning of the Particle Manager:
                         
                         | 
                         
-                        ![explosion](http://xna-uk.net/blogs/darkgenesis/explosion_thumb_73FFA9B1.png)
+                        ![explosion](http://xna-uk.net/blogs/darkgenesis/explosion_73FFA9B1.png)
                         
                          |
                         | 
@@ -1025,7 +1021,7 @@ Add the following to the beginning of the Particle Manager:
                             
                             
                             
-                            | ![Fire01](http://xna-uk.net/blogs/darkgenesis/Fire01_thumb_52FC113D.png) | ![image[6]](http://xna-uk.net/blogs/darkgenesis/image6_thumb_58C68F09.png) |
+                            | ![Fire01](http://xna-uk.net/blogs/darkgenesis/Fire01_52FC113D.png) | ![image[6]](http://xna-uk.net/blogs/darkgenesis/image6_58C68F09.png) |
                             | 
                             
                             Old fireball
@@ -1500,7 +1496,7 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        ![Fireball-New](http://xna-uk.net/blogs/darkgenesis/FireballNew_thumb_51C38A2C.png)
+                                        ![Fireball-New](http://xna-uk.net/blogs/darkgenesis/FireballNew_51C38A2C.png)
                                         
                                         
                                         * * *
@@ -1516,7 +1512,7 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_5711AF36.png)
+                                        ![image](http://xna-uk.net/blogs/darkgenesis/image_5711AF36.png)
                                         
                                         
                                         
@@ -1555,7 +1551,7 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_58064CBB.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_7C971898.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_53F7EAEA.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_4AAB89DC.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_6BCB59EB.png) |
+                                        | ![image](http://xna-uk.net/blogs/darkgenesis/image_58064CBB.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_7C971898.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_53F7EAEA.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_4AAB89DC.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_6BCB59EB.png) |
                                         | 1st run, way too many particles and they did not follow the emitter, except flame up | Less particles but they did not last long enough or spawn quick enough.  Also too big | Got the fireball right but we needed more | Great effect, something to keep for later.  Not the ball I wanted.   
                                         May be to use in a different colour as a plasma ball? | The end result. |
                                         

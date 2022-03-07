@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Unexpected Debugging with WP7
-date: '2012-06-30 23:46:38'
-tags:
-- blend
-- debugging
-- tutorials-resources
-- windows-phone
+date: 2012-06-30 23:46:38
+tags: [windows phone]
 ---
 
 ![ /></p>
@@ -28,11 +24,11 @@ Note the process detailed below can also be used for a variety of things, especi
 
 Now hopefully this kind of situation is rare but thankfully there is a backdoor way to solve this problem, one which I learnt from the master of MVVM ([@Lbugnion](http://bit.ly/mLGdSx)) Laurent Bugnion.  The simple trick is to Debug Blend using Visual Studio.
 
-[![image](/assets/img/wordpress/2012/06/image_thumb.png "image")](/assets/img/wordpress/2012/06/image.png)
+[![image](/assets/img/wordpress/2012/06/image.png "image")](/assets/img/wordpress/2012/06/image.png)
 
 The magic here is to use Visual Studio’s “Attach to Process” feature to hook your debugger on to blend for your current project, which can be found here:
 
-| [![image](/assets/img/wordpress/2012/06/image_thumb1.png "image")](/assets/img/wordpress/2012/06/image1.png) |
+| [![image](/assets/img/wordpress/2012/06/image1.png "image")](/assets/img/wordpress/2012/06/image1.png) |
 | 
 
 In Visual Studio – Debug –\> Attach to Process
@@ -47,7 +43,7 @@ In order to debug Blend there are a few prerequisites.
 
 So with Blend running (preferably with no pages open in it), click the “Attach to process” option detailed above and you should see the following window:
 
-| [![image](/assets/img/wordpress/2012/06/image_thumb2.png "image")](/assets/img/wordpress/2012/06/image2.png) |
+| [![image](/assets/img/wordpress/2012/06/image2.png "image")](/assets/img/wordpress/2012/06/image2.png) |
 | VS 2010 “Attach to Process” dialog |
 
 Few things to check here, make sure you select the “Blend.exe” process and that the “attach to” option has “Managed Code” selected (should be the default)

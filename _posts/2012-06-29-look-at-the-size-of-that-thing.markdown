@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Look at the size of that thing
-date: '2012-06-29 22:24:28'
-tags:
-- real-world-experiences
-- tutorials-resources
-- windows-phone
-- xna
+date: 2012-06-29 22:24:28
+tags: [game development]
 ---
 
 ![](http://www.brickartist.com/gallery/deathstar1.jpg)
@@ -47,7 +43,7 @@ Now the best tool to do this with is [Audacity](http://audacity.sourceforge.net/
 
 The interface is pretty basic but works very well, first thing you should notice when you open a sound file is the audio properties next to the graph on the left:
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image_5F00_thumb_5F00_5324F5E5.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1581.image_5F00_2D2F458F.png)
+[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image_5F00_5F00_5324F5E5.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1581.image_5F00_2D2F458F.png)
 
 Here you can see it is stereo and using a sample rate of 44khz, having this level of quality in an audio file does make it fairly large. 
 
@@ -86,7 +82,7 @@ So like audio it comes down to two main things, the size of the image and the fo
 > 
 > Best tool I have come across (unless you want to use the TextConv tool that comes with the DirectX tools, which crashes on 64bit BTW) is a tool called “[The Compressonator](http://developer.amd.com/gpu/compressonator/pages/default)”, it is easy to use, only a few clicks to convert your images and it is also FREE (made by AMD of all people)
 > 
-> [![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7851.image_5F00_thumb_5F00_704A9DEF.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/4705.image_5F00_44E67CF5.png)
+> [![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7851.image_5F00_5F00_704A9DEF.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/4705.image_5F00_44E67CF5.png)
 > 
 > Open up your image file, select the compression method in the combo box in the top right (the default ATI one has always worked best for me) and just hit CONVERT.  From there you are given a list of formats to convert to (shown above).
 > 

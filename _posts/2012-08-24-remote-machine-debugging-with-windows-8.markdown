@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Remote machine debugging with Windows 8
-date: '2012-08-24 08:24:46'
-tags:
-- tutorials-resources
-- windows-8
-- windows8-tutorials
-- winrt
+date: 2012-08-24 08:24:46
+tags: [windows 8]
 ---
 
 A nice feature we had in the Windows phone days was the ability to plug in your device and test your code running on it, if you had more than one device (about 7 in my case) then you just had to swap the device over and you were off again, however this did have some drawbacks, namely:
@@ -26,15 +22,15 @@ Getting up and running could not be easier, just download the “[remote tools](
 
 Once installed you will find a nice new shiny icon on your Windows 8 desktop (even though it does not appear to be a “Windows 8 Store” codename “M” app)
 
-[![Remote Tools Icon](/assets/img/wordpress/2012/08/Remote-Tools-Icon_thumb.jpg "Remote Tools Icon")](/assets/img/wordpress/2012/08/Remote-Tools-Icon.jpg)
+[![Remote Tools Icon](/assets/img/wordpress/2012/08/Remote-Tools-Icon.jpg "Remote Tools Icon")](/assets/img/wordpress/2012/08/Remote-Tools-Icon.jpg)
 
 On launching it your get a nice dialog windows who’s sole purpose is to let you know what’s going on, who’s connected and when.
 
-[![Remote Tools running](/assets/img/wordpress/2012/08/Remote-Tools-running_thumb.jpg "Remote Tools running")](/assets/img/wordpress/2012/08/Remote-Tools-running.jpg)
+[![Remote Tools running](/assets/img/wordpress/2012/08/Remote-Tools-running.jpg "Remote Tools running")](/assets/img/wordpress/2012/08/Remote-Tools-running.jpg)
 
 Next in your Visual Studio 2012 installation you will have an option to run your app in several different ways via this icon:
 
-[![image](/assets/img/wordpress/2012/08/image_thumb.png "image")](/assets/img/wordpress/2012/08/image.png)
+[![image](/assets/img/wordpress/2012/08/image.png "image")](/assets/img/wordpress/2012/08/image.png)
 
 As you can see we have the options for running the app on our development machine, in a simulator and new just in, the ability to deploy and debug on a remote machine (provided you have installed the tools first!!)
 
@@ -44,7 +40,7 @@ As you can see we have the options for running the app on our development machin
 
 Now on first run you will get prompted to search and select the machine you want to deploy your app to:
 
-[![image](/assets/img/wordpress/2012/08/image_thumb1.png "image")](/assets/img/wordpress/2012/08/image1.png)
+[![image](/assets/img/wordpress/2012/08/image1.png "image")](/assets/img/wordpress/2012/08/image1.png)
 
 As you would expect it is nice and simple and gives you browsing options (for your local Subnet only, if you do not know what a Subnet is just think computers near you), granted the browsing options will also depend on your PC’s firewall settings and the general network setup (for instance my corporate LAN does not allow this kind of browsing so it does not work)
 
@@ -70,7 +66,7 @@ several options were pointed out to be following a desperate plea on twitter and
 
 - Attach to Process settings
 
-[![image](/assets/img/wordpress/2012/08/image_thumb2.png "image")](/assets/img/wordpress/2012/08/image2.png)
+[![image](/assets/img/wordpress/2012/08/image2.png "image")](/assets/img/wordpress/2012/08/image2.png)
 
 in VS Pro and above (not Express) you can attach to the process of another running app (extremely useful when your Blend designer is not playing ball), here you can change the “qualifier” (read Target machine) that you want to attach to.
 
@@ -78,7 +74,7 @@ However this does not change the current target Debug machine for remote debuggi
 
 - Debug installed app package
 
-[![image](/assets/img/wordpress/2012/08/image_thumb3.png "image")](/assets/img/wordpress/2012/08/image3.png)
+[![image](/assets/img/wordpress/2012/08/image3.png "image")](/assets/img/wordpress/2012/08/image3.png)
 
 Located in “Debug –\> Debug installed app package”, another new feature exists in VS 2012 that allows you to debug any installed application, you can even select another machine running the remote tools as well by changing the combo box at the top.
 
@@ -88,7 +84,7 @@ Eventually in my desperation after wading through a number of other help avenues
 
 ## Project Properties / Debug
 
-[![image](/assets/img/wordpress/2012/08/image_thumb4.png "image")](/assets/img/wordpress/2012/08/image4.png)
+[![image](/assets/img/wordpress/2012/08/image4.png "image")](/assets/img/wordpress/2012/08/image4.png)
 
 Kind of hidden in the properties for your runtime project (not the solution!) on the debug tab are the start options which show you which deployment method you are currently using and for remote deployments lets you select the specific remote machine.
 

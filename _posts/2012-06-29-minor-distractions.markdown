@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Minor Distractions
-date: '2012-06-29 11:11:12'
-tags:
-- 2d
-- game-development
-- physics
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 11:11:12
+tags: [2d tutorial, game development, xna]
 ---
 
 Well it seems this week is full of surprises.
@@ -30,14 +25,14 @@ Box2D & BOX2D.XNA
 
 Now on the Box2D.XNA site there is a sample project for download along with the core physics library.  It is very complete and shows off a lot of different scenarios (identified as tests in the sample app).
 
-| [![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_12A37AA5.png "image")](http://xna-uk.net/blogs/darkgenesis/image_1A3F0FDF.png) | [![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_7418EE21.png "image")](http://xna-uk.net/blogs/darkgenesis/image_2282999C.png) |
+| [![image](http://xna-uk.net/blogs/darkgenesis/image_12A37AA5.png "image")](http://xna-uk.net/blogs/darkgenesis/image_1A3F0FDF.png) | [![image](http://xna-uk.net/blogs/darkgenesis/image_7418EE21.png "image")](http://xna-uk.net/blogs/darkgenesis/image_2282999C.png) |
 | Dominos test track | Standing / Falling blocks shot down |
 
 Over on [Brandf’s XNA indie game blog](http://blogs.msdn.com/b/brandf/) is another helpful test app using the BOX2D.XNAand [this post details](http://blogs.msdn.com/b/brandf/archive/2010/01/04/adding-2d-physics-to-your-xna-game-studio-game-part-1) how to implement the framework (in a much shorter form than on the BOX2D.XNA site).  Still waiting on part 2 Brandf, would like to see how collisions are done properly.
 
 I also like the style:
 
-| [![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_0F7DA48B.png "image")](http://xna-uk.net/blogs/darkgenesis/image_079627F6.png) | [![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_3D9754AB.png "image")](http://xna-uk.net/blogs/darkgenesis/image_6ABC6746.png) |
+| [![image](http://xna-uk.net/blogs/darkgenesis/image_0F7DA48B.png "image")](http://xna-uk.net/blogs/darkgenesis/image_079627F6.png) | [![image](http://xna-uk.net/blogs/darkgenesis/image_3D9754AB.png "image")](http://xna-uk.net/blogs/darkgenesis/image_6ABC6746.png) |
 | Start | And the world comes falling down |
 
 So I decided to implement BOX2D.XNA on the windows phone and since I lie variety, I have both both sets of test applications and their implementations in to the sample project
@@ -56,7 +51,7 @@ Now getting the framework in to GS 4.0 and onto the phone did cause some issues 
 
 With all that done, this is the result:
 
-| [![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_39A93E74.png "image")](http://xna-uk.net/blogs/darkgenesis/image_080E6CB9.png) | [![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_22E6A493.png "image")](http://xna-uk.net/blogs/darkgenesis/image_3A41CED1.png) |
+| [![image](http://xna-uk.net/blogs/darkgenesis/image_39A93E74.png "image")](http://xna-uk.net/blogs/darkgenesis/image_080E6CB9.png) | [![image](http://xna-uk.net/blogs/darkgenesis/image_22E6A493.png "image")](http://xna-uk.net/blogs/darkgenesis/image_3A41CED1.png) |
 | Brandf’s simple implementation | BOX2D.XNA full test suite |
 
 In Brandf’s demo, just tap anywhere on the screen to start the effect (sorry no restart, was just keeping it very simple)

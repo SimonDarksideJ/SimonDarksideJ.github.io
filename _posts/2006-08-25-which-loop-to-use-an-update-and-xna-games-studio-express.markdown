@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Which loop to use - an Update - and XNA Games Studio Express
-date: '2006-08-25 08:48:57'
-tags:
-- ramblings
-- xna-related
+date: 2006-08-25 08:48:57
+tags: [ramblings, xna]
 ---
 
 ## XNA Games Studio Express.

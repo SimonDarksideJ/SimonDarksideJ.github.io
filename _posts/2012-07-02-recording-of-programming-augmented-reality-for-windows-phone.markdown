@@ -2,11 +2,7 @@
 layout: post
 title: Recording of 'Programming Augmented Reality for Windows Phone'
 date: 2012-07-02 14:06:34
-tags:
-- ar
-- silverlight
-- silverxna
-- windows-phone
+tags: [ar, windows phone]
 ---
 
 As promised here is the recording of the webcast session I did for AT&T on Augmented Reality with Windows Phone.

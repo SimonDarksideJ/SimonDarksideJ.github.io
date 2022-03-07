@@ -1,15 +1,11 @@
 ---
 layout: post
 title: The Uber Unity 3D UI Essentials Launch
-date: '2015-02-02 16:56:17'
-tags:
-- competitions
-- mastering-unity-2d
-- unity-3d-ui-essentials
-- unity3d
+date: 2015-02-02 16:56:17
+tags: [competitions, unity-3d-ui-essentials, unity3d]
 ---
 
-[![3560_Unity 3D GUI Essentials_0](/assets/img/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0-243x300.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/)
+[![3560_Unity 3D GUI Essentials_0](/assets/img/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/)
 
 Just in time for February, my latest title [Unity 3D UI Essentials](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials"), has now burst forward on to all leading bookstores, in both electronic and print formats (whichever takes your fancy).  It has certainly been a fun and wild ride producing this unique title.  A title that takes the new Unity UI system for a wild ride and brings along it’s pals, such as the new Unity EventSystem and of course its best friend Open Source code. (See the [product page](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials") for the title for more info)
 
@@ -24,7 +20,7 @@ In celebration for this launch I have been working hard behind the scenes, twist
 
 Here is what is on offer for a lucky few (not that few) people to win as part of my launch celebrations:
 
-[![image](/assets/img/wordpress/2015/02/image_thumb.png "image")](/assets/img/wordpress/2015/02/image.png)
+[![image](/assets/img/wordpress/2015/02/image.png "image")](/assets/img/wordpress/2015/02/image.png)
 
 And that is just what we have so far, I’m still on the lookout for additional UI themed prizes to add to the list
 

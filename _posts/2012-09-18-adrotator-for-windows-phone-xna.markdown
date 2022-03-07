@@ -1,15 +1,11 @@
 ---
 layout: post
 title: AdRotator for Windows Phone XNA
-date: '2012-09-18 16:49:58'
-tags:
-- adrotator
-- tutorials-resources
-- windows-phone
-- xna
+date: 2012-09-18 16:49:58
+tags: [windows phone, adrotator]
 ---
 
-[![Icon_1_purple](/assets/img/wordpress/2012/09/Icon_1_purple_thumb1.png "Icon\_1\_purple")](/assets/img/wordpress/2012/09/Icon_1_purple1.png)   [![image](/assets/img/wordpress/2012/09/image_thumb10.png "image")](/assets/img/wordpress/2012/09/image10.png)
+[![Icon_1_purple](/assets/img/wordpress/2012/09/Icon_1_purple-1.png)](/assets/img/wordpress/2012/09/Icon_1_purple-1.png)   [![image](/assets/img/wordpress/2012/09/image10.png "image")](/assets/img/wordpress/2012/09/image10.png)
 
 # AdRotator for Windows Phone XNA     V0.3 release
 

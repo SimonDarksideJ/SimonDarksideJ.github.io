@@ -1,13 +1,8 @@
 ---
 layout: post
 title: XNA to SilverXNA-part 4 Degrees of Separation
-date: '2012-07-01 22:39:39'
-tags:
-- silverlight
-- silverxna
-- silverxna-tutorials
-- windows-phone
-- xna
+date: 2012-07-01 22:39:39
+tags: [silverlight, xna]
 ---
 
 In yet another area that will be completely foreign to XNA devs (unless you’ have delved into Silverlight or Web programming) is the concept that in reality you should never have code updating the screen directly.
@@ -55,19 +50,19 @@ Now you can do all this manually by using the iNotifyPropertyChanged interface t
 
 Open up the SilverXNA project in Visual Studio Express and right click on the references folder in the main SilverXNA project:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb63.png "image")](/assets/img/wordpress/2012/07/image61.png)
+[![image](/assets/img/wordpress/2012/07/image63.png "image")](/assets/img/wordpress/2012/07/image61.png)
 
 If you do not get the “Manage NuGet Packages” option then you most likely do not have the latest tools installed (You need the RTM version or above).
 
 Select the NuGet option and you will be presented with the NuGet Package manager, from here you can search for and install new packages or see if there are any updates to existing installed one’s.  This is truly an invaluable tool which is a great addition to the express tools.  Unfortunately there is no online review library of NuGet packages (that I’m aware of) so you will have to rely on searching or reading about your favourite packages on the web but full details about each package are available through the package manager.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb64.png "image")](/assets/img/wordpress/2012/07/image62.png)
+[![image](/assets/img/wordpress/2012/07/image64.png "image")](/assets/img/wordpress/2012/07/image62.png)
 
 Search for MVVM and you should see the list above with the package we want right at the very top (as you can see there are lots of other MVVM packages out there so if you feel like trying a few others then feel free to experiment with what’s good for you), for now just click install on the MVVVM Light package.
 
 When it is installed you will see it has done several things, it is installed and added references to the MVVM light libraries and added some template files for use as well.  If there were any dependencies on other packages then they would have been installed as well all with a single click of a button, simples!.
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb65.png "image")](/assets/img/wordpress/2012/07/image63.png) | So from the screenshot left you can see:
+| [![image](/assets/img/wordpress/2012/07/image65.png "image")](/assets/img/wordpress/2012/07/image63.png) | So from the screenshot left you can see:
 
 > ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    The MVVM Light libraries for WP7 7.1  
 > ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    A new folder with some template files  
@@ -102,13 +97,13 @@ These are the core things we want to look at in this session, there are several 
 
 So lets add out GameViewModel for our GamePage, just right click on the “ViewModel” folder and select “Add –\> New Item”, click on the “Silverlight for windows Phone” branch in the tree on the left and select “MVVMViewModel (WP7)” then give it a name of “GameViewModel.cs”
 
-[![image](/assets/img/wordpress/2012/07/image_thumb66.png "image")](/assets/img/wordpress/2012/07/image64.png)
+[![image](/assets/img/wordpress/2012/07/image66.png "image")](/assets/img/wordpress/2012/07/image64.png)
 
 If the project templates do not show up in the “Add New Item” browser then you can get them from the [MVVMLight codeplex page](http://mvvmlight.codeplex.com/releases/71278/download/267119 "MVVM Light Full installer package"), else you can just copy the “MainViewModel.cs” file and rename it to “GameViewModel.cs” (remembering to also rename the classes and methods within since VS Express does not do this for you like the full studio edition)
 
 Once you have done that open it up and it should look something like this:
 
-     ![image](/assets/img/wordpress/2012/07/image_thumb68.png "image")
+     ![image](/assets/img/wordpress/2012/07/image68.png "image")
     
     MVVM also comes with a heap load of code snippets to make building out our View Model all that more easier (See why I love that Laurent guy), hit tab twice and exploding onto your screen will be a nice new fully fledged property all wired up for MVVM:
     

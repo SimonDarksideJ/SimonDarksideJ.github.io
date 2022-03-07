@@ -1,12 +1,8 @@
 ---
 layout: post
 title: SunBurn Past, Present and Future?
-date: '2012-07-02 13:47:28'
-tags:
-- information
-- sunburn
-- sunburn-tutorials
-- xna
+date: 2012-07-02 13:47:28
+tags: [sunburn, xna]
 ---
 
 ![width=](https://www.synapsegaming.com/cfs-filesystemfile.ashx/__key/CommunityServer.Discussions.Components.Files/5/3632.SunBurn_2D00_Avatar_2D00_2.jpg)
@@ -45,7 +41,7 @@ Which as a proper conspiracy theorist I have to take that as Fact, how many time
 
 # Hopes and Dreams
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb139.png "image")](/assets/img/wordpress/2012/07/image136.png) | 
+| [![image](/assets/img/wordpress/2012/07/image139.png "image")](/assets/img/wordpress/2012/07/image136.png) | 
 ## Knowing the SunBurn guys after all these years you got to be thinking that features like the above have gotta be coming, if only to protect the investment they have made in creating such an AAA quality engine and toolset.
 
 ## So here is hoping for something solid to be announced and until then let us dream a nice dream that XNA will live on under the caring hands of the SynapseGaming SunBurn Engine.

@@ -50,7 +50,7 @@ Right, the first snippet from the book is about:
 
 ### Animation Curves
 
-[![masteringunity2d_03_14](/assets/img/wordpress/2014/07/masteringunity2d_03_14_thumb.png "masteringunity2d\_03\_14")](/assets/img/wordpress/2014/07/masteringunity2d_03_14.png)
+[![masteringunity2d_03_14](/assets/img/wordpress/2014/07/masteringunity2d_03_14.png "masteringunity2d\_03\_14")](/assets/img/wordpress/2014/07/masteringunity2d_03_14.png)
 
 <address>(Animation dope sheet Curve view)</address>
 
@@ -87,21 +87,21 @@ This gives us a base framework for our curve and some properties to control wher
 
 If you now save this, and in Unity create a new scene, add a GameObject like a sphere and add this script to it, you will see the following in the editor inspector:
 
-[![image](/assets/img/wordpress/2014/07/image_thumb4.png "image")](/assets/img/wordpress/2014/07/image4.png)
+[![image](/assets/img/wordpress/2014/07/image4.png "image")](/assets/img/wordpress/2014/07/image4.png)
 
 ### The Curve Editor
 
 We have a curve (all on its lonesome without an animation system to call home), clicking on the curve inspector property for the My Transition Path value, will then give you the standalone curve editor:
 
-[![image](/assets/img/wordpress/2014/07/image4_thumb.png "image")](/assets/img/wordpress/2014/07/image41.png)
+[![image](/assets/img/wordpress/2014/07/image4.png "image")](/assets/img/wordpress/2014/07/image41.png)
 
 A bit boring as we have not configured it yet, if you click on one of the presets at the bottom of the window, we can begin crafting our own curve, or just use the preset itself:
 
-[![image](/assets/img/wordpress/2014/07/image8_thumb.png "image")](/assets/img/wordpress/2014/07/image8.png)
+[![image](/assets/img/wordpress/2014/07/image8.png "image")](/assets/img/wordpress/2014/07/image8.png)
 
 From here you can do most of the tasks that you can do in the Animation Dope sheet curve editor (except add events).  You can also save your curve (if you create a pretty tricky one you want to reuse) by clicking on the cog con in the bottom left
 
-[![image](/assets/img/wordpress/2014/07/image12_thumb.png "image")](/assets/img/wordpress/2014/07/image12.png)
+[![image](/assets/img/wordpress/2014/07/image12.png "image")](/assets/img/wordpress/2014/07/image12.png)
 
 Lots of options to choose from but enough about the curve itself, we want to actually use this to do something. Returning to our script, let’s enable the behaviour that when the user clicks or taps on the screen it moves the object it is attached to, but doing so according to how we have configured our curve, slow, fast, or in a weird and wobbly motion.
 
@@ -132,7 +132,7 @@ The line to take notice of is the following line:
 
 Where we use the Evaluate function of our configured curve to denote the amount of movement the GameObject should move (in this case) for the current frame.  This results in the following motion: (please be gentle this is my first animated GIF, got to be in with all the cool kids these days):
 
-[![AnimationCurves](/assets/img/wordpress/2014/07/AnimationCurves_thumb.gif "AnimationCurves")](/assets/img/wordpress/2014/07/AnimationCurves.gif)
+[![AnimationCurves](/assets/img/wordpress/2014/07/AnimationCurves.gif "AnimationCurves")](/assets/img/wordpress/2014/07/AnimationCurves.gif)
 
 So as you can see, depending on how far the sphere has to travel, the power curve quick to begin and slow to stop but steady in-between.  By just altering the curve we can alter the behaviour without changing any code.
 
@@ -142,11 +142,11 @@ Why stop there, how about using two curves to create a path, just for fun I crea
 
 Sin Curve:
 
-[![image](/assets/img/wordpress/2014/07/image_thumb5.png "image")](/assets/img/wordpress/2014/07/image5.png)
+[![image](/assets/img/wordpress/2014/07/image5.png "image")](/assets/img/wordpress/2014/07/image5.png)
 
 Cosine Curve:
 
-[![image](/assets/img/wordpress/2014/07/image_thumb6.png "image")](/assets/img/wordpress/2014/07/image6.png)
+[![image](/assets/img/wordpress/2014/07/image6.png "image")](/assets/img/wordpress/2014/07/image6.png)
 
 Script:
 
@@ -156,7 +156,7 @@ Script:
 
 Resulting in the following animation:
 
-[![AnimationCurvesCircle](/assets/img/wordpress/2014/07/AnimationCurvesCircle_thumb.gif "AnimationCurvesCircle")](/assets/img/wordpress/2014/07/AnimationCurvesCircle.gif)
+[![AnimationCurvesCircle](/assets/img/wordpress/2014/07/AnimationCurvesCircle.gif "AnimationCurvesCircle")](/assets/img/wordpress/2014/07/AnimationCurvesCircle.gif)
 
 > Granted the above example would be a lot simpler to do in code, it is just a more detailed example
 
@@ -164,7 +164,7 @@ Just a little extra fun but you get the idea, there are numerous possibilities f
 
 Doesn’t have to be smooth, you could end up with something like this:
 
-[![masteringunity2d_06_09](/assets/img/wordpress/2014/07/masteringunity2d_06_09_thumb.png "masteringunity2d\_06\_09")](/assets/img/wordpress/2014/07/masteringunity2d_06_09.png)
+[![masteringunity2d_06_09](/assets/img/wordpress/2014/07/masteringunity2d_06_09.png "masteringunity2d\_06\_09")](/assets/img/wordpress/2014/07/masteringunity2d_06_09.png)
 
 And goodness knows what that could do with that  ![Open-mouthed smile](/assets/img/wordpress/2014/07/wlEmoticon-openmouthedsmile1.png)
 

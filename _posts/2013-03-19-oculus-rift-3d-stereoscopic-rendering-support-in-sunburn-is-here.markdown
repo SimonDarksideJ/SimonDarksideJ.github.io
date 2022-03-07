@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Oculus Rift 3D stereoscopic rendering support in SunBurn is here!
-date: '2013-03-19 12:00:48'
-tags:
-- information
-- steroscopic
-- sunburn
-- xna
+date: 2013-03-19 12:00:48
+tags: [vr, sunburn, xna]
 ---
 
 A fantastic announcement over on the [SunBurn community blogs](http://www.synapsegaming.com/blogs/community_blogs/archive/2013/03/18/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here) has just surfaced which is just amazing.  HolPhone3D ad already built an amazing plug-in for SunBurn to allow easy stereoscopic rendering with just a few lines of code, todays announcement goes above and beyond hat, read the except from the blog below:

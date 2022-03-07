@@ -1,14 +1,8 @@
 ---
 layout: post
 title: Converting DirectX .X files for use in games
-date: '2012-11-01 16:24:31'
-tags:
-- 3d
-- information
-- unity-3d-tutorials
-- unity3d
-- xna
-- xna-related
+date: 2012-11-01 16:24:31
+tags: [xna, 3d]
 ---
 
 While putting together the [UnityXNA](https://github.com/mvi/UnityXNA) article I cast aside all warnings and threw caution to the wind and spent a bit of time trying to get my 3D starter XNA sample in to the framework, it should come as no surprise from the tenant of that article that I failed, granted I only spent about an hour or so on it but I realised quickly why it was only 2D so far.
@@ -25,7 +19,7 @@ Now one of the biggest barriers I hit was that some of my assets were in Microso
 
 Amazingly Unity has an astounding amount of support for 3D model formats, including:
 
-[![image](/assets/img/wordpress/2012/11/image_thumb2.png "image")](/assets/img/wordpress/2012/11/image3.png)
+[![image](/assets/img/wordpress/2012/11/image2.png "image")](/assets/img/wordpress/2012/11/image3.png)
 
 * * *
 
@@ -45,11 +39,11 @@ It supports Importing & exporting LWO, OBJ, DXF, 3DS, ASC, COB, and **X files**.
 
 So after launching up [LithUnwrap](http://files.seriouszone.com/download.php?fileid=198)you can open up a model file:
 
-[![image](/assets/img/wordpress/2012/11/image_thumb.png "image")](/assets/img/wordpress/2012/11/image1.png)
+[![image](/assets/img/wordpress/2012/11/image.png "image")](/assets/img/wordpress/2012/11/image1.png)
 
 Once loaded we can simply then save the model to which ever format we want to use, I’ve no particular preference but I generally use OBJ files as they are more commonly supported by other tools, but if you are using Unity and have access to 3D Studio Max (or have a modeler who does) then you can just export to .3DS which Unity also supports:
 
-[![image](/assets/img/wordpress/2012/11/image_thumb1.png "image")](/assets/img/wordpress/2012/11/image2.png)
+[![image](/assets/img/wordpress/2012/11/image1.png "image")](/assets/img/wordpress/2012/11/image2.png)
 
 Just be sure to use the “Model –\> Save” options, the export options are for other things.
 

@@ -1,16 +1,11 @@
 ---
 layout: post
 title: MonoGame gets Shocked!
-date: '2013-02-04 13:57:31'
-tags:
-- lightning
-- monogame
-- tutorials-resources
-- xna
-- xna-related
+date: 2013-02-04 13:57:31
+tags: [monogame]
 ---
 
-[![image](/assets/img/wordpress/2013/02/image_thumb2.png "image")](/assets/img/wordpress/2013/02/image2.png)
+[![image](/assets/img/wordpress/2013/02/image2.png "image")](/assets/img/wordpress/2013/02/image2.png)
 
 Following on from [my previous article](http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/) we don the rubber gloves and grab Zeus’s lightning bolt to launch it on other platforms.
 
@@ -36,7 +31,7 @@ To begin add a new project to our VS 2010 solution (yes, we will get on to VS201
 
 So add the new Class library project to your solution: and call it “MonoGameLightningDemoLib”:
 
-[![image](/assets/img/wordpress/2013/02/image_thumb3.png "image")](/assets/img/wordpress/2013/02/image3.png)
+[![image](/assets/img/wordpress/2013/02/image3.png "image")](/assets/img/wordpress/2013/02/image3.png)
 
 Next move all the code files from the original game solution over to our new lass Library except for Game and Program, to be more specific move these files:
 
@@ -56,7 +51,7 @@ We’re not done yet as you still need to tidy up a few things, first off go and
 > ![src=]()    Add a solution reference from the game project to the lib project  
 > ![src=]()    Add a reference to the “MonoGame Windows OpenGL” dll in the library project (careful you get the right one)
 
-[![image](/assets/img/wordpress/2013/02/image_thumb4.png "image")](/assets/img/wordpress/2013/02/image4.png)
+[![image](/assets/img/wordpress/2013/02/image4.png "image")](/assets/img/wordpress/2013/02/image4.png)
 
 (Check you select the correct version by looking at it’ source directory as ALL releases now have the same name!!)
 
@@ -84,7 +79,7 @@ Now I am not going to re-iterate what has already been said, so if you look back
 > ![src=]()    Add a reference from the Game project to the Lib project  
 > ![src=]()    Add a reference to the “MonoGame Widows 8” dll to the Lib project
 
-[![image](/assets/img/wordpress/2013/02/image_thumb5.png "image")](/assets/img/wordpress/2013/02/image5.png)
+[![image](/assets/img/wordpress/2013/02/image5.png "image")](/assets/img/wordpress/2013/02/image5.png)
 
 Now we have a blank Windows 8 solution ready to receive all the content we have created already.
 
@@ -94,7 +89,7 @@ With the solution setup we just need to bring in our assets and engine/effect co
 > 
 > you will probably see the following error message when you open a Windows Store / XAML project in VS2012 with a MonoGame “Content Builder” project in your solution, **just ignore it everything is fine..**
 > 
-> [![image](/assets/img/wordpress/2013/02/image_thumb6.png "image")](/assets/img/wordpress/2013/02/image6.png)
+> [![image](/assets/img/wordpress/2013/02/image6.png "image")](/assets/img/wordpress/2013/02/image6.png)
 
 First right click in the Content project and do “Add Existing Item”, then browse to the un-compiled source content from the previous solution (the png’s and spritefont files), this puts our content in place for building ( **ensuring you also set the “Build Action” to “Content” again!!** ).  Next do the same again but this time in the Lib Project and link the code files from the Class Library project we created earlier.
 
@@ -110,7 +105,7 @@ With everything in place you now just need to repeat the exercise from the last 
 
 You should now end up with a project looking something like this:
 
-[![image](/assets/img/wordpress/2013/02/image_thumb7.png "image")](/assets/img/wordpress/2013/02/image7.png)
+[![image](/assets/img/wordpress/2013/02/image7.png "image")](/assets/img/wordpress/2013/02/image7.png)
 
 All that is left is to add the built content files from the Content Builder Project and you are done.
 
@@ -146,7 +141,7 @@ Finally we just need the code in our Update loop to monitor for touches and stri
 
 Now with everything now in place when you run the project and upon touching the screen with several fingers
 
-[![image](/assets/img/wordpress/2013/02/image_thumb8.png "image")](/assets/img/wordpress/2013/02/image8.png)
+[![image](/assets/img/wordpress/2013/02/image8.png "image")](/assets/img/wordpress/2013/02/image8.png)
 
 Feel free to play with the source, for a laugh try using just the touch points directly and discover why a limiting factor is needed, I brought my powerful ultrabook to its knees with a couple of fingers ![Open-mouthed smile](/assets/img/wordpress/2013/02/wlEmoticon-openmouthedsmile.png), but some really bright shiny effects.
 

@@ -8,7 +8,7 @@ tags:
 - nuget
 ---
 
-[![image](/assets/img/wordpress/2014/04/image_thumb.png "image")](/assets/img/wordpress/2014/04/image.png)  [![image](/assets/img/wordpress/2014/04/image_thumb1.png "image")](/assets/img/wordpress/2014/04/image1.png)     [![image](/assets/img/wordpress/2014/04/image_thumb2.png "image")](/assets/img/wordpress/2014/04/image2.png)
+[![image](/assets/img/wordpress/2014/04/image.png "image")](/assets/img/wordpress/2014/04/image.png)  [![image](/assets/img/wordpress/2014/04/image1.png "image")](/assets/img/wordpress/2014/04/image1.png)     [![image](/assets/img/wordpress/2014/04/image2.png "image")](/assets/img/wordpress/2014/04/image2.png)
 
 Just over a week ago the MonoGame released the latest full package for the MonoGame framework, now baselined at Version 3.2
 

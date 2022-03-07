@@ -1,14 +1,8 @@
 ---
 layout: post
 title: MonoGame goes Portable
-date: '2013-02-16 00:24:39'
-tags:
-- monogame
-- portable-class-libraries
-- tutorials-resources
-- x-platform
-- xna
-- xna-related
+date: 2013-02-16 00:24:39
+tags: [monogame]
 ---
 
 ![src=]()
@@ -69,7 +63,7 @@ Be aware though, a portable library enables you to develop a very simple and cen
 
 What we are aiming for with the use of a Portable Class Library is something like this:
 
-[![image](/assets/img/wordpress/2013/02/image_thumb9.png "image")](/assets/img/wordpress/2013/02/image9.png)
+[![image](/assets/img/wordpress/2013/02/image9.png "image")](/assets/img/wordpress/2013/02/image9.png)
 
 * * *
 
@@ -85,7 +79,7 @@ The first main impact is how you layout or manage your multi-project solution (T
 
 With current practices you will most likely have something like this:
 
-[![image](/assets/img/wordpress/2013/02/image_thumb10.png "image")](/assets/img/wordpress/2013/02/image10.png)
+[![image](/assets/img/wordpress/2013/02/image10.png "image")](/assets/img/wordpress/2013/02/image10.png)
 
 Depending on whether you Link the core files for your project or just copy them, you have several solutions for each platform with more code to manage / integrate when you are considering each platform. in its worst case scenario (Just copy projects), a single bug fix to core code has to be replicated across all platforms and if there are platform specific differences in that chain it becomes increasingly difficult.
 
@@ -93,7 +87,7 @@ Portable libraries ease this somewhat with their central nature.
 
 #### The Portable Portfolio
 
-[![image](/assets/img/wordpress/2013/02/image_thumb11.png "image")](/assets/img/wordpress/2013/02/image11.png)
+[![image](/assets/img/wordpress/2013/02/image11.png "image")](/assets/img/wordpress/2013/02/image11.png)
 
 The portable allows a single project to be associated to many others so long as you have the project targets loaded in the portable libraries (for more info on that read up on portable libraries!!)
 
@@ -105,7 +99,7 @@ Now I will be completely honest, portable libraries alone will not save you here
 
 This ensures you put platform specific code in with a platform and central stuff in one place.
 
-[![image](/assets/img/wordpress/2013/02/image_thumb12.png "image")](/assets/img/wordpress/2013/02/image12.png)
+[![image](/assets/img/wordpress/2013/02/image12.png "image")](/assets/img/wordpress/2013/02/image12.png)
 
 There is a buyer beware sign if you read up on Portable class libraries, the more platforms you add generally reduces the scope of what is truly portable, so take care.
 
@@ -117,7 +111,7 @@ Like I also said it wo not solve ALL you problems, so watch a few of the videos 
 
 So after cleaning everything up and now using a portable library for the core of the code from the previous demo’s I am left with the following:
 
-[![image](/assets/img/wordpress/2013/02/image_thumb13.png "image")](/assets/img/wordpress/2013/02/image13.png)
+[![image](/assets/img/wordpress/2013/02/image13.png "image")](/assets/img/wordpress/2013/02/image13.png)
 
 At present I have left the original drawing code as my initial portable experiments were only meant to enable basic features but I seem to have managed in a fairly short period of time to enable most features of the framework in a portable library, so at this point I could move just about all the demo code in to the portable library, therefore I only need a shim in each platform project to run it (plus an additional platform features I want to take advantage of like sharing / NFC / etc)
 

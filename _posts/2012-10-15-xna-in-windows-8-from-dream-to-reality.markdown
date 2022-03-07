@@ -1,12 +1,8 @@
 ---
 layout: post
 title: XNA in Windows 8 from dream to reality
-date: '2012-10-15 14:44:29'
-tags:
-- windows-8
-- windows8-tutorials
-- xna
-- xna-related
+date: 2012-10-15 14:44:29
+tags: [xna, windows 8]
 ---
 
 Just to cross post back to my own blog (really did that the wrong way round ![Open-mouthed smile](/assets/img/wordpress/2012/10/wlEmoticon-openmouthedsmile.png)) here’s my entry to the [Intel App-Up competition](http://bit.ly/RugY3i) now being run on [codeproject](http://www.codeproject.com), if you got an idea for an app or game for Windows 8 then you should write a short article for the comp about your idea and you may even walk away with a free Intel Ultrabook to build it with.
@@ -105,7 +101,7 @@ The Starter 3D game is based around an original game called “Asteroids”. You
 
 The current version is just a modern version of that classic with you thrust into the middle of the asteroid field and it is shoot or be crushed
 
-| [![clip_image002[4]](/assets/img/wordpress/2012/10/clip_image0024_thumb.jpg "clip\_image002[4]")](/assets/img/wordpress/2012/10/clip_image0024.jpg) | [![clip_image004[4]](/assets/img/wordpress/2012/10/clip_image0044_thumb.jpg "clip\_image004[4]")](/assets/img/wordpress/2012/10/clip_image0044.jpg) |
+| [![clip_image002[4]](/assets/img/wordpress/2012/10/clip_image0024.jpg "clip\_image002[4]")](/assets/img/wordpress/2012/10/clip_image0024.jpg) | [![clip_image004[4]](/assets/img/wordpress/2012/10/clip_image0044.jpg "clip\_image004[4]")](/assets/img/wordpress/2012/10/clip_image0044.jpg) |
 
  
 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Resolving build issues for UWP packages with Unity
-date: '2017-08-31 10:47:44'
-tags:
-- dbp2017
-- information
-- unity-3d-tutorials
-- unity3d
+date: 2017-08-31 10:47:44
+tags: [unity3d]
 ---
 
 ![Image result for visual studio tools for unity](http://winbuzzer.com/wp-content/uploads/2016/07/Visual-Studio-Tools-For-Unity-Winbuzzer-Edit2.jpg "View source image")
@@ -61,13 +57,13 @@ Once Unity is up to date, you will need to update your installation of Visual St
 
 To update Visual Studio 2017, simple close all open instances of Visual Studio and launch the **Visual Studio Installer**
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-5.png "image")](/assets/img/wordpress/2017/08/image-6.png)
+[![image](/assets/img/wordpress/2017/08/image-5.png "image")](/assets/img/wordpress/2017/08/image-6.png)
 
 Once it is running (the first step may be to update the installer first), simply hit “Update” on your specific instance of Visual Studio (the installer will happily update ALL installed instances if you wish) and once it is complete you will be on the latest version.
 
 Open Visual Studio to verify, click “ **Help –\> About Visual Studio** ” in the menu and you should be running **15.3.3** (or newer). If not, check your internet connection and try running the installer again.
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-6.png "image")](/assets/img/wordpress/2017/08/image-7.png)
+[![image](/assets/img/wordpress/2017/08/image-6.png "image")](/assets/img/wordpress/2017/08/image-7.png)
 
 ## 3: (Optional) **Set player settings for project to .NET & .NET4.6**  
 (NOT IL2CPP, XBL project does not have support for IL2CPP, yet)
@@ -76,7 +72,7 @@ Not strictly required but highly recommended for UWP projects, is to update the 
 
 To update this, open the Player Settings window in the editor using either “ **Edit –\> Project Settings –\> Player** ” in the editor menu, or using the **“Player Settings” button** on the “ **Build Settings** ” build window.  In the Other section on this configuration page you will find the following settings.
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-7.png "image")](/assets/img/wordpress/2017/08/image-8.png)
+[![image](/assets/img/wordpress/2017/08/image-7.png "image")](/assets/img/wordpress/2017/08/image-8.png)
 
 Not to be confused with the “Scripting Runtime Version”, which I am told breaks UWP project builds (although I have not personally tested yet)
 
@@ -88,7 +84,7 @@ To build for Modern UWP, you need to be targeting a minimum API level of 14393 (
 
 You will find the SDK selection on the “ **Build Settings** ” screen when you have the “ **Universal Windows Platform** ” target selected:
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-8.png "image")](/assets/img/wordpress/2017/08/image-9.png)
+[![image](/assets/img/wordpress/2017/08/image-8.png "image")](/assets/img/wordpress/2017/08/image-9.png)
 
 ## 5: Open project in VS
 
@@ -106,15 +102,15 @@ In testing I have found this is critical still for existing projects or when you
 
 To check and update the versions of the NuGet packages, **right-click** on the “ **Solution** ” in the “ **Solution Explorer** ” within Visual Studio and select “ **Manage NuGet Packages for Solution…** ”
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-9.png "image")](/assets/img/wordpress/2017/08/image-10.png)
+[![image](/assets/img/wordpress/2017/08/image-9.png "image")](/assets/img/wordpress/2017/08/image-10.png)
 
 Alternatively, you can also simply r **ight-Click** the “ **References** ” branch in your projects structure, also in the “ **Solution Explorer** ” in VS, this however will only show/update the NuGet’s installed in that single project and not the entire solution:
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-10.png "image")](/assets/img/wordpress/2017/08/image-11.png)
+[![image](/assets/img/wordpress/2017/08/image-10.png "image")](/assets/img/wordpress/2017/08/image-11.png)
 
 Once the NuGet manager is open you will see the installed NuGet packages, with a notification if any updates are available (provided you have an internet connection).
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-11.png "image")](/assets/img/wordpress/2017/08/image-12.png)
+[![image](/assets/img/wordpress/2017/08/image-11.png "image")](/assets/img/wordpress/2017/08/image-12.png)
 
 Simply select the NuGet package to update, NETCore in this case, select the version to update to on the right and click “Install”.   You will then be walked through a set of screens to accept the license for that package (if one exists) and then a final “get out of jail free” accept or reject screen.   Once complete, all the required references included in that package will be updated.
 

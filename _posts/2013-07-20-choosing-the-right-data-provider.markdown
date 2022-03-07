@@ -1,22 +1,15 @@
 ---
 layout: post
 title: Choosing the right Data Provider
-date: '2013-07-20 15:28:40'
-tags:
-- azure
-- buddy
-- information
-- parse
-- telerik
-- tutorials-resources
-- wams
+date: 2013-07-20 15:28:40
+tags: [azure,parse]
 ---
 
 In the progress of my last few “@Dvlup challenges I had to employ a backend data provider to both store and sync data from my client applications as part of the requirements for those challenges.  This gave me the opportunity to properly evaluate what the options were and who was offering the best services for my requirements.
 
 So here is the output of my research for the three big “out of the box” solutions out there.
 
-| [![image](/assets/img/wordpress/2013/07/image_thumb2.png "image")](/assets/img/wordpress/2013/07/image2.png) | [![image](/assets/img/wordpress/2013/07/image_thumb3.png "image")](/assets/img/wordpress/2013/07/image3.png) | [![image](/assets/img/wordpress/2013/07/image_thumb4.png "image")](/assets/img/wordpress/2013/07/image4.png) |
+| [![image](/assets/img/wordpress/2013/07/image2.png "image")](/assets/img/wordpress/2013/07/image2.png) | [![image](/assets/img/wordpress/2013/07/image3.png "image")](/assets/img/wordpress/2013/07/image3.png) | [![image](/assets/img/wordpress/2013/07/image4.png "image")](/assets/img/wordpress/2013/07/image4.png) |
 | Azure Mobile Services (WAMS) | Telerik Everlive Portal | Parse |
 
 * * *

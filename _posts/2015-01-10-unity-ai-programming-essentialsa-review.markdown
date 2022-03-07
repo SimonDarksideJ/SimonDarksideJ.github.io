@@ -2,12 +2,7 @@
 layout: post
 title: Unity AI Programming Essentials - A Review
 date: '2015-01-10 18:31:46'
-tags:
-- ai
-- book-review
-- packtpub
-- unity-3d-tutorials
-- unity3d
+tags: [book review,ai,unity3d]
 ---
 
 I can see a light at the end of the tunnel.  As I’m nearing the journey of my marathon book writing spree. I’m taking a little time out to read a few other books on Packt’s library, this time in one of my favourite areas, AI.

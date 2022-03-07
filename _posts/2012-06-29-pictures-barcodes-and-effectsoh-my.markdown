@@ -44,7 +44,7 @@ Now I’m not going to go in to too much detail here on the two libraries, excep
 > > 
 > > This is a nice and simple example of image manipulation using Writable Bitmaps, extracting out the byte values of images and twisting them to meet your evil needs.  The article goes in to a lot of details of what and how you manipulate the image to get different effects.
 > > 
-> > ![](http://ecn.channel9.msdn.com/c4fcontent/images/d2318adeb050_AB1A/image_thumb_12.png)   
+> > ![](http://ecn.channel9.msdn.com/c4fcontent/images/d2318adeb050_AB1A/image_12.png)   
 > > ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    **[Berend Engelbrecht’s](http://www.codeproject.com/script/Membership/View?mid=2307043)**  **codeproject barcode library**
 > > 
 > > Reading barcodes reliably and effectively in all dimensions is a tricky business, however the article and it is sample make this easy to understand.  It basically sums up the need to scan images in lines, work out what is light and what is dark, average this out and then compare the findings against known barcode formats.  Note, the code retains it is original open source license, so check this if you want to re-use it. 

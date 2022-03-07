@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Need a little help here
-date: '2012-06-29 11:17:56'
-tags:
-- errors
-- information
+date: 2012-06-29 11:17:56
+tags: [information]
 ---
 
 In [Aaron Stebner’s WebLog](fr:feed/146), a good blog has appeared to help show how to install the Local Help for the Windows Phone tools beta.
@@ -17,7 +15,7 @@ There is sometimes, always, a but.
 
 If you are running Vista or Windows 7, if you follow Aaron’s instructions you will most likely see this error:
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1172.image_5F00_thumb_5F00_0B03645A.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.image_5F00_0D9CBBE5.png)
+[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1172.image_5F00_5F00_0B03645A.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.image_5F00_0D9CBBE5.png)
 
 Damn those infernal Administrator privileges, the bain of many a developer (just keep telling yourself those are there for a reason, breathe and move on).
 

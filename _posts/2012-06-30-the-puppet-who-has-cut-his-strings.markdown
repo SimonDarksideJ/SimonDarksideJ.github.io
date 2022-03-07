@@ -1,11 +1,8 @@
 ---
 layout: post
 title: The puppet who has cut his strings
-date: '2012-06-30 23:35:27'
-tags:
-- notifications
-- tutorials-resources
-- windows-phone
+date: 2012-06-30 23:35:27
+tags: [windows phone]
 ---
 
 ![](http://blogs.microsoft.co.il/blogs/arik/IMG_20110414_133317_1ED7A8E0.jpg)

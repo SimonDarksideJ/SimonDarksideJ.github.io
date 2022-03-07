@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #6/2 - Analogue Controls'
-date: '2012-06-29 10:51:41'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:51:41
+tags: [2d tutorial, game development, xna]
 ---
 
 Following on from the last post I will quickly cover updating our input framework to allow for analogue controls such as Gamepad stick and triggers.

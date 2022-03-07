@@ -1,12 +1,8 @@
 ---
 layout: post
 title: C# Programming Overview continued - Miscellaneous for XNA
-date: '2012-06-29 09:26:07'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:26:07
+tags: [2d tutorial, game development, xna]
 ---
 
 #### Here is the section for the specific updates for XNA, new improvements in .NET 3.5 and what is coming up for .NET 4.0.  This refreshes the previous post from Digipen for more up to date info.

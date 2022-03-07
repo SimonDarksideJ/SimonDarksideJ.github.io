@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Is my XNA game dead yet?
-date: '2012-06-29 11:30:19'
-tags:
-- tutorials-resources
-- windows-phone
+date: 2012-06-29 11:30:19
+tags: [windows phone, xna]
 ---
 
 Strange title but quite apt for this post. ( **Be warned this is a heavy Phone XNA based sample** )
@@ -75,7 +73,7 @@ Now when your game / app (this could get tedious, I’m going to stick with game
 
 See the diagram below (courtesy of Rob (English god) Miles and Andy (slightly shorter than Rob) Wigly’s , Jumpstart Program):
 
-![Phone Execution Model1](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5707.PhoneExecutionModel1_5F00_thumb_5F00_6BE5A411.png)              ![Phone Execution Model2](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8424.PhoneExecutionModel2_5F00_thumb_5F00_7439539B.png)
+![Phone Execution Model1](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5707.PhoneExecutionModel1_5F00_5F00_6BE5A411.png)              ![Phone Execution Model2](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8424.PhoneExecutionModel2_5F00_5F00_7439539B.png)
 
 As you can see from the above, your game starts as normal, loads it is assets, presents a start screen and so on until your game begins (bullets start flying, Enemies surround you and the player desperately tries to escape.  Or is that just me).  Then a call comes in and your game is requested to Terminate, this gives you approx 10 seconds (in the background) to save the state of your game before it dies.  When the users call is finished, the game is automatically started again.  At this point you have a chance to retrieve your saved state, set the game back up at the point it was closed and let the player loose again.  one thing to bear in mind though is that you have only another 10 seconds in which to do this again, or you are dead for good.
 
@@ -104,7 +102,7 @@ The GSM is a nice little architecture that has been around since the V1 days of 
 
 It looks like this:
 
-![GSM Object Model](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3731.GSMObjectModel_5F00_thumb_5F00_0FEAB307.png)
+![GSM Object Model](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3731.GSMObjectModel_5F00_5F00_0FEAB307.png)
 
 It centres around a single game screen state model, with a list of current game screens to draw and a set of event handlers with some UI components to control navigation.  As you pass from one screen to the next, the old screens are thrown away and replace by new ones, the engine itself never has to change, it just draws what screens it is told to.  You also have the option of using an intermediary “Loading” screen, which only moves to the next game screen when it has finished loading (in case you have a lot of assets to load n a level of your game for example).  You can even layer screens so you can draw layered views, the Main menu screen for example has two components, a Background screen (for the background image) and the Menu text separate so it can be animated separately.
 

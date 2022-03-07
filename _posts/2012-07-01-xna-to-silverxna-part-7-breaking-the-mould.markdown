@@ -1,13 +1,8 @@
 ---
 layout: post
 title: XNA to SilverXNA-part 7 Breaking the mould
-date: '2012-07-01 23:15:29'
-tags:
-- silverlight
-- silverxna
-- silverxna-tutorials
-- windows-phone
-- xna
+date: 2012-07-01 23:15:29
+tags: [silverlight, xna]
 ---
 
 ![ /></p>
@@ -51,7 +46,7 @@ Then bind the click event to a new function (already done above) and finally in 
 
 Then alter the Silverlight renderer initialisation as follows:
 
-     ![image](/assets/img/wordpress/2012/07/image_thumb102.png "image")
+     ![image](/assets/img/wordpress/2012/07/image102.png "image")
     
     So what happened?, we designed it in the middle but drew at the top, simple answer because we told it to ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile7.png).
     
@@ -62,7 +57,7 @@ Then alter the Silverlight renderer initialisation as follows:
     
     
     
-         ![image](/assets/img/wordpress/2012/07/image_thumb103.png "image")
+         ![image](/assets/img/wordpress/2012/07/image103.png "image")
         
         Good now let’s setup our second Silverlight renderer just like the first, i’d suggest you try this yourself from the descriptions above and then compare, but here is the solution (no peeking ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile7.png))
         
@@ -78,7 +73,7 @@ Then alter the Silverlight renderer initialisation as follows:
         > 
         >     Renderer draw call
         > 
-        > ![image](/assets/img/wordpress/2012/07/image_thumb104.png "image")
+        > ![image](/assets/img/wordpress/2012/07/image104.png "image")
         >     
         > So when you are doing individual control based Silverlight rendering it is important to remember that XNA takes control of where to place / size and position the output from the Silverlight renderer.  the big advantage of using this method is that you can do post processing on the Silverlight controls before they are rendered to the screen and better integrate them in to 3D environments.
         >     

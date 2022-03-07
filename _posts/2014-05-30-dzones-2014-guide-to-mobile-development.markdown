@@ -1,11 +1,8 @@
 ---
 layout: post
 title: DZone's 2014 Guide to Mobile Development
-date: '2014-05-30 18:40:36'
-tags:
-- dzone
-- information
-- mobile
+date: 2014-05-30 18:40:36
+tags: [information]
 ---
 
 <a href=](http://dzone.com/sites/all/files/mobile-guide-cover_2.png)Get Your Free Guide Today](http://www.dzone.com/research/guide-to-mobile-development?utm_source=mvb&utm_medium=blog&utm_campaign=Simon_Jackson)

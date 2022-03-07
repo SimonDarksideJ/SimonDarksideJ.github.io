@@ -13,7 +13,7 @@ After clearing away all the drinks, party streamers and general clutter from the
 
 It was one hell’uv’a party and there was lots of fun, now that the winners have accepted and the various prizes handed out, I can announce their names!
 
-[![image](/assets/img/wordpress/2015/03/image_thumb3.png "image")](/assets/img/wordpress/2015/03/image4.png)
+[![image](/assets/img/wordpress/2015/03/image3.png "image")](/assets/img/wordpress/2015/03/image4.png)
 
  
 

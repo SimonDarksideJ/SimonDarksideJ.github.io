@@ -2,13 +2,10 @@
 layout: post
 title: AdRotator for Windows 8
 date: '2012-09-21 20:47:59'
-tags:
-- adrotator
-- tutorials-resources
-- windows-8
+tags: [windows 8, adrotator]
 ---
 
-\*Note by popular request[here’s a sample](http://bit.ly/PsETzK) (pulled from the AdRotator site) showing AdRotator implemented in a [Windows 8 app](http://bit.ly/PsETzK) with AdDuplex, PubCenter and a local House AD.
+*Note by popular request[here’s a sample](http://bit.ly/PsETzK) (pulled from the AdRotator site) showing AdRotator implemented in a [Windows 8 app](http://bit.ly/PsETzK) with AdDuplex, PubCenter and a local House AD.
 
 As battles go this was certainly one of the strangest.  Windows 8 introduces so many different ways of working, some expected and welcome, some not so.
 
@@ -50,17 +47,17 @@ So getting AdRotator actually becomes easier as does getting updates, for those 
 
 Just right click the “References” branch in Visual studio (with your project open!) and select “Manage NuGet packages”
 
-[![image](/assets/img/wordpress/2012/09/image_thumb11.png "image")](/assets/img/wordpress/2012/09/image11.png)
+[![image](/assets/img/wordpress/2012/09/image11.png "image")](/assets/img/wordpress/2012/09/image11.png)
 
 This will bring you up the NuGet Package viewer:
 
-[![image](/assets/img/wordpress/2012/09/image_thumb12.png "image")](/assets/img/wordpress/2012/09/image12.png)
+[![image](/assets/img/wordpress/2012/09/image12.png "image")](/assets/img/wordpress/2012/09/image12.png)
 
 You’ll see a nice selection of libraries / components and add-on’s for your project but you can look at them in your own time, I’m on the meter here.
 
 So if you search for “AdRotator” in the top right hand search window you will find our happy little project.
 
-[![image](/assets/img/wordpress/2012/09/image_thumb13.png "image")](/assets/img/wordpress/2012/09/image13.png)
+[![image](/assets/img/wordpress/2012/09/image13.png "image")](/assets/img/wordpress/2012/09/image13.png)
 
 Note, not all of these libraries are for Windows 8, most are for .NET 4 and Studio 2010 so be sure you read the description before installing a lib, as you can see above searching for us shows one of our competitors the UAC, I would recommend checking them out and seeing what they have to offer, we would prefer you to use AdRotator of course, but as you can see it is for Windows Phone and that won’t work in a Windows 8 project (try it and see what I mean, no biggie you can always uninstall it again with no ill effects).
 
@@ -80,7 +77,7 @@ Now we could have shipped a default configuration file with NuGet but we are als
 
 Just create (or copy) a “defaultAdSettings.xml” config file into your project, the difference with Windows 8 is that you need to set the “CopyTo” action to “Copy Always” or “CopyNewer” to ensure it gets delivered with your project (no Resource build action anymore)
 
-[![image](/assets/img/wordpress/2012/09/image_thumb14.png "image")](/assets/img/wordpress/2012/09/image14.png)
+[![image](/assets/img/wordpress/2012/09/image14.png "image")](/assets/img/wordpress/2012/09/image14.png)
 
 And in your XAML configuration below we no longer need to mention namespaces, project folders or anything like that, just supply the name of the Config file you have added.
 

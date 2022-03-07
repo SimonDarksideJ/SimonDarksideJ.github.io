@@ -1,16 +1,10 @@
 ---
 layout: post
 title: XNA - The future is bright, the future is Managed
-date: '2012-07-09 10:47:56'
-tags:
-- information
-- mono
-- sunburn
-- unity3d
-- xna
+date: 2012-07-09 10:47:56
+img: wordpress/2012/07/image140.png
+tags: [xna]
 ---
-
-[![XNA is the Future of Manged in one form or another](/assets/img/wordpress/2012/07/image_thumb143.png "The future's so bright I have gotta wear shades")](/assets/img/wordpress/2012/07/image140.png)
 
 So there has been a lot of kerfuffle of late about XNA’s future, some wins, some losses and such.
 
@@ -47,7 +41,7 @@ The goal of this project was to get XNA code running under the Unity Framework w
 
 What he has produced has outstripped even my initial views of what was possible and he announced it to the world on twitter, which then prompted his site to go down under the stress from all the re-tweets (now back and running)
 
-[![image](/assets/img/wordpress/2012/07/image_thumb144.png "image")](/assets/img/wordpress/2012/07/image141.png)
+[![image](/assets/img/wordpress/2012/07/image144.png "image")](/assets/img/wordpress/2012/07/image141.png)
 
 This opens yet another door for games written in XNA to be easily ported to other platforms, yet another reason to prove that XNA is an excellent and easy to use prototyping platform (if nothing else).
 

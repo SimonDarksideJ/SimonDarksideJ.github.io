@@ -1,11 +1,8 @@
 ---
 layout: post
 title: PacktPub massive Christmas book offer
-date: '2013-12-20 09:22:10'
-tags:
-- information
-- offers
-- packtpub
+date: 2013-12-20 09:22:10
+tags: [information]
 ---
 
 [![ src=]()](http://www.packtpub.com/ebookbonanza?utm_source=$5%20eBook%20Bonanza&utm_medium=$5%20eBook%20Bonanza&utm_campaign=$5%20eBook%20Bonanza)

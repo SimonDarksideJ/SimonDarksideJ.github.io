@@ -2,14 +2,8 @@
 layout: post
 title: Windows Server 2012 roundup - the return! - Part 1
 date: '2013-04-22 11:49:59'
-tags:
-- information
-- review
-- teched
-- windows-server
+tags: [information]
 ---
-
-![src=]()
 
 On the back of the [#TechEdChallenge](https://twitter.com/search?q=%23techedchallenge&src=hash) I downloaded all three of the evaluation products for review and decided to give them a whirl, the first up was Windows Server 2012.
 
@@ -55,25 +49,25 @@ So my box is up and running, now what?
 
 With the box started up from a fresh install you are greeted with a nice “Welcome to your server” screen
 
-[![image](/assets/img/wordpress/2013/04/image_thumb.png "image")](/assets/img/wordpress/2013/04/image1.png)
+[![image](/assets/img/wordpress/2013/04/image.png "image")](/assets/img/wordpress/2013/04/image1.png)
 
 From here as you would expect you start adding services, components and other such bits to get your server up and running.  From first glance, gone are the old search for which components you need to run things and everything is plain and right in front of you.  It has brought along the server 2008 roles and features look and feel (a big bonus even back then) and even gives you a limited management option to include more servers in your little management group, gone are the days of requiring a dashboard or having to remote in to every server just to check it is health, it is all right in front of you. (In fact I think the “it is right in front of you” is going the factor a lot in my view).
 
 The help shows you straight away just how important Microsoft feel about managing your “Environment” instead of a collection of servers.
 
-[![image](/assets/img/wordpress/2013/04/image_thumb1.png "image")](/assets/img/wordpress/2013/04/image2.png)
+[![image](/assets/img/wordpress/2013/04/image1.png "image")](/assets/img/wordpress/2013/04/image2.png)
 
 Add features remotely, I like the sound of that!!
 
 Even the education tab leads (potentially even drawing you to) additional areas you should look to become a better server manager
 
-[![image](/assets/img/wordpress/2013/04/image_thumb2.png "image")](/assets/img/wordpress/2013/04/image3.png)
+[![image](/assets/img/wordpress/2013/04/image2.png "image")](/assets/img/wordpress/2013/04/image3.png)
 
 Excited to see just how far this goes with this latest offering.
 
 Switching to look at our starting point, Microsoft certainly have given you a very detailed overview of what each server is doing and what it has running on it:
 
-[![image](/assets/img/wordpress/2013/04/image_thumb3.png "image")](/assets/img/wordpress/2013/04/image4.png)
+[![image](/assets/img/wordpress/2013/04/image3.png "image")](/assets/img/wordpress/2013/04/image4.png)
 
 My only complaint here is that the dashboard is fixed, I would have liked to have been able to arrange the dashboard to my liking and order and possibly even hide/add more views to it to meet my needs, a fairly simple thing I would have thought.  Overall however this is light-years ahead from what I have experienced before, having such a performant global status screen for the server in one place (not like the old clunky Computer Management MMC view), it delights me that this one screen alone runs smoothly without affecting the performance of the server.
 
@@ -98,7 +92,7 @@ I also really like those hyperlinks all over the place, taking you straight to t
 
 Nice and helpful here.Next up you need to decide how you want to deploy these new features, either as a separate virtual instance or on the server itself.
 
-Running this already in a VM with no domain so only local works here for me.This screen did take me by surprise, obviously for supporting environments with SAN storage and multiple deployment options, you not only get to choose where to install features but also select if you want it encapsulated in a VHD! [![image](/assets/img/wordpress/2013/04/image_thumb4.png "image")](/assets/img/wordpress/2013/04/image5.png) [![image](/assets/img/wordpress/2013/04/image_thumb5.png "image")](/assets/img/wordpress/2013/04/image6.png) [![image](/assets/img/wordpress/2013/04/image_thumb6.png "image")](/assets/img/wordpress/2013/04/image7.png)
+Running this already in a VM with no domain so only local works here for me.This screen did take me by surprise, obviously for supporting environments with SAN storage and multiple deployment options, you not only get to choose where to install features but also select if you want it encapsulated in a VHD! [![image](/assets/img/wordpress/2013/04/image4.png "image")](/assets/img/wordpress/2013/04/image5.png) [![image](/assets/img/wordpress/2013/04/image5.png "image")](/assets/img/wordpress/2013/04/image6.png) [![image](/assets/img/wordpress/2013/04/image6.png "image")](/assets/img/wordpress/2013/04/image7.png)
 
 | 
 ### Selecting the bits
@@ -108,7 +102,7 @@ Running this already in a VM with no domain so only local works here for me.This
 ### Different roles, different dependencies
  |
 | Once you figured out where it goes, the next obvious step to to add Roles for what you want the server to do.  Nice clearly defined boundaries | If your selection has dependencies then they are added automatically for you, no more dropping out the install to find yet another “feature” you need to have preinstalled first. | Pretty obvious but worth pointing out that the system intelligently only installs those bits needed for each role, even if features are needed for multiple roles |
-| [![image](/assets/img/wordpress/2013/04/image_thumb7.png "image")](/assets/img/wordpress/2013/04/image8.png) | [![image](/assets/img/wordpress/2013/04/image_thumb8.png "image")](/assets/img/wordpress/2013/04/image9.png) | [![image](/assets/img/wordpress/2013/04/image_thumb9.png "image")](/assets/img/wordpress/2013/04/image10.png) |
+| [![image](/assets/img/wordpress/2013/04/image7.png "image")](/assets/img/wordpress/2013/04/image8.png) | [![image](/assets/img/wordpress/2013/04/image8.png "image")](/assets/img/wordpress/2013/04/image9.png) | [![image](/assets/img/wordpress/2013/04/image9.png "image")](/assets/img/wordpress/2013/04/image10.png) |
 
 | 
 ### Extra features
@@ -118,7 +112,7 @@ Running this already in a VM with no domain so only local works here for me.This
 ### Configuring roles
  |
 | Once you have decided what you want the server to do, you can then also select any additional features you want enabled by default.  Very useful if you intend to install “other” software. | Try to add a role or feature that your current environment cannot support (say trying to install Hyper-V in a Hyper-V image) and the install will just warn you. (As in not crap out the whole install) | With everything set you then get to customise the roles you have selected and customise how each role with operate |
-| [![image](/assets/img/wordpress/2013/04/image_thumb10.png "image")](/assets/img/wordpress/2013/04/image11.png) | [![image](/assets/img/wordpress/2013/04/image_thumb11.png "image")](/assets/img/wordpress/2013/04/image12.png) | [![image](/assets/img/wordpress/2013/04/image_thumb12.png "image")](/assets/img/wordpress/2013/04/image13.png) |
+| [![image](/assets/img/wordpress/2013/04/image10.png "image")](/assets/img/wordpress/2013/04/image11.png) | [![image](/assets/img/wordpress/2013/04/image11.png "image")](/assets/img/wordpress/2013/04/image12.png) | [![image](/assets/img/wordpress/2013/04/image12.png "image")](/assets/img/wordpress/2013/04/image13.png) |
 
 | 
 ### Would you like fries with that?
@@ -131,7 +125,7 @@ Running this already in a VM with no domain so only local works here for me.This
 What’s nice here is that there is even an option to automatically restart the server when needed during install, however many times that may be.  
 Obviously not advised on a Live system ![Open-mouthed smile](/assets/img/wordpress/2013/04/wlEmoticon-openmouthedsmile2.png) | What is nice about the progress screen is that unlike other server installs, it can be closed.  You can check on its status from the Notification pin in the Dashboard at any time.  
 Acts more like Windows Update than an MSI install. |
-| [![image](/assets/img/wordpress/2013/04/image_thumb13.png "image")](/assets/img/wordpress/2013/04/image14.png) | [![image](/assets/img/wordpress/2013/04/image_thumb14.png "image")](/assets/img/wordpress/2013/04/image15.png) | [![image](/assets/img/wordpress/2013/04/image_thumb15.png "image")](/assets/img/wordpress/2013/04/image16.png) |
+| [![image](/assets/img/wordpress/2013/04/image13.png "image")](/assets/img/wordpress/2013/04/image14.png) | [![image](/assets/img/wordpress/2013/04/image14.png "image")](/assets/img/wordpress/2013/04/image15.png) | [![image](/assets/img/wordpress/2013/04/image15.png "image")](/assets/img/wordpress/2013/04/image16.png) |
 
 After all this it does give a refreshing view that Microsoft are serious about making administrators and engineers lives easier plus making maintenance a doddle.
 
@@ -145,7 +139,7 @@ Overall it feels very smooth and well thought out, not having to keep jumping in
 
 After you have got the server up and running and installed your roles and features, as expected the dashboard is updated and new options become available to drill down to each feature of a role on its own rather than the big view dashboard look:
 
-[![image](/assets/img/wordpress/2013/04/image_thumb16.png "image")](/assets/img/wordpress/2013/04/image17.png)
+[![image](/assets/img/wordpress/2013/04/image16.png "image")](/assets/img/wordpress/2013/04/image17.png)
 
 You can jump in and check out the events, service status and such for each role and server you wish without having to jump through hoops.  Another +10 for Microsoft.
 
@@ -155,7 +149,7 @@ You can jump in and check out the events, service status and such for each role 
 
 Time as always eludes me so I must off, will put up part 2 when I get another free moment, for now I leave you with one parting gift:
 
-[![image](/assets/img/wordpress/2013/04/image_thumb17.png "image")](/assets/img/wordpress/2013/04/image18.png)
+[![image](/assets/img/wordpress/2013/04/image17.png "image")](/assets/img/wordpress/2013/04/image18.png)
 
 Yes the Modern desktop interface does make an appearance in Server 2012 but it seems the “Boot to Desktop” feature has already shown it is face ![Open-mouthed smile](/assets/img/wordpress/2013/04/wlEmoticon-openmouthedsmile2.png)
 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: ReCap - The XNA 2D 'from the ground up' tutorial series
-date: '2012-06-29 22:47:03'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 22:47:03
+tags: [2d tutorial, game development, xna]
 ---
 
 ![](http://static.howstuffworks.com/gif/telescope-sam-1.jpg)

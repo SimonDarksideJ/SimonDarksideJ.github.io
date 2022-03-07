@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Dream.Build.Play. - get a head start now!
-date: '2007-01-25 14:28:21'
-tags:
-- xna-related
+date: 2007-01-25 14:28:21
+tags: [xna]
 ---
 
 More details released by the [XNA team](http://blogs.msdn.com/xna/archive/2007/01/24/dream-build-play-ndash-get-a-head-start-now) (at least we now know who’s running it!!)

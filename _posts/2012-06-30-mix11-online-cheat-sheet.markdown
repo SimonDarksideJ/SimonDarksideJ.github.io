@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Mix11 Online Cheat Sheet
-date: '2012-06-30 23:33:07'
-tags:
-- html5
-- information
-- mix11
-- windows-phone
-- xna
+date: 2012-06-30 23:33:07
+tags: [information]
 ---
 
 Following the events @ Mix 2011 and the sheer mass of sessions following the Keynotes, here’s a one page cheat sheet to help out your session review.

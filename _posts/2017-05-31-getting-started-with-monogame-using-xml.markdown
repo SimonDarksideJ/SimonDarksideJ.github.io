@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Getting started with MonoGame using XML
-date: '2017-05-31 19:24:35'
-tags:
-- content-pipeline
-- monogame
-- tutorials-resources
-- xml
-- xna-related
+date: 2017-05-31 19:24:35
+tags: [content pipeline, monogame]
 ---
 
 For some time now I have been asked if I would do a session on the “Darkside of MonoGame” about using XML with MonoGame and the Content Pipeline, for a while I put it off as I had my own schedule and agenda with the channel.  Eventually I got worn down and I have succumbed to the demands of my viewers (it can happen ![Open-mouthed smile](/assets/img/wordpress/2017/05/wlEmoticon-openmouthedsmile.png))
@@ -52,7 +47,7 @@ Lastly is ease of use and support. With MonoGame, we inherited the IntermediateS
 
 Right, when getting started with XML, you need to understand there are three main components to handling XML serialization with MonoGame, the XML schema, the Data Class and the Game code:
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-5.png "image")](/assets/img/wordpress/2017/05/image-5.png)
+[![image](/assets/img/wordpress/2017/05/image-5.png "image")](/assets/img/wordpress/2017/05/image-5.png)
 
 This is a simple architectural principle to deal with when handling any content that is provided externally to your project (or internally in some cases) whereby you have a rigid schema, which will be populated by an unlisted source (conforming to the schema) and then consumed by game functions and logic.  The last two can be merged but can likely create troubles later if you start manipulating the wrong data, so my advice is to simply keep them separate, for example:
 
@@ -107,7 +102,7 @@ So, let’s walk through setting everything up and for simplicity, I will follow
 
 As stated, I always use a separate library to maintain the schema definitions for by data.  I also usually create extension methods or worker classes in my game to consume that data.  To get started (assuming you have created a MonoGame game project already), I create a new library project in the solution, to ensure maximum compatibility I also create it as a Portable Class Library, meaning I can use the same project for all platforms supported by MonoGame.
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-6.png "image")](/assets/img/wordpress/2017/05/image-6.png)
+[![image](/assets/img/wordpress/2017/05/image-6.png "image")](/assets/img/wordpress/2017/05/image-6.png)
 
 _New project wizard, selecting a C# Portable Class Library_
 
@@ -115,13 +110,13 @@ _New project wizard, selecting a C# Portable Class Library_
 
 Once you click OK, you will be prompted with the platform targets selection and for simplicity’s sake, you can just select everything ensuring maximum compatibility.  Also, be sure to check the .NET framework is a minimum of 4.5 as that is what MonoGame is currently based on.
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-7.png "image")](/assets/img/wordpress/2017/05/image-7.png)
+[![image](/assets/img/wordpress/2017/05/image-7.png "image")](/assets/img/wordpress/2017/05/image-7.png)
 
 _New Portable Class Library Platform Target selection screen._
 
 Your project should now look as follows with your game and library projects.
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-8.png "image")](/assets/img/wordpress/2017/05/image-8.png)
+[![image](/assets/img/wordpress/2017/05/image-8.png "image")](/assets/img/wordpress/2017/05/image-8.png)
 
 _Updated game solution._
 
@@ -201,7 +196,7 @@ With both our data class and the XML ready, we now just need to pair them up in 
 
 With the Content project open and your XML imported, simply click on the Root “Content” node in the editor and then click on the “References” option in the properties window, as shown below:
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-9.png "image")](/assets/img/wordpress/2017/05/image-9.png)
+[![image](/assets/img/wordpress/2017/05/image-9.png "image")](/assets/img/wordpress/2017/05/image-9.png)
 
 _Content Pipeline tool, adding references._
 
@@ -214,7 +209,7 @@ Once the Reference wizard is open, it is simply a case of clicking add and point
 
 Now when you build your Content Project (providing everything is aligned) you should see a nice green tick meaning everything is good!  If you then want to pass the content project and data library to other people, they can then get on building content and use the Content Pipeline tool to validate everything is on the up and up.
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-10.png "image")](/assets/img/wordpress/2017/05/image-10.png)
+[![image](/assets/img/wordpress/2017/05/image-10.png "image")](/assets/img/wordpress/2017/05/image-10.png)
 
 _A successful build ![Open-mouthed smile](/assets/img/wordpress/2017/05/wlEmoticon-openmouthedsmile.png)_
 
@@ -254,7 +249,7 @@ This should only be a temporary thing and you should remove both the reference a
 
 Want to use Vector2, Rectangles or Point’s in your schema, then fine. Just ensure your data project (ignore this if you have your data in your game project) has a reference to the MonoGame.Framework. If you are using a PCL, there is even a package for that. Simply install the MonoGame.Framework.Portable library in your PCL project and you are good to go. Simples.
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-11.png "image")](/assets/img/wordpress/2017/05/image-11.png)
+[![image](/assets/img/wordpress/2017/05/image-11.png "image")](/assets/img/wordpress/2017/05/image-11.png)
 
 _MonoGame.Framework.Portable on NuGet_
 
@@ -264,11 +259,11 @@ Do you only see the text contents when you double-click on your content project 
 
 To fix this simple right-click the .MGCB Content file and select “Open With”
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-12.png "image")](/assets/img/wordpress/2017/05/image-12.png)
+[![image](/assets/img/wordpress/2017/05/image-12.png "image")](/assets/img/wordpress/2017/05/image-12.png)
 
 Then select the “MonoGame Pipeline Tool” from the list on the left and then click on “Set as Default”
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-13.png "image")](/assets/img/wordpress/2017/05/image-13.png)
+[![image](/assets/img/wordpress/2017/05/image-13.png "image")](/assets/img/wordpress/2017/05/image-13.png)
 
 Now the handy tool will open with for your content project forevermore.
 

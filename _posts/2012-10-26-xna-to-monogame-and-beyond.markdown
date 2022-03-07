@@ -1,15 +1,8 @@
 ---
 layout: post
 title: XNA to MonoGame and beyond
-date: '2012-10-26 00:13:32'
-tags:
-- monogame
-- tutorials-resources
-- windows-8
-- windows8-tutorials
-- winrt
-- xna
-- xna-related
+date: 2012-10-26 00:13:32
+tags: [xna, monogame]
 ---
 
 As part of a new “Back to basics” series which extends on my original XNA Futures article some months ago, I am going to cover all the options I explained back then in more detail plus probably a few others which have come to light recently.
@@ -26,7 +19,7 @@ So first out of the gate is [MonoGame](http://monogame.codeplex.com), This artic
 
 # Background
 
-[![MonogameLogo1920x1920](/assets/img/wordpress/2012/10/MonogameLogo1920x1920_thumb.png "MonogameLogo1920x1920")](/assets/img/wordpress/2012/10/MonogameLogo1920x1920.png)
+[![MonogameLogo1920x1920](/assets/img/wordpress/2012/10/MonogameLogo1920x1920.png "MonogameLogo1920x1920")](/assets/img/wordpress/2012/10/MonogameLogo1920x1920.png)
 
 [MonoGame](http://monogame.codeplex.com) is an Open Source implementation of the Microsoft XNA 4 Framework. Its goal is to allow XNA developers on Xbox 360, Windows & Windows Phone to port their games to the iOS, Android, Mac OS X, Linux and Windows 8 Metro.  They are also hoping to open up several other platforms in the future including PlayStation mobile.
 
@@ -89,7 +82,7 @@ This will give you a set of compiled assets in XNB format ready for use on your 
 
 The basic version is just XNA out of the box but with all the extra gubbins needed to run XNA/MonoGame on Windows 8:
 
-[![image](/assets/img/wordpress/2012/10/image_thumb.png "image")](/assets/img/wordpress/2012/10/image.png)
+[![image](/assets/img/wordpress/2012/10/image.png "image")](/assets/img/wordpress/2012/10/image.png)
 
 Inside we find the customary “Game1” class and from there it is like XNA never left the building, all you need to do is add content and off you go, to get your content in there are a couple of options:
 
@@ -107,7 +100,7 @@ The Post Process approach (suggested by the Sickhead Games team) is a good balan
 
 Then call it as part of your post process build routing in your project settings (right click your project and select properties):
 
-[![image](/assets/img/wordpress/2012/10/image_thumb6.png "image")](/assets/img/wordpress/2012/10/image6.png)
+[![image](/assets/img/wordpress/2012/10/image6.png "image")](/assets/img/wordpress/2012/10/image6.png)
 
 Additionally what the Sickhead guys do is manually edit the games “csproj” file and add the following line to ensure the content is included at build time:
 
@@ -123,20 +116,20 @@ Option 1, in my view is a lot cleaner, however there are a few points to keep in
 
 - You need to create the base “Content” folder manually at first, just call it Content
 
-[![image](/assets/img/wordpress/2012/10/image_thumb1.png "image")](/assets/img/wordpress/2012/10/image1.png)
+[![image](/assets/img/wordpress/2012/10/image1.png "image")](/assets/img/wordpress/2012/10/image1.png)
 
 \*Example Structure
 
 - The Folder structure needs to mimic your content projects folder structure exactly
 - Only LINK your assets do not just add them, else when you rebuild your content it wo not be updated in your game
 
-[![image](/assets/img/wordpress/2012/10/image_thumb2.png "image")](/assets/img/wordpress/2012/10/image2.png)
+[![image](/assets/img/wordpress/2012/10/image2.png "image")](/assets/img/wordpress/2012/10/image2.png)
 
 \*Add XNB files as “Existing Items” as Links
 
 - You need to set the “Build Action” of all your linked assets as “ **CONTENT** ”, this will ensure they are copied to the deployment folder when the project is run.
 
-[![image](/assets/img/wordpress/2012/10/image_thumb3.png "image")](/assets/img/wordpress/2012/10/image3.png)
+[![image](/assets/img/wordpress/2012/10/image3.png "image")](/assets/img/wordpress/2012/10/image3.png)
 
 \*Linked assets with “Build Action” set to “Content”
 
@@ -161,13 +154,13 @@ You can add XAML elements to your game pages and use data binding to manage them
 
 The other main difference which should be obvious is the project structure:
 
-[![image](/assets/img/wordpress/2012/10/image_thumb4.png "image")](/assets/img/wordpress/2012/10/image4.png)
+[![image](/assets/img/wordpress/2012/10/image4.png "image")](/assets/img/wordpress/2012/10/image4.png)
 
 The project now has an “App.XAML” and “GamePage.XAML”.  The “App.XAML” has been configured to act pretty much the same way the Basic [MonoGame](http://monogame.codeplex.com) project works by instantiating the Game properly.
 
 The “Game.XAML” is just an empty SwapChainBackgroundPanel (a Core element of the C++ XAML game projects):
 
-[![image](/assets/img/wordpress/2012/10/image_thumb5.png "image")](/assets/img/wordpress/2012/10/image5.png)
+[![image](/assets/img/wordpress/2012/10/image5.png "image")](/assets/img/wordpress/2012/10/image5.png)
 
 As with the SilverXNA projects of the past all the XNA Graphics are run from the code behind and you are free to add XAML elements as you wish, only real difference is that they are ON by default. (Well unless you hide them)
 

@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Android NDK Game Development Cookbook - A Review
-date: '2014-04-23 21:56:32'
-tags:
-- android
-- packtpub
+date: 2014-04-23 21:56:32
+tags: [book review, android]
 ---
 
 No matter which platform is your primary target platform for your game in development, it is wise to have an appreciation for how platforms operate.  So even if Android is not your first deployment it is good to get to know how it works as it will help you architect your game properly.

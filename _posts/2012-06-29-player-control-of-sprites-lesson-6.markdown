@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Player Control of Sprites - Lesson 6
-date: '2012-06-29 10:39:55'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:39:55
+tags: [2d tutorial, game development, xna]
 ---
 
 Lesson 6 is here from the Original DigiPen series tutorial now updated with XNA.  This section is pretty much untouched apart from the updated code.  I will follow this section up with a few intermission sections to add a few of my own personal touches.

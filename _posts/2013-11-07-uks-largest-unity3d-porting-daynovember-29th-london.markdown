@@ -1,14 +1,8 @@
 ---
 layout: post
 title: UK's largest Unity3D porting day - November 29th London
-date: '2013-11-07 15:24:29'
-tags:
-- events
-- microsoft
-- nokia
-- unity3d
-- windows-8
-- windows-phone
+date: 2013-11-07 15:24:29
+tags: [events]
 ---
 
 ![src=]()
@@ -59,7 +53,7 @@ Just about everyone is guaranteed to take home something (subject to availabilit
 
 - Copies of Parallels and Unity Pro
 
-[![image](/assets/img/wordpress/2013/11/image_thumb.png "image")](/assets/img/wordpress/2013/11/image.png)
+[![image](/assets/img/wordpress/2013/11/image.png "image")](/assets/img/wordpress/2013/11/image.png)
 
 So all this day is going to cost you is time, one day to get all the help and expertise you need to get started on the new Windows / Windows Phone platforms and even a chance to walk away with new gear.
 

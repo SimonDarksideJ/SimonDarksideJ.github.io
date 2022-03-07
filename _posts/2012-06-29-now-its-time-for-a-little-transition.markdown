@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Now it is time for a little transition
-date: '2012-06-29 11:31:29'
-tags:
-- gsm
-- tutorials-resources
-- xna
+date: 2012-06-29 11:31:29
+tags: [xna]
 ---
 
 Hot on the heals of the updates to the CC GSM code, I decided to go that little bit further and add some neat effects.  these are also good for reusing in games as it provides an insight on how to use RenderTargets effectively within the XNA framework.

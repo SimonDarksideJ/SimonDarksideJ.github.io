@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Game Music and Sound Effects - Lesson 7
-date: '2012-06-29 11:25:57'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 11:25:57
+tags: [2d tutorial, game development, xna]
 ---
 
 Finally we get something more than just looking at a quiet screen blinking images on and off.  For this section we look to excite our ears and bring in the sound.  We will also look to adding some managed test to the screen to give our actions meaning.

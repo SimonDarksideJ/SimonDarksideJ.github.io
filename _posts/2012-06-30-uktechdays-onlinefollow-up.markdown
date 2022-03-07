@@ -1,11 +1,8 @@
 ---
 layout: post
 title: UKTechdays Online - Follow up
-date: '2012-06-30 23:31:34'
-tags:
-- techdays
-- tutorials-resources
-- windows-phone
+date: 2012-06-30 23:31:34
+tags: [events]
 ---
 
 [![](http://blogs.msdn.com/cfs-file.ashx/__key/CommunityServer-Blogs-Components-WeblogFiles/00-00-01-39-66-metablogapi/2816.clip_5F00_image001_5F00_1B38CF4D.jpg)](http://blogs.msdn.com/b/ukmsdn/archive/2011/02/24/wanna-get-creative-on-24-march)

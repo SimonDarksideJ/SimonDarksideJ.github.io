@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Game Design - Engine Basics
-date: '2012-06-29 09:27:57'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:27:57
+tags: [2d tutorial, game development, xna]
 ---
 
 The DigiPen tutorial was originally delivered on top of a basic game engine written for the tutorial series.  Now the specifics of the engine were discussed breifly in the webcast, so I’ll elaborate here on those components and reflect on their place in an XNA based game.
@@ -138,11 +134,11 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 
 | 
 
-[![image](/assets/img/wordpress/2012/07/image_thumb17.png "image")](/assets/img/wordpress/2012/07/image17.png)
+[![image](/assets/img/wordpress/2012/07/image17.png "image")](/assets/img/wordpress/2012/07/image17.png)
 
  | 
 
-[![image](/assets/img/wordpress/2012/07/image_thumb18.png "image")](/assets/img/wordpress/2012/07/image18.png)
+[![image](/assets/img/wordpress/2012/07/image18.png "image")](/assets/img/wordpress/2012/07/image18.png)
 
  |
 | 
@@ -165,7 +161,7 @@ Without Transparency colour
 
  
 
-[![image](/assets/img/wordpress/2012/07/image_thumb19.png "image")](/assets/img/wordpress/2012/07/image19.png)
+[![image](/assets/img/wordpress/2012/07/image19.png "image")](/assets/img/wordpress/2012/07/image19.png)
 
 * * *
 

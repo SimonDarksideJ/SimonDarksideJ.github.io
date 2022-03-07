@@ -3,10 +3,7 @@ layout: post
 title: Running an event in AltspaceVR - an end to end guide
 date: '2020-04-01 21:29:49'
 img: /assets/img/wordpress/2021/06/image-15-1-.png
-tags:
-- altspacevr
-- online-meetings
-- vr
+tags: [altspacevr,online-meetings,vr]
 ---
 
 Following on from my previous overview of the most common virtual services, this article is the first in the series doing a much deeper dive into each service, its offerings and how to set up and run an event.

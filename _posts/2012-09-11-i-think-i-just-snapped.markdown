@@ -1,13 +1,8 @@
 ---
 layout: post
 title: I think I just snapped
-date: '2012-09-11 09:32:07'
-tags:
-- tutorials-resources
-- windows-8
-- windows8-tutorials
-- windows-phone
-- winrt
+date: 2012-09-11 09:32:07
+tags: [windows 8]
 ---
 
 One of my biggest pains with porting my WP7 app to Windows 8 is the “Snapped View”, an interesting feature added to Windows 8 to provide “smart” docking for apps and properly allow 2 apps to run simultaneously on screen, as a user this looks great, as a developer it is a right royal pain in the rear.
@@ -24,15 +19,15 @@ This gets worse if you have multiple pages within your app as you need to define
 
 If you started your project using one of the constructed templates like “Grid App” or “Split App” you already have the necessary components which are placed into the “Common” folder.
 
-[![image](/assets/img/wordpress/2012/09/image_thumb.png "image")](/assets/img/wordpress/2012/09/image.png)
+[![image](/assets/img/wordpress/2012/09/image.png "image")](/assets/img/wordpress/2012/09/image.png)
 
 If you started with a “Blank App” you can add these bits by just adding one of the constructed item templates like “Basic Page” or “Split Page”, etc. basically anything other than the “Blank Page” template will add them.
 
-[![image](/assets/img/wordpress/2012/09/image_thumb1.png "image")](/assets/img/wordpress/2012/09/image1.png)
+[![image](/assets/img/wordpress/2012/09/image1.png "image")](/assets/img/wordpress/2012/09/image1.png)
 
 What will be added is the following folder with some boilerplate code and functionality (why this is not here by default is anyone’s guess), amongst the suspension manager (a state saving lib just like the Phone application states of WP7) and default value converters is the “LayoutAwarePage” template control.
 
-[![image](/assets/img/wordpress/2012/09/image_thumb2.png "image")](/assets/img/wordpress/2012/09/image2.png)
+[![image](/assets/img/wordpress/2012/09/image2.png "image")](/assets/img/wordpress/2012/09/image2.png)
 
 Now I’d recommend starting new pages with one of the item templates mentioned earlier rather than trying to force it into one of your existing pages, but if you feel so inclined then create a new “Basic Page” and copy the following to your existing pages to add the necessary elements:
 
@@ -50,7 +45,7 @@ Now I’d recommend starting new pages with one of the item templates mentioned 
 
 With the above in place (or your new app in hand) when you open your page in Blend, in the “States” panel you will find several default states provided for you in the page.
 
-[![image](/assets/img/wordpress/2012/09/image_thumb3.png "image")](/assets/img/wordpress/2012/09/image3.png)
+[![image](/assets/img/wordpress/2012/09/image3.png "image")](/assets/img/wordpress/2012/09/image3.png)
 
 And here is our snapped view along with the rest.  Now if you have designed you page using scalable values (basically not using FIXED pixel values) then you should not have to word about Filled and FullScreenlandscape, they should just be the same as your “base” state and do not need anything special.  Portrait is another matter entirely but that is a different post.
 
@@ -58,7 +53,7 @@ So we have our snapped visual state and configuring it is no different to design
 
 To help with this the designer also has a “Snapped” mode viewer, just switch to the “Device Pane” and you will see several options to change how the designer looks to mimic what it will look like on the device:
 
-[![image](/assets/img/wordpress/2012/09/image_thumb4.png "image")](/assets/img/wordpress/2012/09/image4.png)
+[![image](/assets/img/wordpress/2012/09/image4.png "image")](/assets/img/wordpress/2012/09/image4.png)
 
 You can change the View from Landscape, to Filled, portrait and of course snapped, you can also change the current view state (but I’d still recommend doing this on the states page), you can even change the resolution to see how your app scales.
 

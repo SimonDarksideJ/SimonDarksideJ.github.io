@@ -1,11 +1,8 @@
 ---
 layout: post
-title: There and Back again  - 'A Tombstoning tale' The return of the
-  application.
-date: '2012-06-29 21:49:37'
-tags:
-- tutorials-resources
-- windows-phone
+title: There and Back again  - 'A Tombstoning tale' The return of the application.
+date: 2012-06-29 21:49:37
+tags: [windows phone]
 ---
 
 ![](http://img.dailymail.co.uk/i/pix/2007/06_01/TombstoneSWNS_468x526.jpg)

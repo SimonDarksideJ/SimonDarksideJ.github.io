@@ -2,11 +2,7 @@
 layout: post
 title: Entering the brave new world of VR
 date: 2015-09-23 11:43:03
-tags:
-- ar
-- book-review
-- unity3d
-- vr
+tags: [book review,unity3d, ar,vr]
 ---
 
 ![oculus-rift-inside](http://lasttokengaming.com/wp-content/uploads/2015/09/oculus-rift-inside-585x300.jpg)
@@ -156,7 +152,7 @@ Overall, I am very impressed with this title, both for its content and approach 
 
 Well that is if for the review with one major exception, the publishers like my idea of reviewing these titles so much, that they gave me two fantastic offers for readers to grab these titles at a bargain price.
 
-[![^51C42C42708EA133138030D7E96DD95EA412E79E7648B9EA49^pimgpsh_fullsize_distr](/assets/img/wordpress/2015/09/51C42C42708EA133138030D7E96DD95EA412E79E7648B9EA49pimgpsh_fullsize_distr_thumb.jpg "^51C42C42708EA133138030D7E96DD95EA412E79E7648B9EA49^pimgpsh\_fullsize\_distr")](/assets/img/wordpress/2015/09/51C42C42708EA133138030D7E96DD95EA412E79E7648B9EA49pimgpsh_fullsize_distr.jpg)
+[![^51C42C42708EA133138030D7E96DD95EA412E79E7648B9EA49^pimgpsh_fullsize_distr](/assets/img/wordpress/2015/09/51C42C42708EA133138030D7E96DD95EA412E79E7648B9EA49pimgpsh_fullsize_distr.jpg "^51C42C42708EA133138030D7E96DD95EA412E79E7648B9EA49^pimgpsh\_fullsize\_distr")](/assets/img/wordpress/2015/09/51C42C42708EA133138030D7E96DD95EA412E79E7648B9EA49pimgpsh_fullsize_distr.jpg)
 
 ](http://bit.ly/1KwUngx)
 

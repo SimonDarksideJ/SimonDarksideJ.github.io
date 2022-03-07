@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Further Adventures in Unhandled Exception Handling for Win8
-date: '2012-09-09 22:46:07'
-tags:
-- tutorials-resources
-- unhandled-exception
-- windows-8
-- windows8-tutorials
-- winrt
+date: 2012-09-09 22:46:07
+tags: [windows 8]
 ---
 
 Following the submission of my first Windows 8 app into the preview store I’m planning on a few quick posts on my experiences and helpful stuff I found/created during my journey.

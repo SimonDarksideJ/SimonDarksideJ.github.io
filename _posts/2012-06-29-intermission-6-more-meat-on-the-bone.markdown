@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #6 - More meat on the bone'
-date: '2012-06-29 10:47:16'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:47:16
+tags: [2d tutorial, game development, xna]
 ---
 
  
@@ -40,7 +36,7 @@ With so many options we have a little bit more to think about.
 
 So when implementing our game control scheme we need a way to handle all these different inputs (unless you are only targeting a single platform) without overloading our actual game code.  To do this we need to abstract our functionality a bit, this is what we are trying to aim for:
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_26BE8327.png)
+![image](http://xna-uk.net/blogs/darkgenesis/image_26BE8327.png)
 
 The diagram above details a level of abstraction we apply between our game controls and the available inputs we have for each platform.
 

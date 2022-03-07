@@ -1,16 +1,10 @@
 ---
 layout: post
 title: Building your game for multiple platforms with UWP
-date: '2016-10-07 09:59:09'
-tags:
-- events
-- future-decoded
-- monogame
-- unity-3d-tutorials
-- unity3d
+date: 2016-10-07 09:59:09
+img: wordpress/2016/10/image.png
+tags: [events, unity3d]
 ---
-
-[![image](/assets/img/wordpress/2016/10/image_thumb.png "image")](/assets/img/wordpress/2016/10/image.png)
 
 Getting your game to as many platforms as possible is (should) be the dream for any game developer or studio.  In the markets of today, if you are only hitting one platform, ultimately you are not achieving your potential and are losing out on sales.
 
@@ -60,7 +54,7 @@ This time I am going to cover getting your UWP games to Xbox using Unity and [Mo
 
 It is not just games of course, Microsoft is also proudly accepting new Apps to the console as well.
 
-[![image](/assets/img/wordpress/2016/10/image_thumb-1.png "image")](/assets/img/wordpress/2016/10/image-1.png)
+[![image](/assets/img/wordpress/2016/10/image-1.png "image")](/assets/img/wordpress/2016/10/image-1.png)
 
  
 

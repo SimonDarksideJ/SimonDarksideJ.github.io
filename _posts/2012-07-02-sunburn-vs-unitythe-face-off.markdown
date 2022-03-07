@@ -1,13 +1,8 @@
 ---
 layout: post
 title: SunBurn Vs Unity - The face off!
-date: '2012-07-02 13:51:07'
-tags:
-- information
-- sunburn
-- sunburn-tutorials
-- unity-3d-tutorials
-- unity3d
+date: 2012-07-02 13:51:07
+tags: [sunburn, xna, unity3d]
 ---
 
 One of the many reasons I  do not seem to get anything done these days is because I am soo damn busy, if it is not family it is work, if it is not work it is usually because I am writing samples or articles for someone else.  One day I will take time for me but it is not today.

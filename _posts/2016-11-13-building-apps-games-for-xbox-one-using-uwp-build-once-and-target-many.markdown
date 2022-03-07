@@ -1,23 +1,10 @@
 ---
 layout: post
 title: Building apps & games for Xbox One using UWP - Build once and target many
-date: '2016-11-13 11:43:04'
-tags:
-- events
-- futuredecoded
-- monogame
-- tutorials-resources
-- unity-3d-tutorials
-- unity3d
-- uwp
-- windows-10
+date: 2016-11-13 11:43:04
+img: wordpress/2016/11/image.png
+tags: [events, xbox]
 ---
-
- 
-
-[![image](/assets/img/wordpress/2016/11/image_thumb.png "image")](/assets/img/wordpress/2016/11/image.png)
-
- 
 
 For my sins, I was asked back to [FutureDecoded](http://futuredecoded.com/) again this year to give a talk on the Microsoft UWP platform, specifically about bringing games to the XboxOne using UWP.  By all accounts the session went well (especially as there was standing room only by the time the talk started). With it being just two days in the London ExCeL exhibition center, not everyone who wanted to make it could, in fact even some people were contacting me on the day saying they were in other sessions at that time but wanted more info.
 
@@ -31,7 +18,7 @@ So for everyone who could not make it on the day or missed the session (or for t
 
 # Just what is UWP? (The Universal Windows Platform)
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-1.png "image")](/assets/img/wordpress/2016/11/image-1.png)
+[![image](/assets/img/wordpress/2016/11/image-1.png "image")](/assets/img/wordpress/2016/11/image-1.png)
 
 I have posted a few times about the UWP platform, but to recap, UWP is Microsoft’s latest endeavor to make it even easier for developers to be able to publish on Windows platforms. So much so, that now you only need one project to be able to deploy on to all of their Windows 10 platforms, this includes:
 
@@ -46,7 +33,7 @@ Plus, any other devices that Microsoft decides to roll out on to from now on.
 
 It pretty much sounds like a multi-platform dream, and it certainly is.  But how does UWP handle all the different variations on its platform? Each device is different and has its own unique characteristics. The answer in this case is “Extensions”:
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-2.png "image")](/assets/img/wordpress/2016/11/image-2.png)
+[![image](/assets/img/wordpress/2016/11/image-2.png "image")](/assets/img/wordpress/2016/11/image-2.png)
 
 As you might expect, Windows 10 has a single “core” which runs on all devices, in exactly the same way.  Then for those little extra’s, the UWP platform provides an “Extension” component that is specific to each platform.  However, these extensions are also expressed on all the other platforms, so your code does not break and you write the same code as if you were writing for them all.  Where a device does not support a certain feature (say the Holographic API on an Xbox), then the code simply does nothing, it does not error, it does not crash, your code still works but nothing actually happens. For those platforms with that feature, lights start shining, the bells ring and the choir sings out with joyful praise.
 
@@ -56,13 +43,13 @@ Also as part of this “Extension” framework, Microsoft gives you the ability 
 
 # But what about the Games?
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-3.png "image")](/assets/img/wordpress/2016/11/image-3.png)
+[![image](/assets/img/wordpress/2016/11/image-3.png "image")](/assets/img/wordpress/2016/11/image-3.png)
 
 When we start looking at building games under UWP, there is a lot of support (that is constantly growing) from third parties. As you can see most of the major engines and frameworks already support the Universal platform out of the box, making it even easier to publish your game as a UWP app.
 
 Still not see any engine or feature you like, then there is always the ultimate fallback:
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-4.png "image")](/assets/img/wordpress/2016/11/image-4.png)
+[![image](/assets/img/wordpress/2016/11/image-4.png "image")](/assets/img/wordpress/2016/11/image-4.png)
 
 Under the hood, UWP Games are just a DirectX surface and you can write games using native DirectX in either C# or C++, there are even Visual Studio Templates “out of the box” for UWP as well.
 
@@ -70,7 +57,7 @@ Under the hood, UWP Games are just a DirectX surface and you can write games usi
 
 # Getting started with UWP on Xbox
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-5.png "image")](/assets/img/wordpress/2016/11/image-5.png)
+[![image](/assets/img/wordpress/2016/11/image-5.png "image")](/assets/img/wordpress/2016/11/image-5.png)
 
 Now that UWP apps can be deployed / tested and run by anyone with a Retail Xbox, we can go wild and try out our own games to see how they run on the big screen.  Once you lick all the bugs and get it just right, you can publish that game “as is” to the Xbox Store. Well, once you have your project accepted by the [ID@Xbox](http://xbox.com/id) team (which is even easier for UWP developers now)
 
@@ -84,7 +71,7 @@ So long as you have a Windows 10 PC and a retail Xbox, your good to go as everyt
 
 # Setting up your development environment
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-6.png "image")](/assets/img/wordpress/2016/11/image-6.png)
+[![image](/assets/img/wordpress/2016/11/image-6.png "image")](/assets/img/wordpress/2016/11/image-6.png)
 
 Once you have everything ready, getting started could not be simpler and there are only a few short steps. As the slide above shows, you can get up and running with your first project deployed in just 5 Minutes. (if your using Unity, it might take a little longer ![Smile with tongue out](/assets/img/wordpress/2016/11/wlEmoticon-smilewithtongueout.png))
 
@@ -94,8 +81,8 @@ In short, what you need to do is:
 
 1:  Install the “Dev Mode Activation” app on to your Xbox from the Xbox Store
 
- | [![image](/assets/img/wordpress/2016/11/image_thumb-7.png "image")](/assets/img/wordpress/2016/11/image-7.png) |
-| [![image](/assets/img/wordpress/2016/11/image_thumb-8.png "image")](/assets/img/wordpress/2016/11/image-8.png) | 
+ | [![image](/assets/img/wordpress/2016/11/image-7.png "image")](/assets/img/wordpress/2016/11/image-7.png) |
+| [![image](/assets/img/wordpress/2016/11/image-8.png "image")](/assets/img/wordpress/2016/11/image-8.png) | 
 
 2: Launch the “Dev Mode Activation” app. You will be presented with a code and a URL. Navigate to the URL on your PC, sign in with your Windows Account (same one used with your Xbox Live Gamertag) and enter the code to register the Xbox to your Microsoft Account
 
@@ -108,8 +95,8 @@ This will now boot your Xbox in to UWP developer mode with a completely separate
 
 Your Retail settings / apps are still safe on your Xbox, you just ca not access them from developer mode.  You can return to Retail mode at any time.
 
- | [![image](/assets/img/wordpress/2016/11/image_thumb-9.png "image")](/assets/img/wordpress/2016/11/image-9.png) |
-| [![image](/assets/img/wordpress/2016/11/image_thumb-10.png "image")](/assets/img/wordpress/2016/11/image-10.png) | 
+ | [![image](/assets/img/wordpress/2016/11/image-9.png "image")](/assets/img/wordpress/2016/11/image-9.png) |
+| [![image](/assets/img/wordpress/2016/11/image-10.png "image")](/assets/img/wordpress/2016/11/image-10.png) | 
 
 4: Once you have signed in to your Xbox using your Microsoft account, you can launch the Developer Portal app on the Xbox.  
 This shows you all the apps / games installed plus a ton of other developer details.
@@ -125,8 +112,8 @@ You get this code from the Developer Portal on the Xbox in the “Pair with Visu
 
 Visual Studio and the Xbox must be signed in using the same Microsoft account you activated with.
 
- | [![image](/assets/img/wordpress/2016/11/image_thumb-11.png "image")](/assets/img/wordpress/2016/11/image-11.png) |
-| [![image](/assets/img/wordpress/2016/11/image_thumb-12.png "image")](/assets/img/wordpress/2016/11/image-12.png) | 
+ | [![image](/assets/img/wordpress/2016/11/image-11.png "image")](/assets/img/wordpress/2016/11/image-11.png) |
+| [![image](/assets/img/wordpress/2016/11/image-12.png "image")](/assets/img/wordpress/2016/11/image-12.png) | 
 
 6: Done.  You should now be able to deploy and run games from Visual Studio on your Xbox.
 
@@ -154,7 +141,7 @@ _\*Click on images to view the demos_
 
 # What is Next?
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-13.png "image")](/assets/img/wordpress/2016/11/image-15.png)
+[![image](/assets/img/wordpress/2016/11/image-13.png "image")](/assets/img/wordpress/2016/11/image-15.png)
 
  
 
@@ -179,7 +166,7 @@ The key here is that you are getting your game out as early as possible, getting
 
 # Key Differences between UWP & Native
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-14.png "image")](/assets/img/wordpress/2016/11/image-16.png)
+[![image](/assets/img/wordpress/2016/11/image-14.png "image")](/assets/img/wordpress/2016/11/image-16.png)
 
 To round this session up and to allay some of the concerns and comments I have either heard or been asked about UWP on Xbox, I will walk through some of the key differences between publishing UWP on Xbox and going native.
 
@@ -187,7 +174,7 @@ To round this session up and to allay some of the concerns and comments I have e
 
 in short, UWP is simply easier. It is a friendlier platform and the key benefit is that the single project you build, is also directly shippable on all of Microsoft’s other Windows 10 platforms.
 
-[![Future_Decoded_Banner](/assets/img/wordpress/2016/11/Future_Decoded_Banner_thumb.png "Future\_Decoded\_Banner")](/assets/img/wordpress/2016/11/Future_Decoded_Banner.png)
+[![Future_Decoded_Banner](/assets/img/wordpress/2016/11/Future_Decoded_Banner.png "Future\_Decoded\_Banner")](/assets/img/wordpress/2016/11/Future_Decoded_Banner.png)
 
 While at [FutureDecoded](https://futuredecoded.microsoft.com/), the [VISR-VR](http://www.visr-vr.com/blog/futue-decoded-2016/) team showcased an awesome VR project called **Botanika**  aimed at helping children and adults who struggle to cope with the effects of Autism.  (it is also a fun game for anyone btw ![Open-mouthed smile](/assets/img/wordpress/2016/11/wlEmoticon-openmouthedsmile.png)).  This game was written in Unity, running as a UWP using the Vive VR setup.  To make it even more amazing, the lead developer spent 10 minutes converting the project over the HoloLens (the night before the event no less) and had it running perfectly. Granted it was not the full scope of the project but all the key elements were there, all now using HoloLens’s gestures to control the game instead of the Vive Controllers.
 
@@ -209,7 +196,7 @@ There is also the fact that in a lot of cases, you will need C++ skills (or cont
 
 # Summing up
 
-[![image](/assets/img/wordpress/2016/11/image_thumb-15.png "image")](/assets/img/wordpress/2016/11/image-17.png)
+[![image](/assets/img/wordpress/2016/11/image-15.png "image")](/assets/img/wordpress/2016/11/image-17.png)
 
 The world just got that little bit bigger and if you are already working on a project for Windows 10, the reach of your title has now opened up even more and for very little effort.  If you want to then use the success of your game to then build the “Evolved” edition and build that native later, then you already have a foot in the door and it also becomes easier (although harder from an effort perspective ![Surprised smile](/assets/img/wordpress/2016/11/wlEmoticon-surprisedsmile.png))
 

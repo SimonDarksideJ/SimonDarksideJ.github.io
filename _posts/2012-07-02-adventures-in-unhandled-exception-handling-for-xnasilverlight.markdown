@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Adventures in Unhandled Exception Handling for XNA/Silverlight
-date: '2012-07-02 13:57:27'
-tags:
-- silverlight
-- silverxna
-- tutorials-resources
-- windows-phone
-- xna
+date: 2012-07-02 13:57:27
+tags: [silverlight, xna]
 ---
 
 ![ /></p>
@@ -50,7 +45,7 @@ To finish this implementation off just update the previous error handling code t
 
 ), I would recommend extending it further to include your own text or test data to trap when and where the error occurred, consider it homework!
 
-[![image](/assets/img/wordpress/2012/07/image_thumb140.png "image")](/assets/img/wordpress/2012/07/image137.png)
+[![image](/assets/img/wordpress/2012/07/image140.png "image")](/assets/img/wordpress/2012/07/image137.png)
 
 * * *
 

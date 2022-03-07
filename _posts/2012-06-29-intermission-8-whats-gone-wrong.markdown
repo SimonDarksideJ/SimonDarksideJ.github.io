@@ -1,13 +1,8 @@
 ---
 layout: post
 title: 'Intermission #8 - What has gone wrong?'
-date: '2012-06-29 11:13:06'
-tags:
-- 2d
-- game-development
-- ramblings
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 11:13:06
+tags: [2d tutorial, game development, xna]
 ---
 
 The title reflects that odd moment when you have added some new content to your project, you have been meticulous and double checked everything, it should be OK.  But it is not.
@@ -989,7 +984,7 @@ Here is what the class looks like:
                                         
                                         
                                         
-                                        ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_05A2FDE1.png)
+                                        ![image](http://xna-uk.net/blogs/darkgenesis/image_05A2FDE1.png)
                                         
                                         
                                         

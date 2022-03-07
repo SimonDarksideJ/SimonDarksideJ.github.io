@@ -1,13 +1,8 @@
 ---
 layout: post
 title: What was lost - What was Missed
-date: '2012-06-30 23:49:53'
-tags:
-- information
-- samples
-- silverlight
-- windows-phone
-- xna
+date: 2012-06-30 23:49:53
+tags: [information, windows phone]
 ---
 
 Well I’ve been remiss for a while (as with a lot of my fellow colleagues of late here on XNA-UK) due to work constraints, holidays and sheer numbness of endless projects and secret sauce.

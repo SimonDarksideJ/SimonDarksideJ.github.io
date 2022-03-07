@@ -2,11 +2,7 @@
 layout: post
 title: Intel Perceptual computing and the Perceptual challenge
 date: '2013-08-17 17:10:55'
-tags:
-- competitions
-- intel
-- monogame
-- perceptual-computing
+tags: [competitions, intel]
 ---
 
 ![src=]()
@@ -17,7 +13,7 @@ Not so long ago Intel launched their new perceptual computing vision which effec
 
 The camera is a very interesting device both smaller and lighter that the Kinect plus cheaper too (although that gap is narrowing with the upcoming release of Kinect V2 coming soon and dropping prices of the V1), the camera supports both visual inputs and voice recognition in a very neat package.
 
-| [![WP_20130722_002](/assets/img/wordpress/2013/08/WP_20130722_002_thumb.jpg "WP\_20130722\_002")](/assets/img/wordpress/2013/08/WP_20130722_002.jpg) | [![WP_20130722_003](/assets/img/wordpress/2013/08/WP_20130722_003_thumb.jpg "WP\_20130722\_003")](/assets/img/wordpress/2013/08/WP_20130722_003.jpg) |
+| [![WP_20130722_002](/assets/img/wordpress/2013/08/WP_20130722_002.jpg "WP\_20130722\_002")](/assets/img/wordpress/2013/08/WP_20130722_002.jpg) | [![WP_20130722_003](/assets/img/wordpress/2013/08/WP_20130722_003.jpg "WP\_20130722\_003")](/assets/img/wordpress/2013/08/WP_20130722_003.jpg) |
 
 # The SDK
 
@@ -49,7 +45,7 @@ My three entries were both one’s I could achieve within the competition deadli
 
 The list almost got reduced to one due to time constraints and even then it was looking like I was running out of time (then they extended the deadline ![Open-mouthed smile](/assets/img/wordpress/2013/08/wlEmoticon-openmouthedsmile1.png)), so today I have managed to publish (with the help of my handy helper lib) my first app and it has been published to the competition, so now I can get back on track with my main project.
 
-[![Blink_bc437e84-4fad-4f9a-9280-717800df4f33_5_2013-08-17](/assets/img/wordpress/2013/08/Blink_bc437e84-4fad-4f9a-9280-717800df4f33_5_2013-08-17_thumb.jpg "Blink\_bc437e84-4fad-4f9a-9280-717800df4f33\_5\_2013-08-17")](/assets/img/wordpress/2013/08/Blink_bc437e84-4fad-4f9a-9280-717800df4f33_5_2013-08-17.jpg)
+[![Blink_bc437e84-4fad-4f9a-9280-717800df4f33_5_2013-08-17](/assets/img/wordpress/2013/08/Blink_bc437e84-4fad-4f9a-9280-717800df4f33_5_2013-08-17.jpg "Blink\_bc437e84-4fad-4f9a-9280-717800df4f33\_5\_2013-08-17")](/assets/img/wordpress/2013/08/Blink_bc437e84-4fad-4f9a-9280-717800df4f33_5_2013-08-17.jpg)
 
 My two daughters playing with my first creation
 

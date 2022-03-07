@@ -1,11 +1,9 @@
 ---
 layout: post
 title: MonoGame blasts into the future with DotNet core
-date: '2020-08-13 21:31:15'
+date: 2020-08-13 21:31:15
 img: /assets/img/wordpress/2017/03/image-13.png
-tags:
-- game-development
-- monogame
+tags: [monogame]
 ---
 
 MonoGame is certainly one of those frameworks where if you take your eye off it for a little while, it comes back to slap you in the face and remind you why it is still relevant.  

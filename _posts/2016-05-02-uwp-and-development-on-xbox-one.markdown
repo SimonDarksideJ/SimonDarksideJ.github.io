@@ -1,16 +1,8 @@
 ---
 layout: post
 title: UWP and development on Xbox One
-date: '2016-05-02 15:07:04'
-tags:
-- codeproject
-- cryengine
-- information
-- unity-3d-tutorials
-- unity3d
-- unreal
-- uwp
-- xboxone
+date: 2016-05-02 15:07:04
+tags: [unity3d, xbox]
 ---
 
 ![](http://www.develop-online.net/cimages/c92d44030c6fd4670881b7419395ca5a.png)
@@ -70,7 +62,7 @@ Like with XBLIG, you do not have access to the full resources of the console, th
 
 The table below lists the critical resource constraints for UWP packages, for apps this is likely never to be a concern, for games (like mobile or tablets) you just need to ensure you can work comfortably within the UWP capabilities on Xbox, something most game developers should already be comfortable with.
 
-[![image](/assets/img/wordpress/2016/05/image_thumb.png "image")](/assets/img/wordpress/2016/05/image.png)UWP resource availability
+[![image](/assets/img/wordpress/2016/05/image.png "image")](/assets/img/wordpress/2016/05/image.png)UWP resource availability
 
 > I have heard many a dev complain about not getting full access to the Xbox through retail unlocks or demands for more access, as stated above, if you exceed this then just **join ID, it is still FREE**!.
 

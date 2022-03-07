@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Breakpoint - Alternate Particle solutions
-date: '2012-06-29 11:07:52'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 11:07:52
+tags: [2d tutorial, game development, xna]
 ---
 
 I am always on the look out for new ideas and ways forward and what we have implemented so far is only one solution to implementing particle effects.
@@ -75,6 +71,6 @@ I have downloaded it for viewing later (only had time to sample some of if at th
 
 On another note I meant to set a challenge on the back of the last post.  With all the particle possibilities, have a go at creating you are own effect.  and while you are at it, also try and recreate this:
 
-[![JustForFun](http://xna-uk.net/blogs/darkgenesis/JustForFun_thumb_37EB209E.png "JustForFun")](http://xna-uk.net/blogs/darkgenesis/JustForFun_5A171A56.png)
+[![JustForFun](http://xna-uk.net/blogs/darkgenesis/JustForFun_37EB209E.png "JustForFun")](http://xna-uk.net/blogs/darkgenesis/JustForFun_5A171A56.png)
 
 Technorati Tags: [XNA](http://technorati.com/tags/XNA),[Algorithms](http://technorati.com/tags/Algorithms),[wp7dev](http://technorati.com/tags/wp7dev)

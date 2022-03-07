@@ -1,15 +1,8 @@
 ---
 layout: post
 title: 'MonoGame: Content Projects - Custom Model Types'
-date: '2013-05-17 15:36:02'
-tags:
-- content-projects
-- monogame
-- tutorials-resources
-- xna
-- xna-2d-tutorials
-- xna-3d-tutorials
-- xna-related
+date: 2013-05-17 15:36:02
+tags: [content pipeline, monogame]
 ---
 
 ![width=](http://img.photobucket.com/albums/v234/Shootie/Legacy%20Models/Screenshot-329.jpg?t=1250300072)
@@ -116,17 +109,17 @@ I would recommend while you are following this tutorial and only have access to 
 
 As has been shown a lot of times, even on my blog, once you have the above installed (whichever your flavour), you can start a new Content project using the MonoGame Templates
 
-[![image](/assets/img/wordpress/2013/05/image_thumb26.png "image")](/assets/img/wordpress/2013/05/image27.png)
+[![image](/assets/img/wordpress/2013/05/image26.png "image")](/assets/img/wordpress/2013/05/image27.png)
 
 See told you Express 2012 for Windows Phone works ![Open-mouthed smile](/assets/img/wordpress/2013/05/wlEmoticon-openmouthedsmile1.png)
 
 And yes if you are using 2012 like I am above you will likely see the following error, just ignore it, damned annoying if nothing else. Error does not appear now if you use the MSXNA VS extensions above.
 
-[![image](/assets/img/wordpress/2013/05/image_thumb27.png "image")](/assets/img/wordpress/2013/05/image28.png)
+[![image](/assets/img/wordpress/2013/05/image27.png "image")](/assets/img/wordpress/2013/05/image28.png)
 
 Now add your content to the project (I am using the Tank model from the custom types sample and including the two textures but not referencing them in the solution or you will get duplicate build errors because they are mentioned in the model file) first to ensure everything builds ok before we start messing with the content project, here I am selecting Windows as the build platform
 
-[![image](/assets/img/wordpress/2013/05/image_thumb28.png "image")](/assets/img/wordpress/2013/05/image29.png)
+[![image](/assets/img/wordpress/2013/05/image28.png "image")](/assets/img/wordpress/2013/05/image29.png)
 
 # 
 
@@ -134,7 +127,7 @@ Now add your content to the project (I am using the Tank model from the custom t
 
 With the project built let’s just double check that the content is displaying correctly on its own, just add a MonoGame platform of your choosing to the project and lets display the model (I chose the WindowsGL project because it runs on just about anything\*)
 
-[![image](/assets/img/wordpress/2013/05/image_thumb29.png "image")](/assets/img/wordpress/2013/05/image30.png)
+[![image](/assets/img/wordpress/2013/05/image29.png "image")](/assets/img/wordpress/2013/05/image30.png)
 
 \*Note, at the time of writing, the WindowsGL template has a slight bug, the reference to the SDL.dll library points to the wrong place, easily corrected, edit the game .csproj file and where it states:
 
@@ -144,7 +137,7 @@ Just remove the “Users\\<username\>\AppData\” segment, then save and reload 
 
 With our project ready, build the content and then add a link to the built content files in your game project, ensuring you set the **build action to “Content” and the CopyTo setting at “Copy if Newer” or “Copy Always”**
 
-[![image](/assets/img/wordpress/2013/05/image_thumb30.png "image")](/assets/img/wordpress/2013/05/image31.png)
+[![image](/assets/img/wordpress/2013/05/image30.png "image")](/assets/img/wordpress/2013/05/image31.png)
 
 Lastly some code to actually display the model as is, as follows: (the entire game class in one shot, basic model drawing stuff)
 
@@ -152,7 +145,7 @@ Lastly some code to actually display the model as is, as follows: (the entire ga
 
 Now if you run the solution you should get a model being drawn to the screen.
 
-[![image](/assets/img/wordpress/2013/05/image_thumb31.png "image")](/assets/img/wordpress/2013/05/image32.png)
+[![image](/assets/img/wordpress/2013/05/image31.png "image")](/assets/img/wordpress/2013/05/image32.png)
 
 * * *
 
@@ -178,7 +171,7 @@ So first we need a class library to hold our custom types, so create a new C# cl
 > 
 > Once the Class Library is loaded, right-click and select properties on the Class Library project and in the Application tab change the “Target Framework” to .Net 4.  XNA and MonoGame just work better that way.
 > 
-> [![image](/assets/img/wordpress/2013/05/image_thumb32.png "image")](/assets/img/wordpress/2013/05/image33.png)
+> [![image](/assets/img/wordpress/2013/05/image32.png "image")](/assets/img/wordpress/2013/05/image33.png)
 
 Once the Class Library project is loaded we can setup our custom type we intend to use, you can copy the class over from the XNA sample or just replace the default Class.cs code with the following:
 
@@ -192,7 +185,7 @@ If you wish you can also rename “class1.cs” to something more appropriate bu
 
 Now we have our custom type, we need a way to tell the content pipeline to use it when loading our model.  Open up your Content project again (if it is separate) and add a new project to the solution, this time select the “Content Pipeline Extension Library” template in the “XNA Game Studio 4.0” branch. (there is a way to do the same thing with a class library but this is easier and safer for now)
 
-[![image](/assets/img/wordpress/2013/05/image_thumb33.png "image")](/assets/img/wordpress/2013/05/image34.png)
+[![image](/assets/img/wordpress/2013/05/image33.png "image")](/assets/img/wordpress/2013/05/image34.png)
 
 Once it is loaded you should get a default “ContentProcessor1.cs” class in the project, just a starter for 10.
 
@@ -242,7 +235,7 @@ Walking through the code above all we have done is remove any model setup code b
 
 Now I could go a lot further and tinker with both the content processor and the custom content type but I will let you play.
 
-[![image](/assets/img/wordpress/2013/05/image_thumb34.png "image")](/assets/img/wordpress/2013/05/image35.png)
+[![image](/assets/img/wordpress/2013/05/image34.png "image")](/assets/img/wordpress/2013/05/image35.png)
 
 * * *
 

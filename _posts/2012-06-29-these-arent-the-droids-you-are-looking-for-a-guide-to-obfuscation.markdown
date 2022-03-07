@@ -1,10 +1,8 @@
 ---
 layout: post
 title: These are not the Droids you are looking for - A guide to obfuscation
-date: '2012-06-29 22:19:23'
-tags:
-- tutorials-resources
-- windows-phone
+date: 2012-06-29 22:19:23
+tags: [windows phone]
 ---
 
 ![](http://i105.photobucket.com/albums/m221/Bootsign/obfuscation.jpg)
@@ -40,7 +38,7 @@ Just download the [Windows Phone 7 Template](http://files.preemptive.com/WP7/wp7
 
 Lastly, there is one other little kicker, unless you have added in some instrumentation in your project then you need to turn it off in the Dotfuscator project settings, just click on the settings tab (as shown below) and set Instrumentation to NO
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image_5F00_thumb_5F00_69783CA4.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6378.image_5F00_50F8C521.png)
+[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image_5F00_5F00_69783CA4.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6378.image_5F00_50F8C521.png)
 
 * * *
 

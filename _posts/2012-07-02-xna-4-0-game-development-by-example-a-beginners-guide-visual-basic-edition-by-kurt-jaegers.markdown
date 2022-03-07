@@ -1,15 +1,19 @@
 ---
 layout: post
-title: XNA 4.0 Game Development by Example, A Beginners Guide, Visual Basic Edition
-  By Kurt Jaegers
-date: '2012-07-02 13:31:27'
-tags:
-- book-review
-- information
-- xna
+read_time: true
+show_date: true
+title: XNA 4.0 Game Development by Example, A Beginners Guide, Visual Basic Edition - By Kurt Jaegers
+date: 2012-07-02 13:31:27
+description: Quick tutorial on grabbing screenshots using AR Foundation in Unity3D, and the fun to be had
+img: 
+tags: [book review, xna]
+author: Simon Jackson
+github:  
+mathjax: no
 ---
 
-[![image](/assets/img/wordpress/2012/07/image_thumb133.png "image")](/assets/img/wordpress/2012/07/image130.png)
+
+[![image](/assets/img/wordpress/2012/07/image133.png "image")](/assets/img/wordpress/2012/07/image130.png)
 
 I have known Kurt for some time now since XNA got off the ground so many years ago, Kurt run the site [XNAResources.com](http://www.xnaresources.com/) which has been a great inspiration to all of us who have been blogging and educating in this area.  His Tile Engine tutorial has already spurned several engines to be developed based on his series.
 
@@ -43,7 +47,7 @@ The book it is self is broken up in to 4 projects, some with basic and advanced 
 
 There is a preface section for those completely new to XNA just so you can understand XNA’s approach to game design and the innards of the Game loop. (Update/Draw)
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb134.png "image")](/assets/img/wordpress/2012/07/image131.png) | 
+| [![image](/assets/img/wordpress/2012/07/image134.png "image")](/assets/img/wordpress/2012/07/image131.png) | 
 ## Flood Control
 
 Kurt warms up his book with a nice graphically rich and basic concept going through the basic principles of drawing to the screen and handling input.
@@ -53,7 +57,7 @@ he has then extended this to bring you up to speed on simple sprite animation te
 one thing that this really shows is the importance of good graphics in your games and even the most simple game mechanic can make a most awesome game with the right artist on your side.
 
  |
-| [![image](/assets/img/wordpress/2012/07/image_thumb135.png "image")](/assets/img/wordpress/2012/07/image132.png) | 
+| [![image](/assets/img/wordpress/2012/07/image135.png "image")](/assets/img/wordpress/2012/07/image132.png) | 
 ## Asteroid Belt Assault
 
 I really like that Kurt did not follow his previous chapter with the obvious space invaders type tutorial but chooses to mix it up with a Galaxian variant.
@@ -65,7 +69,7 @@ He then finishes off with a nice extension in to basic sprite based particle eff
  
 
  |
-| [![image](/assets/img/wordpress/2012/07/image_thumb136.png "image")](/assets/img/wordpress/2012/07/image133.png) | 
+| [![image](/assets/img/wordpress/2012/07/image136.png "image")](/assets/img/wordpress/2012/07/image133.png) | 
 ## Robot Rampage
 
 This chapter has to be one of my favourite in the book really, as it brings in to sharp focus that your game world does not have to be constrained by the screen and that it can be a larger world that the player explores. (critical if your doing any kind of rpg or platformer)
@@ -78,7 +82,7 @@ There is even a small hat tip to procedural game design and implementation to cr
 Add to that a more advanced sprite management and animation system and you got the makings of your own great game.
 
  |
-| [![image](/assets/img/wordpress/2012/07/image_thumb137.png "image")](/assets/img/wordpress/2012/07/image134.png) | 
+| [![image](/assets/img/wordpress/2012/07/image137.png "image")](/assets/img/wordpress/2012/07/image134.png) | 
 ## Gemstone Hunter
 
 if you are a regular to the AppHub education content you will probably recognise the Platformer same graphics in this sample but do not be fooled, this was created from the ground up and could be viewed as the platformer sample evolved with extra punch.

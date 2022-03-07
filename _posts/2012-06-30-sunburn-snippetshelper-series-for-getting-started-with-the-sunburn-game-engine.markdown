@@ -2,16 +2,11 @@
 layout: post
 title: SunBurn snippets - helper series for getting started with the SunBurn Game
   Engine
-date: '2012-06-30 23:23:58'
-tags:
-- 3d
-- game-development
-- sunburn
-- sunburn-tutorials
-- xna
+date: 2012-06-30 23:23:58
+tags: [3d, sunburn, xna]
 ---
 
-[![SunBurn-PoweredByBanner-Large](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0820.SunBurn_2D00_PoweredByBanner_2D00_Large_5F00_thumb_5F00_071BFB44.png "SunBurn-PoweredByBanner-Large")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.SunBurn_2D00_PoweredByBanner_2D00_Large_5F00_50221D0A.png)
+[![SunBurn-PoweredByBanner-Large](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0820.SunBurn_2D00_PoweredByBanner_2D00_Large_5F00_5F00_071BFB44.png "SunBurn-PoweredByBanner-Large")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.SunBurn_2D00_PoweredByBanner_2D00_Large_5F00_50221D0A.png)
 
 ([Cross post notification from Faux Motion](http://faux-motion.blogspot.com/))
 

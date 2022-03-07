@@ -1,18 +1,13 @@
 ---
 layout: post
 title: XNA to SilverXNA - Part 1 an Overview
-date: '2012-07-01 18:48:40'
-tags:
-- silverlight
-- silverxna
-- silverxna-tutorials
-- windows-phone
-- xna
+date: 2012-07-01 18:48:40
+tags: [silverlight, xna]
 ---
 
 For some time now I have been pondering over the new XNA to Silverlight integration since it was announced for Windows Phone Mango, I even wrote a short post over how to get started here.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb44.png "image")](/assets/img/wordpress/2012/07/image43.png)
+[![image](/assets/img/wordpress/2012/07/image44.png "image")](/assets/img/wordpress/2012/07/image43.png)
 
 (He he, seeing Georges Tattoo always makes me smile!)
 
@@ -22,7 +17,7 @@ In a few short posts I hope to lower the entry barrier (for XNA dev’s at least
 
 So follow along as I take the Platformer sample from the AppHub educational content section (the Phone version) and upgrade it to SilverXNA and then start making use of Silverlight features in this XNA game.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb45.png "image")](/assets/img/wordpress/2012/07/image44.png)
+[![image](/assets/img/wordpress/2012/07/image45.png "image")](/assets/img/wordpress/2012/07/image44.png)
 
 Follow along with the series here:
 
@@ -116,7 +111,7 @@ So let’s run through those considerations:
 > 
 > Hope you like it and actually want more!
 > 
-> If it is not for you do not worry you wont hurt my feelings but I’m sure I can find a nice pretty spot to sit while the class continues, maybe something really warm next to the kid with horns and a fiery disposition [![image](/assets/img/wordpress/2012/07/image_thumb46.png "image")](/assets/img/wordpress/2012/07/image45.png).
+> If it is not for you do not worry you wont hurt my feelings but I’m sure I can find a nice pretty spot to sit while the class continues, maybe something really warm next to the kid with horns and a fiery disposition [![image](/assets/img/wordpress/2012/07/image46.png "image")](/assets/img/wordpress/2012/07/image45.png).
 > 
 > #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 

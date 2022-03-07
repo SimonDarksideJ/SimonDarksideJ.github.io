@@ -1,9 +1,8 @@
 ---
 layout: post
 title: ReCap video for the AT&T Beginners Silverlight for Windows Phone webcast
-date: '2012-06-30 23:22:20'
-tags:
-- silverlight-tutorials
+date: 2012-06-30 23:22:20
+tags: [silverlight]
 ---
 
 Catching up on the webcasts I’ve done now for AT&T, here’s the recording from the first event last month (March) on Silverlight for windows phone

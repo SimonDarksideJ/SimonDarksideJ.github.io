@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #9 - Back to the future (Phone 7)'
-date: '2012-06-29 11:17:02'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 11:17:02
+tags: [2d tutorial, game development, xna]
 ---
 
 Marty you gotta see this…. (whoops, back to the tutorial)

@@ -1,10 +1,8 @@
 ---
 layout: post
 title: The long road out
-date: '2012-06-29 21:34:52'
-tags:
-- lob
-- real-world-experiences
+date: 2012-06-29 21:34:52
+tags: [ramblings]
 ---
 
 As I’ve been quiet a few weeks now I thought it was about time I let the cat out of the back of what I’ve been up to.  If you are been following me on twitter @DDReaper, then you should have a hint already.

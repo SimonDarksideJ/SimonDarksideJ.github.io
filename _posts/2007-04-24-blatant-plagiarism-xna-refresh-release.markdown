@@ -1,9 +1,8 @@
 ---
 layout: post
 title: Blatant plagiarism - XNA Refresh release
-date: '2007-04-24 11:07:31'
-tags:
-- xna-related
+date: 2007-04-24 11:07:31
+tags: [xna]
 ---
 
 I’m not taking credit here or rushing out to the shops, but you must of heard by now on the XNA Team blog, if you haven’t, here it is!!.

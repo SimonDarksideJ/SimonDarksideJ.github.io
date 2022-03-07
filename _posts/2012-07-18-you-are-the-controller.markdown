@@ -1,14 +1,8 @@
 ---
 layout: post
 title: You are the controller – a step in to WP7 -> Win8 networking
-date: '2012-07-18 15:36:59'
-tags:
-- networking
-- samples
-- tutorials-resources
-- windows-8
-- windows8-tutorials
-- windows-phone
+date: 2012-07-18 15:36:59
+tags: [networking, windows phone, windows 8]
 ---
 
 I couldn’t resist, I should be working on my Windows 8 Port of Flipped (which seems to be going swimmingly) and finishing of some other projects but glamour got the better of me as I rolled out of the covers and here we are.

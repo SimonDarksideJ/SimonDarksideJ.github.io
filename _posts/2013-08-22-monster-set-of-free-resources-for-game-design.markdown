@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Monster set of FREE resources for game design - Updated 2014-07
-date: '2013-08-22 16:37:47'
-img: /assets/img/wordpress/2013/08/MonsterFreeResources.jpg
-tags:
-- free
-- resources
-- unity3d
+date: 2013-08-22 16:37:47
+img: wordpress/2013/08/MonsterFreeResources.jpg
+tags: [free, game development]
 ---
+
+> Need to update this list and move it to a better place, such as github
 
 I’ve been around the game development arena for so many years now that it actually hurts if i try to think back too far ![Open-mouthed smile](/assets/img/wordpress/2013/08/wlEmoticon-openmouthedsmile2.png), it is always been as a hobbyist working on a string budget (and sometimes I couldn’t afford the string) so I always had to make best use of what I had and everything else, well, lets just say it is been fun.
 

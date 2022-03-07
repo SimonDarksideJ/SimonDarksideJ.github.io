@@ -87,7 +87,7 @@ Here you will find:
 
 Also (if you prefer) you can also find MonoGame 3.3 on NuGet:
 
-[![image](/assets/img/wordpress/2015/03/image_thumb.png "image")](/assets/img/wordpress/2015/03/image1.png)
+[![image](/assets/img/wordpress/2015/03/image.png "image")](/assets/img/wordpress/2015/03/image1.png)
 
 Which of course you can also install on top of existing projects to keep up to date.
 
@@ -106,7 +106,7 @@ I will go over these in more detail in future posts.
 
 # An Ode to XNA
 
-[![image](/assets/img/wordpress/2015/03/image_thumb1.png "image")](/assets/img/wordpress/2015/03/image2.png)[![image](/assets/img/wordpress/2015/03/image_thumb2.png "image")](/assets/img/wordpress/2015/03/image3.png)
+[![image](/assets/img/wordpress/2015/03/image1.png "image")](/assets/img/wordpress/2015/03/image2.png)[![image](/assets/img/wordpress/2015/03/image2.png "image")](/assets/img/wordpress/2015/03/image3.png)
 
 Now just because MonoGame has moved on, cleaned out its room and left the home it once knew, venturing on a brave new adventure, does not mean you still ca not use XNA ![Open-mouthed smile](/assets/img/wordpress/2015/03/wlEmoticon-openmouthedsmile.png)
 

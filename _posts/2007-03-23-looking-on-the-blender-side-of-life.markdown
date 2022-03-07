@@ -14,7 +14,7 @@ This is a free [downloadable magazine](http://blenderart.org/download.html), con
 
 [Check it out](http://blenderart.org/)
 
-![](http://blenderart.org/images/issue8_thumb.gif)  Issue 8, the current edition.
+![](http://blenderart.org/images/issue8.gif)  Issue 8, the current edition.
 
 ## Next – The Ten minute Drawing Techniques Blog
 

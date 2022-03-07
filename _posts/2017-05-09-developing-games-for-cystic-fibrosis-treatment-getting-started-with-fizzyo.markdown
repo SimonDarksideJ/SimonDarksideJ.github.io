@@ -1,12 +1,10 @@
 ---
 layout: post
 title: Developing games for Cystic Fibrosis treatment - Getting started with Fizzyo
-date: '2017-05-09 13:08:45'
+date: 2017-05-09 13:08:45
 tags:
-- codeproject
 - fizzyo
 - monogame
-- unity-3d-tutorials
 - unity3d
 ---
 
@@ -116,11 +114,11 @@ The catch? You only have these minimal inputs currently!
 You can try and add more but remember the focus is on the treatment and the game should not take away the focus of that. Some examples that have been built already are:
 
 - A jetpack game where the player blows to keep the pilot airborne and flying over obstacles  
-[![image](/assets/img/wordpress/2017/05/image_thumb.png "image")](/assets/img/wordpress/2017/05/image.png)
+[![image](/assets/img/wordpress/2017/05/image.png "image")](/assets/img/wordpress/2017/05/image.png)
 - A collection game where the players breath charges the ship to allow it to move  
-[![image](/assets/img/wordpress/2017/05/image_thumb-1.png "image")](/assets/img/wordpress/2017/05/image-1.png)
+[![image](/assets/img/wordpress/2017/05/image-1.png "image")](/assets/img/wordpress/2017/05/image-1.png)
 - An endless runner platformer where the player breathes to speed up the character and the button to jump.  Bonus points are achieved for “good” breathing cycles  
-[![image](/assets/img/wordpress/2017/05/image_thumb-2.png "image")](/assets/img/wordpress/2017/05/image-2.png)
+[![image](/assets/img/wordpress/2017/05/image-2.png "image")](/assets/img/wordpress/2017/05/image-2.png)
 
 Using the Fizzyo library from either Unity or MonoGame is very easy, a big benefit of using the library is that it also includes recorded data so that you do not even need an actual Fizzyo device to get started. Alternatively, you can just use your normal X Axis and Button 1 inputs and simulate them normally if you wish.
 
@@ -138,7 +136,7 @@ Once imported you will have a new folder in your project called “FizzyoDevice�
 
 To start using the Fizzyo controller, simply add it to a GameObject in the scene and configure it appropriately:
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-3.png "image")](/assets/img/wordpress/2017/05/image-3.png)
+[![image](/assets/img/wordpress/2017/05/image-3.png "image")](/assets/img/wordpress/2017/05/image-3.png)
 
 Here you can configure:
 
@@ -172,7 +170,7 @@ With MonoGame, the Fizzyo device code is packaged into a nice library for refere
 
 Currently, you simply need to download the library and reference it in your MonoGame Game project as shown below:
 
-[![image](/assets/img/wordpress/2017/05/image_thumb-4.png "image")](/assets/img/wordpress/2017/05/image-4.png)
+[![image](/assets/img/wordpress/2017/05/image-4.png "image")](/assets/img/wordpress/2017/05/image-4.png)
 
 Once the project is in and referenced, you need to add the InputState and FizzyoDevice services to your game as follows:
 

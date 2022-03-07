@@ -1,15 +1,11 @@
 ---
 layout: post
 title: Automation and continuous delivery with MonoGame
-date: '2015-05-23 21:06:24'
-tags:
-- information
-- monogame
-- nuget
-- windows-10
+date: 2015-05-23 21:06:24
+tags: [automation, monogame, windows 10]
 ---
 
-[![image](/assets/img/wordpress/2015/05/image_thumb.png "image")](/assets/img/wordpress/2015/05/image.png)
+[![image](/assets/img/wordpress/2015/05/image.png "image")](/assets/img/wordpress/2015/05/image.png)
 
 For a long time MonoGame had only spurious updates and not a lot of outward activity (as opposed to the frantic and sometimes chaotic internal goings on in the mass of community contributions), this garnered such comments as “Is MonoGame dead?”.
 
@@ -26,13 +22,13 @@ Thanks to a lot of hard work in the background the team have implemented continu
 - NuGet package generation on all successful Minor builds to the public NuGet servers, e.g. 3.4, 3.5, 3.6. These should be more frequent than previous builds.  No firm schedule has been published yet but we can expect fairly regular now that it is automated
 - Development NuGet package production on every successful MonoGame build.  These are published to the [MonoGame development NuGet feed](http://teamcity.monogame.net/guestAuth/app/nuget/v1/FeedService.svc/) (see detail below for using this, not for the faint of heart)
 
-So what do we get?  Well, the current NuGet landscape now stands as follows:   [![image](/assets/img/wordpress/2015/05/image_thumb1.png "image")](/assets/img/wordpress/2015/05/image1.png)
+So what do we get?  Well, the current NuGet landscape now stands as follows:   [![image](/assets/img/wordpress/2015/05/image1.png "image")](/assets/img/wordpress/2015/05/image1.png)
 
 * * *
 
 # MonoGame goes fully Universal
 
-The obvious main contender that caused two releases in the recent months was the addition of the new Universal Windows Project (UWP / UAP), launched just in time for all the big announcements at the Microsoft Build conference this year. This opens the door to full Windows 10 development and all the platforms it currently supports: [![image](/assets/img/wordpress/2015/05/image_thumb2.png "image")](/assets/img/wordpress/2015/05/image2.png) And unlike most other frameworks, this is already available NOW, not a beta, not a pre-release and not just available to a few, but NOWand for everyone.
+The obvious main contender that caused two releases in the recent months was the addition of the new Universal Windows Project (UWP / UAP), launched just in time for all the big announcements at the Microsoft Build conference this year. This opens the door to full Windows 10 development and all the platforms it currently supports: [![image](/assets/img/wordpress/2015/05/image2.png "image")](/assets/img/wordpress/2015/05/image2.png) And unlike most other frameworks, this is already available NOW, not a beta, not a pre-release and not just available to a few, but NOWand for everyone.
 
 This means you can start building your MonoGame project for Windows, Phone, XBOX, IOT devices and even the HoloLens (when it is available) right NOW.
 
@@ -69,11 +65,11 @@ You could also add our [develop branch NuGet feed](http://teamcity.monogame.net/
 
 > You can get to the Package Manager Settings by either going through your editors Tools menu or using the Manage button when editing/adding your NuGet packages.
 
-[![image](/assets/img/wordpress/2015/05/image_thumb3.png "image")](/assets/img/wordpress/2015/05/image3.png)
+[![image](/assets/img/wordpress/2015/05/image3.png "image")](/assets/img/wordpress/2015/05/image3.png)
 
 - Click on the **+** symbol in the top-right corner of the window to add a new feed.
-- Select the new option in the top list and enter a suitable Name for your new feed and paste in the NuGet dev feed link (shown below) in to the source field: [http://teamcity.monogame.net/guestAuth/app/nuget/v1/FeedService.svc](http://teamcity.monogame.net/guestAuth/app/nuget/v1/FeedService.svc) [![image](/assets/img/wordpress/2015/05/image_thumb4.png "image")](/assets/img/wordpress/2015/05/image4.png)
-- Click OK and your new feed is ready, Just select it (instead of the Public NuGet source) when adding / updating your NuGet packages as shown here: [![image](/assets/img/wordpress/2015/05/image_thumb5.png "image")](/assets/img/wordpress/2015/05/image5.png)
+- Select the new option in the top list and enter a suitable Name for your new feed and paste in the NuGet dev feed link (shown below) in to the source field: [http://teamcity.monogame.net/guestAuth/app/nuget/v1/FeedService.svc](http://teamcity.monogame.net/guestAuth/app/nuget/v1/FeedService.svc) [![image](/assets/img/wordpress/2015/05/image4.png "image")](/assets/img/wordpress/2015/05/image4.png)
+- Click OK and your new feed is ready, Just select it (instead of the Public NuGet source) when adding / updating your NuGet packages as shown here: [![image](/assets/img/wordpress/2015/05/image5.png "image")](/assets/img/wordpress/2015/05/image5.png)
 
 > \*Note the screenshot above might look a bit different to what you are used to as it is the all new and latest NuGet UI ![Confused smile](/assets/img/wordpress/2015/05/wlEmoticon-confusedsmile.png) Previously feeds appeared as separate branches in the selection tree.
 
@@ -83,7 +79,7 @@ Obviously, if you are extremely crazy, you can also opt to bypass all this insta
 
 # Samples a plenty
 
-As ever, the MonoGame project Samples have been updated with the latest releases (Plus a minor clean up fix to tidy up the removal of the old NuGet packages) [![image](/assets/img/wordpress/2015/05/image_thumb6.png "image")](/assets/img/wordpress/2015/05/image6.png)
+As ever, the MonoGame project Samples have been updated with the latest releases (Plus a minor clean up fix to tidy up the removal of the old NuGet packages) [![image](/assets/img/wordpress/2015/05/image6.png "image")](/assets/img/wordpress/2015/05/image6.png)
 
 Only the Platformer2D sample is fully supported across all platforms, NeonShooter and SpaceWar are still a work in progress (additionally the iOS / MACOS projects still need updating, mostly because anyone with a Mac is overly busy.  I have actually purchased a Mac Mini now so may be able to sort this out)
 

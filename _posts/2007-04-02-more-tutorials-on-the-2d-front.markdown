@@ -1,9 +1,8 @@
 ---
 layout: post
 title: More tutorials on the 2D front
-date: '2007-04-02 15:18:41'
-tags:
-- xna-2d-tutorials
+date: 2007-04-02 15:18:41
+tags: [xna, 2d tutorial]
 ---
 
 When most people start when jumping into game development, they begin with simple 2D games.

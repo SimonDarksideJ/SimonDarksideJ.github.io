@@ -1,15 +1,11 @@
 ---
 layout: post
 title: Game Implementation part two
-date: '2012-06-29 09:43:26'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:43:26
+tags: [2d tutorial, game development, xna]
 ---
 
-[![image](/assets/img/wordpress/2012/07/image_thumb22.png "image")](/assets/img/wordpress/2012/07/image21.png)
+[![image](/assets/img/wordpress/2012/07/image22.png "image")](/assets/img/wordpress/2012/07/image21.png)
 
 Now with the engine in place we can start adding game elements into our game.
 
@@ -51,7 +47,7 @@ Also of note is that I have prefixed the parameter with a “@” symbol, this e
 
  
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb23.png "image")](/assets/img/wordpress/2012/07/image22.png) |   | [![image](/assets/img/wordpress/2012/07/image_thumb24.png "image")](/assets/img/wordpress/2012/07/image23.png) |
+| [![image](/assets/img/wordpress/2012/07/image23.png "image")](/assets/img/wordpress/2012/07/image22.png) |   | [![image](/assets/img/wordpress/2012/07/image24.png "image")](/assets/img/wordpress/2012/07/image23.png) |
 | 
 
 Background image stored in the Pictures folder of the Content Project
@@ -120,7 +116,7 @@ Next we need to add the background animation to the background sprite and setup 
 
 So we first create a new background, then add the animation we have created for it and set it is start position on the screen.  As this is a 2D game you will notice that the start position for the background is not in the centre of the screen.  This is so we can animate the background scrolling up the screen like this:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb25.png "image")](/assets/img/wordpress/2012/07/image24.png)
+[![image](/assets/img/wordpress/2012/07/image25.png "image")](/assets/img/wordpress/2012/07/image24.png)
 
 On the above illustration I have also noted the screen / viewport coordinates to make this easier to understand.
 
@@ -166,7 +162,7 @@ So as we already have the original background added to the game, so we just need
 
 With the copy of the background now being placed above the first (remembering 0 is the top of the screen), we now have the following:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb26.png "image")](/assets/img/wordpress/2012/07/image25.png)
+[![image](/assets/img/wordpress/2012/07/image26.png "image")](/assets/img/wordpress/2012/07/image25.png)
 
 Another thing to note is that we actually Cloned the original image, we did not copy it.  The difference is memory, copy would create a second image in memory (which if fine for some cases) but since we want exactly the same image with no differences, what clone does is to just reference (point) to the same image in memory.  The benefit being that there is only actually one image loaded into memory for the two that are drawn to the screen.  For gaming we should always try to conserve memory wherever possible. 
 
@@ -179,10 +175,10 @@ Next we need to add our trooper (the valiant fighter against the dreaded condors
 Now unlike the background out trooper does have some animation for the character, this is made up of six individual images:
 
 | Animation step 1 | Animation step 2 | Animation step 3 |
-| [![image](/assets/img/wordpress/2012/07/image_thumb27.png "image")](/assets/img/wordpress/2012/07/image26.png) | [![image](/assets/img/wordpress/2012/07/image_thumb28.png "image")](/assets/img/wordpress/2012/07/image27.png) | [![image](/assets/img/wordpress/2012/07/image_thumb29.png "image")](/assets/img/wordpress/2012/07/image28.png) |
+| [![image](/assets/img/wordpress/2012/07/image27.png "image")](/assets/img/wordpress/2012/07/image26.png) | [![image](/assets/img/wordpress/2012/07/image28.png "image")](/assets/img/wordpress/2012/07/image27.png) | [![image](/assets/img/wordpress/2012/07/image29.png "image")](/assets/img/wordpress/2012/07/image28.png) |
 
 | Animation step 4 | Animation step 5 | Animation step 6 |
-| [![image](/assets/img/wordpress/2012/07/image_thumb30.png "image")](/assets/img/wordpress/2012/07/image29.png) | [![image](/assets/img/wordpress/2012/07/image_thumb31.png "image")](/assets/img/wordpress/2012/07/image30.png) | [![image](/assets/img/wordpress/2012/07/image_thumb32.png "image")](/assets/img/wordpress/2012/07/image31.png) |
+| [![image](/assets/img/wordpress/2012/07/image30.png "image")](/assets/img/wordpress/2012/07/image29.png) | [![image](/assets/img/wordpress/2012/07/image31.png "image")](/assets/img/wordpress/2012/07/image30.png) | [![image](/assets/img/wordpress/2012/07/image32.png "image")](/assets/img/wordpress/2012/07/image31.png) |
 
 Looking at the images above we can see the animated effect results in the Trooper wagging it is tail and wings, these must be looped together and played at a rate sufficient to fool our eyes into thinking it is moving.
 
@@ -331,7 +327,7 @@ And then after adding the trooper object to the engine’s sprite list, we simpl
 
 If you run the project at this point you should see the following:
 
-[![image](/assets/img/wordpress/2012/07/image_thumb33.png "image")](/assets/img/wordpress/2012/07/image32.png)
+[![image](/assets/img/wordpress/2012/07/image33.png "image")](/assets/img/wordpress/2012/07/image32.png)
 
 The background should be scrolling down as the update for the Background class adds 1 to the Y axis in every update and then reset’s it if it reaches the bottom of the screen.  The trooper should also be flapping happily at the bottom of the screen with not a care in the world.
 
@@ -403,9 +399,9 @@ The Condor (arch enemy of the Trooper) is pretty much the same implementation as
 
 Another difference is that we actually want two sets of animation for the condor, one for the condor itself flying down attacking our Trooper, we also want a nice explosion effect for when we (hopefully) shoot down the condor:
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb34.png "image")](/assets/img/wordpress/2012/07/image33.png) | [![image](/assets/img/wordpress/2012/07/image_thumb35.png "image")](/assets/img/wordpress/2012/07/image34.png) | [![image](/assets/img/wordpress/2012/07/image_thumb36.png "image")](/assets/img/wordpress/2012/07/image35.png) | [![image](/assets/img/wordpress/2012/07/image_thumb37.png "image")](/assets/img/wordpress/2012/07/image36.png) |
+| [![image](/assets/img/wordpress/2012/07/image34.png "image")](/assets/img/wordpress/2012/07/image33.png) | [![image](/assets/img/wordpress/2012/07/image35.png "image")](/assets/img/wordpress/2012/07/image34.png) | [![image](/assets/img/wordpress/2012/07/image36.png "image")](/assets/img/wordpress/2012/07/image35.png) | [![image](/assets/img/wordpress/2012/07/image37.png "image")](/assets/img/wordpress/2012/07/image36.png) |
 
-| [![image](/assets/img/wordpress/2012/07/image_thumb38.png "image")](/assets/img/wordpress/2012/07/image37.png) | [![image](/assets/img/wordpress/2012/07/image_thumb39.png "image")](/assets/img/wordpress/2012/07/image38.png) | [![image](/assets/img/wordpress/2012/07/image_thumb40.png "image")](/assets/img/wordpress/2012/07/image39.png) |
+| [![image](/assets/img/wordpress/2012/07/image38.png "image")](/assets/img/wordpress/2012/07/image37.png) | [![image](/assets/img/wordpress/2012/07/image39.png "image")](/assets/img/wordpress/2012/07/image38.png) | [![image](/assets/img/wordpress/2012/07/image40.png "image")](/assets/img/wordpress/2012/07/image39.png) |
 
 So 4 Condor animations and 3 explosion animations and here is the code for the explosions:
 

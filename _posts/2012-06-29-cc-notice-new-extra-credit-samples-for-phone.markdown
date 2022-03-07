@@ -1,10 +1,8 @@
 ---
 layout: post
 title: CC Notice - New Extra Credit Samples for Phone
-date: '2012-06-29 21:17:09'
-tags:
-- information
-- samples
+date: 2012-06-29 21:17:09
+tags: [information]
 ---
 
 News from the Creators club site, even more samples for XNA 4.0 and the Phone

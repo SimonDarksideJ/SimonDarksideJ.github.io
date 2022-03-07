@@ -8,7 +8,7 @@ tags:
 - samples
 ---
 
-[![ku-xlarge](/assets/img/wordpress/2014/04/ku-xlarge-300x168.jpg)](/assets/img/wordpress/2014/04/ku-xlarge.jpg)
+[![ku-xlarge](/assets/img/wordpress/2014/04/ku-xlarge.jpg)](/assets/img/wordpress/2014/04/ku-xlarge.jpg)
 
 One common question surrounding MonoGame has always been the quality of the samples currently maintained in the various branches of the project.
 

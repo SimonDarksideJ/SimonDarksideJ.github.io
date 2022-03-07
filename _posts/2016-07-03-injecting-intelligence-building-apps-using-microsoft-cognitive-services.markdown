@@ -1,14 +1,8 @@
 ---
 layout: post
 title: Injecting intelligence - Building apps using Microsoft Cognitive Services
-date: '2016-07-03 18:03:27'
-tags:
-- cognitive-services
-- events
-- hack
-- machine-learning
-- showcase
-- tutorials-resources
+date: 2016-07-03 18:03:27
+tags: [events, machine-learning]
 ---
 
 ![image](/assets/img/wordpress/2016/07/image.png)
@@ -41,7 +35,7 @@ You can see some of the highlights here:
 
 # Microsoft Cognitive Services
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-1.png "image")](/assets/img/wordpress/2016/07/image-1.png)
+[![image](/assets/img/wordpress/2016/07/image-1.png "image")](/assets/img/wordpress/2016/07/image-1.png)
 
 As you can see there are a multitude of different services available and the majority of which are even testable on the Microsoft Cognitive site using a simple test page harness (remember, these are all just REST API’s after all).
 
@@ -92,7 +86,7 @@ Navigate to the Microsoft Cognitive Services site ([https://www.microsoft.com/co
 
 If it is orange, click it.  Just click “Get Started for Free”, Click “Let’s GO” and sign in using your Microsoft account.  From here you can choose which API’s you want access to (select them all if you like ![Open-mouthed smile](/assets/img/wordpress/2016/07/wlEmoticon-openmouthedsmile.png)). For now, select the “Computer Vision – Preview” offering (shown below), click the “mandatory” I AGREE TO SELL MY SOUL (just kidding) Terms and conditions checkbox, decide if you want more information from MS (not mandatory) and then click Subscribe:
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-2.png "image")](/assets/img/wordpress/2016/07/image-3.png)
+[![image](/assets/img/wordpress/2016/07/image-2.png "image")](/assets/img/wordpress/2016/07/image-3.png)
 
  
 
@@ -102,7 +96,7 @@ As you can see, it is a very generous window of opportunity with the API which i
 
 Once complete you will be presented with the key management screen where you can grab your keys (you get two) and also view the usage of each service you have subscribed to.
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-3.png "image")](/assets/img/wordpress/2016/07/image-4.png)
+[![image](/assets/img/wordpress/2016/07/image-3.png "image")](/assets/img/wordpress/2016/07/image-4.png)
 
 ## 3: Start your engines
 
@@ -112,11 +106,11 @@ Copy your key to your clipboard and let’s navigate over to the API documentati
 
 From here you can see all the API documentation for each of the endpoints for the service you have selected, sample URL’s, payload definitions and the all-important response packets full of interesting detail that the service returns:
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-4.png "image")](/assets/img/wordpress/2016/07/image-5.png)
+[![image](/assets/img/wordpress/2016/07/image-4.png "image")](/assets/img/wordpress/2016/07/image-5.png)
 
 You can peruse and learn how the service works, or (if you are like me) you can just jump in and see how it works.  If you click on the “Open API Testing Console” button (which most API’s have, although a few are still in the works or are to complicated for such a simple test harness) you will be navigated to a very easy to use web interface for the API:
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-5.png "image")](/assets/img/wordpress/2016/07/image-6.png)
+[![image](/assets/img/wordpress/2016/07/image-5.png "image")](/assets/img/wordpress/2016/07/image-6.png)
 
 As you can see, this is a very simple interface, in fact just to get going with the Computer Vision API you need only enter two things! Your API key (which should be in your copy buffer) and the URL to an image to scan.  Enter your key in to the nice red “_Ocp-Apim-Subscription-Key_” field first.
 
@@ -124,7 +118,7 @@ As you can see, this is a very simple interface, in fact just to get going with 
 
 Next you will need to enter your request body parameters, which is just a simple Json string in the field below:
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-6.png "image")](/assets/img/wordpress/2016/07/image-7.png)
+[![image](/assets/img/wordpress/2016/07/image-6.png "image")](/assets/img/wordpress/2016/07/image-7.png)
 
 The image I chose was for a very happy chap in the park on a sunny day, I wondered what the service would make of this (ca not tell you how many API calls I burnt through looking for an interesting “Creative Commons” image)
 
@@ -134,7 +128,7 @@ The image I chose was for a very happy chap in the park on a sunny day, I wonder
 
 So off went the request, as I only asked it to specify **categories** for the image we supplied (be sure to check the API documentation for all the other parameters you can set to get more information about the content you submit) , once it was complete I got some interesting data back:
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-7.png "image")](/assets/img/wordpress/2016/07/image-8.png)
+[![image](/assets/img/wordpress/2016/07/image-7.png "image")](/assets/img/wordpress/2016/07/image-8.png)
 
 Nice, simple and easy to read and with the right JSON decoder, a very simple dataset to understand, but what is this telling us?
 
@@ -146,11 +140,11 @@ After the service analyzed the image it found three categories of information ab
 
 Granted this was only to categorize the images, if you repeat the above steps but this time use the “_Describe_” image endpoint (top left part of the screen:
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-8.png "image")](/assets/img/wordpress/2016/07/image-9.png)
+[![image](/assets/img/wordpress/2016/07/image-8.png "image")](/assets/img/wordpress/2016/07/image-9.png)
 
 Then we get a much more detailed about that Cognitive Services thinks about the image we are seeing ![Open-mouthed smile](/assets/img/wordpress/2016/07/wlEmoticon-openmouthedsmile.png)
 
-[![image](/assets/img/wordpress/2016/07/image_thumb-9.png "image")](/assets/img/wordpress/2016/07/image-10.png)
+[![image](/assets/img/wordpress/2016/07/image-9.png "image")](/assets/img/wordpress/2016/07/image-10.png)
 
 As you can see, this is a lot more detailed and you even get the thoughts behind the services as to what you are looking at.  Starts to get very spooky does not it.
 

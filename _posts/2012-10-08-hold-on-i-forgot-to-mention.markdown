@@ -1,14 +1,8 @@
 ---
 layout: post
 title: Hold on I forgot to mention!
-date: '2012-10-08 13:00:35'
-tags:
-- adrotator
-- ramblings
-- tutorials-resources
-- windows-8
-- windows-phone
-- winrt
+date: 2012-10-08 13:00:35
+tags: [adrotator]
 ---
 
 There’s always that point when you are maintaining and developing your live project when you really wish you had a way to communicate to your users, it could be as simple as a “Check this out” or as worrying as “My backend service provider just crashed please check for my update”.

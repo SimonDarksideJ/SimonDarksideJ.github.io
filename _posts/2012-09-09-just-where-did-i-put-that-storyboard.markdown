@@ -1,15 +1,8 @@
 ---
 layout: post
 title: Just where did I put that storyboard
-date: '2012-09-09 23:06:28'
-tags:
-- mvvm
-- storyboards
-- tutorials-resources
-- windows-8
-- windows8-tutorials
-- windows-phone
-- winrt
+date: 2012-09-09 23:06:28
+tags: [mvvm, windows phone]
 ---
 
 One of the cardinal sins ousted round the MVVM circles involves putting any kind of code in your XAML pages code behind, which is all well and good until you actually need to.  When you have implemented MVVM there are always cases where the line gets blurred between functionality and UI behaviour.

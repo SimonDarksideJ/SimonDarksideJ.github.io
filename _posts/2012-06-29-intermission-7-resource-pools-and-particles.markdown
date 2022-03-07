@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #7 - Resource pools and Particles'
-date: '2012-06-29 10:54:05'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:54:05
+tags: [2d tutorial, game development, xna]
 ---
 
 I was going to do this as two separate articles, but after a refresh trawl at what is already our there and available I have decided to put them together.  We do not need anything overly complex at this stage of the game, although I will point out some of the areas where you could go further (and point you in the right direction).
@@ -65,7 +61,7 @@ An individual particle, as described above, is like a spark in a firework, howev
 
 If you look around there are several good test apps or samples of firework displays which are all driven by particle effects.
 
-| ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_6CB1C5C4.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_67230986.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_35C3F959.png) |
+| ![image](http://xna-uk.net/blogs/darkgenesis/image_6CB1C5C4.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_67230986.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_35C3F959.png) |
 | 
 
 Explosion effect (with Smoke)
@@ -1710,7 +1706,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                                                 
                                                 
                                                 
-                                                ![Fireball-New2](http://xna-uk.net/blogs/darkgenesis/FireballNew2_thumb_47140E97.png)  ![Experiment 5](http://xna-uk.net/blogs/darkgenesis/Experiment5_thumb_3A35A47A.png)   ![Fireball-New](http://xna-uk.net/blogs/darkgenesis/FireballNew_thumb_23DF3D8E.png)
+                                                ![Fireball-New2](http://xna-uk.net/blogs/darkgenesis/FireballNew2_47140E97.png)  ![Experiment 5](http://xna-uk.net/blogs/darkgenesis/Experiment5_3A35A47A.png)   ![Fireball-New](http://xna-uk.net/blogs/darkgenesis/FireballNew_23DF3D8E.png)
                                                 
                                                 
                                                 Technorati Tags: [XNA](http://technorati.com/tags/XNA)

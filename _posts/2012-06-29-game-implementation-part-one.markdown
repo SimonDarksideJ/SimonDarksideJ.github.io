@@ -1,17 +1,13 @@
 ---
 layout: post
 title: Game Implementation Part one
-date: '2012-06-29 09:32:37'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:32:37
+tags: [2d tutorial, game development, xna]
 ---
 
 As we get into the actual coding part of this tutorial, I thought I would at least show an image of what we are DigiPen was aiming for in this game.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb20.png "image")](/assets/img/wordpress/2012/07/image20.png)
+[![image](/assets/img/wordpress/2012/07/image20.png "image")](/assets/img/wordpress/2012/07/image20.png)
 
 Fairly basic game with your little Trooper at the bottom furiously shooting up at the Condors before they crash in to you.  On with the show.
 

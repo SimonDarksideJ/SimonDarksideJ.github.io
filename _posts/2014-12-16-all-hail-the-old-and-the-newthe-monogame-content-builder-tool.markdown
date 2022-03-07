@@ -1,15 +1,9 @@
 ---
 layout: post
 title: All hail the old and the new - The MonoGame content builder tool
-date: '2014-12-16 18:09:30'
-tags:
-- game-development
-- information
-- monogame
-- xna
+date: 2014-12-16 18:09:30
+tags: [content pipeline, monogame]
 ---
-
-![src=]()
 
 Thought I might try and write the longest title ever on my blog, not sure I have made it but it was a worthy effort.
 
@@ -17,7 +11,7 @@ Thought I might try and write the longest title ever on my blog, not sure I have
 
 Back in the hay day of XNA, we had a lovely little extension that allows us to create a separate project for all our games assets and then reference them with a single pointer, these were the content projects!
 
-[![image](/assets/img/wordpress/2014/12/image_thumb.png "image")](/assets/img/wordpress/2014/12/image.png)
+[![image](/assets/img/wordpress/2014/12/image.png "image")](/assets/img/wordpress/2014/12/image.png)
 
 The XNA Content Project and content reference
 
@@ -25,7 +19,7 @@ These were fantastic devices and automagically compiled, compressed and built ou
 
 When [MonoGame](http://www.monogame.net/) first started, they attempted to emulate this but had to resort to reusing the existing Content Project setup, still using the XNA content project template and a custom build MSBuild project to compile the XNB files needed in your game solutions.
 
-[![image](/assets/img/wordpress/2014/12/image_thumb1.png "image")](/assets/img/wordpress/2014/12/image1.png)
+[![image](/assets/img/wordpress/2014/12/image1.png "image")](/assets/img/wordpress/2014/12/image1.png)
 
 The MonoGame Content Builder project and its XNA content project
 
@@ -35,7 +29,7 @@ Once the content was built you had to either copy or link the XNB output files m
 
 # Enter the MonoGame Content Builder GUI
 
-[![image](/assets/img/wordpress/2014/12/image_thumb2.png "image")](/assets/img/wordpress/2014/12/image2.png)
+[![image](/assets/img/wordpress/2014/12/image2.png "image")](/assets/img/wordpress/2014/12/image2.png)
 
 MonoGame Content Builder GUI
 
@@ -43,7 +37,7 @@ Deep in the bowels of the current MonoGame development is a new processor for ha
 
 Like the XNA Content Project of old, you create a new Asset Database in the Content Builder GUI, add your content to it as normal (setting the relevant content importer types for each file) and save the project to a new “.MGCB” content project definition. Armed with new content definition file, you finally add it to your project and set its build action to “MonoGameContentReference”, then hay presto you have referenced your content project:
 
-[![image](/assets/img/wordpress/2014/12/image_thumb3.png "image")](/assets/img/wordpress/2014/12/image3.png)
+[![image](/assets/img/wordpress/2014/12/image3.png "image")](/assets/img/wordpress/2014/12/image3.png)
 
 The new MGCB Content reference
 
@@ -55,7 +49,7 @@ Now we’re cooking, if everything is set right, your content project will be bu
 
 If you already have an XNA content project setup the way you want and do not want to waste time building it all again!, then the MonoGame Content Builder GUI has your back.
 
-[![image](/assets/img/wordpress/2014/12/image_thumb4.png "image")](/assets/img/wordpress/2014/12/image4.png)
+[![image](/assets/img/wordpress/2014/12/image4.png "image")](/assets/img/wordpress/2014/12/image4.png)
 
 Using the “Import” option in the file menu, you simply select an existing “.contentproject”  then it will read the old definition and import all your settings and content in to the new Content Builder Project, as if by magic!
 
@@ -93,7 +87,7 @@ Once that is installed you will have the current version of the MonoGame Content
 
 On Windows, the current list of templates includes:
 
-[![image](/assets/img/wordpress/2014/12/image_thumb5.png "image")](/assets/img/wordpress/2014/12/image5.png)
+[![image](/assets/img/wordpress/2014/12/image5.png "image")](/assets/img/wordpress/2014/12/image5.png)
 
 > \*Note, you still need XAMARIN’s extensions on Windows to use the Android, Ouya and iOS templates.  Android can still be built using MonoDevelop on Windows.
 
@@ -158,7 +152,7 @@ This will enable the “ **MonoGameContentReference** ” Build action to appear
 9. Add a new text file in your “Content” folder and rename its extension to “.mgcb” (for example “Content\mycontent.mgcb”) – _the simpliest way to create a new MGCB project._  
 Note, you should see a new icon for the file appear.  If it does not then check your install of the MonoGame installer, **make sure it is a dev version and not the 3.2 release**
 10. Now select your .MGCB content project in the solution explorer and set it is build action to **MonoGameContentReference.  
-[![image](/assets/img/wordpress/2015/01/image_thumb.png "image")](/assets/img/wordpress/2015/01/image.png)**  
+[![image](/assets/img/wordpress/2015/01/image.png "image")](/assets/img/wordpress/2015/01/image.png)**  
 11. Finally, double-Click the MGCB content file and open the MonoGame Content Builder GUI, add in your assets manually or import them from your old .contentproject 
 
 > \*Note, at the time of writing there was a bug with the MonoGame Content Builder GUI where it did not always open the file it was launched with.  Just check and open it manually while in the tool to be sure.  Hopefully that will get fixed soon!

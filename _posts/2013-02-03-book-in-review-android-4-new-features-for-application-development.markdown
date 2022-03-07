@@ -1,11 +1,8 @@
 ---
 layout: post
 title: 'Book in review - Android 4: New Features for Application Development'
-date: '2013-02-03 23:15:42'
-tags:
-- android
-- book-review
-- information
+date: 2013-02-03 23:15:42
+tags: [book review, android]
 ---
 
 A while ago myself whilst playing around with “other” platforms decided to review a set of books from the fantastic [Packt Publishers](http://www.packtpub.com/) who kindly sent us a few titles to give out opinion on, I picked up:

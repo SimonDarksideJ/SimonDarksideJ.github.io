@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #5 - Windows Phone controls'
-date: '2012-06-29 10:46:15'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 10:46:15
+tags: [2d tutorial, game development, xna]
 ---
 
 In the first of a few intermissions to the tutorial series, we will add some control to our windows phone project.  With the current state of the development kit and the limited help in XNA 3.1 for the Zune, adding controls to a mobile device can be a bit of a black art as not all the same rules used in Windows and XBOX apply.
@@ -55,7 +51,7 @@ As for the canvas we can zone areas of the screen so that we can implement diffe
 
  
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_thumb_141AD2F0.png)
+![image](http://xna-uk.net/blogs/darkgenesis/image_141AD2F0.png)
 
  
 

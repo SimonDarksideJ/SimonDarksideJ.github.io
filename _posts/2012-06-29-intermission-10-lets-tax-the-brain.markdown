@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #10 - lets tax the brain'
-date: '2012-06-29 11:22:22'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 11:22:22
+tags: [2d tutorial, game development, xna]
 ---
 
 2in the last intermission before getting back to the series we’re going to stay with the windows phone for now (the next part of the tutorial will start on the PW7 and then we will add the updates back to windows / XBOX, lets hope you can keep up)
@@ -31,7 +27,7 @@ that is not to say do not use it, used wisely it can be very good and it gives y
 
 Here is what i got out of it as a basic effect (granted full screen) after only an hour or so of tinkering.
 
-| ![Effect pic 1](http://xna-uk.net/blogs/darkgenesis/Effectpic1_thumb_6F574A5A.png) | ![Effect pic 2](http://xna-uk.net/blogs/darkgenesis/Effectpic2_thumb_26512894.png) | ![Effect pic 3](http://xna-uk.net/blogs/darkgenesis/Effectpic3_thumb_3D9C2D05.png) | ![Effect pic 4](http://xna-uk.net/blogs/darkgenesis/Effectpic4_thumb_75023E33.png) |
+| ![Effect pic 1](http://xna-uk.net/blogs/darkgenesis/Effectpic1_6F574A5A.png) | ![Effect pic 2](http://xna-uk.net/blogs/darkgenesis/Effectpic2_26512894.png) | ![Effect pic 3](http://xna-uk.net/blogs/darkgenesis/Effectpic3_3D9C2D05.png) | ![Effect pic 4](http://xna-uk.net/blogs/darkgenesis/Effectpic4_75023E33.png) |
 
 The effect you see was based on Robins original “ParticleEffectExample” effect using the explosion sprite from the StarTrooper Project.  I was quite surprised by the green, but that was because the effect plays with some of the colours.  The effect show explodes outwards like a supernova and slowly collapses inwards until it flames out at the end, the effect lasts just over 2 seconds. (looks better on the emulator ![Open-mouthed smile](/assets/img/wordpress/2012/06/wlEmoticon-openmouthedsmile3.png))
 

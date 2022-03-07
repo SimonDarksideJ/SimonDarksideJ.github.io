@@ -122,7 +122,7 @@ List of topics that will be covered in the chapter:
 
 The book was released on the 1st Feb 2015, you can find more details about the book on it’s dedicated Portfolio page on this blog including purchasing links:
 
-[![3560_Unity 3D GUI Essentials_0](/assets/img/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0-243x300.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
+[![3560_Unity 3D GUI Essentials_0](/assets/img/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
 
 [Unity 3D UI Essentials Portfolio page](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Windows 8 submission trials and tribulations
-date: '2012-10-09 12:41:41'
-tags:
-- certification-issues
-- windows-8
-- windows8-tutorials
-- winrt
+date: 2012-10-09 12:41:41
+tags: [windows 8]
 ---
 
 Boy what a crazy couple of months, to kick things off I got my first Windows 8 game up and running and through the App Excellence labs on to the Store in prompt fashion, not a glitch (if you do not count the first lab I attended not understanding what the labs were really there for, putting a tick in the box for your app to go on the store).  Not one single issue in submission, it was in and done in about 4 days.

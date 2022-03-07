@@ -1,11 +1,8 @@
 ---
 layout: post
 title: ReCap video for the AT&T Beginners Web programming for Windows Phone webcast
-date: '2012-06-30 23:29:14'
-tags:
-- silverlight-tutorials
-- wcf
-- windows-phone
+date: 2012-06-30 23:29:14
+tags: [silverlight, windows phone]
 ---
 
 Catching up on the webcasts I’ve done now for AT&T, here’s the recording from the second event from last month (March) on Web Connectivity for windows phone

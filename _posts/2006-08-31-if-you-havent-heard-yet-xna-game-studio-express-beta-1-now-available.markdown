@@ -1,13 +1,9 @@
 ---
 layout: post
 title: If you have not Heard yet - XNA Game Studio Express beta 1 now available
-date: '2006-08-31 10:15:44'
-tags:
-- ramblings
-- xna-related
+date: 2006-08-31 10:15:44
+tags: [ramblings, xna]
 ---
-
- 
 
 Quote From Microsoft XNA Site:
 

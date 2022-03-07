@@ -1,16 +1,13 @@
 ---
 layout: post
 title: Android Native Development Kit Cookbook - a review
-date: '2013-07-19 15:38:59'
-tags:
-- android
-- information
-- packtpub
+date: 2013-07-19 15:38:59
+tags: [book review, android]
 ---
 
 Just before I come up for air and start blogging in earnest I received an interesting offer to review another Android book.  if you cast you mind back I did a review of “Android 4: New features for Application Development” ([http://bit.ly/12E5q2u](http://bit.ly/12E5q2u "http://bit.ly/12E5q2u")) which was a good highlight of the new bits, this book takes you back to basics and walks you through setting up, your first app and beyond.
 
-[![1505OT](/assets/img/wordpress/2013/07/1505OT_thumb.jpg "1505OT")](http://www.packtpub.com/android-native-development-kit-cookbook/book)
+[![1505OT](/assets/img/wordpress/2013/07/1505OT.jpg "1505OT")](http://www.packtpub.com/android-native-development-kit-cookbook/book)
 
  
 
@@ -98,7 +95,7 @@ Following on from the previous focus on re-using existing libraries, this chapte
 
 * * *
 
-[![image](/assets/img/wordpress/2013/07/image_thumb.png "image")](/assets/img/wordpress/2013/07/image.png)
+[![image](/assets/img/wordpress/2013/07/image.png "image")](/assets/img/wordpress/2013/07/image.png)
 
 Additionally there are 2 bonus chapters which give the book a real feel of polish, both of these are accessible from the PacktPub site with your copy of the book, full details included on how to gain access to them are included in the Preface.
 
@@ -115,7 +112,7 @@ This chapter build a real world app using all of the techniques explained in the
 
 Bringing back one of my childhood favourites this chapter leads you through downloading the freeware version (and source) to the original Wolfenstein 3D, then porting the entire game to Android including adding Android input / sensor systems and a new on screen input UI.
 
-[![image](/assets/img/wordpress/2013/07/image_thumb1.png "image")](/assets/img/wordpress/2013/07/image1.png)
+[![image](/assets/img/wordpress/2013/07/image1.png "image")](/assets/img/wordpress/2013/07/image1.png)
 
 * * *
 

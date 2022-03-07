@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Unity Multiplayer Games - A Review
-date: '2014-02-12 15:37:07'
-tags:
-- book-review
-- networking
-- packtpub
-- unity3d
+date: 2014-02-12 15:37:07
+tags: [book review,unity3d]
 ---
 
 It seems the strength of Unity holds no bounds of late going from strength to strength, yet for all the books and tutorials I have seen to date, none have gone beyond the editor itself, so it is nice to see a title address a key factor in modern games, networking.

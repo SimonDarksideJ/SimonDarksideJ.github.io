@@ -215,5 +215,5 @@ In a last thought with the direction XNA-UK is currently heading (out of my hand
 
 For now I return to Visual studio to continue my efforts to finish and Publish Vequencer on WP7.  It is future is bright with likely publication to XBOX, Windows, IOS and Android (maybe even a PSVita version too??).  Lets not also forget Web but anything is possible.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb138.png "image")](/assets/img/wordpress/2012/07/image135.png)
+[![image](/assets/img/wordpress/2012/07/image138.png "image")](/assets/img/wordpress/2012/07/image135.png)
 

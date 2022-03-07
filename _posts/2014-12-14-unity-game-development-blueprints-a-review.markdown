@@ -1,11 +1,8 @@
 ---
 layout: post
 title: Unity Game Development Blueprints - A Review
-date: '2014-12-14 16:28:22'
-tags:
-- game-development
-- packtpub
-- unity3d
+date: 2014-12-14 16:28:22
+tags: [book review, unity3d]
 ---
 
 It is been a mad year and a half for me, one book out ([Mastering Unity 2D Game Development](https://www.packtpub.com/mastering-unity/book)), another book in its final stages, (An almost complete overhaul of book 1 ![Confused smile](/assets/img/wordpress/2014/12/wlEmoticon-confusedsmile.png) thanks to gremlins) and a host of other family activities.  I have just reached a nice break where I found time for some opensource development and catching up on some overdue reading!

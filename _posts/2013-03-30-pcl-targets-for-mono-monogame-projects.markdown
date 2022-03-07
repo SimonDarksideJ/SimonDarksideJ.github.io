@@ -111,7 +111,7 @@ Now your development environment is setup to work with PCL support for all of Mo
 
  
 
-[![image](/assets/img/wordpress/2013/03/image_thumb.png "image")](/assets/img/wordpress/2013/03/image.png)
+[![image](/assets/img/wordpress/2013/03/image.png "image")](/assets/img/wordpress/2013/03/image.png)
 
  
 

@@ -1,12 +1,8 @@
 ---
 layout: post
 title: C# Programming Overview continued - Flow Control
-date: '2012-06-29 09:19:57'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:19:57
+tags: [2d tutorial, game development, xna]
 ---
 
  **Flow control is an essential part of any programming language, it allows us to make decisions and change the direction our program takes. **

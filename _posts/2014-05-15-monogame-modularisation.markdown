@@ -1,14 +1,11 @@
 ---
 layout: post
 title: MonoGame Modularisation
-date: '2014-05-15 09:27:54'
-tags:
-- monogame
-- networking
-- xna-related
+date: 2014-05-15 09:27:54
+tags: [monogame]
 ---
 
-[![image](/assets/img/wordpress/2014/05/image_thumb1.png "image")](/assets/img/wordpress/2014/05/image1.png)
+[![image](/assets/img/wordpress/2014/05/image1.png "image")](/assets/img/wordpress/2014/05/image1.png)
 
 Times are changing and now that the latest milestone release of MonoGame (V3.2) is out there has been a lot of taking stock actions on the GitHub Site.
 
@@ -47,7 +44,7 @@ The Farseer physics library was a great example for this where it used the XNA b
 
 # And so it begins – Welcome MonoGame.Net
 
-[![image](/assets/img/wordpress/2014/05/image_thumb2.png "image")](/assets/img/wordpress/2014/05/image2.png)
+[![image](/assets/img/wordpress/2014/05/image2.png "image")](/assets/img/wordpress/2014/05/image2.png)
 
 With the latest change [MonoGame](http://www.monogame.net/) too has started down this path of separating each component into their own respective libraries in answer to a lot of comments around this area. it is also good for the framework because things become easier to test the smaller they are and we can be sure that changes in one feature are not going to have unintended consequences in others.
 

@@ -1,13 +1,8 @@
 ---
 layout: post
 title: How to market yourself with your windows 8 app quickly
-date: '2012-09-12 11:03:47'
-tags:
-- tutorials-resources
-- windows-8
-- windows8-tutorials
-- windows-phone
-- winrt
+date: 2012-09-12 11:03:47
+tags: [windows 8]
 ---
 
  **\*Note** , a minor update in the wake of recent Windows Store experiences, added an option for a privacy policy.  I highly **recommend adding one even you don’t think you need one, Just in case 😀**

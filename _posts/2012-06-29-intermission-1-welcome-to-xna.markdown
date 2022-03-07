@@ -1,12 +1,8 @@
 ---
 layout: post
 title: 'Intermission #1 - Welcome to XNA'
-date: '2012-06-29 09:26:58'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:26:58
+tags: [2d tutorial, game development, xna]
 ---
 
 Right, before hitting the ground running with the rest of the DigiPen tutorial, you first need to know about this thing called XNA that we will be developing in. Sure I’ve discussed and pointed out what it is (nice friendly game programming framework) and I’ve gone over about game loops and all that other theory, but what does it all mean and how does it look.
@@ -31,7 +27,7 @@ Once you are setup then lets get on with the show
 
 Starting off is pretty easy, start up your version of visual studio (does not matter what version really, all this is pretty much the same no matter what version you use, be it the express editions, professional or the new 2010 ultimate edition) and click in the menu bar “File –\> New –\> Project” (see below)
 
-[![image_thumb[2]](/assets/img/wordpress/2012/07/image_thumb2_thumb.png "image\_thumb[2]")](/assets/img/wordpress/2012/07/image_thumb21.png)
+[![image[2]](/assets/img/wordpress/2012/07/image2.png "image\[2]")](/assets/img/wordpress/2012/07/image21.png)
 
 From here you will be presented with the “New Project” wizard and providing you have also remembered to install your choice of XNA Game studio, you will see project templates for XNA, namely:
 
@@ -43,13 +39,13 @@ For this stage of the tutorial, select the Windows Game project to begin with. E
 
 By default Visual Studio will create a new folder for your project to keep things tidy.
 
-[![image_thumb[5]](/assets/img/wordpress/2012/07/image_thumb5_thumb.png "image\_thumb[5]")](/assets/img/wordpress/2012/07/image_thumb51.png)
+[![image[5]](/assets/img/wordpress/2012/07/image5.png "image\[5]")](/assets/img/wordpress/2012/07/image51.png)
 
 Once your new project is setup, you should see the following in the solution explorer on the right hand side of the screen. The solution explorer is a tree like structure of your solution / project.
 
 The Solution is the master container for your project, this becomes very useful when organising large scale or multi-platform projects to keep them all in one place, more on this later in the series.
 
-[![image_thumb[8]](/assets/img/wordpress/2012/07/image_thumb8_thumb.png "image\_thumb[8]")](/assets/img/wordpress/2012/07/image_thumb81.png)
+[![image[8]](/assets/img/wordpress/2012/07/image8.png "image\[8]")](/assets/img/wordpress/2012/07/image81.png)
 
 * * *
 

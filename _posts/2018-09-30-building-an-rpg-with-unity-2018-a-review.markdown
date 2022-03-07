@@ -1,19 +1,15 @@
 ---
 layout: post
 title: Building an RPG with Unity 2018 - A Review
-date: '2018-09-30 10:44:57'
-tags:
-- book-review
-- rpg
-- unity-3d-tutorials
-- unity3d
+date: 2018-09-30 10:44:57
+tags: [book review,unity3d]
 ---
 
 Life moves pretty fast. If you don’t stop and look around once in a while, you could miss it. Such has been my life these past few months, more work, more family drama and a new project making significant demands on my time. Sadly, my blog has suffered somewhat, however, that will change fairly soon.
 
 The major project I have been working on is the Awesome Mixed Reality Toolkit, in conjunction with Microsoft. Aiming to turn the classic HoloToolkit (which only supported HoloLens and Microsoft immersive headsets) in to a true cross platform Mixed Reality framework, covering the entire spectrum of AR / VR / XR. While I take a break, check out a recent book I got to review from packt.
 
-[![clip_image001](/assets/img/wordpress/2018/09/clip_image001_thumb.png "clip\_image001")](/assets/img/wordpress/2018/09/clip_image001.png)
+[![clip_image001](/assets/img/wordpress/2018/09/clip_image001.png "clip\_image001")](/assets/img/wordpress/2018/09/clip_image001.png)
 
 ## Building an RPG with Unity 2018 – Second Edition
 
@@ -21,7 +17,7 @@ RPG systems and games are very near and dear to my heart (having wrote a book on
 
 * * *
 
-[![clip_image002](/assets/img/wordpress/2018/09/clip_image002_thumb.jpg "clip\_image002")](/assets/img/wordpress/2018/09/clip_image002.jpg)
+[![clip_image002](/assets/img/wordpress/2018/09/clip_image002.jpg "clip\_image002")](/assets/img/wordpress/2018/09/clip_image002.jpg)
 
 You need a firm grip on RPG mechanics to truly understand what makes a great RPG game, in some cases, the theory is all you really need.  There are always options in development, paths to take and books like “Building an RPG with Unity 2018” aim to offer cone such solution to begin building.  Make no mistake, no single book (even my own) is going to get you 100% of the way there, all we can do is guide you down a path and show you the tools you need to begin designing and eventually building.
 
@@ -29,7 +25,7 @@ So, let’s break down what this book has to offer.
 
 * * *
 
-[![clip_image004](/assets/img/wordpress/2018/09/clip_image004_thumb.jpg "clip\_image004")](/assets/img/wordpress/2018/09/clip_image004.jpg)
+[![clip_image004](/assets/img/wordpress/2018/09/clip_image004.jpg "clip\_image004")](/assets/img/wordpress/2018/09/clip_image004.jpg)
 
 Here is a brief run through what all the chapters are and what to expect from them:
 
@@ -67,7 +63,7 @@ The modern trend for almost any game is to offer multi-player support, this is a
 
 * * *
 
-[![clip_image006](/assets/img/wordpress/2018/09/clip_image006_thumb.png "clip\_image006")](/assets/img/wordpress/2018/09/clip_image006.png)
+[![clip_image006](/assets/img/wordpress/2018/09/clip_image006.png "clip\_image006")](/assets/img/wordpress/2018/09/clip_image006.png)
 
 I know the author in social circles and we have chatted on occasion, even when taking on the title I noted I am a critical reviewer.  At the end of the day, this book just did not work for me.  It has a LOT of great content in it regarding game theory, RPG design and planning.  However, the execution in to a Unity project did not lend itself to a beginner and I feel intermediates / advanced users would question the implementation at times, it is a a book sadly without a specific target audience.
 
@@ -87,7 +83,7 @@ Cons:
 
 * * *
 
-[![clip_image007](/assets/img/wordpress/2018/09/clip_image007_thumb.jpg "clip\_image007")](/assets/img/wordpress/2018/09/clip_image007.jpg)
+[![clip_image007](/assets/img/wordpress/2018/09/clip_image007.jpg "clip\_image007")](/assets/img/wordpress/2018/09/clip_image007.jpg)
 
 I really hate giving negative reviews and worse when you know who wrote the book, but sadly I just ca not recommend this as a game development book.  It is an excellent game theory book and concept design, so if you are looking in to figuring out how to design an RPG game, this book will suit you well.
 

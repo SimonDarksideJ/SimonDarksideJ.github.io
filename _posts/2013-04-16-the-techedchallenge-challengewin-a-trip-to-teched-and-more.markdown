@@ -1,13 +1,8 @@
 ---
 layout: post
 title: 'The #TechEdChallenge challenge - win a trip to TechEd and More'
-date: '2013-04-16 14:00:02'
-tags:
-- azure
-- information
-- system-center
-- teched
-- windows-server
+date: 2013-04-16 14:00:02
+tags: [events]
 ---
 
 It happens every so often, you open up your mail or twitter feed and there is a very welcome surprise waiting for you, the biggest one of late was the announcement of the TechEd Challenge ([#TechEdChallenge](https://twitter.com/search?q=%23TechEdChallenge))

@@ -1,13 +1,8 @@
 ---
 layout: post
 title: Telerik Cloud sync and Everlive - the great companions
-date: '2013-07-21 22:09:06'
-tags:
-- data-sync
-- everlive
-- information
-- telerik
-- tutorials-resources
+date: 2013-07-21 22:09:06
+tags: [information, telerik]
 ---
 
 Following on from the previous articles I thought I would let you in on the newcomer to the Data Provider party, namely Telerik’s Everlive service and their new cloud data sync components.
@@ -111,19 +106,19 @@ $299
 
 To get up and running with Telerik’s cloud data sync and the Everlive service the best option is to start a new project using Telerik’s new project template (available after installing the Q1 or Q2 2013 Windows Phone 8 control set, get the trial if you have not got a license or a Nokia NDP account)
 
-[![image](/assets/img/wordpress/2013/07/image_thumb10.png "image")](/assets/img/wordpress/2013/07/image10.png)
+[![image](/assets/img/wordpress/2013/07/image10.png "image")](/assets/img/wordpress/2013/07/image10.png)
 
 The new Telerik cloud data sync project template
 
 Once selected you will be directed to the new cloud data sync project wizard. First you will need to logon with your Telerik account (or create a new one)
 
-[![image](/assets/img/wordpress/2013/07/image4_thumb.png "image")](/assets/img/wordpress/2013/07/image41.png)
+[![image](/assets/img/wordpress/2013/07/image4.png "image")](/assets/img/wordpress/2013/07/image41.png)
 
 Cloud dev account logon
 
 Next you will need to give your app a name for the Everlive backend service:
 
-[![image](/assets/img/wordpress/2013/07/image10_thumb.png "image")](/assets/img/wordpress/2013/07/image101.png)
+[![image](/assets/img/wordpress/2013/07/image10.png "image")](/assets/img/wordpress/2013/07/image101.png)
 
 New cloud service name
 
@@ -141,13 +136,13 @@ Once your new app is created (if you skipped the first step, the process is exac
 
 To this simply select the “create a content type” button from the app home screen:
 
-[![image](/assets/img/wordpress/2013/07/image13_thumb.png "image")](/assets/img/wordpress/2013/07/image13.png)
+[![image](/assets/img/wordpress/2013/07/image13.png "image")](/assets/img/wordpress/2013/07/image13.png)
 
 App home screen
 
 You will then be presented with the new content type setup screen where you give your new table / class a name and then start defining columns
 
-[![image](/assets/img/wordpress/2013/07/image16_thumb.png "image")](/assets/img/wordpress/2013/07/image16.png)
+[![image](/assets/img/wordpress/2013/07/image16.png "image")](/assets/img/wordpress/2013/07/image16.png)
 
 New content type creation
 
@@ -155,7 +150,7 @@ Now for your own data you have several options available, first off there are a 
 
 The kind of data you can store in your new columns are:
 
-[![image](/assets/img/wordpress/2013/07/image_thumb11.png "image")](/assets/img/wordpress/2013/07/image11.png)
+[![image](/assets/img/wordpress/2013/07/image11.png "image")](/assets/img/wordpress/2013/07/image11.png)
 
 Everlive Data types
 

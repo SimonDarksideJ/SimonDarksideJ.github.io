@@ -1,15 +1,11 @@
 ---
 layout: post
 title: Be careful of those SPECIAL names in Unity
-date: '2016-02-02 20:06:24'
-tags:
-- codeproject
-- information
-- unity-3d-tutorials
-- unity3d
+date: 2016-02-02 20:06:24
+tags: [unity3d]
 ---
 
-[![SNAGHTML102d3441](/assets/img/wordpress/2016/02/SNAGHTML102d3441_thumb.png "SNAGHTML102d3441")](/assets/img/wordpress/2016/02/SNAGHTML102d3441.png)
+[![SNAGHTML102d3441](/assets/img/wordpress/2016/02/SNAGHTML102d3441.png "SNAGHTML102d3441")](/assets/img/wordpress/2016/02/SNAGHTML102d3441.png)
 
 Every once in a while you can be reminded of a simple fact, all tools have their own ways and means, each has its little tricks and those little things that if unknown, can trip you up in unexpected places, so too is it with Unity.
 

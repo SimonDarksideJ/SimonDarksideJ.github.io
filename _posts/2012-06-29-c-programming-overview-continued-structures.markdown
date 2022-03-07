@@ -1,12 +1,8 @@
 ---
 layout: post
 title: C# Programming Overview continued - Structures
-date: '2012-06-29 09:22:25'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:22:25
+tags: [2d tutorial, game development, xna]
 ---
 
 * * *

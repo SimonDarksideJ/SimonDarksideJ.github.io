@@ -1,12 +1,8 @@
 ---
 layout: post
 title: Lotaris–a new way to get paid
-date: '2013-05-27 09:53:10'
-tags:
-- information
-- lotaris
-- monitisation
-- tutorials-resources
+date: 2013-05-27 09:53:10
+tags: [information, monetisation]
 ---
 
 I was approached by Lotaris a while ago and asked if I would do a review of their platform.  Having not heard of the company before, I waded in and started looking around and was quietly surprised by what I found.
@@ -31,7 +27,7 @@ Lotaris currently only targets Windows platforms so the comparisons are solely f
 
 When you publish a paid app to any of the Windows stores (Phone or Windows 8), Microsoft will take a cut of your earnings, this includes in-app purchases using Microsoft’s payment system:
 
-[![image](/assets/img/wordpress/2013/05/image_thumb4.png "image")](/assets/img/wordpress/2013/05/image5.png)
+[![image](/assets/img/wordpress/2013/05/image4.png "image")](/assets/img/wordpress/2013/05/image5.png)
 
 License cost breakdown
 
@@ -57,7 +53,7 @@ The only other query I have would be how users would react to being sent elsewhe
 
 The Microsoft store already has a robust system in place, granted the differences between the Windows and Phone stores are very apparent to anyone who has delved deeply enough but just what can Lotaris bring to the table.  Quite a lot it seems, check this out:
 
-[![image](/assets/img/wordpress/2013/05/image_thumb5.png "image")](/assets/img/wordpress/2013/05/image6.png)
+[![image](/assets/img/wordpress/2013/05/image5.png "image")](/assets/img/wordpress/2013/05/image6.png)
 
 Lotaris feature comparison to Windows platforms
 
@@ -83,56 +79,56 @@ One of the things that really impressed me when I started trying to use Lotaris 
 
 Once you have signed up and logged on for the first time you will be greeted with the following wizard/getting started guide, going through step by step everything you need to know to make best use of the platform:
 
-| [![image](/assets/img/wordpress/2013/05/image_thumb14.png "image")](/assets/img/wordpress/2013/05/image15.png) |
+| [![image](/assets/img/wordpress/2013/05/image14.png "image")](/assets/img/wordpress/2013/05/image15.png) |
 | 
 ###### Step 1
 
 Getting to know you, a nice 2.5 minute screencast gives you an overview of the Lotaris portal
 
  |
-| [![image](/assets/img/wordpress/2013/05/image_thumb15.png "image")](/assets/img/wordpress/2013/05/image16.png) |
+| [![image](/assets/img/wordpress/2013/05/image15.png "image")](/assets/img/wordpress/2013/05/image16.png) |
 | 
 ###### Step 2
 
 walks you though getting the SDK downloaded and up and running on your development machine
 
  |
-| [![image](/assets/img/wordpress/2013/05/image_thumb16.png "image")](/assets/img/wordpress/2013/05/image17.png) |
+| [![image](/assets/img/wordpress/2013/05/image16.png "image")](/assets/img/wordpress/2013/05/image17.png) |
 | 
 ###### Step 3
 
 Another 5 min screencast walking you through the app console in more detail
 
  |
-| [![image](/assets/img/wordpress/2013/05/image_thumb17.png "image")](/assets/img/wordpress/2013/05/image18.png) |
+| [![image](/assets/img/wordpress/2013/05/image17.png "image")](/assets/img/wordpress/2013/05/image18.png) |
 | 
 ###### Step 4
 
 highlights the necessary steps for integrating the platform in your app / game (more later)
 
  |
-| [![image](/assets/img/wordpress/2013/05/image_thumb18.png "image")](/assets/img/wordpress/2013/05/image19.png) |
+| [![image](/assets/img/wordpress/2013/05/image18.png "image")](/assets/img/wordpress/2013/05/image19.png) |
 | 
 ###### Step 5
 
 Highlights the importance of test mode to ensure YOU do not get charged while testing your app
 
  |
-| [![image](/assets/img/wordpress/2013/05/image_thumb19.png "image")](/assets/img/wordpress/2013/05/image20.png) |
+| [![image](/assets/img/wordpress/2013/05/image19.png "image")](/assets/img/wordpress/2013/05/image20.png) |
 | 
 ###### Step 6
 
 The all important step showing you what to do to set up how Lotaris pay you
 
  |
-| [![image](/assets/img/wordpress/2013/05/image_thumb20.png "image")](/assets/img/wordpress/2013/05/image21.png) |
+| [![image](/assets/img/wordpress/2013/05/image20.png "image")](/assets/img/wordpress/2013/05/image21.png) |
 | 
 ###### Step 7
 
 Shows you how to make your payment system live and ready to collect payments (just one click really)
 
  |
-| [![image](/assets/img/wordpress/2013/05/image_thumb21.png "image")](/assets/img/wordpress/2013/05/image22.png) |
+| [![image](/assets/img/wordpress/2013/05/image21.png "image")](/assets/img/wordpress/2013/05/image22.png) |
 | 
 ###### Step 8
 
@@ -152,15 +148,15 @@ Once you have gone through all the steps above (except step 4) and got an applic
 
 Follow on:
 
-| [![image](/assets/img/wordpress/2013/05/image_thumb22.png "image")](/assets/img/wordpress/2013/05/image23.png) |
+| [![image](/assets/img/wordpress/2013/05/image22.png "image")](/assets/img/wordpress/2013/05/image23.png) |
 | First off you need to initialise the SDK library in your application, the wizard on the applications screen even copies all you logon details into the code snippet for you making this as easy as possible.  
 Just two options, whether to just connect or if you are using a trial system then some additional settings to set the trial timeout.  
 There is even the capability to test the trial offline, so if the user does not connect to the web the trial will still time out. |
-| [![image](/assets/img/wordpress/2013/05/image_thumb23.png "image")](/assets/img/wordpress/2013/05/image24.png) |
+| [![image](/assets/img/wordpress/2013/05/image23.png "image")](/assets/img/wordpress/2013/05/image24.png) |
 | If you are using the app purchase side of the Lotaris platform, then when the user has to buy your app to either use it fully or continue, then simply add this integration code |
-| [![image](/assets/img/wordpress/2013/05/image_thumb24.png "image")](/assets/img/wordpress/2013/05/image25.png) |
+| [![image](/assets/img/wordpress/2013/05/image24.png "image")](/assets/img/wordpress/2013/05/image25.png) |
 | Slimily to the above, when you want the user to buy an in-app offer, just add this additional segment. |
-| [![image](/assets/img/wordpress/2013/05/image_thumb25.png "image")](/assets/img/wordpress/2013/05/image26.png) |
+| [![image](/assets/img/wordpress/2013/05/image25.png "image")](/assets/img/wordpress/2013/05/image26.png) |
 | As a last step, you can check the status of any in-app offer to verify what the user has already paid for, you can so this simple check.  Also if you have a screen listing all paid for items, then you can use the ProductLicenses collection instead in implementing your own. |
 
 * * *

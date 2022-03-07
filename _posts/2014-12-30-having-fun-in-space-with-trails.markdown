@@ -41,7 +41,7 @@ This chapter just works through a couple of 3D tips and tricks that you can use 
 
 To make any picture stand out, it needs a really good background, so for **Chapter 5** I created this simple 3D space scene for us to paint our UI on to:
 
-[![3617OS_APP_01](/assets/img/wordpress/2015/01/3617OS_APP_01_thumb.png "3617OS\_APP\_01")](/assets/img/wordpress/2015/01/3617OS_APP_01.png)
+[![3617OS_APP_01](/assets/img/wordpress/2015/01/3617OS_APP_01.png "3617OS\_APP\_01")](/assets/img/wordpress/2015/01/3617OS_APP_01.png)
 
 It is a cool mix of different Canvas UI elements displayed in a 3D scene, all with completely free Assets!
 
@@ -73,13 +73,13 @@ I almost had a little too much fun creating this basic scene and even learned so
 
 Here is where you should be up to now. No UI yet, just the beginnings of a scene:
 
-[![3617OS_APP_02](/assets/img/wordpress/2015/01/3617OS_APP_02_thumb.png "3617OS\_APP\_02")](/assets/img/wordpress/2015/01/3617OS_APP_02.png)
+[![3617OS_APP_02](/assets/img/wordpress/2015/01/3617OS_APP_02.png "3617OS\_APP\_02")](/assets/img/wordpress/2015/01/3617OS_APP_02.png)
 
 Next let’s smarten it up a bit with a background skybox and even a trail for the ship:
 
 1. Add a new **Layer** to the project (through the **Layer** Menu in the top–right corner of the inspector for every GameObject) called **Background** (this just helps identify background objects for the background camera). This should be set in **User Layer 8** (but any position in the Layer array will do)
 
-[![3617OS_APP_03](/assets/img/wordpress/2015/01/3617OS_APP_03_thumb.png "3617OS\_APP\_03")](/assets/img/wordpress/2015/01/3617OS_APP_03.png)
+[![3617OS_APP_03](/assets/img/wordpress/2015/01/3617OS_APP_03.png "3617OS\_APP\_03")](/assets/img/wordpress/2015/01/3617OS_APP_03.png)
 
 The Add Layer option in the inspector
 
@@ -88,7 +88,7 @@ The Add Layer option in the inspector
 3. Set the **Layer** for the **BackgroundCamera** to the new **Background** layer using the Layer combo box shown earlier.
 4. Configure the **Culling Mask** of the **BackgroundCamera** to just the **Background** layer by selecting **Nothing** in the drop down selection and then selecting (For an added bonus, also remove the Background layer from the Culling Mask of the Main Camera so it does not render it)
 
-[![3617OS_APP_04](/assets/img/wordpress/2015/01/3617OS_APP_04_thumb1.png "3617OS\_APP\_04")](/assets/img/wordpress/2015/01/3617OS_APP_041.png)
+[![3617OS_APP_04](/assets/img/wordpress/2015/01/3617OS_APP_041.png "3617OS\_APP\_04")](/assets/img/wordpress/2015/01/3617OS_APP_041.png)
 
 1. Add a **Skybox** component (Add _ **Component -\> Rendering -\> Skybox** _) to the Background Camera and set the **Custom Skybox** property to one of the skyboxes from the SkyBox Volume 2 folder. You do this by dragging the **DSG.mat**  (the material, not the skybox images) asset to the **Custom Skybox** property of the **Skybox Component.**   I personally went for the **DeepSpaceGreen** Skybox (in the folder of the same name under the **SkyBox Volume 2** folder).
 2. Finally add a new **Particle System** as a child of the **BackgroundCamera** (Right-Click on the **BackgroundCamera** and select **Particle System** ) with the following settings (any settings I do not alter are the defaults):
@@ -109,7 +109,7 @@ The Add Layer option in the inspector
 
 The Particle System should now look like the following screenshot:
 
-[![3617OS_APP_05](/assets/img/wordpress/2015/01/3617OS_APP_05_thumb.png "3617OS\_APP\_05")](/assets/img/wordpress/2015/01/3617OS_APP_05.png)
+[![3617OS_APP_05](/assets/img/wordpress/2015/01/3617OS_APP_05.png "3617OS\_APP\_05")](/assets/img/wordpress/2015/01/3617OS_APP_05.png)
 
 All this does is to simply add some flavor to our scene so it is not boring J
 
@@ -117,7 +117,7 @@ All this does is to simply add some flavor to our scene so it is not boring J
 
 After all that our demo scene now looks like the following:
 
-[![3617OS_APP_06](/assets/img/wordpress/2015/01/3617OS_APP_06_thumb.png "3617OS\_APP\_06")](/assets/img/wordpress/2015/01/3617OS_APP_06.png)
+[![3617OS_APP_06](/assets/img/wordpress/2015/01/3617OS_APP_06.png "3617OS\_APP\_06")](/assets/img/wordpress/2015/01/3617OS_APP_06.png)
 
 Lastly, let’s kick our ship in to action and make it at least look like it is moving:
 
@@ -138,7 +138,7 @@ Lastly, let’s kick our ship in to action and make it at least look like it is 
 
 The Trail Render in the inspector should now look like the following screenshot:
 
-[![3617OS_APP_07](/assets/img/wordpress/2015/01/3617OS_APP_07_thumb.png "3617OS\_APP\_07")](/assets/img/wordpress/2015/01/3617OS_APP_07.png)
+[![3617OS_APP_07](/assets/img/wordpress/2015/01/3617OS_APP_07.png "3617OS\_APP\_07")](/assets/img/wordpress/2015/01/3617OS_APP_07.png)
 
 Almost there, one last thing remains. If you run the scene now you wo not see any change, no trails, the ship just sits there and does nothing. Simply put it is doing nothing because we have not told it to do anything, for the trail renderer to work the ship has to move.
 
@@ -148,7 +148,7 @@ For the last touch, create a new C# script called **ShipMove** and replace its c
 
 Now simply attach the script to the **SciFi\_Fighter\_AK5** GameObject and hit play and your fighter will be screaming through the stars on its way to oblivion.
 
-[![3617OS_APP_08](/assets/img/wordpress/2015/01/3617OS_APP_08_thumb.png "3617OS\_APP\_08")](/assets/img/wordpress/2015/01/3617OS_APP_08.png)
+[![3617OS_APP_08](/assets/img/wordpress/2015/01/3617OS_APP_08.png "3617OS\_APP\_08")](/assets/img/wordpress/2015/01/3617OS_APP_08.png)
 
 Our sample scene is complete.
 

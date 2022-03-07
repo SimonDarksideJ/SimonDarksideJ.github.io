@@ -2,16 +2,10 @@
 layout: post
 title: Making your game stand out with Cortana on Windows 10
 date: '2016-04-18 09:19:40'
-tags:
-- codeproject
-- cortana
-- tutorials-resources
-- unity3d
-- uwp
-- windows-10
+tags: [cortana, windows 10]
 ---
 
-[![clip_image002](/assets/img/wordpress/2016/04/clip_image002_thumb.png "clip\_image002")](/assets/img/wordpress/2016/04/clip_image002-1.png)
+[![clip_image002](/assets/img/wordpress/2016/04/clip_image002.png "clip\_image002")](/assets/img/wordpress/2016/04/clip_image002-1.png)
 
 > \*edit, updated the article to also support the later “Anniversary” and “Creators” updates, which need a few tweaks, especially with an updated VoiceCommandFile Format.  
 > **Still working on updating the Unity Sample to 5.6, as Unity changed the UWP exported solution which breaks the project if you try to export it again.**
@@ -47,17 +41,17 @@ With the introduction of Windows 10 / UWP support we can make full use of these 
 
 Here’s what the layout of the full implementation looks like:
 
-[![clip_image004](/assets/img/wordpress/2016/04/clip_image004_thumb.png "clip\_image004")](/assets/img/wordpress/2016/04/clip_image004.png)_Figure 1: Unity to Windows Interop architecture_
+[![clip_image004](/assets/img/wordpress/2016/04/clip_image004.png "clip\_image004")](/assets/img/wordpress/2016/04/clip_image004.png)_Figure 1: Unity to Windows Interop architecture_
 
 In Unity we need to declare an Interop class to manage the boundary between Unity and the Windows UWP platform. Any data that your Unity project needs from Windows, it will get from this Interop class and any action that needs to be kicked off on the Windows platform will be performed by the Interop class, as shown here:
 
-[![clip_image006](/assets/img/wordpress/2016/04/clip_image006_thumb.png "clip\_image006")](/assets/img/wordpress/2016/04/clip_image006.png)_Figure 2: Unity Interop interface definition_
+[![clip_image006](/assets/img/wordpress/2016/04/clip_image006.png "clip\_image006")](/assets/img/wordpress/2016/04/clip_image006.png)_Figure 2: Unity Interop interface definition_
 
 This pattern affords a couple of benefits, most notably we know exactly what data we need from the platform and what actions we can perform all in one place (defined as a Contract between Unity and the platforms it’s deployed on), regardless of which script or scene uses them.
 
 Once we have the behaviors we want in our game, we apply this to our project on the platform. So after you have built the project, we need to fulfil the Contract we have created using the platform specific elements, for example:
 
-[![clip_image008](/assets/img/wordpress/2016/04/clip_image008_thumb.png "clip\_image008")](/assets/img/wordpress/2016/04/clip_image008.png)_Figure 3: Windows 10 Interop implementation_
+[![clip_image008](/assets/img/wordpress/2016/04/clip_image008.png "clip\_image008")](/assets/img/wordpress/2016/04/clip_image008.png)_Figure 3: Windows 10 Interop implementation_
 
 So from this Interop pattern we ensure that each party (Unity and Windows) know what they are doing, what data they control and at what time.
 
@@ -108,13 +102,13 @@ That’s all for the Unity project for now. Build your project for the Windows S
 
 > \*Note, Selecting the XAML version is important as we need it to access the media components of the Windows 10 UWP platform.
 
-[![clip_image010](/assets/img/wordpress/2016/04/clip_image010_thumb.jpg "clip\_image010")](/assets/img/wordpress/2016/04/clip_image010.jpg)
+[![clip_image010](/assets/img/wordpress/2016/04/clip_image010.jpg "clip\_image010")](/assets/img/wordpress/2016/04/clip_image010.jpg)
 
 _Figure 4: Unity build settings for Windows 10 Universal apps_
 
 Before you build the solution, you also need to enable a few capabilities for the project. Once you have configured your build target as above, click on “ **Player Settings** ” and then under the “ **Publishing Settings** ” section in the Capabilities area, check the **InternetClient** and **Microphone** capabilities. Now click build and off you go.
 
-[![clip_image012](/assets/img/wordpress/2016/04/clip_image012_thumb.jpg "clip\_image012")](/assets/img/wordpress/2016/04/clip_image012.jpg)
+[![clip_image012](/assets/img/wordpress/2016/04/clip_image012.jpg "clip\_image012")](/assets/img/wordpress/2016/04/clip_image012.jpg)
 
 _Figure 5: Unity Windows 10 Player settings_
 
@@ -211,7 +205,7 @@ For all of the Cortana speech examples, you will need an actual device to test o
 
 In the example project for this article, I simply put a new UI text control on the screen and bound the “CortanaInterop.CortanaText” field to the Text property of the Text Control. I then launched the app and got it looking something like this:
 
-[_![clip_image014](/assets/img/wordpress/2016/04/clip_image014_thumb.png "clip\_image014")_](/assets/img/wordpress/2016/04/clip_image014.png)
+[_![clip_image014](/assets/img/wordpress/2016/04/clip_image014.png "clip\_image014")_](/assets/img/wordpress/2016/04/clip_image014.png)
 
 _Figure 6: Launch command result_
 
@@ -355,7 +349,7 @@ All this speech stuff is good, but Cortana also introduced the new Notification 
 
 For offline notifications, you will still need to use the server notification setup. For further details check this article: [https://msdn.microsoft.com/en-US/library/windows/apps/hh779727](https://msdn.microsoft.com/en-US/library/windows/apps/hh779727)
 
-[![clip_image015](/assets/img/wordpress/2016/04/clip_image015_thumb.png "clip\_image015")](/assets/img/wordpress/2016/04/clip_image015.png)
+[![clip_image015](/assets/img/wordpress/2016/04/clip_image015.png "clip\_image015")](/assets/img/wordpress/2016/04/clip_image015.png)
 
 _Figure 7: Achievement toast example_
 
@@ -374,7 +368,7 @@ Creating toasts is very simple, but if you need more information about them then
 
 While still on the subject of integration, let’s not forget that the Microsoft Band SDK is also available for all Windows 10 platforms, this gives us even more opportunity to offer additional features to owners of these fabulous devices.
 
-[![clip_image017](/assets/img/wordpress/2016/04/clip_image017_thumb.png "clip\_image017")](/assets/img/wordpress/2016/04/clip_image017.png)
+[![clip_image017](/assets/img/wordpress/2016/04/clip_image017.png "clip\_image017")](/assets/img/wordpress/2016/04/clip_image017.png)
 
 With the Microsoft Band (version 1 or 2) we have access to a wrath of sensors, namely:
 
@@ -429,5 +423,5 @@ I’m **Simon Jackson** , an ID@Xbox MVP and all round game development evangeli
 
 On top of that I’m also a best-selling author of two Unity titles, which are doing very well at the moment with many great reviews. You can learn more about my titles [on my blog](http://darkgenesis.zenithmoon.com/books/).
 
-[![clip_image019](/assets/img/wordpress/2016/04/clip_image019_thumb.jpg "clip\_image019")](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/) [![clip_image021](/assets/img/wordpress/2016/04/clip_image021_thumb.jpg "clip\_image021")](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/)
+[![clip_image019](/assets/img/wordpress/2016/04/clip_image019.jpg "clip\_image019")](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/) [![clip_image021](/assets/img/wordpress/2016/04/clip_image021.jpg "clip\_image021")](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/)
 

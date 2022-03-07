@@ -1,17 +1,13 @@
 ---
 layout: post
 title: Session 1 continued - Game Development Introductions
-date: '2012-06-29 09:09:07'
-tags:
-- 2d
-- game-development
-- xna
-- xna-2d-tutorials
+date: 2012-06-29 09:09:07
+tags: [2d tutorial, game development, xna]
 ---
 
 So if you’re new to game development, welcome to a whole new world of fun where the only limit is your imagination (skills can be learned, creativity must be something from within). If you have been around with programming or basic game development, most of what will be covered in this tutorial you should already know, feel free to comment and improve where necessary.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb.png "image")](/assets/img/wordpress/2012/07/image.png)
+[![image](/assets/img/wordpress/2012/07/image.png "image")](/assets/img/wordpress/2012/07/image.png)
 
 The original digipen webcast for this session can be found [here on the codeplex site for this tutorial](http://startrooper2dxna.codeplex.com/releases/view/42760)
 
@@ -98,7 +94,7 @@ The ideal FPS we usually aim for is 60fps to give a feel that the game is moving
 
 Below is an example of the Game Loop in action.
 
-[![image](/assets/img/wordpress/2012/07/image_thumb1.png "image")](/assets/img/wordpress/2012/07/image1.png)
+[![image](/assets/img/wordpress/2012/07/image1.png "image")](/assets/img/wordpress/2012/07/image1.png)
 
 ## How do we add interaction at real time with concurrent events?
 
@@ -123,17 +119,17 @@ Below is an example of the moving bullet at a low frame rate
 
 | 
 
-[![image](/assets/img/wordpress/2012/07/image_thumb2.png "image")](/assets/img/wordpress/2012/07/image2.png)
+[![image](/assets/img/wordpress/2012/07/image2.png "image")](/assets/img/wordpress/2012/07/image2.png)
 
  | Frame n |
 | 
 
-[![image](/assets/img/wordpress/2012/07/image_thumb3.png "image")](/assets/img/wordpress/2012/07/image3.png)
+[![image](/assets/img/wordpress/2012/07/image3.png "image")](/assets/img/wordpress/2012/07/image3.png)
 
  | Frame n+1 |
 | 
 
-[![image](/assets/img/wordpress/2012/07/image_thumb4.png "image")](/assets/img/wordpress/2012/07/image4.png)
+[![image](/assets/img/wordpress/2012/07/image4.png "image")](/assets/img/wordpress/2012/07/image4.png)
 
  | Frame n+2 |
 

@@ -1,10 +1,8 @@
 ---
 layout: post
 title: Team Building Exercises with Dream Build Play
-date: '2017-08-22 17:48:01'
-tags:
-- dbp2017
-- unity-3d-tutorials
+date: 2017-08-22 17:48:01
+tags: [dream build play]
 ---
 
 [![image](/assets/img/wordpress/2017/08/image.png "image")](http://dreambuildplay.com/)
@@ -19,7 +17,7 @@ However, what is not immediately apparent, is that the profile system is there n
 
 # Get together with [Dream Build Play](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 
-[![image](/assets/img/wordpress/2017/08/image_thumb.png "image")](/assets/img/wordpress/2017/08/image-1.png)
+[![image](/assets/img/wordpress/2017/08/image.png "image")](/assets/img/wordpress/2017/08/image-1.png)
 
 Dream Build Play is meant to inspire all of us to Dream Big, Build the most uber project we can so everyone can Play it! **But we do not have to do it alone!**
 
@@ -29,7 +27,7 @@ Also, if you have this brilliant idea and not sure how to build it (or your art 
 
 If you are advertising your services on the site, be sure to highlight exactly what you are good at! (and willing to do!)
 
-| [![image](/assets/img/wordpress/2017/08/image_thumb-1.png "image")](/assets/img/wordpress/2017/08/image-2.png) | 
+| [![image](/assets/img/wordpress/2017/08/image-1.png "image")](/assets/img/wordpress/2017/08/image-2.png) | 
 
 In the profile screen, you will see a lot of details you can enter.
 
@@ -53,23 +51,23 @@ I have pictured mine just for reference (sorry, I am not really available as I a
 
 Once done, you will be available on the site for all to see:
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-2.png "image")](/assets/img/wordpress/2017/08/image-3.png)
+[![image](/assets/img/wordpress/2017/08/image-2.png "image")](/assets/img/wordpress/2017/08/image-3.png)
 
 * * *
 
 # Searching for a Star
 
-[![JT](/assets/img/wordpress/2017/08/JT_thumb.gif "JT")](/assets/img/wordpress/2017/08/JT.gif)
+[![JT](/assets/img/wordpress/2017/08/JT.gif "JT")](/assets/img/wordpress/2017/08/JT.gif)
 
 Now comes the fun bit, whether you are searching for your team mates or someone else is looking for you (best not to advertise it you are wanted in some regard ![Confused smile](/assets/img/wordpress/2017/08/wlEmoticon-confusedsmile.png)). From the Community panel, you will be able to search for friends either by name, skills or where they live (so make sure you put down the skills you have)
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-3.png "image")](/assets/img/wordpress/2017/08/image-4.png)
+[![image](/assets/img/wordpress/2017/08/image-3.png "image")](/assets/img/wordpress/2017/08/image-4.png)
 
 So, whether you are looking for an artist, programmer, modeller, animator or just someone to make coffee in your local town (I joke, as there is not a coffee Skill. But there SHOULD be!) then this feature will make your life much easier.  once you are done searching, reach out get chatting and, more importantly, GET BUILDING!
 
  
 
-[![image](/assets/img/wordpress/2017/08/image_thumb-4.png "image")](/assets/img/wordpress/2017/08/image-5.png)
+[![image](/assets/img/wordpress/2017/08/image-4.png "image")](/assets/img/wordpress/2017/08/image-5.png)
 
 > ### P.S.  
 > As with last time, If you have read this far, be sure to check out my upcoming post about game dev diaries.  In short, if you have not already, START ONE NOW!! ![Open-mouthed smile](/assets/img/wordpress/2017/08/wlEmoticon-openmouthedsmile.png?w=660&ssl=1)

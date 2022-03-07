@@ -1,14 +1,8 @@
 ---
 layout: post
 title: Kinect for Windows SDK Programming Guide - a review
-date: '2013-04-06 23:02:06'
-tags:
-- book-review
-- information
-- kinect
-- winforms
-- wpf
-- xna
+date: 2013-04-06 23:02:06
+tags: [book review, kinect]
 ---
 
 [![Kinect for Windows SDK Programming Guide](http://1.2.3.12/bmi/dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/2380OT.jpg "Kinect for Windows SDK Programming Guide")](http://www.packtpub.com/sites/default/files/2380OT.jpg)

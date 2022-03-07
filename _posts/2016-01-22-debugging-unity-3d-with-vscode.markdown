@@ -1,16 +1,11 @@
 ---
 layout: post
 title: Debugging Unity 3D with VSCode
-date: '2016-01-22 21:53:39'
-tags:
-- codeproject
-- tutorials-resources
-- unity-3d-tutorials
-- unity3d
-- vscode
+date: 2016-01-22 21:53:39
+tags: [unity3d, vscode]
 ---
 
-[![image](/assets/img/wordpress/2016/01/image_thumb.png "image")](/assets/img/wordpress/2016/01/image.png)
+[![image](/assets/img/wordpress/2016/01/image.png "image")](/assets/img/wordpress/2016/01/image.png)
 
 > **\*\*Updated for Version 1.0.0 – be aware there are some new “Getting Started” extra points, like installing C#, which is no longer installed by default.**
 
@@ -48,13 +43,13 @@ Made by a community developer with some assistance from teams at Unity and Micro
 - Debugging support for MacOS
 - **\*\*New for Version 2.6** – Ability to configure a path for VSCode, enables use of the separate insider build for the brave
 
-[![image](/assets/img/wordpress/2016/01/image_thumb-1.png "image")](/assets/img/wordpress/2016/01/image-2.png)
+[![image](/assets/img/wordpress/2016/01/image-1.png "image")](/assets/img/wordpress/2016/01/image-2.png)
 
 ###### VSCode Editor Screen
 
 Plus a host of other little tidy up / backend tweaks needed to ensure it all worked seamlessly.
 
-[![SNAGHTML5b90db6](/assets/img/wordpress/2016/01/SNAGHTML5b90db6_thumb.png "SNAGHTML5b90db6")](/assets/img/wordpress/2016/01/SNAGHTML5b90db6.png)
+[![SNAGHTML5b90db6](/assets/img/wordpress/2016/01/SNAGHTML5b90db6.png "SNAGHTML5b90db6")](/assets/img/wordpress/2016/01/SNAGHTML5b90db6.png)
 
 ###### Before and After Workspace configuration in VSCode
 
@@ -96,15 +91,15 @@ The short path to get this running is as follows:
 - Open the Editor preferences using the **Edit –\> Preferences** option in the Unity editor menu
 - (Optional) Set or change the path to VSCode, by default this uses the default location for VSCode, but if you have installed in another path or are using the insider build, this could be very useful
 - Click on the VSCode tab on the left and check “ **_Enable Integration_** ” (it is now enabled by default!)  
-[![image](/assets/img/wordpress/2016/01/image_thumb-3.png "image")](/assets/img/wordpress/2016/01/image-4.png)
+[![image](/assets/img/wordpress/2016/01/image-3.png "image")](/assets/img/wordpress/2016/01/image-4.png)
 - Click the “ **_Write Workspace Settings_** ” button (only needs to be done once per project), this will create the VSCode default workspace configuration for Unity
 - Open VSCode for your project by opening a code file (you can do this manually but you will then have to manually select the unity project folder)
 - When VSCode is open hit the **F1** key (this opens the VSCode Command window shown below)  
 **\*Note, you will need an internet connection for this part!**  
-[![SNAGHTML5d8647a](/assets/img/wordpress/2016/01/SNAGHTML5d8647a_thumb.png "SNAGHTML5d8647a")](/assets/img/wordpress/2016/01/SNAGHTML5d8647a.png)
+[![SNAGHTML5d8647a](/assets/img/wordpress/2016/01/SNAGHTML5d8647a.png "SNAGHTML5d8647a")](/assets/img/wordpress/2016/01/SNAGHTML5d8647a.png)
 - Type the command “ **_ext install_** ” in to the command window and select the option “ **_Extensions: Install Extension_** ”
 - This will display all the available extensions on the VSCode marketplace (there are a lot are not there!), to filter the list simply append filter criteria to the command so that it reads “ **_ext install unity_** ”  
-[![image](/assets/img/wordpress/2016/01/image_thumb-4.png "image")](/assets/img/wordpress/2016/01/image-5.png)
+[![image](/assets/img/wordpress/2016/01/image-4.png "image")](/assets/img/wordpress/2016/01/image-5.png)
 - Now simply click on this extension and it will be installed in the background. When it is done you will receive a notification to restart VS Code.
 - **\*\*New As of VSCode Version 1.0.0** , you also now have to install C# support for VSCode, it no longer ships by default (most likely so they can update it separately).  
 To install this, repeat the instructions above for the Unity Debugger, but install the “C#” package instead (it’s actually the first in the list :D).  
@@ -117,7 +112,7 @@ Almost there, we now have all the necessary components installed, however to ena
 - Then click on the cog icon to bring up the debugger selection
 - Finally select “Unity Debugger” from the list to enable it
 
-[![image](/assets/img/wordpress/2016/01/image_thumb-5.png "image")](/assets/img/wordpress/2016/01/image-6.png)
+[![image](/assets/img/wordpress/2016/01/image-5.png "image")](/assets/img/wordpress/2016/01/image-6.png)
 
 If all goes well you should see a new “Launch.json” configuration file in the viewer showing you the current debugging options available.
 
@@ -131,7 +126,7 @@ All done, if you return to the Folder/File view you can set breakpoints as you w
 
 Let’s see it in action:
 
-[![DebuggingInAction](/assets/img/wordpress/2016/01/DebuggingInAction_thumb.gif "DebuggingInAction")](/assets/img/wordpress/2016/01/DebuggingInAction.gif)
+[![DebuggingInAction](/assets/img/wordpress/2016/01/DebuggingInAction.gif "DebuggingInAction")](/assets/img/wordpress/2016/01/DebuggingInAction.gif)
 
 I do not think this is the end for VSCode’s integration with Unity, especially not with everything being opensource, so the future is looking very bright for Unity developers!
 
