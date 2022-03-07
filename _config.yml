@@ -83,3 +83,27 @@ plugins:
 
 include: [_pages]
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock", "package-lock.json", "assets/css/sass/"]
+
+jekyll_compose:
+  auto_open: true
+  default_front_matter:
+    drafts:
+      description:
+      img: posts/
+      category:
+      tags: []
+      author: Simon Jackson
+      github:  
+      mathjax: no      
+    posts:
+      description:
+      img: posts/
+      category:
+      tags: []
+      author: Simon Jackson
+      github:  
+      mathjax: no      
+      published: false
+      sitemap: false
+      read_time: true
+      show_date: true

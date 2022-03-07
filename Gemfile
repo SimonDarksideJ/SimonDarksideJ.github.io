@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"
   gem "jekyll-feed", "= 0.15.1"
   gem "jekyll-sitemap"
+  gem "jekyll-compose"
 end
 
 gem "webrick"
