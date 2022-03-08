@@ -212,7 +212,7 @@ Go back to the Web Editor for your repository (hitting "**.**" from the Code tab
 
 With the README selected on the left, look at in right-hand pane and find an appropriate area on your page where you want to list your posts and add the following code block
 
-{% comment %} 
+{% raw %}
 ```html
 ### My Posts
 
@@ -226,7 +226,7 @@ With the README selected on the left, look at in right-hand pane and find an app
   </article>
 {% endfor %}
 ```
-{% endcomment %}
+{% endraw %}
 
 All this simply does is list all the files in your "_posts" folder and then creates a hyperlink for each one.
 
