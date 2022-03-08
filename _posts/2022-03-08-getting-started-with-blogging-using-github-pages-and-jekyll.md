@@ -1,15 +1,19 @@
 ---
 layout: post
 title: Getting started with blogging using GitHub pages and Jekyll
-description: An introduction in to Github pages for anyone wanting a simple, yet effective blog or site.  Github pages is very versatile, especially when paired with Jekyll which transforms simple markdown in to dazzling webpages.
+description: An introduction in to Github pages for anyone wanting a simple, yet effective
+  blog or site.  Github pages is very versatile, especially when paired with Jekyll
+  which transforms simple markdown in to dazzling webpages.
 img: posts/20220307/github-pages.jpg
-category: 'GitHub pages'
-tags: [getting started, jekyll]
+category: GitHub pages
+tags:
+- getting started
+- jekyll
 author: Simon Jackson
 github:
 mathjax: false
+date: 2022-03-08 14:47 +0000
 ---
-
 Finding somewhere to post your content, be it pages, blogs or material can be a tough decision these days.  There are many options, most of which require you to pay upfront to use the service, while others lure you in with a free trial hoping that you will stay after the amount of effort you have put in to get things set-up.
 
 ## TL;DR;

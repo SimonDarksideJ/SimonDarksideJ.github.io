@@ -42,14 +42,14 @@ bandcamp:  # Add your Bandcamp username
 stackoverflow: darkside # Add your stackoverflow account
 
 # Newsletter
-mailchimp: #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
+mailchimp: #http://eepurl.com/hWCpYz #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
 # Disqus
 discus_identifier: #amaynez-github-io # Add your discus identifier
 comments_curtain: no # leave empty to show the disqus embed directly
 
 # Tracker
-analytics: #G-R8SZS2YBZK
+analytics: UA-33026449-1
 fbadmin: #ar.maybach
 
 # Paginate
