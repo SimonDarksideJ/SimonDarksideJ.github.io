@@ -73,7 +73,7 @@ So simply browse to GitHub (create a new account if you do not have one already)
 
 Make sure to add the default "README" file, which will be the start of your blog with no posts.
 
-## Activating GitHub Pages and selecting a theme
+## Activating GitHub Pages
 
 With your site created, all that is left is to enable GitHub pages for your site, this can be found in "*Settings -> Pages*" in the menu when looking at your \<Code\> tab in your repository:
 
@@ -242,7 +242,7 @@ Nice and plain, but what about adding a little colour?
 
 ## Setting a default GitHub Jekyll theme
 
-Additionally, at this point, you can also select a theme for your site from the built-in Jekyll themes GitHub has to offer by clicking on the "Choose a theme" button:
+Additionally, at this point, you can also select a theme for your site from the built-in Jekyll themes GitHub has to offer in the "Settings -> Pages" you accessed in the [Activating GitHub Pages](#activating-github-pages) section.  There you will find a "Choose a theme" button under "**Theme Chooser**".  Once clicked you should see the selection of themes to pick:
 
 ![GitHub pages theme selection](/assets/img/posts/20220307/github-pages-theme-selection.png)
 
