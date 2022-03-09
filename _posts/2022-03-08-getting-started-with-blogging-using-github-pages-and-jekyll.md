@@ -242,7 +242,9 @@ Nice and plain, but what about adding a little colour?
 
 ## Setting a default GitHub Jekyll theme
 
-Additionally, at this point, you can also select a theme for your site from the built-in Jekyll themes GitHub has to offer in the "Settings -> Pages" you accessed in the [Activating GitHub Pages](#activating-github-pages) section.  There you will find a "Choose a theme" button under "**Theme Chooser**".  Once clicked you should see the selection of themes to pick:
+To configure a theme we need to return back to the "Code" page for your site, either by clicking "*back*" in your browser or switching back to "**.com**" instead of "*.dev*".
+
+To select a theme for your site go to the "Settings -> Pages" you accessed earlier in the [Activating GitHub Pages](#activating-github-pages) section.  There you will find a "Choose a theme" button under "**Theme Chooser**".  Once clicked you should see the selection of built-in Jekyll themes GitHub has to offer themes to choose from:
 
 ![GitHub pages theme selection](/assets/img/posts/20220307/github-pages-theme-selection.png)
 
