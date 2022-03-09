@@ -1,0 +1,53 @@
+# Trigger the pipeline to run whenever a commit to the main branch is made.
+trigger:
+- main
+
+variables:
+  project.name: 'com.xrealitylabs.devopstest'
+  package.name: 'com.xrealitylabs.devopstest'
+
+  ${{ if eq( variables['build.reason'], 'PullRequest' ) }}:
+    date: ''
+  ${{ if ne( variables['build.reason'], 'PullRequest' ) }}:
+    date: ${{ '$(Date:yyyyMMdd)' }}
+
+name: $(package.name) ${{ coalesce( variables['date'], '$(System.PullRequest.PullRequestNumber)', '$(Date:yyyyMMdd)' ) }}$(Rev:.r)
+
+pr:
+  autoCancel: true
+  branches:
+   include:
+     - main
+     - develop
+     - feature/*
+  paths:
+    include:
+    - azure-pipelines.yml
+
+# Purpose is to validate and check the dependency has no failing tests and can build
+jobs:
+  - job:
+    displayName: 'Validate Mac & iOS Builds'
+    timeoutInMinutes: 0
+
+    pool:
+      name: self-hosted-mac
+
+    steps:
+    # Pull the code from the connected repository
+    - checkout: self
+
+    # Run the unit tests for the build
+    - task: UnityTestTask@1
+      name: UnityUnitTests
+      inputs:
+        failOnTestFail: false
+
+    # Build the Unity project to iOS. 
+    - task: UnityBuildTask@3
+      name: BuildiOS
+      displayName: 'Build iOS platform'
+      inputs:
+        buildTarget: 'iOS'
+        outputPath: '$(Build.BinariesDirectory)'
+        outputFileName: 'com.xrealitylabs.devopstest'

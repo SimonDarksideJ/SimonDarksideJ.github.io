@@ -1,0 +1,85 @@
+# Trigger the pipeline to run whenever a commit to the main branch is made.
+trigger:
+- main
+
+variables:
+  project.name: 'com.xrealitylabs.devopstest'
+  package.name: 'com.xrealitylabs.devopstest'
+  configuration: 'Release'
+  scheme: 'Unity-iPhone'
+  destination: 'generic/platform=iOS'
+  developmentteam: 'PQS7G58V9J'
+
+  ${{ if eq( variables['build.reason'], 'PullRequest' ) }}:
+    date: ''
+  ${{ if ne( variables['build.reason'], 'PullRequest' ) }}:
+    date: ${{ '$(Date:yyyyMMdd)' }}
+
+name: $(package.name) ${{ coalesce( variables['date'], '$(System.PullRequest.PullRequestNumber)', '$(Date:yyyyMMdd)' ) }}$(Rev:.r)
+
+pr:
+  autoCancel: true
+  branches:
+   include:
+     - main
+     - develop
+     - feature/*
+  paths:
+    include:
+    - azure-pipelines.yml
+
+# Purpose is to validate and check the dependency has no failing tests and can build
+jobs:
+  - job:
+    displayName: 'Validate Mac & iOS Builds'
+    timeoutInMinutes: 0
+
+    pool:
+      name: self-hosted-mac
+
+    steps:
+    # Pull the code from the connected repository
+    - checkout: self
+
+    # Run the unit tests for the build
+    - task: UnityTestTask@1
+      name: UnityUnitTests
+      inputs:
+        failOnTestFail: false
+
+    # Build the Unity project to iOS. 
+    - task: UnityBuildTask@3
+      name: BuildiOS
+      displayName: 'Build iOS platform'
+      inputs:
+        buildTarget: 'iOS'
+        outputPath: '$(Build.BinariesDirectory)'
+        outputFileName: 'com.xrealitylabs.devopstest'
+
+    - task: Bash@3
+      name: BuildiOSProject
+      inputs:
+        targetType: 'inline'
+        script: |
+          #!/bin/bash
+          xcodebuild -project '$(Build.BinariesDirectory)/com.xrealitylabs.devopstest/Unity-iPhone.xcodeproj' -scheme $(scheme) -configuration $(configuration) -destination $(destination) -UseModernBuildSystem=YES clean archive -archivePath './$(Build.SourceBranchName)_$(Build.BuildId).xcarchive' DEPLOYMENT_POSTPROCESSING=YES DEVELOPMENT_TEAM=$(developmentteam) -allowProvisioningUpdates DEBUG_INFORMATION_FORMAT=dwarf-with-dsym GCC_GENERATE_DEBUGGING_SYMBOLS=YES ENABLE_BITCODE=YES
+
+    - task: Bash@3
+      name: PackageiOSProject    
+      inputs:
+        targetType: 'inline'
+        script: |
+          #!/bin/bash
+          xcodebuild -exportArchive -archivePath './$(Build.SourceBranchName)_$(Build.BuildId).xcarchive' -exportPath '$(Build.ArtifactStagingDirectory)' -exportOptionsPlist '$(Build.SourcesDirectory)/Assets/Plugins/iOS/ExportOptions.plist' -IDEBuildOperationMaxNumberOfConcurrentCompileTasks=8 -jobs 16 -allowProvisioningUpdates -allowProvisioningDeviceRegistration
+
+    - task: AppStoreRelease@1
+      inputs:
+        serviceEndpoint: 'Apple Testflight'
+        releaseTrack: 'TestFlight'
+        appIdentifier: 'com.xrealitylabs.devopstest'
+        appType: 'iOS'
+        ipaPath: '$(Build.ArtifactStagingDirectory)/*.ipa'
+        shouldSkipWaitingForProcessing: true
+        appSpecificId: '1601420268'
+        teamId: 'PQS7G58V9J'
+        teamName: 'XREALITY LABS LTD'
