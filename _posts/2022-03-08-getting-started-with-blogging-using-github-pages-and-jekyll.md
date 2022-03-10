@@ -262,8 +262,8 @@ These themes are very basic and do not offer any advanced features other than st
 
 That is it for the start, further articles will delve into slightly more technical considerations for using Jekyll and GitHub pages for your blogging or presentation site, such as:
 
-* Testing your GitHub pages site locally - the right way
 * Using custom themes
+* Testing your GitHub pages site locally - the right way
 * Adding/testing additional features like **comments** and more
 
 Until then, see you on the flip side
