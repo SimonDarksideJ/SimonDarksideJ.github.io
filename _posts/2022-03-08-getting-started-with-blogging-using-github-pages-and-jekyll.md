@@ -10,7 +10,7 @@ tags:
 - getting started
 - jekyll
 author: Simon Jackson
-github: https://github.com/gamedevspace/gamedevspace.github.io.git
+github: gamedevspace/gamedevspace.github.io.git
 mathjax: false
 date: 2022-03-08 14:47 +0000
 ---
