@@ -1,14 +1,17 @@
 ---
 layout: post
 title: Applying a theme to your GitHub pages site
-description: A single page on your site is all well and good, but let us add a little theme with a bunch of additional options and features developed by the community for all.
+description: A single page on your site is all well and good, but let us add a little
+  theme with a bunch of additional options and features developed by the community
+  for all.
 img: posts/20220310/memoir-jekyll-theme.jpg
 category: GitHub pages
-tags: [jekyll]
+tags:
+- jekyll
 author: Simon Jackson
 github:
 mathjax: false
-date: 
+date: 2022-03-11 00:59 +0000
 ---
 > Following on from Part 1 in the GitHub Pages series - [Getting started with blogging using GitHub pages and Jekyll](/getting-started-with-blogging-using-github-pages-and-jekyll)
 
