@@ -130,6 +130,7 @@ Where the default theme image assets are held will vary from theme to theme, the
 * _layouts (although this is rare, as these are templates for how pages/posts look)
 
 As an example, you can see the branding change between my site and the original theme for my site here:
+
 |Dark Genesis Site|MVM Theme site|
 |---|---|
 |![Dark Genesis site](/assets/img/posts/20220310/dark-genesis-dark.png)|![mvm theme site](/assets/img/posts/20220310/mvm-theme-dark.png)|
