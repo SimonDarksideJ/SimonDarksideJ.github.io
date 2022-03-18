@@ -198,12 +198,15 @@ Would show the below image:
 
 After mastering images, linking to previous posts on your site works in pretty much the same way, except you do not need the leading "**!**" character, simply use:
 
-``` [<Readable Text>](<Local Link to post>) ```
+> ``` [<Readable Text>](<Local Link to post>) ```
 
 For example, the link to the [previous chapter](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md) would be:
 
-```[previous chapter](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md)```
-Which you can see I used in the text.  Nice and simple.
+> ```[previous chapter](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md)```
+
+Where you can see the text I used in the example.  Nice and simple.
+
+### Linking to a header in a post
 
 But we can go further, if you also want to link to a specific section in your article, you can add a quick-link to jump straight to it by referring to the header name.
 
@@ -230,9 +233,11 @@ It contains most of what you will need to "get good" at writing markdown for you
 
 While you are in draft, you can save your changes to the server at any time (be aware you can also make changes to LIVE pages the same way, just be careful).
 
-To publish changes you need to **COMMIT** them to your repository, which is also very easy to do, simply click on the "Source Control" tab on the left hand side of the window to switch to the "Commit" view.
+To publish changes you need to **COMMIT** them to your repository, which is also very easy to do, simply click on the "Source Control" tab on the left hand side of the window to switch to the "Commit" view.  Then just enter a message to remind you what you have changed, select the files you want to save and then click the **TICK** button to save/commit:
 
+![Commiting files to the repository](/assets/img/posts/20220318/commit-changes-to-the-repository.gif)
 
+Just make sure to be careful as to what you add and what you save, as undoing what you have uploaded can be tricky.  But GitHub remembers what you changed and you can view that in your [repository change history](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/viewing-the-branch-history) at any time.
 
 ## Advanced syntax
 
@@ -248,4 +253,30 @@ So you have finished writing your article and you are ready to make it LIVE and 
 
 First, go and make another drink, double check your spelling and even run it through a grammar checker or two (my own proofing pipeline includes about 4 apps).
 
-Whe
+When you are ready "and sure", all you need to do is:
+
+* Drag and Drop your article from your "_drafts" folder and place it in to your "_posts" folder
+* Then Rename (right-click -> rename) your file, prefixing it with the date as you did previously.
+
+For example:
+
+> 2022-03-18-writing-efficient-markdown-on-githubpages.md
+
+(This article)
+
+Check the Front Matter inside your article matches the publish date you want on the article, and you are done.
+
+Then repeat the steps from the "[Commit your changes](#commit-your-changes)" section to save the published document.
+
+> This will also deleted the old draft, including the "_drafts" folder if there is nothing left in it.  But worry not, GitHub remembers! so you will not lose anything.
+
+## Conclusion
+
+This article you are reading was written using all the techniques described in this article, that includes all the gifs which were recorded while writing this article.
+No PC (other than my browser) was used in its creation.
+
+> If you want super scary.  I even wrote some of this article ON MY PHONE, as VSCode on the web is even FULLY supported on mobile, that includes commiting the changes!
+
+I leave you now to get on with writing your own content while I get on with the next article which is a little more advanced and WILL involve getting your PR dirty.
+
+![Clint Eastward Nodding with headphones from the Magnificent Seven](https://gifimage.net/wp-content/uploads/2017/11/good-bad-ugly-gif-3.gif)
