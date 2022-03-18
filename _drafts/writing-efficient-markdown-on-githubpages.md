@@ -14,7 +14,7 @@ mathjax: false
 
  Thanks to creating your site in [Part 1](/_posts/2022-03-08-getting-started-with-blogging-using-github-pages-and-jekyll.md) and theming your site in [Part 2](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md), you already have a nice looking site, maybe with a little flair, it is time to start writing some content.  Whether that content is a blog post or a regular page for your site, you want to make writing easy and if at all possible, avoid installing any tools.
 
- Well, thankfully GitHub still has your back thanks to the awesome [VSCode](https://code.visualstudio.com/) for the web editor built right in to the GitHub website.
+ Well, thankfully GitHub still has your back thanks to the awesome [VSCode](https://code.visualstudio.com/) for the web editor built right into the GitHub website.
 
  ## VS Code on the web
 
@@ -45,9 +45,9 @@ This will result in the Code editor view you see below:
 
 The Tabs on the left side are:
 
-* Explorer - for viewing the files in your reposoitory
+* Explorer - for viewing the files in your repository
 * Search - to search for specific files and/or code
-* Source Control - for commiting changes to your repository
+* Source Control - for comiting changes to your repository
 * Run and Debug - for testing / executing web apps (not relevant for writing)
 * Extensions - for extending your VS Code experience, the same as on the desktop
 * Remote Explorer - for running a [Microsoft Codespaces environment](https://visualstudio.microsoft.com/services/github-codespaces/) from VS Code - a bit too advanced for writing articles
@@ -57,18 +57,18 @@ The only tabs you should be interested in for Writing are the "Explorer" (for wr
 
 ## Getting Writing
 
-Now there are several ways to explore your workflow for writing, you can go full GIT and [create branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) for each article, then once your article is complete, simply merge that work back in to your GitHub pages branch.  Thankfully there is an even easier way, DRAFTS.
+Now there are several ways to explore your workflow for writing, you can go full GIT and [create branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) for each article, then once your article is complete, simply merge that work back into your GitHub pages branch.  Thankfully there is an even easier way, DRAFTS.
 
 To keep things simple, Jekyll has a "Drafts" mode, where you can publish content to your site but it will not be visible on your pages, very useful while you are in the process of writing.
 
 Simply:
 
-1. Enter the VS Code view of your GitHub site
-2. Select the "Explorer" view
-3. Make sure nothing is selected in the left-hand pane (click in any clear space on the bottom)
-4. click on the "New Folder" icon to the right of your Repository name (as shown below)
-5. Name the new folder "_drafts"
-6. Make coffee (or tea if you refer)
+1. Enter the VS Code view of your GitHub site.
+2. Select the "Explorer" view.
+3. Make sure nothing is selected in the left-hand pane (click in any clear space on the bottom).
+4. Click on the "New Folder" icon to the right of your Repository name (as shown below).
+5. Name the new folder "_drafts".
+6. Make coffee (or tea if you prefer).
 
 ![new folder icon](/assets/img/posts/20220318/new-folder-icon.png)
 
@@ -76,7 +76,7 @@ Your repository is now ready for creating your next article.
 
 ## Create your draft post
 
-Now unlike creating a published post (as you might not know when you want to publish it), drafts do not need a date in their name, so you can call it what ever you like.  Just a few things to keep in mind:
+Now unlike creating a published post (as you might not know when you want to publish it), drafts do not need a date in their name, so you can call it whatever you like.  Just a few things to keep in mind:
 
 * best to keep the title all lower case
 * use a "-" character where you want a space.
@@ -127,7 +127,7 @@ mathjax: false
 
 ## Header images
 
-Now a crucial feature or most articles is the Article header image, this makes your articles stand out and really shine.  It is completely up to you (and the theme you selected) as to whether you want to use header images or simply want to go with text links, but my preference is to use them.
+Now a crucial feature for most articles is the Article header image, this makes your articles stand out and really shine.  It is completely up to you (and the theme you selected) as to whether you want to use header images or simply want to go with text links, but my preference is to use them.
 
 Now VS Code on the web also allows you to drag and drop images from your local computer right into the browser.
 
@@ -157,6 +157,7 @@ If you are using Images on your blog site, just add them as you did for the head
 To the image reference to your post, simply use the markup "``` ![<alt text>](<path to image>) ```"
 
 > For example, the above image path (for me) was
+> 
 > ``` ![adding images on the web](/assets/img/posts/20220318/Adding-Images.gif) ```
 
 And VSCode also makes it super easy by showing the path as you type:
@@ -174,7 +175,7 @@ And VSCode also makes it super easy by showing the path as you type:
 > Simply check the link is correct before publishing.  
 
 
-> Always check the preview using the "Open Preview to the Side" button in the upper-right-hand corner of the screen to check your images show.
+> Always check the preview using the "Open Preview to the Side" button in the upper-right-hand corner of the screen to check that your images show.
 
 You should note that the path is only "relative" to where your articles are and you DO NOT need to put the full URL to the content.  GitHub will compile and fix the links when it publishes your page to the web.
 
@@ -217,7 +218,7 @@ For Example, if you want to jump to the "Where to get these mysterious themes" s
 Just be sure to:
 
 * Keep the header name in lower case
-* use "-" characters in stead of spaces
+* use "-" characters instead of spaces
 
 But as you see VSCode on the web automatically shows you the headers you can select.
 
@@ -233,7 +234,7 @@ It contains most of what you will need to "get good" at writing markdown for you
 
 While you are in draft, you can save your changes to the server at any time (be aware you can also make changes to LIVE pages the same way, just be careful).
 
-To publish changes you need to **COMMIT** them to your repository, which is also very easy to do, simply click on the "Source Control" tab on the left hand side of the window to switch to the "Commit" view.  Then just enter a message to remind you what you have changed, select the files you want to save and then click the **TICK** button to save/commit:
+To publish changes you need to **COMMIT** them to your repository, which is also very easy to do, simply click on the "Source Control" tab on the left-hand side of the window to switch to the "Commit" view.  Then just enter a message to remind you what you have changed, select the files you want to save and then click the **TICK** button to save/commit:
 
 ![Commiting files to the repository](/assets/img/posts/20220318/commit-changes-to-the-repository.gif)
 
@@ -243,7 +244,7 @@ Just make sure to be careful as to what you add and what you save, as undoing wh
 
 Now Jekyll does also include ADVANCED techniques for enhancing your posts, however, these are a little much for this article.
 
-To learn more about [Jekyll Liquid Syntax](https://jekyllrb.com/docs/liquid/), have a look through the [documentation on the subject](https://jekyllrb.com/docs/liquid/).  Although fair warning, it is not for the feint hearted.
+To learn more about [Jekyll Liquid Syntax](https://jekyllrb.com/docs/liquid/), have a look through the [documentation on the subject](https://jekyllrb.com/docs/liquid/).  Although fair warning, it is not for the faint hearted.
 
 But it can become very useful as you get used to writing on your GitHub pages site.  I only mention it so you have something to refer to later.
 
@@ -251,11 +252,11 @@ But it can become very useful as you get used to writing on your GitHub pages si
 
 So you have finished writing your article and you are ready to make it LIVE and show it to the world!
 
-First, go and make another drink, double check your spelling and even run it through a grammar checker or two (my own proofing pipeline includes about 4 apps).
+First, go and make another drink, double-check your spelling and even run it through a grammar checker or two (my own proofing pipeline includes about 4 apps).
 
 When you are ready "and sure", all you need to do is:
 
-* Drag and Drop your article from your "_drafts" folder and place it in to your "_posts" folder
+* Drag and Drop your article from your "_drafts" folder and place it into your "_posts" folder
 * Then Rename (right-click -> rename) your file, prefixing it with the date as you did previously.
 
 For example:
@@ -268,15 +269,15 @@ Check the Front Matter inside your article matches the publish date you want on 
 
 Then repeat the steps from the "[Commit your changes](#commit-your-changes)" section to save the published document.
 
-> This will also deleted the old draft, including the "_drafts" folder if there is nothing left in it.  But worry not, GitHub remembers! so you will not lose anything.
+> This will also delete the old draft, including the "_drafts" folder if there is nothing left in it.  But worry not, GitHub remembers! so you will not lose anything.
 
 ## Conclusion
 
-This article you are reading was written using all the techniques described in this article, that includes all the gifs which were recorded while writing this article.
+This article you are reading was written using all the techniques described in this article, which includes all the gifs which were recorded while writing this article.
 No PC (other than my browser) was used in its creation.
 
 > If you want super scary.  I even wrote some of this article ON MY PHONE, as VSCode on the web is even FULLY supported on mobile, that includes commiting the changes!
 
-I leave you now to get on with writing your own content while I get on with the next article which is a little more advanced and WILL involve getting your PR dirty.
+I leave you now to get on with writing your own content while I get on with the next article which is a little more advanced and WILL involve getting your PC dirty.
 
 ![Clint Eastward Nodding with headphones from the Magnificent Seven](https://gifimage.net/wp-content/uploads/2017/11/good-bad-ugly-gif-3.gif)
