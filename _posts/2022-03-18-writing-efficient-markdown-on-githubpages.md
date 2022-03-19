@@ -12,11 +12,11 @@ github:
 mathjax: false
 ---
 
- Thanks to creating your site in [Part 1](/_posts/2022-03-08-getting-started-with-blogging-using-github-pages-and-jekyll.md) and theming your site in [Part 2](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md), you already have a nice looking site, maybe with a little flair, it is time to start writing some content.  Whether that content is a blog post or a regular page for your site, you want to make writing easy and if at all possible, avoid installing any tools.
+ Thanks to creating your pages in [Part 1](/_posts/2022-03-08-getting-started-with-blogging-using-github-pages-and-jekyll.md) and then theming it in [Part 2](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md), you already have a nice looking site, maybe with a little flair. Now it is time to start writing some content, whether that is a blog post or a regular page for your site, you want to make writing easy and if at all possible, avoid installing any tools.
 
  Well, thankfully GitHub still has your back thanks to the awesome [VSCode](https://code.visualstudio.com/) for the web editor built right into the GitHub website.
 
- ## VS Code on the web
+## VS Code on the web
 
  GitHub includes a web version of [Microsoft's VS Code](https://code.visualstudio.com/) that runs on the web, integrated tightly with GitHub, featuring:
 
@@ -26,17 +26,17 @@ mathjax: false
 * Markdown writing and preview
 * And much more (however the 4 above are the main uses)
 
-This is accessible from either the Code view below, or when you are reviewing a pull request (but more on that another time)
+This is accessible from the Code view below, or when you are reviewing a pull request (but more on that another time)
 
 ![Accessing VSCode on the web from source](/assets/img/posts/20220318/github-code-site.png)
 
 While in the code view you can either:
 
-> Tap "." on the keyboard
+> Tap "**.**" on the keyboard
 
 or
 
-> Change the GitHub url from "**.COM**" to "**.dev**"
+> Change the GitHub url from "**.com**" to "**.dev**"
 > E.G. *GitHub.com* -> *GitHub.dev*
 
 This will result in the Code editor view you see below:
@@ -51,21 +51,21 @@ The Tabs on the left side are:
 * Run and Debug - for testing / executing web apps (not relevant for writing)
 * Extensions - for extending your VS Code experience, the same as on the desktop
 * Remote Explorer - for running a [Microsoft Codespaces environment](https://visualstudio.microsoft.com/services/github-codespaces/) from VS Code - a bit too advanced for writing articles
-* GitHub - the status of your repo, issues and more.
+* GitHub tab - the status of your repo, issues and more.
 
-The only tabs you should be interested in for Writing are the "Explorer" (for writing) and "Source Control" (for submitting changes to your pages site) tabs.
+The only tabs you should be interested in for Writing are the "Explorer" (for writing) and "Source Control" (for submitting changes to your pages site) tabs, so we will focus on those for this article.
 
 ## Getting Writing
 
-Now there are several ways to explore your workflow for writing, you can go full GIT and [create branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) for each article, then once your article is complete, simply merge that work back into your GitHub pages branch.  Thankfully there is an even easier way, DRAFTS.
+Now there are several ways to explore your workflow for writing, you can go full GIT, [create branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository) for each article, then once your article is complete simply merge that work back into your GitHub pages branch.  Thankfully there is an alternative and even easier way.
 
-To keep things simple, Jekyll has a "Drafts" mode, where you can publish content to your site but it will not be visible on your pages, very useful while you are in the process of writing.
+To keep things simple, Jekyll has a "Drafts" mode, where you can publish content to your site but it will not be visible to the public, very useful while you are in the process of writing.
 
 Simply:
 
 1. Enter the VS Code view of your GitHub site.
 2. Select the "Explorer" view.
-3. Make sure nothing is selected in the left-hand pane (click in any clear space on the bottom).
+3. Make sure nothing is selected in the left-hand pane (or click in any clear space on the bottom).
 4. Click on the "New Folder" icon to the right of your Repository name (as shown below).
 5. Name the new folder "_drafts".
 6. Make coffee (or tea if you prefer).
@@ -76,11 +76,11 @@ Your repository is now ready for creating your next article.
 
 ## Create your draft post
 
-Now unlike creating a published post (as you might not know when you want to publish it), drafts do not need a date in their name, so you can call it whatever you like.  Just a few things to keep in mind:
+Now unlike creating a published post (as you might not know when you want to publish it), drafts do not need a date in their name, so you can call it whatever you like.  Keeping just a few things in mind:
 
-* best to keep the title all lower case
-* use a "-" character where you want a space.
-* use the extension ".md" or ".markdown" when naming your file (the last characters you will name the file)
+* Keep the title all lower case
+* Use a "-" character where you want a space.
+* Use the extension ".md" or ".markdown" when naming your file (the last characters you will name the file)
 
 For instance, I titled this article while in draft:
 
@@ -105,7 +105,7 @@ category: my category
 ---
 ```
 
-Now, depending on your theme, you may need additional elements added to your Front Matter, so refer to your theme documentation for any additional information, for example, the Front Matter for my blog is as follows (which is also the Front Matter for this article):
+Now, depending on the theme you have implemented for your site, you may need additional elements added to your Front Matter, so refer to your theme documentation for any additional information. For example, the Front Matter for my blog is as follows (which is also the Front Matter for this article):
 
 ```
 ---
@@ -139,7 +139,7 @@ The only thing to be aware of is where you put them, as each theme is different.
 
 Just create a folder for the images and drag and drop to your hearts content.
 
-Then update your Front Matter with the path to your image, as shown in my example Front Matter above.
+WHen you are ready, update the Front Matter of your article with the path to your image, as shown in my example Front Matter above.
 
 > Always check your theme documentation for how to use Header images for your posts.
 
@@ -150,14 +150,16 @@ When you need images in your article, you can either:
 * Upload images to your blog (as above)
 * Just use the full URL to the image online
 
-If you are using Images on your blog site, just add them as you did for the header image and then add a special link to the image in Markdown.
+If you are using Images on your blog site, just add them as you did for the header image and then add a special link to the image in Markdown depending on the source.
 
 ### Images from your site
 
-To the image reference to your post, simply use the markup "``` ![<alt text>](<path to image>) ```"
+To the image reference to your post, simply use the markup (VSCOde for GitHub also features a file browser, which autofills your selection based on what is on your site)
 
-> For example, the above image path (for me) was
-> 
+> "``` ![<alt text>](<path to image>) ```"
+
+For example, the above image path (for me) was (as demonstrated below)
+ 
 > ``` ![adding images on the web](/assets/img/posts/20220318/Adding-Images.gif) ```
 
 And VSCode also makes it super easy by showing the path as you type:
@@ -183,13 +185,15 @@ You should note that the path is only "relative" to where your articles are and 
 
 If you have an image that is hosted online already (sometimes the preferred approach), you simply need the full URL to that image (if you can view it in your browser, it will work on your site).
 
-Then like the markdown for your site image, use the following syntax: "``` ![<alt text>](<url to image>) ```"
+Then like the markdown for your site image, use the following syntax: 
+
+> "``` ![<alt text>](<url to image>) ```"
 
 For example:
 
 This markdown:
 
->  "``` ![Am I doing this right?](https://c.tenor.com/pDrSdm_CKK0AAAAC/am-i-doing-it-right-chris-cantada.gif) ```" 
+>  ``` ![Am I doing this right?](https://c.tenor.com/pDrSdm_CKK0AAAAC/am-i-doing-it-right-chris-cantada.gif) ```
 
 Would show the below image:
 
@@ -234,23 +238,25 @@ It contains most of what you will need to "get good" at writing markdown for you
 
 While you are in draft, you can save your changes to the server at any time (be aware you can also make changes to LIVE pages the same way, just be careful).
 
-To publish changes you need to **COMMIT** them to your repository, which is also very easy to do, simply click on the "Source Control" tab on the left-hand side of the window to switch to the "Commit" view.  Then just enter a message to remind you what you have changed, select the files you want to save and then click the **TICK** button to save/commit:
+To publish changes you need to **COMMIT** them to your repository, which is also very easy to do. Simply click on the "Source Control" tab on the left-hand side of the window to switch to the "Commit" view.  Next, enter a message to remind you what you have changed, then select the files you want to save and finally, click the **TICK** button to save/commit:
 
 ![Commiting files to the repository](/assets/img/posts/20220318/commit-changes-to-the-repository.gif)
 
 Just make sure to be careful as to what you add and what you save, as undoing what you have uploaded can be tricky.  But GitHub remembers what you changed and you can view that in your [repository change history](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/viewing-the-branch-history) at any time.
 
+> Selectively "adding" files to the **Commit** before hitting the **Tick** button allows you to choose which files to push to the server.  ALternatively, if you just hit the **Tick** button without adding files, it will commit **ALL** changes to the server at once.
+
 ## Advanced syntax
 
-Now Jekyll does also include ADVANCED techniques for enhancing your posts, however, these are a little much for this article.
+Jekyll does also include ADVANCED techniques for enhancing your posts, however, these are a little much for this article.
 
 To learn more about [Jekyll Liquid Syntax](https://jekyllrb.com/docs/liquid/), have a look through the [documentation on the subject](https://jekyllrb.com/docs/liquid/).  Although fair warning, it is not for the faint hearted.
 
-But it can become very useful as you get used to writing on your GitHub pages site.  I only mention it so you have something to refer to later.
+But it can become very useful as you get used to writing on your GitHub pages site.  I only mention it now so you have something to refer to later.
 
 ## Publishing
 
-So you have finished writing your article and you are ready to make it LIVE and show it to the world!
+You have finished writing your article and you are ready to make it LIVE and show it to the world!
 
 First, go and make another drink, double-check your spelling and even run it through a grammar checker or two (my own proofing pipeline includes about 4 apps).
 
@@ -259,11 +265,13 @@ When you are ready "and sure", all you need to do is:
 * Drag and Drop your article from your "_drafts" folder and place it into your "_posts" folder
 * Then Rename (right-click -> rename) your file, prefixing it with the date as you did previously.
 
+> **Yes**, you can do this the other way round too, it is up to you whether you move and rename or rename and move.
+
 For example:
 
 > 2022-03-18-writing-efficient-markdown-on-githubpages.md
-
-(This article)
+> 
+> (This article)
 
 Check the Front Matter inside your article matches the publish date you want on the article, and you are done.
 
