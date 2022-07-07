@@ -49,7 +49,7 @@ comments: utteranc  #[disqus, utteranc]
 comments_opts:
   comments_curtain: yes # leave empty to show the disqus embed directly
   repo: SimonDarksideJ/comments.SimonDarksideJ.github.io # The GitHub repo URL.  https://utteranc.es/
-  issue_term: issue # The GitHub issue label
+  issue_term: darkgenesis blog comment # The GitHub issue label
   label: comments # The GitHub comments label
   theme: github-dark # The GitHub comment's there. e.g. github-dark
   # Disqus
