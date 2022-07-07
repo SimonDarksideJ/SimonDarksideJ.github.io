@@ -48,7 +48,7 @@ mailchimp: #http://eepurl.com/hWCpYz #"https://github.us1.list-manage.com/subscr
 comments: utteranc  #[disqus, utteranc]
 comments_opts:
   comments_curtain: yes # leave empty to show the disqus embed directly
-  repo: https://github.com/SimonDarksideJ/comments.SimonDarksideJ.github.io.git # The GitHub repo URL.  https://utteranc.es/
+  repo: SimonDarksideJ/comments.SimonDarksideJ.github.io # The GitHub repo URL.  https://utteranc.es/
   issue_term: issue # The GitHub issue label
   label: comments # The GitHub comments label
   theme: github-dark # The GitHub comment's there. e.g. github-dark
