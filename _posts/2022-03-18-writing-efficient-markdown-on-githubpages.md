@@ -41,7 +41,7 @@ or
 
 This will result in the Code editor view you see below:
 
-![VsCode on the Web](/assets/img/posts/20220318/github-vscode-editor.png)
+![VSCode on the Web](/assets/img/posts/20220318/github-vscode-editor.png)
 
 The Tabs on the left side are:
 
