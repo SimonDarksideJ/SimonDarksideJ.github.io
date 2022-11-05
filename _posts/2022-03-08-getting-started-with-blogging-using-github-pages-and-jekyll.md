@@ -10,7 +10,7 @@ tags:
 - getting started
 - jekyll
 author: Simon Jackson
-github:
+github: gamedevspace/gamedevspace.github.io.git
 mathjax: false
 date: 2022-03-08 14:47 +0000
 ---
@@ -262,8 +262,8 @@ These themes are very basic and do not offer any advanced features other than st
 
 That is it for the start, further articles will delve into slightly more technical considerations for using Jekyll and GitHub pages for your blogging or presentation site, such as:
 
+* [Using custom themes](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md)
 * Testing your GitHub pages site locally - the right way
-* Using custom themes
 * Adding/testing additional features like **comments** and more
 
 Until then, see you on the flip side

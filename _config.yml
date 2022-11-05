@@ -44,9 +44,16 @@ stackoverflow: darkside # Add your stackoverflow account
 # Newsletter
 mailchimp: #http://eepurl.com/hWCpYz #"https://github.us1.list-manage.com/subscribe/post?u=8ece198b3eb260e6838461a60&amp;id=397d90b5f4"
 
-# Disqus
-discus_identifier: #amaynez-github-io # Add your discus identifier
-comments_curtain: no # leave empty to show the disqus embed directly
+# Comments
+comments: utteranc  #[disqus, utteranc]
+comments_opts:
+  comments_curtain: yes # leave empty to show the disqus embed directly
+  repo: SimonDarksideJ/comments.SimonDarksideJ.github.io # The GitHub repo URL.  https://utteranc.es/
+  issue_term: darkgenesis blog comment # The GitHub issue label
+  label: comments # The GitHub comments label
+  theme: github-dark # The GitHub comment's there. e.g. github-dark
+  # Disqus
+  discus_identifier: # Add your discus identifier
 
 # Tracker
 analytics: G-S2P4W0VHVB # UA-33026449-1
