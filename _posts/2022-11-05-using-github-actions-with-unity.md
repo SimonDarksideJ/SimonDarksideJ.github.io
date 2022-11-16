@@ -91,7 +91,7 @@ The GitHub actions [Starter Workflows](https://github.com/actions/starter-workfl
 * [code-scanning](code-scanning): solutions for [Code Scanning](https://github.com/features/security)
 * [pages](pages): solutions for Pages workflows
 
-Once you learn to read and build your own worlflows, these are quite easy to follow, take the [**DotNet**](https://github.com/actions/starter-workflows/blob/main/ci/dotnet.yml) base workflow for example:
+Once you learn to read and build your own workflows, these are quite easy to follow, take the [**DotNet**](https://github.com/actions/starter-workflows/blob/main/ci/dotnet.yml) base workflow for example:
 
 ```yaml
 # This workflow will build a .NET project
