@@ -105,7 +105,7 @@ Self-Hosting is by far the cheapest option as it is your own hardware running al
 
 > Future article coming on setting up your own **Self hosted** Pipeline Agent.
 
-## Your first pipeline
+## Your first project
 
 Getting everything setup in Azure Pipelines is where you first encounter the required "management" setup for getting your automation up and running, on top of your GitHub source control, Azure treats your automation like a full-fledged project, providing many tools to manage and organise everything from:
 
