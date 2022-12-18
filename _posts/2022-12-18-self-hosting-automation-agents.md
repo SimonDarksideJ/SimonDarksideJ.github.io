@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Using Azure Pipelines with Unity
+title: Self Hosting automation agents - a guide
 date: 2022-12-18 14:00 +0000
-description: Making the most of GitHub Actions to automate your Unity testing
+description: To conclude the series on automation, here are the final steps to setup Agents on your own hardware
 img: posts/20221218/00-automation.gif
-category: Azure Pipelines
+category: Automation
 tags:
 - azure
 - github
