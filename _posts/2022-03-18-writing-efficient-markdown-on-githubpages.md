@@ -12,7 +12,7 @@ github:
 mathjax: false
 ---
 
- Thanks to creating your pages in [Part 1](/_posts/2022-03-08-getting-started-with-blogging-using-github-pages-and-jekyll.md) and then theming it in [Part 2](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md), you already have a nice looking site, maybe with a little flair. Now it is time to start writing some content, whether that is a blog post or a regular page for your site, you want to make writing easy and if at all possible, avoid installing any tools.
+ Thanks to creating your pages in [Part 1](/getting-started-with-blogging-using-github-pages-and-jekyll) and then theming it in [Part 2](Applying-a-theme-to-your-GitHub-pages-site), you already have a nice looking site, maybe with a little flair. Now it is time to start writing some content, whether that is a blog post or a regular page for your site, you want to make writing easy and if at all possible, avoid installing any tools.
 
  Well, thankfully GitHub still has your back thanks to the awesome [VSCode](https://code.visualstudio.com/) for the web editor built right into the GitHub website.
 
@@ -205,9 +205,9 @@ After mastering images, linking to previous posts on your site works in pretty m
 
 > ``` [<Readable Text>](<Local Link to post>) ```
 
-For example, the link to the [previous chapter](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md) would be:
+For example, the link to the [previous chapter](/Applying-a-theme-to-your-GitHub-pages-site) would be:
 
-> ```[previous chapter](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md)```
+> ```[previous chapter](/Applying-a-theme-to-your-GitHub-pages-site)```
 
 Where you can see the text I used in the example.  Nice and simple.
 
@@ -215,7 +215,7 @@ Where you can see the text I used in the example.  Nice and simple.
 
 But we can go further, if you also want to link to a specific section in your article, you can add a quick-link to jump straight to it by referring to the header name.
 
-For Example, if you want to jump to the "Where to get these mysterious themes" section of the [Previous Post](/_posts/2022-03-11-Applying-a-theme-to-your-GitHub-pages-site.md#where-to-get-these-mysterious-themes), you would simply append the name of the section to the end of the URL.
+For Example, if you want to jump to the "Where to get these mysterious themes" section of the [Previous Post](/Applying-a-theme-to-your-GitHub-pages-site#where-to-get-these-mysterious-themes), you would simply append the name of the section to the end of the URL.
 
 ![Jumping to a header section](/assets/img/posts/20220318/selecting-headers-in-posts.gif)
 

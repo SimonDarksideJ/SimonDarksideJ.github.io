@@ -79,7 +79,7 @@ The alternative is to "**Self Host**", simply meaning that instead of using a Gi
 
 Self-Hosting is by far the cheapest option as it is your own hardware running all the tasks and GitHub will not charge you a thing.
 
-> [Setting up Self-hosted agents](https://darkgenesis.zenithmoon.com/self-hosting-automation-agents.html)
+> [Setting up Self-hosted agents](/self-hosting-automation-agents)
 
 ## Your first workflow
 
