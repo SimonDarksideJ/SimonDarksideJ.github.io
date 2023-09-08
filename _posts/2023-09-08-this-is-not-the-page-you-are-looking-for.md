@@ -1,7 +1,7 @@
 ---
 layout: post
 title: This is not the page you were looking for!
-date: 2023-09-08 14:00 +0000
+date: 2023-09-08 00:00 +0000
 description: Things may not be what they seem when building your Jekyll based blog site, when pages collide it does not end well.
 img: posts/20230908/title.gif
 category: Automation
