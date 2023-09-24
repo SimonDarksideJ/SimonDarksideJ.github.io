@@ -37,6 +37,7 @@ Kicking things off, right at the beginning, here is a guide to getting started w
 * [MonoGame, Start!](#monogame-start)
 * [Build and Test](#build-and-test)
 * [The Content Pipeline](#the-content-pipeline)
+* [Debugging](#debugging)
 
 ## Starting fresh
 
