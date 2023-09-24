@@ -83,9 +83,11 @@ Thankfully, the .NET SDK is backwards compatible with previous versions, so inst
 
 With the "C# Dev Kit" installed, we get a bunch of new commands to use in Visual Studio Code, which can be accessed by pressing:
 
-* Windows | F1
-* Windows and Linux | Control + Shift + P
-* Mac | Command + Shift + P
+|Platform|Key Binding|
+|-|-|
+| Windows | F1|
+| Windows and Linux | Control + Shift + P|
+| Mac | Command + Shift + P|
 
 This will open up a bar at the top of the screen with a bunch of commands.  It also includes a handy search feature (because there is a command for almost anything), so if you type "**.NET**", you should see the following:
 
@@ -93,13 +95,13 @@ This will open up a bar at the top of the screen with a bunch of commands.  It a
 
 If you do not already have a .NET SDK installed, you will be greeted with a nice prompt / warning Window, as shown below:
 
-![DotNet command list](/assets/img/posts/20230923/03-dotnet_sdk.png)
+![DotNet SDK Warning](/assets/img/posts/20230923/03-dotnet_sdk.png)
 
 Which is simply informing you that you have something else to install to begin, this is not a VSCode extension and like .NET Framework installers previously, is not something you install in VSCode, but into your system instead.  So, click on the "**Get the SDK**" link (which will open a browser) and you can then download and run the latest .NET SDK installer from there.
 
 ### > You should also close VSCode at this point, to ensure everything is clean and ready for your return!
 
-![DotNet command list](/assets/img/posts/20230923/04-dotnet_installer.png)
+![DotNet Installer](/assets/img/posts/20230923/04-dotnet_installer.png)
 
 Click Install and follow the instructions (if any) to complete the setup to proceed.
 
@@ -109,13 +111,13 @@ Ok, so you have all the prerequisites installed, what now?  Well, we start using
 
 Let us begin by starting up VSCode again, we get the familiar screen, but not much has changed, we are simply prepared and ready to actually begin using MonoGame, we have the tools so let us begin!
 
-![DotNet command list](/assets/img/posts/20230923/05-Terminal.png)
+![Launching the Terminal window](/assets/img/posts/20230923/05-Terminal.png)
 
 Welcome to the Terminal screen, you will be spending quite a bit of time here.  I have often heard that some developers miss a GUI at this point and it is a fair quip, however, The is great because it is the same process on ANY platform, and you may find it more comforting, with the same tools, the same commands and likely the same coffee!
 
 Start up the Terminal Window using the above menu and you will be presented with a Terminal/command-line window ready to process your commands, as shown below:
 
-![Shall we play a game?](/assets/img/posts/20230923/09-Terminalprompt.png)
+![Shall we play a game?](/assets/img/posts/20230923/09-Terminal_prompt.png)
 
 From here, we are simply following the steps laid out in [my previous article](https://darkgenesis.zenithmoon.com/monogame-roundup-2023.html#the-monogame-toolchain) and in the [MonoGame "Getting Started" guides](https://docs.monogame.net/articles/getting_started/0_getting_started.html), first type the following to install the MonoGame DotNet project templates:
 
@@ -161,10 +163,12 @@ dotnet new mgdesktopgl -o MyGame
 
 Which is comprised of:
 
-* dotnet | the DotNet command tool.
-* new | I want to make a new project, please sir.
-* mgdesktopgl | The MonoGame project template to use, from the list of templates installed, see the previous image above, shown in the red box.
-* -o MyGame | Create a project called MyGame in a folder called MyGame.
+|Tool|Description|
+|-|-|
+|dotnet | the DotNet command tool|
+|new| I want to make a new project, please sir|
+| mgdesktopgl | The MonoGame project template to use, from the list of templates installed, see the previous image above, shown in the red box|
+| -o MyGame | Create a project called MyGame in a folder called MyGame|
 
 There, you now have a new MonoGame Project built and ready to use, including the MGCB content tool, it is no longer a separate install, it is built into the project itself. (I can imagine how many hours that will save me managing it separately).
 
@@ -188,10 +192,12 @@ This compiles and checks your code can build, it also restores any tools, downlo
 
 Comprising of:
 
-* MyGame | your game code folder.
-* bin | the Binary output folder.
-* debug | the build mode your project was compiled under (usually debug or release depending on how you built it).
-* net6.0 | the framework the project was compiled with (MonoGame is currently using .NET 6)
+|Path Segment|Description|
+|-|-|
+| MyGame | your game code folder|
+| bin | the Binary output folder|
+| debug | the build mode your project was compiled under (usually debug or release depending on how you built it)|
+| net6.0 | the framework the project was compiled with (MonoGame is currently using .NET 6)|
 
 In the final folder, you will find an executable of the same name as your project (```MyGame.exe``` in my case on Windows, it will be different for other platforms) which you can run.
 
@@ -235,9 +241,11 @@ VSCode also has the ability to debug .NET projects in the same way that Visual S
 
 To setup debugging, open the Command Palette using
 
-* Windows | F1
-* Windows and Linux | Control + Shift + P
-* Mac | Command + Shift + P
+|Platform|Key Binding|
+|-|-|
+| Windows | F1|
+| Windows and Linux | Control + Shift + P|
+| Mac | Command + Shift + P|
 
 Once open, type the search criteria "**Generate**" and locate the **.NET Generate Assets for Build and Debug** command and click it (or hit return/enter) as shown in the image below:
 
