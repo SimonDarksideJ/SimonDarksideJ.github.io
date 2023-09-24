@@ -117,7 +117,7 @@ Welcome to the Terminal screen, you will be spending quite a bit of time here.  
 
 Start up the Terminal Window using the above menu and you will be presented with a Terminal/command-line window ready to process your commands, as shown below:
 
-![Shall we play a game?](/assets/img/posts/20230923/09-Terminal_prompt.png)
+![Shall we play a game?](/assets/img/posts/20230923/09-terminal_prompt.png)
 
 From here, we are simply following the steps laid out in [my previous article](https://darkgenesis.zenithmoon.com/monogame-roundup-2023.html#the-monogame-toolchain) and in the [MonoGame "Getting Started" guides](https://docs.monogame.net/articles/getting_started/0_getting_started.html), first type the following to install the MonoGame DotNet project templates:
 
