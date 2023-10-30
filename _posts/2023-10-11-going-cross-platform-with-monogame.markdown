@@ -27,7 +27,7 @@ Most Game projects when built are solely for a single platform, usually the same
 * [Interfaces are your friend](#interfaces-are-your-friend)
 * [Code first for platforms](#code-first-for-platforms)
 * [Shared content](#shared-content)
-* [Handling multiple content types](#handling-multiple-content-types)
+* [Handling multiple content types](#handling-multiple-content-types-high-deflow-def)
 * [Building the project with DotNet commands](#building-the-project-with-dotnet-commands)
 
 ## Choosing your path
