@@ -1,8 +1,8 @@
 ---
 layout: post
-title: MonoGame, meet VSCode
-date: 2023-09-23 00:00 +0000
-description: The fastest way to get started with MonoGame is to install VSCode and from there install the tools, everything in one place!.
+title: Going cross-platform with MonoGame
+date: 2023-10-11 00:00 +0000
+description: Building for one platform is great, but why not maximise your reach and potential sales with more using the SAME code!
 img: posts/20231011/title.gif
 category: MonoGame
 tags:
