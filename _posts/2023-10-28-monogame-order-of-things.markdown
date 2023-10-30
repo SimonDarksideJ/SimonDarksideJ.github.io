@@ -1,7 +1,7 @@
 ---
 layout: post
 title: MonoGame, the order of things!
-date: 2023-09-23 00:00 +0000
+date: 2023-10-28 00:00 +0000
 description: Every engine, framework and operation has a specific order to their events.  This post outlines the execution order for MonoGame projects.
 img: posts/20231028/title.gif
 category: MonoGame
