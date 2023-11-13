@@ -9,13 +9,13 @@ tags:
 - game development
 - xna
 - monogame
--GameJam
+- gamejam
 author: Simon Jackson
 github: https://github.com/SimonDarksideJ/GameStateManagementSample
 mathjax: false
 ---
 
-![Coding is Life](/assets/img/posts/20231113/01-gamedev.gif)
+![GameDev Jam for life!](/assets/img/posts/20231113/01-gamedev.gif)
 
 > TL;DR -> Getting started with MonoGame is easy, mastering it takes time. So, throw all that out the window and get hacking instead!
 
