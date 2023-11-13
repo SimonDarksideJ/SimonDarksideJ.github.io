@@ -11,7 +11,7 @@ tags:
 - monogame
 - gamejam
 author: Simon Jackson
-github: https://github.com/SimonDarksideJ/GameStateManagementSample
+github: SimonDarksideJ/GameStateManagementSample
 mathjax: false
 ---
 

@@ -10,7 +10,7 @@ tags:
 - xna
 - monogame
 author: Simon Jackson
-github: https://github.com/MonoGame/MonoGame
+github: MonoGame/MonoGame
 mathjax: false
 ---
 
