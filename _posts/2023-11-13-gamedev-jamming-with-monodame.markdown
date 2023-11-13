@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GameDev jamming with MonoGame
-date: 2023-11-23 00:00 +0000
+date: 2023-11-13 00:00 +0000
 description: GameDev jams are the best way to throw yourself into the deep end and try things you never thought possible, like learning a new framework/engine.  Here is a quick starter!
 img: posts/20231113/title.gif
 category: MonoGame
