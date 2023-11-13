@@ -19,7 +19,7 @@ mathjax: false
 
 > TL;DR -> Getting started with MonoGame is easy, mastering it takes time. So, throw all that out the window and get hacking instead!
 
-![MonoGameJam5](https://img.itch.zone/aW1nLzEzOTY3NzYzLnBuZw==/original/j3bQh1.png)
+[![MonoGameJam5](https://img.itch.zone/aW1nLzEzOTY3NzYzLnBuZw==/original/j3bQh1.png)](https://itch.io/jam/monogamejam5)
 
 The [5th annual MonoGameJam](https://itch.io/jam/monogamejam5) is kicking off soon on the **30th November 2023**, which is by far one of the best ways to throw yourself into [MonoGame](https://www.monogame.net/) and learn something new:
 
