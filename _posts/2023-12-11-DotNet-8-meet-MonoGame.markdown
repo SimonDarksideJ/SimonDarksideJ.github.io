@@ -14,9 +14,13 @@ github: ""
 mathjax: false
 ---
 
+> TL;DR -> .NET 8 language support is now available for MonoGame and opening up a whole new world of goodness and speed for games.
+
 ![Get the .NET8 Party started](/assets/img/posts/20231211/getthepartystarted.gif)
 
-> TL;DR -> .NET 8 language support is now available for MonoGame and opening up a whole new world of goodness and speed for games.
+> ###### *Note, the information contained below is for those developers who want access to the cutting edge, as it requires access to the development source. (with the exception of [upgrading your game to .NET 8](#actually-you-can-build-net-8-already))
+>
+> ###### The full release of the .NET 8 MonoGame support will be included with the 3.9 release, coming soon.
 
 MonoGame may have seemed stagnant or unmoving in the past, mainly because of the rigors of a group of developers working unpaid on the development of an OpenSource framework, meaning the focus had to be on what enabled the developers to make money in their own projects based on MonoGame.  But thanks to recent investments by ReLogic and our awesome MonoGame community, the MonoGame Foundation was born and more significant investments could be made.
 
