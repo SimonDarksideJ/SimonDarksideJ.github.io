@@ -51,9 +51,9 @@ Initially, not much.  Apart from inheriting .NET 8's inherent speed upgrades and
 
 What this does enable however, is for MonoGame to start utilizing some of the additional features enabled with the latest and greatest .NET framework, namely:
 
-* [Improved Serialization.](https://learn.microsoft.com/en-us/.NET/core/whats-new/.NET-8#serialization) with even more control over serialization configuration.
-* [Stream-based ZipFile methods.](https://learn.microsoft.com/en-us/.NET/core/whats-new/.NET-8#stream-based-zipfile-methods)
-* [Even more methods for working with randomness.](https://learn.microsoft.com/en-us/.NET/core/whats-new/.NET-8#methods-for-working-with-randomness)
+* [Improved Serialization.](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#serialization) with even more control over serialization configuration.
+* [Stream-based ZipFile methods.](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#stream-based-zipfile-methods)
+* [Even more methods for working with randomness.](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8#methods-for-working-with-randomness)
 
 While it will take time to fully realize some of these benefits in the core part of the MonoGame library, initially providing advantages in the Content Pipeline and the writing of some really cool [Content Pipeline extensions](https://www.youtube.com/watch?v=5mEQqCgTaLU&ab_channel=TheDarksideofMonoGame), which are a fantastic way to fully empower your content in any MonoGame project.
 
@@ -236,6 +236,6 @@ To the beginner, this upgrade will not mean much at all, except to state that yo
 
 For the more adventurous, newer C# features and .NET 8 specific functionality are now within your project, so much so that I couldn't fit them into a single article :D
 
-> ### [But you can check out the .NET 8 docs for even more details.](https://learn.microsoft.com/en-us/.NET/core/whats-new/.NET-8)
+> ### [But you can check out the .NET 8 docs for even more details.](https://learn.microsoft.com/en-us/dotnet/core/whats-new/dotnet-8)
 
 I wish you well on your continuing adventure with MonoGame and make sure to keep an eye on what the Foundation will promise next (but no Galactic Empire falls predicted yet if you are watching the Foundation TV series).
