@@ -2,7 +2,16 @@
 layout: post
 title: Getting started with MonoGame using XML
 date: 2017-05-31 19:24:35
-tags: [content pipeline, monogame]
+description: The journey has begun and the road to building .NET 8 based games has begun.
+img: posts/20170531/title.png
+category: MonoGame
+tags:
+- content pipeline
+- xml
+- monogame
+author: Simon Jackson
+github: "https://github.com/SimonDarksideJ/XMLContentLoading/"
+mathjax: false
 ---
 
 For some time now I have been asked if I would do a session on the “Darkside of MonoGame” about using XML with MonoGame and the Content Pipeline, for a while I put it off as I had my own schedule and agenda with the channel.  Eventually I got worn down and I have succumbed to the demands of my viewers (it can happen ![Open-mouthed smile](/assets/img/wordpress/2017/05/wlEmoticon-openmouthedsmile.png))
