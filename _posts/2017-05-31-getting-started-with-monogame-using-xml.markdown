@@ -216,7 +216,8 @@ Populate an instance of your class data in code and then output the resultant Co
 When generating it yourself or through the Content Pipeline tool, you should be starting with the following default schema:
 
 ```xml
-    <?xml version="1.0" encoding="utf-8"?><xnacontent xmlns:ns="Microsoft.Xna.Framework">
+    <?xml version="1.0" encoding="utf-8"?>
+    <xnacontent xmlns:ns="Microsoft.Xna.Framework">
       <asset type="Object">
       </asset>
     </xnacontent>
@@ -229,7 +230,8 @@ Within that, you then have an `Asset` node which tells the content pipeline what
 Using the same example we used earlier, the resultant XML would look as follows:
 
 ```xml
-    <?xml version="1.0" encoding="utf-8"?><xnacontent>
+    <?xml version="1.0" encoding="utf-8"?>
+    <xnacontent>
       <asset type="MyXMLData.MyLevel">
         <levelname>explosion</levelname>
         <maxenemies>50</maxenemies>
@@ -272,7 +274,7 @@ _A successful build ![Open-mouthed smile](/assets/img/wordpress/2017/05/wlEmotic
 Once loaded it can be accessed anywhere in your game by simply calling:
 
 ```xml
-    MyXMLData.MyLevel Level1 = Content.Load\<MyXMLData.MyLevel\>("Level1");
+    MyXMLData.MyLevel Level1 = Content.Load<MyXMLData.MyLevel>("Level1");
 ```
 
 ## The Sample
