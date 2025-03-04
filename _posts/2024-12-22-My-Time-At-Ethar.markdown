@@ -43,10 +43,13 @@ Simply put, in the digital universe of content and data, we can reliably place a
 
 > Only what the user wants to see and is allowed to see is presented, a keen distinction, no clutter.
 
-|![Retail solutions where vendor content is discovered and displayed virtually to meet the vendor's needs](/assets/img/posts/20241222/Retail_Clip.webm)|
+{% Video assets/img/posts/20241222/Retail_Clip.webm 500 400 %}
+
 | :---: |
 | **Retail solutions where vendor content is discovered and displayed virtually to meet the vendor's needs.** |
-|![Browsing the high street and discovering offers and promotions from vendors](/assets/img/posts/20241222/Entertainment_Clip.webm)|
+
+{% Video assets/img/posts/20241222/Entertainment_Clip.webm 500 400 %}
+
 | :---: |
 | **Browsing the high street and discovering offers and promotions from vendors.** |
 
@@ -79,7 +82,8 @@ At [Ethar](https://www.ethar.com/), as we specialize in cross-platform integrati
 
 And we do not limit what kinds of content and capabilities can be achieved with the hardware available, such as the 2D holograms shown below that can be captured, preserved and then used in digital recreations in the augmented world.
 
-|![A 2D Hologram that has been captured on a device and then placed in the world world](/assets/img/posts/20241222/Education_Clip.webm)|
+{% Video assets/img/posts/20241222/Education_Clip.webm 500 400 %}
+
 | :---: |
 | **A 2D Hologram that has been captured on a device and then placed in the world world.** |
 
@@ -93,15 +97,15 @@ VR training has already demonstrated significant cost reductions and higher adhe
 
 [Ethar](https://www.ethar.com/) is at the forefront of developing solutions fully integrated with XR and AI to both simplify and enhance training and processes, ultimately reducing the costs involved and also improving safety in the workplace. We are heavily invested in building solutions that are both extensible and effective in improving outcomes in training, rehearsal, and active engagement while performing processes. Work in essence should be assisted digitally and where needed, also tracked (should the need require validation) to greatly improve safety and reduce ongoing costs.
 
-|![XR-assisted training, identifies the world as seen by the operative and assisted through AI recognition and support](/assets/img/posts/20241222/Industry_Clip.webm)|
+{% Video assets/img/posts/20241222/Industry_Clip.webm 500 400 %}
+
 | :---: |
 | **XR-assisted training, identifies the world as seen by the operative and assisted through AI recognition and support.** |
 
 ## Discovering hidden worlds through Augmented Reality
 
--> Portal video
+{% Video assets/img/posts/20241222/Portal-demonstration.webm 500 400 %}
 
-|![An AR portal into another world](/assets/img/posts/20241222/Portal-demonstration.webm)|
 | :---: |
 | **An AR portal into another world.** |
 
