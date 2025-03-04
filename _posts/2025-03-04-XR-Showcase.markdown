@@ -34,7 +34,8 @@ The solution even goes so far as to be able to enable anyone with a mobile devic
 
 When users engage with lifelike characters, it creates that "appear" in space, they form a better connection with the content over using a traditional photo (and infinitely more repeatable than having some pour soul wait at the door for every attendee).
 
-|{% Video /assets/img/posts/20250304/2DHolograms.webm 500 400 %}|
+{% Video assets/img/posts/20250304/2DHolograms.webm 500 400 %}
+
 | :---: |
 | **Reality verses the digital Universe, as a 2D human hologram faces off against a 3D character** |
 
@@ -54,7 +55,8 @@ Depending on the scope of the project, characters can be embedded within the sol
 
 I have always focused on reusability and delivering frameworks to build such interactivity, this creates massive cost savings as newer exhibits are rolled out, as well as the ability for installations to manage their own content and not incur residual charges.
 
-|{% Video /assets/img/posts/20250304/CharacterPromo.webm 500 400 %}|
+{% Video assets/img/posts/20250304/CharacterPromo.webm 500 400 %}
+
 | :---: |
 | **The awesome [Ada Lovelace](https://en.wikipedia.org/wiki/Ada_Lovelace) comes in for a chat to the Signals Museum.** |
 
