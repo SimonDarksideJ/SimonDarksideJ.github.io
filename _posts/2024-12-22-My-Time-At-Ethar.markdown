@@ -3,7 +3,7 @@ layout: post
 title: My Time at Ethar
 date: 2024-12-22 00:00 +0000
 description: A walk through the awesome real-world delivered solutions at Ethar.
-img: posts/20241222/title.gif
+img: posts/20241222/title.png
 category: XR
 tags:
 - xr
@@ -43,10 +43,10 @@ Simply put, in the digital universe of content and data, we can reliably place a
 
 > Only what the user wants to see and is allowed to see is presented, a keen distinction, no clutter.
 
-|[Retail solutions where vendor content is discovered and displayed virtually to meet the vendor's needs](/assets/img/posts/20241222/Retail_Clip.webm)|
+|![Retail solutions where vendor content is discovered and displayed virtually to meet the vendor's needs](/assets/img/posts/20241222/Retail_Clip.webm)|
 | :---: |
 | **Retail solutions where vendor content is discovered and displayed virtually to meet the vendor's needs.** |
-|[Browsing the high street and discovering offers and promotions from vendors](/assets/img/posts/20241222/Entertainment_Clip.webm)|
+|![Browsing the high street and discovering offers and promotions from vendors](/assets/img/posts/20241222/Entertainment_Clip.webm)|
 | :---: |
 | **Browsing the high street and discovering offers and promotions from vendors.** |
 
@@ -79,7 +79,7 @@ At [Ethar](https://www.ethar.com/), as we specialize in cross-platform integrati
 
 And we do not limit what kinds of content and capabilities can be achieved with the hardware available, such as the 2D holograms shown below that can be captured, preserved and then used in digital recreations in the augmented world.
 
-|[A 2D Hologram that has been captured on a device and then placed in the world world](/assets/img/posts/20241222/Education_Clip.webm)|
+|![A 2D Hologram that has been captured on a device and then placed in the world world](/assets/img/posts/20241222/Education_Clip.webm)|
 | :---: |
 | **A 2D Hologram that has been captured on a device and then placed in the world world.** |
 
@@ -93,7 +93,7 @@ VR training has already demonstrated significant cost reductions and higher adhe
 
 [Ethar](https://www.ethar.com/) is at the forefront of developing solutions fully integrated with XR and AI to both simplify and enhance training and processes, ultimately reducing the costs involved and also improving safety in the workplace. We are heavily invested in building solutions that are both extensible and effective in improving outcomes in training, rehearsal, and active engagement while performing processes. Work in essence should be assisted digitally and where needed, also tracked (should the need require validation) to greatly improve safety and reduce ongoing costs.
 
-|[XR-assisted training, identifies the world as seen by the operative and assisted through AI recognition and support](/assets/img/posts/20241222/Industry_Clip.webm)|
+|![XR-assisted training, identifies the world as seen by the operative and assisted through AI recognition and support](/assets/img/posts/20241222/Industry_Clip.webm)|
 | :---: |
 | **XR-assisted training, identifies the world as seen by the operative and assisted through AI recognition and support.** |
 
@@ -101,7 +101,7 @@ VR training has already demonstrated significant cost reductions and higher adhe
 
 -> Portal video
 
-|[An AR portal into another world](/assets/img/posts/20241222/Portal-demonstration.webm)|
+|![An AR portal into another world](/assets/img/posts/20241222/Portal-demonstration.webm)|
 | :---: |
 | **An AR portal into another world.** |
 
@@ -113,7 +113,7 @@ Technology keeps moving on and the techniques are challenging to implement corre
 
 One of the partners we integrate with is the Reality Collective who specialize in a cross-platform framework for building XR solutions, they provide both an extensive [Service Framework](https://serviceframework.realitycollective.net/) that simplifies the creation of a robust multi-platform solution as well as an advanced cross-platform XR framework (the [Reality Toolkit](https://realitytoolkit.realitycollective.net/)) that accelerates XR development (primarily focused on VR solutions at the moment)
 
-|[The Reality Toolkit by the Reality Collective](/assets/img/posts/20241222/RealityToolkit.png)|
+|![The Reality Toolkit by the Reality Collective](/assets/img/posts/20241222/RealityToolkit.png)|
 | :---: |
 | **The Reality Toolkit and Service Framework by the Reality Collective.** |
 
