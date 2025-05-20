@@ -3,18 +3,19 @@ layout: post
 title: HoloToolkit to MRTK and Beyond
 date: 2025-05-15 00:00 +0000
 description: The journey of the Microsoft HoloToolkit for HoloLens, the evolution of the MRTK and the journey onwards.
-img: posts/20250304/title.gif
+img: posts/20250515/title.gif
 category: XR
 tags:
 - xr
 - ar
 - unity3d
 author: Simon Jackson
-github: ""
 mathjax: false
 ---
 
 > TL; DR -> I am immensely proud of my achievements evolving the [MS HoloToolkit](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/2017.4.2.0) into the cross-platform framework that became the [MS Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v2.8.3), and the journey onwards to crafting framework components for the [XRTK](https://github.com/XRTK) and finally the [Reality Collective](https://www.realitycollective.net/).
+
+![The Journey](/assets/img/posts/20250515/HoloJourney.png)
 
 It seems almost a lifetime ago before I was invited into the Microsoft HoloToolkit team following a strong suggestion by [Stephen Hodgson](https://github.com/rageagainstthepixel) who was already working closely with Microsoft.  I had already been working in the XR space for some time and my experiences and skillz seemed a good fit to take things forward.  I did not know at the time just how far forward we would go!
 
@@ -63,7 +64,7 @@ This renewed architecture delivered a vast array of possibilities and performanc
 
 In short, instead of completely rebuilding a project using another vendor's SDK or Hardware API, the project is written against a common interface and a new platform is simply added to deliver the data needed to run the framework.
 
-## What went right
+### What went right
 
 The framework itself was a huge success and adoption was quick due to pre-built configuration profiles being delivered with the project, what would originally take several hours with the HoloToolkit (or other competitive XR packages) now took minutes, as intended the focus was now driven to building out UX, experience and content over "getting things working".
 
@@ -73,7 +74,7 @@ Microsoft kept expanding the UI framework with new features to further enhance p
 
 HoloLens 2 slotted right in with the new framework, and any existing projects that were built for HoloLens 1 using the new toolkit automatically inherited HoloLens 2 deployment with no changes.  Granted, with any new device there are new features and capabilities, but these were extensions on top of the existing framework, making adoption easier.
 
-## What could have gone better
+### What could have gone better
 
 With time and budgets, there was no scope to provide an upgrade path from the original HoloToolkit to the new MRTK, there had already been a lot of angst over recent changes to the HoloToolkit and refactoring/restructuring of how the legacy toolkit was delivered.  It was a short term pain and a lot of guidance was provided on how to "step up" quickly to upgrade projects.  But in reality, projects needed to be re-built from the ground up with how the new toolkit functioned.  (Sadly an experience to be repeated when the Microsoft team decided to re-engineer the MRTK with Unity's XRI Framework for MRTK3).
 
@@ -153,7 +154,6 @@ The Reality Toolkit is where is all began, now stripped down to just the essenti
 
 And so much more, and due to the componentized nature, you only need take in those components you want or need to use.
 
-> [!NOTE]
 > Interestingly, when the MRTK raised up to V3, they took a similar approach to the Reality Toolkit and separated out the Service Infrastructure for Unity's XRI platform. They then tried to re-create the patterns of the Service Framework into the XR Subsystems, trying to retain the approach used by the XRTK/Reality Collective.
 >
 > However it became too cumbersome for users to migrate to, some of those projects with existing MRTK V2 services actually included the Service Framework instead as it meant they could reuse what they had already built with little rework.
