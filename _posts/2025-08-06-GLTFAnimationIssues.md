@@ -13,7 +13,7 @@ author: Simon Jackson
 mathjax: false
 ---
 
-> TL; DR -> Unity has its ways and not all are obvious and easy to overcome, one such issue is with 3D model animations.  In short, although animations will play automatically, as times they just don't and it is very unclear why, so in this solution, we FORCE animations to run, trusting not our fate to the Unity gods whims.
+> TL; DR -> Unity has its ways, and not all are obvious or easy to overcome, one such issue is with 3D model animations.  In short, although animations will play automatically, other times they just do not and it is very unclear why. In this solution, we FORCE animations to run, trusting not our fate to the Unity gods whims.
  
 > Full disclosure, for once, this post was written supported by AI (Claude Sonnet 4 in this case), as it was the AI's intensified work that ended up finding the final solution, so it deserves some credit too.  Although as a rule, I generally only write myself, with the occasional help of a spell/grammar checker :D
 
