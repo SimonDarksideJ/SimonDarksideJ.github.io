@@ -2,13 +2,13 @@
 layout: post
 title: Can you make a game with AI
 date: 2025-08-23 00:00 +0000
-description: In my yearly/bi-annual experiments with AI, I try and makes games for popular engines using just AI.  Oh what fun.
+description: In my yearly/biannual experiments with AI, I try and make games for popular engines using just AI. Oh what fun.
 img: posts/20250823/title.gif
 category: XR
 tags:
-- xr
-- ar
-- unity3d
+- AI
+- monogame
+- tools
 author: Simon Jackson
 mathjax: false
 ---
@@ -21,9 +21,9 @@ mathjax: false
 
 As ever progress marches on whether we want it to or not and with the ever increasing power that AI brings, everyone gets split into one of three groups:
 
-* Hay, I can replace people with a prompt and just build project X using less resources (completely false, as the total cost of AI far exceeds the cost of humans)
-* AI is evil and only scrapes resources form other hard working developers and should be avoided at all costs.
-* AI is a tool, if used properly it can accelerate my work.  So long as I also understand, that while not intentionally evil, it is planning to make my life more difficult later!
+* Hey, I can replace people with a prompt and just build project X using fewer resources (completely false, as the total cost of AI far exceeds the cost of humans)
+* AI is evil and only scrapes resources from other hard-working developers and should be avoided at all costs.
+* AI is a tool; if used properly, it can accelerate your work. However, it can also introduce complexity and challenges if not managed carefully!
 
 Want to see what AI can do for your game development, check the latest result of my adventures :D
 
@@ -31,13 +31,13 @@ Want to see what AI can do for your game development, check the latest result of
 | :---: |
 |**Figure 1: MechRampage Final render**|
 
-In this article I will detail the latest generation in my experiments with using AI in game development, the terrors, the hail mary's and the pitfalls.  As well as some useful guidance for those new to the field.
+In this article I will detail the latest generation in my experiments with using AI in game development, the terrors, the hail Marys, and the pitfalls. As well as some useful guidance for those new to the field.
 
 ## The project definition
 
-For this run, I went with a more complicated outline that I have done in the past, mainly due to the experiences I have built up this year, but also to challenge myself and the AI a little more.
+For this run, I went with a more complicated outline than I have done in the past, mainly due to the experiences I have built up this year, but also to challenge myself and the AI a little more.
 
-> Past experiments involved simple block pusher games, 2D shooters or even snake, just to give the AI a chance.  *Note, no, it failed to get close most times.
+> Past experiments involved simple block pusher games, 2D shooters, or even snake, just to give the AI a chance. *Note, no, it failed to get close most times.
 
 This was the outline brief I went with:
 
@@ -75,20 +75,20 @@ Everyone seems to believe that getting the best result out of AI is to create th
 | :---: |
 |**This is simply wrong, at least in this day and age.**|
 
-Whereas in the past, a simple quick question or request would be enough to accomplish a simple task, it would almost never be what you needed.  Even code intellisense, while useful would more often than not just "get in the way" while you ar ein the zone.
+Whereas in the past, a simple quick question or request would be enough to accomplish a simple task, it would almost never be what you needed. Even code intellisense, while useful, would more often than not just "get in the way" while you are in the zone.
 
-The resolution to the "quick" answer is effectively to go long, not in the question, but in the context or framework that you provide "up front" to the AI machine in order to essentially give it a frame or reference.  This is defined as a precursor document or instruction guide, each tool you use has its own version of this:
+The resolution to the "quick" answer is effectively to go long, not in the question, but in the context or framework that you provide "up front" to the AI machine in order to essentially give it a frame of reference. This is defined as a precursor document or instruction guide; each tool you use has its own version of this:
 
 * VSCode uses a `copilot-instructions.md` guide.
 * Anthropic uses a `claude.md` document.
 
-And other have their own variations, but they all surmise to the same thing, a document that describes such things as:
+And others have their own variations, but they all surmise to the same thing: a document that describes such things as:
 
 * The aim of the project (the document is meant to be system wide).
 * The architectural principles of the project.
 * How the AI should go about any task (more on that in the [Planning](#planning) section).
 * Any key resources that should always be used.
-* What are the strict rules that must be followed (my favourite with Unity projects is to remind the AI that Unity DOES NOT use DotNet cli commands).
+* What are the strict rules that must be followed (my favorite with Unity projects is to remind the AI that Unity DOES NOT use DotNet CLI commands).
 * Instructions on what the output should be, any documents that need to be maintained.
 
 And in the strictness sense of the term, MORE is better, the more you put in, the better your result will be.
@@ -112,7 +112,7 @@ But let us continue.
 
 ### Planning
 
-A key difference to the way most prompting works, especially if you use AI on your mobile devices or via chats on the web, is using the AI to "Plan" ahead before it even touches code.  this will guide it to define a set of tasks and a breakdown of what it is actually going to to.  This can take many forms, but as a starter, here is one of my most common patterns:
+A key difference to the way most prompting works, especially if you use AI on your mobile devices or via chats on the web, is using the AI to "Plan" ahead before it even touches code. This will guide it to define a set of tasks and a breakdown of what it is actually going to do. This can take many forms, but as a starter, here is one of my most common patterns:
 
 > #### Planning Approach
 >
@@ -122,14 +122,14 @@ A key difference to the way most prompting works, especially if you use AI on yo
 > * Strategy Development: Create comprehensive implementation plans with clear steps
 > * Risk Assessment: Consider edge cases, potential issues, and alternative approaches
 
-These steps effectively FORCE the AI to actually think about what it is going to do ahead of time, give you time to evaluate and guide its instruction and testing to ensure what you WANT it to build.
+These steps effectively FORCE the AI to actually think about what it is going to do ahead of time, giving you time to evaluate and guide its instruction and testing to ensure what you WANT it to build.
 
 > [!TIP]
 > ALWAYS read the planning guide the AI is generating completely, you never know when it might try and sneak something past you that is either not needed or you do not want!
 
 ### MCP Servers
 
-In the fight with AI newer tools and features have come to our aid in for form of Model Context Protocol services (or MCP for short), which are essentially tools and components to help aid the AI in its journey.  You might wonder why these all powerful gods would need a little extra help and the answer is simple:
+In the fight with AI, newer tools and features have come to our aid in the form of Model Context Protocol services (or MCP for short), which are essentially tools and components to help aid the AI in its journey. You might wonder why these all-powerful gods would need a little extra help, and the answer is simple:
 
 > ALL AI tools have no memory - Every question you pose is new to the AI each time you ask it.
 
@@ -149,7 +149,7 @@ In my daily routine, the most common MCP servers I use are:
 
 |Server|Description|Use|
 |-|-|-|
-|Sequential Thinking|An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.|Provides ordered ways for the AI to handle problems and asses potential solutions, used critically in the planning phases.|
+|Sequential Thinking|An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.|Provides ordered ways for the AI to handle problems and assess potential solutions, used critically in the planning phases.|
 |Context7|Context7 MCP pulls up-to-date, version-specific documentation and code examples straight from the source — and places them directly into your prompt.|Great for forcing the AI to use product/platform specific documentation and reduces web calls to unknown third parties|
 |Memory|A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats.|INVALUABLE, used manually for the most part to stop you repeating yourself, just instruct the AI to "REMEMBER THIS" and it will add it to the Memory server to remind it both later and in-between sessions.|
 
@@ -164,11 +164,11 @@ There are many more kinds of server available as demonstrated on the [VSCode MCP
 
 If you use AI for nothing else, it is invaluable as a documentation tool. Again, I will stress it is never 100% right (although it is getting closer) so you should always review what it generates, but it will save you HOURS of writing the docs yourself, or, like in my case, actually give you some documentation to start with because you never have time to "circle back" and write something up detailed yourself.
 
-Frequently in my workflow I will take a breather, especially if a feature is close to or is complete, to ask the AI to generate documentation for that feature, it simply becomes second nature.  Although, take care, you still have to ensure (usually in your [Instructions](#instructions)) to tell it:
+Frequently in my workflow I will take a breather, especially if a feature is close to or is complete, to ask the AI to generate documentation for that feature; it simply becomes second nature. Although, take care, you still have to ensure (usually in your [Instructions](#instructions)) to tell it:
 
 * WHERE to place the documentation (else you will find it randomly through your code).
 * HOW you want the document structured.
-* and (More Importantly) the number of documents you want, ONE BIG all encompassing guide, or separate documents for each feature. (else you will keep returning to the docs to regenerate them
+* and (More Importantly) the number of documents you want, ONE BIG all-encompassing guide, or separate documents for each feature. (Otherwise, you will keep returning to the docs to regenerate them.)
 )
 
 ## Back to the show - Mech Rampage lives
@@ -187,9 +187,9 @@ This was the account of the journey in this round:
 * Started the Sequential Thinking, Context7 and Memory servers to improve the flow.
 * Kicked off the "analysis phase" by asking the AI to "Read the Instructions" and then "design the game".
 * Once the analysis was good, with a few tweaks, asked the AI to "Generate the game"
-* From here on, until I was satisfied it had completed all the tasks, the only thing I had to do (which was different that all other attempts) was ask the AI to "Continue...", repeatedly.
+* From here on, until I was satisfied it had completed all the tasks, the only thing I had to do (which was different than all other attempts) was ask the AI to "Continue...", repeatedly.
 * At the end, I attempted to run the project.....  crash...  Nothing is ever perfect the first time, not even with AI.
-* Then a repeated flow of 
+* Then a repeated flow of:
   * Test
   * Copy Error message
   * Paste to AI
@@ -200,9 +200,9 @@ This was the account of the journey in this round:
 
 Then at the end when the project was running and no new errors were found, we were done.  SHIP IT
 
-|![Ship it, what could go wrong](/assets/img/posts/20250823/shipit.gif)|
+|![Ship it, what could possibly go wrong](/assets/img/posts/20250823/shipit.gif)|
 | :---: |
-|**Ship it, what could go wrong**|
+|**Ship it, what could possibly go wrong?**|
 
 ## Lessons learned
 
@@ -217,15 +217,18 @@ We still have to keep our guard up and check the homework of the AI as it is sti
 
 In short, I would break the experience down to the following:
 
-* DO not engage in long running tasks, unless it is for a specific component.
+* Do not engage in long-running tasks, unless it is for a specific component.
 * Spend time with the AI, just doing "Continue" as I did in this experiment is generally a bad idea.
-* Look to smaller and distinct tasks to get that you need, either through direct prompting (comments in code) or through chat.
-* Mix and match and find what works for your style.
-* Do not be afraid to let the AI generate a method/refactor, but then rework the implementation yourself and delete the AI's code.  It will NOT be offended (YET)
+* Look to smaller and distinct tasks to get what you need, either through direct prompting (comments in code) or through chat.
+* Mix and match to find what works for your style.
+* Do not be afraid to let the AI generate a method/refactor, but then rework the implementation yourself and delete the AI's code. It will not be offended (yet).
 
 > [!CAUTION]
 > If you do rewrite or replace the AI's generated code between prompts/questions, **ALWAYS** ask it to read back the code or class again.
 >
 > Remember, the AI is stateless and uses only its own history for the next prompt, if you do not get it to check the latest state it will **ASSUME** it is still how the AI generated it!
 
-Have fun and live long and prosper.  I may return for another AI lesson later!
+Have fun, and live long and prosper. I may return with another AI lesson later!
+
+> [!NOTE]
+> Fun fact, I tried to get the AI to do a quick spelling/grammar check on this guide, WOAH, was I so wrong to do that :D
