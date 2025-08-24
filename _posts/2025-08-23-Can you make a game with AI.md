@@ -3,7 +3,7 @@ layout: post
 title: Can you make a game with AI
 date: 2025-08-23 00:00 +0000
 description: In my yearly/bi-annual experiments with AI, I try and makes games for popular engines using just AI.  Oh what fun.
-img: posts/20250806/title.gif
+img: posts/20250823/title.gif
 category: XR
 tags:
 - xr
@@ -107,7 +107,7 @@ Some awesome resource for working with these instructions guides can be found at
 
 But let us continue.
 
-> [!INFORMATION]
+> [!NOTE]
 > For reference, here is the [`copilot-instructions`](/assets/img/posts/20250823/copilot-instructions.md) that I used for the "Mech Rampage" test.
 
 ### Planning
@@ -206,4 +206,26 @@ Then at the end when the project was running and no new errors were found, we we
 
 ## Lessons learned
 
-In short, we are still not there yet.
+In short, we are still not there yet.  Things have vastly improved and we now have "thinking" models that do not just spit out an answer, instead they review their answer against the requirements or whether it actually compiles before stopping and asking for praise.
+
+> [!NOTE]
+> About the only thing I really dislike at this moment is the AI's need to placate us, tell us what fantastic ideas we have or for pointing out something is dumb and how awesomely right we are.
+>
+> I explicitly turn that OFF in the Instructions, it is a sheer waste of tokens and resources generating all that (and it can go on QUITE a bit)
+
+We still have to keep our guard up and check the homework of the AI as it is still 70% of the time (imho) still incorrect, or goes off on a tangent for its own benefit.
+
+In short, I would break the experience down to the following:
+
+* DO not engage in long running tasks, unless it is for a specific component.
+* Spend time with the AI, just doing "Continue" as I did in this experiment is generally a bad idea.
+* Look to smaller and distinct tasks to get that you need, either through direct prompting (comments in code) or through chat.
+* Mix and match and find what works for your style.
+* Do not be afraid to let the AI generate a method/refactor, but then rework the implementation yourself and delete the AI's code.  It will NOT be offended (YET)
+
+> [!CAUTION]
+> If you do rewrite or replace the AI's generated code between prompts/questions, **ALWAYS** ask it to read back the code or class again.
+>
+> Remember, the AI is stateless and uses only its own history for the next prompt, if you do not get it to check the latest state it will **ASSUME** it is still how the AI generated it!
+
+Have fun and live long and prosper.  I may return for another AI lesson later!
