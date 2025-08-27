@@ -64,6 +64,7 @@ The play area is an isometric projection, allowing for a unique perspective on t
 The world of AI is rapidly changing and it is hard to keep up at times, it has always been this way with technology, however, with AI the sheer acceleration and complementary (sometimes derisive) changes make it harder to fathom your way through this maze.
 
 > **NOTE**
+>
 > Full disclosure, while I have a lot of experience in the area of AI tools, I would never class myself as an "expert", I simply know more than some, yet less than others.  It is an ongoing learning experience to find the best ingredients to make a good cake.  Just keep in mind the rate at which new ingredients are being made is evolving almost as fast as the range of cakes to bake (and not all are good).
 
 The main thing that has changed in recent AI evolution is the level of planning and resources you can throw at a problem to help direct and make the eventual result better, or at least more in line with testable requirements.
@@ -109,6 +110,7 @@ Some awesome resource for working with these instructions guides can be found at
 But let us continue.
 
 > **NOTE**
+>
 > For reference, here is the [`copilot-instructions`](/assets/img/posts/20250823/copilot-instructions.md) that I used for the "Mech Rampage" test.
 
 ### Planning
@@ -157,6 +159,7 @@ In my daily routine, the most common MCP servers I use are:
 There are many more kinds of server available as demonstrated on the [VSCode MCP agents site](https://code.visualstudio.com/mcp) as well as elsewhere on the web, or you can even [Build your own MCP server](https://devblogs.microsoft.com/dotnet/mcp-server-dotnet-nuget-quickstart/).
 
 > **IMPORTANT**
+>
 > If you host an MCP server, MAKE SURE to also tell the AI in the [Instructions](#instructions) that it is available.
 >
 > Also note, that MCP servers have to be started manually and ahead of time before you start your AI session!,  AI is not allowed to start MCP servers for you (even if you tell it to)
@@ -210,6 +213,7 @@ Then at the end when the project was running and no new errors were found, we we
 In short, we are still not there yet.  Things have vastly improved and we now have "thinking" models that do not just spit out an answer, instead they review their answer against the requirements or whether it actually compiles before stopping and asking for praise.
 
 > **NOTE**
+>
 > About the only thing I really dislike at this moment is the AI's need to placate us, tell us what fantastic ideas we have or for pointing out something is dumb and how awesomely right we are.
 >
 > I explicitly turn that OFF in the Instructions, it is a sheer waste of tokens and resources generating all that (and it can go on QUITE a bit)
@@ -224,7 +228,8 @@ In short, I would break the experience down to the following:
 * Mix and match to find what works for your style.
 * Do not be afraid to let the AI generate a method/refactor, but then rework the implementation yourself and delete the AI's code. It will not be offended (yet).
 
-> [!CAUTION]\n
+> **CAUTION**
+>
 > If you do rewrite or replace the AI's generated code between prompts/questions, **ALWAYS** ask it to read back the code or class again.
 >
 > Remember, the AI is stateless and uses only its own history for the next prompt, if you do not get it to check the latest state it will **ASSUME** it is still how the AI generated it!
@@ -232,4 +237,5 @@ In short, I would break the experience down to the following:
 Have fun, and live long and prosper. I may return with another AI lesson later!
 
 > **NOTE**
+>
 > Fun fact, I tried to get the AI to do a quick spelling/grammar check on this guide, WOAH, was I so wrong to do that :D
