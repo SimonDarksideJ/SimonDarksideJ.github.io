@@ -111,7 +111,7 @@ But let us continue.
 
 > **NOTE**
 >
-> For reference, here is the [`copilot-instructions`](/assets/img/posts/20250823/copilot-instructions.md) that I used for the "Mech Rampage" test.
+> For reference, here are the [`copilot-instructions`](/assets/img/posts/20250823/copilot-instructions.md) that I used for the "Mech Rampage" test.
 
 ### Planning
 
