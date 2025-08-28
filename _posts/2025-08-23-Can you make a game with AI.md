@@ -16,6 +16,8 @@ github: SimonDarksideJ/MechRampage-AIGeneration/
 
 > TL; DR -> In short, NO, lol.  AI is a tool that can assist you in solving common problems and mixing many different AI tools and features you can help to accelerate your development and the creation of content (at least place holders for your artists to draw from).  But, it is also a great source of pain, frustration and injection of complex issues, which you end up using AI to solve only making the complexity worse and harder to understand if you are not familiar with it.
 >
+> Essentially, the AI **CANNOT** do it alone and still needs a human at the helm to guide it, correct it and use other tools to generate assets.
+>
 > It is however fantastic for DOCUMENTING your project and identifying potential issues!
 
 ## The AI war continues
@@ -210,7 +212,7 @@ Then at the end when the project was running and no new errors were found, we we
 
 ## Lessons learned
 
-In short, we are still not there yet.  Things have vastly improved and we now have "thinking" models that do not just spit out an answer, instead they review their answer against the requirements or whether it actually compiles before stopping and asking for praise.
+In short, we are still not there yet.  Things have vastly improved and models do not just spit out an answer, instead they review their answer against the requirements or it compiles before stopping and asking for praise.  So much praise both given and requested :S.
 
 > **NOTE**
 >
@@ -233,6 +235,14 @@ In short, I would break the experience down to the following:
 > If you do rewrite or replace the AI's generated code between prompts/questions, **ALWAYS** ask it to read back the code or class again.
 >
 > Remember, the AI is stateless and uses only its own history for the next prompt, if you do not get it to check the latest state it will **ASSUME** it is still how the AI generated it!
+
+## Summary
+
+AI has come a long way, vendors are now providing "thinking" models out of the box, although they still need support from MCP servers aligned to the goals and tools used in the project.
+
+But ultimately, it still needs a human at the helm to guide it, tell it when it is going off the rails and to provide assets needed for any game project.  If you are going fully AI, they you can still use AI generated content using other tools, or like most other devs prototyping, using free resources as placeholders until you can get what you want crafted.
+
+It may still be possible to structure many more components together to achieve the complete goal (like Unity is experimenting with using its own AI platform, but still says "You should not make money with this, just pay them to play), but that was far beyond my normal exercise for using "out of the box" AI components.
 
 Have fun, and live long and prosper. I may return with another AI lesson later!
 
