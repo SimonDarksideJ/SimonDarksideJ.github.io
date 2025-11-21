@@ -41,6 +41,7 @@ In this article I will detail the latest generation in my experiments with using
 For this run, I went with a more complicated outline than I have done in the past, mainly due to the experiences I have built up this year, but also to challenge myself and the AI a little more.
 
 > Past experiments involved simple block pusher games, 2D shooters, or even snake, just to give the AI a chance. *Note, no, it failed to get close most times.
+{: .note}
 
 This was the outline brief I went with:
 
