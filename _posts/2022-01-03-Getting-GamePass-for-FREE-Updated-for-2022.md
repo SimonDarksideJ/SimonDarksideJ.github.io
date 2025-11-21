@@ -22,7 +22,6 @@ What this means is that you can accrue points and use them to redeem GamePass Ul
 
 > ### Put simply, I have been playing constantly and I've not had to pay any money at all for over 2 years to play my favorite games. I simply spend time playing those games :D
 
-
 ## Article Contents
 
 * [What is GamePass?](#meet-microsoft-gamepass)
@@ -31,12 +30,10 @@ What this means is that you can accrue points and use them to redeem GamePass Ul
 * [GamePass Quest Rewards](#earn-with-the-gamepass-quests)
 * [Microsoft Rewards on Xbox](#the-microsoft-rewards-app-on-xbox) (Xbox Only)
 
-
 ### Additional Resources
 
 * [Sign up for Microsoft Rewards](https://www.microsoft.com/en-gb/rewards)
 * [Useful resources](#useful-resources)
-
 
 ## Meet [Microsoft GamePass](https://www.xbox.com/en-GB/xbox-game-pass)
 
@@ -50,7 +47,6 @@ If you are a GamePass Ultimate member, you can also use Microsoft's Game streami
 ![](assets/img/posts/image-not-found.png)
 
 > ### [Join Xbox GamePass Ultimate for £1/$1](https://www.xbox.com/en-GB/xbox-game-pass#join)
-
 
 ## Earning on [Bing Rewards](https://www.bing.com/)
 
@@ -66,7 +62,6 @@ Bing search is by far the easiest way to earn Microsoft points, simply visit [Bi
 ![](/assets/img/posts/20220103/01_BingRewards.jpg)
 
 > Make sure you are signed in (Identity Icon in the top-right), else your points do not count.
-
 
 ## Earning on the Xbox App
 
@@ -88,7 +83,6 @@ The Xbox app on mobile gives you access to your Xbox and lots of info on Xbox ti
 
 You also get additional points for using the app daily and bonus points for having GamePass and friends.
 
-
 ## Earn with the GamePass Quests
 
 > |||
@@ -107,7 +101,6 @@ Even better, that if you have GamePass Ultimate, most titles can be played on Mi
 
 The main thing I love about GamePass quests is that it makes me try games I would not normally think of trying (even when they are free on GamePass) and finding out what I do not like and what I do, and I am often surprised at times.
 
-
 ## The Microsoft Rewards app on Xbox
 
 > |||
@@ -125,16 +118,13 @@ The only limitation with the Microsoft Rewards app on Xbox, is that this is ONLY
 
 The weekly rewards gain bonuses every few weeks and will challenge you, from simply logging in, to getting a few achievements.  And do not forget to check in after you earn achievements for an extra 50 points each day you gain them (only once a day though)
 
-
 ## Useful resources
 
 If you are struggling with some Quests or achievements, my goto place is [Pure Xbox](https://www.purexbox.com/tags/xbox-game-pass-quests), they give a great breakdown of each quest for the week/month and how to achieve them in the shortest time.
 
-
 ### [GamePass Quests tips and tricks](https://www.purexbox.com/tags/xbox-game-pass-quests)
 
 [![](assets/img/posts/image-not-found.png)](https://www.purexbox.com/tags/xbox-game-pass-quests)
-
 
 ## In conclusion
 

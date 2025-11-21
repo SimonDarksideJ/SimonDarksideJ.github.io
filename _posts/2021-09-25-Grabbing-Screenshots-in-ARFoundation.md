@@ -26,17 +26,15 @@ Easy I said, no problem, forgetting a couple of little problems:
 
 This was the eventual result that was desired (apologies for the low res)
 
-![Gif of Placing Screenshot in an AR scene](/assets/img/posts/20210925/01-01-ARFoundationPictureResult.gif) 
+![Gif of Placing Screenshot in an AR scene](/assets/img/posts/20210925/01-01-ARFoundationPictureResult.gif)
 
 Here is the journey to create this interesting little project for all to enjoy.
-
 
 ## Contents
 
 * [Screenshot](#first-step---grabbing-a-screenshot)
 * [Place In scene](#second-step---placing-in-view)
-* [A different shade of grey](#last-Step---lighting)
-
+* [A different shade of grey](#last-step---lighting)
 
 ## Project Setup
 
@@ -47,12 +45,11 @@ For this example you can create a new project using Unity's new **AR project tem
 Everything should be setup ready in the **ExampleAssets\SampleScene**
 
 > If you are setting up your project manually, add/update the following packages:
-> 
+>
 > * AR Foundation 4.1.7 (or later)
 > * ARCore XR Plugin (Android) or ARKit XR Plugin (iOS) or both
-> 
+>
 > Then create a new scene, delete your main camera and add the session origin using ***"GameObject -> XR -> AR Session Origin"*** and a AR Session ***"GameObject -> XR -> AR Session"*** to have everything configured to run AR Foundation.
-
 
 ## First Step - grabbing a screenshot
 
@@ -70,8 +67,7 @@ Easy...
 * Use the **'ReadPixels'** function to grab the pixels from the "Main" camera
 * 'Apply()' then commits these changes to the texture, ready for use (although in testing this was not "required" but it is good practice)
 
-
-### Except!
+### Except
 
 This being Unity, you cannot use the above code just anywhere, it can only be run in the **'OnPostRender'** method from the Camera you want to read from.
 
@@ -82,8 +78,7 @@ This gives you two options, either:
 
 My preference is always the second option, to avoid bloating "other" objects with code I actually need elsewhere.
 
-
-###  Screenshot solution
+### Screenshot solution
 
 To solve this implementation, I wrote two scripts, one for the camera and another for the button that will take the screenshot.
 
@@ -180,7 +175,6 @@ The code is highly commented and put simply:
 
 This now gives you the framework to grab screenshots when you want, but what to do with them?
 
-
 ## Second Step - placing in view
 
 Placing an object in the scene and applying the grabbed texture to it, easy... Or is it.
@@ -219,8 +213,7 @@ In this script, we simply:
 
 Job done, surely.
 
-
-### Except!
+### Except
 
 ![Square Screenshot at an angle with a little puppy sleeping on a sofa](/assets/img/posts/20210925/01-03-ScreenshotImage.jpg)
 
@@ -231,8 +224,7 @@ The issues here are on several fronts:
 * Based on the orientation of the device, the image may be portrait or landscape
 * Unity has no way of sizing a GameObject to a set of dimensions!
 
-
-###  Placing solution
+### Placing solution
 
 To overcome these little complexities, we need to alter our implementation to address these limitations. Some by just coping with the setup of the device and some by sheer brute force.
 
@@ -380,13 +372,11 @@ Almost there, but not quite
 
 > In the Screenshot above (pun intended) the device was pulled back slightly to show the proportions of the image now fill the screen, when the image was taken, it was full screen.
 
-
 ## Last Step - Lighting
 
 So we have our image, it is placed in our view, in the correct proportions, We are done, right?
 
-
-### Except!
+### Except
 
 For the astute of you, you might notice the image is a little bright.  If you deploy the app to a device and walk around you will notice this brightness changes when you take screenshots.
 You might simply put this down to the lighting conditions in the space, except it isn't.
@@ -395,8 +385,7 @@ By default, the Quad you generate will use the Unity **Standard shader**, which 
 
 As we do not want any additional lighting in our screenshots, we need to either remove lighting (which would be bad, as it would affect any 3D content we want to be placed in the scene), or more simply, use a different shader for our Quad that ignores lighting.
 
-
-###  Lighting solution
+### Lighting solution
 
 So as described, we want to use an **Unlit shader** for our screenshot object, that way it will not be affected by anything else in our scene and luckily Unity provides us one out of the box, which we can access by assigning it to our Quad in the scene:
 
@@ -544,7 +533,6 @@ The answer is because Unity does NOT by default include the Unlit shader in Unit
 If you build and run the project now, you should get the same result as shown in the beginning of this article.
 
 Fun wasn't it.
-
 
 ## Conclusion
 
