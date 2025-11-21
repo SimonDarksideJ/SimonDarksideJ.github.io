@@ -6,15 +6,17 @@ tags:
 - adrotator
 ---
 
-Quite a few people have asked me of the last few weeks about what is happening with the AdRotator project, is it dead, are we on a permanent holiday (Vacation for our American chums) or did we just get board with the whole thing as we have been fairly quiet of late.
+Quite a few people have asked me of the last few weeks about what is happening with the AdRotator project, is it dead, are we on a permanent holiday (Vacation for our American chums) or did we just get board with the whole thing as we have been fairly quite of late.
 
 Let me put one ting to bed,
+
 
 # [ADROTATOR IS NOT DEAD](https://getadrotator.codeplex.com/wikipage?title=AdRotator%20V2%20progress%20report) 
 
 (just resting ![Open-mouthed smile](/assets/img/wordpress/2013/04/wlEmoticon-openmouthedsmile.png))
 
 Both Gergely and I had our work / family schedules ramp up quite a bit for the last few months ( by a few I really mean a lot) but this does not mean we have lost interest in AdRotator, far from it our goals with the next version keep getting more and more ambitious and we have already done a fair bit of ground work already, such as:
+
 
 ## The new XML configuration
 
@@ -39,6 +41,7 @@ _Now this is just the initial cut and I expect this to evolve over time but with
 
  
 
+
 ## _More reflection support_
 
 _In V1 we use reflection a little bit, mainly for the house Ads but big pains expressed regularly were:_
@@ -62,6 +65,7 @@ _So in V2 we are breaking that mold and have already made strides on how to impl
 
  
 
+
 ## _PCL Support_
 
 _If you have been following my blog I have become a bit of a PCL nut these days and shoving PCL projects into whichever situation is was most effective (PCL is not a 1 solution cures all , it has it is uses like any other technology).  With AdRotator this was no different.  All code that we can put into a PCL we are doing so and abstracting where platform dependencies are to limit the level of rework necessary for additional client platforms.  Even my recent experience with the [MonoGame](http://monogame.net/) team has helped shape some of this vision._
@@ -71,6 +75,7 @@ _If you have been following my blog I have become a bit of a PCL nut these days 
 _With the WebAPI version we may even release a completely PCL version but we will have to see how easily that pans out with the ever increasing support for functions in PCL projects.  Thanks to recent development we will be able to have the compression support in our core PCL project thanks to some recent developments, yay._
 
  
+
 
 # _The Future_
 
@@ -82,6 +87,7 @@ _If you want to get involved then you can, the V2 site is a GIT site and you can
 
  
 
+
 ### [https://getadrotator.codeplex.com/](https://getadrotator.codeplex.com/)
 
  
@@ -90,11 +96,12 @@ _Another way to get involved is to vote on our AdRotator V2  backlog request vot
 
  
 
+
 ### [https://www.voteit.com/v/HiHC8jq1MV8wxEW](https://www.voteit.com/v/HiHC8jq1MV8wxEW)
 
 Grindstone here I come
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/adrotator-v2-progress-report/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/adrotator-v2-progress-report/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/adrotator-v2-progress-report/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/adrotator-v2-progress-report/)<script type="text/javascript">// <![CDATA[
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/adrotator-v2-progress-report/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/adrotator-v2-progress-report/)<script type="text/javascript">// <![CDATA[
 var dzone_url = 'http://darkgenesis.zenithmoon.com/adrotator-v2-progress-report/';
 // ]]></script>  
 <script type="text/javascript">// <![CDATA[
@@ -108,4 +115,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)
+// ]]></script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

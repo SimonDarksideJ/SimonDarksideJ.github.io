@@ -20,9 +20,11 @@ The [package is available on NuGet](http://nuget.org/packages/AdRotator/2.0.0-Al
 
 * * *
 
+
 # What’s in the release?
 
 Alpha 1 is our first fully stable build which uses the all new and enhanced XML configuration structure and support for all our existing Ad Providers plus 1 new one Inmobi (want more providers then get voting here!!)
+
 
 ### The new Configuration XML
 
@@ -33,6 +35,7 @@ The new configuration XML breaks compatibility with the old version but for very
 - Have as many instances of an Ad Provider as you wish (useful if you have multiple AdUnits with a provider)
 - More configuration options, almost every configuration option that was available before is available everywhere
 - AdGroup (coming soon), the configuration XML also now allows grouping of Ad Configuration, this will be useful if you want to set the order of provider checking yourself or have groups of House Ads and rotate through them as a group. It’s in the config but we don’t consume it as yet
+
 
 ### UnBound Provider dependencies
 
@@ -47,6 +50,7 @@ In the [Nuget Package](http://nuget.org/packages/AdRotator/2.0.0-Alpha1) we now 
 
 You can also have just one configuration for all platforms because even if a provider isn’t supported on that platform it will now just ignore it.
 
+
 ### Full Async support
 
 Getting on the async bandwagon, AdRotator now fully supports Async on all platforms.  This is a huge performance boon and also simplifies how we manage the project.
@@ -54,6 +58,7 @@ Getting on the async bandwagon, AdRotator now fully supports Async on all platfo
 All calls (inc web) are offloaded and handled correctly coming back so fewer multi-threading issues and better performance (and no UI blocking issues either)
 
 * * *
+
 
 # Yet more to come
 
@@ -66,6 +71,7 @@ Obviously we’re not stopping there, if you check the [backlog](https://getadro
 - More platforms
 - More providers
 - Much Much more
+
 
 ##### [Want more? then get over to the voting page and have your say!](http://www.voteit.com/v/HiHC8jq1MV8wxEW)
 

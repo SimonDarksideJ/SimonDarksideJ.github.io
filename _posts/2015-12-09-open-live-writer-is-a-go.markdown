@@ -10,7 +10,7 @@ Thought I would give this a go as some cunning bods have taking the decade old c
 [ ![ /></a></p>
 <p> </p>
 <p>You can read all about this awesome development here, over on Scott Hanselmann’s blog:</p>
-<p><a title=](http://www.hanselman.com/blog/content/binary/Windows-Live-Writer/Announcing-Open-Live-Writer---An-Open-So_126D3/openlivewriter-purpleheader_f6470329-c239-4f06-b466-805d65b9bd70.png)http://www.hanselman.com/blog/AnnouncingOpenLiveWriterAnOpenSourceForkOfWindowsLiveWriter](http://openlivewriter.org/)
+<p><a title=](assets/img/posts/image-not-found.png)http://www.hanselman.com/blog/AnnouncingOpenLiveWriterAnOpenSourceForkOfWindowsLiveWriter](http://openlivewriter.org/)
 
  
 

@@ -9,6 +9,7 @@ tags: [xbox, information]
 
 I recently attended the [ID@XBOX](mailto:ID@XBOX) event to get the low down on what it means to be a developer for the new XBOX, more specifically how to be an Indie on the new XBOX One.  Now what was said behind those hallowed doors was under NDA but what I can say is that if you want to build games for the XBOX One (or even apps!!!) you can get started now, no matter who you are!
 
+
 ## \*\*Update
 
 Recently, a mail was sent round to all devs who registered for the ID program (if you didn’t get it but thought you should have, then contact ID support from the site below) which gave some “hush hush” info about what’s being done and what is coming, along with that was promised a Spark beta key for ID program members.
@@ -16,6 +17,7 @@ Recently, a mail was sent round to all devs who registered for the ID program (i
 Today [@ID\_XBOX](https://twitter.com/ID_Xbox/status/428184617644863488) announced on twitter that the keys should be rolling out any day now, what made this even better was that Project Spark([@Proj\_Spark](https://twitter.com/proj_spark/status/428205752642064384)) quickly rose up with a nice clarification that the keys would also be valid for the Xbox One spark beta as well, rock’in.
 
 * * *
+
 
 # The [ID@XBOX](mailto:ID@XBOX) Program
 
@@ -25,11 +27,13 @@ It is very unlikely you are going to get dev kits to build with but not to worry
 
 So get yourself to:
 
+
 ### [http://www.xbox.com/en-us/Developers/id](http://www.xbox.com/en-us/Developers/id)
 
 And get registered!
 
 * * *
+
 
 # Start Building NOW!
 
@@ -39,9 +43,11 @@ Here are the two paths you can take:
 
 ![src=]()
 
+
 ## [Unity3D](http://unity3d.com/)
 
 It is no surprise or shock that Unity3D will be fully supported for building XBOX One games, when you are accepted on the program every developer will receive A Unity3D Pro license for developing and shipping a game to the new XBOX One store.
+
 
 ### HOWEVER
 
@@ -51,9 +57,11 @@ SO Learn Unity3D, build your game and be ready to publish when you get the green
 
 ![src=]()
 
+
 ## [Windows 8 games built using C++](http://msdn.microsoft.com/en-us/library/windows/apps/hh465149)
 
 It should come as no shock that the other platform on the XBOX is C++ based, it is how console games have been built for years by the big studios.  C++ is Microsoft’s big story for how you should build you project to be cross platform, for the XBOX One is is no different.  Well not different except for one little twist.
+
 
 ### However
 
@@ -65,6 +73,7 @@ To help you along there are also the [DirectXTK](http://directxtk.codeplex.com/)
 
 * * *
 
+
 # So What are you waiting for?
 
 ![src=]()
@@ -75,6 +84,7 @@ To help you along there are also the [DirectXTK](http://directxtk.codeplex.com/)
 - I am waiting for someone to tell me what kind of game to make – Sorry cannot help you there.  Minecraft?
 
 * * *
+
 
 # Hints and tips to make a successful game for XBOX One
 
@@ -93,6 +103,7 @@ Now do not forget, unlike the X360 Indie program (XBLIG), the [ID@XBOX](mailto:I
 
 * * *
 
+
 # Get out there and build NOW!!
 
 ![src=]()
@@ -100,5 +111,6 @@ Now do not forget, unlike the X360 Indie program (XBLIG), the [ID@XBOX](mailto:I
 Comments welcome but know that I am limited about what I can say about the program, basically if it is not on the [ID@XBOX](mailto:ID@XBOX) website, I cannot likely say more ![Open-mouthed smile](/assets/img/wordpress/2013/12/wlEmoticon-openmouthedsmile.png)
 
 And if you have not signed up yet!
+
 
 ## [http://www.xbox.com/en-us/Developers/id](http://www.xbox.com/en-us/Developers/id)

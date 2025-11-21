@@ -5,6 +5,7 @@ date: 2012-06-29 09:21:07
 tags: [2d tutorial, game development, xna]
 ---
 
+
 ## 1. Introduction
 
 An array is a data structure. It contains a number of variables, which are accessed through computed indices. Also called the elements of the array, the variables contained in an array are all of the same type, which is called the element type of the array.
@@ -17,7 +18,9 @@ For example, for a dimension of length N, indices can range from 0 to N – 1 in
 
 The total number of elements in an array is the product of the lengths of each dimension in the array. If one or more of the dimensions of an array have a length of zero, the array is said to be empty. The element type of an array can be any type, including an array type.
 
+
 ## 2. Array Types
+
 
 ### 2.1 The System.Array Type
 
@@ -25,17 +28,21 @@ The System.Array type is the abstract base type of all array types. An implicit 
 
 System.Array itself is not an _array-type_; rather, it is a _class-type_ from which all _array-type_s are derived. At runtime, a value of type System.Array can be null or a reference to an instance of any array type.
 
+
 ## 3. Array Creation
 
 Array instances are created by _array-creation-expression_s or by field or local variable declarations that include an _array-initialiser_. When an array instance is created, the rank and length of each dimension are established and then remain constant for the entire lifetime of the instance. It is not possible to change the rank of an existing array instance, nor is it possible to resize its dimensions. An array instance is always of an array type. The System.Array type is an abstract type that cannot be instantiated. Elements of arrays created by _array-creation expression_s are always initialized to their default value.
+
 
 ## 4. Array Element Access
 
 Array elements are accessed using _element-access_ expressions of the form A[I1, I2, …, IN], where A is an expression of an array type and each I_X_ is an expression of type int, uint, long, ulong, or of a type that can be implicitly converted to one or more of these types. The result of an array element access is a variable, namely the array element selected by the indices. The elements of an array can be enumerated using a foreach statement.
 
+
 ## 5. Array Members
 
 Every array type inherits the members declared by the System.Array type.
+
 
 ## 6. Array Initialisers
 

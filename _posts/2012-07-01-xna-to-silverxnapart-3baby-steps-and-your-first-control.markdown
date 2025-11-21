@@ -17,25 +17,27 @@ The finished code for this section will be available as per usual on [Codeplex H
 
 Follow along with the series here:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406) (here)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
+> ![align=](assets/img/posts/image-not-found.png) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406) (here)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
 
 Also [Channel 9](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) are running a similar [video series here](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) if you prefer videos! ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile2.png)
+
 
 #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
 
+
 ## In preparation for War
 
 If you are getting ready for a battle or some really in depth coding (is there a difference?) it is good to plan things out and get things ready, so too is it true when you want to inject some Silverlight rendering in your SilverXNA project.
 
-Now you might be fooled at this point into thinking “I am already doing Silverlight, what is this guys problem”, well unfortunately that is not true, yes we are rendering an XNA page inside a Silverlight page but really we are still rendering XNA and Silverlight has been shoved in to the corner and told to be quiet.
+Now you might be fooled at this point into thinking “I am already doing Silverlight, what is this guys problem”, well unfortunately that is not true, yes we are rendering an XNA page inside a Silverlight page but really we are still rendering XNA and Silverlight has been shoved in to the corner and told to be quite.
 
 So now we want to wake up this sleeping behemoth and bring it to the fore front.
 

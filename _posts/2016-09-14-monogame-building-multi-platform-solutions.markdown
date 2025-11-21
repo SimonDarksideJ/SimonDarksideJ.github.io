@@ -17,6 +17,7 @@ The video for this post can be found here if you prefer video:
 
 * * *
 
+
 # Days gone by with XNA
 
 As with most posts in my MonoGame series, I like to give a brief overview of what happened in XNA days, mostly to show you how MonoGame has evolved but also to help you if you are upgrading old XNA projects.
@@ -25,6 +26,7 @@ XNA Game Studio did not really have a multi-platform strategy as such, sure you 
 
  
 
+
 ## Sharing Content
 
 As you can see here, sharing content was easy enough between any platform.  You just had to be sensible about what content you shared paying careful attention to resolution, size and so on:
@@ -32,6 +34,7 @@ As you can see here, sharing content was easy enough between any platform.  You 
 [![image](/assets/img/wordpress/2016/09/image.png "image")](/assets/img/wordpress/2016/09/image.png)
 
 _Xbox and Windows Project using the same Content Project_
+
 
 ## Sharing Code
 
@@ -62,11 +65,13 @@ Nowadays we have more tools to hand to make the job easier, which I will highlig
 
 * * *
 
+
 # Building the future
 
 With MonoGame, a lot of the above still applies, but I will walk-through some of the best practices with a few tips and tricks on how to make the best of it.
 
 > Others will still have different ideas, so I encourage anyone to comment below if they have some other ways of working. What follows is what I use as a rule of thumb with all my own projects.
+
 
 ## Sharing Content
 
@@ -83,6 +88,7 @@ In a lot of ways, they were made to be human readable so you can either use the 
 You can either fix the platform build type (which is like setting a default) and build the content manually (you can also call the MGCB tool programmatically from a build script to build it separately if you wish as well, for advanced users). Alternatively, if you have your content file attached to your solution (which is the default), then Visual Studio will tell the Content Project which platform to build based on the platform you are building automatically, regardless of whether you share the project or not.  This means you do not have to worry if the content will work on the platform or not (as different platforms use different methods for compression, formatting and so on. An XNB file built for Windows likely wo not work on Android for example.
 - **They are extensible**  
 Like its XNA predecessor, MonoGame has the same Content Pipeline Extension capabilities and can support building your own methods for interrogating (importing) and processing (exporting) asset files.  This is extremely useful when you want to manipulate the asset or get more data out in multiple structures that your game can use. Say extracting Normal and Tangent data from a model for lighting calculations, or using the colors of an image to generate a heightmap. (more posts in the future on this)
+
 
 ## Sharing Code
 
@@ -103,6 +109,7 @@ With those in mind, I will now walk through a few things to get you started.  I 
 
 * * *
 
+
 # Getting Started with a MonoGame multi-platform project
 
 To make things clearer, I will walk through the common steps I use when creating a new project.
@@ -110,6 +117,7 @@ To make things clearer, I will walk through the common steps I use when creating
 > I will reiterate, these are the tips and tricks I have picked up over the years, it is certainly not going to be everything and it is the way I work, you can choose your own path by picking and choosing from the suggestions here.  If you have other ideas, feel free to comment below and add to the discussion ![Open-mouthed smile](/assets/img/wordpress/2016/09/wlEmoticon-openmouthedsmile.png)
 > 
 > (this is not another GIF vs JIF debate ![Smile with tongue out](/assets/img/wordpress/2016/09/wlEmoticon-smilewithtongueout.png))
+
 
 ## New Project
 
@@ -120,6 +128,7 @@ Once you have created your project (or if you have an existing one) there are a 
  
 
 1. 
+
 #### Within the solution folder, create a new Content folder to hold all the shared assets for the game
 
 This is to create a centralized home for all your shared content.  You can always create more or re-use the content folder / project in the platform project for platform specific assets, but I find it better to keep all the asset files in ONE location, so you know where to find everything.  You can have multiple MGCB files in the asset folder if you wish as they do not have to use all assets in the folder, only what you configure for each.
@@ -129,16 +138,19 @@ _Click on the images to enlarge them_
 [![NewContentFolder](/assets/img/wordpress/2016/09/NewContentFolder.gif "NewContentFolder")](/assets/img/wordpress/2016/09/NewContentFolder.gif)
 
 2. 
+
 #### Move / Copy the default MGCB content project definition to the new Content folder.
 
 When starting fresh, it is best to just move the MGCB file that the templates created for you, or alternatively use the Content Builder tool to create a new one.  Either way is fine, just so you end up with your main shared content project definition. Feel free to rename it if you wish.[![CopyContentProject](/assets/img/wordpress/2016/09/CopyContentProject.gif "CopyContentProject")](/assets/img/wordpress/2016/09/CopyContentProject.gif)
 
 3. 
+
 #### Delete / remove the existing content definition from the project and create a new link to the one in the new Content folder
 
 This is to clean up your project so that it uses your new central shared content project.   Another option is to leave the old platform content project there (renaming it to be clear) and just adding the shared project to the platform.  Either way is fine and all depends on how you want to manage your content.[![ReferenceContent](/assets/img/wordpress/2016/09/ReferenceContent.gif "ReferenceContent")](/assets/img/wordpress/2016/09/ReferenceContent.gif)
 
 4. 
+
 #### Update the Build Action of the MGCB file to “MonoGameContentReference” \<- never forget ![Open-mouthed smile](/assets/img/wordpress/2016/09/wlEmoticon-openmouthedsmile.png)
 
 No Retreat, No Surrender
@@ -148,6 +160,7 @@ No Retreat, No Surrender
  
 
 5. 
+
 #### Within the solution folder, create a new GameCode folder to hold all core code for the game itself
 
 Do the same for the game code as you did with the shared content project bycreating a new shared area for your game code in one place.  There are other things to consider if you are using any additional source libraries (libraries you create in source rather than just reference DLL’s), like whether to have their own folder or store in the project. Use whatever makes sense to you.
@@ -157,6 +170,7 @@ Do the same for the game code as you did with the shared content project bycreat
  
 
 6. 
+
 #### Move / Copy the Game.cs from the platform project to the new GameCode folder
 
 You already have a starting class, so you might as well reuse it. If you are coming from an existing project, just move the code across.
@@ -166,6 +180,7 @@ You already have a starting class, so you might as well reuse it. If you are com
  
 
 7. 
+
 #### Like with the MGCB file, in the code editor, remove the old Game.CS and create a link to the version in the GameCode folder
 
 As this is shared game code, best to make it clear and name it appropriately, this is also to ensure it is not confused with your platform or library code.
@@ -175,6 +190,7 @@ As this is shared game code, best to make it clear and name it appropriately, th
  
 
 8. 
+
 #### Edit the Game.cs (can rename if you like) and change the namespace to something specific about the game
 
 VERY IMPORTANT, you should encapsulate all your game code within its own coding namespace to ensure any code you write is not going to conflict with anything else (platform code, libraries, dependencies, etc)
@@ -184,6 +200,7 @@ VERY IMPORTANT, you should encapsulate all your game code within its own coding 
  
 
 9. 
+
 #### Change the Game class name to something specific about your game
 
 _(remembering to also rename the constructor to the same)_Might as well make the game code unique, so that you know when you are calling it from your platform projects, makes it easier to you know what you are referring to.  
@@ -194,6 +211,7 @@ _ **\*Note, Do not name any classes in your project the same as the Namespace el
  
 
 10. 
+
 #### Update platform project instantiation class (program.cs on windows  activity.cs on Android)
 
 You need to add a “ **using** ” reference to your shared game project and update the Game class object to initialize.  This will fix the project and enable it to build and run using your new shared code.[![FixingTheProgram](/assets/img/wordpress/2016/09/FixingTheProgram.gif "FixingTheProgram")](/assets/img/wordpress/2016/09/FixingTheProgram.gif)
@@ -207,6 +225,7 @@ As you add code in the future, either create it in your shared folder, or move i
 > Personally, I only do the above for full projects. For sandbox or POC’s, leave it all behind and just play within the project template because at the end of the day you will likely thrown those projects away, so they do not need the extra complexity.
 
  
+
 
 ## Extra Credit
 
@@ -229,6 +248,7 @@ In the clip below, I assume you have followed the steps above and want to add a 
 The approach you use will ultimately be the one you are most comfortable with, I can only show you the door, you’re the one who have to walk through it.
 
 * * *
+
 
 # Using pre-processor directives in shared code
 
@@ -292,17 +312,20 @@ A keen thing to note however, is that for the majority of cases you wo not need 
 
 * * *
 
+
 # Other alternatives
 
 There are other options out there since MonoGame is a much more modern framework than XNA, it is using .NET 4.5 and beyond for instance.  Some of these include:
 
 - 
+
 ## Portable Class Libraries (PCL’s)
 
 These are special class library projects that only let you put code in the library that is compatible across all the platforms it is configured for. So if you configure a PCL project to be compatible for Windows, Android and iOS. Then you can only use code that will compile for all three.  However, thanks to all the work done with Xamarin and others, this is quite extensive.  
 The only drawback is that in order to reference MonoGame namespaces (aka, Microsoft.XNA.Framework), then you need a PCL compatible version of MonoGame.  There is a beta version available now which you can use but it is not 100% certified (however I have not had issue with it) and a new version in the works.  So use if you wish (check other posts on my blog regarding this, there are quite a few)
 
 - 
+
 ## Shared Projects
 
 With Xamarin and Microsoft UWP projects, you can add a special kind of library called a “Shared Project”.  This project acts like a shim / overlay on your platform project meaning it inherits all the references of that platform, effectively extended the code that will eventually be compiled by that project.  In short it allows you to create a project that will be combined with your platform when it is built.  
@@ -310,6 +333,7 @@ These certainly have advantages over PCL projects, except they will let you put 
 MonoGame also has not been fully tested with Shared projects but I have not heard any complaints so far from others who have used them.
 
 * * *
+
 
 # Happy building
 

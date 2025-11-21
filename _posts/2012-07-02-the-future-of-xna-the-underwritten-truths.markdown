@@ -11,13 +11,15 @@ tags:
 
 While right now I should be working hard on releasing our [Alphalabs.cc](http://alphalabs.cc/project/69-vequencer) project [Vequencer](http://alphalabs.cc/project/69-vequencer) I have decided to take some time out and write out a summary of the blogosphere’s thoughts on the future of XNA.
 
-These are the best that are out there, some hard facts, some harsh realities and some comforting parting thoughts.
+These are the best that are out there, some hard facts, some harsh realities and some comforting partying thoughts.
+
 
 ### \*\*Update
 
 **[Paul Thurrott](https://twitter.com/#!/thurrott)** has made a welcome announcement over on [WinSuperSite](http://www.winsupersite.com/article/paul-thurrotts-wininfo/microsoft-xbox-2012-142599?utm_source=twitterfeed&utm_medium=twitter), that the rumoured XBOX Nxt, code-named TEN (and most definitely will NOT be called Xbox 720) will not be making an appearance this year or even announced as a current project.  Instead they are still investing in their current platform the XBOX 360.
 
 So XNA has another stay of execution for at least another year if not two before we even have to worry about it’s gradual demise on this it’s most prominent platform, all herald XNA 😀
+
 
 ### \*\*Update 2
 
@@ -26,6 +28,7 @@ Thanks to the Windows Phone Summit for confirming that All current Windows Phone
 What is unclear is how this support will be surfaced but at the very least, develop for Windows Phone 7 and it will automatically publish to Windows Phone8#
 
 No change for Windows 8 (still desktop only)
+
 
 ### \*\*Update 3
 
@@ -44,6 +47,7 @@ So as far as Microsoft’s announcement goes, Meh – The future is bright, the 
 **XNA framework is Dead, long live the XNA Platform!**
 
 * * *
+
 
 # Here is my view
 
@@ -65,9 +69,11 @@ SO I am hopeful and with the commitment of the SunBurn guys everything we build 
 
 * * *
 
+
 # What others are saying
 
 From trolling around forums, twitter and the web here is a collection of statements from others:
+
 
 ## @DSebJ (excerpt from the SunBurn forums) (\<—my favourite so far)
 
@@ -119,15 +125,19 @@ I don’t want to jump ship; I’m invested. But if my investment from here on i
 
 One last link; I wish I had found this at the start of this post as it has most of the references in it. Some Power Point slides from a company called Magenic which probably should not have been shared using meetup.com and probably should not be able to find it through google.com but suits me 🙂 [http://files.meetup.com/1604728/ **XNA** \_Future.pptx](http://files.meetup.com/1604728/XNA_Future.pptx)
 
+
 ## @MartinCaine (Retroburn Studios blog post)
 
 Martin has written a personal experience post about XNA future [here](http://martincaine.com/xna/my_thoughts_on_windows_8_xna_and_xblig), comparing XNA to PS Vita / IOS / Android and others.
 
 [http://martincaine.com/xna/my\_thoughts\_on\_windows\_8\_xna\_and\_xblig](http://martincaine.com/xna/my_thoughts_on_windows_8_xna_and_xblig)
 
-## 
 
 ## 
+
+
+## 
+
 
 ## @ArmlessOctopus (a premier XBLIG site)
 
@@ -138,6 +148,7 @@ Dave Voyles write a concise piece from talks at GDC and other contacts laying ou
 [http://www.gamemarx.com/podcast/2012/03/17/gamemarx-ep81-unreal-conversation-with-dave-voyles](http://www.gamemarx.com/podcast/2012/03/17/gamemarx-ep81-unreal-conversation-with-dave-voyles)
 
 * * *
+
 
 ## What we know for Certain
 
@@ -171,9 +182,11 @@ I will say now that it looks like XNA-UK will also be taking this route followin
 
 WE are NOT leaving XNA.
 
+
 ## 
 
 * * *
+
 
 ## What is unclear
 
@@ -194,6 +207,7 @@ WE are NOT leaving XNA.
 > ![src=]()    Just who will the winner be in the C# vs C++ war, there are still no clear winners just disinformation (granted it is more about what you need it for vs general ease of use vs performance as it always has (there are still some who prefer assembly FGS ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile13.png))
 
 * * *
+
 
 ## The vision for Managed DirectX frameworks
 

@@ -21,6 +21,7 @@ I just finished it but had some real issues with some of the storyline, it just 
 
 My big issues lay in a few key areas:
 
+
 ## Put down that weapon
 
 Throughout the game, the “bad guys” are constantly trying to hunt, kill, tear asunder, shoot and generally want to inflict harm on our young protagonist.  You are constantly reminded that they have no interest in taking you hostage or keeping you alive.
@@ -28,6 +29,7 @@ Throughout the game, the “bad guys” are constantly trying to hunt, kill, tea
 SO WHY? would you put down your weapon when asked, just because they are holding one of your colleagues to the knife.  As with all situations, the likely outcome is that they will then just shoot you and kill your friend the moment you do.
 
 Lara is confronted with such a situation, has already proven her accuracy with a bow. The colleague in question is a seasoned veteran and had already positioned himself down to give Lara a clear shot at the guys noggin, what does she do though? She goes, OK, I’m putting my weapon down……  Just silly
+
 
 ## When your friend is in trouble, don’t help them out?
 
@@ -43,6 +45,7 @@ Now, bear in mind, Lara still has her bow draw at this point, pointed at the bad
 
 I know I’ll let him die for me as he’s a good chap?
 
+
 ## Jumping in front of bullets
 
 Now most everyone knows that running in front of a bullet or sharp object thrown at you just isn’t going to end well.  Even if you are protecting someone and need to get out of the way, the way just isn’t going to be towards or in the path of the thing that is going to kill you.
@@ -52,6 +55,7 @@ One such scene (which is again just so someone can die for no darn good reason) 
 WHY OH WHY would he do that, surely he could have simply dropped down, dropped Lara gently when his first pistol had run dry, ANYTHING except put himself between Lara and the Axe (which wasn’t even aimed at her at the time).
 
 Another unnecessary death just to kill off another cast member and provoke an emotional response, which it completely fails at because it’s ludicrous.
+
 
 # [/Rant]
 

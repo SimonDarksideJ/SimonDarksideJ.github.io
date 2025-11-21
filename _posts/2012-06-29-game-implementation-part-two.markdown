@@ -13,6 +13,7 @@ Keep in mind this is still in the style of the original DigiPen tutorial, I will
 
 Before starting this section please ensure you download [the code](http://startrooper2dxna.codeplex.com/releases/43706/download/121633) for the engine of the tutorial, this only includes the engine framework ready for this section of the tutorial.  Alternatively you can download the completed project for this section can also be [found here](http://startrooper2dxna.codeplex.com/releases/44143/download/119497) (if you want to skip typing all this up)
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
  
@@ -21,15 +22,18 @@ Before starting this section please ensure you download [the code](http://startr
 
  
 
+
 # Game First Steps
 
 (The following steps involve the “LoadResources” function that is called in the XNA “LoadContent” method.)
+
 
 ### Step 1: Adding the Background
 
 The game concept (theory) is the same for all games, but sometimes there are special cases. In Star Trooper, the special case is that the background object is two instances of class Background, which is derived from Sprite class. In other words, two sprites will play the role of a scrolling background. In order to add a background, we have to add a sprite.
 
 * * *
+
 
 ### Step 2: Adding Sprites (first the background)
 
@@ -167,6 +171,7 @@ With the copy of the background now being placed above the first (remembering 0 
 Another thing to note is that we actually Cloned the original image, we did not copy it.  The difference is memory, copy would create a second image in memory (which if fine for some cases) but since we want exactly the same image with no differences, what clone does is to just reference (point) to the same image in memory.  The benefit being that there is only actually one image loaded into memory for the two that are drawn to the screen.  For gaming we should always try to conserve memory wherever possible. 
 
 * * *
+
 
 ### Step 3: Adding the “Trooper” Sprite
 
@@ -333,6 +338,7 @@ The background should be scrolling down as the update for the Background class a
 
 * * *
 
+
 ### Step 4: Adding the “Condor” Sprite
 
 The Condor (arch enemy of the Trooper) is pretty much the same implementation as the Trooper, the only real difference is that we do not add the condor to the engine’s sprite list just yet, we also do not set a start position either:
@@ -472,6 +478,7 @@ And the final Condor code:
  
 
 * * *
+
 
 ### DigiPen supplementary Notes:
 

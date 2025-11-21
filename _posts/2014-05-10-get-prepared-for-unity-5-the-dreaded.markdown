@@ -5,15 +5,16 @@ date: 2014-05-10 16:16:45
 tags: [unity3d, unity tips]
 ---
 
-#  So what is in a “.” when accessing a Component
+
+# So what is in a “.” when accessing a Component
 
 > Check the Post on the Unity forms discussing this practice here – [http://forum.unity3d.com/threads/245400-Unity-5-Beta-Insights](http://forum.unity3d.com/threads/245400-Unity-5-Beta-Insights)
-> 
+>
 > ### \*\*Update, Unity have now written a post on the changes posed for Unity 5 and the inner workings, well worth a read – [http://bit.ly/1pf5Wog](http://bit.ly/1pf5Wog "Unity5: API changes & automatic script updating")
-> 
+>
 > Another interesting post has arisen which also includes some timing and stats for using cached components verses using the shortcuts, check it out – [http://bit.ly/1pfaUkQ](http://bit.ly/1pfaUkQ "Unity3D – Accessors are bad- Caching is good!")
 
-![](http://i1.livememe.com/xwe6kn.jpg)
+![](assets/img/posts/image-not-found.png)
 
 When you use **components** and scripts in your Unity3D project and then want to access them in code, it is very easy to just start writing:
 
@@ -75,7 +76,7 @@ The following properties may be affected (not confirmed)
 - ConstantForce
 - HingeJoint
 - Light
-- 
+-
 
 Finally these are confirmed as **NOT** affected
 
@@ -107,18 +108,18 @@ So to this end, the better implementation of the above script is:
 
 ```csharp
     Rigidbody myScriptBody; 
-	
-	void Awake() 
-	{     
-		var renderer = this.GetComponent<Renderer>();
-		var collider = renderer.GetComponent<Collider>();
-		myScriptBody = collider.GetComponent<Rigidbody>();
-	} 
-	
-	void Update() 
-	{     
-		myScriptBody.angularDrag = 0.2f * Time.deltaTime; 
-	}
+ 
+ void Awake() 
+ {     
+  var renderer = this.GetComponent<Renderer>();
+  var collider = renderer.GetComponent<Collider>();
+  myScriptBody = collider.GetComponent<Rigidbody>();
+ } 
+ 
+ void Update() 
+ {     
+  myScriptBody.angularDrag = 0.2f * Time.deltaTime; 
+ }
 ```
 
 Thus only using GetComponent the first time the script is run and storing the reference (or references) I need at run time, then using the in memory reference instead of trying to discover it every frame.
@@ -129,7 +130,7 @@ These are just simple changes to how you use and access components within the Un
 
 # The best advice
 
-![](http://www.chfi.com/files/advice-guys.jpg)
+![](assets/img/posts/image-not-found.png)
 
 You are now forewarned and forearmed with new knowledge, use this knowledge to change your current practices if you have been using the “.” method in your code to access a Component attached to it. (does not affect accessing normal properties on any MonoBehaviour classes, just components!)
 
@@ -141,11 +142,10 @@ If you currently are doing this a lot in your code and feel it’s too much of a
 
 # The future is bright, the future is Unity5
 
-![](http://i0.wp.com/habrastorage.org/getpro/habr/post_images/597/909/b1b/597909b1b54d88efcbb74c702645330d.png?resize=600%2C263)
+![](assets/img/posts/image-not-found.png)
 
 If you have not seen what is coming publically in Unity 5, check out the feature preview shown at Unite 2014
 
-![Unite Unity 5 video](https://www.youtube.com/watch?v=](https://www.youtube.com/watch?v=)
+![Unite Unity 5 video](assets/img/posts/image-not-found.png)
 
 later’s
-

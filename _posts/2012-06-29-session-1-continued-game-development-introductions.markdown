@@ -28,6 +28,7 @@ If you haven’t already, download the demo and have a play, this will give you 
 
 What you saw was a real-time interactive concurrent events application simulating a starship fighting enemies in space.
 
+
 ## Why concurrent?
 
 The starship, bullets, enemies, sound effect, music, and text exist and move at the same time as a series of coincident events
@@ -48,6 +49,7 @@ The list of coincident events:
 - Playing the music
 - Etc.
 
+
 ## Why interactive?
 
 Interactivity enables the player to involve themselves in the game or enable a computer controlled character through the use of controls, these could be:
@@ -60,6 +62,7 @@ Interactivity enables the player to involve themselves in the game or enable a c
 - The enemy explodes when hit by a bullet
 - Etc.
 
+
 ## Why real-time?
 
 No matter what game you are playing, the event you see are always happening in real-time, even when the games is paused and no obvious activity is happening, such as:
@@ -69,6 +72,7 @@ No matter what game you are playing, the event you see are always happening in r
 - The enemy’s new position happens at run time
 - The text updates at run time
 - Etc.
+
 
 ## How do we write an application with concurrent events?
 
@@ -81,6 +85,7 @@ We also need to execute in parallel several instructions. If we divide the secon
 In reality the events are not parallel; they are pseudo-parallel. The events do not happen at the same time, they happen sequentially because the events are updated at a fixed interval of 60 times a second, the illusion of concurrent events is achieved.
 
 Each 16.66 ms duration is one game iteration, since the iteration repeats as long as the game is playing, the concurrent events are controlled by repeating the game iteration through a game loop, the game loop also makes the series of events update as a motion picture or pictures in motion.
+
 
 ## Game loop
 
@@ -95,6 +100,7 @@ The ideal FPS we usually aim for is 60fps to give a feel that the game is moving
 Below is an example of the Game Loop in action.
 
 [![image](/assets/img/wordpress/2012/07/image1.png "image")](/assets/img/wordpress/2012/07/image1.png)
+
 
 ## How do we add interaction at real time with concurrent events?
 
@@ -135,6 +141,7 @@ Below is an example of the moving bullet at a low frame rate
 
 Being drawn several times consecutively, the sequence of different pictures and different positions provide the illusion of a motion picture, as a matter of fact, movies at the movie theatre play at 25 pictures per second
 
+
 ## Game components
 
 To finish off, here is a list of the components that we will cover during the tutorial:
@@ -150,6 +157,7 @@ Sound
 - Object behaviour: specifies its interaction.
 
 There are other components we can add but let’s start with the basics. It is also worth noting that 3D games use the same components plus a few which are specific to 3D.
+
 
 ## End of part 1
 

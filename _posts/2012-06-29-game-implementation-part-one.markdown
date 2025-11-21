@@ -13,9 +13,11 @@ Fairly basic game with your little Trooper at the bottom furiously shooting up a
 
 As noted in the previous post, code for this section can be found [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/44143 "Lesson 4 Supporting content") along with the original DigiPen webcast.
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
+
 
 # Game Engine Essentials
 
@@ -34,6 +36,7 @@ For each of these we need a central place to store all the objects we are going 
 The following items can be found in either the “Startroopergame.cs” (the renamed version of the default XNA template game.cs” or in the Engine folder of the project.
 
 * * *
+
 
 ### 1. Sprite Manager
 
@@ -269,6 +272,7 @@ That is it for sprites, any we now add to the Added List will get put into the m
 
 * * *
 
+
 ### 2. Text Manager
 
 The implementation for Text is pretty much the same as Sprites as test does end up as a graphic drawn to the screen, it is not a sprite however and needs to be handled separately, there are some discussions that text like sprites are just draw-able elements on the screen and should be grouped together,  just use which ever implementation works for you, but this way it is easier to read.
@@ -341,6 +345,7 @@ And finally adding the draw logic just after the Sprite drawing logic so that it
 
 * * *
 
+
 ### 3. Audio Manager
 
 Audio is generally a lot simpler to manage, we do not add new sounds or remove them in the course of the game, it is just play or do not play.
@@ -362,6 +367,7 @@ Another great feature of the XNA framework is that we do not need any logic for 
 There is another way to handle audio (which is covered in the XNA Help) through a tool called XACT (Xbox Audio Creation Tool).  XACT is more of an audio studio which enables you to configure your audio with more granularity and even add 3D effects to your sound.  Time permitting, I will handle this in one of the extensions to the DigiPen tutorial.
 
 * * *
+
 
 ### 4. Input Manager
 
@@ -454,6 +460,7 @@ later in the tutorial we will expand the input manager slightly but not by much 
 * * *
 
  
+
 
 ### 5. Animation Manager
 

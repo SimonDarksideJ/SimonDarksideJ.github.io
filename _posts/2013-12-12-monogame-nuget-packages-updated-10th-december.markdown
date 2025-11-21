@@ -7,11 +7,13 @@ tags: [monogame]
 
 After a flurry of activity the MonoGame NuGet packages have been updated.
 
+
 # 3.1.2 – Dev Release as of 10th December 2013
 
 They are as follows:
 
 - 
+
 ### MonoGame (full)
 
 – [https://www.nuget.org/packages/MonoGame/3.1.2-alpha](https://www.nuget.org/packages/MonoGame/3.1.2-alpha)
@@ -19,6 +21,7 @@ They are as follows:
 This package has everything you need to start up a MonoGame project without having to install anything previously (including MonoGame it’self), just start a blank project in the platform of your choice (Only Windows, Windows 8 C#/XAML and Windows Phone 8 supported at present) and add the NuGet package and your ready to go.
 
 - 
+
 ### MonoGame (binaries only)
 
 – [https://www.nuget.org/packages/MonoGame.Binaries/3.1.2-alpha](https://www.nuget.org/packages/MonoGame.Binaries/3.1.2-alpha)
@@ -26,6 +29,7 @@ This package has everything you need to start up a MonoGame project without havi
 If your project is already running MonoGame, just strip out all existing MonoGame references and dependencies and apply this NuGet package to update your version of MonoGame to the latest dev release.
 
 - 
+
 ### MonoGame Content Processors
 
 – [https://www.nuget.org/packages/MonoGame.ContentProcessors/3.1.2-alpha](https://www.nuget.org/packages/MonoGame.ContentProcessors/3.1.2-alpha)
@@ -35,6 +39,7 @@ If you are using one of the above releases you will also need to update the Mono
 And also in line with the above releases is my portable version of the MonoGame project for use in PCL solutions
 
 - 
+
 ### MonoGame Portable
 
 – [https://www.nuget.org/packages/MonoGame-Portable/3.1.2-Alpha](https://www.nuget.org/packages/MonoGame-Portable/3.1.2-Alpha)
@@ -44,6 +49,7 @@ To use this start up a new PCL project, import the NuGet package and you can bui
 If you want to know why making portable solutions are important, then read this article as well – [http://darkgenesis.zenithmoon.com/monogame-goes-portable/](http://darkgenesis.zenithmoon.com/monogame-goes-portable/)
 
 * * *
+
 
 # New Public release pending
 

@@ -20,6 +20,7 @@ Seeing this, the core MonoGame team set out with a purpose to being a new sample
 
 It has been an ambitious journey, with a lot of in depth discussions and debates, but now the first of the samples has just been accepted in to the new Samples Repo.
 
+
 ## [https://github.com/Mono-Game/Samples](https://github.com/Mono-Game/Samples "New MonoGame Samples Repository")
 
 The first sample is just a taste of what is to come and is born of the already tried and tested [Platformer 2D sample](http://msdn.microsoft.com/en-us/library/dd254918(v=xnagamestudio.31).aspx "XNA Platformer 2D samples") from the age old XNA library.
@@ -38,6 +39,7 @@ The sample itself isn’t too much to should about as it only implements basic r
 The sample serves as a guide for how to build and manage your game project in a fully multi-platform way with all the code in one place and shared across all projects.
 
 If the platform supports NuGet, then the platform is using the latest MonoGame 3.2 NuGet package. Where NuGet support isn’t available, it references back to the main dev repository (which you’ll need to manually link until the new samples repository is fully integrated with the main repo)
+
 
 ## More to come
 

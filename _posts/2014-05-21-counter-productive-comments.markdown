@@ -8,9 +8,10 @@ Time for another vent after a very eventful week for me.  I finally managed to g
 
 Somehow I managed to fit that all in and then I was seemingly lambasted over the next few days from all corners with petty, argumentative and judgemental comments and notes.
 
+
 # Criticism
 
-![width=](http://www.ronedmondson.com/wp-content/uploads/2013/05/criticism.jpg)
+![width=](assets/img/posts/image-not-found.png)
 
 Now being an evangelist and technical architect, I am very used to getting a wide and varied amount of feedback on what ever I work on.  I don’t take it personally, it is one persons viewpoint on the information you have shared or are demonstrating.  All feedback is worthwhile so long as you take it on board and adapt to bring further clarity on the point you are trying to get across.
 
@@ -22,9 +23,10 @@ This is is all well and good with one plain and simple exception – The throw a
 
 * * *
 
+
 # Don’t Do THAT!!!
 
-![width=](http://chroniclesofharriet.files.wordpress.com/2012/03/critic.jpg)
+![width=](assets/img/posts/image-not-found.png)
 
 The main ruse of my vent this time round is for those comments that serve no purpose except to antagonise or just downbeat anyone’s efforts to try and actually achieve something, such as:
 
@@ -40,9 +42,10 @@ These things wind me the hell up, sadly everytime!
 
 * * *
 
+
 # Constructive Criticism
 
-![width=](http://4.bp.blogspot.com/-Fh_A7k7oLPQ/UYwJBz68GcI/AAAAAAAAANs/pb60_WVM-RQ/s1600/Constructive+Criticism.gif)
+![width=](assets/img/posts/image-not-found.png)
 
 If you are going to comment on a post, forum thread, review or whatever. Try to at least impart some information about why you are making the comment and offer suggestions for how to improve it.
 

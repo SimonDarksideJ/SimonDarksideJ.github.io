@@ -12,9 +12,10 @@ Putting aside platforms like iOS, MacOS and Android (which each have their own c
 
 * * *
 
+
 # What has UWP ever done for us?
 
-![Image result for uwp](https://i-msdn.sec.s-msft.com/en-us/windows/uwp/get-started/images/universalapps-overview.png)
+![Image result for uwp](assets/img/posts/image-not-found.png)
 
 As the name suggests, the UWP platform is intended to be Universal across all of Microsoft’s current (and likely) future platforms and offerings.  This means you will get one consistent:
 
@@ -38,9 +39,10 @@ This breaks down to two simple facts:
 
 * * *
 
+
 # Coming up at Future Decoded
 
-[![Image result for future decoded](https://futuredecoded.microsoft.com/images/social/fd16-save-the-date-1200.png)](https://futuredecoded.microsoft.com/)
+[![Image result for future decoded](assets/img/posts/image-not-found.png)](https://futuredecoded.microsoft.com/)
 
 So, the main reason for this post is that I have been asked back to Future Decoded this year to speak again about Game Development.
 

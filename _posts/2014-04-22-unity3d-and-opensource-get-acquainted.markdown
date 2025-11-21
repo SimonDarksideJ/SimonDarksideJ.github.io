@@ -23,6 +23,7 @@ Before bringing this post to focus on Unity3D it is important to understand what
 
 * * *
 
+
 # Opensource and Unity3D
 
 Unity is certainly been slow to move when it comes to open source, most contributors are hard at work on their creations and have little time to clean things up and showcase how they achieved things.  NOTE, putting up a video of your effort with no code based explanation of how you achieved it does not count, that is just promotion.
@@ -35,11 +36,13 @@ So I have put together a list of some of the best picks I have found out there (
 
  
 
+
 #### [http://wiki.unity3d.com/index.php/Main\_Page](http://wiki.unity3d.com/index.php/Main_Page "http://wiki.unity3d.com/index.php/Main\_Page")
 
 First off there is the Unity Wiki – granted this has been around for some time but does not get as much attention as it should, a good first port of call.
 
  
+
 
 #### [https://github.com/nickgravelyn/UnityToolbag](https://github.com/nickgravelyn/UnityToolbag "https://github.com/nickgravelyn/UnityToolbag")
 
@@ -48,6 +51,7 @@ First off there is the Unity Wiki – granted this has been around for some time
 Nick Gravelyn is one of the XNA die hards and a big contributor for building and sharing helpful stuff, as he has moved to Unity he has not stopped and pushed  a selection of helper scripts to aid you on your development journey and you are encourages to submit your own to make this an even bigger resource
 
  |
+
 
 #### [https://github.com/Unity-Technologies](https://github.com/Unity-Technologies "https://github.com/Unity-Technologies")
 
@@ -58,6 +62,7 @@ Unity themselves have several of their own Opensource projects published on GitH
 Some of these include [MonoDevelop](https://github.com/Unity-Technologies/monodevelop) (the dev tool) / [Unity Test tools](https://github.com/Unity-Technologies/UnityTestTools) / [Boo](https://github.com/Unity-Technologies/boo) / [Version Control plugins](https://github.com/Unity-Technologies/VersionControlPlugins) and [Reference rewriters](https://github.com/Unity-Technologies/ReferenceRewriter) to name a few.
 
  |
+
 
 #### [https://github.com/fholm/unityassets](https://github.com/fholm/unityassets "https://github.com/fholm/unityassets")
 
@@ -70,6 +75,7 @@ Fantastic effort Fredrik.
 
  |
 
+
 #### [https://github.com/StephanieRct/NieMath](https://github.com/StephanieRct/NieMath "https://github.com/StephanieRct/NieMath")
 
 | ![ /></td>
@@ -79,7 +85,9 @@ A new Math library project for Unity3D published by Stephanie, despite a huge pu
 
  |
 
+
 #### [https://github.com/ThirdPartyNinjas/GlitchAssets](https://github.com/ThirdPartyNinjas/GlitchAssets "https://github.com/ThirdPartyNinjas/GlitchAssets")
+
 
 #### [https://github.com/ThirdPartyNinjas/GlitchAssets-Inhabitants](https://github.com/ThirdPartyNinjas/GlitchAssets-Inhabitants "https://github.com/ThirdPartyNinjas/GlitchAssets-Inhabitants")
 
@@ -92,6 +100,7 @@ Seeing this and wanting to make it more accessible to game developers Jesse from
 
  |
 
+
 #### [https://github.com/kimsama/Unity-GoogleData](https://github.com/kimsama/Unity-GoogleData "https://github.com/kimsama/Unity-GoogleData")
 
 | ![ /></td>
@@ -101,16 +110,18 @@ Another interesting project to hit the Opensource arena is a useful add-on for a
 
  |
 
+
 #### [https://bitbucket.org/ikriz/unity-shaders](https://bitbucket.org/ikriz/unity-shaders "https://bitbucket.org/ikriz/unity-shaders")
 
 | ![ /></td>
-<td valign=](https://secure.gravatar.com/avatar/16ec5180d791fb71e7d65acaaa622681?d=https%3A%2F%2Fd3oaxc4q5k2d6q.cloudfront.net%2Fm%2F4d2998b29ad4%2Fimg%2Fdefault_avatar%2F96%2Fuser_blue.png&s=96)
+<td valign=](assets/img/posts/image-not-found.png)
 
 Switching tracks, Kristen Schat from the Netherlands released a heap of GL shaders for Unity3D on Bitbucket for all to use, Fantastic!
 
 (P.S. although I personally do not like it when devs don’t put at least some effort in to their own public avatar ![Smile with tongue out](/assets/img/wordpress/2014/04/wlEmoticon-smilewithtongueout.png))
 
  |
+
 
 #### [https://gist.github.com/boj](https://gist.github.com/boj "https://gist.github.com/boj")
 
@@ -121,13 +132,18 @@ Opensourcing and sharing come in all shapes and forms, here Brian Jones has publ
 
  |
 
-#### 
 
 #### 
 
-#### 
 
 #### 
+
+
+#### 
+
+
+#### 
+
 
 #### [https://github.com/sploreg/goap](https://github.com/sploreg/goap "https://github.com/sploreg/goap")
 
@@ -139,6 +155,7 @@ Advertised as a Goal Oriented Action Planning AI in Unity, Brent Owens has publi
  |
 
  
+
 
 ## Notable Mentions
 
@@ -156,6 +173,7 @@ Along wit the headliners above, here are a few other repositories which are inte
 - [http://open.commonly.cc/](http://open.commonly.cc/ "http://open.commonly.cc/") – What started as a kickstarter has now been released under a CC license, a large collection of game assets / audio / textures /etc
 
 * * *
+
 
 # Did I miss anyone?
 

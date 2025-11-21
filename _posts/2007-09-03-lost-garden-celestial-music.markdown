@@ -15,5 +15,5 @@ Over on the [Lost Garden blog](http://www.lostgarden.com/index.html), he has bee
 
 ![ /></p>
 <p>“Celestial Music” is a cause and effect game involving music, music that is between planets.  The design is well thought out and sounds good.</p>
-<p>So what are you waiting for, head over to <a href=](http://lostgarden.com/uploaded_images/Planets-767223.jpg)Lost Garden: Celestial Music and see what all the fuss is about.
+<p>So what are you waiting for, head over to <a href=](assets/img/posts/image-not-found.png)Lost Garden: Celestial Music and see what all the fuss is about.
 

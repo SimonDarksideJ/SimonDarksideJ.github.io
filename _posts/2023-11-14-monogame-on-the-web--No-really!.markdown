@@ -67,7 +67,7 @@ Like MonoGame, most of the libraries behind the templates are published on NuGet
 > * Require running the command ```devenv /updateConfiguration``` in the Visual Studio installation folder, e.g. **C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE**.
 >
 > If your User Profile is not in the default ```C:\Users``` folder, you might also have to check/update your Visual Studio "locations" setup and move/copy the installed templates there:
-> ![Visual Studio Templates Folder](https://community.monogame.net/uploads/default/original/2X/f/fff64710985f3f7df17366e73a8bc9dd5280008a.png)
+> ![Visual Studio Templates Folder](assets/img/posts/image-not-found.png)
 > Just be sure to run the above ```devenv /updateConfiguration``` command **AFTER** moving them to update Visual Studio.
 
 Maybe with your support, this situation can be improved.  All it takes is a little support.  But once you are working, you can be ready to fly.
@@ -76,15 +76,15 @@ Maybe with your support, this situation can be improved.  All it takes is a litt
 
 With the templates installed and everything ready, you should have access to the new KNI templates, and for this article more importantly, the **KNI Web Browser Template** as shown below:
 
-![KNI Web Browser Template](https://community.monogame.net/uploads/default/original/2X/1/1972902edc217bbc942f12fc6585a9e8cd4f0516.png)
+![KNI Web Browser Template](assets/img/posts/image-not-found.png)
 
 Just create your new project using this template and you are already 90% of the way there:
 
-![New KNI Web Browser project](https://community.monogame.net/uploads/default/original/2X/4/478b844da712f0b21dabef90c91fb993d85d0494.png)
+![New KNI Web Browser project](assets/img/posts/image-not-found.png)
 
 Running the project results in a new Web Browser being launched against your local machine, ready to test and play with:
 
-![Web Browser Output](https://community.monogame.net/uploads/default/original/2X/8/8a6712e30df2da2fab8dc050bff9f16cd5fdecbc.png)
+![Web Browser Output](assets/img/posts/image-not-found.png)
 
 Fantastic, so what was too hard about that?
 
@@ -148,7 +148,7 @@ Feel free to experiment and play, and for those cunning individuals who are expe
 
 ## Extra credit, publish to GitHub Pages
 
-![Extra Credit](https://media4.giphy.com/media/13jV1X6tgwm3i8/giphy.gif?cid=ecf05e47hr505xfjxj6886w97uryl8se0b5mvf3gdo1pdvjy&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![Extra Credit](assets/img/posts/image-not-found.png)
 
 Having a web build on your machine that you can view locally is all well and good, but what about everyone else?  You cannot exactly ask them all to come to dinner to view your creation, what about pushing it to the web?
 
@@ -207,6 +207,7 @@ To get the result we want, we need to add the following:
 The updated YAML should be replaced with the following:
 
 ```yaml
+
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy MonoGame web project to GitHub Pages
 
@@ -218,13 +219,16 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
@@ -285,7 +289,7 @@ Check out my build here:
 
 ### Danger Will Robinson
 
-![Danger](https://media4.giphy.com/media/3ohjV2AqsOUYOGuLfO/giphy.gif?cid=ecf05e475mkp3k1xkyls2mhna8rkzqlaomslqhxw66ak9va8&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![Danger](assets/img/posts/image-not-found.png)
 
 One issue I did hit which actually prevented my build completing, required me to edit my KNI Engine csproj file and remove a line.  The line in question was:
 

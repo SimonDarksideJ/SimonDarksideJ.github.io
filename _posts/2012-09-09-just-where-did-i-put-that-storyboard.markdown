@@ -13,9 +13,10 @@ One of these tricky situations revolves around the use of storyboards.  Storyboa
 
 Now the way most people would to it is to either hook up an event in the code behind or wire in the ViewModel to the view to check for a situation that would cause the storyboard to fire, but there is a better way.
 
-The best way I’ve found is to implement a dependency manager (a middle man) where the XAML storyboards can be registered to and the ViewModel code knows where to go looking, all with out either knowing the other is there.
+The best way I’ve found is to implement a dependency manager (a middle man) where the XAML storyboards can be registered to and the ViewModel code knows where to go looking, all without either knowing the other is there.
 
 * * *
+
 
 # The Windows Phone way
 

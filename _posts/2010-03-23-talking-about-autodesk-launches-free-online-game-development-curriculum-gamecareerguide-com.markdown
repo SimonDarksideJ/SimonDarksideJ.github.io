@@ -40,5 +40,5 @@ See – [http://news.autodesk.com/portal/site/autodesk/?ndmViewId=news\_view&new
 
 [http://www.autodesk.co.uk/adsk/servlet/index?siteID=452932&id=12710676](http://www.autodesk.co.uk/adsk/servlet/index?siteID=452932&id=12710676)
 
-So similar to Microsoft’s Dreamspark, it looks like this is only available for current education followers (read students ![Tongue out](http://shared.live.com/rzvDQW1qjIikH13dsbM42g/emoticons/smile_tongue.gif "Tongue out")), so it’s either time to go back to school or keep looking.
+So similar to Microsoft’s Dreamspark, it looks like this is only available for current education followers (read students ![Tongue out](assets/img/posts/image-not-found.png)), so it’s either time to go back to school or keep looking.
 

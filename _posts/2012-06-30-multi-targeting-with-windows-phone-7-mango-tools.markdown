@@ -7,7 +7,7 @@ tags: [windows phone]
 
 As it was mentioned at Mix and a few other places, with the release of the New Windows Phone developer tools for Mango you can target both the original release of Windows Phone 7 (7.0) and the New Mango Release (7.1) from within your solution.
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.image_5F00_5F00_24FC9ED9.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_048584F4.png)
+[![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_048584F4.png)
 
 As you can see above, this is simply done within your **Project** properties (not the solution properties), here you can select either 7.0 or 7.1.
 
@@ -15,11 +15,11 @@ Note, if you are using features exclusively for Windows Phone 7.1 Mango, then it
 
 Silverlight “New” Project Templates
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2577.image_5F00_5F00_5F47EEED.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2063.image_5F00_4DB80422.png)
+[![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2063.image_5F00_4DB80422.png)
 
 XNA “New” Project Templates
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.image_5F00_5F00_0D0591E6.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6371.image_5F00_3DE84951.png)
+[![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6371.image_5F00_3DE84951.png)
 
 * * *
 
@@ -37,6 +37,7 @@ This is a bit of a fine line but I can understand how they have done this as XNA
 
 Happy mango travels
 
+
 # \*\*Update
 
 Just tried (for a quick test) to select the new release for one of my existing projects and the tools warn this is a ONE TIME option only.  Seems you are either in one platform or the other, you CANNOT go back.
@@ -48,6 +49,7 @@ SO the road only leads forward, just a little note in case you were about to try
 To be expected I suppose :0)
 
 * * *
+
 
 # The Mango Tools beta
 

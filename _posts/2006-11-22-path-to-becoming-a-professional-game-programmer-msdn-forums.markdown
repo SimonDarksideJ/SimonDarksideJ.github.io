@@ -46,7 +46,7 @@ XNA Rockstar posted a good go-to article on the XNA Framwork forum recently, lit
 6. Create complex 3D game in C++ / DirectX 10
 7. Rinse and repeat.
 
-Personally, if your actually into writing games then TorqueX probably wont be for you, if your good at graphics and just want to throw a game together then it might appeal.
+Personally, If you're actually into writing games then TorqueX probably wont be for you, If you're good at graphics and just want to throw a game together then it might appeal.
 
 Saying that, these day’s I’ve worked through all the XNA beginner parts myself, albeit not in that order, more of a “All at once” lol  and I’ve dabbled in most of the rest before XNA came out and I took a step back, XNA really helped me structure and get a good game framework together for an actual game.
 

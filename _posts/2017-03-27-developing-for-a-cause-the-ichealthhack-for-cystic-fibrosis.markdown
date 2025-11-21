@@ -17,6 +17,7 @@ And sometimes these goals are truly aligned when I help out at worthwhile events
 
 * * *
 
+
 # What is the ICHealthHack?
 
 _Quote from the ICHealthHack site:_
@@ -32,6 +33,7 @@ In short, Health Hack is a program aimed at merging fun activities (such as game
 The program aims to go far beyond any one “Hack-a-thon” or event, to build a growing framework of tools, resources and code, to enable others to keep building fun and engaging programs to make treatment of Cystic Fibrosis (and other ailments) more rewarding, especially for kids, to ensure they engage better with their treatment.
 
 * * *
+
 
 # Cystic Fibrosis?
 
@@ -53,6 +55,7 @@ Ongoing treatment for CF is long, laborious and no fun at all, requiring hours o
 
 * * *
 
+
 # Games to the rescue
 
 > [**Check out all the tweets for the hack event here at Imperial College London**](https://twitter.com/search?f=tweets&q=ichealthhack)
@@ -64,6 +67,7 @@ It is a scientific and well proven fact that kids LOVE GAMES!  So why not bring 
 They also brought along a few experiences game developers to help and join in with the project and make the development process easier.
 
  
+
 
 ## THE CHALLENGE
 
@@ -78,6 +82,7 @@ The devices used have been adapted through the use of a custom board called the 
 [![Airway Clearance Devices](https://github.com/ichealthhack/fizzyo-challenge/raw/master/Airway.jpg)](https://github.com/ichealthhack/fizzyo-challenge/blob/master/Airway.jpg)
 
 The device also captures the data from the breathing sessions in order to help validate the effectiveness of the treatment and provide additional information to the parents, clinicians and the patient over the course of time.
+
 
 ## The Treatment
 
@@ -96,6 +101,7 @@ Repeat all this again for about 30 minutes or more. Roughly about 8 times.
 
 Patients need to focus on their breathing, NOT over exert themselves and ensure their full lung capacity is used (remembering that with CF patients, this can be greatly diminished).  All of these
 
+
 ## What you have available
 
 Given that patients need to hold on to the device during the course of treatment, usually with one hand but sometimes with two, we have a limited number of inputs with which to work with, namely:
@@ -105,11 +111,13 @@ Given that patients need to hold on to the device during the course of treatment
 
 Does not sound much but can YOU make a game with these limitations?  Something to make patients (especially kids) WANT to keep coming back to do their treatment, to get higher scores or discover strange new worlds?
 
+
 ## The Contenders
 
 One lonely weekend, 8 teams of students huddled together in groups of 4 to battle it out to see who could come with the best idea, game, project to help with this particular treatment scenario.  With 48 hours at their disposal, they came up with some very interesting ideas!
 
  
+
 
 ### 1. [Phlegm Buster](https://devpost.com/software/phlegm-buster)
 
@@ -121,13 +129,14 @@ What made this project really stand out though was the attention to detail with 
 
 On top of all that, they also went as far as planning to use 3D printing to create custom breathing devices with bolt on characters, that the players could earn points to collect more characters and allow the kids to customise their own devices for play!!.
 
+
 ### [2.](http://slides.com/jonahbeaudin/selfiesticksblock-game/fullscreen#/)[Tower Blocf – Team SelfieSticks Ideas](http://slides.com/jonahbeaudin/selfiesticksblock-game/fullscreen#/)
 
-[![](https://s3.amazonaws.com/media-p.slid.es/uploads/673358/images/3607979/Screen_Shot_2017-03-19_at_13.50.49.png)](http://slides.com/jonahbeaudin/selfiesticksblock-game/fullscreen#/)
+[![](assets/img/posts/image-not-found.png)](http://slides.com/jonahbeaudin/selfiesticksblock-game/fullscreen#/)
 
 This team took the FUN factor and turned it up to 11. Taking a simple mechanic of stacking blocks in a fun 3D world, using the Fizzyo button to drop blocks in a nice easy one click mechanic.  What set it aside and garnered a lot of praise was the use of the Fizzyo breath detector, the screen slowly fills up with smoke/fog (or other sight blocking medium) and the user has to clear the screen using their breath in order to see the gameboard.  This simple mechanic could be adapted in so many ways either using different materials or blowing animations to keep it fun and exciting, not to mention the fun had with different block sets.  
 Taking it a step further, the team even took their game to the nearby hospital (even grabbing a selfie with none other than Bill Nye on the way) and showed the game to kids at Great Ormond Street to get feedback (which the kids loved). All this in the morning of the second day of the hack.  
- ![](https://pbs.twimg.com/media/C7TC_ghWwAAiUyo.jpg)  
+ ![](assets/img/posts/image-not-found.png)  
 The team showed they really had what it takes to go the extra mile to build up their game project. (last i heard they are still continuing their journey together after the hack ![Open-mouthed smile](/assets/img/wordpress/2017/03/wlEmoticon-openmouthedsmile.png))
 
  
@@ -138,17 +147,19 @@ The team showed they really had what it takes to go the extra mile to build up t
 
 One of this team also won my coveted [Xbox Elite Controller](https://www.amazon.co.uk/Xbox-One-Elite-Wireless-Controller/dp/B00ZV0NH40) prize for the best tweet. Just for being cheeky enough to insert a celebrity in their pitch.
 
-![](https://pbs.twimg.com/media/C7TMnqoW4AEoC7K.jpg)[![](https://images-na.ssl-images-amazon.com/images/I/419GGxS9kbL.jpg)](https://www.amazon.co.uk/Xbox-One-Elite-Wireless-Controller/dp/B00ZV0NH40)
+![](assets/img/posts/image-not-found.png)[![](assets/img/posts/image-not-found.png)](https://www.amazon.co.uk/Xbox-One-Elite-Wireless-Controller/dp/B00ZV0NH40)
 
  
 
+
 ### 3. Turnup
 
-![](https://pbs.twimg.com/media/C7PRfDoX4AADFJL.jpg)
+![](assets/img/posts/image-not-found.png)
 
 The Turnup team took a different tack with the hack, setting their sights firmly on one of the sponsored prizes for the event, the McKinsey & Company Data Visualisation Prize.  A keen problem with all the information that could be garnered from all the Fizzyo devices and the games the children will eventually play, is what to do with all that data?  Without keen analysis, it will be very hard to see trends and determine which treatments work better than others, or suggest potential alternatives.  Sadly the team had no game development skillz among them being a group of data scientists.  This did not stop them from building a winning analytics solution in the end.  As always, use what you got and reach for the skies.
 
  
+
 
 ### 4. C-Force
 
@@ -160,11 +171,13 @@ What made them stand out is they purposely built a system that could be controll
 
 What the team lacked in Unity experience, they more than made up for with Mad presentation skillz ![Open-mouthed smile](/assets/img/wordpress/2017/03/wlEmoticon-openmouthedsmile.png)
 
+
 ### 5. Beyond the Stars
 
 Like the C-Force team, this team also had no Unity skills at the beginning of the event but spent a good deal of time designing their project, coming up with many different designs before carefully proceeding with their preferred solution.  I have no doubt that some of those other designs will also see the light of day.
 
 In this project the team had the player driving through alien ship filled asteroids in full 3D, delivering the most graphic filled game of the event, a real showcase.
+
 
 ### 6. QuBi
 
@@ -173,6 +186,7 @@ In the spirit of the hack, some of the organisers also jumped in to build their 
 [![Qubi](/assets/img/wordpress/2017/03/Qubi.gif "Qubi")](/assets/img/wordpress/2017/03/Qubi.gif)
 
 A nicely polished game (all done in the 48 hours, honest), setting up the breathing session and having an endless runner character jump across a platform environment with the button. In order to collect coins faster and thus gain more points, the player needs to breathe into their device at the same time to charge up the player (shown by the inner green circle). Once done the player gets a burst of speed.  As another nice UI feature, good boost breathers also fill an inner circle on the player indicating how far they need to keep going with their treatment.  Also, to ensure the player does not feel “pressured”, play does not stop when they need to cough, it simply continues until they are ready to return.
+
 
 ### 7. Chromosone7
 
@@ -186,11 +200,12 @@ Although the tam got first hand use of the Unity SmartMerge tool: [https://docs.
 
  
 
+
 ### 8. Just Sit Straight
 
 There is always one project in any hack, where they throw all chance of “winning” out of the window and just go for the fun factor.  So, they ventured forth to create another style health game to help people at a computer to sit straight and stop slouching.
 
-![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/489/273/datas/gallery.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Using only the camera and some interesting AI techniques and written in Python, it is certainly a computer scientists piece of py, this application just watches the developer through their camera (not sure how that works with everyone’s camera taped up) and if it sees if they are:
 
@@ -204,13 +219,15 @@ If the program detects you doing something you should not then it reacts in many
 
 * * *
 
+
 # The Hack never ends
 
 While the initial hack has now completed, most teams are still continuing their projects hoping to bring some much-needed relief from boredom for kids with CF treatment.
 
+
 ## GET INVOLVED
 
-![](https://media.giphy.com/media/Tv3FBR0TCETe/giphy.gif)
+![](assets/img/posts/image-not-found.png)
 
  
 
@@ -240,28 +257,32 @@ Documentation and features are constantly being added to the project by the enti
 
 * * *
 
+
 # Why get involved?
 
 There are many reasons you should get involved with the project and donate your spare time and skillz. At the end of the day your reasons are your own, for me personally I am still jumping in on the project to:
 
  
 
+
 ## Fight boredom
 
-![](https://media.giphy.com/media/UNH53BJMfWbF6/giphy.gif)  
+![](assets/img/posts/image-not-found.png)  
 No child should have do boring lifesaving activities without FUN.
 
  
 
+
 ## Contribute to Cystic Fibrosis treatment
 
-![](https://media.giphy.com/media/P5P7MysKcM0qQ/giphy.gif)  
+![](assets/img/posts/image-not-found.png)  
 While none of my children have CF, one of them does have a condition that I can do nothing about (other than watch him like a hawk).  
 So the opportunity to actually use my Game and dev skills to make treatment easier is a true goal.
 
+
 ## Have fun
 
-![](https://media.giphy.com/media/wrzf9P70YWLJK/giphy.gif)  
+![](assets/img/posts/image-not-found.png)  
 I love building and making games and they might as well be for something worthwhile and I may learn yet more things along the way
 
  

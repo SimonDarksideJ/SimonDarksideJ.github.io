@@ -19,6 +19,7 @@ This is an epic milestone as MonoGame finally realises its dream of journeying b
 
 * * *
 
+
 # Everything that has come before
 
 As it stands, MonoGame implements practically the full set of functionality that XNA did, meaning that all your old XNA 4.0 projects will be compatible with MonoGame.  There may be one or two little hiccups (this baby is taking its first proud new steps in the world) along the way but it has a proud tradition of hardy developers backing up this project.
@@ -28,6 +29,7 @@ As it stands, MonoGame implements practically the full set of functionality that
 > #### Any contributions to the project go in to the project’s needs, like Servers, Websites and merchandise!
 
 * * *
+
 
 # A brave new world
 
@@ -46,6 +48,7 @@ Now this part is not really new, you could do that before, however what you coul
 There are even new MonoDevelop (or Xamarin Studio if you prefer) plugins and templates (Thanks to Dean Ellis of the MG team), so this is now fully supported.
 
 * * *
+
 
 # Supported platforms
 
@@ -67,6 +70,7 @@ There is an experimental 3.3 PCL platform release, however this is still a work 
 MonoGame also supports most consoles (more in the future) but you need contracts with them before you can even start considering it!.  Chat to us if you have specific plans and the team can help.
 
 * * *
+
 
 # Getting Started
 
@@ -90,6 +94,7 @@ Which of course you can also install on top of existing projects to keep up to d
 
 * * *
 
+
 # NuGet Gotcha’s
 
 There are a few pointers about the NuGet’s you need to be aware of before installing some of the NuGets (any not mentioned are perfectly fine)
@@ -100,6 +105,7 @@ There are a few pointers about the NuGet’s you need to be aware of before inst
 I will go over these in more detail in future posts.
 
 * * *
+
 
 # An Ode to XNA
 
@@ -117,6 +123,7 @@ I have to thank the visionaries at Microsoft who dared to dream of a managed gam
 
 * * *
 
+
 # Are we not dead yet?
 
 I’ve heard various comments around the web thinking because XNA is on its way out, so must MonoGame. Or, I’ve not heard from MonoGame in a long while and there are no updates, are they dead yet?
@@ -128,6 +135,7 @@ The team have noted that updates have been far and few, this will change followi
 Keep watching this space (and the MG site), more updates should follow on a more regular basis.
 
 * * *
+
 
 # Where to find out more
 
@@ -142,14 +150,15 @@ There is lots more info out there for MonoGame and the 3.3 release, here are the
 
 * * *
 
+
 # Interstellar
 
-I leave this post with a parting thought.  You should have noticed that with the 3.3 release, the MonoGame Team officially released a Universal App template. This allows you to write one project targeting BOTH Windows Phone 8.1 and Windows 8.1.  This was a tremendous achievement for the team to pull this one out of the bag.
+I leave this post with a partying thought.  You should have noticed that with the 3.3 release, the MonoGame Team officially released a Universal App template. This allows you to write one project targeting BOTH Windows Phone 8.1 and Windows 8.1.  This was a tremendous achievement for the team to pull this one out of the bag.
 
 You may have also have heard about another company and it is Universal project announcements, so think on that.  I personally cannot confirm / deny or vouch for any plans for MonoGame’s future Universal support, however Tom Spilman of SickHead Games, one of the core coordinators of the MonoGame Project, did have this to say recently:
 
 > [ ![ /></a></p>
-> <p><a href=](https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xap1/v/t1.0-1/c5.0.32.32/p32x32/1959504_10203321198939544_1902899744_n.jpg?oh=717ebd812c287e2fdacc4b7b0b1990a6&oe=558330FC& __gda__ =1434347011_d91a1253df4536190bf0ce736f2f19fe)Tom Spilman](https://www.facebook.com/TomSpilman?fref=ufi) I am one of the maintainers of MonoGame. It does include a universal app template for Win8/Wp8, but we fully expect to support Win10 universal apps as soon as the SDK is available.
+> <p><a href=](assets/img/posts/image-not-found.png)Tom Spilman](https://www.facebook.com/TomSpilman?fref=ufi) I am one of the maintainers of MonoGame. It does include a universal app template for Win8/Wp8, but we fully expect to support Win10 universal apps as soon as the SDK is available.
 > 
 > [<abbr>18 hrs</abbr>](https://www.facebook.com/groups/XboxOneIndieDevs/permalink/679735775465038/?comment_id=679823175456298&offset=0&total_comments=4) · [Unlike](https://www.facebook.com/groups/XboxOneIndieDevs/?pnref=lhc#) · [6](https://www.facebook.com/browse/likes?id=679823175456298)
 

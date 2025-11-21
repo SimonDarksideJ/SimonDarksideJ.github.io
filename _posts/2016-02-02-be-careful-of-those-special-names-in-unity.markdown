@@ -20,6 +20,7 @@ One of those simple facts surrounds what you name things in your scripts and cod
 
 * * *
 
+
 # What is in a name?
 
 Now it should be clear from just using Unity for 5 minutes that there are some names that you simply ca not call things in Unity, the most obvious being:
@@ -36,6 +37,7 @@ The answer sadly is NO.
 
 * * *
 
+
 # You can have any color you want, so long as it is red
 
 This all came about as I was helping out one studio (as it is what I usually do) in testing their project as well as supporting them with building their Windows 10 UWP version (target several platforms from a single build, yes please).
@@ -50,6 +52,7 @@ There was an error that only popped up in the compiled version of their project 
 In this case I was testing, the developer had created a class called “ **SplashScreen** ” (which seems fairly innocuous), however when you dig under the hood you find that that BOTH Unity and the Microsoft platforms already have a type called SplashScreen.  Unity was able to work around its own type in the internal build making sure the version of the SplashScreen class in the project was different to Unity’s version of SplashScreen (most likely by using different namespaces).  When it came to the platform build however, **_the classes used in your project will OVERRIDE those used by the platform_**.
 
 * * *
+
 
 # If you test it they will come
 
@@ -68,6 +71,7 @@ And you will see a wrath of errors related to the SplashScreen class, as the pro
 
 * * *
 
+
 # So what names should you NOT use
 
 Now I have done some testing but it is not very extensive, so I will list what I have tested and found issues.
@@ -83,6 +87,7 @@ Now I have done some testing but it is not very extensive, so I will list what I
 If you are aware of any more, feel free to comment below.
 
 * * *
+
 
 # How to avoid the problem completely
 

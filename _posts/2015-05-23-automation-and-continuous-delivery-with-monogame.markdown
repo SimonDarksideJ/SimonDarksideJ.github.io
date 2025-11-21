@@ -15,6 +15,7 @@ Fast forward to today and not only have the team released 2 major updates in as 
 
 * * *
 
+
 # Continuous delivery
 
 Thanks to a lot of hard work in the background the team have implemented continuous NuGet delivery in two phases:
@@ -26,6 +27,7 @@ So what do we get?  Well, the current NuGet landscape now stands as follows:   [
 
 * * *
 
+
 # MonoGame goes fully Universal
 
 The obvious main contender that caused two releases in the recent months was the addition of the new Universal Windows Project (UWP / UAP), launched just in time for all the big announcements at the Microsoft Build conference this year. This opens the door to full Windows 10 development and all the platforms it currently supports: [![image](/assets/img/wordpress/2015/05/image2.png "image")](/assets/img/wordpress/2015/05/image2.png) And unlike most other frameworks, this is already available NOW, not a beta, not a pre-release and not just available to a few, but NOWand for everyone.
@@ -33,6 +35,7 @@ The obvious main contender that caused two releases in the recent months was the
 This means you can start building your MonoGame project for Windows, Phone, XBOX, IOT devices and even the HoloLens (when it is available) right NOW.
 
 * * *
+
 
 # Grabbing your releases
 
@@ -48,6 +51,7 @@ Starting with NuGet is fast and easy, just download the installer from the [Mono
 At the moment, you still need the main installer to get access to the awesome MonoGame Content Builder tool.  The team are still looking at alternate ways to deliver this tool but for now it is just in the installer. If you wish, you can then start a new project using the built in project templates and/or update your MonoGame / XNA references in your project with the MonoGame NuGet’s mentioned earlier from the public NuGet server.   With that you are ready to rock.
 
 * * *
+
 
 # Getting ahead of the curve
 
@@ -77,6 +81,7 @@ Obviously, if you are extremely crazy, you can also opt to bypass all this insta
 
 * * *
 
+
 # Samples a plenty
 
 As ever, the MonoGame project Samples have been updated with the latest releases (Plus a minor clean up fix to tidy up the removal of the old NuGet packages) [![image](/assets/img/wordpress/2015/05/image6.png "image")](/assets/img/wordpress/2015/05/image6.png)
@@ -87,30 +92,40 @@ Only the Platformer2D sample is fully supported across all platforms, NeonShoote
 
 * * *
 
+
 # And Yet there is More!
 
 MonoGame is really getting some love of late, especially on NuGet.  While checking and testing out the automated NuGet packages, I came across several new packages created specifically to support MonoGame games, here;s just a snippet of what I have found:
 
 - 
+
 ### [TexturePacker-MonoGameLoader](http://www.nuget.org/packages/TexturePacker-MonoGameLoader/) – A handy tool for packing your images into spritesheets / atlases
 - 
+
 ### [SharpNav.MonoGame](http://www.nuget.org/packages/SharpNav.MonoGame/1.0.0-alpha2) – A nav mesh pathfinding framework created for MonoGame
 - 
+
 ### [MerjTek.WpfIntegration](http://www.nuget.org/packages/MerjTek.WpfIntegration.MonoGameControlWinGL/) – WPF framework that integrates with OpenGL or DIrectX
 - 
+
 ### [Supernova Particle System for MonoGame](http://www.nuget.org/packages/Supernova-Particle-System/) – Particle engine for MonoGame (although last updated in 2013?)
 - 
+
 ### [Farseer Physics Engine –](http://www.nuget.org/packages/FarseerPhysicsMonoGameWindows8/)Physics engine library for MonoGame (although I have also heard of a PCL version)
 - 
+
 ### [Starbound Input](http://www.nuget.org/packages/Starbound.Input/) – An input event library for MonoGame
 - 
+
 ### [DPSF](http://www.nuget.org/packages/DPSF/) – Another fantastic particle system engine
 - 
+
 ### [Empty Keys UI](http://www.nuget.org/packages/EmptyKeysUI/) – XAML Based UI framework for MonoGame and other game engines
 
 These are but a few, keep an eye out for others appearing.
 
 * * *
+
 
 # I bid you adieu
 

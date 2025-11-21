@@ -17,6 +17,7 @@ So I stepped in and offered to help with the conversion, so here is what happene
 
 * * *
 
+
 # In the Beginning
 
 ![](http://download.xbox.com/content/xna/assets/58550651_World/xboxboxart.jpg)
@@ -36,9 +37,10 @@ So while I was busy with my work project, Chris got on with the GS 4 upgrade.  T
 
 * * *
 
+
 # Woe be to those who stick their neck out
 
-![](http://upload.wikimedia.org/wikipedia/commons/7/78/Ostrich_-_melbourne_zoo.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Bit of an odd title, but those were my first thoughts in the first week of the project.  I will explain.
 
@@ -48,9 +50,9 @@ As with all games Old School Adventure (OSA for short) has configurable levels, 
 
 HOWEVER, the XMLDocument class is NOT AVAILBLE on the phone, Gah!!!, nightmare, and it is everywhere.  Still I was not deterred.  At this point I had several options:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Convert to use XDcoument, which is available on the Phone   
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Convert all the XML content to use automatic XNB serialisation or write my own content importer   
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Refactor all the XML type classes and use XML serialisation
+> ![](assets/img/posts/image-not-found.png)    Convert to use XDcoument, which is available on the Phone   
+> ![](assets/img/posts/image-not-found.png)    Convert all the XML content to use automatic XNB serialisation or write my own content importer   
+> ![](assets/img/posts/image-not-found.png)    Refactor all the XML type classes and use XML serialisation
 
 Option 1 was not really an option and there is not enough functionality in the XDocument classes to do everything Chris did with the XML, I did not fancy changing the XML format (as it would mean Chris would have a hard time adding more content with his existing editor) and I have not written any of my own content importers before (however in hindsight, this might have been easier).
 
@@ -58,19 +60,20 @@ SO that left me with XML serialisation, I have done a fair bit of that before, g
 
 * * *
 
+
 # The trial of reading someone else’s XML
 
-![](http://www.brickshelf.com/gallery/Jojo/Eigenbauten/things/adalbert_stifter.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Starting with just the windows version of the project, I took the existing XML, de-serialised it and then populated a completely different set of classes with the result.  This is an interesting challenge, which in the end broke down in to the following steps:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Use the XSD tool (a command line tool provided with Visual Studio) to generate an XSD schema for each type of XML file     
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Use the XSD tool again to generate a class file from the XSD schema file   
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Edit the generated class file to remove array’s of arrays ([][]) – More on this in a bit   
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Write and test de-serialising the classes using XML serialiser   
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Edit the classes to add additional values (because not all XML’s had all the values populated, grrr)   
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Change the XML factories in the game to use the new Serialisers instead of XML documents   
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    Test, Test, Test
+> ![](assets/img/posts/image-not-found.png)    Use the XSD tool (a command line tool provided with Visual Studio) to generate an XSD schema for each type of XML file     
+> ![](assets/img/posts/image-not-found.png)    Use the XSD tool again to generate a class file from the XSD schema file   
+> ![](assets/img/posts/image-not-found.png)    Edit the generated class file to remove array’s of arrays ([][]) – More on this in a bit   
+> ![](assets/img/posts/image-not-found.png)    Write and test de-serialising the classes using XML serialiser   
+> ![](assets/img/posts/image-not-found.png)    Edit the classes to add additional values (because not all XML’s had all the values populated, grrr)   
+> ![](assets/img/posts/image-not-found.png)    Change the XML factories in the game to use the new Serialisers instead of XML documents   
+> ![](assets/img/posts/image-not-found.png)    Test, Test, Test
 
 One of the really annoying parts of this was part 3.  When the XSD tool find a collection of collections, it defines this as arrays of arrays ([][]), however:
 
@@ -88,22 +91,23 @@ One of the really annoying parts of this was part 3.  When the XSD tool find a c
 
 Hence the XSD tool creates a class that the XMLSerialiser cannot use, this meant I had to refactor the generated code somewhat to flatten out these creations, each also took a few attempts to get right, with the makeup of the XML and the tags used.
 
-After getting all this running (and then revisiting when I found some more ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.wlEmoticon_2D00_smile_5F00_79D3BA0F.png)) I got the windows version running using all the XML’s
+After getting all this running (and then revisiting when I found some more ![Smile](assets/img/posts/image-not-found.png)) I got the windows version running using all the XML’s
 
 The end result of this, is that if you are considering making a multi-platform game and intend to include a Phone project, use standard XML or XNB serialisation.  If you are using pre-existing XML from another source, then write a content importer to ensure it will work on any platform.
 
 * * *
 
+
 # Starting the Phone conversion
 
-![](http://www.masternewmedia.org/images/PDF_conversion_guide_free_best_services_2049391_size400.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now at least I thought I was on a winner and used the standard “save as a windows phone project” option in Visual studio, which creates Phone versions of all the projects in the solution, EXECEPT the content project.  Thought that was a bit strange, but on we go.
 
 Ran the project and it failed utterly.  Next came the more interesting discoveries of the phone platform:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    You have no direct access to files by default on the Phone, err, how do I get to my XML   
-> ![](http://www.dotnetscraps.com/samples/bullets/037.gif)    There is practically no NULL error handling on the Phone platform
+> ![](assets/img/posts/image-not-found.png)    You have no direct access to files by default on the Phone, err, how do I get to my XML   
+> ![](assets/img/posts/image-not-found.png)    There is practically no NULL error handling on the Phone platform
 
 I found the second one quite surprising, after all I had just converted a working windows game and put it on the phone, one that had worked perfectly before on the XBOX, V.Odd, but I digress.  SO I wandered the code and added strict Null handling everywhere that content was read (including some type parsing as well, just to be sure).
 
@@ -113,9 +117,10 @@ Then it fell down on the next thing, which is connected to my last statement.  P
 
 * * *
 
+
 # In to the Danger zone
 
-![](http://4.bp.blogspot.com/_Ynrrr6220yU/TCn2MRtzkAI/AAAAAAAAB3w/6J2RYECKevo/s1600/movie-poster-top-gun.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Well not exactly, the next thing I had to tackle was the audio.  As it is well known that the Phone does not support XACT projects.  Now I could have changes all the audio calls to change from using cue’s to audio files, but that would just be messy.
 
@@ -127,9 +132,10 @@ Cooking on gas, yay.
 
 * * *
 
+
 # Dead Stop
 
-![](http://3.bp.blogspot.com/_1sTsSByT--4/SuiibfFDUhI/AAAAAAAAAC0/eSIBWxyfHFw/s320/dead-stop-bootleg-edition-1.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Just when I thought I was out of the woods, the world came crashing in.  The game would start, splash screen would display but then the graphics device would just fall over and when I say just the graphics device, I mean it.  The game would still continue to run and update, all the menu functionality would be working however nothing on screen.
 
@@ -159,9 +165,10 @@ After quickly sorting out the singleton and making sure it was set to the existi
 
 * * *
 
+
 # Woohoo I can see LIVE things
 
-![](http://t0.gstatic.com/images?q=tbn:8Pxg4l7q88A8NM:http://lolebrity.wordpress.com/files/2008/08/steve-jobs-wants-you-to-stop-it.jpg&t=1)
+![](assets/img/posts/image-not-found.png)
 
 Granted all was not yet rosy but the game ran, a few more defaults needed setting from the XML configuration and there were still some areas where I had not accounted for nulls, but the game was running.
 
@@ -171,7 +178,7 @@ A good point to make here is that if you are making a multi-platform project (de
 
 | 
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8030.image_5F00_5F00_67B750B5.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5126.image_5F00_2F88FF6A.png)
+[![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5126.image_5F00_2F88FF6A.png)
 
  |
 
@@ -183,12 +190,12 @@ A good point to make here is that if you are making a multi-platform project (de
 
  
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2161.image_5F00_5F00_3F2848D4.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_10FE72E7.png)
+[![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_10FE72E7.png)
 
  |
 | Windows Project |   | Phone Project |
 
-| [![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0412.image_5F00_5F00_731C9C8D.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6371.image_5F00_24D7B9E3.png) |
+| [![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6371.image_5F00_24D7B9E3.png) |
 | File Directory |
 
 So in the windows project you have an asset file called “Background.png” and named “Background”, in the Phone content project you have a file called “Background\_Phone.png” and named “Background”.  To the code they are both the Background image, it is just the actual file being used as the background is different.
@@ -196,6 +203,7 @@ So in the windows project you have an asset file called “Background.png” and
 We did the same with the audio as well, you will always find that the largest content you will ever have is your audio, simply because there is no compression allowed at all with audio files, but as has been stated before, using a tool like Audacity and down sampling your audio to 22,000k and Mono (instead of stereo) does not degrade the audio content too much, especially for playing back on a mobile device.
 
 * * *
+
 
 # Testing the obvious
 
@@ -212,9 +220,10 @@ I have made a few comments above about testing, so here is what I used:
 
 * * *
 
+
 # Final thoughts
 
-![](http://www.socialstudiesworld.com/images/thinker_picture2.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now the game is not released yet and we have a few minor tweaks left to go (more content, tweaking the controls system) but it is nearly done and the major problems with the conversion are out of the way.
 

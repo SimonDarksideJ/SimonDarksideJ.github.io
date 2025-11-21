@@ -23,19 +23,21 @@ Now if you are converting your own project along side me with this tutorial, mak
 
 Follow along with the series here:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386) (here)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
+> ![align=](assets/img/posts/image-not-found.png) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386) (here)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
 
 Also [Channel 9](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) are running a similar [video series here](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) if you prefer videos! ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile1.png)
+
 
 #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
+
 
 ## Lets get the new project started
 
@@ -56,6 +58,7 @@ Nothing spectacular but it does give us a chance to see a good old clean Cornflo
 
 * * *
 
+
 ## Brining in the Rain
 
 So with our new project setup, first thing we need to do is bring in our XNA game project with a twist.  make sure you have downloaded the [Platformer sample](http://create.msdn.com/downloads/?id=535&filename=Platformer_4_0.zip "Download Sample from AppHub") from the AppHub first and have it unpacked somewhere.
@@ -74,17 +77,18 @@ Next Right click the Solution and select “Add –\> Existing Project” and br
 
 | [![image](/assets/img/wordpress/2012/07/image53.png "image")](/assets/img/wordpress/2012/07/image51.png) | So our project is now made up of:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/013.gif)    The Content project from our existing XNA solution unchanged (although make sure it is a phone variation of the Content project with assets resized and compressed appropriately using the same asset names as it is XBOX / PC counterpart if you have one)
+> ![align=](assets/img/posts/image-not-found.png)    The Content project from our existing XNA solution unchanged (although make sure it is a phone variation of the Content project with assets resized and compressed appropriately using the same asset names as it is XBOX / PC counterpart if you have one)
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/013.gif)    The unmodified code (we will soon change that) from our original XNA game project
+> ![align=](assets/img/posts/image-not-found.png)    The unmodified code (we will soon change that) from our original XNA game project
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/013.gif)    The Silverlight page project for our solution, we should always endeavour to only put Silverlight specific functionality or presentation in here to keep consistency with other platforms
+> ![align=](assets/img/posts/image-not-found.png)    The Silverlight page project for our solution, we should always endeavour to only put Silverlight specific functionality or presentation in here to keep consistency with other platforms
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/013.gif)    The default XNA Game library that came with our solution.  You could quite happily remove this at this point but I have kept it in for now (just in case ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile1.png)), if you are just building a SilverXNA project and not worried about consistency across platforms then feel free to just use this for all your game logic and XNA drawing code.
+> ![align=](assets/img/posts/image-not-found.png)    The default XNA Game library that came with our solution.  You could quite happily remove this at this point but I have kept it in for now (just in case ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile1.png)), if you are just building a SilverXNA project and not worried about consistency across platforms then feel free to just use this for all your game logic and XNA drawing code.
 
  |
 
 * * *
+
 
 ## And now comes the Breaking
 
@@ -92,7 +96,7 @@ At this point we have pure XNA code in a Silverlight project, so not only will i
 
 Now if you are doing your own project you should have already done the prerequisites to your project from the instructions in Part 1 but I’m going to re-iterate through them here for the Platformer sample.
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/013.gif)References
+> ![align=](assets/img/posts/image-not-found.png)References
 > 
 > First off tidy up the references and add the ones we require for each project:
 > 
@@ -101,7 +105,7 @@ Now if you are doing your own project you should have already done the prerequis
 > - Add a reference to “Microsoft.Phone.Sensors” to the PlatformerGameLibrary project (as we are using the accelerometer)
 > - Add a reference to “Microsoft.Phone” to the PlatformerGameLibrary project (as we are using the some native API’s)
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/013.gif)    Change the scope of the base objects in the PlatformerGameLibrary
+> ![align=](assets/img/posts/image-not-found.png)    Change the scope of the base objects in the PlatformerGameLibrary
 > 
 > Edit the following files and simply make the classes and enumerations within them “Public” so they will be exposed outside the game library
 > 
@@ -151,7 +155,7 @@ Now if you are doing your own project you should have already done the prerequis
 > 
 > Clean up the remaining broken references in Player.cs and Level.cs by replacing any mentions of “gameTime” with “elapsedGameTime”. There are a few dotted around including some internal functions such as “DoJump” and “gem.Update(gameTime)”
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/013.gif)     There is always one exception
+> ![align=](assets/img/posts/image-not-found.png)     There is always one exception
 > 
 > The only reference I was unable to fix was in “Gem.cs” where the project actualy makes use of the “TotalGameTime” property of the original GameTime class.  As it is only one reference I decided to overlook this and just replaced it with “elapsedGameTime” just to keep things simple and it does not overly affect the end result.  If it were really important or if it was my own project I may have looked to refactor this a bit better or as stated before passed both elapsed and total time to the function that needed it.
 > 

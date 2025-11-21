@@ -5,6 +5,7 @@ date: 2012-06-29 09:10:55
 tags: [2d tutorial, game development, xna]
 ---
 
+
 ### 1. Introduction
 
 _C#_ is a new, simple programming language based on the older programming language called _C++_. The similarities between _C#_ and _C++_ are easily notified. This chapter is an overview of the _C#_ programming language. In this chapter we might use some instructions or expressions without explaining their meaning. These materials will be covered in subsequent chapters.
@@ -38,6 +39,7 @@ I highly recommend the “[Plugin Collection for Windows Live Writer”](http://
 
 * * *
 
+
 ### 2. The Smallest C# Program
 
 | static void Main( )
@@ -60,6 +62,7 @@ Facts:
 - The _C#_ programming language is a free format language.
 
 * * *
+
 
 ### 3. Displaying a Message
 
@@ -85,6 +88,7 @@ Close examination of this program is illuminating:
 
 * * *
 
+
 ### 4. Comments
 
 Two forms of comments are supported: single-line comments and delimited comments. **_Single-line comments_** start with the characters // and extend to the end of the source line. **_Delimited comments_** start with the characters /\* and end with the characters \*/. Delimited comments may span multiple lines.
@@ -100,6 +104,7 @@ The following example shows several single-line comments.
     using System; // Hello, world program // This program writes “hello, world” to the console // class Hello // any name will do for this class { static void Main() // this method must be named “Main” { Console.WriteLine(“hello, world”); } }
 
 * * *
+
 
 ### 5. Multiple Instructions Program
 
@@ -119,6 +124,7 @@ Facts:
 - When the last instruction (which is also the first instruction) of the function DisplayHello is executed, the execution returns to the instruction right after the function call, which is DisplayWorld.
 
 * * *
+
 
 ### 6. Functions with Argument Returning a Value
 
@@ -154,6 +160,7 @@ Facts:
 - The compiler uses the type in order to know how much memory to allocate.
 
 * * *
+
 
 ### 7. Variables
 

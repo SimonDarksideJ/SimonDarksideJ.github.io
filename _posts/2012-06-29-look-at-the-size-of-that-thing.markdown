@@ -5,31 +5,32 @@ date: 2012-06-29 22:24:28
 tags: [game development]
 ---
 
-![](http://www.brickartist.com/gallery/deathstar1.jpg)
+![](assets/img/posts/image-not-found.png)
 
-“Cut the chatter Red 2” ![Hot smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2063.wlEmoticon_2D00_hotsmile_5F00_0EC504A6.png)(What can I say, I am a fan)
+“Cut the chatter Red 2” ![Hot smile](assets/img/posts/image-not-found.png)(What can I say, I am a fan)
 
 Of one of the things (other than the job to get past the marketplace submission process) that troubles most WP7 developers is the size of their eventual project, invariably it is always large (if you have more than basic pages and text)
 
 The usual culprits are:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Images and backgrounds   
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Audio   
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Sprites (for games)   
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Model files   
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Text content (usually only applicable for games or apps that work standalone)
+> ![](assets/img/posts/image-not-found.png)    Images and backgrounds   
+> ![](assets/img/posts/image-not-found.png)    Audio   
+> ![](assets/img/posts/image-not-found.png)    Sprites (for games)   
+> ![](assets/img/posts/image-not-found.png)    Model files   
+> ![](assets/img/posts/image-not-found.png)    Text content (usually only applicable for games or apps that work standalone)
 
 Most of the reasons for this are really down to our own professionalism or vanity to our project, we want it to look good or it is a multiplatform project so you want to use centralised assets.
 
 So what can we do to make this better and get down the size of our projects, here is a few tips:
 
-(and if you are wondering why this should bother you, then please step away from the keyboard ![Winking smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5126.wlEmoticon_2D00_winkingsmile_5F00_2271EE3A.png))
+(and if you are wondering why this should bother you, then please step away from the keyboard ![Winking smile](assets/img/posts/image-not-found.png))
 
 * * *
 
+
 # Audio
 
-![](http://us.123rf.com/400wm/400/400/PIKSEL/piksel0607/piksel060700166/469074.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Sound and Music is by far the area that causes projects to bloat in size.  Unless you have invested in some kind of audio generator (like SFXR) or are using procedural audio, then initially you will have an issue.
 
@@ -39,19 +40,19 @@ Thing to remember is that this is a mobile platform, the speakers are good but n
 
 Now the best tool to do this with is [Audacity](http://audacity.sourceforge.net/), which is also FREE.
 
-![](http://audacity.sourceforge.net/about/images/audacity-linux-small.jpg)
+![](assets/img/posts/image-not-found.png)
 
 The interface is pretty basic but works very well, first thing you should notice when you open a sound file is the audio properties next to the graph on the left:
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image_5F00_5F00_5324F5E5.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1581.image_5F00_2D2F458F.png)
+[![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1581.image_5F00_2D2F458F.png)
 
 Here you can see it is stereo and using a sample rate of 44khz, having this level of quality in an audio file does make it fairly large. 
 
 Now to combat this we will just drop those two very simply.  Starting with a 4MB mp3 file converted to WAV, we have a 35Mb file
 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    First, open up the Tracks option in the Menu and select “Stereo Track to Mono”.  This will merge the stereo channels into one we get an instant 50% saving on the file size (no surprise really as we have gone from two tracks to one)
+> ![](assets/img/posts/image-not-found.png)    First, open up the Tracks option in the Menu and select “Stereo Track to Mono”.  This will merge the stereo channels into one we get an instant 50% saving on the file size (no surprise really as we have gone from two tracks to one)
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)   Next you want to resample the file to a lower bit rate, using the same Tracks menu option, select the “Resample” selecting 11khz as the option (play with this a bit and test after the resample to make sure it still sounds fine to you through headphones, most sound work fine at 11khz but some sound awful, in that case hit Ctrl-Z, listen again and resample at the next rate up).  This cuts the file down about another 75%.
+> ![](assets/img/posts/image-not-found.png)   Next you want to resample the file to a lower bit rate, using the same Tracks menu option, select the “Resample” selecting 11khz as the option (play with this a bit and test after the resample to make sure it still sounds fine to you through headphones, most sound work fine at 11khz but some sound awful, in that case hit Ctrl-Z, listen again and resample at the next rate up).  This cuts the file down about another 75%.
 
 So with just a few tweaks we have this:
 
@@ -62,9 +63,10 @@ Now usually you would try to be a bit more sensible with your starting audio to 
 
 * * *
 
+
 # Large Images and backgrounds
 
-![](http://www.learningwonders.com/cart/images/T/meadow04.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now unless you are doing sneaky tricks like having a single pixel colour expanded to fill the screen or colouring a canvas, you will likely have a fairly large image to fit your application / game.
 
@@ -72,17 +74,17 @@ Like audio there are a few simple tweaks we can use to get the original file siz
 
 So like audio it comes down to two main things, the size of the image and the format used to store it in.
 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Size, this take a bit of care and practice to get right, using any simple Paint tool ([paint.net](www.getpaint.net/) being my favourite) you can resize your images down.  Keep in mind that the screen size for WP7 phones is 800×480 Landscape or 480×800 for portrait, using sizes 1/2 of this is usually the best breaking point as it makes it easier for the hardware to scale up. (you may hear the phrase “Power of 2” used a lot in graphics), so resizing to 400×240 or 240×400 is a good start.  Try lower resolutions as well to find the good mean point for you project, different objects will work better at different resolutions so just find a point you are happy with (not every image needs to be 1024×1024 quality).
+> ![](assets/img/posts/image-not-found.png)    Size, this take a bit of care and practice to get right, using any simple Paint tool ([paint.net](www.getpaint.net/) being my favourite) you can resize your images down.  Keep in mind that the screen size for WP7 phones is 800×480 Landscape or 480×800 for portrait, using sizes 1/2 of this is usually the best breaking point as it makes it easier for the hardware to scale up. (you may hear the phrase “Power of 2” used a lot in graphics), so resizing to 400×240 or 240×400 is a good start.  Try lower resolutions as well to find the good mean point for you project, different objects will work better at different resolutions so just find a point you are happy with (not every image needs to be 1024×1024 quality).
 > 
 > A note to remember is that the docs state the maximum image size presentable on the device is 2048×2048.  This refers to the TOTAL image output to the screen, not a physical texture file limit.  In practice, you should not be pumping more that 1024z1024 worth of textures to the screen or you are going to hit performance issues.  Smaller is better and scale UP not down.
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    DXT texture format (or DDS texture format – [Shawn Hargreaves](http://blogs.msdn.com/b/shawnhar/) wrote a brilliant article on texture formats for the XBOX (ruffles through links but cannot find it right now, have a look on [his blog](http://blogs.msdn.com/b/shawnhar/)).  The same rules apply to the WP7, one keen note which I’m sure is scribbled in the docs somewhere is that the phone natively works with DXT compression to the screen, which means that the phone does not need to do any extra processing to send the image to the screen if it is DXT compressed (Time = processing power = poor performance).  So if all your images are PNG’s or JPG’s then the phone has to decompress the image before sending it to be displayed, for DXT it just send it to the display, sweet.
+> ![](assets/img/posts/image-not-found.png)    DXT texture format (or DDS texture format – [Shawn Hargreaves](http://blogs.msdn.com/b/shawnhar/) wrote a brilliant article on texture formats for the XBOX (ruffles through links but cannot find it right now, have a look on [his blog](http://blogs.msdn.com/b/shawnhar/)).  The same rules apply to the WP7, one keen note which I’m sure is scribbled in the docs somewhere is that the phone natively works with DXT compression to the screen, which means that the phone does not need to do any extra processing to send the image to the screen if it is DXT compressed (Time = processing power = poor performance).  So if all your images are PNG’s or JPG’s then the phone has to decompress the image before sending it to be displayed, for DXT it just send it to the display, sweet.
 > 
 > Now here is where the fun begins, getting things into a DXT format is a bit of a black art (what sites do not usually tell you if you google it, is that a DXT format texture is actually a DDS (Direct Draw Surface) file format, so searching for a DXT compressor gets you some odd links.
 > 
 > Best tool I have come across (unless you want to use the TextConv tool that comes with the DirectX tools, which crashes on 64bit BTW) is a tool called “[The Compressonator](http://developer.amd.com/gpu/compressonator/pages/default)”, it is easy to use, only a few clicks to convert your images and it is also FREE (made by AMD of all people)
 > 
-> [![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7851.image_5F00_5F00_704A9DEF.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/4705.image_5F00_44E67CF5.png)
+> [![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/4705.image_5F00_44E67CF5.png)
 > 
 > Open up your image file, select the compression method in the combo box in the top right (the default ATI one has always worked best for me) and just hit CONVERT.  From there you are given a list of formats to convert to (shown above).
 > 
@@ -98,9 +100,10 @@ P.S – as a little GOTCHA, make sure you resize and then compress and NOT the o
 
 * * *
 
+
 # Sprites
 
-![](http://t0.gstatic.com/images?q=tbn:x5AJMpDSXecClM:)
+![](assets/img/posts/image-not-found.png)
 
 Now you make say “Sprites are just images, what you going on about”, in which case you are right, with one exception.  Most single images or backgrounds are fairly large and you only want one or two of them on the screen, or they are simply a fixed image with no animation.
 
@@ -116,9 +119,10 @@ I keep in mind the phase that is bounded around a lot with WP7 development (or e
 
 * * *
 
+
 # Model Files
 
-![](http://hce.halomaps.org/images/files/lg/pic-1.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now in XNA if you are doing 3D (so this does not apply to Silverlight, YET.  Roll on Silverlight 5) you are likely to be using models for all your 3D objects.
 
@@ -128,33 +132,36 @@ If the model has procedurally generated materials or textures, then there is not
 
 * * *
 
+
 # Compression
 
-![](http://www.thestoragealchemist.com/wp-content/uploads/2010/02/compress.lowres.jpeg)
+![](assets/img/posts/image-not-found.png)
 
 Now as with anything else you can throw at your projects such as XML configuration files, Model files (which are usually just text), text files and such you make think it easy to just add a little compression to these to get their size down.
 
 Now it is possible and there are several C# based compression tools out there which are usually open source, however keep in mind:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    De-Compression takes time. check that the whole process of reading the file and unpacking it is not greater than just reading the file normally
+> ![](assets/img/posts/image-not-found.png)    De-Compression takes time. check that the whole process of reading the file and unpacking it is not greater than just reading the file normally
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    If you compress models or XML files, then you are going to have to write your own importers to the project for them, features like the XNA Content Manager do not work in run time, only at build time and it does a level of compression itself anyway
+> ![](assets/img/posts/image-not-found.png)    If you compress models or XML files, then you are going to have to write your own importers to the project for them, features like the XNA Content Manager do not work in run time, only at build time and it does a level of compression itself anyway
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    XAP packages are essentially just ZIP files, so they are compressed already for delivery (just rename one to .ZIP and open it if you don’t believe), so adding your own compression wo not reduce the package size, only the impact on the phone when it is installed. (and since there are NO quota’s you might as why bother)
+> ![](assets/img/posts/image-not-found.png)    XAP packages are essentially just ZIP files, so they are compressed already for delivery (just rename one to .ZIP and open it if you don’t believe), so adding your own compression wo not reduce the package size, only the impact on the phone when it is installed. (and since there are NO quota’s you might as why bother)
 
 SO the upshot is, although compression may seem like a good idea for WP7 projects, do not forget the teams building all this also had this in mind so they have optimised and compressed what they can already, in short do not bother (unless like me you like to tinker to see what you can get extra out of anything!)
 
 * * *
 
+
 # XNA Content Manager Projects
 
-![](http://static.flickr.com/98/215075573_aee11db610_o_d.jpg)
+![](assets/img/posts/image-not-found.png)
 
 If you are planning for or are wanting to create multi-platform projects, especially between the XBOX and WP7, here is a little tip to keep you on the straight and narrow.
 
 You might be tempted to use the same Content project for each version.  in fact when you copy a Windows or XBOX project to a WP7 project using the “Copy as …” feature, it does not create another Content project it only copies all the code projects you have in your solution to the new version.
 
 Now this is fine if all your assets are small or are already compressed, but more often than not, all your assets are scaled for your original target platform.  You might be temped then to use the tips above to create some new mobile assets and add them to the same project and alter your code to pick up the new assets with a load of #IF statements.
+
 
 ## <u>STOP WHAT YOU ARE DOING AND WALK AWAY</u>
 
@@ -184,15 +191,16 @@ If only everything in life was that simple.
 
 * * *
 
+
 # Conclusion
 
-![](http://fc07.deviantart.net/fs18/i/2007/151/6/f/Wedge_Antilles_by_Saria_Alkiniria.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Well hopefully you are a little more informed about packaging for WP7 or at the very least found some new tools to make your life easier.
 
 i know I had a few gripes and a lot of fun burning the midnight oil to work through a lot of problems related to performance and size of the project I was working on so it is only fair that i share!
 
-Now if you will excuse me, i got work to do ![Winking smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5126.wlEmoticon_2D00_winkingsmile_5F00_2271EE3A.png)
+Now if you will excuse me, i got work to do ![Winking smile](assets/img/posts/image-not-found.png)
 
 P.S
 

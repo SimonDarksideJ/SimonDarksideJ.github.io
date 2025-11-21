@@ -11,11 +11,13 @@ Apologies, had to split the post do to some technical issues on teh XNA-UK site,
 
  
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
  
 
 * * *
+
 
 ### Putting it all in place
 
@@ -682,6 +684,7 @@ Compile again and click on the screen (Touch if you actually have either a phone
 * * *
 
  
+
 
 ### But wait there’s more!!!!
 

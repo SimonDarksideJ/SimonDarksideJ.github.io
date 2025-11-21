@@ -6,7 +6,7 @@ tags:
 - ramblings
 ---
 
-Things have been quiet recently what with the Holidays and all.  In fact WordPress even gave me an early present when I updated they kindly reset my entire site back to it’s theme defaults, how nice of them.
+Things have been quite recently what with the Holidays and all.  In fact WordPress even gave me an early present when I updated they kindly reset my entire site back to it’s theme defaults, how nice of them.
 
 So the blog looks a big of a mess at the mo and my time is as tight as ever, so I’ll eventually get round to sorting it out.
 

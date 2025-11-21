@@ -11,13 +11,16 @@ Lets bring the fire!
 
 As usual find the Windows, Phone 7 and original webcast plus docs [here on the Codeplex](http://startrooper2dxna.codeplex.com/releases/view/46712) site.
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
 
+
 ### Dynamic Sprite Creation
+
 
 ### 1. Dynamic Sprite Basics
 
@@ -80,6 +83,7 @@ Dynamic sprite creation means creating sprites at run time (during the game play
 > Dynamic sprites are used when we need to create sprites and use them during the game play.  For example, dynamic sprites are used to create bullets to shoot or a new life.
 
 * * *
+
 
 ### 2 Input
 
@@ -147,6 +151,7 @@ The DigiPen tutorial only covers keyboard so that is what will be put in here.  
 
 * * *
 
+
 ### Game Implementation
 
 In the game, the arrow keys are used to move the main sprite (trooper sprite).
@@ -159,6 +164,7 @@ In the game, the arrow keys are used to move the main sprite (trooper sprite).
 Also, when the Space key is triggered, then the main sprite (trooper) will shoot a bullet (fire sprite), which is a sprite created dynamically.
 
  
+
 
 ### Step 1: Create a new Sprite Prototype
 
@@ -567,6 +573,7 @@ So as always on with the show!!!
  
 
 * * *
+
 
 ### Addendum
 

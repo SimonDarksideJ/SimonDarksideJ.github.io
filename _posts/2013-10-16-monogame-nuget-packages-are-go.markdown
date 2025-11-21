@@ -13,6 +13,7 @@ After a few last rash hours and feedback from the NuGet team themselves, I can f
 
 * * *
 
+
 # Supported Platforms
 
 In this first round, the NuGet packages only support the Microsoft platforms but it is expected to be expanded to all platforms that NuGet supports
@@ -25,6 +26,7 @@ I am now turning my attention to Android and iOS as fast followers.
 
 * * *
 
+
 # Xamarin Support
 
 Recently the community banded together to ad NuGet support into Xamarin studio to further expand NuGets reach, you can find the details for getting this up and running here:
@@ -33,27 +35,32 @@ Recently the community banded together to ad NuGet support into Xamarin studio t
 
 Granted you are still a bit limited until the Mono Platforms are added to the package definitions but it is a start.
 
+
 ### But that is not all
 
 It has already been suggested that the NuGet installations also be converted into Xamarin Components, so this is being looked in to as well.
 
 * * *
 
+
 # What packages are available?
 
 SO that all bases are effectively covered there are two types of package:
 
 - 
+
 ### Full package and references install
 
 This package installs both the binaries and all necessary files (class files, XAML files, etc) needed to run MonoGame from a project.  This will optionally overwrite the local files in your project (you can choose not to) in order to get MonoGame running in either a blank or existing solution (with or without the MonoGame project templates)
 
 - 
+
 ### Binaries only release
 
 This package as the name suggests will only install the binaries, the main reason for this package is so that regular dev builds can be released and easily updated in your project without compiling the source yourself, especially useful for existing MonoGame projects where you just want the latest and (potentially) greatest.
 
 * * *
+
 
 # Getting installed
 
@@ -80,7 +87,9 @@ One area the Binaries packages will really help with will be Library projects.
 
 * * *
 
+
 # 
+
 
 # Last remarks
 

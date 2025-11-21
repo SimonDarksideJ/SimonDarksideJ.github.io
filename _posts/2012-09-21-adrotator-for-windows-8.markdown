@@ -17,6 +17,7 @@ Ok, well you did not come here for a history / future lesson, you came here for 
 
 * * *
 
+
 # What’s supported in the Windows 8 version of AdRotator
 
 Now these are early day of AdRotator for Windows 8 so bear with us as we get up to par with another platform, out of all the mainline features here’s what we can currently support:
@@ -38,6 +39,7 @@ What is not working yet:
 If you have a question / query or request be sure to add them to the main discussion forum on codeplex
 
 * * *
+
 
 # Getting hold of AdRotator
 
@@ -71,6 +73,7 @@ From here it is pretty much exactly the same as the Silverlight version.
 
 * * *
 
+
 # XML Configuration file
 
 Now we could have shipped a default configuration file with NuGet but we are also just learning the toolset plus I have had some odd experiences with file delivery in the past so we left it out for now.
@@ -85,6 +88,7 @@ The format of the file has not changed so either look on the AdRotator site or o
 
 * * *
 
+
 # Ad Providers
 
 Getting your Ad Providers in is just as easy, AdDuplex also have a NuGet Package, whereas Microsoft have a Windows 8 component which is already delivered as part of Windows 8, just right click References and select the “Extensions” branch and you will see it there.  As this is still V1 you will have to add both references even you are not using the external providers, in V2 this should no longer be necessary.
@@ -94,6 +98,7 @@ House Ads are exactly the same, just define a user control in your project and a
 Be sure to define a local House ad if you have put it in to your configuration XML, not doing so will have unintended results.
 
 * * *
+
 
 # Adding the control to your page
 

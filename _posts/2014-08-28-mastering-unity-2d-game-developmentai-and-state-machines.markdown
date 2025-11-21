@@ -9,9 +9,11 @@ It’s finally here, my first title has now been published on Packt’s publishi
 
 > The sample project and code for this snippet can be found here: – [Mecanim State Machines.zip](http://bit.ly/MU2D-MecanimStateMachines "Mastering Unity 2D Game Development - Animation Curves snippet")
 
+
 ### [Mastering Unity 2D Game Development](https://www.packtpub.com/mastering-unity/book)
 
-[![Mastering Unity 2D Game development](https://images-na.ssl-images-amazon.com/images/I/51iAHMURoPL._SX404_BO1,204,203,200_.jpg)](https://www.amazon.co.uk/gp/product/1849697345/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1849697345&linkCode=as2&tag=zenistud-21&linkId=3c469276675c4d3a8de510a7a7b53421)
+[![Mastering Unity 2D Game development](assets/img/posts/image-not-found.png)](https://www.amazon.co.uk/gp/product/1849697345/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1849697345&linkCode=as2&tag=zenistud-21&linkId=3c469276675c4d3a8de510a7a7b53421)
+
 
 # About the book
 
@@ -36,9 +38,11 @@ As with everything I do, if there is more you want to know on any subject within
 
 * * *
 
+
 # Enough about the book – Where is my snippet
 
 The second snippet in this series is more of a tease than a full snippet, simply because it is such an interesting subject, only the book does it true justice with a full working example:
+
 
 ### Mecanim state machines
 
@@ -47,6 +51,7 @@ The second snippet in this series is more of a tease than a full snippet, simply
 For any of you who have played with Mecanim you will have found it to be a great 3D animation system to animate your 3D models using rigs and prepared animations, plus it can blend those animations together to give a more realistic view. At its heart though, Mecanim is nothing more than a very fancy state machine with a wonderful graphical interface.  It was they enhanced in Unity 4.3 to include 2D sprite animation as well.
 
 What you may not realise is that you do not have to use Mecanim for just animation, you can use it for almost any scenario that requires a state machine, from Game state to even AI machines! Each have their own types of implementations and their own little tips and tricks to make the best of them.
+
 
 ### A simple game state machine
 
@@ -73,6 +78,7 @@ _You can see this more fully by checking out the **OldStyleStateMachine.cs** scr
 A very basic example indeed, but just imaging it 50x bigger with several complicated paths, each part of the code needing to know everything around it in order to make the right decision, now you may start to see the larger picture.
 
  
+
 
 ### So what has Mecanim ever done for us?
 
@@ -116,6 +122,7 @@ This article truly only scratches the surface of what is possible with Mecanim u
 
 * * *
 
+
 # We hope you enjoyed the show
 
 I do hope you like this little snippet, just one of (hopefully) many little break out sections from the book.  These snippets do have a lot more detail as I have more space to work with (it is really surprising how restricting 500+ pages gives you ![Confused smile](/assets/img/wordpress/2014/08/wlEmoticon-confusedsmile.png)) but everything you need to know is covered in each section.
@@ -127,6 +134,7 @@ I am so glad this title is finally published and out there for people to grab, a
  
 
 * * *
+
 
 # Wait, There is more!
 

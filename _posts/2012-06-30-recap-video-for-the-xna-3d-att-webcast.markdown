@@ -13,11 +13,11 @@ Catching up on the webcasts I’ve done now for AT&T, here’s the recording fro
 
 As a brief run down the session covered end to end:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/024.gif)    3D setup on the phone  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/024.gif)    Drawing 3D models  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/024.gif)    Player input in 3D on the phone  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/024.gif)    Sound and music  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/024.gif)    3D basic collision detection
+> ![align=](assets/img/posts/image-not-found.png)    3D setup on the phone  
+> ![align=](assets/img/posts/image-not-found.png)    Drawing 3D models  
+> ![align=](assets/img/posts/image-not-found.png)    Player input in 3D on the phone  
+> ![align=](assets/img/posts/image-not-found.png)    Sound and music  
+> ![align=](assets/img/posts/image-not-found.png)    3D basic collision detection
 
 I’ve re-run this one several times now at user groups across the UK (although not as much as I would have liked, I had to turn down some invites due to distance and cost, but I hope to try and sort someting out in the future)
 

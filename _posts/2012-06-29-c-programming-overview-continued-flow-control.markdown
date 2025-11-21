@@ -11,6 +11,7 @@ tags: [2d tutorial, game development, xna]
 
 * * *
 
+
 ### 1. The “while” Statement
 
 The while statement executes a block of statements repeatedly until a specified expression evaluates to false.
@@ -78,6 +79,7 @@ Example:
 <!--CRLF-->
 
 * * *
+
 
 ### 2. The “do-while” Statement
 
@@ -205,6 +207,7 @@ Example:
 
 In the preceding example, although the condition evaluates initially to false, the loop will be executed once.
 
+
 ### 3. The “for” Loop
 
 The for loop executes a block of statements repeatedly until a specified expression evaluates to false. It is in the following form:
@@ -260,6 +263,7 @@ Example:
 <!--CRLF-->
 
 * * *
+
 
 ### 4. The “foreach, in” Statement
 
@@ -333,6 +337,7 @@ Example:
 
 * * *
 
+
 ### 5. The “jump” Statement
 
 The jump statement is used for branching, which causes a transfer of the program control. The following keywords are used in jump statements: break, continue, goto, return.
@@ -395,6 +400,7 @@ The jump statement is used for branching, which causes a transfer of the program
 
 <!--CRLF-->
 
+
 ### 5.1. Break
 
 The break statement terminates the closest enclosing loop or conditional statement in which it appears.
@@ -455,6 +461,7 @@ Example:
 
 <!--CRLF-->
 
+
 ### 5.2. Continue
 
 The continue statement passes control to the next iteration of the enclosing iteration statement in which it appears. It takes the form: continue;
@@ -512,6 +519,7 @@ Example:
      13: }
 
 <!--CRLF-->
+
 
 ### 5.3. Goto
 
@@ -590,6 +598,7 @@ Example:
 
 <!--CRLF-->
 
+
 ### 5.4. Return
 
 The return statement terminates execution of the method in which it appears and returns control to the calling method. If the method is of the type void, the return statement can be omitted. The return statement has the form:
@@ -662,6 +671,7 @@ Example:
 
 * * *
 
+
 ### 6. The “switch” Statement
 
 The switch statement selects for execution a statement from a list. The type of a switch statement is specified by the switch expression. The switch statement can have at most one default label.
@@ -691,6 +701,7 @@ The end point is reachable if at least one of the following is true:
 3. The switch statement is reachable, the switch expression is a constant value that does not match any case label, and no default label is present. 
 
 * * *
+
 
 ### 7. if-else
 
@@ -864,5 +875,4 @@ In this Example, it will check if “ch” is an uppercase letter, if not it wil
 
      17: }
 
-<!--CRLF-->
-
+<!--CRLF--

@@ -11,6 +11,7 @@ In the past this would require you to host your own web service or hold some XML
 
 * * *
 
+
 # Get me some updates!
 
 We noticed an amazing pattern being used by some apps where they were presenting their notifications to users as toasts or banners in their apps which is exactly how [AdRotator](http://wp7adrotator.codeplex.com/) works and we thought the idea was so fantastic that here is a separate post just for it.

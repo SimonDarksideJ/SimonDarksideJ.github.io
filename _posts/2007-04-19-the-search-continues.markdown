@@ -10,7 +10,7 @@ Life goes on and yet more work doesn’t get done, seems to be my mottos these d
 
 Anyway on my search for more to find my travels introduced me to 2 new favorites of mine, the first being the Pensive Gamer.
 
- [![](http://blogs.spouting-tech.com/thepensivegamer/WindowsLiveWriter/6000f6e8b5a8_11906/xna[4]_1.jpg)](http://blogs.spouting-tech.com/thepensivegamer/)
+ [![](assets/img/posts/image-not-found.png)](http://blogs.spouting-tech.com/thepensivegamer/)
 
 Like myself [Joseph Molnar](http://blogs.spouting-tech.com/thepensivegamer/about-joseph-molnar.html) runs a good developer diary of sorts with lots of good info and a nice little beginners into to XNA and Games development, a sort of how to and where to go list of links and info, very well though out.
 
@@ -22,7 +22,7 @@ Following on from this brings me to the other site of note I’ve found of late 
 
 For those of you like myself who are ever venturing into the land of shaders (an the troubles of getting to grips with them!), I should point you to the Aliens, or rather the Aliens of Extraordinary Ability, cus you know the regular ones aren’t really up to scratch.
 
-[![](http://tkfiles.storage.msn.com/x1prBCtpy9yqTrtGr7k0M8_2w0KjRL74VU4G7R98ZhjCfj3gEujWEgEH8mflpCH5e58nA0gca-AtEbFApV-aX2l9RST4EprtndE8fY8bRfoklU)](http://aoea.spaces.live.com/)
+[![](assets/img/posts/image-not-found.png)](http://aoea.spaces.live.com/)
 
 Mike has been running some great Shader intros and resources to help out others in the community hungry for such info (including me) and even of late dropping a few links to some fun engadget articles on what to do with XNA when your not making games, like a fun XNA screensaver for instance to wow your work colleges, honest!
 

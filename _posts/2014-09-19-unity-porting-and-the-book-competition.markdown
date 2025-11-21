@@ -13,6 +13,7 @@ All this work evangelising and book work has meant I’ve not been as able to de
 
 Now to my first post in a while, I bring you news of two great and important events for me:
 
+
 # [Unity porting events are back!](https://msevents.microsoft.com/CUI/EventDetail?EventID=1032596026&Culture=en-GB&community=0 "Glasgow Unity Porting lab registration")
 
 The roadshow is back on in the UK for the wildly successful Unity porting events, starting this time in Glasgow.  There have been many of these events all around the world and literally hundreds of devs have received first class support getting their Games and even plug-ins ported over to support the Windows 8 and Windows Phone platforms.
@@ -51,9 +52,11 @@ As you can see a fun filled and exciting event.
 
 All I’d say is only register if you are going to actually attend, this ensures there are places for everyone who has a project to port or has a final project ready to submit to the Windows Store.  We’ve seen a fair number of registrations not turn up to these events and this just blocks actual attendees from registering.  Remember places are limited!
 
+
 ### [For more details on the event, see the event registration link here](https://msevents.microsoft.com/CUI/EventDetail?EventID=1032596026&Culture=en-GB&community=0 "Glasgow Unity Porting lab registration")
 
 Stay tuned for more events across the UK including Manchester in October!
+
 
 # It’s competition time!
 
@@ -62,6 +65,7 @@ I always love a competition, especially when it’s me giving stuff away (hmm, o
 The competition comes in two forms, for the first I’ll be bringing along several discount codes for my recently published Unity 2D book to the Glasgow Unity porting day (and hopefully more to the Manchester one)
 
 The second is in the form of a comment competition, direct from my publisher Packt Publishing.
+
 
 ## **Win Free Copies of my new book – Mastering Unity 2D Game Development**
 
@@ -74,6 +78,7 @@ Readers would be pleased to know that I have teamed up with my publisher to orga
 And **three** lucky winners stand a chance to win **3 e-copies** of this book. Keep reading to find out how you can be one of the Lucky Winners.
 
  
+
 
 ### Overview:
 
@@ -88,6 +93,7 @@ And **three** lucky winners stand a chance to win **3 e-copies** of this book. K
 - Understand scripting, deployment, and platform integration with an example at each step
 - Get a whole life-cycle overview of game development, from advanced scripting, monetization, marketing and deployment
 
+
 ###   **How to Enter?**
 
 All you need to do is head on over to the [book page](https://www.packtpub.com/game-development/mastering-unity-2d-game-development) and look through the product description of the book and the sample chapter, then drop a line via the **comments below this post to let us know what interests you the most about this book**. It is that simple.
@@ -96,11 +102,14 @@ Winners will get a digital copy of the book.
 
  
 
+
 ### **Deadline**
+
 
 #### The contest will close on **Sunday 5th October, ****  **Winners will be contacted by email, so be sure to use your real email address when you comment!
 
 > This deadline gives enough people the chance to enter and for the 2nd edition of the book to be published.  Any queries comments or feedback on the title as well as announcements and news, then just pop over to the [book’s forum here on my blog](http://bit.ly/MasteringUnity2DForums "Mastering Unity 2D Game Development forums")
+
 
 # Lots of Fun
 

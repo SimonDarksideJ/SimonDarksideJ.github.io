@@ -19,21 +19,23 @@ A win in the end but it could have been so much worse.
 
 Code as always for this section can be [found here](http://startrooper2dxna.codeplex.com/releases/46712/download/127157).
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
 
+
 ### Windows Phone 7 capabilities
 
 The Windows Phone 7 controls we have available are:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A touch screen (simple point and click interface)   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Accelerometers (twist and turn and wave it all about controls)   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    3 Buttons (Back, Search and Home)\*Note
+> ![](assets/img/posts/image-not-found.png)    A touch screen (simple point and click interface)   
+> ![](assets/img/posts/image-not-found.png)    Accelerometers (twist and turn and wave it all about controls)   
+> ![](assets/img/posts/image-not-found.png)    3 Buttons (Back, Search and Home)\*Note
 
-> > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)  The Home button is pretty much reserved according to the Microsoft guidance, for pausing the game and returning to the Phone Home screen.  The framework does not stop us using it, but you must be careful and not prevent a user from leaving the game (forcing the user to reset the Phone).  If Microsoft do not like it they will simply tell you to change it and refuse it is application to the Phone Marketplace.  This is no different to a failure one of the many technical tests done today for XBOX indie games, but more on that later in the tutorial series.
+> > ![](assets/img/posts/image-not-found.png)  The Home button is pretty much reserved according to the Microsoft guidance, for pausing the game and returning to the Phone Home screen.  The framework does not stop us using it, but you must be careful and not prevent a user from leaving the game (forcing the user to reset the Phone).  If Microsoft do not like it they will simply tell you to change it and refuse it is application to the Phone Marketplace.  This is no different to a failure one of the many technical tests done today for XBOX indie games, but more on that later in the tutorial series.
 
 Does not sound like much, which is why we have to be so careful with our control scheme. 
 
@@ -51,7 +53,7 @@ As for the canvas we can zone areas of the screen so that we can implement diffe
 
  
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_141AD2F0.png)
+![image](assets/img/posts/image-not-found.png)
 
  
 
@@ -67,15 +69,16 @@ Most of these kind of features that the touch screen employs are no different to
 
  
 
+
 ### Controls for Star Trooper
 
 Now the basic controls for Star Trooper are very simple, we have: (for now)
 
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Up   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Down   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Left   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Right   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Fire
+> ![](assets/img/posts/image-not-found.png)    Up   
+> ![](assets/img/posts/image-not-found.png)    Down   
+> ![](assets/img/posts/image-not-found.png)    Left   
+> ![](assets/img/posts/image-not-found.png)    Right   
+> ![](assets/img/posts/image-not-found.png)    Fire
 
  
 
@@ -86,6 +89,7 @@ With the controls available, the best choice would be to just use the touch scre
 * * *
 
  
+
 
 ### Touch screen
 
@@ -101,10 +105,10 @@ Before we can start using the touch screen we need to specifically add it to our
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Touch Panel – The touch device itself   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Touch Panel Capabilities – lists the capabilities of the touch panel, how many touches it supports and if one is connected   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Touch Location and Touch Location state – which provide details of each touch to the screen   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Touch Collection – A collection of touches to the screen for how many fingers are on the screen at a time
+    > ![](assets/img/posts/image-not-found.png)    Touch Panel – The touch device itself   
+    > ![](assets/img/posts/image-not-found.png)    Touch Panel Capabilities – lists the capabilities of the touch panel, how many touches it supports and if one is connected   
+    > ![](assets/img/posts/image-not-found.png)    Touch Location and Touch Location state – which provide details of each touch to the screen   
+    > ![](assets/img/posts/image-not-found.png)    Touch Collection – A collection of touches to the screen for how many fingers are on the screen at a time
     
     
     
@@ -334,7 +338,7 @@ Before we can start using the touch screen we need to specifically add it to our
                         
                         
                         
-                        > > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)   In the next intermission we will also go a lot further with this, but for now, this is enough to start.
+                        > > ![](assets/img/posts/image-not-found.png)   In the next intermission we will also go a lot further with this, but for now, this is enough to start.
                         
                         
                         
@@ -772,7 +776,7 @@ Before we can start using the touch screen we need to specifically add it to our
                                                     
                                                     
                                                     
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    One thing to remember though, is that the emulator only supports a single touch with the mouse!!.
+                                                    > ![](assets/img/posts/image-not-found.png)    One thing to remember though, is that the emulator only supports a single touch with the mouse!!.
                                                     
                                                     
                                                     

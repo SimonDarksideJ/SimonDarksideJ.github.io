@@ -80,14 +80,14 @@ Depending on the requirements to run your actions, Microsoft provides several "i
 
 | Image | YAML Label | Included Software | Rollout Progress of Latest Image Release |
 | --------------------|---------------------|--------------------|---------------------|
-| Ubuntu 22.04 | `ubuntu-22.04` | [ubuntu-22.04] | [![status22](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu22&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu22&redirect=1)
-| Ubuntu 20.04 | `ubuntu-latest` or `ubuntu-20.04` | [ubuntu-20.04] | [![status20](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu20&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu20&redirect=1)
-| Ubuntu 18.04 <sup>deprecated</sup>  | `ubuntu-18.04` | [ubuntu-18.04] | [![status18](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu18&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu18&redirect=1)
-| macOS 12 | `macos-12`| [macOS-12] | [![statusumac12](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-12&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-12&redirect=1)
-| macOS 11 | `macos-latest` or `macos-11`| [macOS-11] | [![statusmac11](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-11&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-11&redirect=1)
-| macOS 10.15 <sup>deprecated</sup> | `macos-10.15` | [macOS-10.15] | [![statusmac10](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-10.15&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-10.15&redirect=1)
-| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | [![statuswin22](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2022&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2022&redirect=1) |
-| Windows Server 2019 | `windows-2019` | [windows-2019] | [![statuswin19](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2019&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2019&redirect=1)
+| Ubuntu 22.04 | `ubuntu-22.04` | [ubuntu-22.04] | [![status22](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu22&redirect=1)
+| Ubuntu 20.04 | `ubuntu-latest` or `ubuntu-20.04` | [ubuntu-20.04] | [![status20](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu20&redirect=1)
+| Ubuntu 18.04 <sup>deprecated</sup>  | `ubuntu-18.04` | [ubuntu-18.04] | [![status18](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu18&redirect=1)
+| macOS 12 | `macos-12`| [macOS-12] | [![statusumac12](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-12&redirect=1)
+| macOS 11 | `macos-latest` or `macos-11`| [macOS-11] | [![statusmac11](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-11&redirect=1)
+| macOS 10.15 <sup>deprecated</sup> | `macos-10.15` | [macOS-10.15] | [![statusmac10](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-10.15&redirect=1)
+| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | [![statuswin22](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2022&redirect=1) |
+| Windows Server 2019 | `windows-2019` | [windows-2019] | [![statuswin19](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2019&redirect=1)
 
 > You can find all the details on Microsoft's hosted images here - https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted
 
@@ -146,31 +146,40 @@ With the repository selected, all that is left is to initialise the pipeline wit
 Once you learn to read and build your own workflows, these are quite easy to follow, here is the Standard workflow using Dino's Unity Tools for Azure DevOps example yaml:
 
 ```yaml
+
 # Trigger the pipeline to run whenever a commit to the main branch is made.
 trigger:
 - main
 
+
 # Use a custom agent pool called "Unity Windows" that manages custom agents
+
 # that have the required Unity versions installed and any required SDKs for target platforms
+
 # configured.
 pool:
   name: Unity Windows
 
 steps:
+
 # Check out the code from the branch/pr we are building
 - checkout: self
+
 
 # (optional) Run the unit tests for the build
 - task: UnityTestTask@1
   name: UnityUnitTests
 
+
 # Build the Unity project to standalone. Since we are running on a Windows agent, this will produce
+
 # an .exe executable and any dependency files needed.
 - task: UnityBuildTask@3
   inputs:
     buildTarget: standalone
     outputPath: $(Build.BinariesDirectory)
     outputFileName: mygame
+
 
 # Copy build output files to artifact staging directory.
 - task: CopyFiles@2
@@ -181,7 +190,9 @@ steps:
     CleanTargetFolder: true
     OverWrite: true
 
+
 # Finally publish all items in artifact staging to the Azure Pipelines
+
 # artifact storage. They will be available for sharing and/or further processing there.
 - task: PublishBuildArtifacts@1
   inputs:

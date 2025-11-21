@@ -15,6 +15,7 @@ All of this is made all the more simpler through the use of the [AdRotator](http
 
 As usual full source for the Starter projects can be found on [Codeplex Here](http://starterxna.codeplex.com/ "Starter 2D and 3D codeplex projects") and you can find out more info and download AdRotator from [Codeplex here](http://wp7adrotator.codeplex.com/)
 
+
 ## <font color="#0000ff">** Update</font>
 
 V1 of the Silverlight version of AdRotator has now been released with these additional features
@@ -23,11 +24,13 @@ V1 of the Silverlight version of AdRotator has now been released with these addi
 - PubCenter Bug fixed but it does require you to update your implementation slightly, details below
 - Publisher configuration now possible in the configuration XML file – now you have two options to configure your Publisher ID’s, either as before hard coded into each pages XAML or code behind OR you can now also configure it in the configuration XML. If you configure both then the Hard Coded values will take precedent, details below. 
 
+
 ## <font color="#ff0000">**HOT NEWS</font>
 
 The XNA version of AdRotator has now been released, check it out on [Codeplex here](http://wp7adrotator.codeplex.com/) and read all about it is use in [this blog post](/2012/02/20/adrotator-release-for-xna)
 
 * * *
+
 
 # Enter [AdRotator](http://wp7adrotator.codeplex.com/) for WP7 
 
@@ -35,21 +38,21 @@ The XNA version of AdRotator has now been released, check it out on [Codeplex he
 
 Currently Ad Rotator supports the following networks:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    [Microsoft PubCenter](http://advertising.microsoft.com/mobile-apps)   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    [AdDuplex](http://adduplex.com/)   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    [Google AdMob](http://admob.com/)   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    [Inner-Active](http://inner-active.com/)   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    [MobFox](http://mobfox.com/)   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    [Smaato](http://www.smaato.com/ "Smaato Network")
+> ![](assets/img/posts/image-not-found.png)    [Microsoft PubCenter](http://advertising.microsoft.com/mobile-apps)   
+> ![](assets/img/posts/image-not-found.png)    [AdDuplex](http://adduplex.com/)   
+> ![](assets/img/posts/image-not-found.png)    [Google AdMob](http://admob.com/)   
+> ![](assets/img/posts/image-not-found.png)    [Inner-Active](http://inner-active.com/)   
+> ![](assets/img/posts/image-not-found.png)    [MobFox](http://mobfox.com/)   
+> ![](assets/img/posts/image-not-found.png)    [Smaato](http://www.smaato.com/ "Smaato Network")
 
 It offers several features such as:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Multiple Concurrent Ad Provider support   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Failover support (if Ad not delivered it moves to the next Ad Provider)   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Remote Configuration (through external URL)   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Popup support (for scenarios where Ads are a Nag or you do not have enough real-estate for permanent Ads )   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    “\*New for V1 Publisher configuration in external XML file    
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    \*\*New for V1 Default House Ads (Developer Ads)  
+> ![](assets/img/posts/image-not-found.png)    Multiple Concurrent Ad Provider support   
+> ![](assets/img/posts/image-not-found.png)    Failover support (if Ad not delivered it moves to the next Ad Provider)   
+> ![](assets/img/posts/image-not-found.png)    Remote Configuration (through external URL)   
+> ![](assets/img/posts/image-not-found.png)    Popup support (for scenarios where Ads are a Nag or you do not have enough real-estate for permanent Ads )   
+> ![](assets/img/posts/image-not-found.png)    “\*New for V1 Publisher configuration in external XML file    
+> ![](assets/img/posts/image-not-found.png)    \*\*New for V1 Default House Ads (Developer Ads)  
 
 All this and it is just a single control that you can drop into the Silverlight pages in your apps/games
 
@@ -59,13 +62,16 @@ XNA Version now released [here](http://wp7adrotator.codeplex.com/) and instructi
 
 * * *
 
+
 # Getting started with those Ad Networks
 
 First off make sure you are registered with all the appropriate ad networks as follows:
 
 If you already have all the Ad Providers you want then jump past this section to “Right, Getting your Ad On”!
 
+
 ## <u></u>
+
 
 ## <u>Pubcenter (Microsoft)</u>
 
@@ -83,7 +89,9 @@ If you already have an account, be sure to setup BOTH an application and an Add 
 
 [![image](/assets/img/wordpress/2012/07/image109.png "image")](/assets/img/wordpress/2012/07/image106.png)
 
+
 ## <u></u>
+
 
 ## <u>AdDuplex</u>
 
@@ -109,7 +117,9 @@ Once done then just record the APP ID from the Ad details:
 
 [![image](/assets/img/wordpress/2012/07/image114.png "image")](/assets/img/wordpress/2012/07/image111.png)
 
+
 ## <u></u>
+
 
 ## <u>AdMob (Google)</u>
 
@@ -127,7 +137,9 @@ Once created navigate back to the app lists and select “Manage” against your
 
 [![image](/assets/img/wordpress/2012/07/image117.png "image")](/assets/img/wordpress/2012/07/image114.png)
 
+
 ## <u></u>
+
 
 ## <u>InnerActive</u>
 
@@ -141,7 +153,9 @@ Now here is where it stops for a while with Inneractive, you will get a mail to 
 
 “DavideCleopadre\_ClockAlarmNightLight\_WP7”
 
+
 ## <u></u>
+
 
 ## <u>MobFox</u>
 
@@ -163,7 +177,9 @@ Lastly you will be presented with your Publisher ID, keep it safe for later:
 
 [![image](/assets/img/wordpress/2012/07/image122.png "image")](/assets/img/wordpress/2012/07/image119.png)
 
+
 ## <u></u>
+
 
 ## <u>Smaato</u>
 
@@ -185,6 +201,7 @@ One tip with Smaato, you will get more Ads and references if you fill out your p
 
 * * *
 
+
 # Last Minute Tip
 
 Be sure to revisit your Ad providers and update your payment information and profile information, this enables advertises to get excited about your project and increase interest for supplying Ads.
@@ -193,31 +210,35 @@ It is important to tell the Ad Providers all you can about your Ad schemes so th
 
 * * *
 
+
 # Right, Getting your Ad on
 
 SO you got all your Ad accounts setup (granted you only need to sign up for as many as you want/need to), time to put them to use.
 
 You have two options (as in most cases) either you can copy the AdRotator project into your project or just add the AdRotator DLL to your project as a reference, both approaches are detailed below:
 
+
 ### Reference Project (Starter 2D SilverXNA Project)
 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Create a New folder in your project called AdRotator   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Copy the AdRotator DLL in the AdRotator folder   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Copy all the DLL references for the Ad Networks you wish to use in the AdRotator folder   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    \*\*Update The library download now contains all DLL’s for use with the project, copy all of these to your new folder    
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Add all the new DLL’s as references to the project   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    If you are using Pubcenter then add the default references as well (shipped as part of the WP7 tools)
+> ![](assets/img/posts/image-not-found.png)    Create a New folder in your project called AdRotator   
+> ![](assets/img/posts/image-not-found.png)    Copy the AdRotator DLL in the AdRotator folder   
+> ![](assets/img/posts/image-not-found.png)    Copy all the DLL references for the Ad Networks you wish to use in the AdRotator folder   
+> ![](assets/img/posts/image-not-found.png)    \*\*Update The library download now contains all DLL’s for use with the project, copy all of these to your new folder    
+> ![](assets/img/posts/image-not-found.png)    Add all the new DLL’s as references to the project   
+> ![](assets/img/posts/image-not-found.png)    If you are using Pubcenter then add the default references as well (shipped as part of the WP7 tools)
+
 
 ### Copy Project **\*\* Updated**
 
 Although it is still possible to do this method we recommend you just reference the project using the instructions above, this is mainly due to some of the changes in the project structure and our roadmap to V2 and Windows versions.
 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Download the source for the AdRotator Solution into a folder in your project, alternatively use an SVN client to synch the project   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Add the main AdRotator project to your solution as an existing project   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Add the AdRotatorSharedModel project to your solution as an existing project (Check it is referenced from the AdRotator Project)   
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Reference the project in your solution
+> ![](assets/img/posts/image-not-found.png)    Download the source for the AdRotator Solution into a folder in your project, alternatively use an SVN client to synch the project   
+> ![](assets/img/posts/image-not-found.png)    Add the main AdRotator project to your solution as an existing project   
+> ![](assets/img/posts/image-not-found.png)    Add the AdRotatorSharedModel project to your solution as an existing project (Check it is referenced from the AdRotator Project)   
+> ![](assets/img/posts/image-not-found.png)    Reference the project in your solution
 
 * * *
+
 
 # Implementing the control 
 
@@ -270,6 +291,7 @@ Default: 20 seconds
 
 For more information regarding the configuration of [AdRotator](http://wp7adrotator.codeplex.com/) see the CodeProject [documentation here](http://wp7adrotator.codeplex.com/documentation "Ad Rotator Documentation")
 
+
 ## Default House Ad configuration
 
 With the Default House Ad functionality you can design your own ad for use within Ad Rotator, this is useful for situations where there is no network connectivity to get new ads and you still want to preserve the Ad presence, it is also good for showing off other products or offerings while the Ads fly by.
@@ -293,6 +315,7 @@ If you do not have those overrides in your app already you can add them by simpl
 
 * * *
 
+
 # The [AdRotator](http://wp7adrotator.codeplex.com/) configuration file
 
 One of the features that most impresses me with AdRotator is it is support for setting the configuration of which ad providers to use and in what frequency through the use of an XML configuration file, what makes it extra special is that it allows the configuration to be downloaded from an external site so you can re-configure which ads to use (to maximise your cash generation) on the fly without re-submitting your apps/games.
@@ -314,6 +337,7 @@ When you have configured your file, just copy it to the Root of your main projec
 Optionally if you have your own website where you can drop your configuration file, then be sure you also configure the “SettingsUrl” property and MAKE SURE you can browse to the file and it is not blocked by your sites security settings
 
 * * *
+
 
 # Conclusion
 
@@ -344,6 +368,7 @@ Total time taken to put ads in both these projects 10 mins!  Beat that ![Open-mo
 I have also put the new ad control into my Current game on the marketplace and in a bit of shameless self promotion I will point it out here ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile10.png)
 
 “Flipped” is a Tile matching fun game with several difficulties and challenges ranging from simple 2/3 and 4 tile matching to time trials / bomb dodging and one final dual tile madness extravaganza, available both as Free (ad supported now with AdRotator) and Buy/Trial.
+
 
 ### For more details visit [zenithmoon.com](http://zenithmoon.com/ "ZenithMoon Studios presents "Flipped"") 
 

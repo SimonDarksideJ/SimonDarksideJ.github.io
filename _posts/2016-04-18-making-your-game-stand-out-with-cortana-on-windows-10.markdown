@@ -35,6 +35,7 @@ I wrote an original article for implementing Cortana and Unity with Windows Phon
 
 * * *
 
+
 # Unity and Windows 10
 
 With the introduction of Windows 10 / UWP support we can make full use of these platform features, however, because [Unity](http://unity3d.com/) doesn’t have native support for speech or Cortana, we need to build our own bridge between the two platforms. Thankfully since Unity is .NET based we don’t need to build a plugin to do it (as is required for other platforms such as Android or iOS), we simply need to build an interop bridge between Unity and the UWP platform to give bidirectional access to all of these (and any other) capabilities we need.
@@ -57,6 +58,7 @@ So from this Interop pattern we ensure that each party (Unity and Windows) know 
 
 * * *
 
+
 # Enough talk, show me the code
 
 So now I’ve showed you how all of this is built up, let’s jump in to some example code with a few examples.
@@ -72,6 +74,7 @@ Enough spiel, on with the demos!
 
 * * *
 
+
 # You want me to do what?
 
 For the first example, I want to show you is how to take advantage of voice commands. This gives your players the ability to launch into a specific area of your game or app, or to provide additional information when launching the game.
@@ -85,6 +88,7 @@ Some examples could be:
 A wrath of options, just from using your voice. Best of all, your game does not even have to be running for these commands to be available; the player simply holds the search button or launches Cortana speech to enable Cortana, then speak their command. Hey presto, your game/app launches!
 
 For the purposes of the example, you can either add this to an existing project or create a new one. The downloadable example has a prepared scene for testing.
+
 
 ## Create your Interop class
 
@@ -118,6 +122,7 @@ Once the project is built, open the exported project in Visual Studio so we can 
 
 Microsoft also provides a quick start tutorial on speech integration, which you can find here: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185609](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185609)
 
+
 ## Create your Voice Definition File
 
 To begin, we need a Voice Command Definition (VCD) file to tell the operating system what voice commands are available for our app.
@@ -125,6 +130,7 @@ To begin, we need a Voice Command Definition (VCD) file to tell the operating sy
 > We won’t go over the full capabilities of the VCD file in this tutorial, but you can find more information here: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/dn706593](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/dn706593)
 
 Creating a VCD file is very easy. First, create a new XML document in your solution (_Right click -\> Add new Item -\> XML File_) and then adding basic VCD content to the new XML file, I created a **VoiceCommandDefinition.xml** file as follows:
+
 
 ###### Windows 8/Windows10
 
@@ -140,6 +146,7 @@ Creating a VCD file is very easy. First, create a new XML document in your solut
         </command>
       </commandset>
     </voicecommands>
+
 
 ###### Windows 10 Anniversary/Creators
 
@@ -163,6 +170,7 @@ In each Command you tell the phone what to **ListenFor** , once it has recognize
 
 Once you have configured your VCD you will need to set its **Copy to Output Directory** property in the solution explorer to **Copy if Newer** , to ensure it is deployed with your project when built.
 
+
 ## Install the VCD file on to the device
 
 For the device to start working with voice commands, it must first be told which commands exist. For this we need to install the VCD file in code on the device at start up.
@@ -177,6 +185,7 @@ This simply locates your VCD xml file, loads it into memory and then installs it
 
 > You’ll note we wrap this call in a Try / Catch block to ensure there are no mishaps if the file cannot be located for any reason.
 
+
 ## Setup the Command Handler
 
 Next we’ll create another new C# script called **SpeechHelper** in the Windows project to contain all the code required for the speech integration. Once you have created the script, replace its contents with the following:
@@ -187,6 +196,7 @@ There is a fair amount to digest here. Putting it simply, we declare a new insta
 
 We take the spoken text result from this and pass it to our static **CortanaText** property in the Unity Interop class, thus making the text available to the Unity application when it finally starts.
 
+
 ## Register the call handler on start-up
 
 In the final piece of the puzzle, we simply need to tell our application when it is starting, that it should use our speech helper class to check for and validate any speech input commands.
@@ -196,6 +206,7 @@ To do this we return to our **App.xaml.cs** file and locate the **OnActivated** 
     protected override void OnActivated(IActivatedEventArgs args) { string appArgs = "; switch (args.Kind) { case ActivationKind.Protocol: ProtocolActivatedEventArgs eventArgs = args as ProtocolActivatedEventArgs; splashScreen = eventArgs.SplashScreen; appArgs += string.Format ("Uri={0}", eventArgs.Uri.AbsoluteUri); break; //Start VoiceCommand detection & use the SpeechHelper handler case ActivationKind.VoiceCommand: SpeechHelper.HandleSpeechCommand(args); break; } InitializeUnity(appArgs); }
 
 In the above code, you can see by the commented line that when a voice launch is detected, it calls the new handler method we created in our **SpeechHelper** class.
+
 
 ## Text in, so now what?
 
@@ -213,11 +224,13 @@ Granted, I think I embellished my project, slightly.
 
 * * *
 
+
 # Dictation. I did spell that right, didn’t I?
 
 Now that we have used a voice command to get text into our game when it wasn’t running, which was fairly useful, especially if you want some shortcuts for players to use when launching your game. However, we can also use these fancy speech recognition features while the game is running as well. This could be as simple as a dictation mode the player can use when submitting feedback (we wouldn’t want their fingers to get tired now would we?) or it could be another way of the player interacting with the game, like commands to open doors, cast spells, etc. (I’ll let your creative imagination go wild on that one).
 
 It doesn’t take much to enable this mode, so long as you stick to the Interop design patterns. For this we need to have an **event / trigger** in our Interop class to tell the device we want some speech recognized, then in the Windows project we simply hook to this event and kick off the speech recognition before then feeding the translated result back to Unity.
+
 
 ## Creating the Unity hook
 
@@ -232,6 +245,7 @@ This simply creates an event hook (called **SpeechRequested** ), so that when so
 We have also added an additional property called **SpeechInProgress,** his is there because the speech recognition is an asynchronous process on the device and it can cause issues if you try to make multiple requests. To ensure you only ask once and cannot ask again until the last operation was complete, we have a flag.
 
 Now build and export your project again before continuing.
+
 
 ## Initializing speech recognition
 
@@ -255,6 +269,7 @@ Here we create a new instance of the **SpeechRecognizer** and then define our de
 
 For more information on the SpeechRecognizer, see this quick start guide from MSDN: [https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185615](https://msdn.microsoft.com/en-gb/library/windows/apps/xaml/mt185615)
 
+
 ## Letting the player get a word in
 
 The next method is what will be used by the Unity Interop to perform speech collection and recognition, before sending the result back to the Unity Interop. Add this new **StartRecognising** method is as follows:
@@ -264,6 +279,7 @@ The next method is what will be used by the Unity Interop to perform speech coll
 Here we set the Interop **SpeechInProgress** flag to stop Unity from sending multiple requests, and then kick off Cortana in all her glory.
 
 Then provided the device is not already speaking to the player, we set off the asynchronous call to Cortana to gather the player’s speech, submit it off to the powerful cloud brain in the sky then taking the final result and passing it back to Unity.
+
 
 ## Stitching everything together
 
@@ -289,6 +305,7 @@ You should also probably also add some UI to tell the player the device is liste
 
 * * *
 
+
 # Getting the character talking back
 
 So far we’ve covered launching with voice and letting the user interact with voice while the game is running. However, Cortana also has a voice of her own which we can use to badger the player. Normally in games when we want characters to speak to the player, we record a media file for speech and then play it back to the user at the appropriate time. This pattern has one unique flaw; it is bound to the language you recorded it in. If you want to support multiple languages, you need to re-record the audio in all the languages you want to support and ship ALL of them with your title, unless you use regional asset.
@@ -297,6 +314,7 @@ Cortana, however, has as many languages as Windows supports. All you need to do 
 
 Setting up the speech synthesis side is very similar to the voice input of the previous example, so let’s whip through it quickly.
 
+
 ## Yet more Interop
 
 Another command/action, another Interop event to kick it off. Similar to the previous approach. Add the following to the **CortanaInterop** class in your Unity project:
@@ -304,6 +322,7 @@ Another command/action, another Interop event to kick it off. Similar to the pre
      public static event EventHandler SpeechSynthRequested; public static void YellAtPlayer(string textToSpeak) { if (SpeechSynthRequested != null && !SpeechInProgress) { SpeechSynthRequested(textToSpeak, null); } }
 
 I added a new **YellAtPlayer** method, to which I’ve also added a string parameter. This parameter specifies the text that you want Cortana to read out. When you call this method from Unity, it fires the **SpeechSynthRequested** event to tell the device to process the message, sending the text along with the request.
+
 
 ## Initialize Speech Synthesis
 
@@ -315,6 +334,7 @@ Here we simply initialize all the relevant components, ready for use. We also ne
 
 As part of this example, I have used the audio output from the phone to play the output of the synthesis. If you wish, you can bypass all this and pass the bytestream that the speech synthesis generates back to unity to play. The choice is up to you.
 
+
 ## Speech Synth Action
 
 The other method we need in our **SpeechHelper** class will do the actual conversion of text in to voice and play it, so add the following method to the **SpeechHelper** class as well:
@@ -324,6 +344,7 @@ The other method we need in our **SpeechHelper** class will do the actual conver
 Here we check if media is playing already and if we have actually been sent any text (as there’s no point in converting white noise) and use the asynchronous **SynthesizeTextToStreamAsync** operation to convert the text to audio. The audio stream that this method generates is then played back through a XAML media element on the device (though as mentioned previously, you could just return this stream to Unity to play if you wished).
 
 Because asynchronous operations are performed on a background thread, they are returned on a background thread. If you then want to play them, you need to send them to the UI thread to be actioned (hence the use of the dispatcher when talking to the XAML media element). Not doing so will crash and burn your app in a horrible “access violation” error.
+
 
 ## The last of the wiring
 
@@ -342,6 +363,7 @@ All done! If you now add something in Unity to call the **YellAtPlayer** method 
 In the example I provide, I also mixed it up and added a script with an array of text. Each hit of the button randomly selects a line of text to insult the player with.
 
 * * *
+
 
 # All done, except for the toast
 
@@ -364,6 +386,7 @@ Creating toasts is very simple, but if you need more information about them then
 
 * * *
 
+
 # Rocking up your own band
 
 While still on the subject of integration, let’s not forget that the Microsoft Band SDK is also available for all Windows 10 platforms, this gives us even more opportunity to offer additional features to owners of these fabulous devices.
@@ -385,6 +408,7 @@ You can find out more about the MS Band SDK here, including getting access to th
 
 * * *
 
+
 # Just wait, hold the fish
 
 As Unity 5.4 has now reached public beta I can also note another new development in the Unity ranks.  For the astute among you, you might have noticed a one line comment in the Windows section in the release notes, basically stating:
@@ -405,6 +429,7 @@ Once it hits release, I may do a follow up article to detail it is implementatio
 
 * * *
 
+
 # So long and thanks….
 
 Another fun ride and another fun article with so many things to take in. I have used all of these features in several of my projects, from using the MS Band with my VR solutions to give the user something to wave, Cortana speech to add accessibility features to those with limited movements and Toast, well, it goes without saying to use toasts on Windows platforms as it add so much feedback to the user as they play.
@@ -416,6 +441,7 @@ The sample project that accompanies this post can be found here:
 [http://wp.me/a3o0M2-2lG](http://wp.me/a3o0M2-2lG)
 
 * * *
+
 
 ## About me
 

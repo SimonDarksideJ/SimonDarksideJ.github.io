@@ -7,6 +7,7 @@ tags: [windows phone, adrotator]
 
 [![Icon_1_purple](/assets/img/wordpress/2012/09/Icon_1_purple-1.png)](/assets/img/wordpress/2012/09/Icon_1_purple-1.png)   [![image](/assets/img/wordpress/2012/09/image10.png "image")](/assets/img/wordpress/2012/09/image10.png)
 
+
 # AdRotator for Windows Phone XNA     V0.3 release
 
 Hot on the heels of the [Silverlight article](http://bit.ly/S5CD4T) for [AdRotator](http://wp7adrotator.codeplex.com/) is the documentation for the XNA version, to save repeating myself I’d suggest you read that first to get the general look and feel of AdRotator before continuing.  I am only going to go over the XNA implementation parts in this article.
@@ -14,6 +15,7 @@ Hot on the heels of the [Silverlight article](http://bit.ly/S5CD4T) for [AdRotat
 in some ways the XNA implementation is even easier than Silverlight because we don’t have to worry about al the GUI stuff, if you are doing a SilverXNA project (Silverlight / XNA integration) then either route will work fine (or both ![Open-mouthed smile](/assets/img/wordpress/2012/09/wlEmoticon-openmouthedsmile7.png))
 
 * * *
+
 
 # Basic Nuts and Bolts
 

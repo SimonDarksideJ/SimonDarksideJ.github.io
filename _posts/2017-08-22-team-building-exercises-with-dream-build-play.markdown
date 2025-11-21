@@ -15,6 +15,7 @@ However, what is not immediately apparent, is that the profile system is there n
 
 * * *
 
+
 # Get together with [Dream Build Play](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 
 [![image](/assets/img/wordpress/2017/08/image.png "image")](/assets/img/wordpress/2017/08/image-1.png)
@@ -54,6 +55,7 @@ Once done, you will be available on the site for all to see:
 [![image](/assets/img/wordpress/2017/08/image-2.png "image")](/assets/img/wordpress/2017/08/image-3.png)
 
 * * *
+
 
 # Searching for a Star
 

@@ -17,6 +17,7 @@ There are a few workarounds and a last ditch sledge hammer approach which I will
 
 * * *
 
+
 # The Situation
 
 As briefed above, it goes like this, you run your app and are presented with the Splashscreen, then one of two things happen:
@@ -31,6 +32,7 @@ If you step through your initialisation code you will find that your first page 
 **NOTE – Just uninstalling the product will NOT fix the issue**
 
 * * *
+
 
 # Local Resolution
 
@@ -51,6 +53,7 @@ Now if you install or run your project from Visual Studio it should now work
 **If you install the previous version of your app this will STILL ALLOW UPGRADES as the package definition is still intact.**
 
 * * *
+
 
 # Trials and Store tribulations
 
@@ -83,6 +86,7 @@ It fixes because to the windows installer it is a completely different package, 
 
 * * *
 
+
 # CAVEAT’s
 
 BE AWARE, while this fixes the issue in certification the **second approach** whether you test locally or in the store will wipe out the previously installed application and reinstall it fresh.
@@ -94,6 +98,7 @@ I have proven this locally as well as on the store because to Windows it is a di
 IF THIS IS GOING TO BE AN ISSUE FOR YOU THEN DO NOT DO THIS
 
 * * *
+
 
 # Rounding Up
 

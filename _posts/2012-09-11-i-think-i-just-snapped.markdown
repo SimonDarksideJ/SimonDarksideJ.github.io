@@ -15,6 +15,7 @@ This gets worse if you have multiple pages within your app as you need to define
 
 * * *
 
+
 # Where is “Snapped” view?
 
 If you started your project using one of the constructed templates like “Grid App” or “Split App” you already have the necessary components which are placed into the “Common” folder.
@@ -40,6 +41,7 @@ Now I’d recommend starting new pages with one of the item templates mentioned 
 **\*Proviso I still recommend creating a new page and copying your content to it as it is cleaner**
 
 * * *
+
 
 # Configuring Snapped View
 
@@ -72,6 +74,7 @@ Another caveat to watch out for, is that Blend still feels likes beta software (
 And that is it.  Now your page is layout aware and if you run the app in the simulator you can test how your app looks Snapped, rotated and in different resolutions for real.  This is especially good if you don’t have a laptop / tablet that has a high enough resolution to use those features.
 
 * * *
+
 
 # Watching for the state change
 

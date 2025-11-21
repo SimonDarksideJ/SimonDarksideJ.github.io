@@ -5,7 +5,7 @@ date: 2013-07-19 23:33:39
 tags: [book review,syncfusion]
 ---
 
-The main reason I have been so quiet of late is because I have been focusing on entries for Nokia’s @DVLUP challenges in the hope to earn some XP and get some fantastic goodies.  Just about finished on my last project and decided to have a breather (also they extended my current challenge, more time is always good for QA)
+The main reason I have been so quite of late is because I have been focusing on entries for Nokia’s @DVLUP challenges in the hope to earn some XP and get some fantastic goodies.  Just about finished on my last project and decided to have a breather (also they extended my current challenge, more time is always good for QA)
 
 While up, I was looking at all the resources out there that is available to fellow programmers and developers (yes, there IS a difference so get off my back ![Smile with tongue out](/assets/img/wordpress/2013/07/wlEmoticon-smilewithtongueout.png)), more importantly those that are friendly to my family strained wallet.  In other words FREE.
 
@@ -14,6 +14,7 @@ One of the biggest out there is [Syncfusion](http://www.syncfusion.com/?UTM_medi
 So let’s see what we got.
 
 * * *
+
 
 ### ![src=]()
 
@@ -26,6 +27,7 @@ The series has continued since that time with a staggering 19 books already out 
 The free stuff does not stop there as [Syncfusion](http://www.syncfusion.com/?UTM_medium=simonblogreview) also offer an Icon repository tool with over 2500 icons called  [MetroStudio](http://www.syncfusion.com/downloads/metrostudio?UTM_medium=simonblogreview) (or should that be ModernStudio now ![Smile with tongue out](/assets/img/wordpress/2013/07/wlEmoticon-smilewithtongueout.png))
 
 * * *
+
 
 ### ![src=]()
 
@@ -103,15 +105,18 @@ Formats: Amazon Kindle and PDF_jQuery Succinctly_ was written to express, in sho
 
 * * *
 
+
 ### ![src=]()
 
 You cannot argue with the price and the wealth of information in each book is just fantastic.  Need I say more?
+
 
 ###### Pros:
 
 - Great range of books
 - Each book is aimed at the beginner, little or no foreknowledge is required
 - Available in PDF or Kindle so choose your reader
+
 
 ###### Cons:
 
@@ -145,6 +150,7 @@ All you have to do (same as with the Succinctly books) is comment [on my Dark Ge
 - [WPF](http://www.syncfusion.com/products/wpf?UTM_medium=simonblogreview)
 
 There is no rush in selecting should you be picked as a winner, check out the trials first and when your happy let them know which one you want.
+
 
 ### Free draw ends 2nd August2013
 

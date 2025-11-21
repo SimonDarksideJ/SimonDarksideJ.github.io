@@ -10,6 +10,7 @@ tags:
 
 I’ve hinted at this for a while now and I’m close to completing the production work for my next book:
 
+
 ## Unity 3D UI Essentials
 
 [![Unity 3D UI Essentials demo scene](/assets/img/wordpress/2014/11/Screenshot2-1024x586.png)](/assets/img/wordpress/2014/11/Screenshot2.png)
@@ -19,6 +20,7 @@ With the release of Unity 4.6 and the all new UI system, I had hoped to have thi
 > ###### [As always, I have set up a forum for the new title here, check back for news, announcements and updates](http://darkgenesis.zenithmoon.com/DarkGenesisForums/forum/book-forums/unity-3d-ui-essentials/)
 
 * * *
+
 
 # What does the new Unity UI system bring us?
 
@@ -35,6 +37,7 @@ There is is a lot more “stuff” that is available, these are just the highlig
 
 * * *
 
+
 # It does not stop there
 
 For the first time ever, Unity has made the new UI system completely open source, allowing developers everywhere to contribute to the development of the new UI system.
@@ -47,11 +50,13 @@ Granted this is not the first system they have open sourced but it is certainly 
 
 * * *
 
+
 # So what is covered in the book
 
 As the titles suggests, it will contain everything you need to get going with the UI system plus a lot of tips and tricks learned over the past years in the beta while it was being built (even though I had to rewrite a fair amount when Unity changed / updated things ![Confused smile](/assets/img/wordpress/2014/11/wlEmoticon-confusedsmile.png))
 
 Here is a brief run down:
+
 
 #### **Chapter 1 Looking back, looking forward**
 
@@ -66,6 +71,7 @@ List of topics that will be covered in the chapter:
 - Unity2D and what it means to the new UI
 - The Improved Unity3D editor
 
+
 #### **Chapter 2 – Building layouts**
 
 Covering the core elements of the new UI system, the Canvas and Rect Transforms. These elements are the basis of the new UI system
@@ -75,6 +81,7 @@ List of topics that will be covered in the chapter:
 - Canvas architecture
 - The new tool, the Rect Transform
 - Working with layouts
+
 
 #### **Chapter 3 – Control, Control, you must learn Control**
 
@@ -86,6 +93,7 @@ List of topics that will be covered in the chapter:
 - Texture mapping controls
 - Layer masks and scrollable areas
 
+
 #### **Chapter 4 – Anchors away**
 
 A detailed walk through how to make the most of the new UI anchor system and building responsive layouts. (warning, sailing theme detected)
@@ -94,6 +102,7 @@ List of topics that will be covered in the chapter:
 
 - In depth overview of UI anchor points
 - Responsive design
+
 
 #### **Chapter 5 – Screenspace, Worldspace and the camera**
 
@@ -104,6 +113,7 @@ List of topics that will be covered in the chapter:
 - The difference between Screenspace and Worldspace canvas’s
 - Camera logic and perspective
 - 2D, 3D and what to watch out for
+
 
 #### **Chapter 6 – Working with the UI source**
 
@@ -117,6 +127,7 @@ List of topics that will be covered in the chapter:
 - Adding your own code in to the UI Source.
 
 * * *
+
 
 # Where to find out more?
 

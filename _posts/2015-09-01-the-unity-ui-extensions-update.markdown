@@ -13,6 +13,7 @@ The last thing you want to be doing is re-inventing the wheel when some bright s
 
 While I was writing [Unity 3D UI Essentials](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/), I came across a lot of links, scripts and content provided by the community showing how to make the best use of the new UI system, or brand new (aka, a control seen elsewhere and someone has taken the time to recreate it) or an improvement on what Unity provides out of the box.  Thus, the [UI Extensions](https://bitbucket.org/ddreaper/unity-ui-extensions) project was born.
 
+
 # But what is the [UI Extensions](https://bitbucket.org/ddreaper/unity-ui-extensions) project?
 
 <iframe loading="lazy" src="https://www.youtube.com/embed/njoIeE4akq0" width="560" height="315" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
@@ -21,11 +22,14 @@ Simply put, It’s the largest collection of community created and driven UI com
 
 To learn more about the project, what controls are currently available and _ **More importantl**** y**_, how to get involved and contribute your own controls to the project, just visit the [BitBucket site.](https://bitbucket.org/ddreaper/unity-ui-extensions)
 
+
 ### [https://bitbucket.org/ddreaper/unity-ui-extensions](https://bitbucket.org/ddreaper/unity-ui-extensions)
+
 
 # So why all the fuss?
 
 Well, the main reason for this revival post (other than to show people I’m not dead :S), is that the project just got a significant update recently, adding half a dozen new controls and a few fixes amongst other things.  Most of the work has been provided by the community, all lovingly wrapped up in the project by myself.
+
 
 # Videos on demand
 
@@ -38,13 +42,16 @@ You can with check out their links on the site, which look like this:
 
 Or you can check out the YouTube channel dedicated to the UI Extensions project.  If someone else wants to pitch in with videos for the project, I’ll happily include them 😀
 
+
 ### [https://www.youtube.com/channel/UCG3gZOkmL-2rmZat4ufv28Q](https://www.youtube.com/channel/UCG3gZOkmL-2rmZat4ufv28Q)
+
 
 # Want to know more about the new Unity UI System?
 
 If you are still struggling with how the new Unity UI system works, how it’s put together and what all this new fangled UnityEvent system is all about, you’re in luck, as there is an entire book dedicated to it 😀
 
 [![3560_Unity 3D GUI Essentials_0](/assets/img/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/)The main aim of the title is to help you understand how the new UI system is built and how you can best leverage it’s features.  It’s not a show and tell, here build this fancy UI (there’s many a YouTube video showing you how to stack bricks), it’s there to help you understand what works and “more importantly” what doesn’t.
+
 
 # Back to our regular viewing
 

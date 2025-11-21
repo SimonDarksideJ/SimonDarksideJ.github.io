@@ -9,11 +9,13 @@ tags: [competitions, intel]
 
 Not so long ago Intel launched their new perceptual computing vision which effectively is a cheaper alternative to Microsoft Kinect sensor, alongside that they began a challenge to create some inventive apps using the camera and to a select few (about 125+ developers) they offered the chance to win and own one.  I entered 3 different apps into the challenge and to me surprise all three got accepted (only got one camera though ![Open-mouthed smile](/assets/img/wordpress/2013/08/wlEmoticon-openmouthedsmile1.png))
 
+
 # The camera
 
 The camera is a very interesting device both smaller and lighter that the Kinect plus cheaper too (although that gap is narrowing with the upcoming release of Kinect V2 coming soon and dropping prices of the V1), the camera supports both visual inputs and voice recognition in a very neat package.
 
 | [![WP_20130722_002](/assets/img/wordpress/2013/08/WP_20130722_002.jpg "WP\_20130722\_002")](/assets/img/wordpress/2013/08/WP_20130722_002.jpg) | [![WP_20130722_003](/assets/img/wordpress/2013/08/WP_20130722_003.jpg "WP\_20130722\_003")](/assets/img/wordpress/2013/08/WP_20130722_003.jpg) |
+
 
 # The SDK
 
@@ -29,11 +31,14 @@ The SDK does feel more like a driver than an actual SDK so may feel more at home
 
 Me being Me however I did not stop there so i created my own manager library to interface with the device for my own projects/
 
+
 # My Manager Library
 
 Building on my years of XNA experience I have made a wrapper of the wrapper library to make each of the modes the camera has into distinct components that are simply initialised and once running you just grab each of the outputs for use.  The library is opensource and can be found on Github here:
 
+
 #### [https://github.com/DDReaper/MonoGame-IntelSDK](https://github.com/DDReaper/MonoGame-IntelSDK)
+
 
 # Back to the competition
 
@@ -57,6 +62,7 @@ To see the lightning demo in action (as part of the comp this was required) I ha
 Intel Perceptual computing challenge entry 1: the lightning machine
 
 So back to the grindstone, although now the challenge has been extended I may spend more time with the opensource library to improve it and perfect the racing controller I will need
+
 
 # Further posts
 

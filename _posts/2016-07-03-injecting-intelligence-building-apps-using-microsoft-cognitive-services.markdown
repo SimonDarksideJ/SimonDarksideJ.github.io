@@ -13,17 +13,18 @@ So with the skill requirements at an all-time low, just about anyone can dive in
 
 * * *
 
+
 # Enter Re:Cognition
 
 One of the big things that brought this to the forefront for me was the Re:Cognition event (hosted by [Moov2](http://moov2.com/) and [Microsoft](https://www.microsoft.com/cognitive-services)), which was a large hack-a-thon style event aiming to get teams crunching on Microsoft’s new “Cognitive Services” offering, which is an entire suite of API’s with a plethora of features to bring intelligence in to your apps & games.  Best of all, these are all simply REST API endpoints, meaning they are available from anywhere and on any device so long as you have an internet connection.
 
  
 
-![Microsoft Cognitive Services](https://cdn.evbuc.com/eventlogos/133205579/cognitiveservices.png)
+![Microsoft Cognitive Services](assets/img/posts/image-not-found.png)
 
  
 
-![Organised by Moov2 and supported by Microsoft](https://cdn.evbuc.com/eventlogos/133205579/moov2andmicrosoft.png)
+![Organised by Moov2 and supported by Microsoft](assets/img/posts/image-not-found.png)
 
 The Event itself took place over a single weekend with the teams challenged to build what they could using Microsoft’s new Cognitive offering by whatever means necessary.  Additionally, several other devices such as Microsoft Surfaces, Microsoft Kinect, Intel Realsense camera’s and even some snazzy Spheros were loaned out freely to use (but not keep sadly however there were prizes for the most notable projects).
 
@@ -32,6 +33,7 @@ You can see some of the highlights here:
 <iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/DqD__aSmFqc" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
 
 * * *
+
 
 # Microsoft Cognitive Services
 
@@ -56,6 +58,7 @@ And that is not all, each and every service has a free tier, so there is **NO CO
 
 * * *
 
+
 # What has come before
 
 The start point for most teams after a short brief and teachings on “how to be a better parent”, were the example applications that Microsoft and some community developers have created since the services were announced (previously known as Project Oxford). You can check out the full list of demo apps (some of which went’ viral a short while ago) can be found here:
@@ -70,17 +73,20 @@ And many many more! Check them out.
 
 * * *
 
+
 # On your Marks, Get Set, GO…
 
 This was by and large a very brutal hack, mainly for the organizers and supporters (myself included) with the usual teething troubles of getting machines setup, devices connected and wires plugged.  One thing that every team did not have any trouble with were the Cognitive services themselves, those were simply a breeze.
 
 Here is an example that you can walk through yourself as an example:
 
+
 ## 1:  Get on the services
 
 Navigate to the Microsoft Cognitive Services site ([https://www.microsoft.com/cognitive-services](https://www.microsoft.com/cognitive-services "https://www.microsoft.com/cognitive-services")) and pick a service, for example the Computer Vision API:
 
 [![image](/assets/img/wordpress/2016/07/image-2.png "image")](https://www.microsoft.com/cognitive-services/en-us/computer-vision-api)
+
 
 ## 2: Get your keys
 
@@ -97,6 +103,7 @@ As you can see, it is a very generous window of opportunity with the API which i
 Once complete you will be presented with the key management screen where you can grab your keys (you get two) and also view the usage of each service you have subscribed to.
 
 [![image](/assets/img/wordpress/2016/07/image-3.png "image")](/assets/img/wordpress/2016/07/image-4.png)
+
 
 ## 3: Start your engines
 
@@ -122,7 +129,8 @@ Next you will need to enter your request body parameters, which is just a simple
 
 The image I chose was for a very happy chap in the park on a sunny day, I wondered what the service would make of this (ca not tell you how many API calls I burnt through looking for an interesting “Creative Commons” image)
 
-![](https://static.pexels.com/photos/16622/pexels-photo.jpg)
+![](assets/img/posts/image-not-found.png)
+
 
 ## 4: Checking your results
 
@@ -154,6 +162,7 @@ Have a try with your own keys and various other images and see what you get back
 
 * * *
 
+
 # Back to the competition
 
 So, now you have a feel for what the teams had at their disposal, what did they come up with?  I can tell you now that even my wildest dreams did not prepare me for some of the potentially world changing solutions the teams put together, even those who did not manage to finish.  Well we saw the beginnings of solutions, this was only 24 hours after all.
@@ -164,6 +173,7 @@ Be sure to also click on each of the images below to see the 3 minute presentati
 
  
 
+
 ### The sign language interpreter
 
 One bold team of 4 stayed through most of the night (collapsing about 4am) had the bold dream of taking the vision set of API’s, mashing them together with a Microsoft Kinect to recognize a person doing sign language and then interpreting that in to English. In the short time they had, they managed to reliably recognize 3 words with a high degree of confidence, the team also had plans to tie in the Speech API’s in order to also speak the results back, but just ran out of time.  Given this was done end to end in less than 24 hours, is simply amazing:
@@ -171,6 +181,7 @@ One bold team of 4 stayed through most of the night (collapsing about 4am) had t
 [![image](/assets/img/wordpress/2016/07/image-11.png "image")](https://www.youtube.com/watch?v=5kI0jVdOBqg)
 
  
+
 
 ### Two men with beards and too much time on their hands
 
@@ -182,11 +193,13 @@ You do not score if you are not Angry ![Smile with tongue out](/assets/img/wordp
 
  
 
+
 ### Edward – The dreamer
 
 Just to show that you can still win big when you go it alone at hacks, Edward rolled forth to tackle one of the biggest issues in work life, preventing you from venting at colleagues over email.  Using the Sentiment API, he built an entire google plug-in for Gmail which checks your email before sending and if it feels you are being too aggressive or nasty it will pop up and ask you to take five minutes / sleep on it before sending the mail for real.  This could seriously be a life saver for me in my office at times ![Open-mouthed smile](/assets/img/wordpress/2016/07/wlEmoticon-openmouthedsmile.png)
 
 [![image](/assets/img/wordpress/2016/07/image-13.png "image")](https://www.youtube.com/watch?v=WGW_pCdHh_E)
+
 
 ### Movember is coming, are you ready?
 
@@ -198,6 +211,7 @@ Yet another lone dev built a full web app where users can submit their images an
 
  
 
+
 ### Resisting the temptations of easy money
 
 Now if you have a sufficiently advanced computer, a camera and two wicked brains, you mind might turn to the first project that this next team turned to. To use the advanced OCR and language recognition features provided by cognitive services and then pair then up with the Bing search API’s to build a program able of cheating at the quiz style pub machines, instantly giving you the answer to any question from a choice of 4.  The team swiftly dodged that likely unlawful bullet and then spent the rest of their hack coming up with a way to use the features they had already built to read children’s stories and extend them.  This pair of knights deserve special recognition for their gallantry and turning away from temptation.
@@ -206,11 +220,13 @@ Now if you have a sufficiently advanced computer, a camera and two wicked brains
 
  
 
+
 ### Your personal Jarvis – become your own Iron man (minus the suit)
 
 Home automation always seems like a “nice thing to have” except that most offerings and projects only go so far.  However, this one man band had the grand ambition of paring up multiple devices and inputs, carefully interwoven with the cognitive services to produce a semi-intelligent home manager.  Capable of detecting your mood, controlling the lighting / music and even entertaining your pet for you (with the addition of a Sphero).  It can even construct its own speech letting you know it is looking after you and offering suggestions to perk up your day.  Future versions will also watch for your seating / walking position and offer handy tips to improve your general health.  Not sure whether to be excited or very very scared ![Open-mouthed smile](/assets/img/wordpress/2016/07/wlEmoticon-openmouthedsmile.png) Watch and listen to the video carefully.
 
 [![image](/assets/img/wordpress/2016/07/image-16.png "image")](https://www.youtube.com/watch?v=HTlfVgwS_Po)
+
 
 ### Your food, your way, your choice
 
@@ -220,6 +236,7 @@ As one of the few teams who actually managed to go almost the entire night, this
 
 If you also check the intro video for the event, these were the culprits for the famous Ballmer and Gates boogie video, which they left running on the Surface Hub they had in their room. I still have gory flashbacks to that night because of this, grrr.
 
+
 ### Are you chatting to me?
 
 Definitely going down as one of the teams with the most “on the spot” twitter prizes, mainly because every waking minute they spent on twitter. This team pulled together and even deployed an actual twitterbot which detects the emotion behind your tweet and then reply back to you accordingly.  They used and tested this app throughout the night catching most of the support staff at apt times.  They even managed to get a selfie with Bill Gates but I must have missed him ![Confused smile](/assets/img/wordpress/2016/07/wlEmoticon-confusedsmile.png)
@@ -228,11 +245,13 @@ Definitely going down as one of the teams with the most “on the spot” twitte
 
  
 
+
 ### Face lock for apps
 
 Are you paranoid in your office, do you regularly walk away from your computer and then find that your colleagues have walked up and then posted some unscrupulous photos of you on Facebook?  Well then this team is here to save you.  Their creation allows you to lock not just your computer but also specific apps by recognizing you in front of the camera, the difference being that it works with any camera and not just some uber powerful depth camera.  The team hope to extend this adding facial passwords through emotion tracking and even voice support.  Certainly one to watch in the future.
 
 [![image](/assets/img/wordpress/2016/07/image-19.png "image")](https://www.youtube.com/watch?v=_HUpqOvNefM)
+
 
 ### Interacting only when present
 
@@ -242,6 +261,7 @@ One of the most ambitious teams sought to marry up two competing technologies to
 
  
 
+
 ### Who are you? – Game of thrones
 
 Another nice little fun project was done by yet another one-man band who simply loves Game of Thrones (but who does not) and decided to build a fun web application using cognitive services to compare your face to a multitude of Game of Thrones characters from various seasons, letting you know who you most look like.  This definitely brought on some cheers and laughter throughout the demo and one to watch for in the future as the catalogue of characters expands.
@@ -249,6 +269,7 @@ Another nice little fun project was done by yet another one-man band who simply 
 [![image](/assets/img/wordpress/2016/07/image-21.png "image")](https://www.youtube.com/watch?v=Fu1bYYgCSzQ)
 
 Yes Boris, you and Ned Stark certainly have a LOT in common!
+
 
 ### Being creative helps
 
@@ -261,6 +282,7 @@ Their app listens to what ingredients you have at your disposal and then informs
 The support team were quite set back about just how polished and professional the output of the team was, granted having a very experienced artist/designer on hand does not hurt.  But only one of the team managed to survive the entire night.
 
 * * *
+
 
 # Closing thoughts
 
@@ -275,6 +297,7 @@ If you see / hear of another one of these events, I urge you to drop in and give
  
 
 * * *
+
 
 # From what comes next
 

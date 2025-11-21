@@ -5,9 +5,11 @@ date: 2012-06-29 09:26:07
 tags: [2d tutorial, game development, xna]
 ---
 
+
 #### Here is the section for the specific updates for XNA, new improvements in .NET 3.5 and what is coming up for .NET 4.0.  This refreshes the previous post from Digipen for more up to date info.
 
 * * *
+
 
 ### 1. C# 3.5
 
@@ -16,6 +18,7 @@ With the release of _Visual Studio 2008_, the _C#_ language has been updated to 
 If you follow [this link](http://msdn.microsoft.com/en-us/library/bb332048 "MSDN - Whats new in .NET 3.5"), you will see what was added to .NET 3.5 which is what XNA is based upon and follow [this link](http://msdn.microsoft.com/en-us/library/bb383815(v=VS.90).aspx "What is new in C# 2008") for what is new in C# for 2008.
 
 The main highlights for gaming are:
+
 
 ### 1.1.Common Language Runtime (.NET 3.5)
 
@@ -37,19 +40,23 @@ Shawn (XNA God) Hargreaves wrote an excellent article on how to [maintain garbag
 
 1.1.4 [Threading](http://msdn.microsoft.com/en-us/library/system.threading.readerwriterlockslim "Better threadlock scenarios") – also see the [threadpool enhancements](http://msdn.microsoft.com/en-us/library/system.threading.threadpool "Threadpool enhancements")
 
+
 ### 1.2. Networking (.NET 3.5)
 
 Microsoft’s Peer-to-Peer collaboration infrastructure provides a peer-to-peer network-based framework for collaborative serverless activities. Use of this framework enables decentralized networking applications that use the collective power of computers over a subnet or the Internet.
 
 The [Socket](http://msdn.microsoft.com/en-us/library/system.net.sockets.socket) class has been enhanced for use by applications that use asynchronous network I/O to achieve the highest performance. A series of new classes have been added as part of a set of enhancements to the [Socket](http://msdn.microsoft.com/en-us/library/system.net.sockets.socket) namespace. These classes provide an alternative asynchronous pattern that can be used by specialized high-performance socket applications.
 
+
 ### 1.3. [Linq](http://msdn.microsoft.com/en-us/netframework/aa904594 "What is Linq") (.NET 3.5)
 
 Language-Integrated Query (LINQ) is a new feature in Visual Studio 2008 and the .NET Framework 3.5. LINQ extends powerful query capabilities to the language syntax of C# and Visual Basic in the form of standard, easily-learned query patterns. This technology can be extended to support potentially any kind of data store.
 
+
 ### 1.4. [Object](http://msdn.microsoft.com/en-us/library/bb384062(v=VS.90).aspx "Object initialisers") / [Collection](http://msdn.microsoft.com/en-us/library/bb384062(v=VS.90).aspx "Collection initialisers") initialisers (C# 3.0/2008)
 
 Enables initialization of collections or objects with an initialization list rather than specific calls to **Add** or another method, without the need for explicit constructor calls.
+
 
 ### 1.4. [Extension Methods](http://msdn.microsoft.com/en-us/library/bb383977(v=VS.90).aspx "Extension methods") (C# 3.0/2008)
 
@@ -57,17 +64,21 @@ Extend existing classes by using static methods that can be invoked by using ins
 
 [Nick Gravelyn](http://nickgravelyn.com/) and the guys at [http://www.xnawiki.com/](http://www.xnawiki.com/ "http://www.xnawiki.com/") have many details on how to use Extensions in XNA, there is even a whole [codeplex project](http://xnextensions.codeplex.com/ "XNA Extensions codeplex page") dedicated to them
 
+
 ### 1.4. [Lamda Expressions](http://msdn.microsoft.com/en-us/library/bb397687(v=VS.90).aspx "Lamda Expressions guide") (C# 3.0/2008)
 
 Enables inline expressions with input parameters that can be bound to delegates or expression trees.
+
 
 ### 1.4. [Auto-Implemented Properties](http://msdn.microsoft.com/en-us/library/bb384054(v=VS.90).aspx "Auto-Implemented Properties") (C# 3.0/2008)
 
 Enables declaration of properties by using simplified syntax
 
+
 ### 1.4. [Partial Method Definitions](http://msdn.microsoft.com/en-us/library/wa80x488(v=VS.90).aspx "Partial Methods") (C# 3.0/2008)
 
 Partial types may now contain partial methods.
+
 
 ### 1.4. [Refactoring](http://msdn.microsoft.com/en-us/library/719exd8s(v=VS.90).aspx "Refactoring") (C# 3.0/2008)
 
@@ -77,6 +88,7 @@ Refactoring is the process of improving your code after it has been written by c
 
 * * *
 
+
 ### 2. C# 4.0
 
 With the release of _Visual Studio 2010_, the _C#_ language has been updated to make use of .NET 4.0.
@@ -85,13 +97,16 @@ If you follow [this link](http://msdn.microsoft.com/en-us/library/ms171868(v=VS.
 
 The main highlights are:
 
+
 ### 2.1.[Diagnostics and Performance](http://msdn.microsoft.com/en-us/library/dd264809(v=VS.100).aspx "Diagnostics usage") (.NET 4.0)
 
 Earlier versions of the .NET Framework provided no way to determine whether a particular application domain was affecting other application domains, because the operating system APIs and tools, such as the Windows Task Manager, were precise only to the process level. Starting with the .NET Framework 4, you can get processor usage and memory usage estimates per application domain.
 
+
 ### 2.2.[Garbage Collection improvements](http://msdn.microsoft.com/en-us/library/ee787088(v=VS.100).aspx "Fundementals of Garbage collection") (.NET 4.0)
 
 The .NET Framework 4 provides background garbage collection. This feature replaces concurrent garbage collection in previous versions and provides better performance.
+
 
 ### 2.3. [Covariance and Contravariance](http://msdn.microsoft.com/en-us/library/ee207183(v=VS.100).aspx "Covariance and Contravariance usage") (.NET 4.0)
 
@@ -99,13 +114,16 @@ Several generic interfaces and delegates now support covariance and contravarian
 
 Covariant and contravariant generic type parameters provide greater flexibility in assigning and using generic types. For example, covariant type parameters enable you to make assignments that look much like ordinary polymorphism. Suppose you have a base class and a derived class, named Base and Derived. Polymorphism enables you to assign an instance of Derived to a variable of type Base. Similarly, because the type parameter of the [IEnumerable\<T\>](http://msdn.microsoft.com/en-us/library/9eekhta0(v=VS.100).aspx) interface is covariant, you can assign an instance of IEnumerable\<Derived\> (IEnumerable(Of Derived) in Visual Basic) to a variable of type IEnumerable\<Base\>
 
+
 ### 2.4. [BigInteger](http://msdn.microsoft.com/en-us/library/system.numerics.biginteger(v=VS.100).aspx "New Biginteger structure") and [Complex Numbers](http://msdn.microsoft.com/en-us/library/system.numerics.complex(v=VS.100).aspx "New functions for complex mathematical support") (.NET 4.0)
 
 Larger data types for those situations where you just do not have enough
 
+
 ### 2.5. [Tuples](http://msdn.microsoft.com/en-us/library/system.tuple(v=VS.100).aspx "New Tuples definition") (.NET 4.0)
 
 In [mathematics](http://en.wikipedia.org/wiki/Mathematics) and [computer science](http://en.wikipedia.org/wiki/Computer_science) a **tuple** represents the notion of an ordered list of elements.  Tuples are often used to describe other mathematical objects and factor a lot in algebra and calculus.
+
 
 ### 2.6. [Various other improvements](http://msdn.microsoft.com/en-us/library/ms171868(v=VS.100).aspx "See the "Other New Features" section of the what is new guide") (.NET 4.0)
 
@@ -113,9 +131,11 @@ This is one to read up on, mainly minor updates or new methods for existing data
 
 One to look at is the Yield function –\*\*\*
 
+
 ### 2.7. [Dynamic Support](http://msdn.microsoft.com/en-us/library/dd264736(v=VS.100).aspx "Dynamic Keyword usage") (C# 4.0 / 2010)
 
 Visual C# 2010 provides support for late binding to dynamic types by introducing a new type,
+
 
 ### 2.8. [Generate From Usage](http://msdn.microsoft.com/en-us/library/dd409796(v=VS.100).aspx "Generate from Usage defintion") (C# 4.0 / 2010) – also see the [walkthrough](http://msdn.microsoft.com/en-us/library/dd998313(v=VS.100).aspx "Generate from usage walkthrough")
 
@@ -123,9 +143,11 @@ The Generate From Usage feature enables you to use classes and members before yo
 
 This is Microsoft’s answer to the latest practice of [TDD or Test Driven development](http://en.wikipedia.org/wiki/Test-driven_development "Test Driven Development on Wikipedia") where you program according to features and not how you implement them. (feature first, implementation later)
 
+
 ### 2.9. [IntelliSense Suggestion Mode](http://msdn.microsoft.com/en-us/library/exbffbc2(v=VS.100).aspx "List of supported members") (C# 4.0 / 2010)
 
 IntelliSense now provides two alternatives for IntelliSense statement completion: completion mode and suggestion mode. Suggestion mode is used when classes and members are used before they are defined.
+
 
 ### 2.10.Live Semantic Errors (C# 4.0 / 2010)
 
@@ -134,6 +156,7 @@ The Live Semantic Errors feature has been enhanced in Visual C# 2010. The use of
  
 
 * * *
+
 
 ### 3. Direct9 for XNA (updated from previous Digipen post)
 
@@ -173,6 +196,7 @@ The Font class encapsulates the textures and resources needed to render a specif
 
 * * *
 
+
 ### 4. DirectInput (updated from previous Digipen post)
 
 Using XNA, we do not have access to Directinput, especially if you want cross platform support with XBOX360 or Windows Phone 7.
@@ -187,6 +211,7 @@ Instead XNA implements several STATE classes for each supported device, such as:
 We will cover more on this during the tutorial.
 
 * * *
+
 
 ### 5. DirectSound (updated from previous Digipen post)
 
@@ -208,6 +233,7 @@ We wo not be going into detail in this tutorial about XACT (trying to keep thing
 
 * * *
 
+
 ### 6. DirectX.AudioVideoPlayback (updated from previous Digipen post)
 
 Video playback has been an issue for sometime in the XNA framework as there was no native support until recently (and by recently I mean XNA 4.0 which is not even released yet)
@@ -220,17 +246,20 @@ This is outside the scope of this tutorial but will try to get back to cover it 
 
 * * *
 
+
 ### 7. The “Vector2” Class (updated from previous Digipen post)
 
 This is the same in XNA as in Direct3D, but it does go further and we also have Vector3, Vector4 classes.  There also a ton of helper methods on top of each class to manage and use them, we will cover some of these in this tutorial.
 
 * * *
 
+
 ### 8. The “Matrix” Class (updated from previous Digipen post)
 
 Matrix’s are fully supported in XNA as they were in Direct3D with the addition of more helper methods.  These will be covered in a future 3D tutorial.  We can use Matrix’s in 2D for additional effect but they are not mandatory.
 
 * * *
+
 
 ### 9. XNA
 

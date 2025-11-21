@@ -18,6 +18,7 @@ Not going to re-itterate over what are already good docs on the subject so you c
 
 * * *
 
+
 # So why all the fuss
 
 Anyone who knows me know I do not do puff articles that re-iterate what is already documented quite clearly in the manufacturer documentation, so why the post?
@@ -33,6 +34,7 @@ The **Bottom** AppBar is for actions or commands and must also contain a “HOME
 The **Top** AppBar is for navigation or states ONLY, if in doubt do not do a Top AppBar just to be safe.  If in doubt look at other MS apps using the top bar and follow that.  I used it for changing players in game which was only allowed because it was a GAME, but it is a fine line.
 
 * * *
+
 
 # The Standard Styles
 

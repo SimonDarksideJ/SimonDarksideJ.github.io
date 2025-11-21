@@ -12,6 +12,7 @@ The major project I have been working on is the Awesome Mixed Reality Toolkit, i
 
 [![clip_image001](/assets/img/wordpress/2018/09/clip_image001.png "clip\_image001")](/assets/img/wordpress/2018/09/clip_image001.png)
 
+
 ## Building an RPG with Unity 2018 – Second Edition
 
 RPG systems and games are very near and dear to my heart (having wrote a book on it myself for game dev), understanding the key mechanics for what makes a great RPG game is critical.  Taking that knowledge and crafting it in to a working game can be a trial, with many pitfalls and traps.  Titles like this are key to unravelling the sometimes complex logic of RPG systems to aid any developer to craft their dream.
@@ -30,33 +31,41 @@ So, let’s break down what this book has to offer.
 
 Here is a brief run through what all the chapters are and what to expect from them:
 
+
 ### _Chapter 1, What is an RPG?_
 
 Knowledge is key when understanding any particular game mechanic, which is critical in RPG systems.  This chapter does a good run-around the larger RPG space, covering mechanics, knowledge and imparting some hard-learned lessons in building RPG games.
+
 
 ### _Chapter 2, Planning the Game_
 
 When we start building our games, we using start coding away and then worry about how it works later, with RPG’s this can be fatal if you do not plan ahead.  Best to sit down and really sketch out how each area of your game with will work. The level of detail is up to you and this chapter gives some good practical tips.
 
+
 ### Chapter 3, RPG Character Design
 
 Often, the biggest fun you have with any RPG, is spending hours and hours designing your character.  As game designers we need to recognise this and offer players as much choice as we can, so long as it keeps in the theme of the game itself.  In this chapter, it covers a nice 3D animated way of offering and showing choice in your character generation.
+
 
 ### Chapter 4, The Game Mechanics
 
 This chapter covers with the real meat of the game, digging out the run time mechanics and the general look and feel of an RPG.  Putting in to practice everything from the previous chapters and starting to shape the game in to a real thing.
 
+
 ### Chapter 5, GameMaster and Game Mechanics
 
 Here the book delves deeper in to the inner workings of an RPG game, fleshing out more scripts adding more features and making it “almost” playable.
+
 
 ### Chapter 6, Inventory System
 
 There are so many variations for building inventory systems in games, they aren’t unique to RPG games, however, RPG titles do put certain other demands for what we can store in our pocket, how heavy will it be and can I really put a large axe in to my back pocket. This chapter goes through all the basics for what you need to considerer for your inventory system, a truly reusable area in any game.
 
+
 ### Chapter 7, User Interface and System Feedback
 
 Your RPG might be the best in the world, but if your UI System, screens and so on are not also up to scratch, players are likely to put it down without even playing.  In this chapter, you cover the essentials in fleshing out the games UI system, including updating the HUD and even a flashy NPC chat system.
+
 
 ### Chapter 8, Multiplayer Setup
 

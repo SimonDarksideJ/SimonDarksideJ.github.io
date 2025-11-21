@@ -15,6 +15,7 @@ please note that this is one way to implement WCF services in WP7 apps, it is no
 
 * * *
 
+
 ## \*\*Addendum
 
 A wise person noted that by using the word LEADERBOARD, I may be conflicting with the XBOX live Leaderboard system. But this sample is not affiliated with the XBOX Live Leaderboard system in anyway. And reference to persons living or dead is purely coincidental.
@@ -25,20 +26,22 @@ For now, where you see Leader Board, think scoreboard. **This sample is not an X
 
 * * *
 
+
 ### Outline and Goals
 
 Right a good place to start is a nice brief outline of what tis sample is aiming to achieve. This sample provides a Scoreboard service to host and manage leader boards and scores for games, note I say games as it has been designed to host as many leader boards as you wish.
 
 It is made up like this:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) A backend DB to host the leader boards, very simple with 2 tables hosting the boards and the scores. Could have just as easy been XML and hosted web services to expose methods to register and query the leader boards.   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) A Silverlight WCF library to integrate with the WCF services and provide support to apps consuming that library. (as detailed in the last post)   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) A Silverlight management client to interrogate the Leader board service   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) An XNA WP7 game which records the players scores and lists the leader board for that game (could just as easy be a Silverlight game)
+> ![](assets/img/posts/image-not-found.png) A backend DB to host the leader boards, very simple with 2 tables hosting the boards and the scores. Could have just as easy been XML and hosted web services to expose methods to register and query the leader boards.   
+> ![](assets/img/posts/image-not-found.png) A Silverlight WCF library to integrate with the WCF services and provide support to apps consuming that library. (as detailed in the last post)   
+> ![](assets/img/posts/image-not-found.png) A Silverlight management client to interrogate the Leader board service   
+> ![](assets/img/posts/image-not-found.png) An XNA WP7 game which records the players scores and lists the leader board for that game (could just as easy be a Silverlight game)
 
 So over the next few posts (too much for just one I’m afraid), I’ll detail the latter three of those items.
 
 * * *
+
 
 ### The Leader board WCF service (AKA, Dark Omen Games Scoreboard service)
 
@@ -46,21 +49,22 @@ Hosted for you to complement this sample is the WCF Leader board service (how ni
 
 In this service we have two types of data:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) Leaderboard definition – holds details of the Leader boards themselves and a variable to hold the list of Scores (leader board items)   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) Leaderboard items definition – holds the details of all the scores registered for a leader board, including player names, the score they recorded and the time.
+> ![](assets/img/posts/image-not-found.png) Leaderboard definition – holds details of the Leader boards themselves and a variable to hold the list of Scores (leader board items)   
+> ![](assets/img/posts/image-not-found.png) Leaderboard items definition – holds the details of all the scores registered for a leader board, including player names, the score they recorded and the time.
 
 Using this data we expose several WCF methods to allow you to interact with it. One thing I will mention is that we have also implemented Data Contracts within the WCF services to offer a certain level of security, you do not have to do this of course, just remember this is a sample.
 
 So within the WCF service, the methods we expose are:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) Register New leader board   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) Retrieve a listing of all leader boards   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) Get the scores from a single leader board   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) update the scores of a single leader board
+> ![](assets/img/posts/image-not-found.png) Register New leader board   
+> ![](assets/img/posts/image-not-found.png) Retrieve a listing of all leader boards   
+> ![](assets/img/posts/image-not-found.png) Get the scores from a single leader board   
+> ![](assets/img/posts/image-not-found.png) update the scores of a single leader board
 
 So all well and good, we have our service (no [WSDL](http://en.wikipedia.org/wiki/WSDL) I’m afraid, its a bog standard service)
 
 * * *
+
 
 ### The Silverlight WCF library
 
@@ -70,10 +74,10 @@ This also makes sense as it is a lot easier to get a library working in an XNA p
 
 The library it ‘self is made up of a few components, namely:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) A service reference detailing the WCF service we are consuming   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) A view model of the data definitions within the service (or at least my poultry attempt at a view model, something I need to read more on, but it is working)   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) A set of event definitions to be exposed by the library (necessary as the phone uses only Asynchronous services)   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) A library of functions to do all the legwork of talking to the services and retrieving data
+> ![](assets/img/posts/image-not-found.png) A service reference detailing the WCF service we are consuming   
+> ![](assets/img/posts/image-not-found.png) A view model of the data definitions within the service (or at least my poultry attempt at a view model, something I need to read more on, but it is working)   
+> ![](assets/img/posts/image-not-found.png) A set of event definitions to be exposed by the library (necessary as the phone uses only Asynchronous services)   
+> ![](assets/img/posts/image-not-found.png) A library of functions to do all the legwork of talking to the services and retrieving data
 
 Sounds simple, good, then were on the right track.
 
@@ -81,15 +85,18 @@ No idea what any of this means yet, worry not as I will explain further!
 
 * * *
 
+
 ### Start your engines!
 
 Right at this point you have several options, none of them wrong. You can create a new Silverlight library project (Windows Phone Class Library, under Silverlight for Windows Phone) solution and then add that to your existing game / app later. You could just add a new Silverlight Library to your existing App / game or even just start completely fresh, it is up to you. Just start making the project in “Microsoft Visual 2010 Express for windows Phone”, not blend at this point.
 
 However you do it, you should have a nice new library project setup, ready and waiting to be serviced!
 
+
 #### 1. First the test run
 
 > First off, and this might sound strange, but build your project as it is. Either by hitting F5 or F6, just so it is compiled. This just ensures that the project is healthy. If you have just a library project on it is own in your solution you might get a warning about not being able to run a library, but fear not.
+
 
 #### 2. Adding the Service Reference
 
@@ -121,6 +128,7 @@ However you do it, you should have a nice new library project setup, ready and w
 > 
 > Wrong ![Winking smile](/assets/img/wordpress/2012/06/wlEmoticon-winkingsmile4.png), still more to do here.
 
+
 #### 3. A simple view model
 
 > Now I’m not going to go in to too much detail this because it is not my strong suit. Like any other developer newly venturing in to undiscovered territory, I do the only ting that makes sense. Copy someone else’s code and make it work.
@@ -139,6 +147,7 @@ However you do it, you should have a nice new library project setup, ready and w
 > 
 > The model is however broken in half really, as the Leader boards collection can be retrieved by anyone but to retrieve either an individual leader board or a list/single leader board entry, you must provide the security key for that leader board. More on this later.
 
+
 #### 4. The Leader board class event library
 
 > Now as the WCF service operates asynchronously, then the service must be able to operate asynchronously. Now for XNA app’s this is not a problem as it is continually looping so it could keep checking the Leader board library to see if it is finished or not. However, Silverlight is event driven, which means something must happen for it to check or do something, so to handle this I implemented some events into the leader board library (this is just my implementation, if you have another preferred way, then use it. As [Rob Miles](http://www.robmiles.com) says, there are always many solutions to any given problem and if possible they should all be discussed down the pub). if you have not implemented events before (or have forgotten how to like I did), then the MSDN library has a wealth of information about it, [see here](http://msdn.microsoft.com/en-us/library/17sde2xt).
@@ -152,6 +161,7 @@ However you do it, you should have a nice new library project setup, ready and w
 > Here we have two sets of arguments, one to handle when a Leader board has been received from the web service and one to handle when a collection of leader boards has been received (provided you asked fro them in the first place)
 
 > Each uses the portion of the View Model that is applicable to the type of data they are handling. Not much more to say about this at this point. More about the event implementation in the next section.
+
 
 #### 5. The Core – The Leader board class
 
@@ -167,12 +177,12 @@ However you do it, you should have a nice new library project setup, ready and w
 > 
 > Now we can start setting up our functions to call the WCF methods. The following is what we need to expose and react to what our WCF service offers, for each method this breaks down in to:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) The WCF request function – Main request function to call for or send data   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) The WCF response function – Receives and processes the Asynch response from the WCF service   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) The local View Model storage for the request – Here just to keep the local processing in house for the library   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) The Delegate Definition for the response – Part of the event system to pass the event data out   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) The public event for the response – The exposed event from the library so that client applications can hook on to it and react to responses, critical for Silverlight   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) The Function to instantiate the Delegate event – The internal method called to fire off the public event
+> ![](assets/img/posts/image-not-found.png) The WCF request function – Main request function to call for or send data   
+> ![](assets/img/posts/image-not-found.png) The WCF response function – Receives and processes the Asynch response from the WCF service   
+> ![](assets/img/posts/image-not-found.png) The local View Model storage for the request – Here just to keep the local processing in house for the library   
+> ![](assets/img/posts/image-not-found.png) The Delegate Definition for the response – Part of the event system to pass the event data out   
+> ![](assets/img/posts/image-not-found.png) The public event for the response – The exposed event from the library so that client applications can hook on to it and react to responses, critical for Silverlight   
+> ![](assets/img/posts/image-not-found.png) The Function to instantiate the Delegate event – The internal method called to fire off the public event
 
 > Sounds like a lot but it does not actually work out that way, the two big boys are the Request and Response functions and the rest just surround and help these functions out.
 > 
@@ -227,6 +237,7 @@ However you do it, you should have a nice new library project setup, ready and w
 > 
 > So first lets take a step ahead and I’ll come back to this line.
 
+
 #### 6. Events and Delegates for the Library
 
 > Now as with anything else mentioned here, this is not the only way, but it is the cleanest way I know. In order to expose data returned from the service by the library, the best way to do this is through a delegate and by using an event we can control when this will happen.
@@ -264,6 +275,7 @@ However you do it, you should have a nice new library project setup, ready and w
 
 * * *
 
+
 ### Keep it secret, Keep it safe
 
 In the sample the rest of the services are also defined in much the same manor. There are a few little differences, the main one being that of Authentication. With the GetLeaderBoards function, we just ask the service for any boards owned by you.
@@ -276,6 +288,7 @@ For this Library, we do this by simply maintaining a list of keys and interrogat
 
 * * *
 
+
 ### Try, try and try again
 
 Now one other thing to mention in the library, is that it is littered with try catch statements around all the WCF request and response code. Main reason for this is that the internet is unreliable at the best of times (shock horror and awe I hear!).
@@ -287,6 +300,7 @@ You might try retrying a few times, or offer the user a “retry” button, or o
 So as with all good samples, there is still stuff to do and you can go further to manages such features within the library itself
 
 * * *
+
 
 ### And finally, to dispel some myths (well one at least)
 
@@ -302,15 +316,16 @@ I will be determined to re-test this at the [XBLIG-UK event on September the 1st
 
 * * *
 
+
 ### Conclusion
 
 Now a library on it is own does not really offer much unless you are a very determined developer and know how to consume this kind of library.
 
 You can certainly try while I am writing up the next part in this 3 part sample, as all you need to do after following the instructions in the last post and attach the library to your project is:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) Hook on to the Completed event for the method you are calling and generate a delegate stub function   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) Call the request method   
-> ![](http://www.dotnetscraps.com/samples/bullets/020.gif) Handle the response in your delegate stub function to present the data however you see fit.
+> ![](assets/img/posts/image-not-found.png) Hook on to the Completed event for the method you are calling and generate a delegate stub function   
+> ![](assets/img/posts/image-not-found.png) Call the request method   
+> ![](assets/img/posts/image-not-found.png) Handle the response in your delegate stub function to present the data however you see fit.
 
 Do not forget to add references to the library and copy over the Client Configuration file (for Silverlight) once you have added it to your project.
 

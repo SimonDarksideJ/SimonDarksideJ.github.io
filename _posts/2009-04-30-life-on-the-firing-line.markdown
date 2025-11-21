@@ -26,7 +26,7 @@ That’s enough of a Rant…
 
 It’s been really hard on my time, trying to et the next part in my 3D blog (featured below) done, I got several new game designs I need to work on and on top of that, I got the demands of my friends in Dark Omen Games as we try and see if we can get an entry for Dream Build Play up.
 
-The latter of those I feel really ashamed at how little I’ve been able to do but I’m determined to do my part, trick is only my rig at home has the beef to run any serious 3D modeling software, my works laptop is really not up to the task ![Wink](http://shared.live.com/o5ZS870nhiJMYQrZY6kNyQ/emoticons/smile_wink.gif "Wink")
+The latter of those I feel really ashamed at how little I’ve been able to do but I’m determined to do my part, trick is only my rig at home has the beef to run any serious 3D modeling software, my works laptop is really not up to the task ![Wink](assets/img/posts/image-not-found.png)
 
  
 

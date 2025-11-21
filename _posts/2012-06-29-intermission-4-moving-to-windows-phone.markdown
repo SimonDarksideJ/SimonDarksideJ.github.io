@@ -9,9 +9,11 @@ No need to guess what this little section is about.  Games on [Windows Phone 7](
 
 For now this is going to be a side project to the main tutorial since XNA 4.0 and the Windows Phone 7 kit has not been fully released yet.  So on with the show.
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
+
 
 ### Getting started
 
@@ -26,7 +28,7 @@ For the Windows Phone side of this tutorial you are going to need the [Windows P
 
 Get them installed and started and you see the great new Visual studio 2010 interface now completely re-written in WPF.
 
-![VS2010ExpressPhone](http://xna-uk.net/blogs/darkgenesis/VS2010ExpressPhone_1878E542.png)
+![VS2010ExpressPhone](assets/img/posts/image-not-found.png)
 
  
 
@@ -34,11 +36,12 @@ Get them installed and started and you see the great new Visual studio 2010 inte
 
  
 
+
 ### New project
 
 Now exactly the same as before in this [earlier post](/blogs/darkgenesis/archive/2010/06/04/intermission-3-updating-to-allow-for-changeable-resolution), you need to set up a new project, except this time you need to browse to the XNA Game Studio 4.0 section and select the “Windows Phone Game (4.0)” project.
 
-![NewPhoneProject](http://xna-uk.net/blogs/darkgenesis/NewPhoneProject_581E6C2E.png)
+![NewPhoneProject](assets/img/posts/image-not-found.png)
 
  
 
@@ -46,7 +49,7 @@ I suggest calling the project “XNAStarTrooper2D\_Phone7”, select an appropri
 
 First thing you should notice is that in a new phone solution the content and code projects are already split up for you, bear this in mind for the next step.
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_1C5ABF7C.png)
+![image](assets/img/posts/image-not-found.png)
 
 Now copy over the Engine Folder from your current Startrooper game to the code project and then copy over the class files beginning with StarTrooper (StarTrooperGame, StarTrooperSprites and StarTrooperBackground).
 
@@ -54,9 +57,10 @@ Finally copy over the Pictures, Music and Sounds folders from the content projec
 
 You should now have a solution made up like the following:
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_1CF28E32.png)
+![image](assets/img/posts/image-not-found.png)
 
 * * *
+
 
 ### Updates for Windows Phone 7
 
@@ -1108,7 +1112,7 @@ What you should end up with is the following.
             
             
             
-            ![image](http://xna-uk.net/blogs/darkgenesis/image_7D2B669E.png)
+            ![image](assets/img/posts/image-not-found.png)
             
             
             

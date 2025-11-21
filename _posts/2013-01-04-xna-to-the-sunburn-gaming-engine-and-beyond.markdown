@@ -12,6 +12,7 @@ So far in this series I have covered:
 
 In both cases you are building your own “engine” per-se, doing your own physics and other such things.  But what if there was an option, where you could have your cake and eat it, a way to have a full XNA implementation backed by a powerful lighting and rendering engine with plugins for physics and much much more.
 
+
 # Enter the SunBurn Gaming Engine.
 
 I have blogged about SunBurn before and all its capabilities, even showed a demo of its extensible editor at Microsoft Techdays showing how easy it is to edit your levels and environment.
@@ -20,15 +21,19 @@ Now what if I told you could use this engine on Windows 8, Windows Phone 8, Linu
 
 Well that is exactly what the guys at Synapse Gaming have done and as proof of the pudding, check out their recent announcement regarding the 2.1 release.
 
+
 ### [Announcing SunBurn 2.1 – Platform Independent Game Engine!](http://bit.ly/Va6lYZ "Announcing SunBurn 2.1 - Platform Independent Game Engine!")
 
 * * *
+
 
 # Background
 
 ![src=]()
 
+
 ##### 
+
 
 ##### _(From the site)_
 
@@ -47,6 +52,7 @@ SunBurn puts professional tools and technology in your hands, making it possible
 
 **Join the thousands of developers** who already know SunBurn is the most powerful and flexible XNA game engine available!
 
+
 ### Single API and Multiple Platforms
 
 Quickly build games for Windows, Xbox 360, and Windows Phone using SunBurn’s easy-to-use api! No porting is necessary, simply create games in C# code then run on Windows or deploy to a retail Xbox 360 or Windows Phone and enjoy!
@@ -57,15 +63,18 @@ See some of the great games already using SunBurn 2.0:
 
 Sell your games online, on Xbox LIVE Marketplace, and Zune / Windows Phone Marketplace, and start making money! All without DevKits, contracts, or any expensive software.
 
+
 ### Easy Asset Creation
 
 Create levels, characters, and props using your favorite art tools. SunBurn provides native support for 3D Studio Max, Maya, XSI, XSI ModTool, Modo, Blender, and more – as well as the ability to plug-in support for additional and custom tools. Easily create custom file importers and geometry using SunBurn and the XNA content pipeline.
 
 Make changes mid-game while playing, and see them in real-time using SunBurn’s built-in editor. SunBurn uses Windows’ native controls, not a rendered ui, for the fastest possible performance.
 
+
 ### Completely Modular
 
 Use SunBurn out-of-the-box or plug in custom code and components. SunBurn’s modular design and access to low-level classes makes it easy to add, customize, modify, and replace built-in features.
+
 
 ### Best Support in the Business
 
@@ -76,6 +85,7 @@ Become a SunBurn developer today! And work with a company that understands indie
 As a proud member of Microsoft’s XNA Partner Program we’re happy to provide discounts to [Microsoft App Hub members](http://xbox.create.msdn.com/en-us/home/membership) (see Checkout page for details).
 
 * * *
+
 
 # Out of the Box
 
@@ -102,6 +112,7 @@ So long as you buy SunBurn then you will have full access to most features of th
 
 * * *
 
+
 # Two Cities one World
 
 ![src=]()
@@ -109,6 +120,7 @@ So long as you buy SunBurn then you will have full access to most features of th
 With the coming of 2.1 and beyond there is even more variety available from the Synapse Gaming guys and gals:
 
 - 
+
 ### The SunBurn Platform
 
 The SunBurn platform API, like MonoGame is a new platform independent framework which provides an XNA look and feel but whereas MonoGame stops there at the moment (they are reporting plans to go further later once V3 is stable), SunBurn is taking all the lessons learnt in the development of the SunBurn gaming engine and expanding on the base implementation to allow more flexible and performant graphical operations.
@@ -116,6 +128,7 @@ The SunBurn platform API, like MonoGame is a new platform independent framework 
 Beyond that SunBurn also offers better integration and support or other necessary libraries and frameworks needed for making games, these features are further augmented with the use of the SunBurn Gaming engine
 
 - 
+
 ### The SunBurn Engine
 
 As you have seen above the Sunburn gaming engine has a lot under the hood and for the 2.1 release its fully integrated with the SunBurn platform above, so any game you wrote / writing against the SunBurn engine will work exactly the same for all supported platforms.
@@ -140,6 +153,7 @@ So as you can see everything is looking very bright, everything you get with Mon
 
 * * *
 
+
 # Content Pipeline
 
 ![src=]()
@@ -152,11 +166,13 @@ SunBurn is still using the XNA dlls presently for content processing but plans t
 
 * * *
 
+
 # Getting Started
 
 ![src=]()
 
 As with everything SunBurn there are a wealth of samples and help to get you on your way no matter which route you go down:
+
 
 ### SunBurn Gaming Engine
 
@@ -186,6 +202,7 @@ Above you can see the Cavern / Sci-Fi and Dojo scenes that are the bread and but
 
 All of these examples show you how to import a scene created using the SunBurn editor (which I have covered previously in many posts), setup a player / character in the world and add controls / logic and physics to the game.  It is a bit different to raw XNA but still built on XNA’s principles (what you would expect from an engine really).  The engine does all the grunt work of making it look good whilst still maintaining performance so you can get on with just making the game.
 
+
 ### SunBurn Platform API
 
 If the engine is not your bag and you prefer to code it yourself, then the Platform API is here to offer you just that.
@@ -205,6 +222,7 @@ There are a few differences to the way XNA does things with draw calls, sprite b
 > ![src=]()    Input – currently SunBurn only support keyboard and mouse / touch but they are fast working on adding support for other inputs including gamepad.  Unlike XNA the input system is managed by the API,so it handles a lot of the raw input and timing issues usually found with XNA projects, so things like KeyPressed and KeyDown are already provided for you in a single static instance for everything.
 
 * * *
+
 
 # Plug-in’s a plenty
 
@@ -228,6 +246,7 @@ And much more, the list just keeps on growing
 
 * * *
 
+
 # Current State
 
 ![src=]()
@@ -238,7 +257,9 @@ I cannot comment whether the Beta phase will be extended beyond its current dist
 
 * * *
 
+
 # ![src=]()
+
 
 # The Editor
 
@@ -249,6 +270,7 @@ A few obvious differences do show like the ability in Unity to play the game wit
 For the current builds through the editor is still only available in the VS 2010 edition for SunBurn but we are informed it is high in the product backlog to bring this forward for VS 2012, no word on a prettification of it yet though ![Open-mouthed smile](/assets/img/wordpress/2013/01/wlEmoticon-openmouthedsmile.png)
 
 * * *
+
 
 # Conclusion
 
@@ -268,7 +290,7 @@ At this point I have managed to port over all my Starter Game code and the only 
 
 I might even have a go at updating it to use the SunBurn Gaming engine as well to take full advantage of the lighting / physics and other great stuff it gives and do another follow up post.
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/xna-to-the-sunburn-gaming-engine-and-beyond/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/xna-to-the-sunburn-gaming-engine-and-beyond/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/xna-to-the-sunburn-gaming-engine-and-beyond/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/xna-to-the-sunburn-gaming-engine-and-beyond/)<script type="text/javascript">// <![CDATA[
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/xna-to-the-sunburn-gaming-engine-and-beyond/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/xna-to-the-sunburn-gaming-engine-and-beyond/)<script type="text/javascript">// <![CDATA[
 var dzone_url = 'http://darkgenesis.zenithmoon.com/xna-to-the-sunburn-gaming-engine-and-beyond/';
 // ]]></script>  
 <script type="text/javascript">// <![CDATA[
@@ -282,4 +304,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)
+// ]]></script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

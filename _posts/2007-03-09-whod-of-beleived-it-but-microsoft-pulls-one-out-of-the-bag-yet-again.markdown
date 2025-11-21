@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Who would have of beleived it - But Microsoft pulls one out of the bag yet again!
+title: Who would have of believed it - But Microsoft pulls one out of the bag yet again!
 date: 2007-03-09 08:55:50
 tags: [xna]
 ---

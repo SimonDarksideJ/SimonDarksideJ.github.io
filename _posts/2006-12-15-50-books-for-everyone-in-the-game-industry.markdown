@@ -22,7 +22,7 @@ Not just about writing games either, the books range the following areas:
   - Deep Background
   - Inspirations
 
-Some truly helpfully and inspiring stuff, so if you are new to the game creating area or even if your looking for more (although you probably have your hands full already), header over to [Next-Gen](http://www.next-gen.biz/index.php?option=com_content&task=view&id=3962&Itemid=34&limit=1&limitstart=0) and see how many you have already and what could possibly be missing from your collection.
+Some truly helpfuly and inspiring stuff, so if you are new to the game creating area or even If you're looking for more (although you probably have your hands full already), header over to [Next-Gen](http://www.next-gen.biz/index.php?option=com_content&task=view&id=3962&Itemid=34&limit=1&limitstart=0) and see how many you have already and what could possibly be missing from your collection.
 
 One of the newer books that made it onto the list apparently has already sold out it’s first edition run, hmm
 

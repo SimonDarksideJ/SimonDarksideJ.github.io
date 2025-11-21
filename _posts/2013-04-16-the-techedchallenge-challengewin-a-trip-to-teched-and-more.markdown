@@ -15,7 +15,7 @@ The full details are here: [http://www.microsoft.com/uk/techedchallenge](http://
 
 Download one (or more ) of the three following products:
 
-[![Windows Server 2012](http://www.microsoft.com/uk/techedchallenge/images/server2012.jpg)](http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200201556&CR_EAC=300089844) [![System Center 2012](http://www.microsoft.com/uk/techedchallenge/images/syscenter.jpg)](http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200201556&CR_EAC=300089846) [![Windows Azure](http://www.microsoft.com/uk/techedchallenge/images/azure.jpg)](http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200201556&CR_EAC=300089851)
+[![Windows Server 2012](assets/img/posts/image-not-found.png)](http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200201556&CR_EAC=300089844) [![System Center 2012](assets/img/posts/image-not-found.png)](http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200201556&CR_EAC=300089846) [![Windows Azure](assets/img/posts/image-not-found.png)](http://www.microsoft.com/click/services/Redirect2.ashx?CR_CC=200201556&CR_EAC=300089851)
 
 Write a review of your experience with your downloaded product(s) and either [email them to Microsoft](mailto:ukitpro@microsoft.com?subject=TechEd) or use the submission site below:
 
@@ -27,13 +27,14 @@ Each first place prize includes your ticket to [TechEd Europe](http://www.micros
 
 On top of that while the competition is running you can keep tweeting / ReTweeting about [#TechEdChallenge](https://twitter.com/search?q=%23TechEdChallenge) to be in with a chance to win some free goodies, from mugs to tee shirts and notebooks (of which kind of notebook, I will update the article when mine arrives ![Open-mouthed smile](/assets/img/wordpress/2013/04/wlEmoticon-openmouthedsmile1.png) but I suspect of the writing kind)
 
+
 # Well what are you waiting for?
 
 I have had experience with most of them before but I am still downloading all three and doing my own write up on them, so as a break from my normal schedule expect a few review articles coming very soon.  In one way this has gotten me off the bench about Azure as I have been wanting to dig in to it for a while now and have a few projects that make a lot of use of their services but I have been preoccupied with other tasks, now I have got my trial and will get coding against it (may even blog about that experience as well on the side plus make use of Xamarin’s new Azure Mobile Services component plug-in for Xamarin solutions ![Smile](/assets/img/wordpress/2013/04/wlEmoticon-smile.png))
 
 Laters ![Open-mouthed smile](/assets/img/wordpress/2013/04/wlEmoticon-openmouthedsmile1.png)
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/the-techedchallenge-challengewin-a-trip-to-teched-and-more/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/the-techedchallenge-challengewin-a-trip-to-teched-and-more/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/the-techedchallenge-challengewin-a-trip-to-teched-and-more/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/the-techedchallenge-challengewin-a-trip-to-teched-and-more/)<script type="text/javascript">// <![CDATA[
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/the-techedchallenge-challengewin-a-trip-to-teched-and-more/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/the-techedchallenge-challengewin-a-trip-to-teched-and-more/)<script type="text/javascript">// <![CDATA[
 var dzone_url = 'http://darkgenesis.zenithmoon.com/the-techedchallenge-challengewin-a-trip-to-teched-and-more/';
 // ]]></script>  
 <script type="text/javascript">// <![CDATA[
@@ -47,4 +48,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)
+// ]]></script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

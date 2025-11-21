@@ -15,9 +15,11 @@ Portable libraries are one of the saviours from this practice by constructing a 
 
 Main problem here with MonoGame as it wasn’t possible to do this, until now…
 
+
 ### **\*update – Access the GitHub repo of [MonoGame.Portable here](https://github.com/DDReaper/MonoGame/tree/develop.portable "MonoGame.Portable on GitHub")**
 
 * * *
+
 
 # First a Warning!!
 
@@ -31,9 +33,11 @@ MonoGame is a fantastic achievement and if like me, you are passionate about suc
 
 * * *
 
+
 # Why be portable?
 
 ![src=]()
+
 
 #### As the old saying goes, if it ai not broke, why try to fix it?
 
@@ -67,13 +71,16 @@ What we are aiming for with the use of a Portable Class Library is something lik
 
 * * *
 
+
 # Back to the show
 
 So what difference does this really make, well let’s spell out the two main differences it makes with MonoGame projects
 
+
 ## 1. Project Make-up
 
 The first main impact is how you layout or manage your multi-project solution (The MVVM cross presentations above do a much better job of explaining this, but here goes)
+
 
 #### The Project Portfolio
 
@@ -85,11 +92,13 @@ Depending on whether you Link the core files for your project or just copy them,
 
 Portable libraries ease this somewhat with their central nature.
 
+
 #### The Portable Portfolio
 
 [![image](/assets/img/wordpress/2013/02/image11.png "image")](/assets/img/wordpress/2013/02/image11.png)
 
 The portable allows a single project to be associated to many others so long as you have the project targets loaded in the portable libraries (for more info on that read up on portable libraries!!)
+
 
 ## 2. The single source of truth
 
@@ -107,6 +116,7 @@ Like I also said it wo not solve ALL you problems, so watch a few of the videos 
 
 * * *
 
+
 # Lightning pure and simple
 
 So after cleaning everything up and now using a portable library for the core of the code from the previous demo’s I am left with the following:
@@ -115,15 +125,19 @@ So after cleaning everything up and now using a portable library for the core of
 
 At present I have left the original drawing code as my initial portable experiments were only meant to enable basic features but I seem to have managed in a fairly short period of time to enable most features of the framework in a portable library, so at this point I could move just about all the demo code in to the portable library, therefore I only need a shim in each platform project to run it (plus an additional platform features I want to take advantage of like sharing / NFC / etc)
 
+
 ### Source for the series can be found [here on codeplex](http://lightningdemo.codeplex.com/) as well as the code drop for [this stage here](http://lightningdemo.codeplex.com/releases/view/101998)
+
 
 ### **\*update – Access the GitHub repo of [MonoGame.Portable here](https://github.com/DDReaper/MonoGame/tree/develop.portable "MonoGame.Portable on GitHub")**
 
 * * *
 
+
 # Breaking the mold
 
 Right, I am taking a little break from MonoGame for a little while now and returning to SunBurn.  Why you may ask, to which the obvious answer should be:
+
 
 ### “There is something VERY interesting to see over there”
 
@@ -131,7 +145,7 @@ Will report back later and show you just how electrifying SunBurn can be (Sheesh
 
 P.S. I am knackered after spending a week Portablising MonoGame, lol
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/?p=2084&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/?p=2084) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/?p=2084)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/?p=2084)<script type="text/javascript">// <![CDATA[
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/?p=2084) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/?p=2084)<script type="text/javascript">// <![CDATA[
 var dzone_url = 'http://darkgenesis.zenithmoon.com/?p=2084';
 // ]]></script>  
 <script type="text/javascript">// <![CDATA[
@@ -145,4 +159,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)
+// ]]></script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

@@ -5,7 +5,7 @@ date: 2012-06-30 23:31:34
 tags: [events]
 ---
 
-[![](http://blogs.msdn.com/cfs-file.ashx/__key/CommunityServer-Blogs-Components-WeblogFiles/00-00-01-39-66-metablogapi/2816.clip_5F00_image001_5F00_1B38CF4D.jpg)](http://blogs.msdn.com/b/ukmsdn/archive/2011/02/24/wanna-get-creative-on-24-march)
+[![](assets/img/posts/image-not-found.png)](http://blogs.msdn.com/b/ukmsdn/archive/2011/02/24/wanna-get-creative-on-24-march)
 
 Following up from the UK Techdays (#uktechdays) online conference we presented at, the full conference is now available online for re-viewing, in case you missed them on the day.
 
@@ -233,9 +233,10 @@ As you can see there was lots to see on the day.  As a “tip of the cap” I ha
 
 Be warned watching the XNA track, you better have your seatbelt fastened as we had a LOT of fun doing it!
 
-Although I must admit I need to go and watch Laurent’s session on MVVM now for my latest project! ![Winking smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7851.wlEmoticon_2D00_winkingsmile_5F00_4A1B2860.png)
+Although I must admit I need to go and watch Laurent’s session on MVVM now for my latest project! ![Winking smile](assets/img/posts/image-not-found.png)
 
 * * *
+
 
 # Double Tap
 
@@ -246,6 +247,7 @@ Also do not forget to check out Mike’s and Pauls Summary posts on the two trac
 [http://wotudo.net/blogs/wotudo/archive/2011/03/30/windows-phone-7online-conference-xna-track](http://wotudo.net/blogs/wotudo/archive/2011/03/30/windows-phone-7online-conference-xna-track) – Paul Foster
 
 * * *
+
 
 # Run of the Mill – run for your life
 

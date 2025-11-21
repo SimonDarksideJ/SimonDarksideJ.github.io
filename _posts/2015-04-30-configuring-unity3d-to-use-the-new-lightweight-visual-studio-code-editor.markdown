@@ -5,7 +5,7 @@ date: 2015-04-30 17:30:14
 tags: [unity3d, vscode]
 ---
 
-![width=](http://blogs.msdn.com/resized-image.ashx/ __size/250x0/__ key/communityserver-blogs-components-weblogfiles/00-00-01-48-94/0116.VS-Code.png)
+![width=](assets/img/posts/image-not-found.png)
 
 > **Note, this article has now been superseded with a new version for the VSCode 0.8.0 release and the new Unity Asset plugin  
 > http://darkgenesis.zenithmoon.com/vscode-and-unity-take-another-bold-step-forward/**
@@ -29,6 +29,7 @@ Now, the primary target for this editor at the moment is web editing, mainly ASP
 > Done
 
 * * *
+
 
 # Can we use it with Unity?
 
@@ -55,6 +56,7 @@ In short YES, setting it up is quite simple and just requires you to replace you
 Granted this is only the story today, tomorrow may be different, or future releases.  It’ll be better once they open up the editor and allow for more and community extensions.
 
 * * *
+
 
 # Get it configured
 
@@ -100,6 +102,7 @@ With the new **-g** command, it will also jump to the line in question from the 
 Have a play and if you don’t like it you can always go back to the External Tools widow and change your selection back 😀
 
 * * *
+
 
 # Getting Intellisense working
 
@@ -150,6 +153,7 @@ Hopefully this will improve as time goes on.
 
 * * *
 
+
 # MWoarr OSX fun
 
 [Further instructions from a Reddit](http://www.reddit.com/r/unity_tutorials/comments/34fbes/configuring_the_new_lightweight_multiplatform/cqvgq84) user called [MassiveBacon](http://www.reddit.com/user/massivebacon)(love the tagname)
@@ -170,6 +174,7 @@ Note: Did this all without ever directly installing OmniSharp. It comes with Cod
 Have fun!
 
 Feel free to comment below with the alternate instructions for MAC, I’m not a MAC user so can’t help there.
+
 
 #### **Mac version found: [http://unreferencedinstance.com/how-to-integrate-visual-studio-code-with-unity3d-project/](http://unreferencedinstance.com/how-to-integrate-visual-studio-code-with-unity3d-project/)**
 

@@ -11,11 +11,14 @@ For now lets get on with it so we can bet more fun stuff done.
 
 [Code as usual on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/50562).
 
+
 #### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
+
 
 ## Behaviour 
 
 A behaviour is a set of functions, defined by the user, which describes how a game and its objects should behave and act. You can define a behaviour to the game and to some of its objects, like sprites and texts. The functions assigned in a game object behaviour (the game object is an instance of a class derived from the Game class) are executed successively.
+
 
 ## Game Objects Behaviour
 
@@ -23,31 +26,33 @@ In StarTrooper, the game behaviour is divided into several objects that make the
 
 The behaviour of the “Trooper” object is a combination of several kinds of behaviour:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif)Movement Behaviour (already seen)   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) Shooting (already seen)
+> ![](assets/img/posts/image-not-found.png)Movement Behaviour (already seen)   
+> ![](assets/img/posts/image-not-found.png) Shooting (already seen)
 
 The behaviour of the “Condor” object depends on the collision detection. If it collides with “Fire,” which means that “Fire” hits it, it will explode and die with a consequent score increment. If it is hit by the “Trooper”, which means that condor wins, “Condor” will die and the score will decrement. Therefore, we have:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) “Condor” Behaviour
+> ![](assets/img/posts/image-not-found.png) “Condor” Behaviour
 
 The behaviour of the “Fire” object is simple. It will die if it is hit by “Condor,” otherwise it will continue. Therefore, we have:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) “Fire” Behaviour
+> ![](assets/img/posts/image-not-found.png) “Fire” Behaviour
+
 
 
 ## Collisions
 
 In any game the most basic behaviour is one of collision, as described above, if two object touch what is supposed to happen, should it:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) Just pass over it   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) Attach on to the body of what it has touched (like in the fabulous game Nebulon where passing spheres joined to make much more evil baddies)   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) Disappear   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) Cause that which it has touched to blow up in to a fantastic ball of flame and smoke.   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) Cause the player to move around it because it is an immovable object
+> ![](assets/img/posts/image-not-found.png) Just pass over it   
+> ![](assets/img/posts/image-not-found.png) Attach on to the body of what it has touched (like in the fabulous game Nebulon where passing spheres joined to make much more evil baddies)   
+> ![](assets/img/posts/image-not-found.png) Disappear   
+> ![](assets/img/posts/image-not-found.png) Cause that which it has touched to blow up in to a fantastic ball of flame and smoke.   
+> ![](assets/img/posts/image-not-found.png) Cause the player to move around it because it is an immovable object
 
 So like with most things collisions are about cause and effect, the cause of two items touching and the behaviour effect by the game to do something once it has happened.
 
 It is also keep to remember that collisions do not just include two visible sprites or models touching. Collisions can also be used to trigger events such as causing a trap to fire or for the effect of gravity to increase because the object is closer to a planet. Something to consider.
+
 
 
 ## Game Implementation: Collision System
@@ -154,6 +159,7 @@ Last thing we need is an extra little helper function, so far we have just been 
 
 All this does is take a sprite and add it to the Deleted list, in the next update this will then remove the sprite from the updating list and thus it shall be gone. You may as why could not we just remove it from the main list i none go, the answer to this is simple, unless it is a fixed size array, we cannot take items out of a list while it is being processed (and when a sprite is due to be removed, you are in the middle of an update). So we simply add it to another worker list and remove it after it is finished being updated.
                                 
+
 ## Game Implementation: Blowing up the Condor
                                 
                                 
@@ -260,6 +266,7 @@ Next so long as the Condor is still active (the animation is still playing), we 
 
 If however the Condor has succeeded in reaching the Trooper, we decrease the players score, halt it is animation in it’s tracks and leave the Condor’s fate to our other function. Bear in mind at this time, the Trooper still lives as we have not added behaviour to actually affect the Trooper (more on that in another post later).
 
+
 ## Game Implementation: “Fire” Behaviour
 
 Well all and good for the poor old Condor, but what about our fireballs. You may not have noticed, they do not die, they keep on going and going forever. Reason being that we keep updating the fireball and unless it hits a Condor and gets destroyed by it, it will never end.
@@ -289,15 +296,16 @@ So we will update the update section for the Fireball sprite (bear in mind this 
 
 Where simply, when the Fireball has gone far enough off the screen, we just destroy it.
 
+
 ## Conclusion
 
 And so we reach the end, that is all DigiPen had to offer at the time. Like any good tutorial sample, they left you with so many ideas and things to try:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) What about lives for the Trooper?   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) How do we kill our troublesome Trooper?   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) One Enemy, that is a bit boring, I want more   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) Why do not the Condor’s shoot back?   
-> ![](http://www.dotnetscraps.com/samples/bullets/019.gif) What about a better HUD, something to show the player what is going on
+> ![](assets/img/posts/image-not-found.png) What about lives for the Trooper?   
+> ![](assets/img/posts/image-not-found.png) How do we kill our troublesome Trooper?   
+> ![](assets/img/posts/image-not-found.png) One Enemy, that is a bit boring, I want more   
+> ![](assets/img/posts/image-not-found.png) Why do not the Condor’s shoot back?   
+> ![](assets/img/posts/image-not-found.png) What about a better HUD, something to show the player what is going on
 
 And so much more.
 
@@ -307,10 +315,11 @@ Bring it on.
 
 Technorati Tags: [XNA](http://technorati.com/tags/XNA),[wp7dev](http://technorati.com/tags/wp7dev),[Windows Phone development](http://technorati.com/tags/Windows+Phone+development)
 
+
 ## Addendum – a wandering story in the path of madness
 When finalising all the code and packaging it up, I ran into a curious little bug. In the Phone 7 project collisions were happening as expected and all was fine, however the same was not true of the Windows project. In the Windows project the collision rectangles were offset from the actual sprite was on the screen, but here is the weird part, only for the Condor and fire sprite and NOT the trooper, how odd.
 
-| ![Collisions](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6765.Collisions_5F00_5F00_16CBFC67.png) |
+| ![Collisions](assets/img/posts/image-not-found.png) |
 |---|---|
 | Trooper OK, Collision rectangle centred on Sprite | Condor, woah. What on earth is going on here |
 |

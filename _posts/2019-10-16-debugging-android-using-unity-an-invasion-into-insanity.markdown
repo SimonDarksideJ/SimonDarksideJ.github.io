@@ -16,6 +16,7 @@ Since we started supporting Android platforms fully in the [XRTK](https://xrtk.i
 
 Today I’ll share some hints, tips and advice for making the insanity of working with Android in Unity a little clearer.
 
+
 ## Article Contents
 
 1. [Installing Android for Unity](#Section1)
@@ -25,6 +26,7 @@ Today I’ll share some hints, tips and advice for making the insanity of workin
 5. [Getting to know the Android Debugging Tool (ADB)](#Section5)
 6. [Enter Logcat](#Section6)
 7. [Debugging code on your Android from Visual Studio](#Section7)
+
 
 ## 
 
@@ -48,6 +50,7 @@ Once you have opened your Unity Installation (or started installing) you will ha
 <figure class="wp-block-image"><img loading="lazy" width="638" height="472" src="/assets/img/wordpress/2019/10/image-2.png" alt=" class=" wp-image-77331 srcset="/assets/img/wordpress/2019/10/image-2.png 638w, /assets/img/wordpress/2019/10/image-2-300x222.png 300w" sizes="(max-width: 638px) 100vw, 638px"><figcaption>Figure 3: Selecting the Android module and dependencies</figcaption></figure>
 
 Now you have Android setup against your Unity installation, so is it time to party yet? I wish that was the end of the story but let us move on.
+
 
 ## 
 
@@ -80,11 +83,13 @@ Like the SDK, you can use the version included with Unity or install the version
 
 So long as Unity doesn’t complain and each of the relevant tools and paths are configured correctly, you should be good to go.
 
+
 ### If it doesn’t go right?
 
 It is Unity after all, and if the recommended Unity defaults don’t work (I have had it happen twice on new builds) then simply switch to the Google or Microsoft versions.   
 If you’re using Google or Microsoft and it stops working after an upgrade, check you have the correct version of the SDK/NDK installed that Unity is complaining about, likely you’ll need to upgrade. If that fails, fall back to using the Unity default versions.   
 It’s a pain, but then again, It is Android.
+
 
 ## 
 
@@ -102,6 +107,7 @@ Simply put, if Unity cannot find your device to build to it, it is almost always
 - Device is not enabled for Developer mode (see vendor for instructions)
 - The device is locked or is not powered on (also include forgetting to plug the device in your dev pc)
 - The ADB bridge is frozen on your development PC, so reboot!
+
 
 ## 
 
@@ -127,6 +133,7 @@ Don’t worry, no one checks this except the store you are publishing to.
 
 Tinker and play with the rest, but it should not affect development much (except permissions). You will have to review this as you go to publish, but that is tomorrows problem :D.
 
+
 ## 
 
 5. Using the Android ADB tool
@@ -135,6 +142,7 @@ Tinker and play with the rest, but it should not affect development much (except
 
 Once you can actually produce a Unity build and deploy to a device, it is time to get acquainted with the base Google tool(s) used to manage your device.  
 You can read/watch many tutorials, but the only tool (outside of Unity) that you will need to use is the Google **ADB** tool and in that, only 2 commands at most really.
+
 
 ### – Setup a path to the ADB tool
 
@@ -148,6 +156,7 @@ First, you’ll need to set up a **PATH** on your PC to enable you to use the AD
 “(wherever you installed google tools)\Platform-Tools”
 
 I also recommend setting up a Command-Line (CMD) shortcut on your desktop that “_Starts in_” the above folder, to also give you quick access to the tool.
+
 
 ### – using the ADB tool
 
@@ -165,6 +174,7 @@ To learn more about the ADB tool, use the following command to see everything it
 > adb /?
 
 But in all honesty, the only two I use are the Install and Uninstall commands.
+
 
 ## 
 
@@ -187,6 +197,7 @@ And that’s it. Once installed, every time you now run an Android build from Un
 <figure class="wp-block-image"><img loading="lazy" width="1426" height="789" src="/assets/img/wordpress/2019/10/image-6.png?fit=660%2C365&amp;ssl=1" alt=" class=" wp-image-77443 srcset="/assets/img/wordpress/2019/10/image-6.png 1426w, /assets/img/wordpress/2019/10/image-6-300x166.png 300w, /assets/img/wordpress/2019/10/image-6-768x425.png 768w, /assets/img/wordpress/2019/10/image-6-1024x567.png 1024w, /assets/img/wordpress/2019/10/image-6-700x387.png 700w" sizes="(max-width: 1426px) 100vw, 1426px"><figcaption> Figure 8: LogCat window output example</figcaption></figure>
 
 This shows a nice graphically formatted view of the raw logcat data with Yellow text for warnings (albeit hard to read) and nice Red for errors. You can also filter the data by process, e.g. Unity, Android or your project itself.
+
 
 ## 
 
@@ -219,6 +230,7 @@ If you need to attach Visual Studio while your project is starting up, you have 
 1. Select the “ **Wait for managed debugger** ” option in the Build Settings window. Although in my experience, this almost never works.  
 2. **BE QUICK** , Use the “Attach Unity Debugger” menu item in Visual Studio to bring up the Unity instance selection window. When the Instance for your project shows up, open it straight away.  
 This will take some practice in the timing, as you can attach too soon and it will miss the hook when the Unity project starts on the device, I usually give it between 0.5 seconds and 1 second from when it appears, but this will vary depending on the speed of the device. Be patient, it will work (provided you remembered to also set a breakpoint on start, else you’ll need to try again 😀 )
+
 
 ## In conclusion
 

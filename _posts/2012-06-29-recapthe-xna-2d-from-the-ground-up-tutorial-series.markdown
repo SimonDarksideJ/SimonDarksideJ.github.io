@@ -5,13 +5,14 @@ date: 2012-06-29 22:47:03
 tags: [2d tutorial, game development, xna]
 ---
 
-![](http://static.howstuffworks.com/gif/telescope-sam-1.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Some time ago when I first started posting on XNA-UK (not my first posts ever, just when I joined XNA-UK), I focused on a very detailed 2D game development series.
 
 It started with an original 2D tutorial series that was based on C# and DirectX run by the DigiPen institute (A game development collage in the US).  What was good about this series is that it was one of the ones that got me started in game development, then XNA came along and I went in that direction instead.
 
 However the tutorial was well written and a good start for any budding game developer, so some years on harnessing my knowledge of XNA I updated it and added some of my own magic (as you can see from some of the intermissions).  When Windows Phone 7 came along I then also made it multiplatform enabling the same tutorial series to be applied to WP7.
+
 
 #### Source updated for Final project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496)
 

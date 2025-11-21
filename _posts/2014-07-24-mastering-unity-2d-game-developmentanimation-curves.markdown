@@ -11,9 +11,11 @@ The sample project and code for this snippet can be found here: – [AnimationCu
 
 > Edit – seems only 5 minutes since I posted this article and already we fine other useful frameworks to assist with using AnimationCurves on their own.  This [handy little project](https://github.com/JoshuaGlazer/AnimationCurveTools "Animation Curves editor extensions") enables some interesting Editor enhancements to allow copying, pasting and even the extraction of animation steps from a curve.  Here’s [a nice article](http://www.joshuaglazer.com/blog/copy-and-paste-unity-animation-curves-extract-animation-curve-from-animation/ "Article on the Animation Curve extensions") that explains it all, fantastic effort!
 
+
 ### [Mastering Unity 2D Game Development](https://www.packtpub.com/mastering-unity/book)
 
-[![Mastering Unity 2D Game development](https://images-na.ssl-images-amazon.com/images/I/51iAHMURoPL._SX404_BO1,204,203,200_.jpg)](https://www.amazon.co.uk/gp/product/1849697345/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1849697345&linkCode=as2&tag=zenistud-21&linkId=3c469276675c4d3a8de510a7a7b53421)
+[![Mastering Unity 2D Game development](assets/img/posts/image-not-found.png)](https://www.amazon.co.uk/gp/product/1849697345/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1849697345&linkCode=as2&tag=zenistud-21&linkId=3c469276675c4d3a8de510a7a7b53421)
+
 
 # About the book
 
@@ -38,9 +40,11 @@ As with everything I do, if there is more you want to know on any subject within
 
 * * *
 
+
 # Enough about the book – Where is my snippet
 
 Right, the first snippet from the book is about:
+
 
 ### Animation Curves
 
@@ -69,6 +73,7 @@ There are many places a tweening system (like LeanTween, HoTween and iTween on t
 
 So, how would you implement this? Actually, very, very easily.
 
+
 ### The script / editor property
 
 We start with a property in which ever script you need to access curves from, first create a new script, say called **AnimationPath** and replace its contents with the following:
@@ -77,11 +82,13 @@ We start with a property in which ever script you need to access curves from, fi
 
 This gives us a base framework for our curve and some properties to control where an object starts and where it will end up plus a timer.
 
+
 ### Curve Property Inspector
 
 If you now save this, and in Unity create a new scene, add a GameObject like a sphere and add this script to it, you will see the following in the editor inspector:
 
 [![image](/assets/img/wordpress/2014/07/image4.png "image")](/assets/img/wordpress/2014/07/image4.png)
+
 
 ### The Curve Editor
 
@@ -98,6 +105,7 @@ From here you can do most of the tasks that you can do in the Animation Dope she
 [![image](/assets/img/wordpress/2014/07/image12.png "image")](/assets/img/wordpress/2014/07/image12.png)
 
 Lots of options to choose from but enough about the curve itself, we want to actually use this to do something. Returning to our script, let’s enable the behaviour that when the user clicks or taps on the screen it moves the object it is attached to, but doing so according to how we have configured our curve, slow, fast, or in a weird and wobbly motion.
+
 
 ### Back to the Script
 
@@ -129,6 +137,7 @@ Where we use the Evaluate function of our configured curve to denote the amount 
 [![AnimationCurves](/assets/img/wordpress/2014/07/AnimationCurves.gif "AnimationCurves")](/assets/img/wordpress/2014/07/AnimationCurves.gif)
 
 So as you can see, depending on how far the sphere has to travel, the power curve quick to begin and slow to stop but steady in-between.  By just altering the curve we can alter the behaviour without changing any code.
+
 
 ## Extra Credit
 
@@ -163,6 +172,7 @@ Doesn’t have to be smooth, you could end up with something like this:
 And goodness knows what that could do with that  ![Open-mouthed smile](/assets/img/wordpress/2014/07/wlEmoticon-openmouthedsmile1.png)
 
 * * *
+
 
 # We hope you enjoyed the show
 

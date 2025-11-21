@@ -176,7 +176,6 @@ And VSCode also makes it super easy by showing the path as you type:
 > 
 > Simply check the link is correct before publishing.  
 
-
 > Always check the preview using the "Open Preview to the Side" button in the upper-right-hand corner of the screen to check that your images show.
 
 You should note that the path is only "relative" to where your articles are and you DO NOT need to put the full URL to the content.  GitHub will compile and fix the links when it publishes your page to the web.
@@ -193,11 +192,11 @@ For example:
 
 This markdown:
 
->  ``` ![Am I doing this right?](https://c.tenor.com/pDrSdm_CKK0AAAAC/am-i-doing-it-right-chris-cantada.gif) ```
+>  ``` ![Am I doing this right?](assets/img/posts/image-not-found.png) ```
 
 Would show the below image:
 
-![Am I doing this right?](https://c.tenor.com/pDrSdm_CKK0AAAAC/am-i-doing-it-right-chris-cantada.gif)
+![Am I doing this right?](assets/img/posts/image-not-found.png)
 
 ## Linking to other posts
 
@@ -288,4 +287,4 @@ No PC (other than my browser) was used in its creation.
 
 I leave you now to get on with writing your own content while I get on with the next article which is a little more advanced and WILL involve getting your PC dirty.
 
-![Clint Eastward Nodding with headphones from the Magnificent Seven](https://gifimage.net/wp-content/uploads/2017/11/good-bad-ugly-gif-3.gif)
+![Clint Eastward Nodding with headphones from the Magnificent Seven](assets/img/posts/image-not-found.png)

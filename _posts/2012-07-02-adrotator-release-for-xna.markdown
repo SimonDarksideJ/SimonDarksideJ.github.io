@@ -7,9 +7,12 @@ tags: [monetisation, xna, adrotator]
 
 For once I’m going with a simple yet boring title for this blog post (since I’m known for naming things in a weird and wacky way ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile11.png)) simply because the content will speak for itself
 
+
 ### <font color="#ff0000">A Note – This control is designed for XNA on Windows Phone and will later be released for Desktop, Web ADS are NOT available on XBOX as there is no Internet connectivity.  </font>
 
+
 ### <font color="#ff0000">We may release a future version that allows multiple House Ads later on for XBOX.</font>
+
 
 ### 
 
@@ -19,23 +22,23 @@ But now back to the main show
 
 With Silverlight done I decided to tackle XNA which historically has had very bad support for Ads, only a few providers specifically support it, with AdRotator for XNA i’ve spun some magic and we currently have 4 Providers supported for now (hope to add more in the future):
 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)    Microsoft Pubcenter (XNA component from Microsoft)
+> #### ![](assets/img/posts/image-not-found.png)    Microsoft Pubcenter (XNA component from Microsoft)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)    AdDuplex (XNA library from AdDuplex)
+> #### ![](assets/img/posts/image-not-found.png)    AdDuplex (XNA library from AdDuplex)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)    Inneractive (Via web Ads)
+> #### ![](assets/img/posts/image-not-found.png)    Inneractive (Via web Ads)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/011.gif)    MobFox (Via their web API)
+> #### ![](assets/img/posts/image-not-found.png)    MobFox (Via their web API)
 
 All of the above provided their own challenges and quirks and challenges but I got there in the end.
 
 Also some of the improvements I made during the development of the XNA version have also made their way back into the Silverlight project, such as:
 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/036.gif)   <u>Default Ad Support</u> 
+> #### ![](assets/img/posts/image-not-found.png)   <u>Default Ad Support</u> 
 > 
 > You can now create your own Ad to run locally in your app/game, especially good if there is no network connectivity and you want to still display something (older versions just disabled the Ads)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/036.gif)    <u>ADID and PublisherID configuration now possible through the configuration XML</u>
+> #### ![](assets/img/posts/image-not-found.png)    <u>ADID and PublisherID configuration now possible through the configuration XML</u>
 > 
 > This loosens the shackles from configuring providers so that they are no longer hard coded in your app/game, also with the XML hosting option you could reconfigure your AD and Provider ID’s on the fly as you wish without having to re-deploy your apps.
 
@@ -46,6 +49,7 @@ As usual the full source for the starter 2D and 3D projects is on the [codeplex 
 So what is involved
 
 * * *
+
 
 # Project preparation
 
@@ -60,6 +64,7 @@ Next as usual add references to the new DLL’s in your Main XNA project and als
 [![image](/assets/img/wordpress/2012/07/image128.png "image")](/assets/img/wordpress/2012/07/image125.png)
 
 * * *
+
 
 # The new Configuration file
 
@@ -105,6 +110,7 @@ So configure or just copy in a configuration file into your project BUT make sur
 You should find a blank xml configuration file in the file you downloaded from Codeplex or in the example project if you are looking at the source.
 
 * * *
+
 
 # Turning on the Ad’s
 
@@ -168,7 +174,7 @@ Here is what I did to implement the XNA [AdRotator](http://wp7adrotator.codeplex
                                                 
                                                 
                                                 
-                                                | ![](http://xna-uk.net/cfs-filesystemfile.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8422.PortraitAd_5F00_06A8101D.png) | [![image](/assets/img/wordpress/2012/07/image132.png "image")](/assets/img/wordpress/2012/07/image129.png) |
+                                                | ![](assets/img/posts/image-not-found.png) | [![image](/assets/img/wordpress/2012/07/image132.png "image")](/assets/img/wordpress/2012/07/image129.png) |
                                                 | 
                                                 
                                                 Portrait

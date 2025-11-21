@@ -17,6 +17,7 @@ The video for this post can be found here if you prefer video:
 
 * * *
 
+
 # Content projects with XNA –\> MonoGame
 
 In the XNA days, to manage content we had a separate project type (The Content Project) which allowed us to store the assets for our project in one place.  It also gave us access to the Content Pipeline, an arguably very powerful framework for managing the importing and consumptions of those assets:
@@ -48,6 +49,7 @@ The only main difference between the two methods is that MonoGame uses a separat
 
 * * *
 
+
 # Getting started with the Content Project / Pipeline tool (MGCB)
 
 As with everything MonoGame (and most open source projects in general) you have the choice for how to use the Content Tool, you can:
@@ -57,6 +59,7 @@ As with everything MonoGame (and most open source projects in general) you have 
 - Forget this content pipeline stuff and do it yourself. (You could also drop MonoGame and write your game in C++, Assembly or JavaScript ![Open-mouthed smile](/assets/img/wordpress/2016/08/wlEmoticon-openmouthedsmile.png))
 
 Whichever path you chose with your MonoGame Content projects, you can manage them in the same way.
+
 
 ## 1: Create a Project
 
@@ -68,6 +71,7 @@ When creating a new project, it is best to:
 
 - Place it in a folder called **Content**. Not mandatory but recommended
 - Create the Content folder relative to or with your Game project, just so you do not lose it. Again up to you
+
 
 ## 2: Add Content
 
@@ -83,6 +87,7 @@ When selecting existing files, you can opt to either copy the files in to the Co
 
  
 
+
 ## 3: Build and test
 
 One of the great features of the MonoGame Content Project tool is that you can build the content in the tool and see the debug output of that process. This helps you identify any content issues early on, especially if you are going down the advanced route and building your own content importers / processors (more on that later)
@@ -90,6 +95,7 @@ One of the great features of the MonoGame Content Project tool is that you can b
 [![BuildContent](/assets/img/wordpress/2016/08/BuildContent.gif "BuildContent")](/assets/img/wordpress/2016/08/BuildContent.gif)
 
  
+
 
 ## 4: Add to your game project
 
@@ -105,6 +111,7 @@ A few tips when adding the content reference manually to your project:
 - The other option to avoid the above is to just start with the Content Project that comes with new MonoGame projects, then there are no issues.
 - Double-clicking on the MGCB Content Project file will open the Content Project tool automatically.
 - After you have added the Content Project reference, **REMEMBER** to change the **Build Action** to a **MonoGameContentReference** , else it wo not build.  Setting the action to this type makes the Build process launch the Content Builder using your content project and actually compiles your assets.
+
 
 ## 5: Load Content and Draw
 
@@ -132,6 +139,7 @@ Will take your content and draw it to the screen. Simples…
 
 * * *
 
+
 # Next Steps
 
 Well, you now have you content, it is nicely packaged and ready for use in your game projects, what could be better?
@@ -148,6 +156,7 @@ Well, I say one, **you can have as many Content Projects as you like** , there i
 
 * * *
 
+
 # Going Advanced
 
 Now I mentioned earlier about creating your own Content Importers and Processors, these are what are known as Content Pipeline Extensions.
@@ -159,6 +168,7 @@ It is a bit much to go in to fully here but Andy Dunn and Tom Spilman recorded a
 In the future I will do a follow up session just to break down the essentials.
 
 * * *
+
 
 # On with the Show
 

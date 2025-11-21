@@ -15,6 +15,7 @@ tags: [2d tutorial, game development, xna]
 
 * * *
 
+
 ### 1. C# 2.0
 
 With the release of _Visual Studio 2005_, the _C#_ language has been updated to version 2.0.
@@ -22,6 +23,7 @@ With the release of _Visual Studio 2005_, the _C#_ language has been updated to 
 **\*Note Were now using VS2010 & .NET 4 / Compact Framework 4 but with Windows 8 Releasing soon we will be up to Visual Studio 2012 and .NET 4.5 plus WinRT**
 
 * * *
+
 
 ### 2. The “System.Diagnostics” Namespace <font color="#0000ff">&lt;- Still useful</font>
 
@@ -34,6 +36,7 @@ event logs, and performance counters. It also provides classes that allow debugg
 The Stopwatch class provides a set of methods and properties that can be used to accurately measure elapsed time.
 
 * * *
+
 
 ### 3. The “System.Drawing” Namespace<font color="#0000ff"> &lt;- Redundant now, but good for reference</font>
 
@@ -61,6 +64,7 @@ The Font class defines a particular format for text, including font face, size, 
 
 * * *
 
+
 ### 4. The “System.Windows.Forms” Namespace <font color="#0000ff">&lt;-Note XNA does not use this natively, we now use a game window</font>
 
 The System.Windows.Forms namespace contains classes used for creating Windows-based applications that take full advantage of the user interface features available in the Microsoft Windows operating system.
@@ -70,6 +74,7 @@ The System.Windows.Forms namespace contains classes used for creating Windows-ba
 The Form class represents a window or dialog box that makes up an application’s user interface.
 
 * * *
+
 
 ### 5. The “System.Collections.Generic” Namespace<font color="#0000ff"> <strong>&lt;- still very useful today!!</strong></font>
 
@@ -82,6 +87,7 @@ These interfaces and classes allow users to create strongly typed collections th
 The List\<T\> class implements the IList\<T\> interface using an array whose size is dynamically increased as required.
 
 * * *
+
 
 ### 6. Generics <font color="#0000ff">&lt;- This important, take note</font>
 
@@ -101,6 +107,7 @@ A generic method is a method that is declared with type parameters. Non-generic 
 
 * * *
 
+
 ### 7. The “Exception” Class <font color="#0000ff">&lt;-Also very important still today</font>
 
 The _Exception_ class represents errors that occur during application execution. This class is the base class for all exceptions. When an error occurs, either the system or the currently executing application reports it by throwing an exception containing information about the error. Once thrown, an exception is handled by the application or by the default exception handler.
@@ -109,11 +116,13 @@ If an application handles exceptions that occur during the execution of a block 
 
 * * *
 
+
 ### 8. DirectX <font color="#0000ff">&lt;- Not so much 😉 – Now we use XNA to abstract from Direct X</font>
 
 DirectX is a set of interfaces for creating games and other high-performance multimedia applications. It supports two-dimensional (2-D) and three-dimensional (3-D) graphics, sound effects and music, input devices, and networked applications.
 
 * * *
+
 
 ### 9. Direct3D <font color="#0000ff">&lt;- Pinch of salt, covered more/better later</font>
 
@@ -149,6 +158,7 @@ The Font class encapsulates the textures and resources needed to render a specif
 
 * * *
 
+
 ### 10. DirectInput<font color="#0000ff"> &lt;- Same as Direct 3D, more later</font>
 
 DirectInput is used to process data from a keyboard, mouse, joystick, or other game controller.
@@ -162,6 +172,7 @@ The Device class is used to gain and release access to DirectInput devices, mana
 The Key enumeration includes all the available keyboard keys.
 
 * * *
+
 
 ### 11. DirectSound<font color="#0000ff"> &lt;- Same as Direct 3D, more later</font>
 
@@ -177,6 +188,7 @@ The SecondaryBuffer class contains methods and properties that are used to manag
 
 * * *
 
+
 ### 12. DirectX.AudioVideoPlayback <font color="#0000ff">&lt;- same idea different implementation, more later (this caused some problems in the early day of XNA, loosing this!!)</font>
 
 The AudioVideoPlayback interface provides for basic playback and simple control of audio and video files.
@@ -187,11 +199,13 @@ The Audio class is primarily designed for very simple playback scenarios, or for
 
 * * *
 
+
 ### 13. The “Vector2” Class <font color="#0000ff">&lt;-Pretty much the same today, just improved</font>
 
 The Vector2 class describes and manipulates a vector in two-dimensional space.
 
 * * *
+
 
 ### 14. The “Matrix” Class <font color="#0000ff">&lt;-Pretty much the same today, just improved</font>
 

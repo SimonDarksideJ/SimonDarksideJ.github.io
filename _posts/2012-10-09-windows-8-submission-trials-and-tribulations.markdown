@@ -11,6 +11,7 @@ Boy what a crazy couple of months, to kick things off I got my first Windows 8 g
 
 * * *
 
+
 # The Current Store Experience
 
 If you are thinking of publishing an App to the Windows Store, first and foremost you should familiarise yourself with the following policy document:
@@ -28,6 +29,7 @@ Hopefully you will get enough info behind your failure (although there have been
 At the end of the day, the testers are following the policy guidelines to the letter, only real issue is it is their interpretation of the policy.
 
 * * *
+
 
 # The Dreaded 1.2 failure
 
@@ -49,6 +51,7 @@ The best advice I have is get your app checked with your local Win 8 evangelist 
 
 * * *
 
+
 # Certification 2 failures
 
 This cert almost makes me laugh:
@@ -67,6 +70,7 @@ There are also limits to what you can advertise, in point 3 above you can link t
 
 * * *
 
+
 # Certification 3 failures
 
 Certification 3 failures are sometimes reported at the same time as Cert 1.2 failures, it is described as:
@@ -80,6 +84,7 @@ Hopefully you should not get this unless you app becomes unresponsive with slow 
 **My Advice** , Just keep building up and if you do change a feature, put something in the tester notes to justify the change (since we do not have a technical notes section really)
 
 * * *
+
 
 # Certification 4 failures
 
@@ -111,6 +116,7 @@ The other points around Certification 4 really mean the same thing, use MS servi
 
 * * *
 
+
 # Improvements and communication
 
 What I would like to see improve (hopefully before launch, but better yesterday) would be the following:
@@ -124,6 +130,7 @@ As it stands the web portal used for the Windows Store is far superior in most a
 
 * * *
 
+
 # Collaborate, do not point fingers
 
 We are still in an evolving platform (at the time of writing) and things definitely need to improve but do not just name and shame.  If you have criticisms then back them up with effective and real alternatives or ways to improve.
@@ -136,6 +143,7 @@ Keep this in mind when you are flaming your certification failures!
 
 * * *
 
+
 # Conclusion
 
 I’m still optimistic about the future of the Windows Store, we will certainly see more things learned from both the Phone Marketplace and Windows Store start to change (not necessarily all for the better!) there is even an indication that the two stores will merge (unconfirmed).
@@ -143,6 +151,7 @@ I’m still optimistic about the future of the Windows Store, we will certainly 
 I would like to see more constructive criticism going forward, things have been fairly closed of late but as past experience has shown MS are reactive to comments overall.
 
 * * *
+
 
 # Last Tips
 

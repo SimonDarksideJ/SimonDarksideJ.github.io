@@ -13,6 +13,7 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 
 * * *
 
+
 ### 1 World Dimension
 
 > ### 1.1 What Is a World?
@@ -29,11 +30,13 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 
 * * *
 
+
 ### 2 Viewport
 
 > A world rectangular coordinate selected for display is called a window. (Note: This is not the Operating System Window.) The window defines what is viewed, whereas the viewport defines where it is to be displayed. A viewport is a rectangular area of the display window. By default, it is the entire window (client area of the operating system’s window) application. It can be set to any smaller size in pixels.
 > 
 > in XNA viewports can be the entire screen or just a portion, for now the viewport should be considered as the working space in the screen.  Care also has to be taken (especially when deploying to XBOX’s) to scale the viewport down to the safe viewing area of the screen, as some monitors and TV’s do not display correctly around the edges, to cope with this we scale the screen down for viewing to what is referred to as the “TileSafeViewing” area.  A sample exists on the CC site to show this but I’ll also implement and describe it here.
+
 
 ### 3 Bitmap
 
@@ -46,6 +49,7 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 > Monitors work with red, green, and blue signals. Every coloured pixel contains a value of red, green, and blue within it. The intensity of every basic colour creates a colour. In other words, colours are displayed as varying intensities of red, green, and blue dots.
 
 * * *
+
 
 ### 4 Sprite
 
@@ -92,6 +96,7 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 
 * * *
 
+
 ### 5 Background
 
 > ### 5.1 What Is a Background?
@@ -105,6 +110,7 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 > The background should be positioned within the world. The background’s position is situated relatively to the world rectangle, not relatively to the viewport.
 
 * * *
+
 
 ### 6 Animations
 
@@ -121,6 +127,7 @@ I have already uploaded the content and the XNA project for [lesson 4 to codeple
 > - Remain at the last frame.
 
 * * *
+
 
 ### 7 Frames
 
@@ -155,6 +162,7 @@ Without Transparency colour
 
 * * *
 
+
 ### 8 ZOrder
 
 > To understand ZOrder, we have to simulate a 3D coordinates axis. Look at the diagram below and take note of the x-, y-, and z-axes. The z-axis specifies the depth axis, and the greater the value of the ZOrder, the “deeper” the object is to the screen. For example, the picture with the character has a lower ZOrder (1) while the picture with the ball has a higher ZOrder (2). Therefore, the ball appears to be behind the character. Because it is a 2D application, the ZOrder only affects the displacement order of pictures, without affecting their size. All the game objects are affected by the ZOrder.
@@ -164,6 +172,7 @@ Without Transparency colour
 [![image](/assets/img/wordpress/2012/07/image19.png "image")](/assets/img/wordpress/2012/07/image19.png)
 
 * * *
+
 
 ## The DigiPen Engine Classes
 
@@ -218,6 +227,7 @@ Without Transparency colour
 You can look at all these classes in the [Test Project on codeplex](http://startrooper2dxna.codeplex.com/releases/view/44143 "Lesson four content"), as stated a few times above, I’ll delve into each of them as they are consumed.
 
 * * *
+
 
 ## The Engine Update for XNA
 

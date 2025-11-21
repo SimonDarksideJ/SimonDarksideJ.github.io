@@ -5,7 +5,7 @@ date: 2012-07-01 23:09:06
 tags: [silverlight, xna]
 ---
 
-![width=](http://media.digikey.com/photos/Winbond/256-20-DIP.jpg)
+![width=](assets/img/posts/image-not-found.png)
 
 Now one thing that was not in the original game (unless you count the player / enemy animations which to face it are part of the gam anyway) was any kind of animation to the UI experience, namely in this case the Overlay’s we just put back in. They are a bit flat and just show on the screen, now in XNA to do any sort of screen transformation / animation or effect generally speaking does take a lot of effort because you have to build your own animation system to do what you need where as in Silverlight there is already a fairly powerful one right at your fingertips.
 
@@ -19,19 +19,21 @@ As usual full source for this chapter can be found [here on Codeplex](http://sil
 
 Follow along with the series here:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation") (here)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
+> ![align=](assets/img/posts/image-not-found.png) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation") (here)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
 
  
+
 
 #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
+
 
 ## About Animation and MVVM
 
@@ -41,14 +43,15 @@ Pragmatism though teaches us that there must be a middle ground here, yes Animat
 
 Judge for yourself in the articles below (P.S. Jeremy Likeness makes a very compelling argument):
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)    [Silverlight.Net forum article discussion on MVVM and Storyboards](http://forums.silverlight.net/p/159579/357852)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)    [DarksideCookie (no relation) view on MVVMs role in animation](http://chris.59north.com/post/mvvm-and-animations)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)    [C# Disiples approach to MVVM animations](http://marlongrech.wordpress.com/2009/06/13/animations-and-mvvm/)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/023.gif)    [Stackoverflow question and answer to MVVM animations](http://stackoverflow.com/questions/1649828/wpf-mvvm-property-change-animation)
+> ![align=](assets/img/posts/image-not-found.png)    [Silverlight.Net forum article discussion on MVVM and Storyboards](http://forums.silverlight.net/p/159579/357852)  
+> ![align=](assets/img/posts/image-not-found.png)    [DarksideCookie (no relation) view on MVVMs role in animation](http://chris.59north.com/post/mvvm-and-animations)  
+> ![align=](assets/img/posts/image-not-found.png)    [C# Disiples approach to MVVM animations](http://marlongrech.wordpress.com/2009/06/13/animations-and-mvvm/)  
+> ![align=](assets/img/posts/image-not-found.png)    [Stackoverflow question and answer to MVVM animations](http://stackoverflow.com/questions/1649828/wpf-mvvm-property-change-animation)
 
 As you can see there is always more than one answer to any issue, for the example here we are going to use a Dependency Property with binding to control our visual states (best approach I’ve come across) and I will show you event binding (the simple way) with storyboards.
 
 * * *
+
 
 ## Setup page Visual States
 
@@ -119,6 +122,7 @@ Now when you click on each of the visual states you will see a nice animation fo
 Now save all you changes and let us switch back to visual studio to get our code changes in.
 
 * * *
+
 
 ## Define Visual State Binding
 

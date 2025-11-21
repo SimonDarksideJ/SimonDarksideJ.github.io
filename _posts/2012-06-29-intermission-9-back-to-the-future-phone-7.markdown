@@ -15,6 +15,7 @@ Hope you are not getting to dizzy now going back and forth from XNA GS 3.1 and G
 
  
 
+
 ### Game save settings
 
 Granted we do not have many settings to actually maintain on the phone at present, but we could have (like resolution, game speed, difficulty and such) and in the interest of at least attempting to make the GS 4.0 code ready for running everything we will add it in.
@@ -211,9 +212,9 @@ So first we need to add compiler pre-directives around our existing code first, 
             
             
             
-            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Instead of Storage Container we use Isolated Storage, the major advantage of this is that we do not need to use the guide to get the user to choose a container, it is all built in.   
-            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    How we access files is slightly different, we still use streams but as with the isolated storage, it is a lot simpler and easier to use.   
-            > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    No change in the serialisation, except that we now need to manually add a reference to the Serialisation DLL
+            > ![](assets/img/posts/image-not-found.png)    Instead of Storage Container we use Isolated Storage, the major advantage of this is that we do not need to use the guide to get the user to choose a container, it is all built in.   
+            > ![](assets/img/posts/image-not-found.png)    How we access files is slightly different, we still use streams but as with the isolated storage, it is a lot simpler and easier to use.   
+            > ![](assets/img/posts/image-not-found.png)    No change in the serialisation, except that we now need to manually add a reference to the Serialisation DLL
             
             
             
@@ -353,9 +354,9 @@ So first we need to add compiler pre-directives around our existing code first, 
                                     
                                     
                                     
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Updating the namespace of all the classes   
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Updating the type SpriteBlendMode in the ParticleEmitter class from SpriteBlendMode to BlendState (standard XNA 4.0 change) and the settings in each emitter to the BlendState equivalent.   
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Updating the SpriteBatch.begin call in the particle manager draw call to “spriteBatch.Begin(SpriteSortMode.Texture, pe.SpriteBlendMode)
+                                    > ![](assets/img/posts/image-not-found.png)    Updating the namespace of all the classes   
+                                    > ![](assets/img/posts/image-not-found.png)    Updating the type SpriteBlendMode in the ParticleEmitter class from SpriteBlendMode to BlendState (standard XNA 4.0 change) and the settings in each emitter to the BlendState equivalent.   
+                                    > ![](assets/img/posts/image-not-found.png)    Updating the SpriteBatch.begin call in the particle manager draw call to “spriteBatch.Begin(SpriteSortMode.Texture, pe.SpriteBlendMode)
                                     
                                     
                                     
@@ -901,10 +902,10 @@ So first we need to add compiler pre-directives around our existing code first, 
                                                                                         
                                                                                         
                                                                                         
-                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Any Keyboard state attributes or updates   
-                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    The private functions for testing keys   
-                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    shortened the Player controls to remove the IsPressed function (just removed)   
-                                                                                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Removed the TrooperFired function alltogether since we are currently using the touchscreen to fire   
+                                                                                        > ![](assets/img/posts/image-not-found.png)    Any Keyboard state attributes or updates   
+                                                                                        > ![](assets/img/posts/image-not-found.png)    The private functions for testing keys   
+                                                                                        > ![](assets/img/posts/image-not-found.png)    shortened the Player controls to remove the IsPressed function (just removed)   
+                                                                                        > ![](assets/img/posts/image-not-found.png)    Removed the TrooperFired function alltogether since we are currently using the touchscreen to fire   
                                                                                         
                                                                                         
                                                                                         

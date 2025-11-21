@@ -8,7 +8,7 @@ tags:
 
  **Postmortem from my entry in the XBOX360Homebrew contest**
 
-**![](http://xbox360homebrew.com/photos/darkside/images/1724/original)**
+**![Image not found](/assets/img/posts/image-not-found.png)**
 
 **<font size="5">Looking back</font>**
 
@@ -40,7 +40,7 @@ As most can see form the result, ART is not my strong point, not even a wisp of 
 
 **In the Beginning**
 
-I got the basic game window up and started putting things on the screen, found what I thought were the best way’s to display things in-game, then took a step back.  I then came across several articles which described a better way to do animation. 
+I got the basic game window up and started putting things on the screen, found what I thought were the best way’s to display things in-game, then took a step back.  I then came across several articles which described a better way to do animation.
 
 Now in hindsight this probably limited me, if you have planned you design out already, keep with it unless something is drastically wrong or not working. I hit my first ditch in my game project refactoring around the new idea and lost a fair amount of time which I probably didn’t need to complete my project.
 
@@ -78,7 +78,7 @@ in a way the pause in my work did save me some overall time and the upgrade only
 
 **Get Confident**
 
-If your unsure of a way to do something, research first, make a plan of action and then execute, sandbox stuff outside you project if need be to test things and move on.
+If you're unsure of a way to do something, research first, make a plan of action and then execute, sandbox stuff outside you project if need be to test things and move on.
 
 In the last two weeks I got cleaner more efficient and coded better.
 
@@ -115,8 +115,6 @@ As the game is in competition mode, the code in the game is not great, actually 
 I will start afresh and probably start with one of the other faces I decided on for the game which is more 3D, the original mode will work back in although tarted up with better graphics and SHADERS!.
 
 …
-
- 
 
 So it’s back to reading and refreshing and drawing (even bought some drawing books to start with, always best to start on paper!)
 

@@ -18,6 +18,7 @@ Technology caught up and gave us bigger hard drives and suddenly we had the spac
 
 Then came the herald of SSD’s, the promise of speed. Our machines got quicker, programs loaded faster and the world sped up to keep pace.  However, we are suddenly again scratching for space, these new drives are fast but they are costly in sizes that we now need to install everything.  So we are back to scratching through the dirt to find stuff to move and delete.
 
+
 # My battle with space
 
 I develop for so many platforms these days, my hard drive seems to fill up so fast.  It is a daily / weekly struggle to find the space to install things.  Most things like Visual Studio or VR games have to be on the SSD to perform as fast as they can, while others can happily sit on the old HDD’s chugging along.
@@ -25,6 +26,7 @@ I develop for so many platforms these days, my hard drive seems to fill up so fa
 However, things like Visual Studio have sooo many components and a lot Ca not be installed in another location (I wish they could), others by default build large caches of information while you are developing (such as NuGet) right with your user profile which is also invariably where you have installed Windows, on your fast drive.
 
 But I am finally making headway after some later research
+
 
 ## NuGet (saving approx 10gb)
 
@@ -44,6 +46,7 @@ Settings –> Search “Edit the System Environment Variables” –> “Environ
 4. Enter a new variable name of “NUGET_PACKAGES” and enter the path to your new folder in the Value field (or click “Browse Directory” and select it
 
 This will tell NuGet to use this alternate folder for its cache. 
+
 
 ## Microsoft SDKs / Windows Kits (Approx 16gb)
 
@@ -75,7 +78,9 @@ If you only copied, you can safely delete the old folder (I just moved mine), on
 
 Now Visual Studio still thinks the files are where it expects, but in reality we have shifted them elsewhere, saving oodles of disk space.
 
+
 ##  
+
 
 # But Wait, there is more?
 

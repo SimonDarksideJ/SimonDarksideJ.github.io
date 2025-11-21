@@ -5,7 +5,7 @@ date: 2012-06-29 21:49:37
 tags: [windows phone]
 ---
 
-![](http://img.dailymail.co.uk/i/pix/2007/06_01/TombstoneSWNS_468x526.jpg)
+![](assets/img/posts/image-not-found.png)
 
 In my original post here “[Is my XNA game dead yet?](/2010/08/13/is-my-xna-game-dead-yet)”, I covered most of the basics of tombstoning, that being the process of what happens to your app or game during it is life on the Windows Phone.
 
@@ -19,9 +19,10 @@ I also now know that tombstoning is also an extreme sport, where you hurtle your
 
 * * *
 
+
 ## Falling asleep
 
-![](http://moblog.net/media/t/e/f/teflon/people-falling-asleep-in-unlikely-places-part-ii.jpg)
+![](assets/img/posts/image-not-found.png)
 
 The main focus of the last article was about handling tombstone events.  If a call comes in or you launch a chooser / launcher, then you app is terminated.  From the point at which the Deactivated event is fired you have approx. 20 seconds in the background to save the state of you application / game before the phone kills the process forcibly.  If the phone kills you app/game them any information you could not store in time will be lost, there is even a chance that you will loose any data you tried to store.
 
@@ -52,23 +53,24 @@ In short, use the isolated storage and settings cache during the app to keep any
 
 * * *
 
+
 ## A place for everything and everything in it is place
 
 So to recap, we have a few places to store things while our app is running:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)   **Isolated Storage**
+> ![](assets/img/posts/image-not-found.png)   **Isolated Storage**
 > 
 > This is the main storage for WP7 application, you can store what ever you like in and have almost unlimited storage (well almost).  There are no quota limits for isolated storage but be aware of how much you use as most phones only have 8Gb available and most users would like to use that for other applications as well!.
 > 
 > With isolated storage you can have multiple files and folders and can even iterate through the files and folders stored there pretty much the same way you do on the PC.
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    **Isolated Storage Settings cache**
+> ![](assets/img/posts/image-not-found.png)    **Isolated Storage Settings cache**
 > 
 > The settings cache is a simple serialised storage dictionary area.  It allows you to store single objects against a single string lookup.  Pretty much the same way a List or dictionary works in code.
 > 
 > Again there is no limit to this settings cache, only limitation is that it only supports simple XML serialisation, so is no good for things like images or complex classes.
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    **Phone Application State storage**
+> ![](assets/img/posts/image-not-found.png)    **Phone Application State storage**
 > 
 > The application state area is almost identical to the Isolated storage settings cache with a few little differences.  First and foremost, it only lets you store up to 2 Mb of data (for performance reasons as the phone is starting or stopping).
 > 
@@ -84,9 +86,10 @@ One main thing to keep in mind with all of these storage options is that they ar
 
 * * *
 
+
 ## Keeping track
 
-![](http://www.personal.psu.edu/yoj5029/blogs/joyce_jiang/Keeping_Track_Of_Files.jpg)
+![](assets/img/posts/image-not-found.png)
 
 The code for using Isolated storage is fairly well described and detailed already, so I wo not go over that again.  I would recommend also using Nick Gravelyn’s “EasyStorage” project on [codeplex](http://easystorage.codeplex.com/).  It is fairly well documented on there and a good resource to use.
 
@@ -110,9 +113,10 @@ in games, you can use it to track the players score/ lives or level or even comp
 
 * * *
 
+
 ## Can you tell me a bit about where you are from 
 
-![](http://1.bp.blogspot.com/_oUjmZeacI3I/S6QrDWppcyI/AAAAAAAACwc/Pu4hzJJZjIs/s400/d-tombstone.jpg)
+![](assets/img/posts/image-not-found.png)
 
 An often overlooked feature of the Phone application model is the phone Start-up Mode.  Within the PhoneApplicationService class, there is a state object that tells you how the phone started the application.  As the MSDN help suggests:
 
@@ -126,9 +130,10 @@ To make use of this state just test the state in your applications constructor, 
 
 * * *
 
+
 ## Sleepwalking
 
-![](http://www.cartoonstock.com/newscartoons/cartoonists/rma/lowres/rman11341l.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now in one of the more bizarre turn of events when dealing with tombstoning, there are cases where tombstoning is called but never actually happens.  Now this might seem odd but is one to look out for else you will be caught out, the main causes of this are:
 
@@ -146,9 +151,10 @@ On several occasions in the apps/games I have developed I’ve fallen foul of th
 
 * * *
 
+
 ## The quick brown fox jumps over the lazy dog 
 
-![](http://blog-cache.extensis.com/wp-content/uploads/2009/01/qbfjotld.gif)
+![](assets/img/posts/image-not-found.png)
 
 Now some players are just lazy or not paying attention, for these situations you need to manage the idle features of the device, else it will mange them for you.  Remember sometimes, it is not the players fault, they might be waiting for something to happen in your game.
 

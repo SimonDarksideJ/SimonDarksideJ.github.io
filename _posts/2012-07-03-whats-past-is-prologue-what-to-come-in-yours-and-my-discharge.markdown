@@ -11,12 +11,14 @@ I am not one for quotes but this seemed apt considering the recent move.
 
 So I’m back to my old blog in a manner of speaking but I have taken some of the best bits of XNA-UK and re-imagined them here.
 
+
 # 
 * * *
 
 Set the Record Straight
 
 First off XNA-UK is closing down just because of the times and how the community has consumed that site of late (read what you will in to that)
+
 
 ### <font color="#ff0000">NOT BECAUSE XNA IS GOING AWAY</font>
 
@@ -26,6 +28,7 @@ XNA-UK fulfilled it is goal and direction to aid and help new users and old alik
 
 * * *
 
+
 # New Mission Statement
 
 My mission as always as a indie community developer has been to grab new and exciting technologies, rip them apart, put them back together and then lay it all out for readers to digest and learn from my experiences, a teacher if you will but I do it for fun and because that is who I am. 
@@ -34,33 +37,35 @@ Where I can i also develop existing technologies and evolve them with patterns a
 
 So in coming back to my roots here I have taken what feedback there was in the last days of XNA-UK from the Voting [Poll we setup](http://bit.ly/Om9Urz) and run with that for future content.  The poll will continue and Both Charles ([RandomChaos](http://bit.ly/NhHN95)) Humphrey’s (who also just got re-elected to that MS Elite status of MVP for XNA) and I will use that for driving forward.
 
+
 ### [Vote for more content](http://bit.ly/Om9Urz) ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile18.png)
 
 in the running are the following categories and I have setup my new blog already to deal with these as time permits.  They are all areas I am keenly invested in and where I lack, Charles is picking up on his new blog.
 
 In no particular order:
 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Even More XNA!
+> #### ![](assets/img/posts/image-not-found.png)    Even More XNA!
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Unity3D
+> #### ![](assets/img/posts/image-not-found.png)    Unity3D
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Mono Develop / Mono Game
+> #### ![](assets/img/posts/image-not-found.png)    Mono Develop / Mono Game
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    SunBurn
+> #### ![](assets/img/posts/image-not-found.png)    SunBurn
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    SharpDX / ANX (and other XNA derivatives)
+> #### ![](assets/img/posts/image-not-found.png)    SharpDX / ANX (and other XNA derivatives)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Metro Development (both Windows Phone and Windows 8)
+> #### ![](assets/img/posts/image-not-found.png)    Metro Development (both Windows Phone and Windows 8)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    Frameworks and Best Practice (MVVM, IOC, DI, etc)
+> #### ![](assets/img/posts/image-not-found.png)    Frameworks and Best Practice (MVVM, IOC, DI, etc)
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/025.gif)    C++/DirectX/OpenGL – Charles is currently picking up these!
+> #### ![](assets/img/posts/image-not-found.png)    C++/DirectX/OpenGL – Charles is currently picking up these!
 
 At the moment my pipeline is quite full with my own projects (got to make a living somehow outside work and if possible without work! ![Smile with tongue out](/assets/img/wordpress/2012/07/wlEmoticon-smilewithtongueout4.png)) and so my posts are usually related to issues or interesting frameworks that I’m implementing.
 
 But as the pipeline cools expect to see more experimentation stuff again, [vote for more](http://bit.ly/Om9Urz) to guide that direction!
 
 * * *
+
 
 # What is hot and what is not
 
@@ -74,19 +79,19 @@ Sadly not all could be saved for the Internets but if there is a need I can see 
 
  
 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    The XAP test service for Windows Phone
+> ##### ![](assets/img/posts/image-not-found.png)    The XAP test service for Windows Phone
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    The Rare samples (XNA projects done by the Rare team)
+> ##### ![](assets/img/posts/image-not-found.png)    The Rare samples (XNA projects done by the Rare team)
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    XNA-UK meet-ups and groups (although discussing plans, see the vote)
+> ##### ![](assets/img/posts/image-not-found.png)    XNA-UK meet-ups and groups (although discussing plans, see the vote)
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    The Developers and published projects contact lists
+> ##### ![](assets/img/posts/image-not-found.png)    The Developers and published projects contact lists
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    Demo services like the Leaderboard samples
+> ##### ![](assets/img/posts/image-not-found.png)    Demo services like the Leaderboard samples
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    The meet and greet forums (as with most others)
+> ##### ![](assets/img/posts/image-not-found.png)    The meet and greet forums (as with most others)
 > 
-> ##### ![](http://www.dotnetscraps.com/samples/bullets/026.gif)    A host of other samples and downloads (some will be saved)
+> ##### ![](assets/img/posts/image-not-found.png)    A host of other samples and downloads (some will be saved)
 
 There is too much more to go into detail here, were doing what we can and we still have backups of the site so it is not gone forever but just out of reach.
 
@@ -98,17 +103,22 @@ In any case if [people want it](http://bit.ly/Om9Urz), it may come back as a com
 
 * * *
 
+
 # What’s coming up next
 
 In my immediate view (ignoring projects) here is what you can expect in the next few weeks.
 
-#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    News on an interesting XNA/Unity collaboration library
 
-#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    Highlights of the [XPGLive](http://xpglive.com/) service for XNA and WP
+#### ![](assets/img/posts/image-not-found.png)    News on an interesting XNA/Unity collaboration library
 
-#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    A Mono / Unity3D and XNA face off in real terms
 
-#### ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    A Continuation post to the XNA Futures article with updates
+#### ![](assets/img/posts/image-not-found.png)    Highlights of the [XPGLive](http://xpglive.com/) service for XNA and WP
+
+
+#### ![](assets/img/posts/image-not-found.png)    A Mono / Unity3D and XNA face off in real terms
+
+
+#### ![](assets/img/posts/image-not-found.png)    A Continuation post to the XNA Futures article with updates
 
  
 
@@ -117,6 +127,7 @@ Hopefully even more than that, time and tide will tell (been saying that a lot o
  
 
 * * *
+
 
 # For Reference
 
@@ -130,4 +141,5 @@ He’s also got a [headline Blog](http://randomchaosxnaadventures.blogspot.co.uk
 
 Oh and BTW
 
-# <font color="#0000ff"><u><font style="font-weight: bold;">XNA STILL ROCKS!!!</font></u></font>
+
+# <font color="#0000ff"><u><font style="font-weight: bold;">XNA STILL ROCKS!!!</font></u></font

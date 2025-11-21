@@ -29,6 +29,7 @@ For reference, here are the links to each article for easy reference:
 - Mixer (Coming soon) 
 - Twitch (Coming soon) 
 
+
 ## AltspaceVR – altvr.com
 
 - Intro to AltspaceVR
@@ -50,6 +51,7 @@ It is perfect for user groups, conferences and more and more these days, educati
 > The [Educators in VR](https://educatorsinvr.com/) team reached out to share a success story in their use of AltspaceVR for their platform. In their MASSIVE online VR event, they had up to 1400 users attend some of their sessions which ran over several days. Some sessions were just panels, some were just talks without slides showing that you can run just about any event you wish, even if you only want to “meet up”
 > 
 > <cite>Visit the “Educators in VR” team at – <a href="https://educatorsinvr.com/" class="aioseop-link">https://educatorsinvr.com/ </a></cite>
+
 
 ## Setting up your event/meeting
 
@@ -88,6 +90,7 @@ These are just starting spaces and you can change the venue if you wish, but mor
 
 There is the option to import your own world/space into Altspace via their developer tools and site options, but this may incur
 
+
 ### Setting up roles
 
 In most cases an event is not organised by just one person, usually, there is the host (or group of hosts), a presenter, staff to help set up the stage and surroundings, a band (sometimes?), moderators and someone to hold the mic for questions. AltspaceVR recognises this and allows you to set up staff at the event for the tasks they need to perform. To setup roles you need to go back and edit your event to define these:
@@ -121,6 +124,7 @@ These roles are as follows:
 > These roles all require an existing AltspaceVR user account, which you will need to have set up in advance. Use the name of that user to assign roles (not their email).
 
 That is the meeting setup, but what is a venue without some finesse, time to “Set the stage”
+
 
 ## Preparing for the event
 
@@ -182,6 +186,7 @@ Once you have finished, simply disable Edit Mode from the World Editor screen. A
 
 Now that your space is set up how you like and you HAVE put the dates back to their actual scheduled date, you are all ready for your event.
 
+
 ## Getting the presentation right
 <figure class="wp-block-image size-large"><img loading="lazy" width="1200" height="685" src="/assets/img/wordpress/2020/03/image-30.png?fit=660%2C377&amp;ssl=1" alt=" class=" wp-image-97964 srcset="/assets/img/wordpress/2020/03/image-30.png 1200w, /assets/img/wordpress/2020/03/image-30-300x171.png 300w, /assets/img/wordpress/2020/03/image-30-1024x585.png 1024w, /assets/img/wordpress/2020/03/image-30-768x438.png 768w, /assets/img/wordpress/2020/03/image-30-700x400.png 700w" sizes="(max-width: 1200px) 100vw, 1200px"></figure>
 
@@ -194,6 +199,7 @@ For this, you need to get used to the controls and services available while runn
 - Picture board – photos only
 
 Speaking is easy, just choose an empty stage with what you need, whether it is a sofa or set of seats.
+
 
 ### Services for presentations
 
@@ -212,6 +218,7 @@ For most cases, I would also recommend [Slides.com](https://slides.com/) as it o
 
 > For more advice on setting up Slides.com, I would recommend visiting the Slides documentation and guidance, as there is more information there than can reliably fit into this article. This article can also help with running Slides.com presentations in AltspaceVR:  
 > [https://help.altvr.com/hc/en-us/articles/360038760734-Using-Slides-com-for-Presentations-in-AltspaceVR](https://help.altvr.com/hc/en-us/articles/360038760734-Using-Slides-com-for-Presentations-in-AltspaceVR)
+
 
 ### Putting your content on the screen
 
@@ -235,10 +242,12 @@ When “ **Beaming Images** “, the browser window stays open and copies the sc
 
 When using “ **Sync URLs** “, the URL for the page you are looking at is sent to the stage and the browser window is closed. This is a lot cleaner and works better for video, but control is now only via the stage window itself. This is where I would recommend Slides.com as it gives you another method to control your slides.
 
+
 ### Other surfaces
 <figure class="wp-block-image size-large"><img loading="lazy" width="290" height="261" src="/assets/img/wordpress/2020/03/image-36.png" alt=" class=" wp-image-97971></figure>
 
 There is also a clipboard on stage which supports only images, which is great for putting the presenter information on or yet more branding.
+
 
 ## Running the event
 
@@ -257,6 +266,7 @@ The last thing you want is for attendees being unable to watch the event as the 
 - Give advance tips about good meeting etiquette.
 
 > Etiquette should cover more than just good verbal behaviour, but to direct attendees when questions should be asked, and also not to wander around in front of the stage or other attendees during the event and block the view of others.
+
 
 ### Tools to run the event
 
@@ -286,6 +296,7 @@ This is a great view for knowing just who is at the event and to find them if yo
 If your event needs a more “hands-on” approach to controlling questions from the audience, then you can enable the “ **Allow hand Raises** ” mode for the event. This allows attendees to raise their hand to ask a question, then from this view Admins and moderators can list pending requests in the order that they asked and amplify/mute them in order.
 
 A lot easier than having to wander a room with a microphone (but you can if you wish :D)
+
 
 ## Recording the Event
 
@@ -330,6 +341,7 @@ It can take a little time to master, but you can see my common setup below, usin
 If you want to record, just hit record, if you want to stream just setup your stream destination in settings and then click Start Streaming.  
 For more details on OBS use, check out their website and forums
 <figure class="wp-block-image size-large"><img loading="lazy" width="1199" height="761" src="/assets/img/wordpress/2020/04/image-7.png?fit=660%2C419&amp;ssl=1" alt=" class=" wp-image-98069 srcset="/assets/img/wordpress/2020/04/image-7.png 1199w, /assets/img/wordpress/2020/04/image-7-300x190.png 300w, /assets/img/wordpress/2020/04/image-7-1024x650.png 1024w, /assets/img/wordpress/2020/04/image-7-768x487.png 768w, /assets/img/wordpress/2020/04/image-7-700x444.png 700w" sizes="(max-width: 1199px) 100vw, 1199px"></figure>
+
 ## Tips and Tricks for your event
 
 Through the events I attended, hosted and participated in, here are a few tricks I have learned along the way:
@@ -341,6 +353,7 @@ Through the events I attended, hosted and participated in, here are a few tricks
 - Guide the audience at the beginning of the session to ensure everyone in attendance knows how to behave appropriately, and welcome them in. Always good to do a warm-up event like at real live show events.   
 (some attendees like to run to the stage to wave and get attention)
 
+
 ## A note about language
 
 If you have international attendees or people who can speak multiple languages (great people), encourage and work with them to help set up more events in their local language. AltspaceVR is a great platform and the most common language used at events is English, but it would be very great and helpful to help others either replicate your event or create their own events in other languages to.
@@ -348,6 +361,7 @@ If you have international attendees or people who can speak multiple languages (
 The online world is an amazing and culturally rich environment and we should celebrate that and try and get more content that is more personal to everybody no matter their language.
 
 > **On a personal note, if anyone wants to take this article and translate it to other languages (beyond google translate) to help others learn and share the benefits of the platform, you have my full permission to do so (just give me a nod if you can 😀 )**
+
 
 ## On with the show
 

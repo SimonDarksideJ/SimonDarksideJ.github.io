@@ -7,7 +7,8 @@ tags: [book review, unity3d]
 
 Continuing the book review season, here is the second book I have looked at recently, an interesting twist in the series of game development.
 
-[![](http://dgdsbygo8mp3h.cloudfront.net/sites/default/files/imagecache/productview_larger/3424OS_cov.jpg)](http://www.packtpub.com/creating-elearning-games-with-unity/book)
+[![](assets/img/posts/image-not-found.png)](http://www.packtpub.com/creating-elearning-games-with-unity/book)
+
 
 ###### [Creating E-Learning Games with Unity](http://www.packtpub.com/creating-elearning-games-with-unity/book)
 
@@ -31,6 +32,7 @@ The example used in this book is about learning the flags / states and general k
 
 Here is a brief run through what all the chapters are and what to expect from them:
 
+
 ###### Chapter 1 “Introduction to E-Learning and the Three Cs of 3D Games”
 
 The beginning is always important when it comes to education, setting the state and a plan of activities to get to a place of understanding. Here the author sets out why games make such good tools for education, keeping the student engaged and compelled to learn more through exploration.
@@ -38,6 +40,7 @@ The beginning is always important when it comes to education, setting the state 
 The level of detail put in to the back story for the game you will be building as part of the book was very details and compelling, certainly a level of detail you should expect in your own first projects.
 
 The rest of the chapter is a brief introduction to Unity3D itself and walks you through your first scene, the camera and a basic input controller.
+
 
 ###### Chapter 2 “Interactive Objects and MissionMgr”
 
@@ -47,11 +50,13 @@ The intro architecture does take a few reads to understand but once you have it,
 
 .
 
+
 ###### Chapter 3 “Mission One – Find the Facts”
 
 With the core engine in place it is time to put it in to action.  Starting with the games initial goals you will build out all the content and its use for the first type of missions in the game.  The game itself is to set out to collect items, learn about them and use them to find out more information, extending both their learning and encouraging exploration.
 
 There is a very nice section here about gauging difficulty vs skill, ensuring the player is challenged enough to keep playing but not too much that they just give up. All too often when you build games / educational content you end up building it for you without taking into account of your target audience, so the author does a good job of working through this tricky subject.
+
 
 ###### Chapter 4 “Mission One – Future Proofing the Code”
 
@@ -59,9 +64,11 @@ Great you have your first level working in your game, but a single level does no
 
 The chapter also introduces a basic FSM (Finite state machine) to control game flow as well as packaging up your project together ready to be shipped.
 
+
 ###### Chapter 5 “User Interfaces in Unity”
 
 Delving in to the current native Unity3D GUI system, here the author walks you through all the components and perils of the existing system.  Yes it is clunky and often tricky to use, but the author does a good job of putting it together and laying it out simply.
+
 
 ###### Chapter 6 “NPCs and Associated Technology”
 
@@ -69,9 +76,11 @@ Playing alone can be fun but generally it is better to play together.  In this c
 
 So to make the NPC’s more interesting the author walks through adding splines to a terrain to give the NPC places to go and wander round the scene near areas they can help with.
 
+
 ###### Chapter 7 “Mission Two – Testing a Player’s Learning”
 
 When teaching it is important to also test the student against what they have learned, so with the second level in the game the main objective is to check how much the player remembers from the first level, adding a reinforcement cycle to the learning process.  To make it more challenging, you re-use the NPC’s from the previous chapter and pit them against the player to complete the level.  It is a race against time and can you win?
+
 
 ###### Chapter 8 “Adding Animations”
 
@@ -79,15 +88,18 @@ Having spheres or cylinders rushing around a game area can be fun, but not very 
 
 Has to be one of the simplest explanations I have seen to implementing Mecanim animations I have seen to date, very nice.
 
+
 ###### Chapter 9 “Synthesis of Knowledge”
 
 Completing the circle of knowledge we add the final level to this example educational game. Now that the player has learned some new information, they have demonstrated they have retained the information, now they need to express an understanding of what they now know and teach it to others.
 
 This is a key point sometimes missed in educational games, closing the loop to really understanding topics you have learned and very well explained in this chapter.
 
+
 ###### Chapter 10 “An Extensible Game Framework Pattern in Unity”
 
 In the final chapter we take a step back and look at what you have wrought, looking for areas of improvement and tweaking it in to a final solution (usually taking up 80% of any time used to create a project if done right).  Also given that we want the player to keep playing and not just in one sitting the author walks you through interacting with the file system and saving / loading level and player data.
+
 
 ###### 
 
@@ -101,11 +113,13 @@ What does let the book down is that it perhaps did not spend enough time re-enfo
 
 That being said, the way the author explains each function was very well laid out and easy to understand, so in my view this should have been two books not just one.
 
+
 ###### Pros ![Smile with tongue out](/assets/img/wordpress/2014/04/wlEmoticon-smilewithtongueout2.png)
 
 - Best explanation in a game development book about educational content I have seen.
 - Nice and varied structure, very easy to follow
 - Spend a good chapter on the Unity3D GUI system, always needed for Unity!
+
 
 ###### Cons:
 

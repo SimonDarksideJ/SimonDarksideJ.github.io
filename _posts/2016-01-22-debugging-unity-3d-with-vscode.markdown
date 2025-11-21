@@ -25,6 +25,7 @@ There is a lot more but these are my favorite highlights.  If you have read my p
 
 * * *
 
+
 # The story so far
 
 Since the early beta releases we have been able to configure VSCode manually as a code editor within Unity, slowly but surely through the beta phases this integration has been improved to add file and line support when calling VSCode.
@@ -45,17 +46,20 @@ Made by a community developer with some assistance from teams at Unity and Micro
 
 [![image](/assets/img/wordpress/2016/01/image-1.png "image")](/assets/img/wordpress/2016/01/image-2.png)
 
+
 ###### VSCode Editor Screen
 
 Plus a host of other little tidy up / backend tweaks needed to ensure it all worked seamlessly.
 
 [![SNAGHTML5b90db6](/assets/img/wordpress/2016/01/SNAGHTML5b90db6.png "SNAGHTML5b90db6")](/assets/img/wordpress/2016/01/SNAGHTML5b90db6.png)
 
+
 ###### Before and After Workspace configuration in VSCode
 
 The only real limitation in its use was that debugging was only supported on a Mac (granted Mac owners didn’t see this as an issue ![Smile with tongue out](/assets/img/wordpress/2016/01/wlEmoticon-smilewithtongueout.png)), UNTIL NOW!!
 
 * * *
+
 
 # Let me stop you there
 
@@ -77,6 +81,7 @@ Unity have also made the extension itself [opensource on Github](https://github.
 \*\*There is also an additional community VSCode addon which gives you both Unity and VSCode document lookup support and a few other nice features, worth checking out.
 
 * * *
+
 
 # Getting setup
 

@@ -12,7 +12,7 @@ Of Late finding time to work on the project has been hard (as life is I suppose)
 
 Well I had a recent spurt of activity and got the main game bits working now (although not that pretty yet) and started looking at putting some screens around the game (Start Screen, Menu, exit screen, etc…), after hours (well felt like hours more like 30 min’s or so), I came across [this site (Shakaware Software).](http://www.shakaware.com/ "Shakaware Software")  The guy has written a Menu Component for XNA, WOW….
 
-[![ width=](http://tk2.storage.msn.com/x1pb4lnKEHD-4CJQOyvlqmI51Rc6D1cW51ePdeTP68-sLB-T-oz4rahMAvwzmOZ5UmZWtptMStOL5Sl0RdKXn_amLlIFo_bOEwkutG-Xa9mFuMCFTidd0xjtka2zCLiTDhLsJLcJyaiQOd25TGi1v6bfw)](http://tk2.storage.msn.com/x1pb4lnKEHD-4CJQOyvlqmI51Rc6D1cW51ePdeTP68-sLDw9X5Cn66tN0PY2CzRkCehuyJn9XceJ5Ma9-nMgx8pKUHGqmaCCnx49PYxhdnJFkE5gnxAy0RBYg1WWBwAStBqCK7AnFQpSTgjSCnmb_cW0w)
+[![ width=](/assets/img/posts/image-not-found.png)](http://tk2.storage.msn.com/x1pb4lnKEHD-4CJQOyvlqmI51Rc6D1cW51ePdeTP68-sLDw9X5Cn66tN0PY2CzRkCehuyJn9XceJ5Ma9-nMgx8pKUHGqmaCCnx49PYxhdnJFkE5gnxAy0RBYg1WWBwAStBqCK7AnFQpSTgjSCnmb_cW0w)
 
 It looks nice (better then my game at the moment), has button animation for mouse hovering, and even lets you click the buttons!!!.
 

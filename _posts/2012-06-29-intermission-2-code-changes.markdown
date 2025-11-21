@@ -15,9 +15,11 @@ This involves:
 
 I have also done a bit of house keeping in the code, nothing major, just grouped all the private elements of each class together, grouped all the properties in the class together and put the constructors at the top and the main methods in the middle.  These are always good practice when writing
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
+
 
 ### Frame Struct (in the Animation.CS)
 
@@ -160,6 +162,7 @@ After
  |
 
 * * *
+
 
 ### Animation Updates (animation.cs)
 

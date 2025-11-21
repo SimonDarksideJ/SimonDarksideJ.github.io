@@ -5,7 +5,7 @@ date: 2012-06-29 22:19:23
 tags: [windows phone]
 ---
 
-![](http://i105.photobucket.com/albums/m221/Bootsign/obfuscation.jpg)
+![](assets/img/posts/image-not-found.png)
 
 If you are keen to protect your code and your assets Obfuscation is a word you should learn, no matter if you are doing Silverlight or XNA Projects.  Obfuscation is a technique to make it hard for people to break open your compiled code and copy all your hard work, it does this by wrapping your project in another layer that only exposes just enough to make the project runnable.
 
@@ -22,9 +22,10 @@ So the answer is to be as protective as possible and use the tools we have acces
 
 * * *
 
+
 # Getting started
 
-![](http://microstockinsider.com/files/imceimages/getting_started_at_microstock.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now the process for getting this done is quite simple, once you get it right.  If you watch the videos online about the process, it is as simple as point it at your build and click run (you might as what is the need for a guide then?), however, in reality there are a few things that will trip you up.
 
@@ -38,11 +39,13 @@ Just download the [Windows Phone 7 Template](http://files.preemptive.com/WP7/wp7
 
 Lastly, there is one other little kicker, unless you have added in some instrumentation in your project then you need to turn it off in the Dotfuscator project settings, just click on the settings tab (as shown below) and set Instrumentation to NO
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image_5F00_5F00_69783CA4.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6378.image_5F00_50F8C521.png)
+[![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6378.image_5F00_50F8C521.png)
 
 * * *
 
+
 # What is done is done
+
 
 # ![](http://cache.gawker.com/assets/images/kotaku/2009/06/2009.jpg)
 
@@ -50,11 +53,11 @@ Lastly, there is one other little kicker, unless you have added in some instrume
 
 So breaking it down, just follow the steps:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Download and install the tools (**Version 4.9.2500 or higher)**   
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Download the [WP7 template](http://files.preemptive.com/WP7/wp7app.template.xml) and save it in your project directory   
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Load the WP7 template and add your project **(ONLY THE RELEASE version)**   
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Turn off the instrumentation   
-> ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    Run / Build the project (green arrow in the menu) – Make sure you have down a clean build in VS before this as RELEASE
+> ![](assets/img/posts/image-not-found.png)    Download and install the tools (**Version 4.9.2500 or higher)**   
+> ![](assets/img/posts/image-not-found.png)    Download the [WP7 template](http://files.preemptive.com/WP7/wp7app.template.xml) and save it in your project directory   
+> ![](assets/img/posts/image-not-found.png)    Load the WP7 template and add your project **(ONLY THE RELEASE version)**   
+> ![](assets/img/posts/image-not-found.png)    Turn off the instrumentation   
+> ![](assets/img/posts/image-not-found.png)    Run / Build the project (green arrow in the menu) – Make sure you have down a clean build in VS before this as RELEASE
 
 With that done you should have a new folder in your project directory called “Dotfuscated” which will contain your new protected XAP file.  Test it again on a device just to be sure before uploading to the marketplace (so long as it is a paid app this will always be free, if it is a FREE app then you will use up one of your free submissions)
 
@@ -62,9 +65,10 @@ Just to note that PreEmptive do also offer a “[Getting started](http://files.p
 
 * * *
 
+
 # Insert suitable legal comment here
 
-![](http://www.amiodaronetoxicity.com/wp-content/uploads/2010/08/AMCULT-JUSTICE-GAVEL.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now I will point out one thing which is obvious to others who have used Obfuscation or have decompiled aps in the past.  Obfuscation is only a way to make your code harder to read, but it is by no means perfect, if a hacker or persistent individual is determined enough they will be able to find a way to crack open your wares and see what is going on.
 

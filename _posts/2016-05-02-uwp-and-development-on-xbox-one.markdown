@@ -5,7 +5,7 @@ date: 2016-05-02 15:07:04
 tags: [unity3d, xbox]
 ---
 
-![](http://www.develop-online.net/cimages/c92d44030c6fd4670881b7419395ca5a.png)
+![](assets/img/posts/image-not-found.png)
 
 By now, everyone should have watched or at least heard about the [Build2016 keynote announcements from Phil Spenser](https://channel9.msdn.com/Events/Build/2016/KEY01) about development for Xbox One and the opening up / enablement (at long last) of the public “Developer mode”, something long since sought after since the days of XBLIG on the 360 and the previous promises made by the [ID@Xbox](http://xbox.com/id) team about the future of indie development on Microsoft’s latest console.
 
@@ -19,11 +19,12 @@ This has been a long and torturous journey after many promises, supposed delays 
 
 * * *
 
+
 # From what has come before
 
 I have been a long standing supporter and technical evangelist for all things game development (or development in general) related, showing all the things everyone needs to know to make great games.  A big part of that story started with the [XBox Live Indie Game development](https://msdn.microsoft.com/en-us/library/ff827897) program, the first stab any developer (outside of a published studio) had to make games cross platform and published on a retail games console,
 
-![](http://indienoid.com/wp-content/uploads/2013/01/xblig.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Through one unified SDK, the [XNA framework](https://en.wikipedia.org/wiki/Microsoft_XNA) allowed you to develop and publish your games directly on your retail Xbox 360 console or on your Windows desktop.  Later on you could also publish to Windows Phone / Mobile and then even further through the help of the fantastic MonoGame team.  This was a code heavy environment which gave a lot of mainstream developers took hold of and played with, a fair few even accomplished their dreams, got it in to the public’s hands and made money, some of those developers have even moved on to the [ID@Xbox](mailto:ID@Xbox) program and continued to publish.
 
@@ -31,9 +32,10 @@ XNA also forms the curriculum of most Universities that offer Game Development a
 
 * * *
 
+
 # The new announcement – what does it mean to develop on Xbox One?
 
-![Activation Step 12](https://msdn.microsoft.com/en-us/windows/uwp/xbox-apps/images/activation-step-12.png)
+![Activation Step 12](assets/img/posts/image-not-found.png)
 
 So, the announcement is finally out and with the latest Xbox One build you can turn your retail Xbox in to a developer machine just like in the old 360 days.  But what does this actually mean? What can it support and what (more importantly) can it NOT do?
 
@@ -50,11 +52,13 @@ Using your Windows Store Developer account or other Live ID, you can build Xbox 
 
 * * *
 
+
 # What does Retail unlock actually give you?
 
 Retail unlock is primarily there to give you direct access to sideload and publish local apps to your Retail console while developing your app or game.  once you are happy, you will upload your app or game to the Windows Store (just like any other UWP app) and publish it for anyone to get access to.  This system is pretty much exactly the same system used today on Windows 10 Desktop and Mobile, just enable your device, load and test and then publish to the store.
 
 If you read the press and the announcements from Build, the primary focus of UWP deployment for the Xbox One is Apps, games are still supported and expected but you need to be aware of some performance considerations when building your game for this audience:
+
 
 ### 1: Resources
 
@@ -66,15 +70,17 @@ The table below lists the critical resource constraints for UWP packages, for ap
 
 > I have heard many a dev complain about not getting full access to the Xbox through retail unlocks or demands for more access, as stated above, if you exceed this then just **join ID, it is still FREE**!.
 
+
 ## 2: Size
 
 A big consideration when building your title is size, often referred to as the “10 foot experience”.  This points out that where the console will do its best to scale your app or game to the big screen, sometimes the aspect ratio differences between what you built your app or game for just do not line up and can become distorted.
 
 Again, most game developers are aware of this as should most app devs, when you work in a universal application that is intended to work on the desktop, a table or on a mobile device, things are going to get squished or stretched if you do not plan it right.  When scaling up to a 60” TV, things may not go to plan.
 
-![](https://gdusil.files.wordpress.com/2015/05/portfolio-digital-trends-the-5-foot-viewing-experience-is-a-missed-opportunity-ii-2-foot-4-foot-10-foot-experience.png)
+![](assets/img/posts/image-not-found.png)
 
 Image courtesy of dsuil.com
+
 
 ## 3: Multi-platform
 
@@ -84,6 +90,7 @@ Simply put having one UWP package for all systems, it is a grand goal but not wi
 
 * * *
 
+
 # What does a developer kit give you?
 
 Apart from the obvious release of the constraints in the previous section, using a dev kit simply gives you access to more, however it also has it is “ways”. Mainly that you need to use a different development environment, a different set of developer tools and resources.  The main difference is that you will have a strict certification path and a different set of rules to follow.  The Windows Store has a set of certification rules and guidelines as well as testing but it is nothing in comparison to what the full developer experience is on the Xbox.
@@ -92,9 +99,10 @@ The main thing to really bring home is that the difference between the UWP retai
 
 * * *
 
+
 # The Xbox Live story
 
-![](http://cdn.wccftech.com/wp-content/uploads/2015/11/hd_xbox-live.png)
+![](assets/img/posts/image-not-found.png)
 
 Now I kept this section separate for a reason as it is a good source of debate, the primary mission of the Xbox Live system (achievements, leaderboards, events, friends, etc) is to give a unified backend for all Windows Live enabled titles across all supported platforms, allowing you to enable a single service for your app or game (yes, I said APP) wherever you intend to deploy it.  The only requirement (at the time of writing) to access the live services is to be on the ID program by applying to [ID@Xbox](mailto:ID@Xbox).
 
@@ -103,6 +111,7 @@ Now I kept this section separate for a reason as it is a good source of debate, 
 When registering for ID, just be clear about what platforms you intend to target and get building.  If you are only doing Windows / Mobile for now and hope to move to Xbox later, then this is commonly the best path. Conversion is easy and a lot easier once you have players online.  If you are just applying for Xbox when you do not have a story (and just want free devkits) then you will likely be disappointed, just be reasonable and have a plan.  The same rules are used for Kickstarter or Steam, have a plan to sell your game and what makes it special for consumers to sit up and take notice (more on this in a future post).
 
 * * *
+
 
 # What development environments support UWP?
 
@@ -121,6 +130,7 @@ Some of the most common are:
 No doubt many more will pop-up throughout the UWP story and of course you have the current UWP can always just build your own using Microsoft’s development and deployment tools.
 
 * * *
+
 
 # Clear as mud and ado
 

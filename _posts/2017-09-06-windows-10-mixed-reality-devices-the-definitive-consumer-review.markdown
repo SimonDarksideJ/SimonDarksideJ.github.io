@@ -16,6 +16,7 @@ My concern as a developer, was how easy these new Mixed Reality headsets, portal
 
 * * *
 
+
 # What is Windows 10 Mixed Reality and how does it differ from the other VR offerings?
 
 With all of the existing Virtual Reality setups such as the Occulus Rift, HTC Vive (although now just referred to as Vive) and the Sony PSVR, there was a fair amount of setup and (in some cases) a fairly hefty upfront costs to gain the full experience.  Most require a fairly restricted room setup through the use of cameras and other sensors which have to be specifically placed within a room (making it very difficult to travel with), as well as certain lighting restrictions or requirements.  These experiences are astounding once they are up and running and truly immersive but to the every-day consumer, can seem quite daunting.
@@ -23,6 +24,7 @@ With all of the existing Virtual Reality setups such as the Occulus Rift, HTC Vi
 The Windows 10 Mixed Reality setup on the other hand has been the easiest out-of-the-box setup experiences I have had to date.  No fiddly cameras or sensors, any room will do (great for taking places) and the PC requirements for running a modest experience has dropped significantly.
 
 > \*Note, more of the PC requirements and experience levels later.
+
 
 ## <u>The Devices</u>
 
@@ -32,7 +34,7 @@ So far, they’ve announced the following headsets and vendors:
 
 | 
 
-![Acer Windows Mixed Reality headset](https://winblogs.azureedge.net/win/2017/05/b3b42c0273b64c0433afc55cad9628a9-1024x819.jpg)
+![Acer Windows Mixed Reality headset](assets/img/posts/image-not-found.png)
 
  | ![image](/assets/img/wordpress/2017/09/image-9.png) | ![image](/assets/img/wordpress/2017/09/image-10.png) | ![image](/assets/img/wordpress/2017/09/image-11.png) | ![image](/assets/img/wordpress/2017/09/image-12.png) |
 | 
@@ -88,6 +90,7 @@ As you can see each device has a very similar look and feel based on Microsoft�
 
 Each manufacturer has taken its own view and design with the specs to give a unique feel and weight to each.
 
+
 ## <u>The Inside out experience</u>
 
 The one main thing that sets the Microsoft Mixed Reality setup different to every other high-powered VR style experience (excluding the likes of Cardboard / mobile VR) is that it requires absolutely no external setup, no additional devices or sensors, it is literally just plug and go.
@@ -98,17 +101,19 @@ This is all provided by the two front motion sensors and a collection of other s
 
 The way the inside-out sensors work (as opposed to the camera/sensor outside-in setup where you are “watched from outside”), is that the camera sensors track the headset’s movement by watching the room movement and then translating that in to direction. This is paired with another set of other sensors, such as a gyroscope and accelerometer, to both validate this input and also give relative force / angle measurements.  This simply results in the headset itself knowing where it is moving, instead of other systems tracking you externally.  The HoloLens takes this further by actually mapping the environment it see’s, which the Mixed Reality (Immersive headset) is based upon.  Currently developers do not yet have access to this “view” from the sensors, so we ca not embellish the experience. But here is hoping it is exposed later which will make for some even more fun projects.
 
+
 ## <u>The Motion Controllers</u>
 
 So far we have only see one exact controller design, to which most have observed that these resemble a melding of the current Vive and Oculus controller designs with the addition of a Windows button.
 
-![](https://cdn.vox-cdn.com/thumbor/lpdp-zGwk7hxPLl1DtZ251DTfNg=/0x0:1920x1080/920x613/filters:focal(807x387:1113x693)/cdn.vox-cdn.com/uploads/chorus_image/image/56393237/Windows_Mixed_Reality_motion_controllers.0.jpg)
+![](assets/img/posts/image-not-found.png)/cdn.vox-cdn.com/uploads/chorus_image/image/56393237/Windows_Mixed_Reality_motion_controllers.0.jpg)
 
 Each controller has a touch thumbstick as well as a traditional thumbstick and the usual plethora of additional buttons to cater for most VR experiences.
 
 > At the time of writing, I have yet to receive my controllers to pair up with my Headset experience.  I will do a follow up post once they arrive.
 
 Unlike Vive, Occulus and PSVR however, these controllers require no additional sensors, devices, light up beacons or cameras, they simply use the existing sensors built right in to the headset.  The headset detects the position / rotation of the controllers and the inputs are fed back to the PC through a bluetooth connection, no wires needed.
+
 
 ## <u>Hardware Requirements</u>
 
@@ -129,6 +134,7 @@ With the Windows 10 Mixed Reality setup, things are different.  Sure, if you wan
 
 As you will see later in this review, for my Personal setup, I purchased a Modest gaming PC (I paid approx. £750) which proved more than sufficient to run the Mixed reality setup.  I probably would not recommend using Integrated Graphics chips and suggest using a more capable video card, such as those from Nvidia and AMD.
 
+
 ## <u>The takeaway (TL;DR)</u>
 
 In short, once you have an average gaming PC with at least HDMI 1.4 and USB 3.0 connections (the main things to check if you have the Blue USB connectors) and your PC has been updated to the Windows 10 Fall Creators update (available now in preview and full released in October 2017), you are ready to start.
@@ -137,11 +143,13 @@ There is no additional setup, simply plug in your headset and you are good to go
 
 * * *
 
+
 # Testing the Consumer Experience
 
 ![image](/assets/img/wordpress/2017/09/image-20.png)
 
 With the preamble out of the way, let’s dig in to the real meat of this review.  Being a developer, we usually have mega machines to cope with running both the title and the development environment at the same time, which creates an issue with testing.  However, to get the real-world consumer experience, I dropped all that (actually, I replaced my setup because my main uber PC actually died and I needed a replacement that did not hurt the wallet too much) and began with what I had out of the box with my new PC.
+
 
 ## <u>The Gaming PC</u>
 
@@ -163,6 +171,7 @@ All in all, I spent only £750 (Approx $950) which for a gamer who wants to play
 
 I hoped would this PC setup would be sufficient for a good Mixed Reality experience with the fall back that I had my uber powered graphics card as backup if I needed.  Which to my amazement, this rig absolutely flew through all of the tests I hit it with.
 
+
 ## <u>The Headset</u>
 
 ![image](/assets/img/wordpress/2017/09/image-16.png)
@@ -174,6 +183,7 @@ The headset that I was sent, is the Acer development version of their Mixed Real
 The first thing I noticed after unboxing the headset was **how light it was**. I have used all of the other headsets and there is a fair amount of weight with them. If you use them continuously, your head does start to feel a little heavy (which is fine because your eyes usually give up on you first, or your stomach if the dev has not accounted for good VR movement).  With the Mixed reality headset, there is practically nothing to it (the Asus headset is reported as the lightest, which might explain its higher cost). All of my family noted this while wearing it, they barely noticed the headset was there (ignoring the fact you are looking at a mountain vista from the get go).
 
 My only real complaint with the Acer headset is the head strap, it uses a push button fix / release system to tighten it.  This can become quite fiddly, especially when multiple people are passing the headset around to play/test and can lead to a very common issue of “hair snagging”.  Some of the other MR headsets use the more common twist lock, which would have been my preference.  The other issue I faced was that the foam to protect your face on the headset (which is removable and washable, a nice touch) just is not thick enough. So much so, that when I wear the headset there is a gap between the foam and the sides of my face, which lets in light.  I can work around it but it is not the best, granted only really an issue in well light / daylight scenarios.
+
 
 ## <u>My Test Area</u>
 
@@ -194,11 +204,13 @@ Will all this ready, let’s unbox the headset, plug it in and get it setup.
 
 * * *
 
+
 # Challenge 1: Testing the setup process
 
 ![image](/assets/img/wordpress/2017/09/image-18.png)
 
 After you have unboxed all your toys and the boxes are strewn all over the living room floor, the first task any new Mixed Reality consumer is going to face is “how to plug all this stuff in anyway”.  Sure, the headset looks cool while you are wearing it and you can look kind of space age while walking around. Eventually though you will want to actually turn the thing on.
+
 
 ## <u>Check for Updates</u>
 
@@ -206,11 +218,13 @@ First task is to ensure the PC is up to date, no doubt there will be sufficient 
 
 > Side Note, for the purposes of this test I have installed the Creators update using the “[Windows Insider Program](https://insider.windows.com)”, which gives every person the chance to test out the newest updates from Microsoft before they hit the shelves.  From October, this wo not be necessary, unless you want even newer builds/versions than the Creators Update.
 
+
 ## <u>Plugging In</u>
 
 The final installation guide that is released with the production headsets will likely recommended to launch the “Mixed Reality Portal” before plugging in the Headset but in true consumer simulation testing, I plugged it in before I even tried.  Thankfully whether you plug the headset in first or launch the portal, it makes no difference, so all bases are covered there.
 
 Once the device is recognised and drivers are installed, you are ready to get started.  Although at this point there is not much to see.
+
 
 ## <u>Starting up the Mixed Reality Portal</u>
 
@@ -245,11 +259,13 @@ As you can see, the setup experience has been well thought through and without t
 
 * * *
 
+
 # Challenge 2: Trying it out with a non-techie
 
 Although the process was quick and simple for me, I still was not convinced.  So, I uninstalled everything, packed up my gear and challenged my 14yr old daughter to “have a go”.  Within 20 mins the rig was back up and running and she was happily destroying my VR house and filling it with animals.  So even with some basic tech know how (i.e. can plug things in the right ports) even teenagers can set this up.
 
 * * *
+
 
 # Challenge 3: First experiences
 
@@ -270,6 +286,7 @@ I fully expect SteamVR applications to “Just Start” else that would break th
 
 * * *
 
+
 # Challenge 4: Managing the setup
 
 If you know Windows 10, you will already be familiar with the “Settings” application, which is simply accessed by clicking on the start button and then clicking on the COG.  It is nice to see Microsoft are keeping trend with this when it comes to Mixed Reality, so the config is all under its own banner in the Settings application. No faffing and searching for hidden options.
@@ -279,6 +296,7 @@ If you know Windows 10, you will already be familiar with the “Settings” app
 It is also nice to see that this option is only available once you have completed the “Mixed Reality Portal” setup and is removed when the Mixed Reality extensions are uninstalled (yes you can remove them). Behind this are a small selection of options to customise your setup, including:
 
 ![D2AEC53E-6553-49C7-B41E-78379BEAC90B](/assets/img/wordpress/2017/09/D2AEC53E-6553-49C7-B41E-78379BEAC90B-1.png)
+
 
 ## Audio and Speech Setup
 
@@ -296,6 +314,7 @@ Plus, it includes some feedback and help options (actually, these are every scre
 
 ![C9FD3C93-F9AB-4F92-A6ED-B0DFB45E80AF](/assets/img/wordpress/2017/09/C9FD3C93-F9AB-4F92-A6ED-B0DFB45E80AF-1.png)
 
+
 ## Environment Controls
 
 This will reset any boundary or scans of your environment from the PC.   
@@ -305,6 +324,7 @@ It also includes options to “Reset Your Home” VR environment.
 (Like when your kids fill it with animals and delete all your stuff)
 
 ![5CC135BB-9209-4AEA-BA00-920766977ED8](/assets/img/wordpress/2017/09/5CC135BB-9209-4AEA-BA00-920766977ED8-1.png)
+
 
 ## Headset display options
 
@@ -320,6 +340,7 @@ Usually tightening the headset band.  There is enough space to also use it with 
 
 ![41FE1CB3-5DB0-47A7-9F46-78397B466766](/assets/img/wordpress/2017/09/41FE1CB3-5DB0-47A7-9F46-78397B466766-1.png)
 
+
 ## Uninstall
 
 If by some chance you have had enough, are returning the headset or (more likely) transferring to another PC, you can remove all the Mixed Reality config from the PC
@@ -332,6 +353,7 @@ Do not worry about clicking it by accident, it will still ask you if you are sur
 
 * * *
 
+
 # Final Conclusions – Ultimate TL;DR
 
 From the Device’s, Price and initial setup, I can happily say the experience is far better that I could have guessed.  I have worked with other development teams using alternate VR solutions and Microsoft’s Mixed Reality set-up compares equally on both quality and head tracking (in some cases better but time will tell). **However, it far outstrips its competition with its rapid setup** (not needing other sensors and a “special” room setting up) and its weight.
@@ -340,6 +362,7 @@ There are not many apps yet, as the store is still in preview and developers ca 
 
 I do hope the “first run” experience is tweaked or improved on the run up to launch, as this was the only area I felt it was “let down” slightly, but that is a minor thing and should be fairly easy to resolve, if it has not already and I just missed something.
 
+
 ## Pro’s
 
 
@@ -347,6 +370,7 @@ I do hope the “first run” experience is tweaked or improved on the run up to
 - ### No additional hardware sensors required, it is all built in
 - ### No need to remove the headset just to run another game, can be done in the environment or by simply “Flipping” up the visor and using your PC
 - ### Extremely easy setup experience and detailed setup guide, even a 14yr old could follow it.
+
 
 ## Con’s
 

@@ -5,7 +5,7 @@ date: 2017-08-31 10:47:44
 tags: [unity3d]
 ---
 
-![Image result for visual studio tools for unity](http://winbuzzer.com/wp-content/uploads/2016/07/Visual-Studio-Tools-For-Unity-Winbuzzer-Edit2.jpg "View source image")
+![Image result for visual studio tools for unity](assets/img/posts/image-not-found.png)
 
 If you are building games and projects in Unity and targeting the Universal Windows Platform (UWP), you may have noticed than in the recent Unity releases this was actually broken. What you end up seeing in your build UWP project in visual studio is the following error:
 
@@ -30,13 +30,15 @@ Once discovered, both Unity and Microsoft worked closely together to resolve the
 
 * * *
 
+
 # Fixing the problem
 
 The fix for this problem is fairly easy. However, it is a little time consuming (unless you have a mega fast download connection) as mostly it requires updating to the latest Unity and Visual Studio patch releases.
 
+
 ## 1: Install Unity 2017.1 **p5** or 2017.2.of3
 
-![Image result for unity logo](https://tse1.mm.bing.net/th?id=OIP.CL_GWqULddWEElx71eZ8OwEsCo&pid=15.1 "View source image")
+![Image result for unity logo](assets/img/posts/image-not-found.png)
 
 The first step, is to simply update your installation of Unity:
 
@@ -48,6 +50,7 @@ This will update both Unity and your install of the Visual Studio Tools for Unit
 
 > You can find all the patch releases for all versions listed here: [https://unity3d.com/unity/qa/patch-releases](https://unity3d.com/unity/qa/patch-releases)  
 > Also you can always grab the beta from here: [https://unity3d.com/unity/beta](https://unity3d.com/unity/beta)
+
 
 ## 2: Update VS 2017 to 15.3.3
 
@@ -65,6 +68,7 @@ Open Visual Studio to verify, click “ **Help –\> About Visual Studio** ” i
 
 [![image](/assets/img/wordpress/2017/08/image-6.png "image")](/assets/img/wordpress/2017/08/image-7.png)
 
+
 ## 3: (Optional) **Set player settings for project to .NET & .NET4.6**  
 (NOT IL2CPP, XBL project does not have support for IL2CPP, yet)
 
@@ -78,6 +82,7 @@ Not to be confused with the “Scripting Runtime Version”, which I am told bre
 
 > **\*Note, I’m not saying don’t use IL2CPP (which is required for some Unity features, such as the new Post Processing stack) as it is a cleaner build.  It’s just NOT compatible with the Xbox-Live-Unity plugin at present.**
 
+
 ## 4: Build project targeting UWP SDK 14393 or higher
 
 To build for Modern UWP, you need to be targeting a minimum API level of 14393 (Anniversary Edition), For Mixed Reality builds you will need a minimum API level of 15063 (Creators Update).  Either will work but you need to ensure you select the version that is right for your target.  The current advice with new builds is to always target the latest but that is completely up to you.
@@ -86,9 +91,11 @@ You will find the SDK selection on the “ **Build Settings** ” screen when yo
 
 [![image](/assets/img/wordpress/2017/08/image-8.png "image")](/assets/img/wordpress/2017/08/image-9.png)
 
+
 ## 5: Open project in VS
 
 Once you have built your project, open it in Visual Studio to continue.
+
 
 ## 6: **UPDATE NETCore NuGet** package to 5.4+ \<- without this, it still does not work
 
@@ -114,6 +121,7 @@ Once the NuGet manager is open you will see the installed NuGet packages, with a
 
 Simply select the NuGet package to update, NETCore in this case, select the version to update to on the right and click “Install”.   You will then be walked through a set of screens to accept the license for that package (if one exists) and then a final “get out of jail free” accept or reject screen.   Once complete, all the required references included in that package will be updated.
 
+
 ## 7: Build and Run for x64 only (x86 or Arm is a no go still)
 
 With everything in place, all that is left is to build your project. By default, Unity still insists on selecting the ARM platform as the default (do not know why but I guess it is too small a thing to want to change), so you will need to update this to the x64 platform (do not use x86 unless you really need it, most UWP systems all target x64 now).  After that, you can build.
@@ -121,11 +129,13 @@ With everything in place, all that is left is to build your project. By default,
 If you are unsure about which Solution Configuration to select (read, Build Type), remember what they are there for:
 
 - 
+
 ### Debug
 
 Used obviously for debugging, enables extra debugging information to be sent to an attached instance of Visual Studio (whether you run it from Visual Studio or just “attach” to it later).  Will cause a performance hit when running but this is needed so you can walk through the code if there are any issues.  It will also enable the debug window inside Unity to report errors to the screen should they occur.
 
 - 
+
 ### Release
 
 Builds the project but without all the debugging stuff. just runs your project.  With Unity however, it is keen to note you are still running your entire project with all the superfluous code that Unity has in a project.  **DO NOT SHIP THIS!!!**
@@ -133,11 +143,13 @@ Builds the project but without all the debugging stuff. just runs your project. 
  
 
 - 
+
 ### Master
 
 This is a special Solution Configuration (just for Unity) that also runs code in Unity to strip mine unnecessary code / services and packages everything together neatly.  This makes your Unity project run as fast as it can.  **\<- SHIP/PUBLISH THIS!!!**
 
 * * *
+
 
 # All well and good
 

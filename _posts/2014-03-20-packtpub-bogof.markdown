@@ -13,7 +13,9 @@ PacktPub have launched a BOGOF deal on their entire library, so why not learn tw
 
 For more details on the offer and grabbing your books, just visit the link below:
 
+
 # [PACKTPUB 2K BOGOF DEAL](http://www.packtpub.com/?utm_source=referral&utm_medium=marketingPR&utm_campaign=2000thTitle)
+
 
 #### **The deal is only available till 26th March 2014, so act fast**
 

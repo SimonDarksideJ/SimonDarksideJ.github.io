@@ -16,6 +16,7 @@ So for everyone who could not make it on the day or missed the session (or for t
 
 * * *
 
+
 # Just what is UWP? (The Universal Windows Platform)
 
 [![image](/assets/img/wordpress/2016/11/image-1.png "image")](/assets/img/wordpress/2016/11/image-1.png)
@@ -41,6 +42,7 @@ Also as part of this “Extension” framework, Microsoft gives you the ability 
 
 * * *
 
+
 # But what about the Games?
 
 [![image](/assets/img/wordpress/2016/11/image-3.png "image")](/assets/img/wordpress/2016/11/image-3.png)
@@ -55,6 +57,7 @@ Under the hood, UWP Games are just a DirectX surface and you can write games usi
 
 * * *
 
+
 # Getting started with UWP on Xbox
 
 [![image](/assets/img/wordpress/2016/11/image-5.png "image")](/assets/img/wordpress/2016/11/image-5.png)
@@ -68,6 +71,7 @@ So long as you have a Windows 10 PC and a retail Xbox, your good to go as everyt
 > P.S. If you have an MSDN account, you also get a code for FREE, check your benefits.
 
 * * *
+
 
 # Setting up your development environment
 
@@ -127,6 +131,7 @@ And that is it. You are up and running.  The security of the setup ensures that 
 
 * * *
 
+
 # Checking out the demos
 
 For the demo’s, you are going to need to watch the video but here are some handy links to the start of each demo:
@@ -138,6 +143,7 @@ _\*Click on images to view the demos_
  
 
 * * *
+
 
 # What is Next?
 
@@ -164,11 +170,13 @@ The key here is that you are getting your game out as early as possible, getting
 
 * * *
 
+
 # Key Differences between UWP & Native
 
 [![image](/assets/img/wordpress/2016/11/image-14.png "image")](/assets/img/wordpress/2016/11/image-16.png)
 
 To round this session up and to allay some of the concerns and comments I have either heard or been asked about UWP on Xbox, I will walk through some of the key differences between publishing UWP on Xbox and going native.
+
 
 ## <u>UWP projects</u>
 
@@ -182,6 +190,7 @@ While at [FutureDecoded](https://futuredecoded.microsoft.com/), the [VISR-VR](ht
 
 When publishing UWP games to the Xbox, there are slightly fewer resources to native games (about 70% of resources are available) but there are also fewer certification requirements, meaning less headaches trying to figure out why a controller keeps getting disconnected.  As the demo’s show, there is a **LOT** you can get done with that 70% (remembering, it is 70% of a very powerful beast, do not be fooled in to thinking it is not much)
 
+
 ## <u>Native development</u>
 
 If you get invited in to the Xbox Native group, which is a tougher crowd and you need your project to shine, you will be given 2 developer enabled Xbox’s and a couple of years to get your project “finished”.
@@ -193,6 +202,7 @@ I cannot stress more, just how much extra effort is needed to get a native Xbox 
 There is also the fact that in a lot of cases, you will need C++ skills (or contract them) to work on the interconnectedness of things, or if you need the utmost performance on the platform.  Although, I have known a fair few devs who have not had to go down this route but there are always compromises.
 
 * * *
+
 
 # Summing up
 

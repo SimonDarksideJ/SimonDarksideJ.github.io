@@ -13,11 +13,13 @@ So for our game to be scalable enough to meet these demands we need it to be abl
 
  
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
+
 
 ### Graphics Back buffer
 

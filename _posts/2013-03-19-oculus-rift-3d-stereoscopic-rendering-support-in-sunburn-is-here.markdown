@@ -44,7 +44,7 @@ What’s even more mazing is that HoloPhoe3D ha already announced that his syste
 
 Top That!!! ![Open-mouthed smile](/assets/img/wordpress/2013/03/wlEmoticon-openmouthedsmile.png)
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here/)<script type="text/javascript">// <![CDATA[
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here/)<script type="text/javascript">// <![CDATA[
 var dzone_url = 'http://darkgenesis.zenithmoon.com/oculus-rift-3d-stereoscopic-rendering-support-in-sunburn-is-here/';
 // ]]></script>  
 <script type="text/javascript">// <![CDATA[
@@ -58,4 +58,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)
+// ]]></script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

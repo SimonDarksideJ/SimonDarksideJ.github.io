@@ -32,5 +32,4 @@ Let all just try and get along, respect peoples efforts no matter how bad or goo
 
 Don’t flame! (unless they have abused you in which case flame on)
 
-\<Feel free to flame this post if you disagree, I’m only ranting\>
-
+\<Feel free to flame this post if you disagree, I’m only ranting\

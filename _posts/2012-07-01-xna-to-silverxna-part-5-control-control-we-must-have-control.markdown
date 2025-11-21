@@ -5,7 +5,7 @@ date: 2012-07-01 22:54:48
 tags: [silverlight, xna]
 ---
 
-![width=](http://alientongues.com/wp-content/uploads/2011/06/yoda-toon.jpg)
+![width=](assets/img/posts/image-not-found.png)
 
 Must admit I had a bit of a Star Wars relapse while thinking about what to call this article, hay I’m only human, supposedly.
 
@@ -23,17 +23,19 @@ As usual full source for this chapter can be found [here on Codeplex](http://sil
 
 Follow along with the series here:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls") (here)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
+> ![align=](assets/img/posts/image-not-found.png) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls") (here)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
+
 
 #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
+
 
 ## The Sticky Bits
 
@@ -41,19 +43,19 @@ One of the big issues and decisions you will have to face when using Silverlight
 
 This come from the small fact that at the time of writing (a little caveat in case this is changed in the future) Silverlight CANNOT access content currently held in the XNA content pipeline.  Not too worry you may think, I will just have XNA get the assets and pass them to Silverlight to use, however to top this off Silverlight does not use XNA textures either so were left with a few options which all have their own issues:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Move/Copy the asset to the Silverlight project
+> ![align=](assets/img/posts/image-not-found.png)    Move/Copy the asset to the Silverlight project
 > 
 > This is the simplest answer (and the one we will be using here) but it comes at a sacrifice, the content pipeline does compression of it is assets natively which you do not get in a Silverlight project (just be aware of your asset size!) and if you also need the same image to use in XNA as well then it is going to have to be duplicated in the project.
 > 
 > Also since Silverlight does not support picking / spritesheets, each image has to be separate.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Use the Content pipeline to read the asset as a texture and write a converter to expose it as a Bitmap for Silverlight
+> ![align=](assets/img/posts/image-not-found.png)    Use the Content pipeline to read the asset as a texture and write a converter to expose it as a Bitmap for Silverlight
 > 
 > This is probably the most intensive operation to use, granted Silverlight does not refresh the image as often as XNA does (as it caches images to the screen) but it is going to be costly especially if the images are rather large (which you should avoid on mobile anyway).  This simply means writing an extension method or other function to read in the XNA Texture2D, convert it to JPEG using the in built XNA functions and then construct wither a WritableBitmap or BitmapImage from the resultant JPEG memory stream (you can also do it by hand by manipulating the memory array of the image)
 > 
 > I have use this previously for a [Picture effect sample](/blogs/darkgenesis/archive/2010/09/17/pictures-barcodes-and-effects-oh-my "Pictures, barcodes and effects–oh my") and it does work but it is heavy loading especially if you have a lot of these images on screen.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Write a custom Content Importer to allow reading the asset as a Bitmap/PNG/Jpeg
+> ![align=](assets/img/posts/image-not-found.png)    Write a custom Content Importer to allow reading the asset as a Bitmap/PNG/Jpeg
 > 
 > This would be a more efficient way of doing the same as the above but you run into similar issues as the first, if you use the image both in Silverlight and XNA you are going to need the same image twice, which also hampers the XNA project because both wo not be able to have the same asset name (not really a problem but worth pointing out) also you would need to add libraries to the content project that would not be available in a standard XNA project so be warned, it sounds nice in theory considering the extensibility of the content pipeline but untold issues are likely to unfold.
 
@@ -62,6 +64,7 @@ So as stated above (and because they are only used in one place in this project)
 It is a good point to make here that this leads you to think about how your assets are managed in any project from a design point, if your assets are for the 3D portion of the game place them in the content pipeline, if they are for UI keep them in Silverlight, but understand the difference between the UI portion of your game which may include interactivity and the visual elements which are generally just for show.
 
 * * *
+
 
 ## Assets First
 
@@ -79,6 +82,7 @@ Done, right then lets’ continue!
 
 * * *
 
+
 ## Blending right in
 
 The last section was so short you’d wonder why I bothered making it a section, well truth be told I am a neat and tidy person (you can also hear the wife’s screams of laughter at that one) in general, the last was in VS now lets move over to Blend.
@@ -87,25 +91,25 @@ Launch up Blend if you have not already and open up the “GamePage.XAML” page
 
 Next we just need to set up their properties as follows:
 
-| ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_5F00_00BBA042.png) | 
+| ![image](assets/img/posts/image-not-found.png) | 
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Set the RowSpan and ColumnSpan to “2”
+> ![align=](assets/img/posts/image-not-found.png)    Set the RowSpan and ColumnSpan to “2”
 > 
 > Allows the control to spread across the entire grid
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Set the Horrizontal and Vertical Alignment to Stretch
+> ![align=](assets/img/posts/image-not-found.png)    Set the Horrizontal and Vertical Alignment to Stretch
 > 
 > Allows the control to stretch across the entire space it is been given
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Reset margins using the “Advanced Options”
+> ![align=](assets/img/posts/image-not-found.png)    Reset margins using the “Advanced Options”
 > 
 > Click box next to margins and select “Reset”, or you can play with the margins yourself
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Select the correct image for each overlay
+> ![align=](assets/img/posts/image-not-found.png)    Select the correct image for each overlay
 > 
 > “you\_win.png” for the WinOverlay for example
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Set the visibility to “Collapsed”
+> ![align=](assets/img/posts/image-not-found.png)    Set the visibility to “Collapsed”
 > 
 > So it wo not show on the screen at startup
 
@@ -114,6 +118,7 @@ Next we just need to set up their properties as follows:
 Now Save and Build your project so we can return to studio and complete the training (If you ever find you cannot reference a control on a Silverlight page it is only ever because you either have not named it or built the package recently, new control wo not appear until the project has been built at least once.
 
 * * *
+
 
 ## The Easy Way
 
@@ -131,7 +136,7 @@ So let’s add the following function:
         ## BUGS, BUGS, We got BUGS over here!!!
         
         
-        ![width=](http://thereelseal.files.wordpress.com/2011/08/starship_troopers.jpg)
+        ![width=](assets/img/posts/image-not-found.png)
         
         
         

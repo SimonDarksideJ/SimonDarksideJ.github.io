@@ -15,7 +15,7 @@ There is sometimes, always, a but.
 
 If you are running Vista or Windows 7, if you follow Aaron’s instructions you will most likely see this error:
 
-[![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1172.image_5F00_5F00_0B03645A.png "image")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.image_5F00_0D9CBBE5.png)
+[![image](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.image_5F00_0D9CBBE5.png)
 
 Damn those infernal Administrator privileges, the bain of many a developer (just keep telling yourself those are there for a reason, breathe and move on).
 

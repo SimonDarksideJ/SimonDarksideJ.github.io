@@ -15,6 +15,7 @@ The main reason for this article is to show you some of the best working practic
 
 * * *
 
+
 # Prerequisites
 
 There are many GIT clients, some better than others and each have their strengths, I actually use 3 clients predominately for different tasks.  I could happily get away with just one and work effectively but I like the flexibility that each of the clients I use have.
@@ -51,6 +52,7 @@ Personally I use TortoiseGit for working in explorer and syncing with remote rep
 
 * * *
 
+
 # GIT hosts
 
 Almost all source repositories offer GIT nowadays, such as:
@@ -70,9 +72,11 @@ You only need a host if you are going to host your own project, if you are colla
 
 * * *
 
+
 # Best Practices
 
 in most of the projects I have worked on or with, there have been a few standard “rules of the road” to live by:
+
 
 ### You should:
 
@@ -81,12 +85,14 @@ in most of the projects I have worked on or with, there have been a few standard
 > ![src=]()    Test your work against the latest main / master branch before submitting fixes  
 > ![src=]()    Talk about your fixes on the forums and comment on other devs suggested changes to keep you up to date
 
+
 ### You should never even consider:
 
 > ![src=]()    Submitting a change more than a month old (depending on the velocity of the host project)  
 > ![src=]()    Repeatedly updating your dev branch with your fixes in, as they will be lost in the mire  
 > ![src=]()    Doing a clean of your local dev branch to switch to another without checking all your changes have been committed  
 > ![src=]()    Telling one of the main project contributors / hosts they are wrong, it just does not end well
+
 
 ### Do this and you will be shot!:
 
@@ -98,9 +104,11 @@ All in all just try to be a nice puppy
 
 * * *
 
+
 # Getting Started Contributing
 
 Right, so you found an open source project and you feel you have something to add or something you can help out to fix, now what, just what is it you need to do to get started.  The answer is fairly straightforward and simple when you follow these steps.
+
 
 ## 1: Fork
 
@@ -108,15 +116,18 @@ Right, so you found an open source project and you feel you have something to ad
 
 Depending on which site the project is listed on there should be an option to “Fork” the project, this will create a mirror image of the project just for you on the site. Do not worry about it taking up space because only your changes are logged against you.  GIT servers are usually clever enough to not create duplicates of files everywhere. Fork hard and Fork often.
 
+
 ###### Main Repository:
 
 [![image](/assets/img/wordpress/2013/10/image.png "image")](/assets/img/wordpress/2013/10/image.png)
+
 
 ###### Forked Repository
 
 [![image](/assets/img/wordpress/2013/10/image1.png "image")](/assets/img/wordpress/2013/10/image1.png)
 
 And yes,, you may have noticed you can Fork a Forked repository, there is no end to the madness ![Open-mouthed smile](/assets/img/wordpress/2013/10/wlEmoticon-openmouthedsmile3.png) (but I would not if I were you, unless you are merging)
+
 
 ## 2: Clone
 
@@ -137,11 +148,13 @@ The other method is to copy the Clone URL (link to your online repository) and t
 
 If you choose to simply download the project manually and unzip it, that can work but you will need to add a source (shown later) to the local repository once you create it.
 
+
 ## 3: Branch
 
 ![src=]()
 
 With the Forked project hosted locally, you now have a copy of the Main / Default / Master branch of the source project, first and foremost you should keep this as clean as possible and whenever you can, keep it in sync with the original project.
+
 
 ###### NEVER, NEVER, NEVER to infinity, commit changes to the Main / Default / Master branch.
 
@@ -159,6 +172,7 @@ To create a branch you have three options:
 The safest thing to do is obviously option 1 or 2 as this protects you in-case you need to update the main / master / default branch while you are working (a hopefully unlikely situation).  It also protects you from forgetting to select the “new branch” option on commit and accidentally merging your changes with your local main / master / default branch #facepalm,  If this happens then you are really stuck (you can go back but then you will lose your changes and ultimately you have dirtied your local copy of the main / master / default branch)
 
 Your local repo is now ready for work.
+
 
 ## 4: Do Stuff
 
@@ -186,6 +200,7 @@ And everyone will be a lot happier.  It is better to have 10 small separate bran
 
 Now just “commit” your changes to your local repository when you are happy.  you can do this as often as you like and gives you the option to go back if needed.  If you are still on the master / main / default branch then be sure to check the “New Branch” option or you will end up running and screaming round the office later like a mad person. #BeenThereDoneThat
 
+
 ## 5: Push and Pull
 
 ![src=]()
@@ -204,6 +219,7 @@ Once you kick this off you will be asked what to call your Pull request, by defa
 Then it is up to the original projects admin / organisers to check out / test and decide whether to merge your changes into their main branch.  Once merged you can delete your dev branch as the code is now located in the main / default / master branch.
 
 * * *
+
 
 # Keeping up to date
 
@@ -226,6 +242,7 @@ Be sure, be safe and check again, it is rare but git clients wo not let you chan
 With experience you will find a client that works well for you, usually if there is a problem I use a full GUI route or revert to using the command prompt and eventually it will tell you why it cannot switch branches.
 
 Just find the problem, clean it up and when it finally registers back on the main / default / master branch you can move on.
+
 
 ## Setting up an upstream source
 
@@ -272,6 +289,7 @@ Try to keep in mind though:
 Be a good collaborator and keep your main project admin happy. Do not forget one day it could be you.
 
 * * *
+
 
 # Signing off
 

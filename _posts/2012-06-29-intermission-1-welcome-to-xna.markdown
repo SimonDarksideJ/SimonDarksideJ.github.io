@@ -23,6 +23,7 @@ Once you are setup then lets get on with the show
 
 * * *
 
+
 ## 1. Creating a new XNA project
 
 Starting off is pretty easy, start up your version of visual studio (does not matter what version really, all this is pretty much the same no matter what version you use, be it the express editions, professional or the new 2010 ultimate edition) and click in the menu bar “File –\> New –\> Project” (see below)
@@ -49,11 +50,13 @@ The Solution is the master container for your project, this becomes very useful 
 
 * * *
 
+
 ## 2. XNA Walkthrough
 
 From the solution explorer above, you can see several items listed, some you do not need to worry about at this point like the properties and references, these are automatically setup for your project and we will go in to them a bit more later in the series.
 
 As for the rest, here is what makes up your project.
+
 
 ### 2.1. Program.CS (option to incorporate in game.cs)
 
@@ -70,6 +73,7 @@ There are however a few schools of thought on where this class should live, some
 I prefer to leave it alone as I do not need to look around to find how my game starts also putting the Main function in with our game can cause problems later when we want to host our game in a framework of some kind (which we will also cover later).
 
 So for this part of the tutorial, lets leave it alone and move on.
+
 
 ### 2.2. Game.CS
 
@@ -154,6 +158,7 @@ At this point it is worth pointing out that Game.CS file and the Game1 class are
 > 
 > As the name suggests, this is where you will place all your code that writes to the screen, paints textures, prints text and applies effects. In each game loop, the update function is run and then the draw, then rinse and repeat until the game has ended.
 
+
 ### 2.3. Content 
 
 One of the biggest (and sometimes most controversial) features of the XNA framework is the Content Manager. This is a management system for storing and maintaining references to content for your game, anything from Textures and audio to all your lovely 3D models and fonts.
@@ -164,9 +169,11 @@ One of the major changes to the DigiPen material was adding in the Content Manag
 
 * * *
 
+
 ## 3. New project recommendations
 
 Later in the tutorial once we have a basic game running I’ll cover some of the following best practices when writing games in XNA, some you can do now if you wish but most are for when you implement your own project.
+
 
 ### 3.1. Use Networkgamesample as base
 
@@ -175,6 +182,7 @@ On the Creators club there are many samples and starter kits, of these two very 
 What these provide is a basic game framework including menu screens, transition windows (pause, exit Y/N, etc) and also network example code with gamerservices (XBOX Live support).
 
 This provides a very useful way to get your game started with most of the basic features you need for a final game, it is good to start here. There are several other game project templates including some open [source one on codeplex](http://nuclexframework.codeplex.com/)
+
 
 ### 3.2. Best practices
 
@@ -202,11 +210,13 @@ These are some things you can do now when getting started.
 > 
 > By definition a prototype is a way to test new features and is meant to teach you on how to implement and use it, then it is meant to be thrown away and done properly when implementing it into your game.
 
+
 ### 3.3. Separate Content Project
 
 One idea first ventured by one of the XNA gods (no big build up there honest) Shawn “ever useful” Hargreaves, is to separate your content manager from your game code. The main reason for this is to cut down on build times. Shawn has stated that the content manager has been optimised to only rebuild if there has been a change but invariably this causes the entire content project in your game to be rebuilt with your code. This can cause quite lengthy build times if you have a lot of assets.
 
 The answer to this is quite simple, just separate your code and content into different projects and then just have your game code reference the separate content project. This just enables you to only build your assets when you need to and shortens build times when you are just testing new bits of code. See the discussion on this [here](http://blogs.msdn.com/shawnhar/archive/2009/08/14/why-does-my-content-rebuild-every-time).
+
 
 ### 3.4. Use library for shared features vs copy project
 

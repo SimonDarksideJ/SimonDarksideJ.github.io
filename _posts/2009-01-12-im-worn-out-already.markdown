@@ -8,7 +8,7 @@ tags:
 
 Well I have been busy of the last week and even more so today.  I have finally setup my [new blog](http://faux-motion.blogspot.com/) (the old one will remain for now as I have stated) and got a little intro up there already.  Not to get too excited yet though, I am still working on chapter 1 for the 3D modeling tutorial, but it is coming along nicely.  I am always very critical when it comes to the beginning of such things as if you don’t set the stage properly and get everyone to understand the terminology to be used, you can get in to all sorts of troubles later on.
 
-Still if you want to know how I’ve got here, it is an interesting read.  yuck. ![Tongue out](http://shared.live.com/csi!Rvmz5kFbfVkDrhMJKg/emoticons/smile_tongue.gif "Tongue out")
+Still if you want to know how I’ve got here, it is an interesting read.  yuck. ![Tongue out](assets/img/posts/image-not-found.png)
 
 On another note, further to my introduction to [Dark Omen Games](http://www.mquandt.com/dog/), I have dropped a little note on the new website for our merry little band, absolutely no mentions of Kate Winslet’s acceptance speech at all, hmmm.
 

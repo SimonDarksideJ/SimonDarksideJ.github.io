@@ -12,6 +12,7 @@ At the time of writing this, I am nearing the end of my second journey in to boo
 
  
 
+
 ## [Unity 3D UI Essentials](https://www.packtpub.com/game-development/unity-3d-gui-essentials)
 
 > As the book at the moment is still in preview (pre-order). Full details about the book can be found [here on my blog](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials"). (some of the notes on the Packt site are still very odd, working with the publisher to fix those ![Confused smile](/assets/img/wordpress/2015/01/wlEmoticon-confusedsmile.png))
@@ -26,6 +27,7 @@ So for a little extra chapter which talks about setting up the 3D Demo scene for
 
 * * *
 
+
 # Appendix – The 3D scene sample
 
 As part of **Chapter 5 – Screenspace, Worldspace and the camera,** I setup a simple 3D demo scene with a few effects to make the UI really stand out and shine. However as the focus of this book it was moved to an appendix for you to follow if you so wish.
@@ -36,6 +38,7 @@ Additionally, the appendix is also available online here – http://bit.ly/Unity
 > If you want to skip its creation or just use the completed version to follow through, then you can download the **.UnityPackage** asset for the demo scene here [http://bit.ly/UIEssentialsCh5DemoScene](http://bit.ly/UIEssentialsCh5DemoScene) and then just import it into your project as a **Custom Package** using Assets -\> Import package -\> Custom Package… in the Unity menu.
 
 This chapter just works through a couple of 3D tips and tricks that you can use in any scene to help liven it up and work through some the niggles of working in 3D scenes.
+
 
 # Setting up for the big game
 
@@ -55,6 +58,7 @@ First off for our big example, let’s grab a few things:
 > Note, the SciFi fighter when imported does not use its own folder (very annoying), so after you have imported it, create a new folder called SciFi Fighter and move its assets to this folder (Materials folder, Meshes Folder, Textures folder and SciFi\_Fighter\_AK5 scene), just to keep the project structure tidy.
 
 It is truly amazing what free stuff is available for game creators these days!
+
 
 ## The initial 3D scene
 
@@ -157,6 +161,7 @@ Our sample scene is complete.
 Now return to _ **Chapter 5** _ and start adding some UI to this amazing scene you have created.
 
 * * *
+
 
 # More to come
 

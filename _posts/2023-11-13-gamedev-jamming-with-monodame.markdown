@@ -19,7 +19,7 @@ mathjax: false
 
 > TL;DR -> Getting started with MonoGame is easy, mastering it takes time. So, throw all that out the window and get hacking instead!
 
-[![MonoGameJam5](https://img.itch.zone/aW1nLzEzOTY3NzYzLnBuZw==/original/j3bQh1.png)](https://itch.io/jam/monogamejam5)
+[![MonoGameJam5](assets/img/posts/image-not-found.png)](https://itch.io/jam/monogamejam5)
 
 The [5th annual MonoGameJam](https://itch.io/jam/monogamejam5) is kicking off soon on the **30th November 2023**, which is by far one of the best ways to throw yourself into [MonoGame](https://www.monogame.net/) and learn something new:
 
@@ -50,7 +50,7 @@ In short, MonoGame is a C# based Game Framework (not an engine like Unity), wher
 
 ## Understanding MonoGame game building
 
-![Chopping up MonoGame](https://media2.giphy.com/media/ULI24PxYIyUEJ1Tik0/giphy.gif?cid=ecf05e47neb51dlblgfbddrugr94vil6zimcfmrnqiph8xwr&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![Chopping up MonoGame](assets/img/posts/image-not-found.png)
 
 Getting started with MonoGame is very easy, no matter which platform you are building from, be it Windows, Mac or Linux and the best place to get started, unsurprisingly, is the [MonoGame Getting started guide](https://monogame.net/articles/getting_started/index.html):
 
@@ -62,7 +62,7 @@ For more details, check the [MonoGameJam5 site](https://itch.io/jam/monogamejam5
 
 ## A great sample to start with
 
-![MonoGame basics](https://media0.giphy.com/media/rra3DTvycipdsS3Tqo/giphy.gif?cid=ecf05e4754e8dda3gdkx90m47a6xd29pltjpzjmf9z4njvnw&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![MonoGame basics](assets/img/posts/image-not-found.png)
 
 My personal favorite for any GameJam involving MonoGame is the [GameState Management Sample](https://github.com/SimonDarksideJ/GameStateManagementSample), originally from [Microsoft](https://github.com/simondarksidej/XNAGameStudio/wiki/Game-State-Management-(Mango,-C%23VB)) and updated for MonoGame.
 
@@ -101,6 +101,6 @@ And much much more!
 
 ## Dream Big
 
-![Building big things](https://media4.giphy.com/media/2UBzpqIrFT4Voj4TTo/giphy.gif?cid=ecf05e47z8az1wi2h6qv5pgob6ntxtgr1yli6bdg8xwxyari&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+![Building big things](assets/img/posts/image-not-found.png)
 
 Like most GameJam's, the theme is yet to be announced but that's not to stop you getting a blank slate ready and getting some quick reading done.  In this ever-expanding world of AI nothing stopping you from asking your robot overlords for help (yes, they even help with MonoGame code) in sculpting your dream, above all, have fun, learn well and put your best thumb forward!

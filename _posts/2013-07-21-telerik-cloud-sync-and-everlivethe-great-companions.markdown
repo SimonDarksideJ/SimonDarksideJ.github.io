@@ -11,6 +11,7 @@ There is a lot to be said for what Telerik is trying to achieve by creating a co
 
 * * *
 
+
 # Getting to know Telerik Everlive
 
 Everlive has a lot of similarities to Azures Mobile services (WAMS) in fact almost everything seems to be modelled on what is best  from WAMS and leaving out those bits that dev’s are taking question to.
@@ -21,17 +22,21 @@ You got everything from managed storage and data plus all the API goodness you w
 
 Everlive is driven by Telerik’s Icenium hybrid app suite but you can use it standalone if you wish, just like WAMS or Parse.  Breaking it down here is what you get with Everlive:
 
+
 ### **Data in the Cloud**
 
 You can easily store your app’s data and files in the cloud without having to invest in setting up and maintaining servers. You can focus on your app’s user experience and functionality rather than on backend features.
+
 
 ### **Code in the Cloud**
 
 You can execute business logic and validations straight on our servers using our Cloud Code functionality. You do not have to replicate complex logic on the client where often process time and response is crucial.
 
+
 ### **Users in the Cloud**
 
 You can make your app social by leveraging the powerful User management feature in Everlive. With just a few lines of code you can add user authentication, user authorization, and user management to your app.
+
 
 ### **Easy to use Portal**
 
@@ -40,6 +45,7 @@ Everlive provides user-friendly interface for interacting with app data with bui
 You’ll notice a lot of familiar capabilities and some new interesting addons such as Google Maps and Calendars, certainly a lot to offer.
 
 * * *
+
 
 # Teaming up with client side data sync
 
@@ -62,9 +68,11 @@ For more details on Telerik’s cloud data sync set see here – [http://www.tel
 
 * * *
 
+
 # Pricing
 
 (Excerpt from Teleriks site)
+
 
 ##### THE CLOUDDATASYNC IS INTEGRATED WITH TELERIK CLOUD SERVICES WHICH ARE STILL IN BETA. HERE IS THE PRICING OF THE SERVICE ONCE IT IS OFFICIAL:
 
@@ -102,6 +110,7 @@ $299
 
 * * *
 
+
 # Getting Started
 
 To get up and running with Telerik’s cloud data sync and the Everlive service the best option is to start a new project using Telerik’s new project template (available after installing the Q1 or Q2 2013 Windows Phone 8 control set, get the trial if you have not got a license or a Nokia NDP account)
@@ -127,6 +136,7 @@ And you are done, you will now have a brand new project setup, complete with sam
 You can of course setup the above yourself and get ready the old fashioned way by just add the references manually from the Telerik “Program files” folder and create a new app on the Everlive service.  It is basically the same but there are some additional step which I will add below, which is the same when you want to add your own data.
 
 * * *
+
 
 # Going further
 
@@ -160,6 +170,7 @@ You can if you wish also start adding data to your new table if you wish through
 
 * * *
 
+
 # Getting down with the code
 
 On the code side of things there are few items that need to be taken care of, Telerik have been a lot more programmatic when it comes to initialising your content in your app along with several synchronisation specific settings.
@@ -192,6 +203,7 @@ There is a little more to it than that but you should get the gist from the abov
 
 * * *
 
+
 # Using the Everlive SDK direct
 
 There is another option to integrate with Everlive, through its own native SDK.
@@ -208,6 +220,7 @@ I wo not go in to too much detail (as that is practically a whole other article 
 Full instructions for integrating the SDK with your client apps is also given on the download page.
 
 * * *
+
 
 # Off you go
 

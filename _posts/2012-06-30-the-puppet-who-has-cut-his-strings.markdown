@@ -5,11 +5,12 @@ date: 2012-06-30 23:35:27
 tags: [windows phone]
 ---
 
-![](http://blogs.microsoft.co.il/blogs/arik/IMG_20110414_133317_1ED7A8E0.jpg)
+![](assets/img/posts/image-not-found.png)
 
 For a while now we have had lots of info about the Notification system for Windows Phone 7 and most of that info will tell you there are three parties involved, Your app / The Microsoft Push Notification system / A cloud app/service of your own design.
 
 This last one has been one of the main reasons most apps do not employ this engaging feature of the framework
+
 
 ## However
 
@@ -24,7 +25,7 @@ In my initial explorations into doing push notifications on Windows Phone 7, I c
 
 All of which put me off until I came across an Article by Doug Rathbone on [“The Diary of a Ninja”](http://www.diaryofaninja.com/blog/2011/04/03/windows-phone-7-live-tile-schedules-ndash-executing-instant-live-tile-updates), which showed a different way to create network requests on the phone using Tile Notifications of all things, and so lights and shiney things came to mind to build out the sample here:
 
-In the sample you will find a LOT of stuff (possibly too much but in my mind still not enough ![Open-mouthed smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7357.wlEmoticon_2D00_openmouthedsmile_5F00_283D7E19.png)), examples in the application of:
+In the sample you will find a LOT of stuff (possibly too much but in my mind still not enough ![Open-mouthed smile](assets/img/posts/image-not-found.png)), examples in the application of:
 
 - @MikeHoles Tile Maker
 - MVVMlight
@@ -39,6 +40,7 @@ In the sample you will find a LOT of stuff (possibly too much but in my mind sti
 As you can see there is a lot here, the highlights of which are:
 
 * * *
+
 
 # Notifications from the device
 
@@ -78,6 +80,7 @@ If you use Toast notifications in your app you MUST ask the User if they want to
 
 * * *
 
+
 # MVVMLight
 
 One of the best things I have learnt of late is MVVM, when building UI intensive applications (usually Silverlight) MVVM is invaluable because you separate out all the logic and networking from the UI, leaving the UI to do what it does best and present a beautiful presentation to the user.
@@ -92,6 +95,7 @@ In the View Model Folder, there is the “MainViewModel.cs” class, which conta
 
 * * *
 
+
 # Reactive Programming
 
 The other fantastic frame which I have only scratched the surface on myself is RX or Reactive programming.  RX simplifies and asynchronous operation or enables you specify a section of code that needs to run if certain conditions occur in your code.
@@ -104,15 +108,17 @@ You can fine my RX implementations in the Live tile Updated (Standard events) an
 
 * * *
 
+
 # Image Uploading
 
 Now this took some head scratching, but combining the work with Tile Notifications, RX and the samples for Web Uploading, I finally managed to get Image uploading working from the phone. Useful for situations where to want to save images in app.
 
-It currently uses the “ImageShack” API to upload images to freely.  The receiving code is a bit of a Hack as I really should learn “Linq to XML” but my own education bandwidth is currently full ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6303.wlEmoticon_2D00_smile_5F00_6C313C63.png).
+It currently uses the “ImageShack” API to upload images to freely.  The receiving code is a bit of a Hack as I really should learn “Linq to XML” but my own education bandwidth is currently full ![Smile](assets/img/posts/image-not-found.png).
 
 Fell free to rip out this section to use in your all, it is all my own work here.
 
 * * *
+
 
 # Dev error trapping and Internationalisations
 
@@ -141,11 +147,13 @@ The download for the sample can be found here – [\<Link\>](http://xna-uk.net/m
 
  
 
+
 # References / Thanks
 
 * * *
 
 Jeff Fansler – A great detailed explanation for implementing notifications on the server side
+
 
 #### [A Really Long Post About the Windows Phone 7 Push Notification System](http://www.thisisfanzoo.com/Blog/JeffF/archive/2010/08/02/a-really-long-post-about-the-windows-phone-7-push)
 
@@ -158,6 +166,7 @@ Jeff Fansler – A great detailed explanation for implementing notifications on 
 * * *
 
 Aiden Caine’s network series for WP7
+
 
 #### [Better way to check for an network connection on WP7](http://cisforcoder.wordpress.com/2010/11/27/better-way-to-check-for-an-internet-connection-on-wp7/)
 
@@ -178,6 +187,7 @@ Laurent Bugnion (GalaSoft)
 
 Nishant Sivakumar’s interesting adaptation of the application bar enabled for commands
 
+
 ### [Attaching a Command to the WP7 Application Bar](http://www.codeproject.com/KB/windows-phone-7/CommandToAppBarWP7?display=Mobile)
 
 * * *
@@ -189,6 +199,7 @@ Additional Phone Libraries – supplied through NuGet
 The [Coding4Fun](http://coding4fun.codeplex.com "The Coding4Fun Toolkit on Codeplex") and [Silverlight Toolkits](http://silverlight.codeplex.com/ "The MS Silverlight Toolkit on Codeplex")
 
 * * *
+
 
 ## <font color="#ffc000">And the biggest thanks to</font>
 

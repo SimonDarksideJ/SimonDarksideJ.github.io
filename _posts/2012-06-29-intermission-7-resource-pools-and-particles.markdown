@@ -9,23 +9,26 @@ I was going to do this as two separate articles, but after a refresh trawl at wh
 
 I’ve always been an advocate for “not re-inventing the wheel” and in these days of XNA development, you do not need to.  There are many resources and code stores to find implementations of what you need and you can either learn the lesson of someone else’s approach or just copy it for your own use (make sure the original author gets a mention if you do.
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
 
+
 ### Trawling through the net
 
 In looking around at what other particle and resource pool are around, I found very different levels of content available, some were old but good (that just need tweaking to get back up to date), some were new but were either too basic or did not offer enough flexibility.  Some I really liked, here is a list of what is good that I have found so far:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [Resource Pools by the SwampThing](http://swampthingtom.blogspot.com/2007/06/generic-pool-collection-class.html) – best description of what is required  for a full resource pool, implements this in the CC sample below (still in GS 2)   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [An XNA resource pool on CodeCube](http://codecube.net/2010/01/xna-resource-pool/) – Quick and dirty yet ultimately flexible pool system   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [An Honourable mention to my colleague NemoKrads particle tutorial series](/blogs/randomchaos/archive/2008/03/28/2d-particle-tutorial-iii) – Good graphics oriented particle tutorial (both 3D and 2D with shading)   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [Creators club 2D particle sample](http://creators.xna.com/en-US/sample/particle) – Good resource but still in Game Studio 2 framework, needs a little love to get it going   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    [Riemers 2D game series particles section](http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series2D/Particles.php) – Riemers has always been one of my favourites, the site has not been updated in a while and the tuts are in GS 3, but the forums are still alive and happening (I do not believe I actually wrote that then).
+> ![](assets/img/posts/image-not-found.png)    [Resource Pools by the SwampThing](http://swampthingtom.blogspot.com/2007/06/generic-pool-collection-class.html) – best description of what is required  for a full resource pool, implements this in the CC sample below (still in GS 2)   
+> ![](assets/img/posts/image-not-found.png)    [An XNA resource pool on CodeCube](http://codecube.net/2010/01/xna-resource-pool/) – Quick and dirty yet ultimately flexible pool system   
+> ![](assets/img/posts/image-not-found.png)    [An Honourable mention to my colleague NemoKrads particle tutorial series](/blogs/randomchaos/archive/2008/03/28/2d-particle-tutorial-iii) – Good graphics oriented particle tutorial (both 3D and 2D with shading)   
+> ![](assets/img/posts/image-not-found.png)    [Creators club 2D particle sample](http://creators.xna.com/en-US/sample/particle) – Good resource but still in Game Studio 2 framework, needs a little love to get it going   
+> ![](assets/img/posts/image-not-found.png)    [Riemers 2D game series particles section](http://www.riemers.net/eng/Tutorials/XNA/Csharp/Series2D/Particles.php) – Riemers has always been one of my favourites, the site has not been updated in a while and the tuts are in GS 3, but the forums are still alive and happening (I do not believe I actually wrote that then).
 
 * * *
+
 
 ### Resource Pools
 
@@ -43,17 +46,18 @@ So we are left with the SwampThing Resource pool, overall it provides a good fra
 
 * * *
 
+
 ### Particles
 
 Particle systems can be some of the most complex systems of many a game, where the desire for effect is key.  It does not have to be though, it just depends on your implementation and how far you want to go with it.
 
 Particle systems are comprised of several Key components:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particles – A single sprite texture or point sprite, the smallest component of particle effects.  Like a single spark in a firework.   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particle Managers – Managers control how long an individual particle lives for, destroying it when it is dead and updating the one’s still alive.   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particle Emitters – Emitters are a point of flow, like a hosepipe flooding out water, how you squeeze the pipe effects the kind of flow or spray emitted.   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particle Behaviours – Control what a particle does once it has been emitted, swirls, dives or splits in two.  Many possibilities.   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Particle Animation – A scripted animation of several effects or particles.  Bit like a firework show.
+> ![](assets/img/posts/image-not-found.png)    Particles – A single sprite texture or point sprite, the smallest component of particle effects.  Like a single spark in a firework.   
+> ![](assets/img/posts/image-not-found.png)    Particle Managers – Managers control how long an individual particle lives for, destroying it when it is dead and updating the one’s still alive.   
+> ![](assets/img/posts/image-not-found.png)    Particle Emitters – Emitters are a point of flow, like a hosepipe flooding out water, how you squeeze the pipe effects the kind of flow or spray emitted.   
+> ![](assets/img/posts/image-not-found.png)    Particle Behaviours – Control what a particle does once it has been emitted, swirls, dives or splits in two.  Many possibilities.   
+> ![](assets/img/posts/image-not-found.png)    Particle Animation – A scripted animation of several effects or particles.  Bit like a firework show.
 
 We will only cover the first two or three here and maybe add more later, animations with particles in particular can be quite a bit of a challenge to get right.
 
@@ -61,7 +65,7 @@ An individual particle, as described above, is like a spark in a firework, howev
 
 If you look around there are several good test apps or samples of firework displays which are all driven by particle effects.
 
-| ![image](http://xna-uk.net/blogs/darkgenesis/image_6CB1C5C4.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_67230986.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_35C3F959.png) |
+| ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) |
 | 
 
 Explosion effect (with Smoke)
@@ -75,6 +79,7 @@ Smoke Plume effect
 Explosion Particle
 
  |
+
 
 #### 1. Particle class
 
@@ -90,14 +95,14 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Position – location on the screen of the particle   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Velocity – it is velocity   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Acceleration – Its acceleration state so the particle increases or decreases each update   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Lifetime – how long the particle should live   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Scale – so we can expand or reduce the particle size   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Rotation Speed – how fast the particle rotates   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Rotation – the particles current rotation, initialised to a random angle   
-    > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Time Since Start – how long the particle has been alive for
+    > ![](assets/img/posts/image-not-found.png)    Position – location on the screen of the particle   
+    > ![](assets/img/posts/image-not-found.png)    Velocity – it is velocity   
+    > ![](assets/img/posts/image-not-found.png)    Acceleration – Its acceleration state so the particle increases or decreases each update   
+    > ![](assets/img/posts/image-not-found.png)    Lifetime – how long the particle should live   
+    > ![](assets/img/posts/image-not-found.png)    Scale – so we can expand or reduce the particle size   
+    > ![](assets/img/posts/image-not-found.png)    Rotation Speed – how fast the particle rotates   
+    > ![](assets/img/posts/image-not-found.png)    Rotation – the particles current rotation, initialised to a random angle   
+    > ![](assets/img/posts/image-not-found.png)    Time Since Start – how long the particle has been alive for
     
     
     
@@ -189,9 +194,9 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                 
                 
                 
-                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Change the inherited type from Game Component to Drawable Game component   
-                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Add the Load and Unload Resource overloads   
-                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Add the overloaded Draw function
+                > ![](assets/img/posts/image-not-found.png)    Change the inherited type from Game Component to Drawable Game component   
+                > ![](assets/img/posts/image-not-found.png)    Add the Load and Unload Resource overloads   
+                > ![](assets/img/posts/image-not-found.png)    Add the overloaded Draw function
                 
                 
                 
@@ -1706,7 +1711,7 @@ Now in keeping with reuse, the MS particle class example is as good an effort as
                                                 
                                                 
                                                 
-                                                ![Fireball-New2](http://xna-uk.net/blogs/darkgenesis/FireballNew2_47140E97.png)  ![Experiment 5](http://xna-uk.net/blogs/darkgenesis/Experiment5_3A35A47A.png)   ![Fireball-New](http://xna-uk.net/blogs/darkgenesis/FireballNew_23DF3D8E.png)
+                                                ![Fireball-New2](assets/img/posts/image-not-found.png)  ![Experiment 5](assets/img/posts/image-not-found.png)   ![Fireball-New](assets/img/posts/image-not-found.png)
                                                 
                                                 
                                                 Technorati Tags: [XNA](http://technorati.com/tags/XNA)

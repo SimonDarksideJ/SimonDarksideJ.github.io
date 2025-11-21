@@ -8,13 +8,14 @@ tags: [adrotator, windows phone]
 [![Icon_1_purple](/assets/img/wordpress/2012/09/Icon_1_purple.png "Icon\_1\_purple")](/assets/img/wordpress/2012/09/Icon_1_purple.png)          ![ /></p>
 <h1>AdRotator for Windows Phone Silverlight V1.2 release</h1>
 <p>With the release of what is likely the last version in the V1 branch of AdRotator for Windows Phone Silverlight I have gone some lengths to make sure the documentation and samples are also feature complete.</p>
-<p>For the XNA version read this article and then <a href=](http://upload.wikimedia.org/wikipedia/en/thumb/9/99/Microsoft_Silverlight_logo.png/150px-Microsoft_Silverlight_logo.png)continue on to here
+<p>For the XNA version read this article and then <a href=](assets/img/posts/image-not-found.png)continue on to here
 
 If you have not seen AdRotator before, it is a control library that supports multiple Ad Providers (MS PubCenter, [AdDuplex](https://www.adduplex.com/), Smaato to name but a few) with the ability to change the configuration of your Ad configuration remotely without having to rebuild your app.  To date there are over 300 apps and games using AdRotator and it is reach is extending further each day.  To learn more about what is AdRotator then check out the codeplex project page here.
 
 So this is the final “How-To” guide updated and refreshed for the 1.2 release end – to end
 
 * * *
+
 
 # Getting Started
 

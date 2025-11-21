@@ -11,11 +11,13 @@ So time to start adding something for the Trooper to be worried about, the dread
 
 As usual find the Windows, Phone 7 and original webcast plus docs [here on the Codeplex](http://startrooper2dxna.codeplex.com/releases/view/46706) site.
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
+
 
 ### Transformation of Sprites
 
@@ -33,7 +35,7 @@ In graphics terms the way we describe movement of an image is called Transformat
 > 
 > This is the same as most of the common mathematical notation you will come across in games development.  In short P’x’ = Px \* tx and P’y’ = Py \* Ty.
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_6D0481D4.png)
+![image](assets/img/posts/image-not-found.png)
 
 > When moving Sprites round in our 2D world, it becomes a lot simpler in reality, during each update we need to tell our sprite which way we need it to move, left, right, up or down and add how much we want it to move to. (shown later)
 
@@ -43,7 +45,7 @@ In graphics terms the way we describe movement of an image is called Transformat
 > 
 >  
 > 
-> ![image](http://xna-uk.net/blogs/darkgenesis/image5_481394D0.png)
+> ![image](assets/img/posts/image-not-found.png)
 > 
 > Again, things are quite simple as to change the direction we are currently facing, we just add a value to our rotation amount during each update cycle for the amount we want to move.  This usually equates to the amount of change by what the player has applied (using the control stick or keyboard)
 
@@ -55,7 +57,7 @@ In graphics terms the way we describe movement of an image is called Transformat
 > 
 >  
 > 
-> ![image](http://xna-uk.net/blogs/darkgenesis/image_06D4A405.png)
+> ![image](assets/img/posts/image-not-found.png)
 > 
 > As the diagram above shows from a scale point of 0 (no image) we can scale up by a factor of 1 to show the original image size as far up as we wish.  We can also scale back by a factor of 1 to get a reverse (negative X) and upside down (negative Y) image and onwards.
 > 
@@ -76,6 +78,7 @@ In graphics terms the way we describe movement of an image is called Transformat
 * * *
 
  
+
 
 ### Collision
 
@@ -117,9 +120,9 @@ There are many reasons to have collision detection and below are some of the met
  
 
 | diagram showing two test boxes overlapping, objects have collided |
-| ![image](http://xna-uk.net/blogs/darkgenesis/image_0A15F013.png) |
+| ![image](assets/img/posts/image-not-found.png) |
 | Diagram showing two test boxes separated, objects have not collided |
-| ![image](http://xna-uk.net/blogs/darkgenesis/image_5FD61C5D.png) |
+| ![image](assets/img/posts/image-not-found.png) |
 
 > Using the same calculation as above for the second diagram:
 > 
@@ -154,7 +157,7 @@ There are many reasons to have collision detection and below are some of the met
 > 
 >  
 > 
-> ![image](http://xna-uk.net/blogs/darkgenesis/image_40BFD2F2.png)
+> ![image](assets/img/posts/image-not-found.png)
 > 
 >  
 > 
@@ -233,7 +236,7 @@ There are many reasons to have collision detection and below are some of the met
 >     
 >     
 >     
-> | ![image](http://xna-uk.net/blogs/darkgenesis/image_7664F27F.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_68A210AA.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_62F3CA79.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_014DE596.png) |
+> | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) |
 > | Fire shot is sent towards the Condor | Fire shot approaches a Condor, No intersection yet | Fire shot is very near the Condor.  The two images intersect, but as you can see the shot itself has not actually hit the Condor.   
 > For now this would kill the Condor | Fire shot now overlaps the Condor.   
 > This is when the evil do-er should really be punished and shot down.  Per-Pixel collision would detect this. |
@@ -249,6 +252,7 @@ There are many reasons to have collision detection and below are some of the met
 * * *
 
  
+
 
 ### Velocity (physics)
 
@@ -285,7 +289,7 @@ In this tutorial, we are only covering the basics.  If you move an object, it si
 > X = 0, Y = 1
 > 
 > |
-> | ![image](http://xna-uk.net/blogs/darkgenesis/image37_2D7A46AD.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image28_7718F8D0.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image31_6E38CAB7.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image34_5EA5931B.png) |
+> | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) |
 > 
 >  
 > 
@@ -333,6 +337,7 @@ In this tutorial, we are only covering the basics.  If you move an object, it si
 
 * * *
 
+
 ### Implementation 
 
  
@@ -343,13 +348,14 @@ Most people only see what we draw on the screen and how it interacts with us whi
 
 The diagram below tries to convey this, in the middle we can see the game window(what is actually drawn to the screen) identified as “ **Screen Space** ”.  Everything that happens within this boundary the user can see.  Surrounding that is an almost infinite area we refer to as world space, that is everything that happens outside of Screen Space, we refer to this as “ **World Space** ”.
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_69061BA1.png)
+![image](assets/img/posts/image-not-found.png)
 
 Now we saw a bit of this when drawing the background, as we offset two copies of the background image, one above the screen and one below, with parts of the background always being outside the screen we can see.
 
 For the Condors, we are going to do the same thing, by creating the Condor’s outside the viewable area and then let them move towards the Trooper.  At some point the Condor will pass into the viewable area and be seen.
 
 The other more complicated way we could do this would be to start the Condor at the edge of the screen, calculate just how much of the Condor we could see and only draw that part, then repeat that every game loop until the Condor is fully on the screen.  but why make things complicated when the graphics card already does this for us.
+
 
 ### Adding the Condor
 
@@ -509,9 +515,11 @@ Onwards and upwards chaps and chapettes
 
 * * *
 
+
 ### Minor addendum
 
  
+
 
 #### 1. SpriteEffects move to Sprite Class
 

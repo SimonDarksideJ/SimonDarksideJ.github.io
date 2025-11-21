@@ -12,13 +12,16 @@ I’ve been around the game development arena for so many years now that it actu
 
 One thing that has piled up over the years is my massive collection of links to FREE (or nearly free) resources to help out those building games, some are assets, others are the best samples of free tutorials to either build your own or craft simple items in to much much more.
 
+
 ##### \*\*Note – in the land of hunting for FREE do not think because it uses the word “free” that it has no restrictions. ALWAYS check the license (most just want attribution or mention). Be very aware of “Royalty Free” which only means it is free to use AFTER you buy it
 
 So without much todo and very little formatting here is the first drop (so many links, takes time to go through them), all work (Checked as of 22 August 2013).
 
+
 #### \*\* Updated 10th July 2014
 
 <!--EndFragment-->
+
 
 # Books, Books and more books
 
@@ -30,6 +33,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[http://pcgbook.com](http://t.co/GUg7SmKSsK) – Interesting resource on procedural graphics in online book form, based on a course
 - \*\*[http://bit.ly/MicrosoftFreeBooksCollection](http://bit.ly/MicrosoftFreeBooksCollection "Large collection of free MS eBooks") – The largest repository of free books. Not all gamedev but a lot of info on game related stuff.
 
+
 # Tools
 
 - [http://www.develop-online.net/news/35461/Seven-free-tools-to-give-your-game-studio-a-boost](http://www.develop-online.net/news/35461/Seven-free-tools-to-give-your-game-studio-a-boost) – Develops view of 7 of top tools
@@ -39,6 +43,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://darkgenesis.zenithmoon.com/in-the-search-for-a-3d-modelling-tool-for-xna/](http://darkgenesis.zenithmoon.com/in-the-search-for-a-3d-modelling-tool-for-xna/) – other FREE 3D modelling editors
 - [http://windowsphone.stackexchange.com/](http://windowsphone.stackexchange.com/) – Windows Phone Stack exchange
 - [http://www.1800pocketpc.com/best-free-cloud-storage-services-windows-phone-8/](http://www.1800pocketpc.com/best-free-cloud-storage-services-windows-phone-8/) – Best free cloud storage services
+
 
 # Collections
 
@@ -50,6 +55,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://blog.diabolicalgame.co.uk/p/reminders.html](http://blog.diabolicalgame.co.uk/p/reminders.html) – Another Monster set of resources for game dev (be sure not to click on the circular reference ![Open-mouthed smile](/assets/img/wordpress/2013/08/wlEmoticon-openmouthedsmile2.png))
 - [http://www.creativebloq.com/design/1000-12121531](http://www.creativebloq.com/design/1000-12121531) – a massive collection of 1300 designer resources
 - \*\*[http://bit.ly/OneStopShopOfGameDevLinks](http://bit.ly/OneStopShopOfGameDevLinks "Your 1 stop shot of game dev resources") – [Lee Stott](https://twitter.com/lee_stott "Lee on Twitter") (Microsoft Evangelist) gives us yet another massive set of game dev resources
+
 
 # Game Dev Tutorials
 
@@ -69,6 +75,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://www.codeproject.com/Articles/649273/A-Algorithm-for-Path-Planning](http://www.codeproject.com/Articles/649273/A-Algorithm-for-Path-Planning) – Nice simple A\* pathfinding tutorial
 - [http://www.codeproject.com/Articles/638777/A-Complex-Yet-Quite-Intelligible-Pathfinding-in-Cs](http://www.codeproject.com/Articles/638777/A-Complex-Yet-Quite-Intelligible-Pathfinding-in-Cs) – Another Pathfinding tutorial
 
+
 # MonoGame Tutorials & Stuff
 
 - [https://monogame.codeplex.com/discussions/439595](https://monogame.codeplex.com/discussions/439595) – Large list of MonoGame tutorials
@@ -77,6 +84,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[https://github.com/GarethIW/LDEngine](https://github.com/GarethIW/LDEngine "https://github.com/GarethIW/LDEngine") – 2D pixelart engine for all future LD jams
 - \*\*[http://www.matthughson.com/2014/04/20/from-xna-to-google-play-a-primer/](http://www.matthughson.com/2014/04/20/from-xna-to-google-play-a-primer/ "http://www.matthughson.com/2014/04/20/from-xna-to-google-play-a-primer/") – XNA TO MONOGAME.ANDROID – PORTING PRIMER
 - \*\*[http://tirania.org/slides/AltDevConf-2012-Mono.pdf](http://tirania.org/slides/AltDevConf-2012-Mono.pdf "http://tirania.org/slides/AltDevConf-2012-Mono.pdf") – Mono for game developers presentation by non other than Miguel de Icaza of Xamarin
+
 
 # Marketing Tutorials
 
@@ -89,11 +97,13 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[http://Mangotron.com](http://Mangotron.com )– has covered over 100 games since May. Submit yours now!
 - \*\*[http://nakedgameplay.com](http://t.co/qbGc1QZzny) – Promote your Games Shamelessly, Everyday is [# **screenshotsaturday**](https://twitter.com/hashtag/screenshotsaturday?src=hash)
 
+
 # Other Tutorials
 
 - [http://blogs.msdn.com/b/jerrynixon/archive/2012/11/12/training-resources-for-native-c-and-c-cx-programming-graphics-and-gaming](http://blogs.msdn.com/b/jerrynixon/archive/2012/11/12/training-resources-for-native-c-and-c-cx-programming-graphics-and-gaming) – Training Resources for native C++ and C++CX programming, graphics and gaming
 - \*\*[http://invokeit.wordpress.com/2012/02/06/wp7-app-piracy-and-how-to-deal-with-it/](http://invokeit.wordpress.com/2012/02/06/wp7-app-piracy-and-how-to-deal-with-it/) – Anti-Piracy tips for Windows / Windows Phone
 - \*\*[http://shaunsgameacademy.co.uk/](http://shaunsgameacademy.co.uk/ "http://shaunsgameacademy.co.uk/") – Kids game academy from Aardman Studios (Yes the Wallace and Grommet people)
+
 
 # Blender Stuff
 
@@ -108,6 +118,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[https://www.youtube.com/watch?v=399gTvoM9o4](https://www.youtube.com/watch?v=399gTvoM9o4 "https://www.youtube.com/watch?v=399gTvoM9o4") – How to create light sphere’s in Cycles
 - \*\*[http://t.co/zEmkln3f8S](http://t.co/zEmkln3f8S "http://t.co/zEmkln3f8S") – Blender 2.70 – Painting with Particles
 
+
 # Audio resources
 
 - [http://www.freesound.org/](http://www.freesound.org/) – community collection of (you guessed it) free sounds
@@ -118,16 +129,19 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://vimeo.com/musicstore](http://vimeo.com/musicstore) – Yet another library of sounds and music, some free some paid, some just AWESOMMME (thanks to Anthony Brown)
 - [http://jessefreeman.com/game-dev/intro-to-making-sound-effects-for-games/](http://jessefreeman.com/game-dev/intro-to-making-sound-effects-for-games/) Another Jesse Freeman tutorial, this time on audio
 
+
 # Generators
 
 - [http://sourceforge.net/projects/pcgen/](http://sourceforge.net/projects/pcgen/) – an RPG character generator on sourceforge
 - [http://sourceforge.net/projects/fracplanet/](http://sourceforge.net/projects/fracplanet/) – A fractal planet generator, good to learn from
 - \*\*[http://pcgbook.com/](http://pcgbook.com/ "http://pcgbook.com/") – A whole online book about Procedural Content Generation in games
 
+
 # Get Help
 
 - [http://forum.thegamecreators.com/?m=forum\_view&b=24&t=190364&p=1](http://forum.thegamecreators.com/?m=forum_view&b=24&t=190364&p=1) – Pure gold, artists who will work for free or for a cut of your profits.  Really nice crowd
 - [http://fiverr.com/l/logo\_design\_b3](http://fiverr.com/l/logo_design_b3) – Need a logo design on the cheap, seems very reasonable
+
 
 # 3D Model resources
 
@@ -147,6 +161,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[http://rift3d.com/30-free-tree-models-and-more-for-commercial-use/](http://rift3d.com/30-free-tree-models-and-more-for-commercial-use/ "http://rift3d.com/30-free-tree-models-and-more-for-commercial-use/") – 30 Tree Models Free for Commercial Use (and more!)
 - \*\*[http://darkscarab.com/resources/?type=models](http://darkscarab.com/resources/?type=models "http://darkscarab.com/resources/?type=models") – Dark Scarab’s Awesome tutorial and free 3D model site
 - \*\*[http://www.cgtrader.com/free-3d-models/](http://www.cgtrader.com/free-3d-models/) – Another go to place for 3D model resources and more, they also offer 3D printing services and printers 😀
+
 
 # 2D art,vectors and backgrounds
 
@@ -178,6 +193,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[https://t.co/gs6faXZM1m](https://t.co/gs6faXZM1m "https://t.co/gs6faXZM1m") – Not free but really really cheap set of Modular 2D spaceships
 - \*\*[http://brushcity.com/free-art.html](http://brushcity.com/free-art.html) – they offer a sample of free graphics work but also offer a reasonable catalogue of other 2D artwork
 
+
 # Icon Libraries
 
 - [http://findicons.com](http://findicons.com/) Free icon site, some spectacular image sets like this one [http://findicons.com/pack/1472/starships](http://findicons.com/pack/1472/starships)
@@ -192,6 +208,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://www.alessioatzeni.com/metrize-icons/](http://www.alessioatzeni.com/metrize-icons/) – 300 modern icons
 - [http://modernuiicons.com/tutorial](http://modernuiicons.com/tutorial) – Tips and design help for creating your own icons
 
+
 # Font Resources
 
 - [http://typography-daily.com/blog/2013/05/22/10-great-free-monospaced-fonts-for-programming/](http://typography-daily.com/blog/2013/05/22/10-great-free-monospaced-fonts-for-programming/) – 10 great free monospaced fonts for programming
@@ -200,16 +217,20 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://www.functionn.in/2012/11/the-best-free-iconic-web-fonts.html](http://www.functionn.in/2012/11/the-best-free-iconic-web-fonts.html) – THE MOST COMPREHENSIVE INDEX OF FREE ICON FONTS/ICONIC WEB FONTS
 - [http://designreflect.com/free-handwritten-fonts/](http://designreflect.com/free-handwritten-fonts/) – 20 Free Handwritten Fonts
 
+
 # Shader things
 
 - [https://www.shadertoy.com/view/4ds3WS](https://www.shadertoy.com/view/4ds3WS) – a shader that creates MineCraft block type worlds
 - \*\* [http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js](http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js "http://blogs.msdn.com/b/eternalcoding/archive/2014/04/17/learning-shaders-create-your-own-shaders-with-babylon-js") – What do you mean by shaders? Learn how to create shaders
 
+
 # Unity Stuff
+
 
 ###### Moved all these links to the dedicated “[So you want to be a Unity Game Developer](http://darkgenesis.zenithmoon.com/so-you-want-to-be-a-unity3d-game-developer/ "So you want to be a Unity3D game developer?")” post
 
  
+
 
 # Game Engines and resources
 
@@ -231,6 +252,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://assimp.sourceforge.net/index.html](http://assimp.sourceforge.net/index.html) – C++ Asset system for gamedev, plus check out the C# wrapper for the lib here – [https://code.google.com/p/assimp-net/](https://code.google.com/p/assimp-net/)
 - [http://nine.codeplex.com/](http://nine.codeplex.com/) – XNA Based game engine, also suitable for MonoGame dev
 
+
 # Windows Phone
 
 - [http://michaelcrump.net/mbcrump/archive/2011/04/25/best-of-free-frameworks-tools-and-controls-for-windows-phone](http://michaelcrump.net/mbcrump/archive/2011/04/25/best-of-free-frameworks-tools-and-controls-for-windows-phone) – Michael Crumps monster list of WP Dev tools and resources
@@ -245,12 +267,14 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[http://fixmyassets.azurewebsites.net/](http://fixmyassets.azurewebsites.net/ ) – Convenient online tool for generating icons for Windows 8 and Windows Phone apps
 - \*\*[http://www.sharpgis.net/post/2014/05/22/Create-Universal-Map-App-In-Under-2-Minutes](http://www.sharpgis.net/post/2014/05/22/Create-Universal-Map-App-In-Under-2-Minutes "http://www.sharpgis.net/post/2014/05/22/Create-Universal-Map-App-In-Under-2-Minutes") – Create Universal Map App In Under 2 Minutes
 
+
 # Azure and cloud gaming
 
 - [http://ntotten.com/2012/12/20/hosting-multiple-wordpress-sites-for-free-on-windows-azure/](http://ntotten.com/2012/12/20/hosting-multiple-wordpress-sites-for-free-on-windows-azure/) – A bit of a random one but going to know if you use WordPress on Azure
 - [http://sviluppomobile.blogspot.it/2013/05/hack-to-enable-azure-mobile-services.html](http://sviluppomobile.blogspot.it/2013/05/hack-to-enable-azure-mobile-services.html) – Enable Azure Mobile Services for “pure” Windows Phone 7.1
 - [http://themebot.com/free-website-templates/html-templates](http://themebot.com/free-website-templates/html-templates) – Free web site templates
 - \*\*[http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game](http://blogs.msdn.com/b/uk_faculty_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game "http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game") – Using Cloud Services to make a Leaderboard for a Unity Game
+
 
 # Web Stuff
 
@@ -273,12 +297,14 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[http://t.co/GeH8OuJlaW](http://t.co/GeH8OuJlaW "http://t.co/GeH8OuJlaW") – After //Build: Babylon.js
 - \*\*[http://t.co/RJ2XuwC5tC](http://t.co/RJ2XuwC5tC "http://t.co/RJ2XuwC5tC") – Presenting Intro to [**Construct2**](https://twitter.com/hashtag/Construct2?src=hash) Game Development
 
+
 # .NET stuff
 
 - [http://qink.net/page/The-Ultimate-List-of-Freely-Available-\_NET-Libraries](http://qink.net/page/The-Ultimate-List-of-Freely-Available-_NET-Libraries) – The Ultimate List of Freely Available .NET Libraries
 - [http://blogs.msdn.com/b/lucian/archive/2013/08/15/how-to-generate-pdf-on-windows-phone-in-vb-or-c](http://blogs.msdn.com/b/lucian/archive/2013/08/15/how-to-generate-pdf-on-windows-phone-in-vb-or-c) Creating PDF’s in C# or VB
 - \*\*[http://log.paulbetts.org/the-bait-and-switch-pcl-trick/](http://log.paulbetts.org/the-bait-and-switch-pcl-trick/ "http://log.paulbetts.org/the-bait-and-switch-pcl-trick/") – The Bait and Switch PCL Trick (essential PCL reading)
 - \*\*[http://t.co/omFMUjQC00](http://t.co/omFMUjQC00 "http://t.co/omFMUjQC00") – John Skeet’s blog is amazing for anything C#
+
 
 # Xamarin and Multi-Platform stuff
 
@@ -290,6 +316,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - \*\*[http://t.co/EmWcZ0XnR3](http://t.co/EmWcZ0XnR3 "http://t.co/EmWcZ0XnR3") – Simple Show in Github extension for Xamarin Studio
 - \*\*[http://bit.ly/1olbHOe](http://bit.ly/1olbHOe) – Bucket load of Xamarin hacks and cute blog posts
 - \*\*Xamarin/MonoGame porting demo at Windows Phone User Group UK – [http://t.co/1pHc3fpe07](http://t.co/1pHc3fpe07 "http://t.co/1pHc3fpe07")
+
 
 # Random Pickings
 
@@ -305,6 +332,7 @@ So without much todo and very little formatting here is the first drop (so many 
 - [http://www.dzone.com/links/r/26\_best\_responsive\_metro\_wordpress\_themes.html](http://www.dzone.com/links/r/26_best_responsive_metro_wordpress_themes.html) – WordPress themes to live by
 - [http://www.youtube.com/watch?v=yzR9kLuG8Ts&feature=youtu.be](http://www.youtube.com/watch?v=yzR9kLuG8Ts&feature=youtu.be) – Project Spark, watch and learn!
 - \*\*[http://www.gamasutra.com/blogs/JamieAisthorpe/20140427/216323/The\_Poor\_Game\_Developer\_Tool\_Kit.php](http://www.gamasutra.com/blogs/JamieAisthorpe/20140427/216323/The_Poor_Game_Developer_Tool_Kit.php "http://www.gamasutra.com/blogs/JamieAisthorpe/20140427/216323/The\_Poor\_Game\_Developer\_Tool\_Kit.php") – The Poor Game Developer Tool Kit
+
 
 # Click this NOW!!
 

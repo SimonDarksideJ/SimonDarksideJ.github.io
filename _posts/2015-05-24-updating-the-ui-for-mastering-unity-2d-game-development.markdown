@@ -5,7 +5,7 @@ date: 2015-05-24 14:41:06
 tags: [mastering-unity-2d]
 ---
 
- [![](https://www.packtpub.com/sites/default/files/7347OT_Mastering%20Unity%202D%20Game%20Development_cover.jpg)](https://www.packtpub.com/game-development/mastering-unity-2d-game-development#)
+ [![](assets/img/posts/image-not-found.png)](https://www.packtpub.com/game-development/mastering-unity-2d-game-development#)
 
 As promised for a while now, I am writing a series of tutorials for updating the GUI in my [Mastering Unity 2D Game Development](https://www.packtpub.com/game-development/mastering-unity-2d-game-development#) book to the all new and sparkly UI system that Unity introduced In version 4.6.
 
@@ -13,7 +13,7 @@ As promised for a while now, I am writing a series of tutorials for updating the
 
 Now, these bonus chapters are not going to teach you the in’s and out’s of the new UI system, that is what my title [Unity 3D UI Essentials](https://www.packtpub.com/game-development/unity-3d-gui-essentials) is there for but I will be going through everything you need to update your RPG games with some new UI tricks.
 
-[![](https://www.packtpub.com/sites/default/files/3560_Unity%203D%20GUI%20Essentials.jpg)](https://www.packtpub.com/game-development/unity-3d-gui-essentials)
+[![](assets/img/posts/image-not-found.png)](https://www.packtpub.com/game-development/unity-3d-gui-essentials)
 
  
 

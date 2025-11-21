@@ -21,22 +21,24 @@ With [Azure Devops](https://darkgenesis.zenithmoon.com/using-azure-pipelines-wit
 
 If you have spare kit (does not need to be uber fast) then it makes sense to leave it powered on in the corner and have all your builds/tests run on it while you continue to work.  And this isn't an either/or moment either, if you want you can run some of the smaller automations you use to do code validation or check-in "checks" using hosted agents and then run your intensive work on your own box, it is completely up to you.
 
+
 ## Microsoft-hosted pipeline agents
 
 As mentioned previously, for both Azure and GitHub automation, Microsoft provide you several images to run your jobs, which you chose is dependent on what the job is doing and the requirements needed to run them, for most script / .NET / NPM tasks Ubuntu (Linux) is fine and it is also the cheapest from an automation standpoint.  As soon as you start needing software, such as Unity, then your options become a bit more limited to either Windows or Mac:
 
 | Image | YAML Label | Included Software | Rollout Progress of Latest Image Release |
 | --------------------|---------------------|--------------------|---------------------|
-| Ubuntu 22.04 | `ubuntu-22.04` | [ubuntu-22.04] | [![status22](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu22&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu22&redirect=1)
-| Ubuntu 20.04 | `ubuntu-latest` or `ubuntu-20.04` | [ubuntu-20.04] | [![status20](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu20&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu20&redirect=1)
-| Ubuntu 18.04 <sup>deprecated</sup>  | `ubuntu-18.04` | [ubuntu-18.04] | [![status18](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu18&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu18&redirect=1)
-| macOS 12 | `macos-12`| [macOS-12] | [![statusumac12](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-12&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-12&redirect=1)
-| macOS 11 | `macos-latest` or `macos-11`| [macOS-11] | [![statusmac11](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-11&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-11&redirect=1)
-| macOS 10.15 <sup>deprecated</sup> | `macos-10.15` | [macOS-10.15] | [![statusmac10](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-10.15&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-10.15&redirect=1)
-| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | [![statuswin22](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2022&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2022&redirect=1) |
-| Windows Server 2019 | `windows-2019` | [windows-2019] | [![statuswin19](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2019&badge=1)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2019&redirect=1)
+| Ubuntu 22.04 | `ubuntu-22.04` | [ubuntu-22.04] | [![status22](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu22&redirect=1)
+| Ubuntu 20.04 | `ubuntu-latest` or `ubuntu-20.04` | [ubuntu-20.04] | [![status20](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu20&redirect=1)
+| Ubuntu 18.04 <sup>deprecated</sup>  | `ubuntu-18.04` | [ubuntu-18.04] | [![status18](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu18&redirect=1)
+| macOS 12 | `macos-12`| [macOS-12] | [![statusumac12](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-12&redirect=1)
+| macOS 11 | `macos-latest` or `macos-11`| [macOS-11] | [![statusmac11](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-11&redirect=1)
+| macOS 10.15 <sup>deprecated</sup> | `macos-10.15` | [macOS-10.15] | [![statusmac10](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-10.15&redirect=1)
+| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | [![statuswin22](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2022&redirect=1) |
+| Windows Server 2019 | `windows-2019` | [windows-2019] | [![statuswin19](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2019&redirect=1)
 
 > Make sure to check the previous articles for more details on using the hosted agents for either [Azure Devops](https://darkgenesis.zenithmoon.com/using-azure-pipelines-with-unity.html) or [GitHub Actions](https://darkgenesis.zenithmoon.com/using-github-actions-with-unity.html).
+
 
 ## Self Hosting
 
@@ -44,9 +46,11 @@ As the title of the article suggests, self-hosting simply means you are using yo
 
 > Fair warning, Unity is still a pain when it comes to automation, ever since they updated to the V3 of the Unity Hub, it has made installing / checking installs of the Unity Editor very temperamental.  Personally, I manage the version of Unity that is installed manually now because automating it became too unreliable.  Thanks Unity!
 
+
 ## Requirements
 
 The requirements needed to run a self-hosted agent come in two parts, what you need to run your pipelines and what you need in order to run the agent itself.
+
 
 ### Build Software
 
@@ -57,6 +61,7 @@ What you need for building / automating and testing will largely depend on what 
 * Visual Studio (community edition is still fine)
 * .NET runtimes (usually installed with Visual Studio)
 
+
 ### Automation Software
 
 For the automation, you will need scripting runtimes and also the agent software of choice, depending on whether you are using Azure, GitHub or even one of the other popular automation services, like GitLab (however, we are only covering Azure and GitHub in this article):
@@ -66,6 +71,7 @@ For the automation, you will need scripting runtimes and also the agent software
 * Agent software of choice. [Azure](#setting-up-an-azure-agent) / [GitHub](#setting-up-a-github-agent)
 
 > You may find on your initial forays into automation that there may be other requirements needed depending on your workflows, just be sure to document them as required so that when you install another agent, you have everything recorded.
+
 
 ## How many agents?
 
@@ -78,11 +84,13 @@ Ultimately though, you can mix and match again.  Have several small agents setup
 
 > Personally, I setup about 10 agents for small script jobs and 1 (or 2) dedicated agents for just builds, this throttles the demand based on how intensive the jobs are likely to be and do not slow the build PC (Usually my main development pc) down too much.
 
+
 ## Agent identity
 
 A critical thing for your agents is the identity the agent uses in Azure or GitHub, ideally this should be a dedicated and separate user, this is to ensure there are no mixups for the account running builds.  You can use a personal account, but if that person leaves or resets their access tokens, you will have to recreate all your agents!
 
 So create a new user in GitHub (it is free) and Azure (if also using Azure) and give it sufficient rights to access the parts of the project you want automated.
+
 
 ## Agent Location
 
@@ -99,6 +107,7 @@ All in all, you want to keep the working path the agent uses as short as possibl
 Your final path should resemble something like:
 
 * "c:\a\agent-01\w"
+
 
 ## Setting up an Azure Agent
 
@@ -126,6 +135,7 @@ Depending on the OS you are installing the agent on:
 
 You now have a single agent setup, repeat steps 6 - 10 for additional agents with a different agent folder name.
 
+
 ## Setting up a GitHub Agent
 
 > [Check the official GitHub docs here](https://github.com/organizations/EtharInc/settings/actions/runners/new)
@@ -151,6 +161,7 @@ Depending on the OS you are installing the agent on:
 > Personally I have always installed agents as Services so I do not need to think about them, else you will need to run a separate command each and every time you need to start them (which some people do), just check the Azure docs for more details for your Operating system.
 
 You now have a single agent setup, repeat steps 5 - 10 for additional agents with a different agent folder name.
+
 
 ## All done except for the fish
 

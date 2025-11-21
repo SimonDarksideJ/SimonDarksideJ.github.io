@@ -17,9 +17,11 @@ Here’s what Robin has to say on it:
 
  
 
+
 ### [\<Excerpt from Robins Blog\>](http://blog.debreuil.com/?p=62)
 
-![](http://blog.debreuil.com/images/shader01.jpg)
+![](assets/img/posts/image-not-found.png)
+
 
 ###### [Particle Effects Without Particles](http://blog.debreuil.com/?p=62)
 
@@ -55,9 +57,11 @@ Robin has also created a SWF (flash for the acronym unaware) to XNA importer, wh
 
  
 
+
 ### More from the Trenches
 
 On another note for those of you interested in the maths behind Algorithms and their cost, there is a new training video over on Channel 9.
+
 
 ## [C9 Lectures: Yuri Gurevich – Introduction to Algorithms and Computational Complexity, 1 of n](http://channel9.msdn.com/shows/Going+Deep/C9-Lectures-Algorithms-with-Yuri-Gurevich-Introduction-and-Some-History/)
 
@@ -67,10 +71,11 @@ I have downloaded it for viewing later (only had time to sample some of if at th
 
 * * *
 
+
 ### Back to the series
 
 On another note I meant to set a challenge on the back of the last post.  With all the particle possibilities, have a go at creating you are own effect.  and while you are at it, also try and recreate this:
 
-[![JustForFun](http://xna-uk.net/blogs/darkgenesis/JustForFun_37EB209E.png "JustForFun")](http://xna-uk.net/blogs/darkgenesis/JustForFun_5A171A56.png)
+[![JustForFun](assets/img/posts/image-not-found.png)](http://xna-uk.net/blogs/darkgenesis/JustForFun_5A171A56.png)
 
 Technorati Tags: [XNA](http://technorati.com/tags/XNA),[Algorithms](http://technorati.com/tags/Algorithms),[wp7dev](http://technorati.com/tags/wp7dev)

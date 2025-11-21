@@ -7,6 +7,7 @@ tags: [2d tutorial, game development, xna]
 
 *Continued from previous post*
 
+
 ## 8. User Input
 
 An address is a number that is assigned to each byte in a computer’s memory. It is used to track where data and instructions are stored in memory. Each byte is assigned an address whether or not it is being used to store data.
@@ -60,6 +61,7 @@ Facts:
 - Then 25 and 4 are added evaluating to 29.
 - Then the square root of 29 is evaluated to 5.3851648071345. 
 
+
 ## 9. Conditional Expression
 
 ```csharp
@@ -99,6 +101,7 @@ Facts:
 ```
 
 Notice that there is no semicolon after the closing parenthesis of the Boolean expression because the conditional statement has not ended yet.
+
 
 ## 10. Loops
 
@@ -154,6 +157,7 @@ If _expression_ i<10 is true, the statement is executed until _expression_ becom
 
 If _expression_ is false, the execution resumes at the following statement. In our case, the following statement is the end of the program. The expression is evaluated before the statement is executed. When the expression is false from the first time, the statement will never be executed.
 
+
 ## 11. One-Dimensional Array
 
 ```csharp
@@ -188,6 +192,7 @@ Facts:
 - The _C#_ compiler does not perform index range checking.
 - The array element is accessed by indexing the array name.
 - It is done by writing the index enclosed between brackets placed after the array name. _arrayName_[index] A=i; 
+
 
 ## 12. Structure
 
@@ -249,6 +254,7 @@ The dot “.” operator is used to access the structure member. First write the
 ```csharp
      deltaX=p2.x - p1.x;
 ```
+
 
 ## Conclusion
 

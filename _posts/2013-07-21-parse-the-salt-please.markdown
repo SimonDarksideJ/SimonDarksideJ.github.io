@@ -9,6 +9,7 @@ After playing a lot with Parse over the last few weeks I thought I would share s
 
 * * *
 
+
 # Getting to know Parse
 
 Just what is Parse? a question I even asked myself until I really started to look behind the covers. If you just look at the homepage you will likely be left scraping your head and thinking it is some sort of creative design helper or some “powerful backend provider” to accelerate your apps (seriously??)
@@ -20,9 +21,12 @@ There is a lot more to Parse than just that, but at its core it is there to help
 Here is what the detailed info has to say about Parse’s components:
 
 | 
+
 #### ![src=]()
  | 
+
 ## Parse Data
+
 
 ###### Store your app’s data in the cloud. No servers necessary.
 
@@ -32,7 +36,9 @@ Coupled with a very powerful web based GUI to help you manage you backend store 
 
  |
 | 
+
 ## Parse Push
+
 
 ###### Creating, scheduling, and segmenting push notifications just got a whole lot easier.
 
@@ -44,7 +50,9 @@ Basically everything you would expect from Push notifications but scaled to supp
 
  |
 | ![src=]() | 
+
 ## Parse Social
+
 
 ###### Make your app social. Instantly.
 
@@ -54,7 +62,9 @@ Really this is the smartest thing they could have done instead of building their
 
  |
 | 
+
 ## Parse Hosting
+
 
 ###### A powerful web presence without all the hassle.
 
@@ -62,7 +72,9 @@ Web page hosting, would you really expect anything less, note just like its comp
 
  | ![src=]() |
 | ![src=]() | 
+
 ## Cloud Code
+
 
 ###### Run custom app code in the Parse Cloud. Say goodbye to servers.
 
@@ -95,6 +107,7 @@ There are also some steps for testing your app and its connection with some dumm
 
 * * *
 
+
 # Full merits to the documentation team
 
 Once you are up and running you should head straight over to the excellent documentation support that the Parse team have put together.  I have seen some great examples of proper documentation from teams at Telerik and Xamarin but the Parse team seem to have found that edge to make it even better.  It helps of course having an API that is really simple to use and does not need much explaining but they do it really well. (Although no offline docs, which is a shame when you are on the train ;-( )
@@ -109,6 +122,7 @@ In the docs you will find everything you need to sort out:
 - And much much more
 
 * * *
+
 
 ## Being a good data friend
 
@@ -191,6 +205,7 @@ The solution I ended up using was to take my anonymous type (or object) and stor
 
 * * *
 
+
 # Get to know the Facebook and other third party social SDK’s
 
 If you are using Facebook or another social network to authenticate your users you can, you can even choose whether you want Parse to do the authentication for you or use a third party library.
@@ -201,6 +216,7 @@ Using it is very simple as well in either case, to authenticate Facebook (once y
 
 > ParseFacebookUtils.Initialize(“Your Facebook App Id”);
 
+
 ## 
 
 If you are using the Facebook SDK or already gained a Facebook OAuth token then you can just pass that into Parse instead, thus:
@@ -209,6 +225,7 @@ If you are using the Facebook SDK or already gained a Facebook OAuth token then 
 
 * * *
 
+
 # What to watch out for
 
 Now one other caveat with Parse I have found that you have to be very careful with exception handling and state tracking, in a lot of my cases simply putting a Try / Catch around Parse statements may not save you, for instance if Parse has not yet initialised or you have no Network when your client is run then the Parse Analytics will actually crash you app (at the time of writing).
@@ -216,6 +233,7 @@ Now one other caveat with Parse I have found that you have to be very careful wi
 My best advice is just to test your app in all situations to ensure you work as expected and keep track if Parse is connected or not.
 
 * * *
+
 
 # Wrapping up
 

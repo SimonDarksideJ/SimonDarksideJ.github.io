@@ -16,6 +16,7 @@ It follows on from the hugely successfully title [Mastering Unity 2D Game Develo
 
 In celebration for this launch I have been working hard behind the scenes, twisting arms and generally chasing down all my favours to bring you an amazing deal.
 
+
 # Time for a party!
 
 Here is what is on offer for a lucky few (not that few) people to win as part of my launch celebrations:
@@ -28,38 +29,50 @@ And that is just what we have so far, I’m still on the lookout for additional 
 
 > Full terms and conditions for the competition are available here – [http://bit.ly/Unity3DUIEssentialsCompTandCs](http://bit.ly/Unity3DUIEssentialsCompTandCs "http://bit.ly/Unity3DUIEssentialsCompTandCs")
 
+
 # The important stuff – How to enter
 
 In following with a number of competitions around the web, you simply need to do any of the following for a single entry in to the competition:
 
 - 
+
 ### Comment on this blog post
 
 > I use [Disqus](https://disqus.com/) for comments, so your details are safe. No details about you are stored on this blog.  Just be sure to use an email I can contact you with after the competition for your prizes. See the [Terms and conditions](http://bit.ly/Unity3DUIEssentialsCompTandCs) for the competition for more details.
 
 - 
+
 ### Retweet the launch promotion tweet ([here](https://twitter.com/SimonDarksideJ/status/563633357654081536 "Unity 3D UI Essentials launch Tweet"))
 - 
+
 ### Share the Launch promotion FB post ([here](https://www.facebook.com/simon.jackson.102/posts/10153044455319061 "Unity 3D UI Essentials FaceBook post"))
 - 
+
 ### Share the Linked-In promotion post ([here](https://www.linkedin.com/pulse/unity3duiessentials-launch-party-has-started-simon-jackson "Unity 3D UI Essentials Linked-In Post"))
 - 
+
 ### “Like” the [Unity 3D UI Essentials Facebook page](http://bit.ly/Unity3DUIEssentialsFBPage)
 - 
+
 ### “Like” the [Mastering Unity 2D Game development Facebook page](http://bit.ly/Unity3dUIEssentialsCompM2DFBPage)
 
 > #####  \*Note, liking posts is great   ![Open-mouthed smile](/assets/img/wordpress/2015/02/wlEmoticon-openmouthedsmile.png) but only **sharing** gets you an entry!
 
+
 ##### Additionally, for the prizes provided by the community (TextMeshPro and GUI Generator) you will also need to do the following:
 
 - 
+
 ### Follow [Zolran on Twitter](https://twitter.com/Zolran) (for TextMeshPro notifications)
 - 
+
 ### Subscribe to [Zolran’s YouTube channel](https://www.youtube.com/channel/UCfZ4egVzhZrnilkOu1Y7w6g) (for updates to TextMeshPro)
 
 - 
+
 ### Follow [DarkArt Studios on Twitter](https://twitter.com/DarkArtsStudios) (for GUI Generator announcements)
 - 
+
 ### Like [DarkArt Studios FB Page](https://www.facebook.com/DarkArtsStudios) (for news on GUI Generator)
 
 <!--EndFragment-->
@@ -70,6 +83,7 @@ In following with a number of competitions around the web, you simply need to do
 
 You can follow me if you wish for news and updates but it is not essential for the comp ![Open-mouthed smile](/assets/img/wordpress/2015/02/wlEmoticon-openmouthedsmile.png)
 
+
 ## Each entry above qualifies you for one entry in to the competition,  more actions = more chances to win
 
 > Please make sure you read the full [terms and conditions here](http://bit.ly/Unity3DUIEssentialsCompTandCs), we cannot accept responsibility if you do not follow the rules !
@@ -78,9 +92,11 @@ You can follow me if you wish for news and updates but it is not essential for t
 
 * * *
 
+
 # When will it end?
 
 I’d like to say the party never ends but it must, else how am I going to give away all these prizes?
+
 
 ### Entries to be in no later than **_Sunday 22nd February 2015_**
 
@@ -90,7 +106,9 @@ Draw will take place in the following week and winners will be notified shortly 
 
 * * *
 
+
 # About [Unity 3D UI essentials](darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/)
+
 
 ##### For full details about the book, please check out [my product page](darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/) which also include the purchase links for the book.
 
@@ -124,9 +142,10 @@ As ever this journey will likely never end and I will continue to help developer
 
 * * *
 
+
 # About TextMeshPro
 
-![width=](https://lh4.googleusercontent.com/-s0jwSYVMQK8/VCInPU1jMmI/AAAAAAAAEtg/phm7ZIl7wF4/w1644-h548-no/TMPro%2B-%2BTwitter%2BBanner.png)
+![width=](assets/img/posts/image-not-found.png)
 
 A fantastic text management system that helps to bridge the gaps and the limitations in Unity’s aging text rendering system. Unity themselves have noted on several occasions they want to rip out the text system and replace it with something better, until that happens, the best asset to help with text generation from within Unity (not just getting an artist to build lots of text assets) is **TextMeshPro**.
 
@@ -138,9 +157,10 @@ A fantastic text management system that helps to bridge the gaps and the limitat
 
 * * *
 
+
 # About GUI Generator
 
-![width=](http://www.darkarts.co.za/images/products/gui-generator/large_banner.jpg)
+![width=](assets/img/posts/image-not-found.png)
 
 Building clean and efficient UIs in Unity have always been a strain (just look at this chapter!), this is where the **GUI Generator** comes in, starting with the old GUI, then adapting to also handle NGUI and now the new Unity UI system. It’s a quick and advanced tool to clean up the look and feel of your UI (no, it doesn’t build your UI for you, it styles it!).
 
@@ -150,10 +170,12 @@ It also has many built-in effects you can add to your UI to make it stunning. Li
 
 * * *
 
+
 # Got something to add?
 
 If you are an asset developer and have come up with a fantastic new, ca not live without and everyone should know about New UI asset.
 
 Then drop me a line on Twitter, or via the Contact page on my blog and we can talk about getting you in the comp.
+
 
 ### More Prizes = More Fun = MWAORRR chances to win ![Open-mouthed smile](/assets/img/wordpress/2015/02/wlEmoticon-openmouthedsmile.png)

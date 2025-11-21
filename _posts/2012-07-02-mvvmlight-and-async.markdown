@@ -5,7 +5,7 @@ date: 2012-07-02 14:02:58
 tags: [mvvm]
 ---
 
-![width=](http://lh3.ggpht.com/-tt4lAT0YJak/T2rqCrWuiWI/AAAAAAAABS8/WcQAEjOpQmw/mvvmlight%25255B2%25255D.png) ![width=](http://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/220px-Heart_coraz%C3%B3n.svg.png) ![width=](http://ecn.channel9.msdn.com/o9/ch9/09af/7a327d14-54de-4846-8cd0-9e1a015009af/AndersHejlsbergAsyncNET_220_ch9.jpg)
+![width=](assets/img/posts/image-not-found.png) ![width=](assets/img/posts/image-not-found.png) ![width=](assets/img/posts/image-not-found.png)
 
 With Windows 8 just around the corner and many developers running for the ship to get up to speed with the new brave world (even those who have frowned at the new Metro interface and possibly wont touch it themselves, still see the value in writing apps / games for the platform to sell).
 
@@ -13,39 +13,46 @@ One of the biggest hurdles I have found and seems reflected in colleagues and pe
 
 This post is simply going to walk though one of the first challenges I set myself when learning Async which was how it affected my core apps with loading data, this is by no means the only reason for ASync’s being, but data is at the heart of most apps and when there is a lot of it to handle you need to effectively load it without dampening the users experience in the front end.
 
+
 #### \*Note
+
 
 #### In case you were wondering this post is not just for Windows 8 devs.  The Async CTP is also available for Visual Studio 2010 with variants for .NET/ Silverlight and even Windows Phone.
 
+
 #### I have found by going back to what is already familiar and updating it to Async has helped my journey a lot and my progressions to Windows 8 have been all that smoother for it when porting.
+
 
 #### The samples attached are in fact written for Windows Phone using **[Laurent Bugnion’s (GalaSoft)](http://www.galasoft.ch/contact_en.html) **MVVMLight framework for windows phone
 
 * * *
 
+
 # Resources and Links
 
 First a quick nod to a lot of the links and pages that have helped me in my journey so far.  While there is not a great deal of it yet, more is sure to come.  What there is however is both easy to digest and (where it is needed) very technical in nature.
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    Async MSDN Site – [http://msdn.microsoft.com/en-us/async](http://msdn.microsoft.com/en-us/async) (Especially good are the getting started videos!)
+> ![align=](assets/img/posts/image-not-found.png)    Async MSDN Site – [http://msdn.microsoft.com/en-us/async](http://msdn.microsoft.com/en-us/async) (Especially good are the getting started videos!)
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    Building Windows 8 Blog Async Post (courtesy of Mike Taulty) – [http://bit.ly/LQwEik](http://bit.ly/LQwEik "http://bit.ly/LQwEik") (Deep technical article on Task)
+> ![align=](assets/img/posts/image-not-found.png)    Building Windows 8 Blog Async Post (courtesy of Mike Taulty) – [http://bit.ly/LQwEik](http://bit.ly/LQwEik "http://bit.ly/LQwEik") (Deep technical article on Task)
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    MSDN library page for Async – [http://bit.ly/LQwIyJ](http://bit.ly/LQwIyJ "http://bit.ly/LQwIyJ") – Interesting explanations and code walkthroughs
+> ![align=](assets/img/posts/image-not-found.png)    MSDN library page for Async – [http://bit.ly/LQwIyJ](http://bit.ly/LQwIyJ "http://bit.ly/LQwIyJ") – Interesting explanations and code walkthroughs
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    The Task: Events, Asynchronous Calls, Async and Await (Jeremy Likeness) – [http://bit.ly/LQxqvV](http://bit.ly/LQxqvV "http://bit.ly/LQxqvV") – A nice clean article for deconstructing Tasks and good practise
+> ![align=](assets/img/posts/image-not-found.png)    The Task: Events, Asynchronous Calls, Async and Await (Jeremy Likeness) – [http://bit.ly/LQxqvV](http://bit.ly/LQxqvV "http://bit.ly/LQxqvV") – A nice clean article for deconstructing Tasks and good practise
 
 * * *
+
 
 # Getting Started
 
 Couple of things you will need if you want to re-create / use the samples here (you do not have to of course, you can use everything here just in Windows 8 if you wish!)
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    Visual Studio – any version from 2010 upwards including the Windows Phone and express editions
+> ![align=](assets/img/posts/image-not-found.png)    Visual Studio – any version from 2010 upwards including the Windows Phone and express editions
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    MVVMLight V4+ – you can either download this from NuGet or from the codeplex site here. (I would recommend getting it from Codeplex for your first project and then NuGet after that so you also get all the Project/Item templates and snippets it provides.
+> ![align=](assets/img/posts/image-not-found.png)    MVVMLight V4+ – you can either download this from NuGet or from the codeplex site here. (I would recommend getting it from Codeplex for your first project and then NuGet after that so you also get all the Project/Item templates and snippets it provides.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    Async CTP (only for VS 2010 editions)
+> ![align=](assets/img/posts/image-not-found.png)    Async CTP (only for VS 2010 editions)
+
 
 ## \* Note
 
@@ -56,6 +63,7 @@ See the following article for helping you get the Async CTP running on VS 2010 (
 Here is hoping a full release will also come out for VS 2010 with the release of VS 2012.
 
 * * *
+
 
 # Quick intro to V4 of MVVMLight
 
@@ -72,6 +80,7 @@ That is my very high level description of one solution that IOC gives, I’m sur
 There have been many other improvements including Windows 8 support so it is worth spending a little time walking through the default template that MVVMlight gives you in V4.
 
 * * *
+
 
 # Starter for 10
 
@@ -129,6 +138,7 @@ This is where the other half of the IOC comes into play, the unseen plumbing tha
 
 * * *
 
+
 # But AWAIT there’s more
 
 So this is all well and good but if you have a lot of data or it is coming from a backend service which could take a while to gather or worse it has to time out first before you can handle it (some time outs are longer that others), then it could possibly be a lot of time for your user to wait while the page loads.  You might offset this in your page by only loading the data after the page itself has loaded and shown the base UI, but still it could cause the UI to be unresponsive.
@@ -172,6 +182,7 @@ And that is it, the Task framework handles all the messy background threading, c
 So do you think that is easier?
 
 * * *
+
 
 # Conclusion
 

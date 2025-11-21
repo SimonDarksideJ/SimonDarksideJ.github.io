@@ -19,6 +19,7 @@ Back then it was more of a dream, today it is becoming a reality.
 
 * * *
 
+
 # Why go Portable?
 
 ![src=]()
@@ -31,12 +32,13 @@ So with this tutorial I will walk you through the practice of what it takes to g
 
 Two main things come to mind as to why you should use a PCL project for the core logic and state of your game projects are:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    One core project that contains all code that is completely compatible for all platforms, changes are validated by the project instead of at build time  
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    One library for all platforms instead of separate platform libraries to share code, only have to make a change once, especially useful if you add or remove classes from the core project
+> ![](assets/img/posts/image-not-found.png)    One core project that contains all code that is completely compatible for all platforms, changes are validated by the project instead of at build time  
+> ![](assets/img/posts/image-not-found.png)    One library for all platforms instead of separate platform libraries to share code, only have to make a change once, especially useful if you add or remove classes from the core project
 
  
 
 * * *
+
 
 # Starter for 10
 
@@ -56,6 +58,7 @@ What we want to get to is a project that looks more like this:
 
 * * *
 
+
 # Setting up your environment
 
 ![src=]()
@@ -68,23 +71,24 @@ Creating and using PCL projects are simple enough so long as you have the right 
 > 
 > ### If you would like to see PCL support in the VS express editions, then vote with a [click over on UserVoice](http://visualstudio.uservoice.com/forums/121579-visual-studio/suggestions/3230383-add-the-ability-to-create-portable-libraries-in-vi)
 
-> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Visual Studio 2010 (Pro & above only ![Sad smile](/assets/img/wordpress/2013/05/wlEmoticon-sadsmile.png))
+> ##### ![align=](assets/img/posts/image-not-found.png)    Visual Studio 2010 (Pro & above only ![Sad smile](/assets/img/wordpress/2013/05/wlEmoticon-sadsmile.png))
 > 
 > Studio 2010 does not have PCL support by default so you need to install it first, just launch NuGet and search for “Portable Library Tools” and you should locate Microsoft’s Portable Library Tools 2 package, install it and you are ready to go.
 > 
 > If you have not got NuGet yet, then install this [VSIX (visual Studio Extension) package](http://visualstudiogallery.msdn.microsoft.com/27077b70-9dad-4c64-adcf-c7cf6bc9970c) and then “goto 1”
 > 
-> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Visual Studio 2012 (Pro & above only ![Sad smile](/assets/img/wordpress/2013/05/wlEmoticon-sadsmile.png))
+> ##### ![align=](assets/img/posts/image-not-found.png)    Visual Studio 2012 (Pro & above only ![Sad smile](/assets/img/wordpress/2013/05/wlEmoticon-sadsmile.png))
 > 
 > Thankfully VS 2012 already comes with PCL support out of the box so you are ready to go.
 > 
-> ##### ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Xamarin Studio
+> ##### ![align=](assets/img/posts/image-not-found.png)    Xamarin Studio
 > 
 > From  version 4.03, PCL projects have been supported natively in Xamarin Studio
 
 Lastly you will need a copy of the current version of MonoGame.Portable, you can either download the [current compiled DLL](https://lightningdemo.codeplex.com/releases/view/106819 "MonoGame.Portable build 2013-05-19") here, or just clone my [MonoGame.Portable branch](https://github.com/DDReaper/MonoGame/tree/develop.portable) in my MonoGame fork (if / when the PR is merged into the main MonoGame source, I’ll update the above links accordingly) and build it yourself.
 
 * * *
+
 
 # Starting Fresh
 
@@ -112,9 +116,9 @@ Now if you build the Engine project at present you will get a whole load of buil
 
 At this point you might think “well I have my PCL library, why do not I just use one of my existing MonoGame references?”, as well you should but just try it and see. You will either get:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    No Error and No Reference added  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    No Error but the reference will be added  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    You’re development environment will through a wobbly and probably just crash (with or without an error)
+> ![align=](assets/img/posts/image-not-found.png)    No Error and No Reference added  
+> ![align=](assets/img/posts/image-not-found.png)    No Error but the reference will be added  
+> ![align=](assets/img/posts/image-not-found.png)    You’re development environment will through a wobbly and probably just crash (with or without an error)
 
 None of which will result in a project that will build, in fact in the second case above you might think it has worked but basically, it did not ![Open-mouthed smile](/assets/img/wordpress/2013/05/wlEmoticon-openmouthedsmile2.png), the answer is of course to have a PCL compatible DLL to add, namely in this case MonoGame.Portable.
 
@@ -123,6 +127,7 @@ So by either adding MonoGame.Portable to the solution as source and mapping a re
 > \*Note – well with one exception ![Open-mouthed smile](/assets/img/wordpress/2013/05/wlEmoticon-openmouthedsmile2.png), Linq in a PCL does not have the “.Find” extension, so simply replace this with “.FirstOrDefault”
 
 * * *
+
 
 # Getting on with the Game
 
@@ -134,11 +139,11 @@ To use our core game code in a PCL however (or any separate lib for that matter)
 
 To this end we need to:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Remove the base class from our game class  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Remove any functions that initialise the graphics device (that’s up to the platform)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Remove any “override” statements, since this class is not inheriting anymore  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Alter the scope of methods that need to be initialised or called (or add new ones) e.g Protected –\> Public or Internal  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/022.gif)    Satisfy any framework dependencies that are required for the class to function. e.g. if GraphicsDevice  is used, which was part of the base game class)
+> ![align=](assets/img/posts/image-not-found.png)    Remove the base class from our game class  
+> ![align=](assets/img/posts/image-not-found.png)    Remove any functions that initialise the graphics device (that’s up to the platform)  
+> ![align=](assets/img/posts/image-not-found.png)    Remove any “override” statements, since this class is not inheriting anymore  
+> ![align=](assets/img/posts/image-not-found.png)    Alter the scope of methods that need to be initialised or called (or add new ones) e.g Protected –\> Public or Internal  
+> ![align=](assets/img/posts/image-not-found.png)    Satisfy any framework dependencies that are required for the class to function. e.g. if GraphicsDevice  is used, which was part of the base game class)
 
 As an example here is a side by side comparison of the updates I made to make the old game code ready for the PCL
 
@@ -189,6 +194,7 @@ Once you have finished updating the new game style class in the PCL should look 
 
 * * *
 
+
 # Time for some Platform action
 
 ![src=]()
@@ -205,6 +211,7 @@ So opening up the Game1.cs file in the platform project we just need to initiali
 
  |
 | 
+
 ###### Add a property to store an instance of the game engine in the class properties
  |
 | 
@@ -213,6 +220,7 @@ So opening up the Game1.cs file in the platform project we just need to initiali
 
  |
 | 
+
 ###### Instantiate a new instance in the game constructor
  |
 | 
@@ -221,6 +229,7 @@ So opening up the Game1.cs file in the platform project we just need to initiali
 
  |
 | 
+
 ###### Get the engine to load it is content when the platform is loading content
  |
 | 
@@ -229,6 +238,7 @@ So opening up the Game1.cs file in the platform project we just need to initiali
 
  |
 | 
+
 ###### Call the update class during update
  |
 | 
@@ -237,6 +247,7 @@ So opening up the Game1.cs file in the platform project we just need to initiali
 
  |
 | 
+
 ###### Finally tell the engine to draw in the XNA draw loop
  |
 
@@ -248,6 +259,7 @@ So now in each platform solution you can manage just what is needed for that pla
 
 * * *
 
+
 # Going further
 
 [![ src=]()](https://janoelknowsit.wordpress.com/tag/going-beyond/)
@@ -255,6 +267,7 @@ So now in each platform solution you can manage just what is needed for that pla
 Now that is not the end of the story (although it is the end of this tutorial), you can go a lot further with PCL solutions and it is nice to note that PCL solutions can also reference other PCL solutions as well to expand what is the core of your project.
 
 You can also add some abstraction in to the mix so you can plug-in / out your favourite other frameworks if you so wish.
+
 
 #### Just keep that Core clean.
 

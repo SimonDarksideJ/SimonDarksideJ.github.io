@@ -11,7 +11,7 @@ In XNA this is unavoidable simply because XNA is the only thing that draws to th
 
 What we are talking about a design pattern called MVVM, others do exist which are all based on the same rough idea (MVC, MVP, etc), the diagram below aims to help visually represent this (image courtesy of [John Papa’s article](http://visualstudiomagazine.com/articles/2011/08/15/fundamental-mvvm) on Visual Studio magazine [here](http://visualstudiomagazine.com/articles/2011/08/15/fundamental-mvvm)):
 
-![width=](http://visualstudiomagazine.com/articles/2011/08/15/~/media/ECG/visualstudiomagazine/Images/2011/08/wcpp0815FigL.ashx)
+![width=](assets/img/posts/image-not-found.png)
 
 As the diagram shows the view (or screen) is independent of the rest of the project just getting information it needs to drive the user experience from a ViewModel (collection of settings), other parts of the application that need to update the information just update the ViewModel as well (in our case the game).
 
@@ -19,10 +19,10 @@ With this separation it means we cannot break (except in rare circumstances) the
 
 All gobbledegook, well I suggest reading a sample of the following articles:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    [Fundamental MVVM by John papa](http://bit.ly/oSwpOA)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    **[Understanding the MVVM Pattern](http://www.galasoft.ch/mvvmvideo1) by Laurent Bugnion (my MVVM hero ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile3.png))**  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    **[Deep Dive MVVM](http://www.galasoft.ch/mvvmvideo2) also by Laurent Bugnion (he has also the author of MVVM light for Windows Phone)**  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    [MVVM Light Toolkit: Soup To Nuts](http://bit.ly/oOitH0) by Jessie Liberty
+> ![align=](assets/img/posts/image-not-found.png)    [Fundamental MVVM by John papa](http://bit.ly/oSwpOA)  
+> ![align=](assets/img/posts/image-not-found.png)    **[Understanding the MVVM Pattern](http://www.galasoft.ch/mvvmvideo1) by Laurent Bugnion (my MVVM hero ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile3.png))**  
+> ![align=](assets/img/posts/image-not-found.png)    **[Deep Dive MVVM](http://www.galasoft.ch/mvvmvideo2) also by Laurent Bugnion (he has also the author of MVVM light for Windows Phone)**  
+> ![align=](assets/img/posts/image-not-found.png)    [MVVM Light Toolkit: Soup To Nuts](http://bit.ly/oOitH0) by Jessie Liberty
 
 Why do I bring this up?, well as part of this article we will aim to further simplify and box off sections of our game to make it both easier to maintain and add a degree of control while we use Silverlight, one of the big benefits of Silverlight is it is data binding capabilities which means you do not have to (but you can do if you want do) manually update every control on the screen with values from your app/game, the screen is designed to listen to those values and automatically updates appropriately, that can include animations and other cool things as well!.
 
@@ -30,19 +30,21 @@ As usual full source for this chapter can be found [here on Codeplex](http://sil
 
 Follow along with the series here:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420) (here)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
+> ![align=](assets/img/posts/image-not-found.png) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420) (here)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach")
 
 Also [Channel 9](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) are running a similar [video series here](http://channel9.msdn.com/posts/Get-to-Windows-Phone-Mango-1-From-XNA-to-SLXNA) if you prefer videos! ![Open-mouthed smile](/assets/img/wordpress/2012/07/wlEmoticon-openmouthedsmile3.png)
+
 
 #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
+
 
 ## Framework, I do not need no stinking framework
 
@@ -64,17 +66,18 @@ When it is installed you will see it has done several things, it is installed an
 
 | [![image](/assets/img/wordpress/2012/07/image65.png "image")](/assets/img/wordpress/2012/07/image63.png) | So from the screenshot left you can see:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    The MVVM Light libraries for WP7 7.1  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    A new folder with some template files  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    The App.XAML has also bee updated with new configuration
+> ![align=](assets/img/posts/image-not-found.png)    The MVVM Light libraries for WP7 7.1  
+> ![align=](assets/img/posts/image-not-found.png)    A new folder with some template files  
+> ![align=](assets/img/posts/image-not-found.png)    The App.XAML has also bee updated with new configuration
 
-NuGet can do some astounding things with packages so it is realy something to keep an eye on.
+NuGet can do some astounding things with packages so it is really something to keep an eye on.
 
 Usually the packages also come with a ReadMe file to aid with any additional setup tasks that are required to get up and running but it is missing in MVVM light at present but not to worry I know what I am doing……
 
  |
 
 * * *
+
 
 ## A New view for an old face
 
@@ -88,10 +91,10 @@ You can have Models to also describe your data but in this instance it is a but 
 
 Enough of this lets get something done.  if we analyse what we are currently using as data to send information to the screen in our Gamepage.XAML.cs (remembering that from a MVVM / Silverlight approach, storing values in our code behind is generally not a good idea because it cannot be reused) there are a few things (well a lot really but we are still keeping to baby steps, you can experiment later) that we could do with taking out of there, namely:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    The Level attribute – used to see what our current level is and persists information about the player state  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    The value for drawing the Time remaining to the screen  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    The value for the players score  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    A maintenance value for how long should pass before the player should be warned time is running short
+> ![align=](assets/img/posts/image-not-found.png)    The Level attribute – used to see what our current level is and persists information about the player state  
+> ![align=](assets/img/posts/image-not-found.png)    The value for drawing the Time remaining to the screen  
+> ![align=](assets/img/posts/image-not-found.png)    The value for the players score  
+> ![align=](assets/img/posts/image-not-found.png)    A maintenance value for how long should pass before the player should be warned time is running short
 
 These are the core things we want to look at in this session, there are several others (most of them really) that a page should not need to know about but we will leave them along for now.
 
@@ -113,10 +116,10 @@ Once you have done that open it up and it should look something like this:
         
     
         Type “GameLevel” and hit Tab – this is the property public name  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    Type “Level” and hit the right arrow– this is the type for the property, in this case it is not recognised but we will fix that afterwards, we have to use the right arrow key because hitting tab would cause intellisense to make something up, lol  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    Type “\_gameLevel” and hit tab – this is the private name for the property  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    Lastly we have a choice to make as there are two options for how MVVM notifies Silverlight of changes to values, either throu a simple notification or whether it broadcasts it through messaging.  Too much to go through here so for now just remove the “NotImplemented” Line (a safety measure to ensure you check this) and the second “RaisePropertyChanged” line which talks about messaging.  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    To finish off right click on the red squiggle for the Level type and resolve the reference.
+     ![align=](assets/img/posts/image-not-found.png)    Type “Level” and hit the right arrow– this is the type for the property, in this case it is not recognised but we will fix that afterwards, we have to use the right arrow key because hitting tab would cause intellisense to make something up, lol  
+     ![align=](assets/img/posts/image-not-found.png)    Type “\_gameLevel” and hit tab – this is the private name for the property  
+     ![align=](assets/img/posts/image-not-found.png)    Lastly we have a choice to make as there are two options for how MVVM notifies Silverlight of changes to values, either throu a simple notification or whether it broadcasts it through messaging.  Too much to go through here so for now just remove the “NotImplemented” Line (a safety measure to ensure you check this) and the second “RaisePropertyChanged” line which talks about messaging.  
+     ![align=](assets/img/posts/image-not-found.png)    To finish off right click on the red squiggle for the Level type and resolve the reference.
     
     So you should be left with the following:
     
@@ -126,8 +129,8 @@ Once you have done that open it up and it should look something like this:
         
     
         WarningTime (type Timespan)  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    GameTime (type TimeSpan)  
-     ![align=](http://www.dotnetscraps.com/samples/bullets/004.gif)    GameScore (type int)
+     ![align=](assets/img/posts/image-not-found.png)    GameTime (type TimeSpan)  
+     ![align=](assets/img/posts/image-not-found.png)    GameScore (type int)
     
     Feel free to add them yourself or just copy the entire GameViewModel.cs from download package mentioned at the start of the chapter.(do not forget to resolve any missing references, like TimeSpan)
     
@@ -162,7 +165,7 @@ Once you have done that open it up and it should look something like this:
                     
                     
                     
-                    > ![align=](http://www.dotnetscraps.com/samples/bullets/006.gif)    Declare the static variable for maintaining the reference to the view model in the header of the ViewModelLocator class
+                    > ![align=](assets/img/posts/image-not-found.png)    Declare the static variable for maintaining the reference to the view model in the header of the ViewModelLocator class
                     > 
                     >     
                     > 

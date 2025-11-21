@@ -9,6 +9,7 @@ Well at the behest of [Michael B McLaughlin](http://geekswithblogs.net/mikebmcl/
 
 Many thanks to [@MikeBMCL](http://twitter.com/mikebmcl) pointing me to this [post by Michael Cummings](http://geekswithblogs.net/Mathoms/archive/2010/06/17/using-web-services-from-an-xna-4.0-wp7-game) who details one approach to getting WCF working for XNA.  It does work, but it is a long way round.  It did however point me in the right direction to solve the problem and now I have got WCF working the way I Like it.  As in Working.
 
+
 ## \*\*Update
 
 Thanks to  [Michael B McLaughlin](http://geekswithblogs.net/mikebmcl/Default), a way has been found to get this working without any of the above hacks.  Read the [full details here](http://geekswithblogs.net/mikebmcl/archive/2010/08/30/wcf-and-xna-on-wp7-ndash-hack-free)
@@ -19,6 +20,7 @@ P.P.S Sample code can be found on [Codeplex here](http://startrooper2dxna.codepl
 
 * * *
 
+
 ### WCF – What you need to know
 
 First off in case you were not aware, WCF on the Windows Phone device is Asynchronous only, meaning you fire off a request and need to capture the response (usually by capturing the Completed event from the service) when it eventually gets back, for more detail check the [MSDN article](http://msdn.microsoft.com/en-us/magazine/cc163537) here.  This is opposed to the traditional synchronous operations normally used (or not normally who knows), where the same channel you request the data it is received back through.
@@ -27,17 +29,18 @@ Now I’m not going to go in to the ins and out of how to write a WCF service an
 
 * * *
 
+
 ### WCF – The options
 
 So here’s a breakdown of what you need to know and do:
 
-> #### _![](http://www.dotnetscraps.com/samples/bullets/009.gif)    WCF service in a single Silverlight project_
+> #### _![](assets/img/posts/image-not-found.png)    WCF service in a single Silverlight project_
 > 
 > This works straight out of the box, just add a service reference to your WCF service in the project, add in your asynch calls and delegate events and you are cooking.
 > 
 >  
 > 
-> #### _![](http://www.dotnetscraps.com/samples/bullets/009.gif)    WCF service in a single XNA project_
+> #### _![](assets/img/posts/image-not-found.png)    WCF service in a single XNA project_
 
 > The only way to do this is using [Mike Cummings method](http://geekswithblogs.net/Mathoms/archive/2010/06/17/using-web-services-from-an-xna-4.0-wp7-game).  Personally I would use the last option below for XNA, but that is just me. If it has to be one project then Mikes post is the way to go.
 > 
@@ -45,7 +48,7 @@ So here’s a breakdown of what you need to know and do:
 > 
 > Thanks to  [Michael B McLaughlin](http://geekswithblogs.net/mikebmcl/Default), a way has been found to get this working without any of the above hacks.  Read the [full details here](http://geekswithblogs.net/mikebmcl/archive/2010/08/30/wcf-and-xna-on-wp7-ndash-hack-free)
 > 
-> #### _![](http://www.dotnetscraps.com/samples/bullets/009.gif)    A WCF Service Silverlight Library and a Silverlight project **(in the Sample)**_
+> #### _![](assets/img/posts/image-not-found.png)    A WCF Service Silverlight Library and a Silverlight project **(in the Sample)**_
 > 
 > A little more tricky here and you would think it would work straight out of the Box, but it does not.  but fear not, getting it working is as easy as copying one file.  becuase that is all it involves.
 > 
@@ -53,14 +56,14 @@ So here’s a breakdown of what you need to know and do:
 > 
 > The crash is caused by WCF not knowing what the hell you are talking about because the “ServiceReferences.ClientConfig” is missing.  Except it is not missing it is there in my Silverlight Library.  (Thanks to Mike Cummings for that tip).  Fixing this is easy because it is the MAIN project that is complaining about the config file being missing and not the library (this could be another bug but we can work around it for now), so the easy fix for now is this:
 > 
-> > ![](http://www.dotnetscraps.com/samples/bullets/010.gif)    Copy the “ServiceReferences.ClientConfig” file from your library project in to your main project.   
-> > ![](http://www.dotnetscraps.com/samples/bullets/010.gif)    The other thing you have to do is a little magic, change/set the build type of the config file to “Content” in the main project and set the “Copy to output folder” option to “Copy if newer” (these are in the properties for the file in VS)
+> > ![](assets/img/posts/image-not-found.png)    Copy the “ServiceReferences.ClientConfig” file from your library project in to your main project.   
+> > ![](assets/img/posts/image-not-found.png)    The other thing you have to do is a little magic, change/set the build type of the config file to “Content” in the main project and set the “Copy to output folder” option to “Copy if newer” (these are in the properties for the file in VS)
 > 
 > Fire it up and everything will work fine now.!!
 > 
 > **Remember though, if you regenerate your service or change it is endpoint top copy this file over again or it wo not change.**
 > 
-> #### ![](http://www.dotnetscraps.com/samples/bullets/009.gif)    _A WCF Service Silverlight Library and an XNA project **(In the Sample)**_
+> #### ![](assets/img/posts/image-not-found.png)    _A WCF Service Silverlight Library and an XNA project **(In the Sample)**_
 > 
 > Now this I feel is the better way to add Service references and WCF to your XNA project, main reason is because I can use the same WCF Silverlight library in both my projects so I only have to write the service code once (when you have decided how to handle the returning data).
 > 
@@ -74,6 +77,7 @@ So here’s a breakdown of what you need to know and do:
 
 * * *
 
+
 ### WCF natively in XNA
 
 As for creating a service reference natively in XNA or an XNA library, forget it.  At least for the BETA, it does not work.  Adding WCF services tries to create synchronous services (which is a No No) and causes all sorts of referencing errors.  Even with the tricks above, XNA cannot do it alone, it needs the support of Silverlight to either host or generate the service code.
@@ -82,6 +86,7 @@ Even when you force it to create Asynchronous proxy code, it still does it wrong
 
 Maybe this will change going forward (if it is a bug) or they will remove service references all together (still a possibility) if WCF is not going to be natively supported in XNA.  Time will tell.
 
+
 ## \*\*Update
 
 Thanks to  [Michael B McLaughlin](http://geekswithblogs.net/mikebmcl/Default), a way has been found to get this working without any of the above hacks.  Read the [full details here](http://geekswithblogs.net/mikebmcl/archive/2010/08/30/wcf-and-xna-on-wp7-ndash-hack-free)
@@ -89,6 +94,7 @@ Thanks to  [Michael B McLaughlin](http://geekswithblogs.net/mikebmcl/Default), a
 Also Microsoft has released a statement to state that adding service references in the Full release will work.  Roll on Sep 16th
 
 * * *
+
 
 ### Conclusion
 

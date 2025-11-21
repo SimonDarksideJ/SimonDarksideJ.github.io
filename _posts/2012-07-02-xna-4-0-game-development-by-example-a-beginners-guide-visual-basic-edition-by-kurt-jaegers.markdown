@@ -29,6 +29,7 @@ If your more of a C# champ then you can also check out Kurt’s [C# version of t
 
 * * *
 
+
 # What it is about
 
 Well of course it is about XNA but one of the darker and less practiced implementations which eventually got added later in XNA’s lifecycle, Visual Basic.
@@ -41,6 +42,7 @@ This really fascinated me because as game developers we really need to learn and
 
 * * *
 
+
 # What is In it
 
 The book it is self is broken up in to 4 projects, some with basic and advanced sections to ease you on your path, here is a short summary of each.
@@ -48,6 +50,7 @@ The book it is self is broken up in to 4 projects, some with basic and advanced 
 There is a preface section for those completely new to XNA just so you can understand XNA’s approach to game design and the innards of the Game loop. (Update/Draw)
 
 | [![image](/assets/img/wordpress/2012/07/image134.png "image")](/assets/img/wordpress/2012/07/image131.png) | 
+
 ## Flood Control
 
 Kurt warms up his book with a nice graphically rich and basic concept going through the basic principles of drawing to the screen and handling input.
@@ -58,6 +61,7 @@ one thing that this really shows is the importance of good graphics in your game
 
  |
 | [![image](/assets/img/wordpress/2012/07/image135.png "image")](/assets/img/wordpress/2012/07/image132.png) | 
+
 ## Asteroid Belt Assault
 
 I really like that Kurt did not follow his previous chapter with the obvious space invaders type tutorial but chooses to mix it up with a Galaxian variant.
@@ -70,6 +74,7 @@ He then finishes off with a nice extension in to basic sprite based particle eff
 
  |
 | [![image](/assets/img/wordpress/2012/07/image136.png "image")](/assets/img/wordpress/2012/07/image133.png) | 
+
 ## Robot Rampage
 
 This chapter has to be one of my favourite in the book really, as it brings in to sharp focus that your game world does not have to be constrained by the screen and that it can be a larger world that the player explores. (critical if your doing any kind of rpg or platformer)
@@ -83,6 +88,7 @@ Add to that a more advanced sprite management and animation system and you got t
 
  |
 | [![image](/assets/img/wordpress/2012/07/image137.png "image")](/assets/img/wordpress/2012/07/image134.png) | 
+
 ## Gemstone Hunter
 
 if you are a regular to the AppHub education content you will probably recognise the Platformer same graphics in this sample but do not be fooled, this was created from the ground up and could be viewed as the platformer sample evolved with extra punch.
@@ -94,6 +100,7 @@ it even goes so far to show how to build your own game editor using Windows form
  |
 
 * * *
+
 
 # In Conclusion
 

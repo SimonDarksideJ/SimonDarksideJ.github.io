@@ -36,6 +36,7 @@ If you are up to the challenge, there are a few key dates to be aware of!
 
 * * *
 
+
 # A brief history of Dream Build Play
 
 Dream Build Play which ran from 2007 through to 2012, has birthed some of the most famous Indies in the years gone by, including:
@@ -53,6 +54,7 @@ Now, with the new and improved Dream Build play, the competition is open to anyo
 > I**t must target the Windows 10 Universal Windows Platform (UWP)**
 
 * * *
+
 
 # What is this Windows 10 UWP thing anyway?
 
@@ -77,13 +79,14 @@ All of which are available to deliver to with a single package.  Granted, given 
 
 * * *
 
+
 # What can I use to build my project?
 
 Where previously the competition was limited to Microsoft’s own game development framework XNA, this year the doors have been flown open to any Tool, framework, middleware that you can use, so long as it is able to target the Windows 10 UWP platform. To make things easier, many of the largest companies already provide “out of the box”, so shipping to Windows 10 UWP is usually no more than a few clicks away. 
 
 For instance, these companies all support UWP natively as an export platform:
 
-| [![image](/assets/img/wordpress/2017/06/image-4.png "MonoGame")](/assets/img/wordpress/2017/06/image-4.png) | [![image](/assets/img/wordpress/2017/06/image-5.png "Unreal Engine")](/assets/img/wordpress/2017/06/image-5.png) | [![Image result for unity3d logo](https://libuntu.files.wordpress.com/2015/10/unity3d-logo.png)](https://libuntu.files.wordpress.com/2015/10/unity3d-logo.png) | [![image](/assets/img/wordpress/2017/06/image-6.png "CoCos")](/assets/img/wordpress/2017/06/image-6.png) | [![image](/assets/img/wordpress/2017/06/image-7.png "Marmalade")](/assets/img/wordpress/2017/06/image-7.png) |
+| [![image](/assets/img/wordpress/2017/06/image-4.png "MonoGame")](/assets/img/wordpress/2017/06/image-4.png) | [![image](/assets/img/wordpress/2017/06/image-5.png "Unreal Engine")](/assets/img/wordpress/2017/06/image-5.png) | [![Image result for unity3d logo](assets/img/posts/image-not-found.png)](https://libuntu.files.wordpress.com/2015/10/unity3d-logo.png) | [![image](/assets/img/wordpress/2017/06/image-6.png "CoCos")](/assets/img/wordpress/2017/06/image-6.png) | [![image](/assets/img/wordpress/2017/06/image-7.png "Marmalade")](/assets/img/wordpress/2017/06/image-7.png) |
 
 And that is not to say you ca not just go your own way, as UWP has a full D3D rendering surface under the hood, so you can always roll your own C++ engine and just start firing things at the screen.
 
@@ -91,11 +94,13 @@ And that is not to say you ca not just go your own way, as UWP has a full D3D re
 
 * * *
 
+
 # Making your Game stand out!
 
 [![clip_image002](/assets/img/wordpress/2017/06/clip_image002.png "clip\_image002\")](/assets/img/wordpress/2017/06/clip_image002.png)
 
 As ever with these competitions, it is all about making your game stand out, making your Unique features scream at a judges face saying Pick me.  Microsoft has already gone a long way to give you some pointers to make your final submission a big success, such as:
+
 
 ## 1. Cloud
 
@@ -103,23 +108,28 @@ It is no secret that most big games these days need some sort of backend infrast
 
 It is fairly easy to pick up and learn if you are new to the area, so simply plan for it in your design and do what you can to stand out.
 
+
 ## 2. Xbox Live Services (both desktop and Xbox)
 
 Microsoft provide the Xbox Live platform through their new [Xbox Live Creators Program](https://developer.microsoft.com/en-us/games/xbox/xboxlive/creator), which offers you libraries, connections to provide serviced for game engines include [Construct 2](https://www.scirra.com/construct2), [MonoGame](http://www.monogame.net/), [Unity](https://unity3d.com/), and [Xenko](https://doc.xenko.com/1.9/manual/platforms/uwp/xbox-live.html) (others are available as well).  This enables you to Integrate with Xbox Live social experiences such as sign-in, presence, Leaderboards, and more.  If you want more services, you can sign up with [ID@Xbox](http://www.xbox.com/en-GB/Developers/id) to get access to the full range of services.
+
 
 ## 3. Mixed Reality
 
 It should be no surprise that everyone is jumping on the Mixed Reality bandwagon, offering games that work in VR, AR or Both.  Adding this in to the Mix of your game will go a long way to impressing judges if implemented well.  One note to remember, is you need to also think about special audio and give a good audio experience with your 3D game, just having a pretty 3D scene will NOT be enough.
 
+
 ## 4. Mixer Integration
 
 Originally called Bean, [Mixer](https://mixer.com/) is Microsoft’s new Collaborative Video streaming service with a heavy focus on games (Like Twitch), what sets it apart is that you can now [**integrate the service directly in your game**](https://dev.mixer.com/), giving YouTubers and players the ability to interact with the audience through the game (A truly mind bending experience).  So, if you chose to make your game “YouTuber” friendly and build a project that includes not just the player but an audience as well, you will be well on your way to a prize!
+
 
 ## 5. ALL OF THE ABOVE
 
 No one said you should make your life easy. Providing you do not go too far out of your comfort zone, do it ALL (or at least more than just a game).  Gamers today are always demanding more and to keep pace you should find ways to give them more, quicker and easier.
 
 * * *
+
 
 # [DREAM…. BUILD … GET PEOPLE TO PLAY](https://developer.microsoft.com/en-us/windows/projects/campaigns/dream-build-play-challenge)
 

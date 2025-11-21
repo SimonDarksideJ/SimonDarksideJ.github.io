@@ -17,6 +17,7 @@ So let’s see what UNITYXNA gives us.
 
 * * *
 
+
 # Background
 
 | ![src=]() | ![src=]() |
@@ -46,6 +47,7 @@ The cost does not stop there however as there are additional charges if you want
 So a powerful package but with an associated cost.  There is more to say about Unity but not strictly relevant to this article.
 
 * * *
+
 
 # Out of the Box
 
@@ -87,6 +89,7 @@ This is what we get in the project contents:
 
 * * *
 
+
 # Content Processing
 
 [![image](/assets/img/wordpress/2012/10/image14.png "image")](/assets/img/wordpress/2012/10/image14.png)
@@ -105,6 +108,7 @@ Unity3D (like Visual Studio 2012) also has an asset / model inspector so you can
 
 * * *
 
+
 # Getting Started
 
 ![src=]()
@@ -118,6 +122,7 @@ Now by default the Unity3D editor uses MonoDevelop as its development studio to 
 [![image](/assets/img/wordpress/2012/10/image11.png "image")](/assets/img/wordpress/2012/10/image11.png)
 
 * * *
+
 
 # Building this puppy
 
@@ -149,6 +154,7 @@ This will generate either an EXE, or a web page and all the associated content n
 
 * * *
 
+
 # What is Missing?
 
 ![src=]()
@@ -167,6 +173,7 @@ For 3D there may need to be a bit of community effort to bring it to life, but b
 
 * * *
 
+
 # Going forward
 
 ![src=]()
@@ -183,8 +190,8 @@ And just to show I’m building from a strong base, here is my Starter 2D series
 
 As with the MonoGame article I will release my sample above when I get a chance ![Open-mouthed smile](/assets/img/wordpress/2012/10/wlEmoticon-openmouthedsmile1.png).
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/xna-to-unityxna-and-beyond/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/xna-to-unityxna-and-beyond/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/xna-to-unityxna-and-beyond/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/xna-to-unityxna-and-beyond/) <script type="text/javascript">var dzone_url = 'http://darkgenesis.zenithmoon.com/xna-to-unityxna-and-beyond/';</script>  
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/xna-to-unityxna-and-beyond/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/xna-to-unityxna-and-beyond/) <script type="text/javascript">var dzone_url = 'http://darkgenesis.zenithmoon.com/xna-to-unityxna-and-beyond/';</script>  
 <script type="text/javascript">var dzone_title = 'XNA to UnityXNA and Beyond';</script>  
 <script type="text/javascript">var dzone_blurb = 'XNA to UnityXNA and Beyond';</script>  
 <script type="text/javascript">var dzone_style = '2';</script>  
-<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 
+<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 

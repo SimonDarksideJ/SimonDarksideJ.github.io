@@ -13,11 +13,13 @@ Old PR’s and issues are being validated and closed, a clearing house of sorts 
 
  
 
+
 ##### If you have old issues that are no longer relevant on the GitHub site, please close them so the team knows what to focus on and fix.  Help with the clean-up
 
 The first part of this new world order is a first stab at adding modularisation to the MonoGame framework in much the same way that traditional XNA was separated into several DLL’s.
 
 * * *
+
 
 # What did XNA ever do for us?
 
@@ -42,6 +44,7 @@ The Farseer physics library was a great example for this where it used the XNA b
 
 * * *
 
+
 # And so it begins – Welcome MonoGame.Net
 
 [![image](/assets/img/wordpress/2014/05/image2.png "image")](/assets/img/wordpress/2014/05/image2.png)
@@ -63,6 +66,7 @@ They are bundled together in one library because they are so intertwined and dep
 
 * * *
 
+
 # What does this mean for MonoGame contributors?
 
 If you currently contribute or are working on a PR for the repository, make sure you do a fresh pull in to your clean develop branch and test your improvements against the built version of that.
@@ -79,11 +83,13 @@ If you are new and looking to contribute, be sure to check out my [Git Contribut
 
 * * *
 
+
 # What does this mean for MonoGame users / adopters (post V3.2)
 
 This first change should not impact your project at all unless you are using the networking or GamerServices features.  If you do then just add a manual reference to the new MonoGame.Framework.Net library.
 
  
+
 
 #### If you are using the existing MonoGame v3.2 installer, then nothing will change until you update to a later release!
 
@@ -95,6 +101,7 @@ Future releases will still ship with LidGren and the new MonoGame.Framework.Net 
 
 * * *
 
+
 # Updates and releases
 
 There is no confirmed date as to when the next [MonoGame](http://www.monogame.net/) installer will be released but there is a general feeling in the team to move to a more regular update schedule (since everyone else loves continual delivery ![Confused smile](/assets/img/wordpress/2014/05/wlEmoticon-confusedsmile.png)) but keep your eyes on the [MonoGame main website](http://www.monogame.net/) for future updates.
@@ -104,6 +111,7 @@ As for NuGet, once things have settled I will get a new develop NuGet package ou
  
 
 * * *
+
 
 # A final call to arms
 

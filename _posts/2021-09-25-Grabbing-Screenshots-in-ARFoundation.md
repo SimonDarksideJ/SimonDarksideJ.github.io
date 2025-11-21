@@ -30,11 +30,13 @@ This was the eventual result that was desired (apologies for the low res)
 
 Here is the journey to create this interesting little project for all to enjoy.
 
+
 ## Contents
 
 * [Screenshot](#first-step---grabbing-a-screenshot)
 * [Place In scene](#second-step---placing-in-view)
 * [A different shade of grey](#last-Step---lighting)
+
 
 ## Project Setup
 
@@ -50,6 +52,7 @@ Everything should be setup ready in the **ExampleAssets\SampleScene**
 > * ARCore XR Plugin (Android) or ARKit XR Plugin (iOS) or both
 > 
 > Then create a new scene, delete your main camera and add the session origin using ***"GameObject -> XR -> AR Session Origin"*** and a AR Session ***"GameObject -> XR -> AR Session"*** to have everything configured to run AR Foundation.
+
 
 ## First Step - grabbing a screenshot
 
@@ -67,6 +70,7 @@ Easy...
 * Use the **'ReadPixels'** function to grab the pixels from the "Main" camera
 * 'Apply()' then commits these changes to the texture, ready for use (although in testing this was not "required" but it is good practice)
 
+
 ### Except!
 
 This being Unity, you cannot use the above code just anywhere, it can only be run in the **'OnPostRender'** method from the Camera you want to read from.
@@ -77,6 +81,7 @@ This gives you two options, either:
 * Write a MonoBehaviour to expose the 'OnPostRender' event that your scripts can attach to, in order to capture the event
 
 My preference is always the second option, to avoid bloating "other" objects with code I actually need elsewhere.
+
 
 ###  Screenshot solution
 
@@ -175,6 +180,7 @@ The code is highly commented and put simply:
 
 This now gives you the framework to grab screenshots when you want, but what to do with them?
 
+
 ## Second Step - placing in view
 
 Placing an object in the scene and applying the grabbed texture to it, easy... Or is it.
@@ -213,6 +219,7 @@ In this script, we simply:
 
 Job done, surely.
 
+
 ### Except!
 
 ![Square Screenshot at an angle with a little puppy sleeping on a sofa](/assets/img/posts/20210925/01-03-ScreenshotImage.jpg)
@@ -223,6 +230,7 @@ The issues here are on several fronts:
 * The Quad is just a square and does not match the dimensions of the image (making it squished)
 * Based on the orientation of the device, the image may be portrait or landscape
 * Unity has no way of sizing a GameObject to a set of dimensions!
+
 
 ###  Placing solution
 
@@ -372,9 +380,11 @@ Almost there, but not quite
 
 > In the Screenshot above (pun intended) the device was pulled back slightly to show the proportions of the image now fill the screen, when the image was taken, it was full screen.
 
+
 ## Last Step - Lighting
 
 So we have our image, it is placed in our view, in the correct proportions, We are done, right?
+
 
 ### Except!
 
@@ -384,6 +394,7 @@ You might simply put this down to the lighting conditions in the space, except i
 By default, the Quad you generate will use the Unity **Standard shader**, which receives lighting from all sources, including, the directional light that is included in default scenes.
 
 As we do not want any additional lighting in our screenshots, we need to either remove lighting (which would be bad, as it would affect any 3D content we want to be placed in the scene), or more simply, use a different shader for our Quad that ignores lighting.
+
 
 ###  Lighting solution
 
@@ -534,9 +545,10 @@ If you build and run the project now, you should get the same result as shown in
 
 Fun wasn't it.
 
+
 ## Conclusion
 
 This was a fun ride that took me quite a few more hours than I would have expected as I had not taken into account I was using Unity..
 Things are not always as simple as they initially appear and there are almost always a few bumps in the road.  Being used to Unity, I should know better but it seems I am eternally bound to repeating past mistakes when trying to do something new.
 
-![Joey from friends suddenly being surprised by something he did not expect](https://th.bing.com/th/id/R.e68da6e3069cb1986b8ac76a08bdd78a?rik=XnRxesFRxlQO9Q&riu=http%3a%2f%2fartisantalent.com%2fwp-content%2fuploads%2f2016%2f02%2fgiphy-3.gif&ehk=jPk%2bY9z%2fzn%2f%2bc2wmJr0RY1lcuYCuQ4YMHkELhs5ejh4%3d&risl=&pid=ImgRaw&r=0)
+![Joey from friends suddenly being surprised by something he did not expect](assets/img/posts/image-not-found.png)

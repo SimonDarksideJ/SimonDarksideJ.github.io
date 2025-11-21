@@ -16,6 +16,7 @@ In the wake of events in 2019 events, sessions and conferences are being cancell
 
 This article will walk through some of the most commonly used online services for organizing and scheduling an online meeting, mainly targeted at user groups or conferences who need to move their physical events online, but it is also useful if you just need to talk and share content.
 
+
 ## What types of services are available?
 <figure class="wp-block-image size-large"><img loading="lazy" width="800" height="450" src="/assets/img/wordpress/2020/03/image-13.png" alt=" class=" wp-image-97653 srcset="/assets/img/wordpress/2020/03/image-13.png 800w, /assets/img/wordpress/2020/03/image-13-300x169.png 300w, /assets/img/wordpress/2020/03/image-13-768x432.png 768w, /assets/img/wordpress/2020/03/image-13-700x393.png 700w" sizes="(max-width: 800px) 100vw, 800px"></figure>
 
@@ -30,6 +31,7 @@ Where you want to present to a large number of attendee’s, likely you’ll nee
 
 The choice of the type of service to use really comes down to your preference for your event or space, or even depending on the type of content that needs to be shared.
 
+
 ## What determines the type of meeting service?
 
 <figure class="wp-block-image size-large"><img loading="lazy" width="800" height="450" src="/assets/img/wordpress/2020/03/image-1.png" alt=" class=" wp-image-97221 srcset="/assets/img/wordpress/2020/03/image-1.png 800w, /assets/img/wordpress/2020/03/image-1-300x169.png 300w, /assets/img/wordpress/2020/03/image-1-768x432.png 768w, /assets/img/wordpress/2020/03/image-1-700x393.png 700w" sizes="(max-width: 800px) 100vw, 800px"></figure>
@@ -43,6 +45,7 @@ The type of service you choose will depend on a number of factors, namely:
 - Whether the service includes event scheduling or not and whether it informs attendee’s of changes/updates to the event.
 
 Most of the above should be well understood by most event organisers who regularly manage events.
+
 
 ## Immersive Meetings
 <figure class="wp-block-image size-large"><img loading="lazy" width="800" height="450" src="/assets/img/wordpress/2020/03/image-14.png" alt=" class=" wp-image-97654 srcset="/assets/img/wordpress/2020/03/image-14.png 800w, /assets/img/wordpress/2020/03/image-14-300x169.png 300w, /assets/img/wordpress/2020/03/image-14-768x432.png 768w, /assets/img/wordpress/2020/03/image-14-700x393.png 700w" sizes="(max-width: 800px) 100vw, 800px"></figure>
@@ -69,6 +72,7 @@ I added RecRoom (you could also use VRChat) as another alternative if you really
 
 However, there isn’t really any privacy (apart from your own room, which you can invite people to), so managing attendees could be fairly tricky. Like with Hubs, there is no scheduling available. you need to turn up, find a place to hide and pull people to you.
 
+
 ## 2D Experiences
 <figure class="wp-block-image size-large"><img loading="lazy" width="800" height="450" src="/assets/img/wordpress/2020/03/image-6.png" alt=" class=" wp-image-97254 srcset="/assets/img/wordpress/2020/03/image-6.png 800w, /assets/img/wordpress/2020/03/image-6-300x169.png 300w, /assets/img/wordpress/2020/03/image-6-768x432.png 768w, /assets/img/wordpress/2020/03/image-6-700x393.png 700w" sizes="(max-width: 800px) 100vw, 800px"></figure>
 
@@ -89,6 +93,7 @@ It is one of the few that offers full HD video support (provided you have the ba
 Discord, while popular with gamers, also has the ability to have online sharing sessions, this is especially useful if you already use Discord for offline chat for your group.
 
 While sessions are running, you can have audio, text and screen sharing running. My only real concern with Discord (over other clients like Slack) is that it has no thread support, so if multiple conversations begin, it can become hard to manage. Best bet is to have multiple text channels for different subjects and shuffle while an event is on or after.
+
 
 ## Broadcast Experiences
 <figure class="wp-block-image size-large"><img loading="lazy" width="800" height="450" src="/assets/img/wordpress/2020/03/image-9.png" alt=" class=" wp-image-97257 srcset="/assets/img/wordpress/2020/03/image-9.png 800w, /assets/img/wordpress/2020/03/image-9-300x169.png 300w, /assets/img/wordpress/2020/03/image-9-768x432.png 768w, /assets/img/wordpress/2020/03/image-9-700x393.png 700w" sizes="(max-width: 800px) 100vw, 800px"></figure>
@@ -111,10 +116,12 @@ Twitch is another big broadcasting service, ultimately some would say the larges
 
 It has comparative features to Mixer and does have a large community.
 
+
 ## Ready for more?
 <figure class="wp-block-image size-large"><img loading="lazy" width="800" height="450" src="/assets/img/wordpress/2020/03/image-12.png" alt=" class=" wp-image-97272 srcset="/assets/img/wordpress/2020/03/image-12.png 800w, /assets/img/wordpress/2020/03/image-12-300x169.png 300w, /assets/img/wordpress/2020/03/image-12-768x432.png 768w, /assets/img/wordpress/2020/03/image-12-700x393.png 700w" sizes="(max-width: 800px) 100vw, 800px"></figure>
 
 Stay tuned, as I’ll follow up this overview with a dedicated session on each offering, how to set it up and make the best use of the space. I’ll try to keep each session short with both an article and video.
+
 
 ## Where to find more
 
@@ -128,6 +135,7 @@ Here’s the breakdown for where to find more for each service mentioned:
 - Discord – [https://discordapp.com/](https://discordapp.com/) 
 - Mixer – [https://mixer.com/](https://mixer.com/) 
 - Twitch – [https://www.twitch.tv/](https://www.twitch.tv/)
+
 
 ## What is your space?
 

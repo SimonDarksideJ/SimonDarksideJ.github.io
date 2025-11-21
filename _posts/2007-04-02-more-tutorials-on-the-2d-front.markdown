@@ -17,5 +17,5 @@ Head over to [Jnrdev’s page](http://jnrdev.72dpiarmy.com/) for some much neede
 <p>Rgds</p>
 <p>Darkside</p>
 </div>
-](http://jnrdev.72dpiarmy.com/_gfx/header.gif)](http://jnrdev.72dpiarmy.com/)
+](assets/img/posts/image-not-found.png)](http://jnrdev.72dpiarmy.com/)
 

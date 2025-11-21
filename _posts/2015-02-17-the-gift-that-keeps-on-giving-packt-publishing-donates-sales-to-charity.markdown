@@ -7,6 +7,7 @@ tags: [information]
 
 Today I am very proud, not just of the efforts and feedback I’ve been getting for my latest title Unity 3D UI Essentials but also for my publisher who (against all odds) has done an amazing thing, **promised a portion of sales revenue for my book to Charity**.
 
+
 # [Prader-Willi Association UK](http://www.pwsa.co.uk/ "Prader-Willi Syndrome Association UK")
 
 [![ width=](http://www.pwsa.co.uk/assets/images/pwsa_logo.png)](http://www.pwsa.co.uk/ "Prader-Willi Syndrome Association UK")
@@ -25,6 +26,7 @@ So you can well imagine the stress a family is put under living with this condit
 
 We were lucky in some aspects as we were informed about his condition when he was only 3 weeks old, so we have been able to plan and manage his condition early on and have learned how to cope. Granted it is always a struggle but you soldier on.  With the support of the Prader-Willi Syndrome Association UK we are prepared for what the condition can throw at us.  They truly provide such wonderful support through events, training and a good ear to talk to when times get tough.  We also do get a fair amount of support from our local council’s social care departments.
 
+
 # Power to the UI
 
 [![3560_Unity 3D GUI Essentials_0](/assets/img/wordpress/2014/11/3560_Unity-3D-GUI-Essentials_0.jpg)](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
@@ -34,6 +36,7 @@ We were lucky in some aspects as we were informed about his condition when he wa
  
 
 So with the launch of my latest title [Unity 3D UI Essentials](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials"), 2% of total sales (1% from my royalties and 1% from the publisher) will be donated directly to the [Prader-Willi Syndrome Association](http://www.pwsa.co.uk/).  Now, not only will you learn about all the fantastic new features of Unity’s new UI system and gain a deeper understanding of all its components, you will also be supporting a fantastic charily that helps families like ours in their direst hours.
+
 
 # To all I say a big thank you
 

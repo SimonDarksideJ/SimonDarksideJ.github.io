@@ -9,6 +9,7 @@ Keeping with the Unity3D season I seem to be having, here is another Unity3D boo
 
 [![ src=]()](http://www.packtpub.com/getting-started-with-unity/book)
 
+
 ##### [Getting Started with Unity](http://www.packtpub.com/getting-started-with-unity/book)
 
 I have been on the hunt for a while now for a easy introduction book for Unity, even though I am already fairly well experienced with it I am always looking out for a good reference source to point newcomers to the world of Unity3D.  Video tutorials and the API guide are all well and good but others like myself always react better to the written word. (and also useful if there is no internet ![Open-mouthed smile](/assets/img/wordpress/2013/10/wlEmoticon-openmouthedsmile.png))
@@ -29,19 +30,23 @@ So lets see how we get on.
 
 Here is a brief run through what all the chapters are and what to expect from them:
 
+
 ###### Chapter 1 “Getting to know Unity3D”
 
 As expected this book starts off with what you can see, a general walk through the Unity3D editor, how it is made up and where things live so you can navigate your way around.
 
 It also gives you an overview of the default “Angry Bots” sample included with unity as well as starting your first project and just mucking around with it and getting to know how to import Unity assets like the “Character controller” and throwing some new game objects in to a scene to see how they are affected.
 
+
 ###### Chapter 2 “Creating a Maze with Built-in Objects”
 
 From here we start actually creating scenes and building a simple maze type game adding lighting to our environment and pulling together the basic physics system that is built into Unity3D.  On top at that we also take a look at another of the included features of Unity3D, the water effect.
 
+
 ###### Chapter 3 “Using Scripts to Interact with Objects”
 
 From here on in the book tackles some of the raw undercurrents of the Unity3D engine, scripting.  It is important to know how these work in any game and how to make them work well, there are even some pointers on how to structure your script assets along Unity3D’s guidelines.  You’ll create some JavaScript scripts that work with your created environment and shows you how to manipulate the game world to get your desired effect.
+
 
 ###### Chapter 4 “Creating and Tracking Objects”
 
@@ -49,15 +54,18 @@ In chapter 4 the book shows you how to start creating objects in code instead of
 
 It also shows in a bit more depth how to use cameras more effectively within your scene and adding audio effects triggers from your scripts.
 
+
 ###### Chapter 5 “Bringing Your Game to Life with AI and Animations”
 
 Unless you are building some block falling or other simple game you are going to need AI to keep the player challenged, this can take many forms from simple balancing (making the game harder if they are playing too well) to artificial enemy opponents roaming the walls. This chapter goes over the basics of scripting some AI into your games and also digs in to the word of animations, taking advantage of the new Mecanim system introduced in V4 of Unity3D to take animation information from imported models and use them effectively within your game.
+
 
 ###### Chapter 6 “Finalizing and Optimizing Your Game”
 
 Of course making a game is not the end of the story by any means, in fact you will find that finishing your game will likely take 80% of the time needed in any given project.  Here the author walks you through some of the techniques to optimise memory (only having a single scene in memory at a time) and using more procedural techniques to avoid overloading your scenes and preserving necessary data across levels so as to avoid loading issues.
 
 There is also a nice walk through for creating a simple game menu system and splashscreen.
+
 
 ###### 
 
@@ -71,10 +79,12 @@ There is a lot of boilerplate involved and in all likelihood you will spend most
 
 It is not all bad, it does cover some features which I am not completely familiar with and although I got the gist of it, I was not left feeling completely knowledgeable about subjects.
 
+
 ###### Pros:
 
 - The “Getting to know you” chapter is nicely laid out and explains a lot of what you can see and what is included with Unity3D out of the box
 - The goal of the maze type game is not one I have seen out there so is a good view in to the genre
+
 
 ###### Cons:
 

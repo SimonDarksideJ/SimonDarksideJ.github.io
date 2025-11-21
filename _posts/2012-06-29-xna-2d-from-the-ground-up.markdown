@@ -5,6 +5,7 @@ date: 2012-06-29 09:05:51
 tags: [2d tutorial, game development, xna]
 ---
 
+
 ## Introduction:
 
 When I was starting out in game development, there was not a lot of info out there or the budding indie game developer, what was out there was generally hard to reach or not clearly documented.
@@ -39,7 +40,9 @@ Webcast Sessions:
 > 
 > Session 8: Creating Sprite Behaviour
 
+
 ##  
+
 
 ## About DigiPen Institute of Technology:
 
@@ -64,5 +67,6 @@ For more details about Digipen’s degree programs, visit [http://www.digipen.ed
 DigiPen Institute of Technology also offers a number of outreach efforts to explore a career in video game development:
 
 DigiPen also has an online program taught live by DigiPen instructors. For details, go to [http://projectfun.digipen.edu](http://projectfun.digipen.edu)
+
 
 ## The original webcast and project is available over @ [StarTrooper XNA Codeplex page](http://startrooper2dxna.codeplex.com)

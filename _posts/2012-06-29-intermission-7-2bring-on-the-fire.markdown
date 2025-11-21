@@ -17,17 +17,19 @@ As usual all the code for this section can be found [here on codeplex](http://st
 
  
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
 
+
 ### The aims of our fireball effect
 
 Below is a diagram of what we are aiming for with our replacement fireball effect, a bit more snazzy than our original sprite:
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_23722C7D.png)
+![image](assets/img/posts/image-not-found.png)
 
 We need the emitter to be thrown up spewing out fire as it does and trailed with a smoke plume to give it an extra edge.  We could just launch out particles together from our trooper for the effect but we would loose cohesion from our fireball and loose a level of control should we wish to add similar effects for other weapons.
 
@@ -37,29 +39,31 @@ We need the emitter to be thrown up spewing out fire as it does and trailed with
 
  
 
+
 ### Making use of the particle framework 
 
 Below is a diagram of the framework we have setup:
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_7A2A48A4.png)
+![image](assets/img/posts/image-not-found.png)
 
 From here you can see our standard particle system framework.  Within our framework we will define several emitter effect definitions based on the emitter control template.  This gives us a wide array of capabilities and options for setting up our effects, we can implement either:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Static Controlled effect
+> ![](assets/img/posts/image-not-found.png)    Static Controlled effect
 > 
 > Where the game controls how the effect is generated and updated, including when new particles are generated, this is what is used in the CC particle sample.
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Self sustaining effect
+> ![](assets/img/posts/image-not-found.png)    Self sustaining effect
 > 
 > Where an effect is launched and generates a pattern of particles but the game still controls the emitter.  Which is what we will use in this tutorial
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Self controlled effect
+> ![](assets/img/posts/image-not-found.png)    Self controlled effect
 > 
 > In this the game initiates the effect but after that has no direct control, the emitter is completely self controlled.  Bit like a fire out of control (if you could program real fire)
 
 So lets get on and get this started.
 
 * * *
+
 
 ### Finishing up from the last episode
 
@@ -909,15 +913,15 @@ Add the following to the beginning of the Particle Manager:
                         
                         
                         
-                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Update to Initialise Constants (Mandatory)
+                        > ![](assets/img/posts/image-not-found.png)    Update to Initialise Constants (Mandatory)
                         > 
                         > This is the only mandatory requirement for any new particle effect, to setup it is starting parameters which control how particles are generated when called.  These are also the most tricky to configure to get the effect you want.
                         > 
-                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Supplemented Update
+                        > ![](assets/img/posts/image-not-found.png)    Supplemented Update
                         > 
                         > As we are aiming for a self sustained effect (a constant fireball) we want to generate new particles to replace those that die during the cause of our fireball shot, so we override update to add more particles each update.  This is also supplemented by an effect specific attribute “CycleMeter” to control how often new particles should happen.  (0 = every frame, 10 = every 10 seconds), the timing is set in the “ParticleCycleTime” attribute of the emitter.
                         > 
-                        > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    Supplemented Initialise Particle
+                        > ![](assets/img/posts/image-not-found.png)    Supplemented Initialise Particle
                         > 
                         > As we want the particles to follow the emitter and not fly of in a random direction (which is the default), we fix the particles position to the emitters position.  We could enhance this if we wished to make the particle circle around the emitter if we wished.
                         
@@ -946,7 +950,7 @@ Add the following to the beginning of the Particle Manager:
                         
                         | 
                         
-                        ![explosion](http://xna-uk.net/blogs/darkgenesis/explosion_73FFA9B1.png)
+                        ![explosion](assets/img/posts/image-not-found.png)
                         
                          |
                         | 
@@ -1021,7 +1025,7 @@ Add the following to the beginning of the Particle Manager:
                             
                             
                             
-                            | ![Fire01](http://xna-uk.net/blogs/darkgenesis/Fire01_52FC113D.png) | ![image[6]](http://xna-uk.net/blogs/darkgenesis/image6_58C68F09.png) |
+                            | ![Fire01](assets/img/posts/image-not-found.png) | ![image[6]](http://xna-uk.net/blogs/darkgenesis/image6_58C68F09.png) |
                             | 
                             
                             Old fireball
@@ -1385,10 +1389,10 @@ Add the following to the beginning of the Particle Manager:
                                 
                                 
                                 
-                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    It lasts a bit longer (min and max lifetime are greater) as smoke lingers   
-                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    It is slower (min and max speed are reduced)   
-                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    The acceleration is also slower so that the smoke gets left behind   
-                                > ![](http://www.dotnetscraps.com/samples/bullets/039.gif)    We use a different blend effect for better results
+                                > ![](assets/img/posts/image-not-found.png)    It lasts a bit longer (min and max lifetime are greater) as smoke lingers   
+                                > ![](assets/img/posts/image-not-found.png)    It is slower (min and max speed are reduced)   
+                                > ![](assets/img/posts/image-not-found.png)    The acceleration is also slower so that the smoke gets left behind   
+                                > ![](assets/img/posts/image-not-found.png)    We use a different blend effect for better results
                                 
                                 
                                 
@@ -1496,7 +1500,7 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        ![Fireball-New](http://xna-uk.net/blogs/darkgenesis/FireballNew_51C38A2C.png)
+                                        ![Fireball-New](assets/img/posts/image-not-found.png)
                                         
                                         
                                         * * *
@@ -1512,7 +1516,7 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        ![image](http://xna-uk.net/blogs/darkgenesis/image_5711AF36.png)
+                                        ![image](assets/img/posts/image-not-found.png)
                                         
                                         
                                         
@@ -1551,7 +1555,7 @@ Add the following to the beginning of the Particle Manager:
                                         
                                         
                                         
-                                        | ![image](http://xna-uk.net/blogs/darkgenesis/image_58064CBB.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_7C971898.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_53F7EAEA.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_4AAB89DC.png) | ![image](http://xna-uk.net/blogs/darkgenesis/image_6BCB59EB.png) |
+                                        | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) |
                                         | 1st run, way too many particles and they did not follow the emitter, except flame up | Less particles but they did not last long enough or spawn quick enough.  Also too big | Got the fireball right but we needed more | Great effect, something to keep for later.  Not the ball I wanted.   
                                         May be to use in a different colour as a plasma ball? | The end result. |
                                         

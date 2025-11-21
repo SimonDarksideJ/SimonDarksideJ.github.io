@@ -13,6 +13,7 @@ To really make your game shine and look impressive, you need to have a good unde
 
 [![ src=]()](http://www.packtpub.com/high-level-shader-language-development-cookbook/book)
 
+
 ### [HLSL Development Cookbook](http://www.packtpub.com/high-level-shader-language-development-cookbook/book)
 
 So if you want to know more about what goes on under the covers and start making / enhancing your own effects, read on.
@@ -35,6 +36,7 @@ I digress, so what can we look for in this book.
 
 Here is a brief run through what all the chapters are and what to expect from them.   The book is laid out like a traditional HLSL cookbook breaking down effects and showing how each component works and its end effect on the resultant output.
 
+
 ### Chapter 1 “Forward Lighting”
 
 Lighting is one of the most basic and commonly used shader techniques, after all without light there would only be darkness (which is only good for audio games ![Open-mouthed smile](/assets/img/wordpress/2013/08/wlEmoticon-openmouthedsmile.png)), this chapter goes in to some depth on the main basic lighting systems used in games today, such as:
@@ -53,6 +55,7 @@ Image courtesy of [Riemers HLSL tutorial](http://www.riemers.net/eng/Tutorials/D
 
 [![ src=]()](http://www.riemers.net/eng/Tutorials/DirectX/Csharp/Series3/The_first_light.php)
 
+
 ### Chapter 2 “Deferred Shading”
 
 Deferred shading is one of those advanced techniques to light a scene in a more efficient and performant way by calculating all lights at the same time without the limitation of the geometry that it is being applied to, sounds great but a lot trickier to implement than standard lighting especially since it takes multiple passes within the shader to accomplish.
@@ -65,6 +68,7 @@ In this chapter the auther does a good job of explaining all the parts needed to
 Some really nice examples of these effects (courtesy of @NemoKrad [RandomChaos blog](http://xnauk-randomchaosblogarchive.blogspot.co.uk/2012/07/deferred-lighting-teaser.html))
 
 [![ src=]()](http://xnauk-randomchaosblogarchive.blogspot.co.uk/2012/07/deferred-lighting-teaser.html)
+
 
 ### Chapter 3 “Shadow Mapping”
 
@@ -83,6 +87,7 @@ Some really nice examples of these effects (courtesy of @NemoKrad [RandomChaos b
 
 <object width="448" height="252" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/VGeC5HYN0k0?hl=en&amp;hd=1">
 <embed width="448" height="252" type="application/x-shockwave-flash" src="http://www.youtube.com/v/VGeC5HYN0k0?hl=en&amp;hd=1"></embed></object>
+
 
 ### Chapter 4 “Postprocessing”
 
@@ -105,6 +110,7 @@ Some really nice examples of these effects (courtesy of DarkOmenGames on the  [R
 <object width="448" height="252" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/mKhoI9HbKig?hl=en&amp;hd=1">
 <embed width="448" height="252" type="application/x-shockwave-flash" src="http://www.youtube.com/v/mKhoI9HbKig?hl=en&amp;hd=1"></embed></object>
 
+
 ### Chapter 5 “Screen Space Effects”
 
 Screen space effects are another class of post processing which focus on elements that effect the entire scene (usually from a single element, like the sun).  Some see them as just another Post process, others see them as a particular form of advanced shading, in either case it is a very useful technique to have under your belt especially if you game is featured in space or the great outdoors.
@@ -120,6 +126,7 @@ Some really nice examples of these effects (courtesy of @NemoKrad [RandomChaos b
 
 <object width="448" height="252" classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0"><param name="src" value="http://www.youtube.com/v/toS1n_VHLRI?hl=en&amp;hd=1">
 <embed width="448" height="252" type="application/x-shockwave-flash" src="http://www.youtube.com/v/toS1n_VHLRI?hl=en&amp;hd=1"></embed></object>
+
 
 ### Chapter 6 “Environment Effects”
 
@@ -144,11 +151,13 @@ Some really nice examples of a fire environmental effect (courtesy of @NemoKrad 
 
 Shaders are one of those subjects that is hard to get in to and even harder to master, it is practically a specialty in its own right so I was nicely surprised how well the author broke down what each effect was meant to achieve and how it implement it.
 
+
 ###### Pros:
 
 - Great introductions and explanations of the effects covered
 - Complete projects available to download for each effect
 - Does not overload you with detail, keeps things simple
+
 
 ###### Cons:
 

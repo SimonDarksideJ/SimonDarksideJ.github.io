@@ -17,6 +17,7 @@ So first out of the gate is [MonoGame](http://monogame.codeplex.com), This artic
 
 * * *
 
+
 # Background
 
 [![MonogameLogo1920x1920](/assets/img/wordpress/2012/10/MonogameLogo1920x1920.png "MonogameLogo1920x1920")](/assets/img/wordpress/2012/10/MonogameLogo1920x1920.png)
@@ -34,6 +35,7 @@ As more contributors come on board I would expect this list to grow over time of
 [MonoGame](http://monogame.codeplex.com) just released version 3.0 of its framework as a Beta which now offers full Windows 8 support.
 
 * * *
+
 
 # Out of the Box
 
@@ -54,11 +56,12 @@ As it is still in early Beta there are a few issues in the Windows 8 world but s
 
 * * *
 
+
 # Content Pipeline
 
 ![ /></p>
 <p>The content pipeline was arguably one of the most powerful features of XNA which has been very hard to find outside of XNA, sure there are frameworks out there emulating XNA but none provide such a simple content building system (excluding Unity but that is NOT XNA).</p>
-<p>The trouble using XNA content builder outputs on other platforms is that the XNB files it outputs are platform specific, <a href=](http://www.flexicon.co.uk/us/images/plant.jpg)MonoGame has gotten around this with its own multi-platform builder project allowing the creation of compiled assets for all its target platforms.  It is one deficiency is that it depends on the original XNA content project template which is still only available in VS2010 (express will do).  Fear not however there are plans for a more open source version, it will just take time (get involved if you want to help out)
+<p>The trouble using XNA content builder outputs on other platforms is that the XNB files it outputs are platform specific, <a href=](assets/img/posts/image-not-found.png)MonoGame has gotten around this with its own multi-platform builder project allowing the creation of compiled assets for all its target platforms.  It is one deficiency is that it depends on the original XNA content project template which is still only available in VS2010 (express will do).  Fear not however there are plans for a more open source version, it will just take time (get involved if you want to help out)
 
 Getting your content compiled is very easy, it just involves:
 
@@ -75,10 +78,11 @@ This will give you a set of compiled assets in XNB format ready for use on your 
 
 * * *
 
+
 # MonoGame – Windows 8 basic version
 
 [ ![ /></a></p>
-<p>Now <a href=](https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/55358_4249267144401_1677481735_o.jpg)MonoGame](http://www.spikie.be/blog/post/2012/10/09/MonoGame%E2%80%93XNA-on-Windows-8 "A developers first attempt at a XNA game using MonoGame, nice breakoutgame") comes in two flavours for Windows 8, there is the basic windowed version and a XAML based one similar to the SilverXNA (Silverlight Integration) version for Windows Phone, which you choose is completely up to you.
+<p>Now <a href=](assets/img/posts/image-not-found.png)MonoGame](http://www.spikie.be/blog/post/2012/10/09/MonoGame%E2%80%93XNA-on-Windows-8 "A developers first attempt at a XNA game using MonoGame, nice breakoutgame") comes in two flavours for Windows 8, there is the basic windowed version and a XAML based one similar to the SilverXNA (Silverlight Integration) version for Windows Phone, which you choose is completely up to you.
 
 The basic version is just XNA out of the box but with all the extra gubbins needed to run XNA/MonoGame on Windows 8:
 
@@ -137,10 +141,11 @@ Option 1, in my view is a lot cleaner, however there are a few points to keep in
 
 * * *
 
+
 # MonoGame for Windows 8 XAML
 
 [ ![ /></a></p>
-<p>No post about <a href=](http://www.davebost.com/blog/wp-content/uploads/2012/08/image1.png)MonoGame](http://apps.microsoft.com/webpdp/en-gb/app/armed/a080e316-b7ff-4d81-831c-2967a9c2357d "Armed on the Windows 8 Store") would be complete without a reference to the Awesome Guys over at [Sickhead Games](http://www.sickheadgames.com/) and their title “ARMED”, most do not know that they are the Main contributors to the Windows 8 branch of [MonoGame](http://monogame.codeplex.com)!
+<p>No post about <a href=](assets/img/posts/image-not-found.png)MonoGame](http://apps.microsoft.com/webpdp/en-gb/app/armed/a080e316-b7ff-4d81-831c-2967a9c2357d "Armed on the Windows 8 Store") would be complete without a reference to the Awesome Guys over at [Sickhead Games](http://www.sickheadgames.com/) and their title “ARMED”, most do not know that they are the Main contributors to the Windows 8 branch of [MonoGame](http://monogame.codeplex.com)!
 
 So as I mentioned before this second variant of [MonoGame](http://monogame.codeplex.com) is almost exactly the same as the Silverlight XNA integration (SilverXNA) on Windows Phone with only a few differences.
 
@@ -170,6 +175,7 @@ I have also seen chatter about removing the “Game” class all together in thi
 
 * * *
 
+
 # Core differences
 
 ![ /></p>
@@ -187,7 +193,7 @@ I have also seen chatter about removing the “Game” class all together in thi
 <p>There may be others and I’ll keep this list updated as I find them but as with most things the choice at the end of the day is up to you.</p>
 <hr />
 <h1>When I get a minute</h1>
-<p>As soon as I get a spare minute I will push up the 2 samples I ported to <a href=](http://images.thoughtsmedia.com/resizer/thumbs/size/600/wpt/auto/1338215893.usr110171.jpeg)MonoGame from my 3D starter tutorial.
+<p>As soon as I get a spare minute I will push up the 2 samples I ported to <a href=](assets/img/posts/image-not-found.png)MonoGame from my 3D starter tutorial.
 
 They BOTH took a whopping 5 minutes each to port over with **NO ISSUE** (ok maybe 6, I did need a bite of pizza while the content is built), this just shows the power and flexibility of [MonoGame](http://monogame.codeplex.com) as well as its 99% compatibility to XNA (I say 99% because it is still in beta and a few features are not 100% implemented and there are a few minor bugs which the team are actively working on)
 
@@ -195,7 +201,7 @@ With Titles such as “[ARMED](http://www.armedgame.com/)” and others there is
 
 Have fun XNA’ing
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/?p=1329&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/?p=1329) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/?p=1329)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/?p=1329)<script type="text/javascript">// <![CDATA[
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/?p=1329) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/?p=1329)<script type="text/javascript">// <![CDATA[
 var dzone_url = 'http://darkgenesis.zenithmoon.com/?p=1329';
 // ]]></script>  
 <script type="text/javascript">// <![CDATA[
@@ -209,4 +215,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20) <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)
+// ]]></script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20) <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

@@ -6,7 +6,7 @@ tags:
 - ramblings
 ---
 
-I’ve been very quiet of late, especially on my Blog.  Now this isn’t because of anything sinister or just laziness, I’ve just been really REALLY busy.
+I’ve been very quite of late, especially on my Blog.  Now this isn’t because of anything sinister or just laziness, I’ve just been really REALLY busy.
 
 <figure id="attachment_3628" aria-describedby="caption-attachment-3628" style="width: 150px" class="wp-caption alignnone"><a href="/assets/img/wordpress/2014/01/il_570xN.534199052_s088.jpg"><img loading="lazy" class="size-thumbnail wp-image-3628 " alt="Just busy OK!!" src="/assets/img/wordpress/2014/01/il_570xN.534199052_s088-150x150.jpg" width="150" height="150" srcset="/assets/img/wordpress/2014/01/il_570xN.534199052_s088-150x150.jpg 150w, /assets/img/wordpress/2014/01/il_570xN.534199052_s088-432x432.jpg 432w, /assets/img/wordpress/2014/01/il_570xN.534199052_s088-268x268.jpg 268w" sizes="(max-width: 150px) 100vw, 150px"></a><figcaption id="caption-attachment-3628" class="wp-caption-text">Just busy OK!!</figcaption></figure>
 

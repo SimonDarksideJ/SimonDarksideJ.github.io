@@ -11,6 +11,7 @@ FBX as a standard for 3D model files has been around a while now, it is robust a
 
 Now standards improve / change over time and FBX is no different, Autodesk (who created / own the FBX standard) have tweaked / improved (there are a lot of slashes in this article for some reason ![Confused smile](/assets/img/wordpress/2015/10/wlEmoticon-confusedsmile.png)) the standard over the years, however usually this is fine because most tools try and support as many options as possible, however of late there are some REALLY old versions which are going out of style and support is wavering.
 
+
 # Running in to issues with old FBX formats
 
 I stumbled across this recently while updating some old samples and tests for MonoGame. Normally with MonoGame (99.5% of the time) the old XNA samples just work, you simply need to build a new MonoGame project, copy over the code and assets and you are up and running, however with the recent releases they have deprecated some of the older FBX standards in favour of only supporting the newer variety.  When you add an old FBX into your content project you will get the following error:
@@ -25,19 +26,23 @@ You will likely encounter this when you use an old FBX from a sample or even fro
 
 * * *
 
+
 # What to do when your FBX is TOO old?
 
 Obviously you do not want to bin that old model (obviously very near and dear to your heart), replacing it could be costly and making it from scratch is going to take just too long (unless it is just a cube?)
 
 So we have a couple of options to get us out of this hole:
 
+
 ## 1: Convert it
 
 Now many 3D model conversion sites do generally support most 3D format standards and have ways to convert them from one to another, such as the Online 3D Convertor.
 
+
 ### Online 3D Convertor – [http://www.greentoken.de/onlineconv/](http://www.greentoken.de/onlineconv/ "http://www.greentoken.de/onlineconv/")
 
 They offer conversion between several formats based on the [Open Asset Import Library](http://assimp.sourceforge.net/main_features_formats.html). There are a few it ca not convert (namely MAX and Maya as they are too proprietary), otherwise the list is very extensive.  You can then either convert to another format or back to a newer version of FBX.
+
 
 ## 2: Upgrade it
 
@@ -49,6 +54,7 @@ The FBX Convertor tool can actually do a lot more than just upgrade your FBX fil
 
 > ### [Autodesk FBX Converter](http://usa.autodesk.com/adsk/servlet/pc/item?siteID=123112&id=22694909 "Autodesk FBX Converter")
 
+
 ## 3: Visual Studio is your friend
 
 I was reminded on Twitter (and Andy’s comment below) that in Visual Studio 2013, the team added a whole host of new 3D graphics tools. These allow you to view, edit and manipulate graphics content, from images, shaders and even 3D models.  These capabilities were extended even further in 2015 which a host of new features which you can read about here:
@@ -59,6 +65,7 @@ With Visual Studio, you can simply double click an FBX (and some other) files, t
 
 * * *
 
+
 # Interesting side effect?
 
 One last note when reviewing the upgraded FBX file was that it was in fact MUCH smaller, check for yourself:
@@ -68,6 +75,7 @@ One last note when reviewing the upgraded FBX file was that it was in fact MUCH 
 Not sure what the actual cause of the reduction is or it is full effect, however the new FBX works just as well as the old from what I can tell.
 
 * * *
+
 
 # Happy motoring
 

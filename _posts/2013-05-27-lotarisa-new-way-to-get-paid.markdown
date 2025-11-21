@@ -11,6 +11,7 @@ If your interested in making more money for your paid apps or a higher revenue s
 
 * * *
 
+
 # So Who and What are Lotaris?
 
 [![image](/assets/img/wordpress/2013/05/image.png "image")](http://www.lotaris.com/)
@@ -20,6 +21,7 @@ Lotaris is an “in-app commerce” and mobile licensing platform with a rich an
 When I say app it could just as well be a game as well ![Open-mouthed smile](/assets/img/wordpress/2013/05/wlEmoticon-openmouthedsmile.png)
 
 * * *
+
 
 # How does it stack up?
 
@@ -49,6 +51,7 @@ The only other query I have would be how users would react to being sent elsewhe
 
 * * *
 
+
 # What are the options?
 
 The Microsoft store already has a robust system in place, granted the differences between the Windows and Phone stores are very apparent to anyone who has delved deeply enough but just what can Lotaris bring to the table.  Quite a lot it seems, check this out:
@@ -65,6 +68,7 @@ One feature I really like is that if you were using some other mechanism to deli
 
 * * *
 
+
 # Reviewers comments
 
 In my opinion, [Lotaris](http://www.lotaris.com/) certainly seems to be the winning platform for privately monetising your apps and games on the Windows platform, apart from all the additional ways you can add revenue streams to your applications, at the end of the day you get more in your pocket.
@@ -72,6 +76,7 @@ In my opinion, [Lotaris](http://www.lotaris.com/) certainly seems to be the winn
 But wait there is more to this story…
 
 * * *
+
 
 # Getting Started
 
@@ -81,6 +86,7 @@ Once you have signed up and logged on for the first time you will be greeted wit
 
 | [![image](/assets/img/wordpress/2013/05/image14.png "image")](/assets/img/wordpress/2013/05/image15.png) |
 | 
+
 ###### Step 1
 
 Getting to know you, a nice 2.5 minute screencast gives you an overview of the Lotaris portal
@@ -88,6 +94,7 @@ Getting to know you, a nice 2.5 minute screencast gives you an overview of the L
  |
 | [![image](/assets/img/wordpress/2013/05/image15.png "image")](/assets/img/wordpress/2013/05/image16.png) |
 | 
+
 ###### Step 2
 
 walks you though getting the SDK downloaded and up and running on your development machine
@@ -95,6 +102,7 @@ walks you though getting the SDK downloaded and up and running on your developme
  |
 | [![image](/assets/img/wordpress/2013/05/image16.png "image")](/assets/img/wordpress/2013/05/image17.png) |
 | 
+
 ###### Step 3
 
 Another 5 min screencast walking you through the app console in more detail
@@ -102,6 +110,7 @@ Another 5 min screencast walking you through the app console in more detail
  |
 | [![image](/assets/img/wordpress/2013/05/image17.png "image")](/assets/img/wordpress/2013/05/image18.png) |
 | 
+
 ###### Step 4
 
 highlights the necessary steps for integrating the platform in your app / game (more later)
@@ -109,6 +118,7 @@ highlights the necessary steps for integrating the platform in your app / game (
  |
 | [![image](/assets/img/wordpress/2013/05/image18.png "image")](/assets/img/wordpress/2013/05/image19.png) |
 | 
+
 ###### Step 5
 
 Highlights the importance of test mode to ensure YOU do not get charged while testing your app
@@ -116,6 +126,7 @@ Highlights the importance of test mode to ensure YOU do not get charged while te
  |
 | [![image](/assets/img/wordpress/2013/05/image19.png "image")](/assets/img/wordpress/2013/05/image20.png) |
 | 
+
 ###### Step 6
 
 The all important step showing you what to do to set up how Lotaris pay you
@@ -123,6 +134,7 @@ The all important step showing you what to do to set up how Lotaris pay you
  |
 | [![image](/assets/img/wordpress/2013/05/image20.png "image")](/assets/img/wordpress/2013/05/image21.png) |
 | 
+
 ###### Step 7
 
 Shows you how to make your payment system live and ready to collect payments (just one click really)
@@ -130,6 +142,7 @@ Shows you how to make your payment system live and ready to collect payments (ju
  |
 | [![image](/assets/img/wordpress/2013/05/image21.png "image")](/assets/img/wordpress/2013/05/image22.png) |
 | 
+
 ###### Step 8
 
 For the final cherry on the top, get access to all the analytics data to show what people are buying to help you set payment schedules
@@ -141,6 +154,7 @@ As you can see from the get go you get a lot of information, clearly orchestrate
 So your accounts ready, now what?  Lets Integrate.
 
 * * *
+
 
 # Your first app
 
@@ -160,6 +174,7 @@ There is even the capability to test the trial offline, so if the user does not 
 | As a last step, you can check the status of any in-app offer to verify what the user has already paid for, you can so this simple check.  Also if you have a screen listing all paid for items, then you can use the ProductLicenses collection instead in implementing your own. |
 
 * * *
+
 
 # Windows Phone users – read on
 
@@ -188,11 +203,13 @@ For more details about the above steps check the integration page on the Lotaris
 
 * * *
 
+
 # What about other platforms?
 
 Lotaris does have support for other platforms such as iOS and Android plus even a WEB API interface for integrating with them, however at this time not through the self service portal.  Anyone wishing to take advantage of Lotris e-commerce solutions on these platforms (iOS/Android/Web) should contact them directly at [info@lotaris.com](mailto:info@lotaris.com)
 
 * * *
+
 
 # What else is in the pipelne for Lotaris
 
@@ -207,6 +224,7 @@ You can be certain that the Lotaris platform isn’t going to be sitting on it�
 Ok, the last one was just a vain wish 😀 but as you can see their offerings are certainly looking to increase your revenue support options, one thing is certain, they will always be offering a cheaper service to their competitors but even if it wasn’t just for that they just offer so much more to you as an app builder.
 
 * * *
+
 
 # It is a wrap
 

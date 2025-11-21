@@ -5,7 +5,7 @@ date: 2016-10-15 17:50:46
 tags: [content pipeline, monogame]
 ---
 
-![Image result for content](http://espresso-digital.de/wp-content/uploads/content-1315878_1920-765x300.jpg)
+![Image result for content](assets/img/posts/image-not-found.png)
 
 Working with assets with projects and games is hard enough these days, from finding the right artist, tweaking and reviewing the content and then faced with the trouble of how best to import and manage it in your game. The problem is the same no matter which game engine or framework you turn to for your game production.
 
@@ -25,6 +25,7 @@ Through this article we will walk through some of the basics and delve in to a f
 
 * * *
 
+
 # Contents
 
 Breaking from the norm, as this is a rather long article, I am including a contents section so you can jump to whichever section you like:
@@ -41,17 +42,20 @@ Now you can either follow through or jump directly to the section you want.
 
 * * *
 
+
 # Basic Content Management
 
 The first step with any game is to get your content into your project, at a basic level you have two options:
 
 - 
+
 ### Copy the content into your project directly, raw files.
 
 Yes, MonoGame still lets you use raw files if you wish. Although keep in mind that unless you also employ some compression logic, this will keep expanding the size of your game as you are only copying the raw files in your project. It is quick, simple and up to you. A fair few people who I have spoken to still use this option today because they want to manage it themselves, which is fine, MG is an open framework.  
 Just be aware this means you have to manage everything yourself with raw assets.
 
 - 
+
 ### Copy the content in to a Content project and have the pipeline manage them.
 
 By just putting content in a Content project means your files will be compressed by default (where possible) for each target platform (each platform compresses / decompresses differently to meet the demands of each platform). Also you then have one simple way to manage all your content easily. For beginners this is the approach I would recommend you start with to make up your mind as to the direction you want to take in the future.
@@ -59,6 +63,7 @@ By just putting content in a Content project means your files will be compressed
 So, assuming you are taking the second route, we can look deeper in to what the Content Pipeline does for you.
 
 * * *
+
 
 # Content Types
 
@@ -106,11 +111,13 @@ The complete list of the out of the box importers / processors include:
 
 * * *
 
+
 # Some assets are not equal to others
 
 A few of the default asset types do a little more than the others. The SpriteFont and XML types for example, will process the source and deliver a much richer output:
 
 - 
+
 ### SpriteFont
 
 This reads a specific XML file definition that starts a generation process to output a bitmap file. It takes an input of a Font file definition, specifically a true type font. It will then iterate (by default) through the character set for the current language and create a texture and character definition under the hood for you, as if by magic.  
@@ -118,6 +125,7 @@ When this is combined with the “_SpriteBatch.DrawString()_” method, it creat
 If you want to, you can try doing this manually. It is not fun (although some still prefer to).
 
 - 
+
 ### XML
 
 For XML files, it will deconstruct the source XML file and when it is read back, it will output the definition in to the code class definition you created. All this really does is wrap all the (sometimes) complex XML writer / reader logic for you in to one easy to use line, “Content.Load<class>(XML File)”</class>
@@ -125,6 +133,7 @@ For XML files, it will deconstruct the source XML file and when it is read back,
 Both of these hide a lot of logic and complexity to provide an elegant solution to handle these sorts of files.
 
 * * *
+
 
 # Managing Content
 
@@ -138,6 +147,7 @@ The initial objectives of this little extension is to simply add processing supp
 > Which was converted from the original XNA Localisation sample and extended.**
 
 Starting simple, first let’s add a standard SpriteFont file and then we will extend this project with a content pipeline extension.
+
 
 ## 1: Basic Font use
 
@@ -194,6 +204,7 @@ Now when you run the project, you will get some text drawn to the screen in the 
 
 * * *
 
+
 # Time for Localisation
 
 Now, using fixed strings in a project is never a good idea unless you only ever intend to sell your game to one market. a good practice is to always separate out text content to a separate file or resource, so you can unplug it from your project, pass it to a translation agency and have it localised for every region you want to deploy your project to.
@@ -203,6 +214,7 @@ Now, using fixed strings in a project is never a good idea unless you only ever 
 > Check out this recent [article on Gamasutra](http://www.gamasutra.com/blogs/DanielBatoff/20161007/282861/Localizing_a_Unity_Indie_Game_The_Hidden_Costs.php) which goes over some of the salient points.
 
 Now .NET provides us with a robust system for managing localised strings and resources (even images but I would not use those in games) using a special file called a Resource file or ResX file. (granted in the new UWP platforms, they got renamed to RESW and created loads of issues when upgrading). This is even better when you pair it up with a feature in MSBuild (the engine behind visual studio for building your project) that will automatically capture the resource for a specific region if named correctly.
+
 
 ## 2: Adding a native resource
 
@@ -226,6 +238,7 @@ Now if you return to your Draw code and replace your string as follows, it will 
     /// This is called when the game should draw itself.
     /// </summary>protected override void Draw(GameTime gameTime) { GraphicsDevice.Clear(Color.CornflowerBlue); spriteBatch.Begin(); spriteBatch.DrawString(MyFont, Strings.Welcome, Vector2.One,Color.White); spriteBatch.End(); base.Draw(gameTime); }
 
+
 ## 3: Setting your project native language
 
 Now an optional but recommended step is to also set your project’s default natural language. This is not critical but it helps MSBUILD when it generates your project using a default language, otherwise, it will use the system language as the default. Normally this would not cause issue if your developers are all in the same country but if you are spread out or one of your team has a different system language, then it could cause problems.
@@ -237,6 +250,7 @@ Setting it is quite simple and worth the effort, simply right-click your project
 > Notice that these are organised by **Language** and not Culture. So it is the language first and then the region. Can be a bit confusing but easily recognisable.
 
 With that do not build your project again, just to ensure everything is right before moving onward.
+
 
 ## 4: Regionalising resource files
 
@@ -282,6 +296,7 @@ Now when you run your project, if you change your system region settings, it wil
 
 * * *
 
+
 # Extending your content
 
 So far we have covered what MonoGame does out of the box for your projects but with the Content Pipeline we can go much, much further. Some reasons you might want to extend what you want your asset to do include:
@@ -293,6 +308,7 @@ So far we have covered what MonoGame does out of the box for your projects but w
 - Constructing your own loading XML asset files, like a Level XML file which will detail the background, picking assets and world regions.
 
 Continuing this sample, we will take our SpriteFont approach and extend it to work more closely with the localisation resources we have added. As stated previously, currently the content pipeline only builds SpriteFonts for the culture native to the machine. So we will initially extend this to force the pipeline to generate the fonts for other cultures. However, instead of a full character set, it will only use the characters in our resource files, thus reducing the size of the assets generated by the process.
+
 
 ## 5: Your first Content Extension
 
@@ -366,6 +382,7 @@ Now before we continue, be sure to build your project as we will need the Conten
 
  
 
+
 ## 6: Creating a new asset using your extension
 
 To finish this little picture, we need to create a new SpriteFont that will use this new processor, this comprises of two steps:
@@ -423,6 +440,7 @@ The sample project also contains a few extensions on this, including some code t
 
 * * *
 
+
 # The WPF Font extension
 
 The sample also contains another extension which is a lot more involved, as it takes the same basic idea of the localised font and extends it a lot further. In this article [https://blogs.msdn.microsoft.com/ito/2012/02/19/103/](https://blogs.msdn.microsoft.com/ito/2012/02/19/103/ "https://blogs.msdn.microsoft.com/ito/2012/02/19/103/") ([translated](https://translate.google.co.uk/translate?hl=en&sl=ja&u=https://blogs.msdn.microsoft.com/ito/2012/02/19/103/&prev=search)) back in 2012, a budding MS employee created a Font processor that not only generated the Font as a SpriteFont, it also converted the bitmap generation to use a more stylised WPF ([Windows Presentation Foundation](https://translate.googleusercontent.com/translate_c?depth=1&hl=en&prev=search&rurl=translate.google.co.uk&sl=ja&u=http://ja.wikipedia.org/wiki/Windows_Presentation_Foundation&usg=ALkJrhhMCcqaO5NeJrNCN3hA9wwTwDlKYw)) approach to generating the font. Fonts are created using the Windows GDI functions to create the graphic instead of the brute force method that is done by default in XNA/MonoGame.
@@ -438,11 +456,11 @@ When dealing with some Asian character set, this granularity is crucial to ensur
 
 An example of which is provided in the above article:
 
-![20120219 WpfFont](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/80/32/metablogapi/8321.20120219-WpfFont_29BD530A.png "20120219 WpfFont")
+![20120219 WpfFont](assets/img/posts/image-not-found.png)
 
 In an extension of the original article (the one where the code actually comes from) Bevel, Mitre and Rounding support was also added, as shown below:
 
-![StrokeShape](https://msdnshared.blob.core.windows.net/media/MSDNBlogsFS/prod.evol.blogs.msdn.com/CommunityServer.Blogs.Components.WeblogFiles/00/00/00/80/32/metablogapi/6763.StrokeShape_24537B9E.png "StrokeShape")
+![StrokeShape](assets/img/posts/image-not-found.png)
 
 It does not have to be used with only Japanese, this Font Processor can be used with any font for any language to produce better font graphics.
 
@@ -454,6 +472,7 @@ Feel free to browse through this extension (apologies to non-Japanese speakers, 
 > This was converted from the original XNA Localisation sample and extended.**
 
 * * *
+
 
 # The final Round-up
 

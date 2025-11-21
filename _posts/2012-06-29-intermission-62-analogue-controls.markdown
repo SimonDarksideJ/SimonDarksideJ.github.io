@@ -9,16 +9,18 @@ Following on from the last post I will quickly cover updating our input framewor
 
 Code for the complete intermission 6 can be found [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/46712/download/128315)
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
+
 
 ### Available controls
 
 With XNA we have a few analogue controls to choose from:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Two thumbstick controls – X/Y controls   
-> ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Two Triggers – single direction feedback
+> ![](assets/img/posts/image-not-found.png)    Two thumbstick controls – X/Y controls   
+> ![](assets/img/posts/image-not-found.png)    Two Triggers – single direction feedback
 
 These off a gradual response rather than the on/off switch from the digital controls.
 
@@ -27,6 +29,7 @@ Unfortunately Joysticks are not supported on the PC in XNA,yet…
  
 
 * * *
+
 
 ### Code Updates
 
@@ -264,12 +267,12 @@ Does not take too much to update our code to use these analogue controls, first 
             
             
             
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    We had already updated the variable for capturing the change in movement to a Vector 2, so no change there (Vector2 vel).   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Next I have added a test against a new configuration option to see if the player has chosen to use Analogue or Digital Controls in a switch statement (more on that in a bit).   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    If we are using analogue controls we update our movement vector (vel) by the amount returned from our new function.  now if the player only moves the stick a small amount the trooper will move slower.  The more the player moves the stick the faster the trooper will travel.   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    If we are not using analogue controls (assuming it is digital) then we use the old functions.  Although they have been trimmed down a bit now to just move.   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    The next step adds a new function to check if the amount the trooper is going to move will put the player outside the bound of the drawable screen, if the trooper is going to move outside, we Zero it is velocity so that it does not move.  If the trooper still has room to move then we update it is velocity (which in turn updates the sprite in the Sprite’s update call).   
-            > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    Finally we have added another test, since we need a way to check which way the trooper is travelling and we can no longer rely on which key the player is pressing (because with analogue we just have a movement amount not a specific move action like press left), we just check which way on the X axis the trooper is going to move, if the trooper is going to move left ( –X) then we flip the sprite to draw it the other way, if not we set it back to the original direction, right.
+            > ![](assets/img/posts/image-not-found.png)    We had already updated the variable for capturing the change in movement to a Vector 2, so no change there (Vector2 vel).   
+            > ![](assets/img/posts/image-not-found.png)    Next I have added a test against a new configuration option to see if the player has chosen to use Analogue or Digital Controls in a switch statement (more on that in a bit).   
+            > ![](assets/img/posts/image-not-found.png)    If we are using analogue controls we update our movement vector (vel) by the amount returned from our new function.  now if the player only moves the stick a small amount the trooper will move slower.  The more the player moves the stick the faster the trooper will travel.   
+            > ![](assets/img/posts/image-not-found.png)    If we are not using analogue controls (assuming it is digital) then we use the old functions.  Although they have been trimmed down a bit now to just move.   
+            > ![](assets/img/posts/image-not-found.png)    The next step adds a new function to check if the amount the trooper is going to move will put the player outside the bound of the drawable screen, if the trooper is going to move outside, we Zero it is velocity so that it does not move.  If the trooper still has room to move then we update it is velocity (which in turn updates the sprite in the Sprite’s update call).   
+            > ![](assets/img/posts/image-not-found.png)    Finally we have added another test, since we need a way to check which way the trooper is travelling and we can no longer rely on which key the player is pressing (because with analogue we just have a movement amount not a specific move action like press left), we just check which way on the X axis the trooper is going to move, if the trooper is going to move left ( –X) then we flip the sprite to draw it the other way, if not we set it back to the original direction, right.
             
             
             
@@ -451,8 +454,8 @@ Does not take too much to update our code to use these analogue controls, first 
                                 
                                 
                                 
-                                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    The trooper moves down when I push up on the control stick   
-                                > ![](http://www.dotnetscraps.com/samples/bullets/013.gif)    The background has disappeared
+                                > ![](assets/img/posts/image-not-found.png)    The trooper moves down when I push up on the control stick   
+                                > ![](assets/img/posts/image-not-found.png)    The background has disappeared
                                 
                                 
                                 

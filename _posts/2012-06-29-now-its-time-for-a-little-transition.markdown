@@ -17,6 +17,7 @@ So with nothing more to do, lets bring on the first act. (Note the code for this
 
 * * *
 
+
 ### Setting up Transitions
 
 now an actual rendertarget is just a texture stored in memory, what makes it different is that it is in exactly the same format as the graphics backbuffer (The area on the graphics card memory when the output to screen is stored).
@@ -25,19 +26,19 @@ Rendertargets have been used for many things, baking light textures, displacemen
 
 If you download Shawn’s reach demo from the CC site and run it, you will notice that each time you open each of the effects from the menu or when you hit back, a little animation plays which shows the screen either:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Being spun around and shrunk   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Sliding down the screen in lines   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Broken up in to little pieces and shattered   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Have sliding windows show the next screen   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Sliding chequered view
+> ![](assets/img/posts/image-not-found.png)    Being spun around and shrunk   
+> ![](assets/img/posts/image-not-found.png)    Sliding down the screen in lines   
+> ![](assets/img/posts/image-not-found.png)    Broken up in to little pieces and shattered   
+> ![](assets/img/posts/image-not-found.png)    Have sliding windows show the next screen   
+> ![](assets/img/posts/image-not-found.png)    Sliding chequered view
 
 These all look very nice and looking at it you might wonder how he did that, must take lots of coding to do.  Well if you thought that i;’m afraid you are just dead wrong, it is quite simple, as i’ll show here.
 
 All that is actually involved are two extra draw calls for every one of those effects and effectively resolves down to this:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Draw your last view to a separate rendertarget texture   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Draw your game as normal to the screen   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    Draw the render target texture to the screen.
+> ![](assets/img/posts/image-not-found.png)    Draw your last view to a separate rendertarget texture   
+> ![](assets/img/posts/image-not-found.png)    Draw your game as normal to the screen   
+> ![](assets/img/posts/image-not-found.png)    Draw the render target texture to the screen.
 
 Sounds simple, because it is (and I cannot believe I swayed away from them for so long ![Open-mouthed smile](/assets/img/wordpress/2012/06/wlEmoticon-openmouthedsmile5.png))
 
@@ -46,6 +47,7 @@ SO lets get to it.
  
 
 * * *
+
 
 ### Setting up a RenderTarget
 
@@ -73,13 +75,13 @@ TO set one up is simple, it is like this:
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    A link to the specific Graphicsdevice you are rendering to   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The size of the current back buffer you are drawing (can be different if you are drawing smaller screens to paint)   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    A flag to see if you are using MipMaps ([see Shawns post on these](http://blogs.msdn.com/b/shawnhar/archive/2009/09/14/texture-filtering-mipmaps))   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The SurfaceFormat where it tells it the kind of texture being used   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The DepthFormat, sets the type of depth stencil to use in alpha blending and other such techniques   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The number of mipmaps to generate or expect (if mipmapping is turned on)   
-    > ![](http://www.dotnetscraps.com/samples/bullets/007.gif)    The RenderTarget usage, so that the graphics card knows to either keep the texture in memory or discard it after use.
+    > ![](assets/img/posts/image-not-found.png)    A link to the specific Graphicsdevice you are rendering to   
+    > ![](assets/img/posts/image-not-found.png)    The size of the current back buffer you are drawing (can be different if you are drawing smaller screens to paint)   
+    > ![](assets/img/posts/image-not-found.png)    A flag to see if you are using MipMaps ([see Shawns post on these](http://blogs.msdn.com/b/shawnhar/archive/2009/09/14/texture-filtering-mipmaps))   
+    > ![](assets/img/posts/image-not-found.png)    The SurfaceFormat where it tells it the kind of texture being used   
+    > ![](assets/img/posts/image-not-found.png)    The DepthFormat, sets the type of depth stencil to use in alpha blending and other such techniques   
+    > ![](assets/img/posts/image-not-found.png)    The number of mipmaps to generate or expect (if mipmapping is turned on)   
+    > ![](assets/img/posts/image-not-found.png)    The RenderTarget usage, so that the graphics card knows to either keep the texture in memory or discard it after use.
     
     
     

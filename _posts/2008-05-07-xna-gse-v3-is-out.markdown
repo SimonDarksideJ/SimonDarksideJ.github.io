@@ -6,13 +6,14 @@ tags:
 - information
 ---
 
+
 # I always promised I wouldn’t do this but here I am.
 
 XNA Game Studio V3 CTP is now out and available.
 
 Grab it here from the [Microsoft Download site](https://www.microsoft.com/downloads/details?FamilyID=df4af56a-58a7-474c-bfd0-7cf8ed3036a3&DisplayLang=en)
 
-BUT!!!!!.  \<- there’s usually a but with something this big ![Surprised](http://shared.live.com/HjKMzTS-xzcms40!CabizA/emoticons/smile_omg.gif "Surprised")
+BUT!!!!!.  \<- there’s usually a but with something this big ![Surprised](assets/img/posts/image-not-found.png)
 
 Buyer beware on this one and do not forget the small print.  Using this CTP will not allow you to deploy to XBOX and PC deployments will only work under the CTP binaries.
 
@@ -32,6 +33,7 @@ Quote from the Download site
 2. [XNA Creators Club](http://thegamedevspace.spaces.live.com/mmm2008-04-25_07.02/info?na=40&p=2&SrcDisplayLang=en&SrcCategoryId=&SrcFamilyId=df4af56a-58a7-474c-bfd0-7cf8ed3036a3&u=http://go.microsoft.com/fwlink/%3fLinkID%3d82963%26clcid%3d0x409)
 
 Me personally though am going to try it for the lovely 2008 support.
+
 
 # Enjoy!
 

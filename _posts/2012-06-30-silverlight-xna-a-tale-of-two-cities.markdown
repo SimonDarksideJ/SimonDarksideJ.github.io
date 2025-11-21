@@ -5,7 +5,7 @@ date: 2012-06-30 23:45:22
 tags: [silverlight, xna]
 ---
 
-![width=](http://t3.gstatic.com/images?q=tbn:ANd9GcRlRKRvqSqH6DfchCzG19yZ2u6EcbTGNwZYpEvrShveN3GQDXxc)
+![width=](assets/img/posts/image-not-found.png)
 
 As was the story not long ago, devs would look at the image above and see a Silverlight app, it looks like an image overlaid by a text control with another texture of a persons head, nothing too fancy about that.
 
@@ -13,42 +13,45 @@ But now thanks to the World of Mango (Windows Phone 7.1 / 7.5), this image may n
 
 This sample aims to help educate XNA devs who are interested in this new world of possibility by simplifying visual layout controls that traditionally required massed of extra code to draw boxes, capture inputs and draw text to the screen, in such scenarios as Menus, HUD’s, text displays and such.
 
+
 #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
 
+
 # Under the covers
 
 ![ /></p>
-<p align=](http://t1.gstatic.com/images?q=tbn:ANd9GcSO6e_vLoshwGV6aLZ3mPBMYmyqY7ddctap_hUwDlLjLdMRpKRw6g)(Core Phone Framework which has not changed much)
+<p align=](assets/img/posts/image-not-found.png)(Core Phone Framework which has not changed much)
 
 Now for the first little revelation (which might also come as a shock to most Silverlight Devs), in order to get round the old issue that has been around since the start of the Windows Phone Development platform that states only one framework can draw to the screen at a time (because of how differently the two frameworks function), it should come as no surprise that to get this integration working they had to actually pick just one and go from there.
 
-Now what may be a surprise is that it WASN’T the Silverlight renderer (as an XNA dev, it is not really that surprising ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6787.wlEmoticon_2D00_smile_5F00_60D7890F.png)). in an integrated environment using both XNA and Silverlight, it is XNA that does all the grunt work under the covers, not quite that simplistic but that is what actually happens, it looks something like this.
+Now what may be a surprise is that it WASN’T the Silverlight renderer (as an XNA dev, it is not really that surprising ![Smile](assets/img/posts/image-not-found.png)). in an integrated environment using both XNA and Silverlight, it is XNA that does all the grunt work under the covers, not quite that simplistic but that is what actually happens, it looks something like this.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2664.image_5F00_5F00_64952DDF.png)
+![image](assets/img/posts/image-not-found.png)
 
 (Silverlight Rendering Cycle with XNA)
 
 * * *
 
+
 # But what does this actually look like
 
 So when you start up a new 3D / Rich Graphics project (depending on which project type you select, as you saw in my previous post they are practically the same), you will be presented with a rather flamboyant project template as shown below:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5775.image_5F00_5F00_17C1417C.png)
+![image](assets/img/posts/image-not-found.png)
 
 (The XNA Windows Rich Graphics Project Template)
 
 **\*\*Note**
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/4721.image_5F00_5F00_0C680772.png)
+![image](assets/img/posts/image-not-found.png)
 
 In the project template you can see we have three projects:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    The Main Silverlight Project Template (where we will spend most of this article)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    The XNA multi-project library (looks like it derived from the core multi-project library)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    A Standard XNA content project
+> ![align=](assets/img/posts/image-not-found.png)    The Main Silverlight Project Template (where we will spend most of this article)  
+> ![align=](assets/img/posts/image-not-found.png)    The XNA multi-project library (looks like it derived from the core multi-project library)  
+> ![align=](assets/img/posts/image-not-found.png)    A Standard XNA content project
 
 It is interesting to see how they built up this bridge without actually breaking the rules of what types projects can reference each other (Silverlight cannot reference XNA and vice versa).  In this project the Silverlight project makes a reference to the Portable library which contains all the XNA references, which then references (and exposes) the Content project.  Very neatly done.
 
@@ -56,16 +59,17 @@ Although if you look at all of the references in the Silverlight project, it doe
 
 * * *
 
+
 # Silverlight the big scary beast of Carthage
 
 So for those of you XNA devs who have not yet ventured into Silverlight as yet, here is a very brief overview (for a more detailed view and an overview of blend, check out my “[Intro to Silverlight](/2011/04/05/recap-video-for-the-at-amp-t-beginners-silverlight-for-windows-phone-webcast)” webcast blog)
 
 Each Page in Silverlight is like a separate application in itself, it contains all information and controls in order to display that one screen.  in the project this is made up of two parts:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    .XAML file – the core Silverlight design file which contains the XAML design  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    .XAML.CS – the code behind file for C# code to run (as the name suggest) behind the scenes
+> ![align=](assets/img/posts/image-not-found.png)    .XAML file – the core Silverlight design file which contains the XAML design  
+> ![align=](assets/img/posts/image-not-found.png)    .XAML.CS – the code behind file for C# code to run (as the name suggest) behind the scenes
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1104.image_5F00_5F00_4F835FD2.png)
+![image](assets/img/posts/image-not-found.png)
 
 View of Silverlight pages in the Solution Explorer
 
@@ -73,15 +77,15 @@ Those of you familiar with Web programming should also recognise this make up of
 
 XAML is a descriptive language and looks a bit like this:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7455.image_5F00_5F00_59A5A371.png)
+![image](assets/img/posts/image-not-found.png)
 
 An example of XAML file – eXtensible Application Markup Language
 
-XAML (like XML) is just a descriptive file format which tells the Silverlight interpreter how to render a page (in my very simple speak ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6787.wlEmoticon_2D00_smile_5F00_60D7890F.png)), once you get to know it it is very easy to read.  However for most things you wo not even need to look at the XAML (especially with XNA), as that is what Blend is for, Expression Blend being the GUI design tool for Silverlight and WPF.
+XAML (like XML) is just a descriptive file format which tells the Silverlight interpreter how to render a page (in my very simple speak ![Smile](assets/img/posts/image-not-found.png)), once you get to know it it is very easy to read.  However for most things you wo not even need to look at the XAML (especially with XNA), as that is what Blend is for, Expression Blend being the GUI design tool for Silverlight and WPF.
 
 The code behind is exactly what you would expect but has been updated slightly for XNA.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1104.image_5F00_5F00_61D9C908.png)
+![image](assets/img/posts/image-not-found.png)
 
 An XNA Game based Code behind
 
@@ -91,7 +95,7 @@ So from an XNA dev perspective things look almost exactly the same, although as 
 
 SO what is running all this behind the covers, welcome to the App.XAML and it is code behind (App.XAML is the same as program.cs in XNA speak)
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7357.image_5F00_5F00_7924CD79.png)
+![image](assets/img/posts/image-not-found.png)
 
 App.XAML and it’s code behind
 
@@ -99,7 +103,7 @@ Now although App.XAML looks like any other Silverlight page, in fact it is not. 
 
 The XAML global is good for templates that will be used throughout the project to save on duplicating formatting and styling or if you use an image or resource constantly throughout the project, the Code behind is the same.  We will skip the XAML because it is not all that important to us here (you can look if you wish):
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6378.image_5F00_5F00_31EF017A.png)
+![image](assets/img/posts/image-not-found.png)
 
 App.XAML.cs file
 
@@ -109,25 +113,26 @@ Nuff said, phew, anyone need a drink now.
 
 * * *
 
+
 # So that is how it runs how do I make it work?
 
 So if you run the default project we have two pages, the first page which is very simple, a pure Silverlight page “MainPage” with some text boxes and a single button, the second “Game” page has the XNA game running in it.
 
-| ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7853.image_5F00_5F00_4861A001.png) | ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8030.image_5F00_5F00_5E680B93.png) |
+| ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) |
 | Main Page | Game Page  
 (Not much going on here) |
 
-So the first scenario that comes to mind when doing these projects is to have a flashy main menu when launching the game (I cannot do flashy so we will settle with quick ![Winking smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0820.wlEmoticon_2D00_winkingsmile_5F00_54BF9D5D.png))
+So the first scenario that comes to mind when doing these projects is to have a flashy main menu when launching the game (I cannot do flashy so we will settle with quick ![Winking smile](assets/img/posts/image-not-found.png))
 
 First we will open up blend and add something nice, right click on the main project in the solution explorer and select “Open in Expression Blend” as shown below:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6378.image_5F00_5F00_7A491ABE.png)
+![image](assets/img/posts/image-not-found.png)
 
 Right Click –\> Open in Expression Blend
 
 This will fire up Expression blend with your project loaded and ready for bear.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8030.image_5F00_5F00_75F39D9B.png)
+![image](assets/img/posts/image-not-found.png)
 
 Expression Blend fired up
 
@@ -135,18 +140,19 @@ I am not going to go into the very basics here of how to use Blend, I’m going 
 
 On the page we have, a Text box for the app title, a Text Box for the page name and a button for launching to our Game page, this is easily readable from the Visual Tree in the bottom left of the screen (always pay close attention to this window as you can select things even when you have chosen to hide them.  it is also worth noting that visibility is determined downwards, the item/control at the bottom of the tree has the highest priority and is what is draw in the foreground, bottom to top / Background to foreground.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5381.image_5F00_5F00_4AEB89C9.png)
+![image](assets/img/posts/image-not-found.png)
 
 The other thing to note are the panels, there are four types at present that each control how items on the page are displayed, they are:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Canvas – Free form panel where item placement is absolute  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Grid – allows columns and rows to be determined on the page for control placement and alignment  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    inkPresenter (to be honest I have never used this and not sure what it is, what can I say I am honest)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Stackpanel – A special control that acts list a list box for controls, will order controls in a stacked manner either horizontally or vertically
+> ![align=](assets/img/posts/image-not-found.png)    Canvas – Free form panel where item placement is absolute  
+> ![align=](assets/img/posts/image-not-found.png)    Grid – allows columns and rows to be determined on the page for control placement and alignment  
+> ![align=](assets/img/posts/image-not-found.png)    inkPresenter (to be honest I have never used this and not sure what it is, what can I say I am honest)  
+> ![align=](assets/img/posts/image-not-found.png)    Stackpanel – A special control that acts list a list box for controls, will order controls in a stacked manner either horizontally or vertically
 
 Each has it is own icon so once you get used to then they are easy to identify, if you have built up your page and want to change the type of layout you have used you can by right clicking on it and selecting “Change Layout Type to” and selecting another one.  Although be warned this sometimes has unexpected results and can cause odd behaviour, use only when experienced with it.
 
 * * *
+
 
 # The Main Menu Page
 
@@ -158,13 +164,13 @@ Just as a quick show and tell, were going to replace the button on the screen wi
 
 First delete the button that is there already, easiest way to clear the board, just right click on it in the Visual Panel and select “Delete”
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/4621.image_5F00_5F00_04682F58.png)
+![image](assets/img/posts/image-not-found.png)
 
 2. Setup the Content Grid
 
 For the view we are going for we want to setup the grid to do all the spacing and layout for us, so with the 2nd Grid in the layout view selected (the one that had the button on it) add some rows onto the Grid in the main window as shown below (by clicking in the margin area).  If you accidentally had the main Grid selected, not to worry, just “Undo” until the grid lines you added are gone.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2158.image_5F00_5F00_41A8E41F.png)
+![image](assets/img/posts/image-not-found.png)
 
 3. Add your buttons
 
@@ -176,7 +182,7 @@ Now simply double click on the Button to add, do this 4 times for all 4 buttons.
 
 At the moment they will be all on top of one another, so we just need to update their properties to be correctly placed in the grid, on the right hand side in the properties window, find the section titled “Layout”, there you should see the Grid and Row Settings
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7444.image_5F00_5F00_2A9A62E3.png)
+![image](assets/img/posts/image-not-found.png)
 
 Select each button in turn and put them in the correct grid “row”, 0 = button one, 1 = Button two, 2 = Button three and 3 = button four.
 
@@ -186,7 +192,7 @@ On the screen the buttons should show up in each row of the grid.
 
 One thing to be careful of when placing controls is how they are laid out on the screen, this includes such properties as margins and vertical/horizontal alignment
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3731.image_5F00_5F00_155C376E.png)
+![image](assets/img/posts/image-not-found.png)
 
 Sometimes Blend does get a bit confused and does the best to interpret your thoughts when adding controls, most commonly if you cannot get a control to line up on the page or expand how you want to, it is because of the layout properties.
 
@@ -198,11 +204,11 @@ One of the most important lessons I’ve learnt while using Blend is to Name eve
 
 So double click on each of the buttons and name them accordingly in the Object and Timeline view as shown below
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0027.image_5F00_5F00_2587FF67.png)
+![image](assets/img/posts/image-not-found.png)
 
 Next you can double click on each button to change it is text to something more meaningful as with the button names, you can also do this by selecting the button and changing the “Content” property in the properties pane, the end result should be this.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6862.image_5F00_5F00_6649D5C9.png)
+![image](assets/img/posts/image-not-found.png)
 
 6. Animation
 
@@ -210,21 +216,21 @@ The quickest way to do Animation in Blend is to use Visual States, they are quic
 
 Visual states are control by two things:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Visual State Groups – a container for batching states together for a control or set of controls (each control can only be manipulated in a single visual state group.  It also controls how the states within the group will be animated by time and using an easing function.
+> ![align=](assets/img/posts/image-not-found.png)    Visual State Groups – a container for batching states together for a control or set of controls (each control can only be manipulated in a single visual state group.  It also controls how the states within the group will be animated by time and using an easing function.
 > 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/021.gif)    Visual State – a single state a control can be in, determined by its position on the screen and all the properties of that control
+> ![align=](assets/img/posts/image-not-found.png)    Visual State – a single state a control can be in, determined by its position on the screen and all the properties of that control
 
 So, change the tab in the top left hand corner of the screen and click on the “New Visual Stage Group” icon as shown below and call it “Button1VisualStateGroup”
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2664.image_5F00_5F00_08BE6485.png)
+![image](assets/img/posts/image-not-found.png)
 
 Now before we get started creating our states, we need to get the app ready for it is default state, remember the effect we are aiming for is that when the app starts we want the buttons to swipe in, so they need to start off the screen. Quickly go through each of the buttons and alter their “Translate X” property shown below.  I set them alternately off the screen, 1st and 3rd buttons off the left and 2nd / 4th off the right.  To make it even easier blend allows you to drag the property and see it move, try it (alternately set the Translate X property as follows Button 1 = –350, Button 2 = 350, Button 3 = –350, button 4 = 400 (cus its bigger))
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5126.image_5F00_5F00_753104E3.png)
+![image](assets/img/posts/image-not-found.png)
 
 Back to the Visual State panel, what you now see if the group setup with is Default Transition, ignore this for now and click on the “New Visual State” button next to the name of the visual state (roughly the same icon as before), this will create a new visual state.
 
-Note at this point that the screen has change and a new “red dot” has appeared in the top left hand corner of the main window, Blend is now in Visual State Recording mode, so what ever you change now will be remembered by the visual state for animation (so be careful ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6787.wlEmoticon_2D00_smile_5F00_60D7890F.png))
+Note at this point that the screen has change and a new “red dot” has appeared in the top left hand corner of the main window, Blend is now in Visual State Recording mode, so what ever you change now will be remembered by the visual state for animation (so be careful ![Smile](assets/img/posts/image-not-found.png))
 
 First we must record the Beginning state, which is the state the controls are in now, so job done, just Rename the state to something meaningful like “MenuItem1Hidden”
 
@@ -232,7 +238,7 @@ Next add a second state, then change the “Translate X” property of button on
 
 Lastly we just need to set how long our animation should take and any easing effect we want to add to it, Next to the “Default Transition” as shown in the visual state group image above, there is an icon and a value of 0s (yes I know it is 1s in the image), these are the transition effect options, set the time to 1s (one second) and click on the icon to select an easing function (go wild and select what ever you like), changing the function using the drop down on the combo box which should look like this.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1184.image_5F00_5F00_0B80F7FB.png)
+![image](assets/img/posts/image-not-found.png)
 
 As you can see there are many options.
 
@@ -240,7 +246,7 @@ If you now click on the “Animation Preview” option as indicated above, you c
 
 Now rinse and repeat for each of the other buttons until you have something resembling this:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0412.image_5F00_5F00_28A6A005.png)
+![image](assets/img/posts/image-not-found.png)
 
 7. Events and Code
 
@@ -248,15 +254,15 @@ Last thing we need to do is hook up these buttons so they do something, were onl
 
 First select button one and then in the Properties window click on the events icon as shown below:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/4705.image_5F00_5F00_53325B15.png)
+![image](assets/img/posts/image-not-found.png)
 
 This will list all the events available for the control you have selected, in this case the button. now find the “Click” event and double click in the box, this should then jump to the code window in Blend automatically creating the code behind event handler for the button. It has also created the link to the event in the XAML for the button so do not rename the function or your project wont build (to undo it go back to the XAML page, clear the event box before changing the function name, then either type it back in or create a new one by double clicking, I sometimes end up doing this if I forget to name the control!)
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7357.image_5F00_5F00_023496ED.png)
+![image](assets/img/posts/image-not-found.png)
 
 Next we just need to do the same for the page and show you one of the importent events with Silverlight (which if you do tombstoning you will use a lot.  In the Visual Tree (Objects and Controls window), select the “Phone Application Page” object (the root object), you should see the list of events change now and a new event in particular, the “Loaded” event.  This fires when ever a page has been loaded into memory and is ready to start presenting to the screen, great for animations or things you need to set once everything is ready but before the user sees it.
 
-| ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6864.image_5F00_5F00_56C05025.png) | ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2642.image_5F00_5F00_780FCFF4.png) |
+| ![image](assets/img/posts/image-not-found.png) | ![image](assets/img/posts/image-not-found.png) |
 
 Now one ting I have learnt over time is that Blend is great at visual representations and / or editing XAML, it is dreadful for editing code (at the moment).  So we will switch back to Visual Studio.  First though, save all of you project to update your changes (if you have not been doing it every 5 seconds already)
 
@@ -278,6 +284,7 @@ If it is not it must be you not me because mine works fine, lol
 
 * * *
 
+
 # The Result
 
 If you just want to skip to the end and see where I was going. the above work took me about 5 mins to thrown together (shows does not it), but that would had taken hours of engine programming or scripting to get to work just on my own in XNA.
@@ -294,12 +301,14 @@ Sample code can be found here in the Site Downloads section [\<Link\>](http://xn
 
 * * *
 
+
 # Enough
 
 That is it, my life’s blood is drawn and now I need to get back to coding.  Feel free to comment or post questions on the forums.
 
-Feel like bashing me, do it on Twitter ([@DDReaper](http://twitter.com/#!/DDReaper)), I feel better about that there ![Winking smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0820.wlEmoticon_2D00_winkingsmile_5F00_54BF9D5D.png)
+Feel like bashing me, do it on Twitter ([@DDReaper](http://twitter.com/#!/DDReaper)), I feel better about that there ![Winking smile](assets/img/posts/image-not-found.png)
 
 Laters.
+
 
 #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")

@@ -13,14 +13,16 @@ Then along came the “Isolated Storage Helper” (apologies, could not find the
 
 <p>So my journey started with a great run down of the Windows 8 storage system by <a href=](http://1.2.3.12/bmi/1.bp.blogspot.com/-aZZeTZc0msk/Tuw7XfEp6sI/AAAAAAAAJR4/5XXNOgbmk2U/s170/jerry_smile.png)Jerry Nixon, he deftly walks through the options and how to correctly access storage, however it is only the beginning, to make the transition we are going to need more.
 
+
 ### MSDN Library
 
 
 Next I wandered through the MSDN Library which at present is still a bit of a mess in places, especially where .NET 4.5 meets WinRT.  XML serialisation is one of those places, the documentation is confusing at best, does not include any async references and a lot of the sample code does not even work.  That being said it is still pre-release code so there is time for it to be tidied up.
 
-![](http://i1.social.s-msft.com/profile/u/avatar.jpg?displayname=official+windows+sdk+sample&size=extralarge&version=d5a3240d-e3ea-4dc5-9361-49467af5997f)
+![](assets/img/posts/image-not-found.png)
 
 Finally after a bit of a headslap moment and a trawl through the [MSDN WinRT code samples](http://bit.ly/QSTuqR) I literally stumbled on the final piece of the puzzle.  If you start a new project using one of the templates or add a constructed WinRT (not saying Metro ![Open-mouthed smile](/assets/img/wordpress/2012/08/wlEmoticon-openmouthedsmile.png)) project item like the Group or Item pages, then you will also inherit a lot of boiler plate code in your project in a new “Common” folder.  One of these is the SuspensionManager, this handy little class does the work of storing application state variables (in Windows Phone this was handled by the framework).
+
 
 # The End result
 
@@ -28,10 +30,12 @@ So finally I came up with the class below:
             
 http://codepaste.net/wrmtgo
 
+
 ## \*Note
 
 
 **This article is based on the RC codebase, I’ll check and update it for the RTM when it is available**
+
 
 # Final Thoughts
 

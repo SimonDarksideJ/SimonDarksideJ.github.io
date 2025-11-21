@@ -25,7 +25,7 @@ OR IS IT
 
 Well, since everyone makes a lot of use of these assets (including readers of my book! :S) I’ve taken the files I had stored for the art set and hosted them on [my DropBox](http://bit.ly/PlatformerStarterKit "Platform starter kit asset downloads")
 
-[![image](http://digitalerr0r.files.wordpress.com/2013/09/image306.png?w=624&h=471)](http://bit.ly/PlatformerStarterKit "Free 2D Platformer game assets")
+[![image](assets/img/posts/image-not-found.png)](http://bit.ly/PlatformerStarterKit "Free 2D Platformer game assets")
 
 The entire collection can now be found here –[ http://bit.ly/PlatformerStarterKit](http://bit.ly/PlatformerStarterKit)
 
@@ -34,5 +34,5 @@ The entire collection can now be found here –[ http://bit.ly/PlatformerStarter
 Long live the fighters!!
 
 ![ /></p>
-](http://i6.photobucket.com/albums/y248/community4art/YaHyaChouhadaAcademy.jpg)
+](assets/img/posts/image-not-found.png)
 

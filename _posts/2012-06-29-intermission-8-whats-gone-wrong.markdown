@@ -17,6 +17,7 @@ In games there is nothing worse than a performance bug.  Which is what I hit whi
 
 Code is already included in the same [codeplex area](http://startrooper2dxna.codeplex.com/releases/view/46712) as the last post, for those of you like with with an astonishingly bad short term memory…. (the link is earlier on this line)…
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
  
@@ -25,16 +26,17 @@ Code is already included in the same [codeplex area](http://startrooper2dxna.cod
 
  
 
+
 ### Identifying the problem
 
 Discovering a performance problem is usually easy to spot, your game runs like it was published on a badly written and run on a [ZX 81](http://en.wikipedia.org/wiki/ZX81) (almost showing my age, ZX 81’s were not new when I started doing games ![Open-mouthed smile](/assets/img/wordpress/2012/06/wlEmoticon-openmouthedsmile1.png), doh.).  It is slow, it is cranky, it stops responding to your input or looks like it has crashed (that is indeed if it has not)
 
 There are several tools for digging in to your game and wheezing out all the intricate details for how your game is running:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    [MS PIX](http://msdn.microsoft.com/en-gb/directx/default) (part of the Direct X SDK)   
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    [NVIDIA PERFHud](http://developer.nvidia.com/object/nvperfhud_home.html) (part of the Nvidia PerfSDK) – Useful [Post here](http://mynameismjp.wordpress.com/2010/03/06/d3d-performance-and-debugging-tools-round-up-perfhud/) on how to get the most of this in XNA   
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    [AMD PerfTools](http://developer.amd.com/gpu/PerfStudio/Pages/default)   
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    The [Performance Timers](http://performancetimers.codeplex.com/) Project on Codeplex (could not get this to actually work, but with a little more time it looks like it is quite good and simple to use)
+> ![](assets/img/posts/image-not-found.png)    [MS PIX](http://msdn.microsoft.com/en-gb/directx/default) (part of the Direct X SDK)   
+> ![](assets/img/posts/image-not-found.png)    [NVIDIA PERFHud](http://developer.nvidia.com/object/nvperfhud_home.html) (part of the Nvidia PerfSDK) – Useful [Post here](http://mynameismjp.wordpress.com/2010/03/06/d3d-performance-and-debugging-tools-round-up-perfhud/) on how to get the most of this in XNA   
+> ![](assets/img/posts/image-not-found.png)    [AMD PerfTools](http://developer.amd.com/gpu/PerfStudio/Pages/default)   
+> ![](assets/img/posts/image-not-found.png)    The [Performance Timers](http://performancetimers.codeplex.com/) Project on Codeplex (could not get this to actually work, but with a little more time it looks like it is quite good and simple to use)
 
 All these tools are good and will give you a great deal of information on how your game or app is running, however….
 
@@ -43,6 +45,7 @@ All these tools are good and will give you a great deal of information on how yo
 * * *
 
  
+
 
 ### The KISS approach
 
@@ -60,12 +63,13 @@ So how did I do this, the answer is actually very straight forward, use a clock 
 
  
 
+
 ### Game Monitoring or Stopwatch class
 
 Implementing watches in your code is very straight forward and I’ve put together a little Game Component to do all the hard work for you (not that it is that hard really).  This component offers two simple features:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    A stopwatch list which measures when events start, finish and the time it took.   
-> ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    A display list, to record things when they happen and what they look like.
+> ![](assets/img/posts/image-not-found.png)    A stopwatch list which measures when events start, finish and the time it took.   
+> ![](assets/img/posts/image-not-found.png)    A display list, to record things when they happen and what they look like.
 
 Here is what the class looks like:
 
@@ -699,8 +703,8 @@ Here is what the class looks like:
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    The STOPWATCH class stores start and end times in computer ticks and has a single property which displays the difference between start and finish   
-    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    The DISPLAYINFO class stores two information attributes, one for Text and the other for numeric’s (so that I could store information about emitters and the amount of particles they had)
+    > ![](assets/img/posts/image-not-found.png)    The STOPWATCH class stores start and end times in computer ticks and has a single property which displays the difference between start and finish   
+    > ![](assets/img/posts/image-not-found.png)    The DISPLAYINFO class stores two information attributes, one for Text and the other for numeric’s (so that I could store information about emitters and the amount of particles they had)
     
     
     
@@ -720,7 +724,7 @@ Here is what the class looks like:
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    I originally used a “STRUCT” for the stopwatch and displayinfo classes.  Now it was not exactly wrong but I realised an important lesson there.  ONLY use STRCTS for read only single use classes.  If you intend to change the values stored in a struct, then you probably should not be using a struct.  Because to change the values you need to really create a new or copy instance of the struct and overwrite it with one with the updated settings.
+    > ![](assets/img/posts/image-not-found.png)    I originally used a “STRUCT” for the stopwatch and displayinfo classes.  Now it was not exactly wrong but I realised an important lesson there.  ONLY use STRCTS for read only single use classes.  If you intend to change the values stored in a struct, then you probably should not be using a struct.  Because to change the values you need to really create a new or copy instance of the struct and overwrite it with one with the updated settings.
     
     
     * * *
@@ -885,7 +889,7 @@ Here is what the class looks like:
                             
                             
                             
-                            > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    Note that each Stop and Start Timer call uses the same Key / Text, this is what is used in the DisplayTimer class’s dictionary to identify which clock we are dealing with.
+                            > ![](assets/img/posts/image-not-found.png)    Note that each Stop and Start Timer call uses the same Key / Text, this is what is used in the DisplayTimer class’s dictionary to identify which clock we are dealing with.
                             
                             
                             
@@ -941,8 +945,8 @@ Here is what the class looks like:
                                     
                                     
                                     
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    Firstly, each emitter was using a very large amount of particles, I had set the threshold far too high in the emitters Initialise Constants function.  Turning this down helped (but by more than I expected, it turned out I only needed a few particles to achieve the effect I needed)   
-                                    > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    Secondly, the emitters were not dying out.  At first this was because I was not killing the emitter when it left the screen (simple location check to kill the emitter) and second becuase I was not then removing the emitters information test I had just added (added a “Remove information” call when the emitter died, whoops).
+                                    > ![](assets/img/posts/image-not-found.png)    Firstly, each emitter was using a very large amount of particles, I had set the threshold far too high in the emitters Initialise Constants function.  Turning this down helped (but by more than I expected, it turned out I only needed a few particles to achieve the effect I needed)   
+                                    > ![](assets/img/posts/image-not-found.png)    Secondly, the emitters were not dying out.  At first this was because I was not killing the emitter when it left the screen (simple location check to kill the emitter) and second becuase I was not then removing the emitters information test I had just added (added a “Remove information” call when the emitter died, whoops).
                                     
                                     
                                     
@@ -984,7 +988,7 @@ Here is what the class looks like:
                                         
                                         
                                         
-                                        ![image](http://xna-uk.net/blogs/darkgenesis/image_05A2FDE1.png)
+                                        ![image](assets/img/posts/image-not-found.png)
                                         
                                         
                                         
@@ -1008,8 +1012,8 @@ Here is what the class looks like:
                                         
                                         
                                         
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    XNA Performance sessions – Best resources are on the XNA Developers central link (not the CC site which is curious, but you can find them there if you dig enough)   
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/024.gif)    Windows Phone 7 Performance – Shawn Hargreaves recently gave a [Mix 2010 session](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/Mix10CL22Video/) on Phone performance, Channel 9 also has an [entire channel full of WP7 Training videos](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/) as well.
+                                        > ![](assets/img/posts/image-not-found.png)    XNA Performance sessions – Best resources are on the XNA Developers central link (not the CC site which is curious, but you can find them there if you dig enough)   
+                                        > ![](assets/img/posts/image-not-found.png)    Windows Phone 7 Performance – Shawn Hargreaves recently gave a [Mix 2010 session](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/Mix10CL22Video/) on Phone performance, Channel 9 also has an [entire channel full of WP7 Training videos](http://channel9.msdn.com/learn/courses/WP7TrainingKit/WP7XNA/) as well.
                                         
                                         
                                         

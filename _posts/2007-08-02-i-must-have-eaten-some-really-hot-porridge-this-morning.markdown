@@ -11,7 +11,7 @@ tags: [ai, game development]
 
 I suppose I thought this couldn’t wait, after my last post about researching in-game AI and finding that wonderful site [AIGameDev](http://aigamedev.com/), something magical happened. 
 
-![](http://files.aigamedev.com/LOGO.png)
+![](assets/img/posts/image-not-found.png)
 
 Usually most of the information on the site and all the recent post have always been about the theory for AI, which always started sparks in your mind of all the fantastic things you could do with it, path-finding, machine learning, concurrent behaviors.  Visualizing all the snazzy reactions you could put in your game to make it more fun and challenging, but it was all just theory and down to you to implement.  Granted there were a few examples but it did feel like being back in college sometimes, lots to learning which required a lot of thought to digest.
 

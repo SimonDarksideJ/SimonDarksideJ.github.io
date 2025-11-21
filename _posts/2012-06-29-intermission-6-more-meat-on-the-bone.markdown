@@ -17,34 +17,36 @@ So this little intermission has grown a fair bit.  So read on.
 
 The code for this section will be posted after the next post.
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
 
+
 ### Theory behind dynamic controls
 
 like the last post, we have a set of objectives, the control system for our game and we have our available controllers.  Unlike the windows phone the options are various:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Gamepads – 4 push buttons, 4 way multi-directional D pad, 2 analogue sticks with buttons, 2 analogue triggers, a back and a start button. (whew)   
-> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Keyboards and keypads – lots and lots of keys   
-> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Mice – analogue pointer, a host of buttons (depending on model) and usually a scroll wheel (never mind 3D mice, but they aren’t supported yet)   
-> ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Joysticks – Do not get me started there!
+> ![](assets/img/posts/image-not-found.png)    Gamepads – 4 push buttons, 4 way multi-directional D pad, 2 analogue sticks with buttons, 2 analogue triggers, a back and a start button. (whew)   
+> ![](assets/img/posts/image-not-found.png)    Keyboards and keypads – lots and lots of keys   
+> ![](assets/img/posts/image-not-found.png)    Mice – analogue pointer, a host of buttons (depending on model) and usually a scroll wheel (never mind 3D mice, but they aren’t supported yet)   
+> ![](assets/img/posts/image-not-found.png)    Joysticks – Do not get me started there!
 
 With so many options we have a little bit more to think about.
 
 So when implementing our game control scheme we need a way to handle all these different inputs (unless you are only targeting a single platform) without overloading our actual game code.  To do this we need to abstract our functionality a bit, this is what we are trying to aim for:
 
-![image](http://xna-uk.net/blogs/darkgenesis/image_26BE8327.png)
+![image](assets/img/posts/image-not-found.png)
 
 The diagram above details a level of abstraction we apply between our game controls and the available inputs we have for each platform.
 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    Game Controls
+> ![](assets/img/posts/image-not-found.png)    Game Controls
 > 
 > The detail what actions are available to the user, like Move Avatar Up, Select Menu Option, Fire, Change weapon
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    Input Manager
+> ![](assets/img/posts/image-not-found.png)    Input Manager
 > 
 > Details what input controls are to be examined for each game control, so in order for the player to Fire, the input manager checks if the spacebar has been pressed or button A on the gamepad or the left mouse button.  The actual buttons themselves are not mentioned here, they are checked in the control mappings for which actual button to use.
 > 
@@ -59,7 +61,7 @@ The diagram above details a level of abstraction we apply between our game contr
 > 
 > This sounds a lot more complicated than it actually is, but gives you a feel of what is required.  The big benefit of this if that if you want to change the control scheme (what buttons to use), you do not need to rewrite all your game code or even the input manager, just update the key to be used in the mappings.
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/022.gif)    Control Mappings
+> ![](assets/img/posts/image-not-found.png)    Control Mappings
 > 
 > This part is much simpler, it stores the current setting for each input control, like:
 > 
@@ -73,9 +75,11 @@ The diagram above details a level of abstraction we apply between our game contr
 
  
 
+
 ### Putting it together
 
 We need to start from the ground up, so first off we need our mappings (which buttons do what). 
+
 
 #### 1. Key Mappings Struct for configuration
 
@@ -709,9 +713,9 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                         
                                         
                                         
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Storage Device – This is the drive or memory card where the settings are going to be saved.   
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Storage Container – This is the folder structure on the storage device where we save a specific games files.   
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Save file – An XML or binary file that holds the configuration
+                                        > ![](assets/img/posts/image-not-found.png)    Storage Device – This is the drive or memory card where the settings are going to be saved.   
+                                        > ![](assets/img/posts/image-not-found.png)    Storage Container – This is the folder structure on the storage device where we save a specific games files.   
+                                        > ![](assets/img/posts/image-not-found.png)    Save file – An XML or binary file that holds the configuration
                                         
                                         
                                         #### 1. Storage Device
@@ -779,11 +783,11 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                     
                                                     
                                                     
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Open the file, with options to create it if not already there (Warning, careful when using the option that always creates the file, even if present or you will sped a crazy few minutes trying to wonder why your settings are gone next time you load!!)   
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Stream the files contents in to memory   
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Do Stuff   
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Stream the changes back to the file   
-                                                    > ![](http://www.dotnetscraps.com/samples/bullets/033.gif)    Close file / stream
+                                                    > ![](assets/img/posts/image-not-found.png)    Open the file, with options to create it if not already there (Warning, careful when using the option that always creates the file, even if present or you will sped a crazy few minutes trying to wonder why your settings are gone next time you load!!)   
+                                                    > ![](assets/img/posts/image-not-found.png)    Stream the files contents in to memory   
+                                                    > ![](assets/img/posts/image-not-found.png)    Do Stuff   
+                                                    > ![](assets/img/posts/image-not-found.png)    Stream the changes back to the file   
+                                                    > ![](assets/img/posts/image-not-found.png)    Close file / stream
                                                     
                                                     
                                                     
@@ -841,7 +845,7 @@ So create a new class called “KeyMappings.cs” in the engine folder (Right cl
                                                         
                                                         
                                                         
-                                                        > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    Note: If you look in the XNA help for the samples above you will find them very similar (as that is where they came from), however, be warned the samples set the “FileMode” when creating a file to just “Create”, this will create a new file EVERY time you run it, overwriting what was there.  Be very careful about which mode you need to use for your saves!.  “OpenOrCreate” is usually a bit safer (unless you only want read access) which will only create new if it does not exist and if it does, then open it.
+                                                        > ![](assets/img/posts/image-not-found.png)    Note: If you look in the XNA help for the samples above you will find them very similar (as that is where they came from), however, be warned the samples set the “FileMode” when creating a file to just “Create”, this will create a new file EVERY time you run it, overwriting what was there.  Be very careful about which mode you need to use for your saves!.  “OpenOrCreate” is usually a bit safer (unless you only want read access) which will only create new if it does not exist and if it does, then open it.
                                                         
                                                         
                                                         #### 4. Serialisation of configuration

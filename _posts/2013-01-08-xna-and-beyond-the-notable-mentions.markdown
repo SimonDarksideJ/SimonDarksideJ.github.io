@@ -31,6 +31,7 @@ Anyway, on with the show.
 
 * * *
 
+
 # [The “YNA” Framework](http://yna.codeplex.com/)
 
 [![ src=]()](http://yna.codeplex.com/)
@@ -38,6 +39,7 @@ Anyway, on with the show.
 I put this first simply because it is the one that intrigues me the most (at the time of writing because I am a fickle beast) just by its outlandish claims and steadfast delivery, it is aimed mainly as a fast prototyping tool with some very unique features.  Do not let his put you off mind as there are several games already released using this as their base engine running on top of XNA and others in the works.
 
 Putting it simply, YNA is a game Framework for XNA or MonoGame who allow you to quickly create prototypes and games. It has been inspired by Flixel, an ActionScript 3 Framework for 2D part and a bit by Three.js for 3D.
+
 
 ## What you get
 
@@ -60,6 +62,7 @@ YNA gives you the following (Excerpt from the codeplex site)
 - Camera (FPS, TPS, Fixed)
 - And more…
 
+
 ## Framework support
 
 As for frameworks, YNA has already been tested with MonoGame On Windows, Windows 8 and Windows Phone (since that is where MonoGame is focused) but it should also run on all of MonoGame’s other platforms as well.  Its not a good fit for UnityXNA but should work with the SunBurn platform API as well when it is released although it will likely need a few modifications to take advantage of some of the SunBurn Platform API’s advanced rendering features.  Unlikely to be compatible with the SunBurn Engine since it is effectively a competitor. (Although it would be interesting to reuse the InkScape features of YNA with the SunBurn engine as an Add-on, hmm)
@@ -69,6 +72,7 @@ As for frameworks, YNA has already been tested with MonoGame On Windows, Windows
 > ![src=]()    SunBurn Platform API – **YES** \* (Some minor work required)  
 > ![src=]()    SunBurn Gaming Engine – **NO**
 
+
 ## Current Status
 
 YNA is still in active development with its latest build being released as recent as 2nd Jan 2013.
@@ -76,6 +80,7 @@ YNA is still in active development with its latest build being released as recen
 Price: FREE – Opensource
 
 * * *
+
 
 # [Nuclear Winter](https://bitbucket.org/sparklinlabs/nuclearwinter/overview)
 
@@ -89,6 +94,7 @@ A core selling point and the one that got me reading was its InkScape integratio
 
 Other attempts in the past to use a 3rd part tool with XNA usually resort in either writing complex custom content importers or using a model format as an intermediary mechanism, Nuclear Winters approach seems to be more sensible and more importantly easier to maintain.  **However** at present the functionality for this has been removed from the core code but is still available in the source for use, the developers note though that they may bring it back in the not too distant future (or with additional community support).
 
+
 ## What you get
 
 (Excerpt from the site)
@@ -96,6 +102,7 @@ Other attempts in the past to use a 3rd part tool with XNA usually resort in eit
 The core of NuclearWinter, features game state management, screen resolution handling, an input manager and a user interface library.
 
 ![src=]()
+
 
 ## Framework support
 
@@ -106,6 +113,7 @@ As with YNA, native XNA and MonoGame are supported with recent check-in’s show
 > ![src=]()    SunBurn Platform API – **YES** \* (Some minor work required)  
 > ![src=]()    SunBurn Gaming Engine – **NO**
 
+
 ## Current Status
 
 Nuclear Winter is still in active development with its latest build being released as recent as 6th Jan 2013.
@@ -113,6 +121,7 @@ Nuclear Winter is still in active development with its latest build being releas
 Price: FREE – Opensource
 
 * * *
+
 
 # [Visual Scripting Framework](http://www.greedygoblinsoftware.co.uk/visualscriptingframework)
 
@@ -124,13 +133,16 @@ The framework becomes invaluable to quickly put core gameplay elements together 
 
 I must say that [CJ Bailey](http://twitter.com/GreedyGoblins) ([@GreedyGoblins](http://twitter.com/GreedyGoblins)) certainly has been a busy chap with this and his several other SunBurn components, all currently still in active deployment / support.
 
+
 ## What you get
 
 ![src=]()
 
 (Excerpt from the site)
 
+
 ### Accelerate your XNA game development
+
 
 ### Key Features
 
@@ -142,6 +154,7 @@ I must say that [CJ Bailey](http://twitter.com/GreedyGoblins) ([@GreedyGoblins](
 - Custom made Script Elements… automatically made available in the Script Editor!
 - Save scripts to XML files… load them via the content pipeline.
 
+
 ### Overview
 
 The Visual Scripting Framework was born out of my frustration with programmatically creating cut-scenes for my game. My workflow usually ended up being: code cut-scene, build and execute game, wait for game to start (maybe traversing a few menu options in the process), test the cut-scene, find something is not right, stop the game, tweak the code, build and execute, wait for game to start, test the cut-scene, stop the game, tweak the…. well… you get the idea. It was driving me mad. I wanted to be able to tweak things while the game was running; that would allow me to try out different ideas and get things just right, without all the tedium of my previous workflow.
@@ -149,6 +162,7 @@ The Visual Scripting Framework was born out of my frustration with programmatica
 [![Untitled](/assets/img/wordpress/2013/01/Untitled.png "Untitled")](/assets/img/wordpress/2013/01/Untitled.png)
 
 The Visual Scripting Framework allows you to build scripts by dragging and dropping script elements into a script. A script element can contain both inputs and outputs which can be connected to other script elements. The Visual Scripting Framework is designed to be game engine agnostic. This means that out of the box the framework does not contain many script elements, since every game engine and every game developer’s requirements are different there is no way I could account for every eventuality. Instead, the framework allows you to load additional components as required or even write your own components which it will automatically detect and make available at runtime.
+
 
 ## Framework support
 
@@ -159,6 +173,7 @@ VSF at its core is a XNA derivative and as such is compatible with any framework
 > ![src=]()    SunBurn Platform API – **NO** \* (not fully yet but expect update on platform API release)  
 > ![src=]()    SunBurn Gaming Engine – **YES**
 
+
 ## Current Status
 
 VSF is a paid for framework and as such is still under support at present with future development plans as expected.
@@ -166,6 +181,7 @@ VSF is a paid for framework and as such is still under support at present with f
 Price $30
 
 * * *
+
 
 # [XPF](http://red-badger.com/blog/2010/08/31/introducing-xpf-e28093-a-layout-framework-for-xna/)
 
@@ -175,11 +191,13 @@ The offering through the [RedBadger team](http://twitter.com/redbadgerteam) ([@r
 
 If you watch some of their example videos you will get a great feel for where it is heading since you can also meld the XPF components directly on to a 3D surface using the best of both worlds.
 
+
 ## What you get
 
 ![src=]()
 
 (Excerpt from the site)
+
 
 #### Familiar Development Experience
 
@@ -199,15 +217,18 @@ XPF has been specifically designed to be familiar to WPF & Silverlight developer
 
 XPF also supports Dependency Properties, Attached Properties, Animation (currently WP7 only) and Data Binding (one and two-way).
 
+
 #### Pure XNA
 
 XPF is designed to run in a pure XNA application, it does not host XNA inside a WPF or Silverlight application.  All the controls have been written from the ground-up to work in XNA 4.0 and fit into XNA’s Update & Draw game loop.
+
 
 #### Extensible
 
 XPF has been designed to be modular and extensible in two key ways.  Firstly, creating custom controls to use alongside the controls you get out of the box is easy.  If you have ever created a custom control in WPF or Silverlight, using the 2 phase measure and arrange layout system, then XPF gives an almost identical experience.
 
 Secondly, the integration point between XPF and your XNA application has been designed to be extremely flexible.  XPF does not really know anything about XNA, it is written entirely around agnostic interfaces – so whilst XPF comes with a renderer that you can use out the box, should you want to create your own, or integrate to an existing engine, you simply have to satisfy a few core interfaces.
+
 
 ## Framework support
 
@@ -218,6 +239,7 @@ XPF is now a community based development and recently got courted by the MonoGam
 > ![src=]()    SunBurn Platform API – ? (Needs in depth review but should be compatible)  
 > ![src=]()    SunBurn Gaming Engine – **NO** (Not at present but could be enabled for SunBurn as it is opensource)
 
+
 ## Current Status
 
 Unable to ascertain the exact development stats of the project at present since it was pushed opensource, the original devs are not contributing as far as I can tell but others including the MonoGame team have taken a keen interested.  The edition before it was made open source was very stable as far as I can tell.
@@ -225,6 +247,7 @@ Unable to ascertain the exact development stats of the project at present since 
 Price: FREE – Opensource
 
 * * *
+
 
 # [Tiled](http://www.mapeditor.org/) / [TiledLib](https://bitbucket.org/nickgravelyn/tiledlib) / [xTiled](https://bitbucket.org/vinull/xtiled) / [tIDE](http://tide.codeplex.com/)
 
@@ -242,7 +265,9 @@ In what appears to be a parallel universe another Dev ([colinvella](http://www.c
 
 Phew, got all that.
 
+
 ## What you get
+
 
 ### Tiled
 
@@ -262,6 +287,7 @@ Tiled is a general purpose tile map editor. It’s built to be easy to use, yet 
 - Efficient tile editing tools like **stamp** and **fill** brushes
 - Supports **input/output plugins** to open and save files in custom formats
 
+
 ### TiledLib / xTiled
 
 Both are extensions to the XNA framework offering different levels of support for TMX file importing / processing and graphical rendering, together with some map management techniques.
@@ -272,17 +298,19 @@ Both are extensions to the XNA framework offering different levels of support fo
 
 Project documentation is in the Wiki. There is also a discussion group at [XTiled on Google Groups](https://groups.google.com/forum/#!forum/xtiled)
 
+
 ### tIDE
 
 ![src=]()
 
 (Excerpt from the tIDE site)
 
-#### ![tIDE](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=130382 "tIDE") tIDE Tile Map Editor
+
+#### ![tIDE](assets/img/posts/image-not-found.png) tIDE Tile Map Editor
 
 tIDE is a fully-featured, .NET-based tile editor that allows level designers to easily create content for tile-based games. tIDE supports a custom XML-based map format, a custom binary format (_tbin_), [Tiled TMX](http://www.mapeditor.org/), [Mappy FMP](http://tilemap.co.uk/mappy.php)and [Flixel](http://flixel.org/). Additional formats may be included via the .NET-based plugin system within tIDE.
 
-[![Main window](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=170676 "Main window")](http://tide.codeplex.com/wikipage?title=tIDE01_image)[![Tile sheet properties](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=147194 "Tile sheet properties")](http://tide.codeplex.com/wikipage?title=tIDE02_image)[![Autotile definition](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=170678 "Autotile definition")](http://tide.codeplex.com/wikipage?title=tIDE03_image)[![Map statistics](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=147196 "Map statistics")](http://tide.codeplex.com/wikipage?title=tIDE04_image)[![Tile animation](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=170679 "Tile animation")](http://tide.codeplex.com/wikipage?title=tIDE05_image)[![Custom properties](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=147198 "Custom properties")](http://tide.codeplex.com/wikipage?title=tIDE06_image)
+[![Main window](assets/img/posts/image-not-found.png)](http://tide.codeplex.com/wikipage?title=tIDE01_image)[![Tile sheet properties](assets/img/posts/image-not-found.png)](http://tide.codeplex.com/wikipage?title=tIDE02_image)[![Autotile definition](assets/img/posts/image-not-found.png)](http://tide.codeplex.com/wikipage?title=tIDE03_image)[![Map statistics](assets/img/posts/image-not-found.png)](http://tide.codeplex.com/wikipage?title=tIDE04_image)[![Tile animation](assets/img/posts/image-not-found.png)](http://tide.codeplex.com/wikipage?title=tIDE05_image)[![Custom properties](assets/img/posts/image-not-found.png)](http://tide.codeplex.com/wikipage?title=tIDE06_image)
 
 **Features**
 
@@ -311,13 +339,14 @@ tIDE is a fully-featured, .NET-based tile editor that allows level designers to 
 - Extensive potential for customisation via a plugin management system
 - Built-in help system
 
-#### ![xTile](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=130215 "xTile") **xTile** Tile Rendering Engine
+
+#### ![xTile](assets/img/posts/image-not-found.png) **xTile** Tile Rendering Engine
 
 xTile is a multi-platform tile rendering engine component for XNA-based games.
 
 **Features**
 
-- Available for ![PC](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=130187 "PC") **PC** , ![Xbox 360](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=130188 "Xbox 360") **Xbox 360** , ![Windows Phone 7](http://download.codeplex.com/download?ProjectName=tide&DownloadId=214851) **Windows Phone 7** and ![Zune](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=130189 "Zune") **Zune** \*
+- Available for ![PC](assets/img/posts/image-not-found.png) **PC** , ![Xbox 360](assets/img/posts/image-not-found.png) **Xbox 360** , ![Windows Phone 7](assets/img/posts/image-not-found.png) **Windows Phone 7** and ![Zune](assets/img/posts/image-not-found.png) **Zune** \*
 - Parallax layer support
 - Tile animation
 - Custom property support at map, layer, tile sheet and tile level
@@ -326,10 +355,11 @@ xTile is a multi-platform tile rendering engine component for XNA-based games.
 - Customisable XNA content processor
 - Map loading interface for multiple file formats
 - Native XML-based file format
-- Integration with ![tIDE](http://i3.codeplex.com/download?ProjectName=tIDE&DownloadId=130386 "tIDE") **tIDE**
+- Integration with ![tIDE](assets/img/posts/image-not-found.png) **tIDE**
 - Abstract display device to facilitate platform extensibility
 
 \* For Zune development, you need to use [xTile](http://tide.codeplex.com/) v1.2.5 with XNA Game Studio 3.1
+
 
 ## Framework support
 
@@ -342,6 +372,7 @@ The newest member is not too shy either and although fairly fresh it shows a lot
 > ![src=]()    SunBurn Platform API – YES\* (With a little effort updating the tile renderers for the Platform API way of doing things)  
 > ![src=]()    SunBurn Gaming Engine – NO\* (out of the box no, however updating the renderer to be SunBurn aware could be very advantageous, especially with SunBurn’s own or the Bepu plug in for Physics)
 
+
 ## Current Status
 
 The only one not currently in active Development is [Nick Gravelyn’s](https://bitbucket.org/nickgravelyn/tiledlib) branch of code but [Mike’s](https://bitbucket.org/vinull/xtiled) work is based on that and extending it so you could argue it still is ![Open-mouthed smile](/assets/img/wordpress/2013/01/wlEmoticon-openmouthedsmile1.png)
@@ -352,6 +383,7 @@ Price: FREE – Opensource
 
 * * *
 
+
 # [Gearset](http://www.thecomplot.com/gearset.html)
 
 [![ src=]()](http://www.thecomplot.com/gearset.html)
@@ -360,31 +392,38 @@ This one took me completely by surprise early on the morning when I was about to
 
 I had not even heard or seen a whisper about [Gearset](http://www.thecomplot.com/gearset.html) in all my years of XNA and actually feel worse off because of that, the toolset looks absolutely amazing, enough to stop me in my tracks and pause to add it to this article before publishing, check it out below and you will see why.
 
+
 ## What you get
 
 ![src=]()
 
 (Excerpt from the site)
 
+
 ### Features
 
 Here’s a glimpse of what Gearset have to offer to professional and hobbyist XNA developers. New features will be coming soon so stay tuned.
 
+
 #### 
+
 
 #### Inspector
 
-[![Inspector window](http://www.thecomplot.com/inspector2.png)](http://www.thecomplot.com/inspector2.png)
+[![Inspector window](assets/img/posts/image-not-found.png)](http://www.thecomplot.com/inspector2.png)
 
 Everybody loves Visual Studio’s Watch Window, we definitely do, it shows us in a convenient place the state of our data, and this information becomes extremely important when developing any kind of software and especially when debugging it.
 
 When developing games, the need to break the game execution is sometimes too expensive, the break-modify-continue cycle can become quite slow and unproductive. With Inspector things are different, you have speedy and convenient read/write access to all your fields and properties for easy and productive tweaking. You can drag and drop to assign values, is that easy.
 
+
 #### Finder
 
 The Finder is the easiest way to get your game objects into the inspector. By default it will search through your Game’s Component collection but if you have a special object model (for example, a hierarchy of some game entities) you can easily customize the search function to better suit it.
 
+
 #### 
+
 
 #### Bender
 
@@ -392,11 +431,13 @@ Need to tweak a curve? Use Bender, Gearset’s integrated curve editor. You won�
 
 [![ src=]()](http://www.thecomplot.com/bender1big.png)
 
+
 #### Overlaid Plots
 
 Want to know how this or that variable is behaving over time? We know you do, knowing it instead of guessing it makes a huge difference and the overlaid plot gear is just for that. Get a real-time, visual representation of your variables and really understand how your game is behaving. You’ll enjoy this one.
 
 [![ src=]()](http://www.thecomplot.com/plotter1big.png)
+
 
 #### Streamed Logging
 
@@ -404,19 +445,23 @@ Writing stuff to the console is an old-school debugging trick we’ve all used w
 
 The Logger gives the programmer a clear view of when and where every log message was generated in a speedy and convenient window. Just open the logger and get really into knowing how your game is doing. The generated log can be saved to a file which is extremely useful when added to a bug report. Your QA sessions’ productivity will be boosted.
 
-[![The Logger window](http://www.thecomplot.com/loggerside1.png)](http://www.thecomplot.com/logger1.png)
+[![The Logger window](assets/img/posts/image-not-found.png)](http://www.thecomplot.com/logger1.png)
+
 
 #### Overlaid Geometry
 
 Imagine that you’re trying to solve a bug, you realize that you need to visualize what’s going on better so you decide to draw a line, box, sphere, vector, 3D transform or whatever to get a clearer view of the situation. But you are not inside a Draw method! And the data you need to draw is not available inside any Draw method either. Gearset will help you in this situation, it can draw geometry and remember it so you don’t have to redraw it every frame (useful when data is only available for one frame, e.g. the game is making a decision)
 
+
 #### 
+
 
 #### Ease of use
 
 One of the main goals while designing Gearset was to make it a tool that helped development without getting in your way. That’s why everything is conveniently done with a single line of code, take a look at the [User Guide](http://www.thecomplot.com/gearsetguide.html) examples and see what we mean.
 
 Also, Gearset’s looks are minimalistic in order to take as little resources as possible, we understand that your game needs the resources, Gearset won’t steal them.
+
 
 #### More…
 
@@ -426,11 +471,13 @@ Also, Gearset’s looks are minimalistic in order to take as little resources as
 - Alerter: get alerted when something very important happens in your code.
 - We have plenty of ideas for future versions of Gearset. If you have some,[please let us know](http://gearset.uservoice.com/) and we’ll try to help.
 
+
 ### Gearset Pro
 
 Gearset Pro adds the ability to modify your objects’ fields and properties in real-time from The Inspector. This is the only missing feature in the free version.
 
 To upgrade to Gearset Pro, you simply need to [purchase a license](http://www.thecomplot.com/lib/developer) and generate a Product Key for your computer.
+
 
 ## Framework support
 
@@ -442,6 +489,7 @@ As framework support goes Gearset has only been exclusively used on native XNA b
 > ![src=]()    UnityXNA – NO  
 > ![src=]()    SunBurn Platform API – LIKELY\*(With a little effort updating the tile renderers for the Platform API way of doing things)  
 > ![src=]()    SunBurn Gaming Engine – POSSIBLY\* (As SunBurn is based on XNA, according to the docs it should be supported but has not been tested as yet)
+
 
 ## Current Status
 
@@ -456,6 +504,7 @@ Price:
 
 * * *
 
+
 # Final Round-up
 
 Hopefully through this article I have shown you some more XNA tricks that viable going forward and which frameworks will work straight away and which need a little a little love but will eventually offer a great deal more.  All apart from UnityXNA can make use of these frameworks to make your life easier going forward.
@@ -466,7 +515,7 @@ So whether you want to use this as you base with MonoGame or the SunBurn Platfor
 
 I must say Gearset certainly blew me away by it is shear scale and capabilities, more so because I had not even heard of it until today, certainly worth a try.
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/xna-and-beyond-the-notable-mentions/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/xna-and-beyond-the-notable-mentions/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/xna-and-beyond-the-notable-mentions/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/xna-and-beyond-the-notable-mentions/)<script type="text/javascript">// <![CDATA[
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/xna-and-beyond-the-notable-mentions/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/xna-and-beyond-the-notable-mentions/)<script type="text/javascript">// <![CDATA[
 var dzone_url = 'http://darkgenesis.zenithmoon.com/xna-and-beyond-the-notable-mentions/';
 // ]]></script>  
 <script type="text/javascript">// <![CDATA[
@@ -480,4 +529,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)
+// ]]></script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

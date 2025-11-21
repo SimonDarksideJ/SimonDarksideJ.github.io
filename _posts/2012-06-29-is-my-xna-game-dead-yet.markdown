@@ -36,6 +36,7 @@ So let us begin.
 
 As always the Sample project is available [on the CodePlex site](http://startrooper2dxna.codeplex.com/releases/view/50372).
 
+
 ### **\*\*Update**
 
 I’ve added an extra Q&A section below to respond to some of the questions on this article.  Please also note the [second part of this tutorial here](/blogs/darkgenesis/archive/2010/11/08/there-and-back-again-a-tombstoning-tale-the-return-of-the-application), which covers some more general usage patterns for tombstoning and best practices.
@@ -46,20 +47,23 @@ I’ve added an extra Q&A section below to respond to some of the questions on t
 
  
 
+
 ### \*\*Update
 
 Thanks to the community, there is now finally a way to test tombstoning in the emulator.  Just need to follow the instructions in [this Post](http://nicksnettravels.builttoroam.com/post/2010/07/15/Windows-Phone-7-beta-Debugging-Tombstoned-XNA-Games-with-Visual-Studio), or follow the comments in this [forum post](http://forums.xna.com/forums/t/57309) on the CC site, plus the notes on [Michael Klucher’s blog](http://klucher.com/blog/why-is-my-game-not-installed-in-the-windows-phone-emulator).
 
 Basically it involved 2 things:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif) Changing the Application target for your game in the WMAppManifest.XML, from targeting “App.Game” to “ **NormalApp** ” (actually I found changing to anything else works)   
-> ![](http://www.dotnetscraps.com/samples/bullets/007.gif) Then you have to modify your Project properties –\> Configuration Manager and uncheck the “Deploy” option when building your game.  This makes deployment manual so you can debug your game like you can do with Silverlight apps
+> ![](assets/img/posts/image-not-found.png) Changing the Application target for your game in the WMAppManifest.XML, from targeting “App.Game” to “ **NormalApp** ” (actually I found changing to anything else works)   
+> ![](assets/img/posts/image-not-found.png) Then you have to modify your Project properties –\> Configuration Manager and uncheck the “Deploy” option when building your game.  This makes deployment manual so you can debug your game like you can do with Silverlight apps
 
 Now on with the show.
 
 * * *
 
+
 ## XNA Phone 7 Game State management sample Part 1 (of 2)
+
 
 ### 1. Tombstoning
 
@@ -67,13 +71,14 @@ Tombstoning is a little black art when it comes to the phone, it is more wildly 
 
 So when you lose focus from your app/game, either when an in-coming call is received, or the user hits the Windows or Bing Key (back is just exit really) then the current app or game is terminated and pushed on to the Back queue (as the user has moved forward in their use of the device).  When the user then hit’s back (enough times to navigate back to your app/game) then your game/app is launched again from the back queue. 
 
+
 ### This process is called Tombstoning.
 
 Now when your game / app (this could get tedious, I’m going to stick with game ![Smile](/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.wlEmoticonsmile_5F00_78174405.png)) is pushed in to the Back queue, the game is given a certain amount of time to save it is current state before it is cleared from memory, allowing the state of the game to be preserved.   When your game re-launches it can search for this saved state and use it to bring the game back to the state it was when the user was last playing it.  Sounds complicated?, well it is not.
 
 See the diagram below (courtesy of Rob (English god) Miles and Andy (slightly shorter than Rob) Wigly’s , Jumpstart Program):
 
-![Phone Execution Model1](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5707.PhoneExecutionModel1_5F00_5F00_6BE5A411.png)              ![Phone Execution Model2](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8424.PhoneExecutionModel2_5F00_5F00_7439539B.png)
+![Phone Execution Model1](assets/img/posts/image-not-found.png)              ![Phone Execution Model2](assets/img/posts/image-not-found.png)
 
 As you can see from the above, your game starts as normal, loads it is assets, presents a start screen and so on until your game begins (bullets start flying, Enemies surround you and the player desperately tries to escape.  Or is that just me).  Then a call comes in and your game is requested to Terminate, this gives you approx 10 seconds (in the background) to save the state of your game before it dies.  When the users call is finished, the game is automatically started again.  At this point you have a chance to retrieve your saved state, set the game back up at the point it was closed and let the player loose again.  one thing to bear in mind though is that you have only another 10 seconds in which to do this again, or you are dead for good.
 
@@ -96,24 +101,25 @@ First let’s overview what we have in the Game State Management (GSM) sample an
 
 * * *
 
+
 ### The GSM structure
 
 The GSM is a nice little architecture that has been around since the V1 days of XNA and has been improved and updated where breaking changes happen in the XNA library.  Up until XNA 4, it has been very hardy and a good starting point for anyone wanting to publish their game with a Free framework.
 
 It looks like this:
 
-![GSM Object Model](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3731.GSMObjectModel_5F00_5F00_0FEAB307.png)
+![GSM Object Model](assets/img/posts/image-not-found.png)
 
 It centres around a single game screen state model, with a list of current game screens to draw and a set of event handlers with some UI components to control navigation.  As you pass from one screen to the next, the old screens are thrown away and replace by new ones, the engine itself never has to change, it just draws what screens it is told to.  You also have the option of using an intermediary “Loading” screen, which only moves to the next game screen when it has finished loading (in case you have a lot of assets to load n a level of your game for example).  You can even layer screens so you can draw layered views, the Main menu screen for example has two components, a Background screen (for the background image) and the Menu text separate so it can be animated separately.
 
 Behind this is a rudimentary input framework (mainly for the menu’s) and a set of default screens including:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Main Menu (with background)   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    An Options screen with some default options   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Basic Gameplay screen (for you to build on top of)   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Paused screen   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Message Box screen   
-> ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    A Loading screen
+> ![](assets/img/posts/image-not-found.png)    A Main Menu (with background)   
+> ![](assets/img/posts/image-not-found.png)    An Options screen with some default options   
+> ![](assets/img/posts/image-not-found.png)    A Basic Gameplay screen (for you to build on top of)   
+> ![](assets/img/posts/image-not-found.png)    A Paused screen   
+> ![](assets/img/posts/image-not-found.png)    A Message Box screen   
+> ![](assets/img/posts/image-not-found.png)    A Loading screen
 
 Behind each screen is a set of common options, that control if it is active or not, visible or not.  New for the phone is if Gestures are enabled and which ones, plus a host of elements and events needed for passing screen control around.
 
@@ -124,6 +130,7 @@ So with all this in place how do we sort out Tombstoning?
  
 
 * * *
+
 
 ### Putting your game away first
 
@@ -193,9 +200,9 @@ The events exposed through XNA are implemented simply by overriding the function
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    They do not work in the Phones state model   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    When the game exits it always you to the screen you were on when the game exits (even the game screen, however it just restarts it)   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    It does not actually work, it both crashes when you launch the game for the second time you run the project.  I have modified it to work, but it is better if it is handled properly.
+    > ![](assets/img/posts/image-not-found.png)    They do not work in the Phones state model   
+    > ![](assets/img/posts/image-not-found.png)    When the game exits it always you to the screen you were on when the game exits (even the game screen, however it just restarts it)   
+    > ![](assets/img/posts/image-not-found.png)    It does not actually work, it both crashes when you launch the game for the second time you run the project.  I have modified it to work, but it is better if it is handled properly.
     
     
     
@@ -211,9 +218,9 @@ The events exposed through XNA are implemented simply by overriding the function
     
     
     
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    First: Pause the game, by setting the current screen to the Paused Screen class (not this screen was not in the original Phone GSM class, so I copied and fixed it up for this project)   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Second: Create a list of the current active screen   
-    > ![](http://www.dotnetscraps.com/samples/bullets/001.gif)    Third: Save the list of active screens to the Phone State Store
+    > ![](assets/img/posts/image-not-found.png)    First: Pause the game, by setting the current screen to the Paused Screen class (not this screen was not in the original Phone GSM class, so I copied and fixed it up for this project)   
+    > ![](assets/img/posts/image-not-found.png)    Second: Create a list of the current active screen   
+    > ![](assets/img/posts/image-not-found.png)    Third: Save the list of active screens to the Phone State Store
     
     
     

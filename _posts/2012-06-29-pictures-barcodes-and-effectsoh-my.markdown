@@ -9,16 +9,17 @@ Now this was an unexpected surprise since I should still be wo deep rehearsing f
 
 It sort of came at me out of the blue, the story goes a bit like this:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    Coding 4 Fun release a [snazzy article on picture manipulation on WP7](http://blogs.msdn.com/b/coding4fun/archive/2010/08/09/10048007)   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    I go, like woah, that is way cool, how about in XNA4 on the Phone   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    I try and fail miserably, mainly due to the libraries use of the Silverlight Writablebitmap class   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    Time passes   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    A friend shows me his app on his iPone (poor sucker) to scan a barcode and get the price of a nice Panasonic Blue-ray PVR 500gb (was nicely priced as well)   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    Some more time passes   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    [This article](http://www.codeproject.com/KB/graphics/BarcodeImaging3) (along with a few others) appears on [codeproject](http://www.codeproject.com/) (a fine place for articles on code) for reading barcodes   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    A plan starts to form and the Shiny Shiny particle of my brain goes in to overdrive and defies reason
+> ![](assets/img/posts/image-not-found.png)    Coding 4 Fun release a [snazzy article on picture manipulation on WP7](http://blogs.msdn.com/b/coding4fun/archive/2010/08/09/10048007)   
+> ![](assets/img/posts/image-not-found.png)    I go, like woah, that is way cool, how about in XNA4 on the Phone   
+> ![](assets/img/posts/image-not-found.png)    I try and fail miserably, mainly due to the libraries use of the Silverlight Writablebitmap class   
+> ![](assets/img/posts/image-not-found.png)    Time passes   
+> ![](assets/img/posts/image-not-found.png)    A friend shows me his app on his iPone (poor sucker) to scan a barcode and get the price of a nice Panasonic Blue-ray PVR 500gb (was nicely priced as well)   
+> ![](assets/img/posts/image-not-found.png)    Some more time passes   
+> ![](assets/img/posts/image-not-found.png)    [This article](http://www.codeproject.com/KB/graphics/BarcodeImaging3) (along with a few others) appears on [codeproject](http://www.codeproject.com/) (a fine place for articles on code) for reading barcodes   
+> ![](assets/img/posts/image-not-found.png)    A plan starts to form and the Shiny Shiny particle of my brain goes in to overdrive and defies reason
 
 So, throwing caution to the wind, I brushed off my XNA version of the PicFX project and armed with some ideas on how to tackle WritableBitmaps, I set off to complete the long forlorn project and inject some barcode goodness.  And this is where our story begins.
+
 
 #### \*\*Note
 
@@ -34,24 +35,25 @@ Thanks to [Daniel Vaughan](http://www.linkedin.com/profile?viewProfile=&key=1549
 
 * * *
 
+
 ### The Sample
 
 Now I’m not going to go in to too much detail here on the two libraries, except to say:
 
-> > ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    [PicFX](http://blogs.msdn.com/b/coding4fun/archive/2010/08/09/10048007)
+> > ![](assets/img/posts/image-not-found.png)    [PicFX](http://blogs.msdn.com/b/coding4fun/archive/2010/08/09/10048007)
 > > 
 > > This is a nice and simple example of image manipulation using Writable Bitmaps, extracting out the byte values of images and twisting them to meet your evil needs.  The article goes in to a lot of details of what and how you manipulate the image to get different effects.
 > > 
-> > ![](http://ecn.channel9.msdn.com/c4fcontent/images/d2318adeb050_AB1A/image_12.png)   
-> > ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    **[Berend Engelbrecht’s](http://www.codeproject.com/script/Membership/View?mid=2307043)**  **codeproject barcode library**
+> > ![](assets/img/posts/image-not-found.png)   
+> > ![](assets/img/posts/image-not-found.png)    **[Berend Engelbrecht’s](http://www.codeproject.com/script/Membership/View?mid=2307043)**  **codeproject barcode library**
 > > 
 > > Reading barcodes reliably and effectively in all dimensions is a tricky business, however the article and it is sample make this easy to understand.  It basically sums up the need to scan images in lines, work out what is light and what is dark, average this out and then compare the findings against known barcode formats.  Note, the code retains it is original open source license, so check this if you want to re-use it. 
 > > 
-> > ![](http://www.codeproject.com/KB/graphics/BarcodeImaging3/BarcodeImaging3-screenshot.png)
+> > ![](assets/img/posts/image-not-found.png)
 > > 
-> > (not the XNA screen ![Hot smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1581.wlEmoticonhotsmile_5F00_009172EE.png))
+> > (not the XNA screen ![Hot smile](assets/img/posts/image-not-found.png))
 > > 
-> > ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    Reach Demo Code
+> > ![](assets/img/posts/image-not-found.png)    Reach Demo Code
 > > 
 > > To ease making this sample I also made use of the menu system from Shawn Hargreaves Reach demo code.  It is nice and simple with hit checking on menu items and delegates for menu actions.  Short sweet and to the point.
 
@@ -60,6 +62,7 @@ Now I’m not going to go in to too much detail here on the two libraries, excep
 * * *
 
  
+
 
 ### The modifications – how I got it working
 
@@ -77,18 +80,19 @@ So after much effort and a little refactoring and manipulation of the base code,
 
 * * *
 
+
 ### What is left
 
 Well I did not have time to do as much as I wanted with other activities plaguing my mind, so here is a list of things to be aware of:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    PicFX only does sepia and b&w effects, so you might want to play around with more   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    The barcode library only scan images and report back codes at present   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    Integration with a service like [isbndb.com](http://isbndb.com/)
+> ![](assets/img/posts/image-not-found.png)    PicFX only does sepia and b&w effects, so you might want to play around with more   
+> ![](assets/img/posts/image-not-found.png)    The barcode library only scan images and report back codes at present   
+> ![](assets/img/posts/image-not-found.png)    Integration with a service like [isbndb.com](http://isbndb.com/)
 > 
 > to get info back on ISBN barcodes (books) and then who the details – more info here [isbndb.com dev docs](http://isbndb.com/docs/api/index.html)
 > 
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    A proper scanning (using the camera but you need a device for that) interface for getting barcodes   
-> ![](http://www.dotnetscraps.com/samples/bullets/038.gif)    Integration with other shopping / info web services
+> ![](assets/img/posts/image-not-found.png)    A proper scanning (using the camera but you need a device for that) interface for getting barcodes   
+> ![](assets/img/posts/image-not-found.png)    Integration with other shopping / info web services
 
 Everything you need to start is here and you can use my previous articles on WCF and the phone to help get data and then show it.  Granted you might want to do it in a Silverlight project (just use the writeablebitmap class version barcode service)
 

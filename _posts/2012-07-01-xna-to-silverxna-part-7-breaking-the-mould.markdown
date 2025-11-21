@@ -8,7 +8,7 @@ tags: [silverlight, xna]
 ![ /></p>
 <p>So far with SilverXNA we have been dealing will a full page approach to rendering our Silverlight page in XNA, it is quick and simple but there is another way.</p>
 <p>The Silverlight renderer (UIElementRenderer) is specifically targeted at UI controls it just so happens that most the samples use the Page as the control to render, it is also possible to use different controls as the source fro the Silverlight render if you so wish.  it is also possible to mix and max if need be but you have to be very careful when doing this.</p>
-<p>If you are going to render individual controls or user controls however I would recommend not rendering the entire page, this can overcomplicate drawing, like a wise man said “What is possible is not always right” <img class=](http://www.fmwf.com/wp-content/uploads/2010/10/breakingthemouldimage.jpg)
+<p>If you are going to render individual controls or user controls however I would recommend not rendering the entire page, this can overcomplicate drawing, like a wise man said “What is possible is not always right” <img class=](assets/img/posts/image-not-found.png)
 
 The reason for this is that there is a single restriction to the Silverlight Renderer, all controls to be rendered MUST be part of the visual tree for the page you are currently on, so you cannot just create a whole load of user controls and just drop them in, they have to play an active part of the current page, you can however add them in programmatically if you so wish.
 
@@ -20,17 +20,19 @@ As usual full source for this chapter can be found [here on Codeplex](http://bit
 
 Follow along with the series here:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/025.gif) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach") (here)
+> ![align=](assets/img/posts/image-not-found.png) [Part 1 – an Overview](http://darkgenesis.zenithmoon.com/?p=366)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 2 – Getting Started](http://darkgenesis.zenithmoon.com/?p=386)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 3 – Adding the first control](http://darkgenesis.zenithmoon.com/?p=406)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 4 – MVVM frameworks and Nuget](http://darkgenesis.zenithmoon.com/?p=420)  
+> ![align=](assets/img/posts/image-not-found.png) [Part 5 – Controls](http://darkgenesis.zenithmoon.com/?p=443 "SilverXNA Part 5 - Controls")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 6 – Adding Animation](http://darkgenesis.zenithmoon.com/?p=496 "SilverXNA Part 6 Animation")  
+> ![align=](assets/img/posts/image-not-found.png) [Part 7 – A different approach](http://darkgenesis.zenithmoon.com/?p=505 "SilverXNA Part 7 A different approach") (here)
+
 
 #### If you have more Queries on SilverXNA or just want to ask questions on it, fee free to use the [SilverXNA forum here](http://darkgenesis.zenithmoon.com/forums/forum/silverxna/ "SilverXNA blog post forum on Dark Genesis")
 
 * * *
+
 
 ## Starting Fresh
 
@@ -63,7 +65,7 @@ Then alter the Silverlight renderer initialisation as follows:
         
         
         
-        > ![align=](http://www.dotnetscraps.com/samples/bullets/028.gif)    Renderer Properties (in the XAML.cs header)
+        > ![align=](assets/img/posts/image-not-found.png)    Renderer Properties (in the XAML.cs header)
         > 
         >     
         > 
@@ -83,7 +85,7 @@ Then alter the Silverlight renderer initialisation as follows:
         > ## In the end there can only be one (mostly)
         >     
         >     
-        > ![width=](http://alexmillerclaireharris.files.wordpress.com/2011/04/61.jpg)
+        > ![width=](assets/img/posts/image-not-found.png)
         >     
         >     
         >     

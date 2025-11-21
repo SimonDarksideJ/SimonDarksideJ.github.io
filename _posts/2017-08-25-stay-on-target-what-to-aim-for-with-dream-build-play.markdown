@@ -19,6 +19,7 @@ What you are aiming for is enough to demonstrate your game, it is gameplay and e
 
 * * *
 
+
 # 1: Minimum Viable Product
 
 [![MossFire](/assets/img/wordpress/2017/08/MossFire.gif "MossFire")](/assets/img/wordpress/2017/08/MossFire.gif)
@@ -39,6 +40,7 @@ All in all, you are aiming to showcase what you game can be and how it stands ou
 
 * * *
 
+
 # 2: Expand your base
 
 [![LegoBuild](/assets/img/wordpress/2017/08/LegoBuild.gif "LegoBuild")](/assets/img/wordpress/2017/08/LegoBuild.gif)
@@ -46,17 +48,20 @@ All in all, you are aiming to showcase what you game can be and how it stands ou
 Even with your MVP, try to add other elements which may or may not relate you your core game mechanic, including (but not limited to)
 
 - 
+
 ## A menu system
 
 Does not need to be anything major or too flashy.  But ensure it is in the theme / style of your game (not a template). Include credits and if possible a demo reel (again keeping it simple)
 
 - 
+
 ## Basic Services integration
 
 Show how your game will have services integration like Live Logon, Leaderboards (even just one), Achievements.  The Creators Club portal has tons of information on integrating with Live Services, samples and even an easy to implement API pack for C++ / Unity or C#.  
 If you can, also look in to some basic Mixer support to really shine.
 
 - 
+
 ## Qualify for other categories
 
 If you want to maximise your potential once you have your base game running, also think about existing to other categories, like Azure, Mixed Reality and so on.  Do not go too mad but with your MVP ready for contest submission, see what else you can add.
@@ -65,6 +70,7 @@ These are small things that you should have in your final submission, as shippin
 
 * * *
 
+
 # 3: Polish and Finish
 
 [![Finishing](/assets/img/wordpress/2017/08/Finishing.gif "Finishing")](/assets/img/wordpress/2017/08/Finishing.gif)
@@ -72,11 +78,13 @@ These are small things that you should have in your final submission, as shippin
 With your submission ready and if you still have time, there are a few other things to consider:
 
 - 
+
 ## Do a trailer
 
 Have a little fun, play the game, record it, mix it and have some interesting voice over (if it suits).  You might find by playing your game from a different perspective that you will find some last-minute tweaks you can add for even more fun.
 
 - 
+
 ## Have other people play it!
 
 **This one I ca not stress enough.**
@@ -84,6 +92,7 @@ Have a little fun, play the game, record it, mix it and have some interesting vo
 Once you do have an MVP, or at least enough to play test, use the community, shout out to friends and have others play your game for feedback (and cookies!).  Remember, you do not have to implement all their feedback for the submission, some can wait until after.  But look out for those crucial things that could lose you marks, like hard to use controls (not everyone thinks like you do), obscure UI (not everyone thinks like you do),
 
 - 
+
 ## Localization
 
 Nothing shows sheer determination than to show support for more than just a single language in a product.  It demonstrates you understand the global market and what it takes, plus you are serious about the attraction of your game
@@ -91,6 +100,7 @@ Nothing shows sheer determination than to show support for more than just a sing
 You can do Trailers and some other activities (like a post-mortem post) after the submission is posted, so keep that in mind when balancing the time budget. But be careful, if you suddenly find something after you have submitted you will likely slap yourself in the face, like REALLY Hard.
 
 * * *
+
 
 # That is all for now.
 

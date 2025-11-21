@@ -26,8 +26,6 @@ Now with experience, I would have probably re-ordered some of the things around 
 
 At the end of this rant, I hope (but probably not) you should get a feel of how important Project Management is for even the smallest project.  Plan Big, checkpoint often and don’t be afraid to re-shuffle it around.  Always be careful of scope.
 
- 
-
 On another note, a wonderful new Blog site has appeared recently on the horizon "[Manders vs Machine](http://blogs.msdn.com/manders/default)" – by Mike Anders (part of the MS PIX Direct3D team).
 
 The blog is really refreshing and Mike has recently found XNA and started putting some interesting stuff up, things like making a [Mandelbrot set](http://en.wikipedia.org/wiki/Mandelbrot_set) in graphical form, things to watch out for when outputting to Televisions (Screen safe area’s) and a little hint on making a Matrix [Visualizer](http://msdn2.microsoft.com/en-us/library/zayyhzts) for Studio and express.

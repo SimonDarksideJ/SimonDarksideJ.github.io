@@ -15,11 +15,14 @@ Unfortunately not all of the right people were in the right place at the right t
 
 * * *
 
+
 # Not the End?
 
 Well even with Microsoft’s announcement this is still not the end for XNA, as my beyond series shows there is still life in the orgasmic sphere of influence that is XNA and what people and devs alike have learned over the past 6 – 7 years is still valid tomorrow thanks to all the community efforts of teams like @MonoGameTeam with [www.monogame.net](http://www.monogame.net) and the SunBurn Gaming Engine [www.synapsegaming.com](http://www.synapsegaming.com) plus so many others that I’ll continue to mention here on this blog and shout as I’m sure many more will appear from the gulf.
 
+
 # SO goodbye XNA framework and LONG LIVE THE XNA PLATFORM!!!
+
 
 # (or thanks MS, so long and thanks for all the fish)
 
@@ -27,11 +30,13 @@ That being said, enjoy the read and if you like it, circulate it
 
 * * *
 
+
 # Last Note
 
 Get involve and share your stories with the rest of the tweetverse on the #**[becauseofXNA](https://twitter.com/search?q=%23becauseofxna&src=typd)** hashtag where many a gritted soul has barred their soul on what XNA has done for them and how their lives have improved (or worsened in some cases) thanks to XNA, viv la revolution!!!
 
 * * *
+
 
 # Chapter X – XNA Framework and Windows Phone 7
 
@@ -44,6 +49,7 @@ Several years on and the XNA framework has been through 4 major revisions and no
 Put simply, XNA (which is not an acronym for a change) allows any developer with a basic understanding of .NET and C# to craft their dream and make it into a reality, the only limit is their imagination.
 
 Detailed below is a brief overview of each of the components in the XNA framework, a breakdown on the differences that need to be taken into account for Windows Phone 7 and some tips and tricks for how to get the most out of the device. If you are new to XNA I suggest you first visit the App Hub site and read through the educational content for learning XNA before reading the rest of this chapter.
+
 
 ## 2D / 3D / Silverlight – Which to choose
 
@@ -58,6 +64,7 @@ With Mango (the next version of the WP7 platform) there is also the ability to m
 When you are first drafting out your game idea, start thinking of what you expect the gamers experience to be, if its event based when the next event is decided by a player interaction (Like Simon Say’s or a Slot machine) then Silverlight is likely to be the best choice. If you want a fly by the seat of your pants flyer with explosions going off left and right or a clever marble maze kind of game then strap up tight and read on.
 
 In either case go with what you are comfortable with and if you hit problems with either getting something to work just right or aren’t getting the performance you need then don’t be afraid to try something new, whether it is Silverlight or XNA, both are indeed great frameworks and each have their own unique benefits.
+
 
 ## Graphics
 
@@ -75,15 +82,19 @@ With XNA everything that is drawn is a texture or image (even text) as it is dra
 
 In the following sections I’ll highlight over some of the core concepts you need to be aware of with using XNA on the phone, for more in-depth detail see the App Hub educational content or the MSDN library for reference.
 
+
 ### Framework Basics
 
 The XNA framework is mostly the same as its XBOX and PC brothers so any training material out there for XNA will suit you well, however as Windows Phone 7 is a mobile platform there are some restrictions and new offerings, namely:
 
 | 
+
 ### Feature / Platform
  | 
+
 ### XBOX / PC
  | 
+
 ### Phone
  |
 | Max Screen Resolution | 1920×1080  
@@ -96,6 +107,7 @@ The XNA framework is mostly the same as its XBOX and PC brothers so any training
 | Web Support | None (custom web available on PC) | Yes (including socket support in Mango) |
 
 There are several of other differences but these are the primary highlights.
+
 
 ### Resolutions / Viewports
 
@@ -133,6 +145,7 @@ I’d recommend you try and leave it up if possible in your game as most users p
 To remove the system tray simply put the following in your games constructor:
 
 ![src=]()
+
 
 ### Textures / Sprites
 
@@ -184,6 +197,7 @@ The best advice here is to try both compression modes and see which one works be
 You may not notice too much difference here (apart from the size) but both will behave differently when used in drawing to the screen.
 
 As with any other performance gaining tip though there is one thing to keep in mind, keep these tips in mind when building / designing your game but only really start pushing this when you have a problem or are running close to the wire, like everything else it’s all a matter of experience to know when to implement these tricks and how far you have to go.
+
 
 ### Shaders
 
@@ -251,6 +265,7 @@ The SunBurn engine (detailed later) shows exactly just what can be done with thi
 - 
 Bloom and post-processing.  
 
+
 ### Models
 
 If you are venturing into the world of 3D and investing in some 3D models (or crafting your own) then the same models that can be used for XBOX and PC in the XNA framework will work for Windows Phone 7, but as ever size matters.
@@ -262,6 +277,7 @@ Unfortunately at this time programmable shaders are unavailable on the device so
 Another thing to keep in mind is only to use 3D models where you need to, if you can have a 2D texture represent something, then use it as this is easier for the GPU to handle.
 
 If you are going to use SunBurn or other 3D engine, be keenly aware of the format of the models you are going to use as each have particular differences, for example SunBurn for the moment requires a separate lightmap channel (_http://bit.ly/hHxM5T_) to use models in game and Engines such as Balder only support the ASE (Autodesk) format for models.
+
 
 ### Effects
 
@@ -287,7 +303,9 @@ Starting with something like this for example would need little post processing 
 
 ![src=]()
 
+
 ## 
+
 
 ## Audio
 
@@ -305,11 +323,13 @@ Sound Effect Instances
 
 Streamed versions of a sound effect, can be several from the same sound. An instance allows a greater degree of control over the playing of the sound such as pitch, speed and looping of the sound.
 
+
 ### Media Library
 
 The other engine that can play sounds is the Media Library the native audio playing engine of the device, it however can only play songs and mp3’s from its stored media library, we can upload songs to this via XNA and then ask the Media Library to play them for us but there is limited control in doing this.
 
 It is best used for background music or overall game music, something you expect to play for long durations. There are no metrics at present to see if using the Media Library or XNA sound effects uses more power or performance, so see what works for you, however shipping MP3’s with your game will reduce the size of your eventual deployment so keep this in mind.
+
 
 ### Are you in Control
 
@@ -318,6 +338,7 @@ Whether you are using the Media Library for your background music or a sound eff
 The test itself is simple, just check the “MediaPlayer.GameHasControl” Property on start-up, and if it is false just disable in game music or just not start it.
 
 It is good practice (if you are using audio) to have both sound effects and music controllable by the player through some options screen so they can choose to enable / disable it if they so wish, or have an icon displayed on the screen (the speaker icon is the standard) which when tapped will toggle on / off the game audio
+
 
 ## Content Pipeline
 
@@ -359,6 +380,7 @@ Here is the same project but in the Windows Phone solution, it uses the same cod
 Assets have then been resized for the phone which then replace those assets in the content project (not replace the files themselves), however so that code remains the same the same asset name is used in both projects.
 
  |
+
 
 ## Integration with Silverlight (Mango)
 
@@ -447,11 +469,13 @@ Handling Orientation is a bit of a problem in the current framework as the enume
 
 ![src=]()
 
+
 ## Re-Inventing the Wheel
 
 Now some die hard geeks (like myself) prefer to do everything the hard way and spend months playing with and tweaking every area possible related to XNA, with areas such as Shaders, lighting and rendering it does take some specialist knowledge (or very long nights) to get the best performance and functionality, if however you just want to build a game there is another way.
 
 There are several offerings out there to make game building easier, some are complete engines doing everything for you so that all you need to do is supply content, others are frameworks that just do the hard bits for you, in either case there is a world of choice, here’s a breakdown of what I’ve found useful in the months since the launch of Windows Phone 7
+
 
 ### SunBurn Engine
 
@@ -466,6 +490,7 @@ However this does come at a price as it has been the fruits of a small teams lab
 For more details on SunBurn, [see here](http://www.synapsegaming.com/products/sunburn/engine/) ([http://www.synapsegaming.com/products/sunburn/engine](http://www.synapsegaming.com/products/sunburn/engine/))
 
 **Price: $150 for standard, $250 for Professional(for xna devs with AppHub accounts)**
+
 
 ### Indie Game Framework
 
@@ -495,6 +520,7 @@ Networking support
 Philip has toiled hard on the engine mainly to evolve and develop his own game projects. Unlike the SunBurn engine however, it is given away free under a community license with the code included, so even if you don’t want to buy a SunBurn license you can easily learn from his experience from enhancing your own games.
 
 **Price: Free (requires SunBurn license for full use, see above)**
+
 
 ### Nuget
 
@@ -570,6 +596,7 @@ WP7Contrib (Silverlight only)
 
 WP7 Contrib is a set of components to help build WP7 Apps. It can be plugged into MVVM Light or used as separate components in your App. Our goal is to provide a set of tools and patterns that help WP7 developers.
 
+
 ## Further Reading
 
 There is more to XNA on the phone that I could hope to include in this one chapter, in fact there have been entire books on the subject but armed with a good understanding of XNA and the information contained here you should hopefully be able to get the best out of the Phone and make some fantastic games.
@@ -611,13 +638,14 @@ The one stop shop for a wealth of material, samples and articles on XNA and all 
 
 ([http://create.msdn.com](http://create.msdn.com/))
 
+
 ## Summary
 
 Hopefully this chapter has given you a taste of what to expect and how to work best with XNA on Windows Phone 7, it truly extends the reach of XNA and allows efficient graphical rendering on the device.
 
 With the extensibility of the Silverlight and XNA integration, is should make what is sometimes a demanding job for fellow game developers easier by providing a UI framework for Menu’s and GUI’s in our games allowing the XNA side to focus on what it does best, great graphics.
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/in-lament-for-xna-framework-long-live-the-xna-platform/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/in-lament-for-xna-framework-long-live-the-xna-platform/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/in-lament-for-xna-framework-long-live-the-xna-platform/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/in-lament-for-xna-framework-long-live-the-xna-platform/)<script type="text/javascript">// <![CDATA[
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/in-lament-for-xna-framework-long-live-the-xna-platform/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/in-lament-for-xna-framework-long-live-the-xna-platform/)<script type="text/javascript">// <![CDATA[
 var dzone_url = 'http://darkgenesis.zenithmoon.com/in-lament-for-xna-framework-long-live-the-xna-platform/';
 // ]]></script>  
 <script type="text/javascript">// <![CDATA[
@@ -631,4 +659,4 @@ var dzone_style = '2';
 // ]]></script>  
 <script type="text/javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js" language="javascript"></script><script type="text/javascript">// <![CDATA[
 var addthis_pub="runxc1";
-// ]]></script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)
+// ]]></script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)  <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script>[CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591)

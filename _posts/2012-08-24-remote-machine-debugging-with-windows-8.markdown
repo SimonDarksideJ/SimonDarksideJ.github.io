@@ -14,6 +14,7 @@ Now enter Win 8 and they have taken the debug options up a notch building on the
 
 * * *
 
+
 # Setting it up
 
 Getting up and running could not be easier, just download the “[remote tools](http://bit.ly/NJVxyp)” for your device from the MS downloads site and install it on your remote machine.
@@ -36,6 +37,7 @@ As you can see we have the options for running the app on our development machin
 
 * * *
 
+
 # First Run
 
 Now on first run you will get prompted to search and select the machine you want to deploy your app to:
@@ -51,6 +53,7 @@ Once connected your up and running, deploy as many times as you like with no ill
 One curious side note, if you also happen to have Visual Studio installed on the target machine it may also prompt you to request a store development license to run “side loaded” apps, this does not happen with just the tools installed alone, saying that i have found it to be very intermittent.
 
 * * *
+
 
 # But what if I want to change the target device
 
@@ -82,6 +85,7 @@ However this also does not change the current target Debug machine for remote de
 
 Eventually in my desperation after wading through a number of other help avenues i stumbled on the answer.
 
+
 ## Project Properties / Debug
 
 [![image](/assets/img/wordpress/2012/08/image4.png "image")](/assets/img/wordpress/2012/08/image4.png)
@@ -93,6 +97,7 @@ Clicking on “Find” bring back up the original “Remote Debugger Connections
 This should really be available from the “Remote” button in the main window and it is not very well documented (well anywhere that I looked)
 
 * * *
+
 
 # Back to work
 

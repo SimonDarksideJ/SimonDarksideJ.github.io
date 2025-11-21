@@ -21,6 +21,7 @@ Both demos really show the power and ease of building projects using XNA, I was 
 
 * * *
 
+
 # Going portable with MonoGame
 
 [![ src=]()](http://monogame.net/)
@@ -53,16 +54,17 @@ As with any simple conversion project like this with MonoGame, getting started i
 
 All that is left is to copy over all the Game Class code:
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Class properties  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Constructor code  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Content loading in “LoadContent”  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Game Update method  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Game Draw method  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    And any additional helper classes / functions
+> ![align=](assets/img/posts/image-not-found.png)    Class properties  
+> ![align=](assets/img/posts/image-not-found.png)    Constructor code  
+> ![align=](assets/img/posts/image-not-found.png)    Content loading in “LoadContent”  
+> ![align=](assets/img/posts/image-not-found.png)    Game Update method  
+> ![align=](assets/img/posts/image-not-found.png)    Game Draw method  
+> ![align=](assets/img/posts/image-not-found.png)    And any additional helper classes / functions
 
 All in all it took me all of 3 minutes to get it copied across to the new solution, all that is left is to build and link the content files and your ready to go, well almost.
 
 * * *
+
 
 # Final Steps
 
@@ -74,8 +76,8 @@ For now just right click on the folder named “Content” and select “Add –
 
 Once you have linked the files make sure you also
 
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    Change the “Build Action” of the .XNB files to “Content”  
-> ![align=](http://www.dotnetscraps.com/samples/bullets/033.gif)    And the “Copy to Output Directory” option to “Copy if newer”
+> ![align=](assets/img/posts/image-not-found.png)    Change the “Build Action” of the .XNB files to “Content”  
+> ![align=](assets/img/posts/image-not-found.png)    And the “Copy to Output Directory” option to “Copy if newer”
 
 [![image](/assets/img/wordpress/2013/02/image.png "image")](/assets/img/wordpress/2013/02/image.png)
 
@@ -83,9 +85,9 @@ Once you have linked the files make sure you also
 > 
 > If you cannot see the build files ensure you have:
 > 
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/024.gif)    Clicked on the Content or Content builder project and selected the correct  “Solution Configuration”  in the  drop down, in this case “Windows”  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/024.gif)    Build the content project builder project by right clicking on it and selection “Build”  
-> > ![align=](http://www.dotnetscraps.com/samples/bullets/024.gif)    Selected “All Files” in the file browser, else you will see nothing ![Open-mouthed smile](/assets/img/wordpress/2013/01/wlEmoticon-openmouthedsmile2.png)
+> > ![align=](assets/img/posts/image-not-found.png)    Clicked on the Content or Content builder project and selected the correct  “Solution Configuration”  in the  drop down, in this case “Windows”  
+> > ![align=](assets/img/posts/image-not-found.png)    Build the content project builder project by right clicking on it and selection “Build”  
+> > ![align=](assets/img/posts/image-not-found.png)    Selected “All Files” in the file browser, else you will see nothing ![Open-mouthed smile](/assets/img/wordpress/2013/01/wlEmoticon-openmouthedsmile2.png)
 
 As for fixes in this case I found only one in the Windows project which was to do with the RenderTargets used for the Lightning Text renderer use a mode that is not implemented in MonoGame for Windows (Strangely enough the mode is supported in Windows 8, odd, but more on that later), to fix this just change the following lines from:
 
@@ -103,6 +105,7 @@ Now fire it up and you will get the same experience as you saw in the previous d
 
 * * *
 
+
 # To Be Continued
 
 So that is the first stage of many, sure it is working in MonoGame but we can do better than that, first lets add a bit more and then go fully Multi-Platform
@@ -113,8 +116,8 @@ Laters…
 
 <font size="4">Source for the series can be found </font>[<font size="4">here on codeplex</font>](http://lightningdemo.codeplex.com/)<font size="4"> as well as the code drop for </font>[<font size="4">this stage here</font>](http://lightningdemo.codeplex.com/releases/view/101308)
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/) <script type="text/javascript">var dzone_url = 'http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/';</script>  
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/) <script type="text/javascript">var dzone_url = 'http://darkgenesis.zenithmoon.com/does-lightning-really-strike-twice/';</script>  
 <script type="text/javascript">var dzone_title = 'Does lightning really strike twice?';</script>  
 <script type="text/javascript">var dzone_blurb = 'Does lightning really strike twice?';</script>  
 <script type="text/javascript">var dzone_style = '2';</script>  
-<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 
+<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 

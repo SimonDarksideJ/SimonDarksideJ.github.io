@@ -15,11 +15,13 @@ This solution works even better that the WinForms route, still need to do more t
 
 * * *
 
+
 # Disclaimer
 
 This article is an entry in the [AppInnovation Contest](http://www.codeproject.com/AppInnovation). Articles in this sub-section are not required to be full articles so care should be taken when voting.
 
 * * *
+
 
 # Introduction
 
@@ -53,6 +55,7 @@ Building this for Windows 8 brought its own challenges with the biggest being th
 
 * * *
 
+
 # Background
 
 I have been blogging / experimenting with XNA since before the XNA beta, the Starter 3D session began in the early “Coding 4 Fun” days which I took and went above and beyond, taking it to Phone and now Windows 8.
@@ -79,6 +82,7 @@ Now I could have just recompiled the Visual Studio 2010 project and submitted it
 
 * * *
 
+
 # Why you should use it on an Ultrabook?
 
 Why?, because blasting rocks and aliens on your Ultrabook is fun and just why would not you want to, you should also be able to join in with friends and blast them to!
@@ -87,6 +91,7 @@ YOU KNOW YOU WANT TO!
 
 * * *
 
+
 # Word to the wise
 
 One big note about this article. Some of the content (especially around the Content Builder) are a bit advanced and may be out of the reach of beginners. Worry not as when the project is complete I will be sharing all the content / tools and whatnot that I create here and on my blog.
@@ -94,6 +99,7 @@ One big note about this article. Some of the content (especially around the Cont
 I am just that kind of guy! 😀
 
 * * *
+
 
 # Blast in to Space?
 
@@ -126,6 +132,7 @@ But as I always like to do, thinking out of the box I am also looking to add:
 One of the crazy ideas is that should not be all at once, it should be episodic and expand over time but we will just have to wait and see on that.
 
 * * *
+
 
 # Content Anyone?
 
@@ -235,11 +242,11 @@ Expanding the Parameter code to allow for “custom parameters”, plus an overl
                                 As a slight interlude but still in keeping with my next series of articles on XNA futures, i’ll go over in a bit more detail each of the components above starting with the Content Builder, it is fairly hefty subject on its own so might take a little while with my current work workload
                                 
                                 
-                                [![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/xna-in-windows-8-from-dream-to-reality/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/xna-in-windows-8-from-dream-to-reality/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/xna-in-windows-8-from-dream-to-reality/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/xna-in-windows-8-from-dream-to-reality/) <script type="text/javascript">var dzone_url = 'http://darkgenesis.zenithmoon.com/xna-in-windows-8-from-dream-to-reality/';</script>  
+                                [![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/xna-in-windows-8-from-dream-to-reality/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/xna-in-windows-8-from-dream-to-reality/) <script type="text/javascript">var dzone_url = 'http://darkgenesis.zenithmoon.com/xna-in-windows-8-from-dream-to-reality/';</script>  
                                 <script type="text/javascript">var dzone_title = 'XNA in Windows 8 from dream to reality';</script>  
                                 <script type="text/javascript">var dzone_blurb = 'XNA in Windows 8 from dream to reality';</script>  
                                 <script type="text/javascript">var dzone_style = '2';</script>  
-                                <script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 
+                                <script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 
                             
                             
                         

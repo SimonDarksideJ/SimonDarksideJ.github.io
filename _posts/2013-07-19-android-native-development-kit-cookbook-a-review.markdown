@@ -11,6 +11,7 @@ Just before I come up for air and start blogging in earnest I received an intere
 
  
 
+
 ### [Android Native Development cookbook](http://www.packtpub.com/android-native-development-kit-cookbook/book)
 
 If you are new to Android development then you will need a good starter book, for example “Android NDK Beginner’s Guide” ([http://bit.ly/12E6Qdn](http://bit.ly/12E6Qdn "http://bit.ly/12E6Qdn"))
@@ -35,6 +36,7 @@ So long as you have read any of the “dummies” guides you will have enough kn
 
 Here is a brief run through what all the chapters are and what to expect from them.   The book is laid out like a traditional cookbook focusing on each specific component and laying it out bare.
 
+
 ### Chapter 1 “Hello NDK”
 
 To really start the book off on the right foot, this chapter walks you through everything you need to get Android development setup on your machine, unlike most Android books it also shows you on a Mac and Linux, not just on Windows.
@@ -42,6 +44,7 @@ To really start the book off on the right foot, this chapter walks you through e
 Gets you up and running with everything you need from the correct Java and Android SDK versions plus setting up Eclipse for your development environment. (If you wished you could use Xamarin studio as an alternative to Eclipse, still free)
 
 The Chapter finishes up with a traditional “Hello World” app just to test you got everything setup and working.
+
 
 ### Chapter 2 “Java Native Interface”
 
@@ -57,6 +60,7 @@ Chapter 2 for all intents and purposes is a good and well-rounded programming re
 
 By the end of this chapter you should have most of what you need to be an efficient programmer on the Android platform
 
+
 ### Chapter 3 “Build and Debug NDK Applications”
 
 Everyone who’s ever touched or used an Android device knows the complexity involved with the different models / capabilities and options in Android development, in this chapter you will be guided through both the how and .what the best practices are when configuring your Android solutions  and build environments.
@@ -65,13 +69,16 @@ Remember you are rarely building just one Android app but several, to cope with 
 
 This chapter also includes the know how to setup your Eclipse environment to do automated build and deployment to either an emulator or a device (obviously if you use Xamarin Studio this is already built in for you)
 
+
 ### Chapter 4 “Android NDK OpenGL ES API”
 
 The graphics system makes an entrance in this chapter going through all the nitty gritty with the 2D / 3D rendering system and a basic overview for using Open GL shaders.   It includes several basic examples to get you started with an appreciation of the area, graphics on most platforms is a very tricky area and this does a good job of explaining the basics well.
 
+
 ### Chapter 5 “Android Native Application API”
 
 Here we start to get really native and work with Android Activities (pages) and working with the various input methods and sensors.  There is also an important section on Assets which is critical since it is different on Android to most other platforms.
+
 
 ### Chapter 6 “Android NDK Multithreading”
 
@@ -79,15 +86,18 @@ One of the biggest pains on any platform is getting the performance and balance 
 
 Multi-threading (or breaking up your app into little chunks of processing) is the solution in many cases, as with everything though there are good ways to do multi-threading and there are bad ways.  This chapter gives a good overview and offers some good practices when it comes to multi-threading
 
+
 ### Chapter 7 “Other Android NDK API”
 
 As a sum up to the programming portion of the book, here the author rounds some of the extra bits built into the standard Android SDK. It does not go in to too much depth (you could probably get an entire book out of each library) but it gives you enough to give you start and a basic appreciation for what each library does.
+
 
 ### Chapter 8 “Porting and Using the Existing Libraries with Android NDK”
 
 In the first of two patterns and practices chapters, this chapter covers re-using existing C++ libraries in your Androids apps which is very useful if you do not want to write huge amounts of code yourself.  There are a vast amount of libraries both free and paid written in native code and harnessing them is crucial in all but the smallest of apps.
 
 The chapter also covers some of the trickier parts of reusing libraries that require exception, RTTI, and STL support.
+
 
 ### Chapter 9 “Porting an Existing Application to Android with NDK”
 
@@ -99,6 +109,7 @@ Following on from the previous focus on re-using existing libraries, this chapte
 
 Additionally there are 2 bonus chapters which give the book a real feel of polish, both of these are accessible from the PacktPub site with your copy of the book, full details included on how to gain access to them are included in the Preface.
 
+
 ### Bonus Chapter 1 “Developing Multimedia Applications with NDK”
 
 This chapter build a real world app using all of the techniques explained in the book including:
@@ -107,6 +118,7 @@ This chapter build a real world app using all of the techniques explained in the
 - Using the ffmpeg library to get media info and decoding / displaying video frames
 - Separating decoding and drawing with two threads
 - Seeking to playback and grabbing the frames while optimizing the performance of a multimedia app
+
 
 ### Bonus Chapter 2 “Developing Games with NDK”
 
@@ -122,12 +134,14 @@ If you were looking for a reference manual for your shelf for how to build effic
 
 There is a lot of intro material included in the book including the programming guide but you must have an appreciation for Java / C++ first and read at least an “Android for dummies” style book to learn the basic lingo.
 
+
 ###### Pros:
 
 - Very detailed step by step explanations
 - Fully working samples, not just throw away code
 - Does not try to overthink it is chapters, give you enough to stand up and walk leaving the running to you
 - It helps you to build WOLFENSTEIN 3D !! ![Open-mouthed smile](/assets/img/wordpress/2013/07/wlEmoticon-openmouthedsmile.png)
+
 
 ###### Cons:
 

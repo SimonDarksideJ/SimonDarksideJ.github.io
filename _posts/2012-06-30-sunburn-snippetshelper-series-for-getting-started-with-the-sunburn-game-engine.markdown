@@ -6,9 +6,10 @@ date: 2012-06-30 23:23:58
 tags: [3d, sunburn, xna]
 ---
 
-[![SunBurn-PoweredByBanner-Large](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0820.SunBurn_2D00_PoweredByBanner_2D00_Large_5F00_5F00_071BFB44.png "SunBurn-PoweredByBanner-Large")](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.SunBurn_2D00_PoweredByBanner_2D00_Large_5F00_50221D0A.png)
+[![SunBurn-PoweredByBanner-Large](assets/img/posts/image-not-found.png)](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.SunBurn_2D00_PoweredByBanner_2D00_Large_5F00_50221D0A.png)
 
 ([Cross post notification from Faux Motion](http://faux-motion.blogspot.com/))
+
 
 #### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the [SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")
 
@@ -44,5 +45,6 @@ Technorati Tags: [XNA](http://technorati.com/tags/XNA),[wp7dev](http://technorat
 P.S.
 
 If you want to learn modelling, you can also check out the other posts I have over on [Faux Motion](http://faux-motion.blogspot.com/)
+
 
 #### If you have more Queries on Sunburn or just want to ask questions on it, fee free to use the [SunBurn forum here](http://darkgenesis.zenithmoon.com/forums/forum/sunburn/ "SunBurn blog post forum on Dark Genesis")

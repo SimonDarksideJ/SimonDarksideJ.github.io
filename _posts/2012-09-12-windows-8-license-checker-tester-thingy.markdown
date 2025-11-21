@@ -13,6 +13,7 @@ My annoyance is that i should have waited, I knew better and just hoping my boss
 
 * * *
 
+
 # The License Helper Class
 
 Now I only created this because it was taking too long to just throw the MS code in and actually make it work with databinding, so this is fully standalone and works nicely.

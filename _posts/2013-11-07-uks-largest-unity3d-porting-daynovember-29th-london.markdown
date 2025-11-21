@@ -13,6 +13,7 @@ The event is aimed at existing Unity3D developers who already built games for ot
 
 If you are new to Unity3D or already have games on Windows / Windows Phone then unfortunately this day isn’t for you but keep a look out for news of more events and offers, no doubt this event wo not stop here, or check out the new challenges on [www.DVLUP.com](http://www.DVLUP.com) which seem to favor games.
 
+
 # SO, WHY SHOULD I BRING MY GAME TO YOUR PLATFORM?
 
 Probably the most asked question I have heard from many Unity3D devs out there who are already successful on other platforms, where is my ROI, what is in it for me?
@@ -29,7 +30,9 @@ Nokia and Unity3D are making the following available on the day to port your gam
 
 Basically everything you need to get your game ported over to the Windows / Windows Phone platform in one day, all available to you and that is not all.
 
+
 ## 
+
 
 ## Attendees who manage to port and start publishing on the day have a chance to take home – stuff
 
@@ -57,10 +60,12 @@ Just about everyone is guaranteed to take home something (subject to availabilit
 
 So all this day is going to cost you is time, one day to get all the help and expertise you need to get started on the new Windows / Windows Phone platforms and even a chance to walk away with new gear.
 
+
 # What are you waiting for?
 
 Just bring along your game on your laptop or USB stick and get porting, for FREE.
 
 For full details of the event and where to register check out the eventbrite page for the event below.
+
 
 # [http://unity-nov.eventbrite.co.uk/](http://unity-nov.eventbrite.co.uk/)

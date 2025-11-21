@@ -11,9 +11,10 @@ Well, the fun never stopped and many of those students have gone on further with
 
 * * *
 
+
 # What is Cystic Fibrosis?
 
-![Image result for cystic fibrosis logo](http://johnsonbanks.co.uk/content/news/cystic_fibrosis_is_what_555Crop.jpg)
+![Image result for cystic fibrosis logo](assets/img/posts/image-not-found.png)
 
 Cystic fibrosis (CF) is a genetic condition affecting more than 10,800 people in the UK and its effects are quite far ranging.  The most prominent issue that people with CF have is with their breathing.  Mucus builds up in their lungs causing chronic infections, meaning that people with cystic fibrosis struggle with reduced lung function and have to spend hours doing physiotherapy and taking nebulised treatments each day. Exacerbations (a sudden worsening of health, often owing to infection) can lead to frequent hospitalisation for weeks at a time.
 
@@ -24,6 +25,7 @@ On top of that, their pancreas becomes blocked with mucus, enzymes required for 
 Ongoing treatment for CF is long, laborious and no fun at all, requiring hours of repetitive exercise or treatment, which especially for children is very, very, very, VERY, boring.
 
 * * *
+
 
 # Treatment and devices
 
@@ -56,9 +58,10 @@ Both are equally important to improve the patient’s quality of life and make t
 
 * * *
 
+
 # How can I help?
 
-![Image result for open source contribution](https://softwareengineeringdaily.com/wp-content/uploads/2017/02/opensource.jpg)
+![Image result for open source contribution](assets/img/posts/image-not-found.png)
 
 With the IChealthHack event, the aim was not to actually make a few games, the aim was to build a foundation from which many projects could be born. The entire project, from the hardware, firmware, software and even the games are all open source.  That way everyone benefits from what has come before and we all learn from each other’s attempts.
 
@@ -69,21 +72,25 @@ Thus was born the Fizzyo project and it is GitHub Repository which can be found 
 In the repository, you will find separate projects containing the following:
 
 - 
+
 ### Data Architecture
 
 Outline plans and information on the end to end Fizzyo project. Everything from the data science movement, backend services architecture, services integration and dashboards
 
 - 
+
 ### Firmware
 
 The source and plans for the firmware for the Fizzyo Devices.  These will be made available once the Fizzyo devices have made it past medical device testing (a long and costly exercise)
 
 - 
+
 ### Hardware
 
 All the plans and designs for the current and future Fizzyo device hardware. These will be made available once the Fizzyo devices have made it past medical device testing
 
 - 
+
 ### Games
 
 This is the main repository for the moment and is broken up into 3 parts.  
@@ -98,6 +105,7 @@ Everything that can and is available is all uploaded to the sites and it will pr
 - Extending the Fizzyo capabilities to add more features (there are already plans for mobile and other sensor inputs)
 
 * * *
+
 
 # Getting started
 
@@ -118,6 +126,7 @@ You can try and add more but remember the focus is on the treatment and the game
 [![image](/assets/img/wordpress/2017/05/image-2.png "image")](/assets/img/wordpress/2017/05/image-2.png)
 
 Using the Fizzyo library from either Unity or MonoGame is very easy, a big benefit of using the library is that it also includes recorded data so that you do not even need an actual Fizzyo device to get started. Alternatively, you can just use your normal X Axis and Button 1 inputs and simulate them normally if you wish.
+
 
 ## Getting Started with Fizzyo in Unity
 
@@ -155,6 +164,7 @@ More details are included in the readme on the [GitHub page here](https://github
 
  
 
+
 ## Getting Started with Fizzyo in MonoGame
 
 ![image](/assets/img/wordpress/2017/03/image-13.png?resize=240%2C143&ssl=1 "image")
@@ -189,9 +199,10 @@ More details are included in the readme on the [GitHub page here](https://github
 
 * * *
 
+
 # Get involved!
 
-![Image result for kids fun](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLgraGWKhjTPSvMqt6HGTGeWACk0SZcRew9mvCxQeJ00cTu_0B)
+![Image result for kids fun](assets/img/posts/image-not-found.png)
 
 This truly is a tremendous cause and one to get involved with. It also adds the challenge of what you can achieve with so few inputs, there will be more added later as this is only the start of the journey.
 

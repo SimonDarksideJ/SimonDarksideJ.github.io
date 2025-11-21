@@ -11,11 +11,13 @@ So far we have been trying to push (but not very hard) the graphics capabilities
 
 As usual the code for this intermission can be found [here on codeplex](http://startrooper2dxna.codeplex.com/releases/46712/download/131322)
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
+
 
 ### Procedural effect using [Robin Debreuil](http://blog.debreuil.com/)’s effect generator (updated for phone)
 
@@ -27,7 +29,7 @@ that is not to say do not use it, used wisely it can be very good and it gives y
 
 Here is what i got out of it as a basic effect (granted full screen) after only an hour or so of tinkering.
 
-| ![Effect pic 1](http://xna-uk.net/blogs/darkgenesis/Effectpic1_6F574A5A.png) | ![Effect pic 2](http://xna-uk.net/blogs/darkgenesis/Effectpic2_26512894.png) | ![Effect pic 3](http://xna-uk.net/blogs/darkgenesis/Effectpic3_3D9C2D05.png) | ![Effect pic 4](http://xna-uk.net/blogs/darkgenesis/Effectpic4_75023E33.png) |
+| ![Effect pic 1](assets/img/posts/image-not-found.png) | ![Effect pic 2](assets/img/posts/image-not-found.png) | ![Effect pic 3](assets/img/posts/image-not-found.png) | ![Effect pic 4](assets/img/posts/image-not-found.png) |
 
 The effect you see was based on Robins original “ParticleEffectExample” effect using the explosion sprite from the StarTrooper Project.  I was quite surprised by the green, but that was because the effect plays with some of the colours.  The effect show explodes outwards like a supernova and slowly collapses inwards until it flames out at the end, the effect lasts just over 2 seconds. (looks better on the emulator ![Open-mouthed smile](/assets/img/wordpress/2012/06/wlEmoticon-openmouthedsmile3.png))
 
@@ -36,6 +38,7 @@ The phone holds up very well with just one of these effects u and running, add 5
 I might at some point write a little effect generator tool for both particle platforms to aid in effect generation, but only after the main tutorial is finished (or if I get another plane ride to India or a train journey to one of our site offices and I get really board)
 
 * * *
+
 
 ### Proof of concept
 
@@ -56,6 +59,7 @@ Right, now we have our framework, lets add the effect generator.  Like with the 
 * * *
 
  
+
 
 ### The Generator
 
@@ -1038,6 +1042,7 @@ Right, now this does start to get a bit tricky to explain, so let’s start with
 Next it gets a little more tricky to explain, the origin of the whole effect is altered using the value of the 2nd generation (R1), using this to move the X portion of the effect out by a factor of 50 based on the R1 value.  So for each particle it will rotate along a different origin of the drawn texture (changes where the centre of the image is when rotating).
 
 lastly the particle count is increased over time in a linear fashion (something Robin had commented out but I put it back in to see how it changes the effect)
+
 
 #### Draw
 

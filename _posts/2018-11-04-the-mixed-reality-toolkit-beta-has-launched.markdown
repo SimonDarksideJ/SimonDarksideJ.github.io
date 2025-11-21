@@ -6,6 +6,7 @@ img: wordpress/2018/11/MRTK_Logo_Rev-e1541340237232.png
 tags: [ar, mixed reality, unity3d,vr]
 ---
 
+
 # Enter the next stage of the Mixed Reality Toolkit
 
 After months of hard labour, cross words and more debates that you can shake a relatively large stick at, the Mixed Reality Toolkit finally entered the Beta phase.
@@ -24,11 +25,13 @@ It is not at feature parity with its predecessor the HoloToolkit, but it showcas
 
 Dig in, try it out, see what you think and let the team know Good or Bad what you like or would want to see improved.
 
+
 ## Check out the Developer blog:
 
 Stephen Hodgson and Simon Jackson (the core community leads) Are posting on Dev post, with info and updates:
 
 [https://devpost.com/software/mixed-reality-toolkit](https://devpost.com/software/mixed-reality-toolkit)
+
 
 ## Check out the recent activity:
 
@@ -37,12 +40,14 @@ Stephen Hodgson and Simon Jackson (the core community leads) Are posting on Dev 
 
 More coming very soon.
 
+
 ## Also check out:
 
 Stephen Hodgson has also written some technical posts on Medium here:
 
 - [Getting to know the new Mixed Reality Toolkit for Unity](https://medium.com/%40stephen_hodgson/getting-to-know-the-new-mixed-reality-toolkit-for-unity-ad21b0e331b1)
 - [The Mixed Reality Framework in Unity](https://medium.com/%40stephen_hodgson/the-mixed-reality-framework-6fdb5c11feb2)
+
 
 ## Visit the Mixed Reality Toolkit
 

@@ -5,9 +5,10 @@ date: 2012-06-29 11:25:57
 tags: [2d tutorial, game development, xna]
 ---
 
-Finally we get something more than just looking at a quiet screen blinking images on and off.  For this section we look to excite our ears and bring in the sound.  We will also look to adding some managed test to the screen to give our actions meaning.
+Finally we get something more than just looking at a quite screen blinking images on and off.  For this section we look to excite our ears and bring in the sound.  We will also look to adding some managed test to the screen to give our actions meaning.
 
 As usual the original Digipen webcast and supporting materials can be found on [Codeplex here](http://startrooper2dxna.codeplex.com/releases/view/49595) with all the source (both GS3.1 and WP7) for this lesson.
+
 
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
@@ -15,17 +16,19 @@ Thankfully, there are no major changes to the audio framework between GS 3.1 and
 
 * * *
 
+
 ### 1. Sound
 
 When playing sound in XNA (and indeed in silver light since it also uses the XNA audio libraries), we generally have 3 different types of audio we want to use:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Sound effect – use once and throw away effect, the simplest form of playing a sound.   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Prolonged or dynamic effect – where more advanced control is required, like altering the pitch, looping, etc.   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Streamed effect – Useful when playing large audio files like background music.
+> ![](assets/img/posts/image-not-found.png)    Sound effect – use once and throw away effect, the simplest form of playing a sound.   
+> ![](assets/img/posts/image-not-found.png)    Prolonged or dynamic effect – where more advanced control is required, like altering the pitch, looping, etc.   
+> ![](assets/img/posts/image-not-found.png)    Streamed effect – Useful when playing large audio files like background music.
 
 In this section we will cover the first two and continue with 3 in the next intermission as it required the more advanced XACT sound library.
 
  
+
 
 #### 1.1 Sound Effects
 
@@ -34,13 +37,14 @@ action or event, like firing a bullet, a tank explosion, or a ball hitting a wal
 
  
 
+
 #### 1.2 Game Implementation: Adding Sound Effects
 
 Implementing simple sound effects is very easy, just load the audio file and play it.
 
 So to implement the sound effect we:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Add two static variables into the “StarTrooperGame.CS” with the rest of the main game variables (after the trooper and condor static variables):
+> ![](assets/img/posts/image-not-found.png)    Add two static variables into the “StarTrooperGame.CS” with the rest of the main game variables (after the trooper and condor static variables):
 > 
 >  
 > 
@@ -58,7 +62,7 @@ So to implement the sound effect we:
 >     
 >     
 >     
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Load the sound files from the Content library in the main LoadContent() function.  Ensure you have added the actual files themselves in to the Content project in a folder called “Sounds”:
+> ![](assets/img/posts/image-not-found.png)    Load the sound files from the Content library in the main LoadContent() function.  Ensure you have added the actual files themselves in to the Content project in a folder called “Sounds”:
 >     
 >     
 >     
@@ -76,7 +80,7 @@ So to implement the sound effect we:
 >         
 >         
 >         
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Call the “Play” function of the sound file in the Trooper code in “StarTrooperSprites.cs”, just add the following at the end of the TrooperFire() function:
+> ![](assets/img/posts/image-not-found.png)    Call the “Play” function of the sound file in the Trooper code in “StarTrooperSprites.cs”, just add the following at the end of the TrooperFire() function:
 >         
 >         
 >         
@@ -96,17 +100,19 @@ This plays the sound effect file just once until it finishes.
 
  
 
+
 ### 2. Prolonged / Dynamic effects
 
 Now some sounds need a bit more time tweaking or need to run continuously.  We may also need to run multiple copies of the same sound, for this we need to create a separate copy of the sound effect, this is called a sound effect instance.
 
 With a sound effect instance, using the same sound effect file we can:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Loop the sound continuously   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Raise or lower the pitch   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Raise or lower the volume   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Pan the sound around   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Apply 3D effects (Will be covered in the Intermission)
+> ![](assets/img/posts/image-not-found.png)    Loop the sound continuously   
+> ![](assets/img/posts/image-not-found.png)    Raise or lower the pitch   
+> ![](assets/img/posts/image-not-found.png)    Raise or lower the volume   
+> ![](assets/img/posts/image-not-found.png)    Pan the sound around   
+> ![](assets/img/posts/image-not-found.png)    Apply 3D effects (Will be covered in the Intermission)
+
 
 #### 2.1 Music
 
@@ -115,11 +121,12 @@ just played once.
 
  
 
+
 #### 2.2 Game Implementation: Adding Music
 
 Applying an instance to a sound effect is no more difficult than implementing a sound effect, you just need a little extra:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Create two static properties for the music sound and one for the sound effect instance: (you can have more than one instance of a sound running at the same time)
+> ![](assets/img/posts/image-not-found.png)    Create two static properties for the music sound and one for the sound effect instance: (you can have more than one instance of a sound running at the same time)
 > 
 >  
 > 
@@ -137,7 +144,7 @@ Applying an instance to a sound effect is no more difficult than implementing a 
 >     
 >     
 >     
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Load the Sound file for the Sound effect in the LoadContent() function:
+> ![](assets/img/posts/image-not-found.png)    Load the Sound file for the Sound effect in the LoadContent() function:
 >     
 >     
 >     
@@ -151,7 +158,7 @@ Applying an instance to a sound effect is no more difficult than implementing a 
 >         
 >         
 >         
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    Instantiate sound effect instance from the sound effect, set it to loop and start it playing:
+> ![](assets/img/posts/image-not-found.png)    Instantiate sound effect instance from the sound effect, set it to loop and start it playing:
 >         
 >         
 >         
@@ -171,11 +178,12 @@ Applying an instance to a sound effect is no more difficult than implementing a 
 >             
 > 3: BackgroundMusic.Play();
 
-> ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    Note
+> ![](assets/img/posts/image-not-found.png)    Note
 
 > I hit an issue with the original assets from DigiPen, for some reason the original “Music.WAV” sound file would not load into the GS 4.0 content pipeline and just caused a “Value does not fall within the expected range” error then I tried to play for file.  Just recompiling the audio file (using an audio editor, such as [Audacity](http://audacity.sourceforge.net/)) fixed the problem.
 
 * * *
+
 
 ### Text
 
@@ -185,19 +193,22 @@ The way we get around this is to compile a spritesheet full of all the letters o
 
  
 
+
 #### 2.1 Text Manager
 
 To make life easier if you are going to have a lot of text on the screen, it is easier to manage it in a Text Manager (completely option though) which is similar to the Sprite and Particle managers, it just maintains a list of text to draw, including the locations and colour of the text with the appropriate font.
 
  
 
+
 #### 2.2 Why Do We Use It?
 
 In games there can be several reasons why we would want to draw text to the screen:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    To display the content of a text file   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    To display the value of a variable   
-> ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    To display certain messages during the game
+> ![](assets/img/posts/image-not-found.png)    To display the content of a text file   
+> ![](assets/img/posts/image-not-found.png)    To display the value of a variable   
+> ![](assets/img/posts/image-not-found.png)    To display certain messages during the game
+
 
 #### 2.3 Game Implementation: Text Manager
 
@@ -749,7 +760,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                     
                     
                     
-                    First add a new SpriteFont to the Content Manager.  Add a folder for Fonts to the Content Project and then right click on the folder, select “SpriteFont” from the XNA section: ![](http://xna-uk.net/resized-image.ashx/ __size/550x0/__ key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis/2161.SpriteFontInsert.png)
+                    First add a new SpriteFont to the Content Manager.  Add a folder for Fonts to the Content Project and then right click on the folder, select “SpriteFont” from the XNA section: ![](assets/img/posts/image-not-found.png)
                     
                     
                     
@@ -765,7 +776,7 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                     
                     
                     
-                    > ![](http://www.dotnetscraps.com/samples/bullets/034.gif)    A big thing to mention, is that XNA by default selects the Open Source font of “Kootenay”.  If you use another font be aware of the licensing of that font unless you want a knock on the door from the license police who will be ready and waiting for a check from you. (for all the cash they lost by you using their font!!)
+                    > ![](assets/img/posts/image-not-found.png)    A big thing to mention, is that XNA by default selects the Open Source font of “Kootenay”.  If you use another font be aware of the licensing of that font unless you want a knock on the door from the license police who will be ready and waiting for a check from you. (for all the cash they lost by you using their font!!)
                     
                     
                     
@@ -935,8 +946,8 @@ So setup a new class in the engine folder called Text.cs (remember to update the
                                         
                                         
                                         
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    When the trooper fires, the score does not change   
-                                        > ![](http://www.dotnetscraps.com/samples/bullets/004.gif)    The size of the text is really really tiny
+                                        > ![](assets/img/posts/image-not-found.png)    When the trooper fires, the score does not change   
+                                        > ![](assets/img/posts/image-not-found.png)    The size of the text is really really tiny
                                         
                                         
                                         

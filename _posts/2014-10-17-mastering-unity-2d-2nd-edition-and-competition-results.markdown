@@ -23,6 +23,7 @@ All the errata for the 1st edition is listed here in the [forum for the book](ht
 
 The second edition should be available in online retailers from:
 
+
 ### Monday October 27th 2014 (subject to acts of god and time travel)
 
 \*Update, checking both Packt and Amazon, I’m not seeing the update available yet. Chasing the publisher for more info #RaspsNucklesOnTable
@@ -30,23 +31,31 @@ The second edition should be available in online retailers from:
 For direct Links check out
 
 - 
+
 ###### [Amazon](http://amzn.to/1qDIql1)
 - 
+
 ###### [Packt Publishing](http://bit.ly/MasteringUnity2D)
 
 [![ width=](/assets/img/wordpress/2014/10/FrontCover-234x300.png)](/assets/img/wordpress/2014/10/FrontCover.png)
 
+
 ### 
+
 
 ### [Mastering Unity 2D Game Development](https://www.packtpub.com/mastering-unity/book)
 
 * * *
 
-# 
 
 # 
 
+
 # 
+
+
+# 
+
 
 # About the book
 
@@ -73,6 +82,7 @@ As with everything I do, if there is more you want to know on any subject within
 
 * * *
 
+
 # And now for the results
 
 Not that long ago I launched a comment competition on my blog for 3 lucky people to win eBook copies of my title, I have held off announcing the winners until the second edition was ready to go.  We had a few delays due to sickness and some more awkward changes (some code got capitalised!!!, fine in the example code of course ![Confused smile](/assets/img/wordpress/2014/10/wlEmoticon-confusedsmile.png)) but we are finally there.
@@ -89,9 +99,12 @@ Not wanting to be dull, I decided to let the hero in my title do the picking, he
 
 So the winners are:
 
+
 ### [![StarMox](/assets/img/wordpress/2014/10/StarMox.png "StarMox")](/assets/img/wordpress/2014/10/StarMox.png)   StarMox
 
+
 ### [![Derek Lakin](/assets/img/wordpress/2014/10/Derek-Lakin.jpg "Derek Lakin")](/assets/img/wordpress/2014/10/Derek-Lakin.jpg)   Derek Lakin
+
 
 ### [![Symyon](/assets/img/wordpress/2014/10/Symyon.png "Symyon")](/assets/img/wordpress/2014/10/Symyon.png)   Symyon
 

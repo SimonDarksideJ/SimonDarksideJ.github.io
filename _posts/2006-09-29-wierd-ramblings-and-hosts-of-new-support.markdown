@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wierd Ramblings and hosts of new support
+title: Weird Ramblings and hosts of new support
 date: 2006-09-29 10:42:57
 tags: [ramblings]
 ---
@@ -17,17 +17,17 @@ In light of the requirements for the sub game i’ve turn from my usual research
 
 Some great starter stuff, loads of help – great links section
 
-[![](http://www.xnadevelopment.com/XNA.gif)](http://www.xnadevelopment.com/index.shtml)
+[![Image not found](/assets/img/posts/image-not-found.png)](http://www.xnadevelopment.com/index.shtml)
 
 [XNA Resources – XNA Tutorials, GSE Tutorials, XNA News, Game Studio Express News](http://www.xnaresources.com/blog.asp)
 
 Tons of help
 
-[![](http://www.xnaresources.com/images/all_logo.png)](http://www.xnaresources.com/blog.asp)
+[![Image not found](/assets/img/posts/image-not-found.png)](http://www.xnaresources.com/blog.asp)
 
 [Link to XBOX 360 Homebrew](http://xbox360homebrew.com/)
 
 The picture say’s it all
 
-[![](http://tk2.storage.msn.com/x1pb4lnKEHD-4CJQOyvlqmI51Rc6D1cW51ePdeTP68-sLBcHOdGvwWPjGU0EX8JsAhfw62tHj1Y4IUPCWlOsivzG_oPqiLS6oYSGGnvyD4jCQfM9u9GC9RXG7G5IJoSVhJodueANyJjtZh4bFSesL_FRA)](http://xbox360homebrew.com/)
+[![Image not found](/assets/img/posts/image-not-found.png)](http://xbox360homebrew.com/)
 

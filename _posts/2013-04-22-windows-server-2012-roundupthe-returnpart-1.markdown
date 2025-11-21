@@ -17,21 +17,26 @@ So it is time to go back and see just what has changed with new eyes.  This post
 
 * * *
 
+
 # Installation
 
 Well first impressions are the ones that usually stick, heading into Hyper-V installs for the first time was a big eye opener (do not have a spare box at the mo) but after a few wrong turns (and downloading the server iso image a couple of times) I got the Windows Server 2012 install going and…. it was a nice surprise.
+
 
 ## Zero UI install option
 
 The first thing I really noticed is that Microsoft has finally relented to the backwash of Unix based server installs and provides an install with no UI, it is completely managed through a console screen and powershell scripts, very interesting.  This was probably introduced with the DataCenter edition in the last release (unconfirmed) but is now available in Windows Server 2012 installs.
 
+
 ## It is FAST
 
 The whole install even on a low spec VM on my machine took minutes, seriously, I must have blinked a few times and did not notice it was sat there waiting for me and I had not even noticed.  Was not expecting that.
 
+
 ## Charmed Unsure
 
 Well there is always one curious one in the pot and this certainly falls into this category.  Once the install was complete and the box was up and running I was greeted with the Windows 8 style experience, NOT the metro / modern look mind, but the charms bar and other features are fully enabled.  Not sure if this really fits in the server world and I can understand Microsoft’s attempts to unify its user experience but the Admin community favour use over UX any day.
+
 
 ## Did I say it was fast?
 
@@ -42,6 +47,7 @@ Granted there is not anything running on my VM yet but damn this thing is quick.
 Engineers I salute you.
 
 * * *
+
 
 # Into the quagmire
 
@@ -75,6 +81,7 @@ I also really like those hyperlinks all over the place, taking you straight to t
 
 * * *
 
+
 # So what can it do?
 
 “Lets stop talking about is and actually get on with it, show of hands!”
@@ -82,10 +89,13 @@ I also really like those hyperlinks all over the place, taking you straight to t
 **(\*Click on images to view them full screen**, !thanks [Jetpack](http://wordpress.org/extend/plugins/jetpack/)!)
 
 | 
+
 ### Adding your first role(s)
  | 
+
 ### Selecting your destination type
  | 
+
 ### Where to put it
  |
 | As you would expect when doing any new task with Microsoft these days, you are greeted with a nice “So what would you like to do and here is what this does” wizard start page, no exception with the “New Role” wizard. |
@@ -95,30 +105,39 @@ Nice and helpful here.Next up you need to decide how you want to deploy these ne
 Running this already in a VM with no domain so only local works here for me.This screen did take me by surprise, obviously for supporting environments with SAN storage and multiple deployment options, you not only get to choose where to install features but also select if you want it encapsulated in a VHD! [![image](/assets/img/wordpress/2013/04/image4.png "image")](/assets/img/wordpress/2013/04/image5.png) [![image](/assets/img/wordpress/2013/04/image5.png "image")](/assets/img/wordpress/2013/04/image6.png) [![image](/assets/img/wordpress/2013/04/image6.png "image")](/assets/img/wordpress/2013/04/image7.png)
 
 | 
+
 ### Selecting the bits
  | 
+
 ### Dependencies
  | 
+
 ### Different roles, different dependencies
  |
 | Once you figured out where it goes, the next obvious step to to add Roles for what you want the server to do.  Nice clearly defined boundaries | If your selection has dependencies then they are added automatically for you, no more dropping out the install to find yet another “feature” you need to have preinstalled first. | Pretty obvious but worth pointing out that the system intelligently only installs those bits needed for each role, even if features are needed for multiple roles |
 | [![image](/assets/img/wordpress/2013/04/image7.png "image")](/assets/img/wordpress/2013/04/image8.png) | [![image](/assets/img/wordpress/2013/04/image8.png "image")](/assets/img/wordpress/2013/04/image9.png) | [![image](/assets/img/wordpress/2013/04/image9.png "image")](/assets/img/wordpress/2013/04/image10.png) |
 
 | 
+
 ### Extra features
  | 
+
 ### Ooops ![Open-mouthed smile](/assets/img/wordpress/2013/04/wlEmoticon-openmouthedsmile2.png)
  | 
+
 ### Configuring roles
  |
 | Once you have decided what you want the server to do, you can then also select any additional features you want enabled by default.  Very useful if you intend to install “other” software. | Try to add a role or feature that your current environment cannot support (say trying to install Hyper-V in a Hyper-V image) and the install will just warn you. (As in not crap out the whole install) | With everything set you then get to customise the roles you have selected and customise how each role with operate |
 | [![image](/assets/img/wordpress/2013/04/image10.png "image")](/assets/img/wordpress/2013/04/image11.png) | [![image](/assets/img/wordpress/2013/04/image11.png "image")](/assets/img/wordpress/2013/04/image12.png) | [![image](/assets/img/wordpress/2013/04/image12.png "image")](/assets/img/wordpress/2013/04/image13.png) |
 
 | 
+
 ### Would you like fries with that?
  | 
+
 ### Everything set?
  | 
+
 ### Off it goes
  |
 | Configure it how you want when you want.  Would you like Com+ with your app server sir/madam? | Review what you selected.  
@@ -135,6 +154,7 @@ Overall it feels very smooth and well thought out, not having to keep jumping in
 
 * * *
 
+
 # The Finish Line
 
 After you have got the server up and running and installed your roles and features, as expected the dashboard is updated and new options become available to drill down to each feature of a role on its own rather than the big view dashboard look:
@@ -145,9 +165,10 @@ You can jump in and check out the events, service status and such for each role 
 
 * * *
 
+
 # Time for a rest
 
-Time as always eludes me so I must off, will put up part 2 when I get another free moment, for now I leave you with one parting gift:
+Time as always eludes me so I must off, will put up part 2 when I get another free moment, for now I leave you with one partying gift:
 
 [![image](/assets/img/wordpress/2013/04/image17.png "image")](/assets/img/wordpress/2013/04/image18.png)
 

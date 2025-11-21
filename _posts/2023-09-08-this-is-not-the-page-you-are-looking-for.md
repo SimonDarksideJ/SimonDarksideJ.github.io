@@ -87,7 +87,7 @@ So once again my blog is a happy place, links work and pages are showing exactly
 
 I almost find it ironic that one of the things that would have helped the solution was to read my new book, which is due to go on sale very soon (or now if you are reading this in the future).
 
-[![Accelerating Unity Through Automation](https://m.media-amazon.com/images/I/41HjL5akrNL._SX348_BO1,204,203,200_.jpg)](https://www.amazon.co.uk/Accelerating-Unity-Through-Automation-Offloading/dp/1484295072/ref=sr_1_5?crid=1V55PE5STOPNN&_encoding=UTF8&tag=zenistud-21&linkCode=ur2&linkId=3d1d5a139a27aedad1fbc681e9a0e1d2&camp=1634&creative=6738)
+[![Accelerating Unity Through Automation](assets/img/posts/image-not-found.png)](https://www.amazon.co.uk/Accelerating-Unity-Through-Automation-Offloading/dp/1484295072/ref=sr_1_5?crid=1V55PE5STOPNN&_encoding=UTF8&tag=zenistud-21&linkCode=ur2&linkId=3d1d5a139a27aedad1fbc681e9a0e1d2&camp=1634&creative=6738)
 
 if you want to learn and understand automation and all the joys that come from letting someone else to the repetitive parts of you job, then I would recommend a read.
 

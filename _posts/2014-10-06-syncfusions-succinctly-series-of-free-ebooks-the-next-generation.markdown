@@ -15,8 +15,9 @@ Let’s see what has changed this time.
 
 * * *
 
+
 ##### ![ /></h5>
-<p>It has been over 2 year now since <a href=](http://i2.wp.com/1.bp.blogspot.com/_Un0JJ6ChsQE/TDMGeB1LpyI/AAAAAAAAABU/VORQN7I2LVg/s1600/27.jpg?w=660)Syncfusion started shipping free [ebooks](http://www.syncfusion.com/resources/techportal/ebooks?UTM_medium=simonblogreview) to the developer community, you would think they would have run out steam by now but still they power on, they are relentless.
+<p>It has been over 2 year now since <a href=](assets/img/posts/image-not-found.png)Syncfusion started shipping free [ebooks](http://www.syncfusion.com/resources/techportal/ebooks?UTM_medium=simonblogreview) to the developer community, you would think they would have run out steam by now but still they power on, they are relentless.
 
 Each book averages around 100 pages and contains targeted and focused knowledge to make use of some of the new and upcoming frameworks or development tools out there.  In fact in this review they have even branched out in to some very interesting sectors, such as Neural Networks and Service Stack.
 
@@ -26,15 +27,18 @@ The free stuff does not stop there as [Syncfusion](http://www.syncfusion.com/?UT
 
 * * *
 
+
 ##### ![ /></h5>
 <p>Here is a brief run through what all books are currently available and what to expect from them.</p>
-<blockquote><p>If you want to see the list of ebooks from the last review, check it out here – <a title=](http://i1.wp.com/1.bp.blogspot.com/-ura1_XT2-2g/Twob02iku-I/AAAAAAAAAKo/U4Uhirf68K0/s1600/HiRes.jpg?resize=400%2C333)http://darkgenesis.zenithmoon.com/syncfusions-succinctly-series-of-free-ebooks/
+<blockquote><p>If you want to see the list of ebooks from the last review, check it out here – <a title=](assets/img/posts/image-not-found.png)http://darkgenesis.zenithmoon.com/syncfusions-succinctly-series-of-free-ebooks/
 
 (excerpts from [http://www.syncfusion.com/resources/techportal/ebooks](http://www.syncfusion.com/resources/techportal/ebooks))
 
-| [![ width=](http://d2g29cya9iq7ip.cloudfront.net/content/images/downloads/ebooks/servicestack_Succinctly.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/servicestack) | [![ width=](http://d2g29cya9iq7ip.cloudfront.net/content/images/downloads/ebooks/prisam4_Succinctly.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/prism) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/servicestack) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/prism) |
 | 
+
 ##### [ServiceStack Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/servicestack)
+
 
 ###### by Zoran Maksimovic  
 Formats: Amazon Kindle and PDF
@@ -42,7 +46,9 @@ Formats: Amazon Kindle and PDF
 Learn how to use ServiceStack, the fast, simplified, open source alternative to other web service frameworks.
 
  | 
+
 ##### [Prism 4 Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/prism)
+
 
 ###### by Eric Stitt  
 Formats: Amazon Kindle and PDF
@@ -50,9 +56,11 @@ Formats: Amazon Kindle and PDF
 Reduce the amount of work needed to produce well-designed solutions by mastering Microsoft Prism 4
 
  |
-| [![ width=](http://d2g29cya9iq7ip.cloudfront.net/content/images/downloads/ebooks/regularexpression.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/regularexpressions) | [![ width=](http://d2g29cya9iq7ip.cloudfront.net/content/images/downloads/ebooks/imperative_funtional.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/imperative) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/regularexpressions) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/imperative) |
 | 
+
 ##### [Regular Expressions Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/regularexpressions)
+
 
 ###### by Joe Booth  
 Formats: Amazon Kindle and PDF
@@ -60,7 +68,9 @@ Formats: Amazon Kindle and PDF
 Use regular expressions to quickly solve basic programming problems in Microsoft Visual Studio
 
  | 
+
 ##### [Imperative to Functional Programming Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/imperative)
+
 
 ###### by Marc Clifton  
 Formats: Amazon Kindle and PDF
@@ -68,9 +78,11 @@ Formats: Amazon Kindle and PDF
 Learn the main concepts behind functional programming such as currying, partial application, and monads, and how to combine functional programming with your imperative programming projects.
 
  |
-| [![ width=](http://d2g29cya9iq7ip.cloudfront.net/content/images/downloads/ebooks/localization.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/localization) | [![ width=](http://d2g29cya9iq7ip.cloudfront.net/content/images/downloads/ebooks/Matlab.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/matlab) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/localization) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/matlab) |
 | 
+
 ##### [Localization for .NET Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/localization)
+
 
 ###### by Jonas Gauffin  
 Formats: Amazon Kindle and PDF
@@ -78,7 +90,9 @@ Formats: Amazon Kindle and PDF
 Learn to write applications that support different languages and cultures.
 
  | 
+
 ##### [MATLAB Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/matlab)
+
 
 ###### by Dmitri Nesteruk  
 Formats: Amazon Kindle and PDF
@@ -87,9 +101,11 @@ Learn the essential skills needed to use the flexible MATLAB system
 
  |
 | | |
-| [![ width=](http://d2g29cya9iq7ip.cloudfront.net/content/images/downloads/ebooks/NHibernate.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/nhibernate) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/powershell.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/powershell) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/nhibernate) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/powershell) |
 | 
+
 ##### [NHibernate Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/nhibernate)
+
 
 ###### by Ricardo Peres  
 Formats: Amazon Kindle and PDF
@@ -97,7 +113,9 @@ Formats: Amazon Kindle and PDF
 Master the intricacies of NHibernate, an established and powerful Object/Relational Mapper (ORM).
 
  | 
+
 ##### [PowerShell Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/powershell)
+
 
 ###### by Rui Machado  
 Formats: Amazon Kindle and PDF
@@ -105,9 +123,11 @@ Formats: Amazon Kindle and PDF
 Learn to leverage a variety of PowerShell commands to invoke scripts that work with existing frameworks, including .NET and XML, to optimize productivity.
 
  |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/android.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/android) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/entity-framework.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/entityframework) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/android) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/entityframework) |
 | 
+
 ##### [Android Programming Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/android)
+
 
 ###### by Ryan Hodson  
 Formats: Amazon Kindle and PDF
@@ -115,7 +135,9 @@ Formats: Amazon Kindle and PDF
 Navigate the key requirements for designing an Android application with Android Programming Succinctly as your guide.
 
  | 
+
 ##### [Entity Framework Code First Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/entityframework)
+
 
 ###### by Ricardo Peres  
 Formats: Amazon Kindle and PDF
@@ -124,9 +146,11 @@ Master the newest development mode for Entity Framework.
 
  |
 | | |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/mongodb-succinctly.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/mongodb) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/r-succinctly.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/rsuccinctly) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/mongodb) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/rsuccinctly) |
 | 
+
 ##### [MongoDB Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/mongodb)
+
 
 ###### by Agus Kurniawan  
 Formats: Amazon Kindle and PDF
@@ -134,7 +158,9 @@ Formats: Amazon Kindle and PDF
 Learn how to use MongoDB, the popular open-source database system.
 
  | 
+
 ##### [R Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/rsuccinctly)
+
 
 ###### by Barton Poulson  
 Formats: Amazon Kindle and PDF
@@ -143,10 +169,13 @@ Begin developing your mastery of the powerful R programming language.
 
  |
 | 
-##### [![ width=](http://www.syncfusion.com/Content/en-US/Images/neural-networks.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/neuralnetworks)
- | [![ width=](http://www.syncfusion.com/Content/en-US/Images/hdinsight.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/hdinsight) |
+
+##### [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/neuralnetworks)
+ | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/hdinsight) |
 | 
+
 ##### [Neural Networks Using C# Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/neuralnetworks)
+
 
 ###### by James McCaffrey  
 Formats: Amazon Kindle and PDF
@@ -154,7 +183,9 @@ Formats: Amazon Kindle and PDF
 Neural networks are on the cutting-edge of software development.
 
  | 
+
 ##### [HDInsight Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/hdinsight)
+
 
 ###### by James Beresford  
 Formats: Amazon Kindle and PDF
@@ -162,9 +193,11 @@ Formats: Amazon Kindle and PDF
 Master the higher-level languages and other features necessary to process data with HDInsight
 
  |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/light-switch-mobile-apps.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/lightswitchmobile) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/BI-Solutions-using-sass.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/bisolutions) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/lightswitchmobile) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/bisolutions) |
 | 
+
 ##### [LightSwitch Mobile Business Apps Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/lightswitchmobile)
+
 
 ###### by Jan Van der Haegen  
 Formats: Amazon Kindle and PDF
@@ -172,7 +205,9 @@ Formats: Amazon Kindle and PDF
 Single-page, HTML apps are a snap with LightSwitch, and mobile is no problem too.
 
  | 
+
 ##### [BI Solutions Using SSAS Tabular Model Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/bisolutions)
+
 
 ###### by Parikshit Savjani  
 Formats: Amazon Kindle and PDF
@@ -180,9 +215,11 @@ Formats: Amazon Kindle and PDF
 Inform the decision-making process by building BI solutions with tabular data models in SSAS.
 
  |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/twitter-bootstrap.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/twitterbootstrap) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/angular-js.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/angularjs) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/twitterbootstrap) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/angularjs) |
 | 
+
 ##### [Twitter Bootstrap Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/twitterbootstrap)
+
 
 ###### by Peter Shaw  
 Formats: Amazon Kindle and PDF
@@ -190,7 +227,9 @@ Formats: Amazon Kindle and PDF
 Design attractive, consistent UIs with Twitter Bootstrap.
 
  | 
+
 ##### [AngularJS Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/angularjs)
+
 
 ###### by Frederik Dietz  
 Formats: Amazon Kindle and PDF
@@ -198,9 +237,11 @@ Formats: Amazon Kindle and PDF
 Perform common tasks and overcome common problems in Angular.js.
 
  |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/visual-studio-2013.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/visualstudio2013) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/windows-phone-8.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/windowsphone8) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/visualstudio2013) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/windowsphone8) |
 | 
+
 ##### [Visual Studio 2013 Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/visualstudio2013)
+
 
 ###### by Alessandro Del Sole  
 Formats: Amazon Kindle and PDF
@@ -208,7 +249,9 @@ Formats: Amazon Kindle and PDF
 Familiarize yourself with the revised features of Visual Studio 2013 and Windows 8.1 integration.
 
  | 
+
 ##### [Windows Phone 8 Development Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/windowsphone8)
+
 
 ###### by Matteo Pagani  
 Formats: Amazon Kindle and PDF
@@ -216,9 +259,11 @@ Formats: Amazon Kindle and PDF
 Build Windows Phone 8 apps that make the most of the operating system and hardware
 
  |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/node-js.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/nodejs) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/direct3d.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/direct3d) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/nodejs) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/direct3d) |
 | 
+
 ##### [Node.js Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/nodejs)
+
 
 ###### by Agus Kurniawan  
 Formats: Amazon Kindle and PDF
@@ -226,7 +271,9 @@ Formats: Amazon Kindle and PDF
 Use Node.js to create faster network and server-side applications on any scale, improve your existing database applications, or create web apps with JSON data.
 
  | 
+
 ##### [Direct3D Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/direct3d)
+
 
 ###### by Chris Rose  
 Formats: Amazon Kindle and PDF
@@ -234,9 +281,11 @@ Formats: Amazon Kindle and PDF
 Build on your knowledge of C++ and Direct2D to develop fully 3-D games and applications.
 
  |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/sql-server-analysis-service.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/sqlserver) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/assembly-languag.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/assemblylanguage) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/sqlserver) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/assemblylanguage) |
 | 
+
 ##### [SQL Server Analysis Services Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/sqlserver)
+
 
 ###### by Stacia Misner  
 Formats: Amazon Kindle and PDF
@@ -244,7 +293,9 @@ Formats: Amazon Kindle and PDF
 Develop business intelligence solutions with SQL Server Analysis Services.
 
  | 
+
 ##### [Assembly Language Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/assemblylanguage)
+
 
 ###### by Chris Rose  
 Formats: Amazon Kindle and PDF
@@ -252,9 +303,11 @@ Formats: Amazon Kindle and PDF
 Maximize data processing speeds through x64 assembly language.
 
  |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/asp.net-web-api.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/webapi) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/visual-studio-addins.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/visualstudio) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/webapi) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/visualstudio) |
 | 
+
 ##### [ASP.NET Web API Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/webapi)
+
 
 ###### by Emanuele DelBono  
 Formats: Amazon Kindle and PDF
@@ -262,7 +315,9 @@ Formats: Amazon Kindle and PDF
 Microsoft’s ASP.NET Web API simplifies data delivery through HTTP.
 
  | 
+
 ##### [Visual Studio Add-Ins Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/visualstudio)
+
 
 ###### by Joe Booth  
 Formats: Amazon Kindle and PDF
@@ -270,9 +325,11 @@ Formats: Amazon Kindle and PDF
 Increase your efficiency in Visual Studio by writing custom add-ins.
 
  |
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/postgres.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/postgres) | [![ width=](http://www.syncfusion.com/Content/en-US/Images/direct2d.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/direct2d) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/postgres) | [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/direct2d) |
 | 
+
 ##### [Postgres Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/postgres)
+
 
 ###### by Peter Shaw  
 Formats: Amazon Kindle and PDF
@@ -280,7 +337,9 @@ Formats: Amazon Kindle and PDF
 Learn how to use the long-standing, open-source Postgres database management system.
 
  | 
+
 ##### [Direct2D Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/direct2d)
+
 
 ###### by Chris Rose  
 Formats: Amazon Kindle and PDF
@@ -289,9 +348,11 @@ Use Direct2D, the graphics card, and a little Direct3D to create high-performanc
 
  |
 
-| [![ width=](http://www.syncfusion.com/Content/en-US/Images/windows-azure-sql-reporting.png?v=01102014085620)](http://www.syncfusion.com/resources/techportal/ebooks/windowsazure) |
+| [![ width=](assets/img/posts/image-not-found.png)](http://www.syncfusion.com/resources/techportal/ebooks/windowsazure) |
 | 
+
 ##### [Windows Azure SQL Reporting Succinctly](http://www.syncfusion.com/resources/techportal/ebooks/windowsazure)
+
 
 ###### by Stacia Misner  
 Formats: Amazon Kindle and PDF
@@ -301,6 +362,7 @@ Learn how to set up a Windows Azure SQL Database server, develop reports, and ma
  |
 
 * * *
+
 
 ##### ![ /></h5>
 <p>You cannot argue with the price and the wealth of information in each book, it is just fantastic.  Need I say more?</p>
@@ -313,12 +375,12 @@ Learn how to set up a Windows Azure SQL Database server, develop reports, and ma
 <h6>Cons:</h6>
 <ul>
 <li>They do not cover everything about a subject, just what you need to understand and get going. Although this can be forgiven, they are FREE after all</li>
-<li>They have not yet been featured or shown on a hit tv series <img src=](http://i1.wp.com/1.bp.blogspot.com/-YJZ1X0X20x8/T6MOhBQk54I/AAAAAAAAB-8/WgJn-q4Ohaw/s1600/My+Thoughts.png?resize=450%2C139) (but didn’t I see one hidden on the last episode of Lost?)
+<li>They have not yet been featured or shown on a hit tv series <img src=](assets/img/posts/image-not-found.png) (but didn’t I see one hidden on the last episode of Lost?)
 * * *
 
 ![ /></p>
 <p>I have read so many of these titles (not all, I am not that good. I have a very busy schedule you know) and have yet to be disappointed, they are concise and to the point.</p>
-<p>They are an excellent launch board for learning about new technologies or ways of thinking, almost makes me want to write for them as well (maybe I will <img class=](http://i2.wp.com/www.magicalmaths.org/wp-content/uploads/2012/11/conclusion-introduction-starter-plenary.jpg?w=660)).
+<p>They are an excellent launch board for learning about new technologies or ways of thinking, almost makes me want to write for them as well (maybe I will <img class=](assets/img/posts/image-not-found.png)).
 
 If [Syncfusion’s](http://www.syncfusion.com/?UTM_medium=simonblogreview)track history is anything to go by you can expect their commercial offerings are also going to be of the same grade and quality
 
@@ -350,15 +412,17 @@ There is no rush in selecting, should you be picked as a winner you can check ou
 
 Additionally, we have two extra essential single packages for my twitter fans, simply **Tweet the hashtag [#SyncfusionGiveaway](http://twitter.com/search?q=%23SyncfusionGiveaway "SyncFusion Giveaway tweets") **with a gesture of why you should win or suitable humorous caption about the giveaway (Keep it clean though, there may be kids watching! :P)
 
-![width=](http://roguegroupwriting.files.wordpress.com/2014/09/there-can-be-only-one.gif)
+![width=](assets/img/posts/image-not-found.png)
+
 
 ##### For one lucky entrant we have another extra special GRAND prize, the entire set of controls in the Essential Studio Enterprise Edition
 
  
 
+
 ##### Free draw ends 18th October 2014
 
-> ###### **\*\*Note – You do not need to put your email in the comment, just post using one of the services where we will be able to contact you ![:D](http://i1.wp.com/darkgenesis.zenithmoon.com/wp-includes/images/smilies/icon_biggrin.gif?w=660)**
+> ###### **\*\*Note – You do not need to put your email in the comment, just post using one of the services where we will be able to contact you ![:D](assets/img/posts/image-not-found.png)**
 
 Good luck
 

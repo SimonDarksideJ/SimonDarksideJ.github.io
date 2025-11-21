@@ -17,11 +17,13 @@ _P.S this is my first attempt blogging with Word as Live essentials and more imp
 
 Source for the post can be found here on codeplex – [http://bit.ly/NxxVLb](http://bit.ly/NxxVLb "Post Sample") (need a better home for my new blog samples)
 
+
 # **\*NOTE**
 
 Before I forget and if you run into issues with the code REMEMBER, UDP networking isn’t supported on the WP7 Emulator or the Metro Simulator.  Both need to run on a device or in the case of Win 8, on a PC in order for the networking to work.  A lesson hard learnt during the testing of Vequencer 😀
 
 * * *
+
 
 ## The Goal
 
@@ -68,6 +70,7 @@ Alas the documentation also doesn’t mention the capabilities your app needs to
 [/rant]
 
 * * *
+
 
 ## UDP Networking the easy way
 

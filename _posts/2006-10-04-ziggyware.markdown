@@ -5,7 +5,7 @@ date: 2006-10-04 13:28:58
 tags: [xna]
 ---
 
-![](http://www.ziggyware.com/ziggyware.gif)
+![Image not found](/assets/img/posts/image-not-found.png)
 
 Seems these sites are multipling somewhere, Soon we’ll have XNA rabbits no doubt.
 
@@ -13,23 +13,21 @@ In the front of doing some sprite animation and rotation research for Hack-1, I 
 
 Current Tutorials are:
 
- 
-
-![src=]()  
- ![src=]() [Creating a B2 Spirit Texture](http://www.ziggyware.com/readarticle.php?article_id=55)  
- ![src=]() [XNA – Math](http://www.ziggyware.com/readarticle.php?article_id=54)  
- ![src=]() [XNA – Simple Overhead Shoot-em-up](http://www.ziggyware.com/readarticle.php?article_id=53)  
- ![src=]() [XNA – Rotated Sprite Per Pixel Collision Detection](http://www.ziggyware.com/readarticle.php?article_id=52)  
- ![src=]() [XNA – Texture Manager](http://www.ziggyware.com/readarticle.php?article_id=51)  
- ![src=]() [XNA – Simple Overhead Shooter](http://www.ziggyware.com/readarticle.php?article_id=50)  
- ![src=]() [XNA – Simple Sample Game](http://www.ziggyware.com/readarticle.php?article_id=49)  
- ![src=]() [XNA – 2D Per Pixel Collision Detection](http://www.ziggyware.com/readarticle.php?article_id=48)  
- ![src=]() [XNA – Parallax Mapping](http://www.ziggyware.com/readarticle.php?article_id=47)  
- ![src=]() [XNA – Using Effect (FX) Files](http://www.ziggyware.com/readarticle.php?article_id=46)  
- ![src=]() [XNA – Custom Vertices](http://www.ziggyware.com/readarticle.php?article_id=45)  
- ![src=]() [XNA – Drawing Text in XNA](http://www.ziggyware.com/readarticle.php?article_id=44)  
- ![src=]() [XNA – Using the Mouse](http://www.ziggyware.com/readarticle.php?article_id=43)  
- ![src=]() [XNA – Rotating a Sprite](http://www.ziggyware.com/readarticle.php?article_id=42)  
+![src=]()
+ ![src=]() [Creating a B2 Spirit Texture](http://www.ziggyware.com/readarticle.php?article_id=55)
+ ![src=]() [XNA – Math](http://www.ziggyware.com/readarticle.php?article_id=54)
+ ![src=]() [XNA – Simple Overhead Shoot-em-up](http://www.ziggyware.com/readarticle.php?article_id=53)
+ ![src=]() [XNA – Rotated Sprite Per Pixel Collision Detection](http://www.ziggyware.com/readarticle.php?article_id=52)
+ ![src=]() [XNA – Texture Manager](http://www.ziggyware.com/readarticle.php?article_id=51)
+ ![src=]() [XNA – Simple Overhead Shooter](http://www.ziggyware.com/readarticle.php?article_id=50)
+ ![src=]() [XNA – Simple Sample Game](http://www.ziggyware.com/readarticle.php?article_id=49)
+ ![src=]() [XNA – 2D Per Pixel Collision Detection](http://www.ziggyware.com/readarticle.php?article_id=48)
+ ![src=]() [XNA – Parallax Mapping](http://www.ziggyware.com/readarticle.php?article_id=47)
+ ![src=]() [XNA – Using Effect (FX) Files](http://www.ziggyware.com/readarticle.php?article_id=46)
+ ![src=]() [XNA – Custom Vertices](http://www.ziggyware.com/readarticle.php?article_id=45)
+ ![src=]() [XNA – Drawing Text in XNA](http://www.ziggyware.com/readarticle.php?article_id=44)
+ ![src=]() [XNA – Using the Mouse](http://www.ziggyware.com/readarticle.php?article_id=43)
+ ![src=]() [XNA – Rotating a Sprite](http://www.ziggyware.com/readarticle.php?article_id=42)
  ![src=]() [XNA – Writing to Texture Surface](http://www.ziggyware.com/readarticle.php?article_id=41)
 
 There are lots of other usefull bits of information and seems to be well thought out (although some of the tutorials talk about creating custom bits for stuff that are already in XNA now but likely these were written bofore XNA was released)

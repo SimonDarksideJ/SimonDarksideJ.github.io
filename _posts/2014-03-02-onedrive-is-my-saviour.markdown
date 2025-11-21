@@ -5,16 +5,17 @@ date: 2014-03-02 13:21:00
 tags: [information]
 ---
 
-![width=](http://www.avforums.com/image.php?imageparameters=editorial/products/32a33b60732140cdc54f039ab4bdc42c_6782.jpg%7C500%7C1%7C0)
+![width=](assets/img/posts/image-not-found.png)
 
 Anyone following my twitter feed would have seen a panicked tweet i sent out recently.  I have been working on a book for a while now and I had just finished another chapter, while readying to send the new chapter to the publisher with all the images I managed to delete the chapter document itself! losing over two weeks of full time effort of work.
 
 Needless to say I was a bit distraught, especially with deadlines looming.
 
+
 # But you backup do not you?
 
 [ ![ /></a></p>
-<p>(image courtesy of the critique circle who have another <a href=](http://critiquecircle.com/images/upload/backup.jpg)fantastic post](http://www.critiquecircle.com/blog.asp?blogID=21) on backing up your writing)
+<p>(image courtesy of the critique circle who have another <a href=](assets/img/posts/image-not-found.png)fantastic post](http://www.critiquecircle.com/blog.asp?blogID=21) on backing up your writing)
 
 Yes, I backup my work regularly, in fact I also use OneDrive (previously known as SkyDrive) as my working folder so that all my work is sent up to the cloud the minute I click save as well as on my local storage.  I also zip up the contents to a separate drive on a weekly basis, so you would think I would be safe.
 
@@ -22,13 +23,15 @@ Sadly, when I managed to delete the work, it also then synchronised this delete 
 
 What proceeded was blind panic and frantic searching for tmp files, recovery files, any trace or fragment of my hard work.
 
+
 # What has OneDrive ever done for us?
 
-![width=](http://betanews.com/wp-content/uploads/2014/01/Onedrive.jpg)
+![width=](assets/img/posts/image-not-found.png)
 
 OneDrive has lots of impressive features including Version history (which is also deleted when a file is deleted ![Steaming mad](/assets/img/wordpress/2014/03/wlEmoticon-steamingmad.png)) and a 99.99% uptime policy to ensure you files are always online.  It also includes a free app for just about every platform now which will synchronise all your files online.  If you are also using the later versions of office it will also work directly on OneDrive and synchronise locally to ensure you work is safe (provided you are online).
 
 But none of this saves you if files are accidentally deleted from local storage!!
+
 
 # The miracle of the online RECYCLE BIN
 
@@ -50,15 +53,18 @@ If you do manage to delete an item accidentally in the online view, you go get a
 
 [![image](/assets/img/wordpress/2014/03/image2.png "image")](/assets/img/wordpress/2014/03/image2.png)
 
+
 # The missing pieces
 
 My only gripe in this whole affair is that the OneDrive app just does this without confirmation at all, granted you can configure the client now to only synchronise selected folders but I should also be able to set the synchronisation status for any folder to just Contribute instead of just Full sync, the SyncToy app i also use for non-regular backups has this feature, ensuring that I keep everything on the remote storage.
 
+
 # A wholehearted thank you to the OneDrive team!
 
-![width=](http://www.lifecare-edinburgh.org.uk/wp-content/uploads/2013/09/4759535950_3da0ea181e_o.png)
+![width=](assets/img/posts/image-not-found.png)
 
 So thank you OneDrive team, a fantastic service that offers so much for so little and if used right can even save your bacon!!
+
 
 # A final note for coding / Unity developers
 
@@ -73,6 +79,7 @@ With Unity be sure to also follow these steps, to configure both Unity and Git e
 3. Initiate git with  git init (run command from the top level of your Unity3d project folder)
 4. Create .gitignore file (also top level of your Unity3d project folder)
 5. Configure your .gitignore acording to the post below – GitHub also has a Unity .gitignore template for new projects.
+
 
 ##### [http://blog.i-evaluation.com/2013/09/12/unity3d-with-git-gitignore-for-bitbucket-and-github/](http://blog.i-evaluation.com/2013/09/12/unity3d-with-git-gitignore-for-bitbucket-and-github/ "http://blog.i-evaluation.com/2013/09/12/unity3d-with-git-gitignore-for-bitbucket-and-github/")
 

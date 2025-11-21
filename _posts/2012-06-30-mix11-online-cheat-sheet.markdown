@@ -11,6 +11,7 @@ Like last year it is probably going to take weeks to digest all this, so I hope 
 
 I have also published a [Windows Phone 7 specific version](/2011/04/14/mix11-windows-phone-online-cheat-sheet) of the review sheet, just for us WP7’ers
 
+
 # \*Update – Due to some unforeseen error some of the links did not previously work, this has now been fixed and all links are up and working.  Apologies for that
 
  
@@ -1629,5 +1630,5 @@ Speaker: Nick Kramer**
 
  
 
-![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3247.wlEmoticon_2D00_smile_5F00_5D499EF3.png)
+![Smile](assets/img/posts/image-not-found.png)
 

@@ -28,17 +28,20 @@ Worry not young padawan, this process is very easy!
 
 * * *
 
+
 # The PCL target files
 
 The first easy part is to create the PCL target files, one for each Mono platform, just open up notepad and create the following files:
 
  
 
+
 #### MonoAndroid,Version=v1.6+.xml
 
     \<?xml version="1.0" encoding="utf-8"?\> \<Framework DisplayName="Mono for Android" Identifier="MonoAndroid" Profile="\*" MinimumVersion="1.6" MaximumVersion="\*" /\>
 
  
+
 
 #### MonoTouch,Version=v1.0+ .xml
 
@@ -51,6 +54,7 @@ Alternatively you can download the files from here – [https://github.com/DDRea
  
 
 * * *
+
 
 # Installation
 
@@ -68,11 +72,13 @@ Take the above files you have created and copy them to the following folder
 
  
 
+
 ### x64 development machine
 
     C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile2\SupportedFrameworks
 
  
+
 
 ### x32 development machine
 
@@ -84,11 +90,13 @@ Now on some machines / environments you might also need to put the files into an
 
  
 
+
 ### x64 development machine
 
     C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETPortable\v4.0\Profile\Profile104\SupportedFrameworks
 
  
+
 
 ### x32 development machine
 
@@ -97,6 +105,7 @@ Now on some machines / environments you might also need to put the files into an
 Done
 
 * * *
+
 
 # You’re ready
 
@@ -110,6 +119,7 @@ Now your development environment is setup to work with PCL support for all of Mo
 
  
 
+
 #### \*Note
 
 If you select XBOX360 as an additional framework to support due to it is very restricted nature, you will now be able to enable Mono platforms.  Also it renders the scope of what you can have in a PCL project to next to nothing.  Best advise, keep XBOX projects separate and use “Copy” projects to support that platform.
@@ -118,23 +128,24 @@ If you select XBOX360 as an additional framework to support due to it is very re
 
 * * *
 
+
 # Coming up next
 
 I have taken my leave of work for the next few weeks (nice Easter break from work) and plan to re-up my blogging efforts with my activities of late with MonoGame and other projects, this includes:
 
  
 
-> ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    The splitting up of MonoGame  
-> ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    How-to : Use MonoGame PCL to build games  
-> ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    A book review of the excellent “Kinect for Windows SDK Programming Guide” by  Abhijit Jana   
-> ![](http://www.dotnetscraps.com/samples/bullets/027.gif)    The AdRotator V2 roadmap  & progress
+> ![](assets/img/posts/image-not-found.png)    The splitting up of MonoGame  
+> ![](assets/img/posts/image-not-found.png)    How-to : Use MonoGame PCL to build games  
+> ![](assets/img/posts/image-not-found.png)    A book review of the excellent “Kinect for Windows SDK Programming Guide” by  Abhijit Jana   
+> ![](assets/img/posts/image-not-found.png)    The AdRotator V2 roadmap  & progress
 
  
 
 All that as well as have a play around with the new Unity3D SDK’s for Windows Phone and Windows 8 plus many other personal projects, should be a fun holiday (provided I get permission from the Wife ![Smile with tongue out](/assets/img/wordpress/2013/03/wlEmoticon-smilewithtongueout.png))
 
-[![kick it on DotNetKicks.com](http://www.dotnetkicks.com/Services/Images/KickItImageGenerator.ashx?url=http://darkgenesis.zenithmoon.com/pcl-targets-for-mono-monogame-projects/&bgcolor=6600FF)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/pcl-targets-for-mono-monogame-projects/) [![Shout it](http://dotnetshoutout.com/image.axd?url=http://darkgenesis.zenithmoon.com/pcl-targets-for-mono-monogame-projects/)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/pcl-targets-for-mono-monogame-projects/) <script type="text/javascript">var dzone_url = 'http://darkgenesis.zenithmoon.com/pcl-targets-for-mono-monogame-projects/';</script>  
+[![kick it on DotNetKicks.com](assets/img/posts/image-not-found.png)](http://www.dotnetkicks.com/kick/?url=http://darkgenesis.zenithmoon.com/pcl-targets-for-mono-monogame-projects/) [![Shout it](assets/img/posts/image-not-found.png)](http://dotnetshoutout.com/Submit?url=http://darkgenesis.zenithmoon.com/pcl-targets-for-mono-monogame-projects/) <script type="text/javascript">var dzone_url = 'http://darkgenesis.zenithmoon.com/pcl-targets-for-mono-monogame-projects/';</script>  
 <script type="text/javascript">var dzone_title = 'PCL targets for Mono / MonoGame projects';</script>  
 <script type="text/javascript">var dzone_blurb = 'PCL targets for Mono / MonoGame projects';</script>  
 <script type="text/javascript">var dzone_style = '2';</script>  
-<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](http://s7.addthis.com/static/btn/lg-share-en.gif)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 
+<script language="javascript" src="http://widgets.dzone.com/links/widgets/zoneit.js"></script><script type="text/javascript">var addthis_pub="runxc1";</script>[![Bookmark and Share](assets/img/posts/image-not-found.png)](http://www.addthis.com/bookmark.php?v=20)   <script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script> [CodeProject](http://www.codeproject.com/script/Articles/BlogFeedList?amid=9502591) 

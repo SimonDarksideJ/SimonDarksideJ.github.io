@@ -26,6 +26,7 @@ Finding somewhere to post your content, be it pages, blogs or material can be a 
 * (optional) apply default GitHub Pages template
 
 ## A small personal history (feel free to skip if you wish)
+
 In my own journey, I started with [Community Server by telligent](https://www.telligent.com/community-platform/) (now Community Platform) with Microsoft and the XNA-UK crowd (XNA, gone too soon), I even hosted a Community Server site (for free) for a charity, as a content, news and communication platform it worked well.  I then migrated my blog to wordpress and things were fine for a time, there was blogging, forums and a host of other useful tools, however, self-hosting wordpress became slower and slower and eventually became swamped by ads.
 
 I then took a week and migrated to [Ghost](https://ghost.org/), which proved troublesome to self-host, was prone to dropouts and while it looked great, it just was not working.
@@ -218,6 +219,7 @@ With the README selected on the left, look at in right-hand pane and find an app
 
 {% raw %}
 ```html
+
 ### My Posts
 
 {% for post in site.posts %}

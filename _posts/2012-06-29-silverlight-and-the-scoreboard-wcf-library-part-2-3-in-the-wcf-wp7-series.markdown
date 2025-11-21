@@ -15,6 +15,7 @@ Sample as as always posted up on the [Codeplex host for this series](http://star
 
 * * *
 
+
 ## \*\*A reminder note from the previous session
 
 A wise person noted that by using the word LEADERBOARD, I may be conflicting with the XBOX live Leaderboard system. But this sample is not affiliated with the XBOX Live Leaderboard system in anyway. And reference to persons living or dead is purely coincidental.
@@ -25,6 +26,7 @@ For now, where you see Leader Board, think scoreboard. **This sample is not an X
 
 * * *
 
+
 ### Getting started
 
 No fluffing around with explanations for anything this time, lets dive straight in to the project, if you need to know more about how this works check the [previous article](/blogs/darkgenesis/archive/2010/09/03/can-we-get-a-little-service-here) and [probably this one](/blogs/darkgenesis/archive/2010/08/24/wcf-on-the-windows-phone-7-the-how-to-guide) as well.
@@ -33,26 +35,28 @@ So if you have not done so already start up “Visual Tools 2010 express for win
 
 As before just to make sure everything is OK, go ahead and build your project.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3666.image_5F00_5F00_3EA01D04.png)
+![image](assets/img/posts/image-not-found.png)
 
 * * *
+
 
 ### First things first, get our app ready to use the Library
 
 Now as mentioned a few times in the first article, in order to use a WCF library in our project, we need to do a couple of things, for Silverlight this requires:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/028.gif) Adding a reference to the Library   
-> ![](http://www.dotnetscraps.com/samples/bullets/028.gif) Copying the Client Configuration file to the Phone Application project (or where ever the service will be called from)
+> ![](assets/img/posts/image-not-found.png) Adding a reference to the Library   
+> ![](assets/img/posts/image-not-found.png) Copying the Client Configuration file to the Phone Application project (or where ever the service will be called from)
 
 Adding the reference is just as simple (if not more so) than adding a service reference, simply right click on the References folder (in your Phone application project, NOT the library) and selecting Add Reference (NOT service reference as before). Then click on the tab that says “Projects” and you should see the screen below:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2577.image_5F00_5F00_1922B171.png)
+![image](assets/img/posts/image-not-found.png)
 
 Click OK, and that is done. Next just right click on the “ServiceReferences.ClientConfig” file in the Library and paste it in to your Phone application project, so that your solution explorer now looks like this:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1184.image_5F00_5F00_3DC3A31B.png)
+![image](assets/img/posts/image-not-found.png)
 
 * * *
+
 
 ### First steps – handling the data
 
@@ -74,6 +78,7 @@ That is the setup done, lets now switch to Blend! More on these later.
 
 * * *
 
+
 ### Blending it up baby
 
 Ok, a little corny title for this section but I’ve been waiting ages to use it ![Smile](/assets/img/wordpress/2012/06/wlEmoticon-smile1.png).
@@ -84,7 +89,7 @@ Now do not panic at this point, it is perfectly fine to have BOTH Visual Studio 
 
 You should now see the following screen:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/1007.image_5F00_5F00_64ADF0F6.png)
+![image](assets/img/posts/image-not-found.png)
 
 Now if you do not see the Library in the Project solution explorer on the top left hand side of the window, this just means you did not build your project in Visual Studio. So close the project in Blend, go back to Visual Studio and hit F6 (check there are still no errors) and then come back to Blend and reopen the solution again.
 
@@ -92,7 +97,7 @@ Now if you have not used blend before, there is a few things to keep an eye on t
 
 The other thing of note is the Assets tab, which lists all the controls and behaviours you can use to build your project. this is grouped up so it is easy to find what you are looking for:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7853.image_5F00_5F00_0012A760.png)
+![image](assets/img/posts/image-not-found.png)
 
 Also note the little blue link, where you can browse the “Expression Gallery” online to find more controls and features to use in your project. You can of course write your own controls but that is a little advanced for what were doing here.
 
@@ -100,11 +105,12 @@ I will note at this point, I only intend to walk you through the key features I 
 
 * * *
 
+
 ### The Main Page
 
 Now the first (an only unless you selected a different project template) screen you can see is the Main Page. As far as I am aware, do not rename this page to something else, I believe (although I am not certain so by all means check for yourself) that you cannot rename this page (and definitely NOT the APP.XAML page) else the project may not start.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/5488.image_5F00_5F00_16E1530F.png)
+![image](assets/img/posts/image-not-found.png)
 
 Here you get a default Page header and a Title bar. (read this Blog for good suggestions for handling and setting these up). Below that is the default content grid where your app should display things.
 
@@ -112,17 +118,17 @@ Now you could if you want do away with everything on the screen and do everythin
 
 So to start off we want to display the list of Scoreboards available for us to manage from the WCF service. For this, we need to:
 
-> ![](http://www.dotnetscraps.com/samples/bullets/028.gif) Add a list to display the Scoreboards   
-> ![](http://www.dotnetscraps.com/samples/bullets/028.gif) Bind the list to the data we are going to get from the service   
-> ![](http://www.dotnetscraps.com/samples/bullets/028.gif) Call the “GetLeaderBoards” WCF service   
-> ![](http://www.dotnetscraps.com/samples/bullets/028.gif) Create a handler to receive the data from the service and bind to the List   
-> ![](http://www.dotnetscraps.com/samples/bullets/028.gif) Hook up to the Service completed event to tie it all up together
+> ![](assets/img/posts/image-not-found.png) Add a list to display the Scoreboards   
+> ![](assets/img/posts/image-not-found.png) Bind the list to the data we are going to get from the service   
+> ![](assets/img/posts/image-not-found.png) Call the “GetLeaderBoards” WCF service   
+> ![](assets/img/posts/image-not-found.png) Create a handler to receive the data from the service and bind to the List   
+> ![](assets/img/posts/image-not-found.png) Hook up to the Service completed event to tie it all up together
 
 SO lets get the UI bits out of the way first and then move to the code behind. Adding a list could not be simpler really. just select the “ContentGrid” in the Objects and Timelines panel, then find the “Listbox” in the assets panel and double click on it. Alternatively you can drag the “list box” control on to the page where you want it displayed.
 
 Now switch in to selection mode by clicking the Top most pointer in the left hand toolbox (or by hitting V on the Keyboard) and right click on the new control in the main window.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/7357.image_5F00_5F00_680B749F.png)
+![image](assets/img/posts/image-not-found.png)
 
 Don’t worry if the list box for the control disappears, this just means you accidentally deselected it, just click on it again in the objects and timelines window. Once you have right clicked on it, select “Auto Size –\> Fill” as shown above. This will ensure the list box uses all of the screen space available to it.
 
@@ -130,17 +136,17 @@ Next thing we need to do here is to give it a proper name, this just makes it ea
 
 To finish up the list box we need to create a template for the items in the listbox, if not we are left with the default template, which is just rubbish. Right click on the list box and select “Edit Additional Templates –\> Edit Generated Item Container –\> Edit a copy”. Give the new template a name (like “ScoreboardsItemTemplate”) and click OK.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6787.image_5F00_5F00_6B4CC0AD.png)
+![image](assets/img/posts/image-not-found.png)
 
 Now you should be presented with a new screen which is focusing on editing the template for items in the list box.
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/0412.image_5F00_5F00_2E57F341.png)
+![image](assets/img/posts/image-not-found.png)
 
 now as you can see there is not much here, so lets add some fields and add my most used used control in Blender, the stack panel.
 
 Select the “ContentContainer” in the objects panel and then click on the “StackPanel” control in the assets panel (found under controls –\> panels), which will replace the ContentContainer with a Stackpanel. If you now look at the properties pane (on the other side of the screen hopefully). In the Layout section, change the width of the StackPanel to 470 (just short of the width of the screen), the height to 70 and change the orientation to Horizontal (to stack items Horizontally).
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3666.image_5F00_5F00_706B35F7.png)
+![image](assets/img/posts/image-not-found.png)
 
 I will explain a bit more about why we did this after we finish up this template.
 
@@ -148,7 +154,7 @@ Now with our stack panel selected, open up the “Projects” tab and find the �
 
 You should now have the following in your design and object windows:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/4705.image_5F00_5F00_16BCF376.png) ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6864.image_5F00_5F00_48383B3E.png)
+![image](assets/img/posts/image-not-found.png) ![image](assets/img/posts/image-not-found.png)
 
 Now rename the first Textblock to ScoreBoardName and the second to Owner. Then resize then appropriately. Also change the font size up a bit by selecting the item and changing the size in the text section. (sizes 24 and 18 are a good start).
 
@@ -157,6 +163,7 @@ With all this ready, now would be a good time to hit save (Save often with Blend
 Now switch back to Visual Studio and we will add the bindings and code behind. It has been shown in some of the Mix videos, that we should just be able to import a ViewModel in to Blend and then drag and drop the model to create a list and have the data bound automatically. However I could not get this to work.
 
 * * *
+
 
 ### Data Binding 
 
@@ -183,6 +190,7 @@ What this has done, has state that in our ViewModel, the listbox should list ite
 The main difference here, is that we are binding the “Text” field for the TextBlock, so that it displays the data we wish. So the list connects to the collection and the textblocks show the Name and Owner fields for each item in that collection. However at this point our page has no actual data yet, so that is next.
 
 * * *
+
 
 ### Code Behind to call the WCF Service
 
@@ -218,9 +226,10 @@ Now one strange this is that to use the “onNavigatedTo” function, we also ne
 
 After all that run the project up and you should have something like the following:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/8446.image_5F00_5F00_54517A20.png)
+![image](assets/img/posts/image-not-found.png)
 
 * * *
+
 
 ### Hints and Tips
 
@@ -234,6 +243,7 @@ Another good tip, is to use the Phone default styles, to use these simply right 
 
 * * *
 
+
 ### The Scoreboard Items page
 
 Now we have our list of Scoreboards it would be nice if we could also see the scores held within, so create a second page and then repeat the steps above for creating a list. For the Lits item template however we will need to do something different. First create and edit the template as before.
@@ -242,7 +252,7 @@ Next, click on the “Projects” tab on the top left hand corner of the screen 
 
 Now you should have the following in your design window and Objects panel:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/3225.image_5F00_5F00_7F8E269F.png) ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2148.image_5F00_5F00_57D784A8.png)
+![image](assets/img/posts/image-not-found.png) ![image](assets/img/posts/image-not-found.png)
 
 Here our template now has three items side by side in our main stack panel. Now we just need a few more items and then we can walk through it.
 
@@ -250,17 +260,18 @@ Now click on the Stackpanel in between the image and textblock, then go back to 
 
 Your design and objects windows should now look like this:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2664.image_5F00_5F00_777638A3.png) ![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2642.image_5F00_5F00_3010BCE4.png)
+![image](assets/img/posts/image-not-found.png) ![image](assets/img/posts/image-not-found.png)
 
 Next size the textblocks how you wish and set the font sizes appropriately. Play around with the settings till you get something you like. Do not forget to also rename the controls, so you can find them easier later in XAML.
 
 I went for the Player name and Time in the centre section and the score on the right hand side like this:
 
-![image](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/2148.image_5F00_5F00_04F45BFF.png)
+![image](assets/img/posts/image-not-found.png)
 
 With the list setup, you need to save and switch back to visual studio to do the data binding and code behind
 
 * * *
+
 
 ### Data Binding for individual Scoreboard
 
@@ -275,6 +286,7 @@ To identify you are linking this list to the Scores collection in the View Model
 Binding to the Player, Time and Score elements.
 
 * * *
+
 
 ### Code behind for individual scoreboard.
 
@@ -311,6 +323,7 @@ The function for the event is as follows:
 Where as before we set the data context appropriately for the data we receive. Now I was a bit lazy here and I have declared a second local view model for the data handled in this page. It should use the main app View Model but I was push for time to integrate it properly. Just the sample.
 
 * * *
+
 
 ## Summing Up
 

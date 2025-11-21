@@ -22,6 +22,7 @@ The video for this post can be found here if you prefer video:
 
 > **This and more content can be found on my dedicated YT MonoGame channel here: [http://bit.ly/darksideofmonogame](http://bit.ly/darksideofmonogame)**
 
+
 ## Why use XML?
 
 For as long as there have been games, there has been a need to generate game content outside of the game and avoid writing all this pesky code stuff, everything from:
@@ -32,6 +33,7 @@ For as long as there have been games, there has been a need to generate game con
 - Just because some article said it was a good idea on CodeProject
 
 It can be very powerful to use, if wielded correctly and it gives power to your content / mod creators of your game.  Any situation that requires lots of configuration or walls of text just works better if it is separated from your code base and manageable outside of the core code.
+
 
 ## Why use the MonoGame Content Pipeline?
 
@@ -52,6 +54,7 @@ Another benefit is both size and compression. When using the Content Pipeline, a
 
 Lastly is ease of use and support. With MonoGame, we inherited the IntermediateSerializer which the XNA god Shawn Hargreaves created for XNA.  This little helper which he crafted between builds, greatly helps with serialization and can even support lists and dictionaries out of the box (as well as some xml performance improvements). That combined with turning every XML asset in to “just another asset” which is loaded from the Content Pipeline just like anything else, loading it becomes as simple as `Content.Load<MyXML>`, easy.
 
+
 ## Setting up your data
 
 Right, when getting started with XML, you need to understand there are three main components to handling XML serialization with MonoGame, the XML schema, the Data Class and the Game code:
@@ -71,6 +74,7 @@ My Data schema has the following properties:
 Now if the level loads with a certain number of enemies and the player starts killing them, do you simply start hacking away at the Enemies collection held in the XML? Doing so means you need to completely reload the XML should the player wish to restart the level. Alternatively, you might have a separate array either to track which enemies have been killed and then simply keep track of who’s dead or who isn’t. All comes down to the style of game.
 
 Another view is if you use the Data Schema to run your game, or if you simply refer to the data within specific game functions, for example compare these two classes:
+
 
 ### A Class extending schema
 
@@ -93,6 +97,7 @@ public class MyLevel
      }
  }
 ```
+
 
 ### Class with data property
 
@@ -121,6 +126,7 @@ One simply extends the data class with additional functions (mixing data with fu
 >
 > Main thing, is whether you put game code together with the data classes or write extension methods to interact with the data (my preference)
 
+
 ## Getting Started with XML in MonoGame
 
 Once you have decided on your schema and data, getting this put together in MonoGame is fairly quick and painless, we simply need:
@@ -139,6 +145,7 @@ There are a couple of options, which sum up to:
 Both have their advantages/disadvantages with regards to setup and maintenance. My preference is to use a library project as it offers the most flexibility and also enforces good architecture, which I will walk through creating here.
 
 So, let us walk through setting everything up and for simplicity, I will follow the portable library path.
+
 
 ### 1: Creating the library to hold the data schema
 
@@ -163,6 +170,7 @@ Your project should now look as follows with your game and library projects.
 _Updated game solution._
 
 From here the instructions for your path converge as we create a data class and then consume it from the Content Pipeline.
+
 
 ### 2: Create the Data/Model classes
 
@@ -197,17 +205,21 @@ Here you can see the direct reference in the sample data class is `MyXMLData.MyL
 
 > If you have used a separate library (as shown here), make sure you also remember to reference it from your game project
 
+
 ### 3: Generating your XML
 
 When you are creating your XML for the first time, you have a couple of options:
+
 
 #### 1. Do it yourself
 
 Fire up notepad / VSCode / Your favorite XML editor and start writing your XML
 
+
 #### 2. Have the Content Pipeline tool draft a blank XML template for you
 
 Use the Content Tool to draft you a template XML files with all the necessary MonoGame/XNA headers needed for proper content import.  `Right-Click –\> Add –\> New Item –\> XML Content`
+
 
 #### 3. Generate through code
 
@@ -248,6 +260,7 @@ Here you can now see I have created a new Asset of Type `MyXMLData.MyLevel`, usi
 
 So, with your XML in place, added to your Content Pipeline project, what is next?
 
+
 ## 4: Finishing up and adding a reference to the Content Pipeline tool
 
 With both our data class and the XML ready, we now just need to pair them up in the Content Pipeline tool, this is simply done by adding a reference to the project containing the data classes and then just let the magic happen.
@@ -277,6 +290,7 @@ Once loaded it can be accessed anywhere in your game by simply calling:
     MyXMLData.MyLevel Level1 = Content.Load<MyXMLData.MyLevel>("Level1");
 ```
 
+
 ## The Sample
 
 As even with each of these videos / posts, there is a sample drawn out of the XNA library to help support it. This time it is the XML Particles sample which makes a nice show of using XML content to construct particle effects.  Check it out here:
@@ -285,9 +299,11 @@ As even with each of these videos / posts, there is a sample drawn out of the XN
 
 ![ParticleDemo1](https://github.com/SimonDarksideJ/XNAGameStudio/blob/master/Images/XNA_Particle3D_01_small.jpg?raw=true)![ParticleDemo2](https://github.com/SimonDarksideJ/XNAGameStudio/blob/master/Images/XNA_Particle3D_02_small.jpg?raw=true)![ParticleDemo3](https://github.com/SimonDarksideJ/XNAGameStudio/blob/master/Images/XNA_Particle3D_03_small.jpg?raw=true)
 
+
 ## Other tips and Tricks
 
 It would not be a proper post if I did not also include some extra tips-n-tricks:
+
 
 ### Building XML from code
 
@@ -318,6 +334,7 @@ This should only be a temporary thing and you should remove both the reference a
 
 > Just to re-iterate, do not leave the Content Pipeline DLL in your folder unless you like an extra 100mb or so in your project full of stuff you ca not use at runtime (well you can, but I would not recommend it!)
 
+
 ### Using MonoGame references in your XML
 
 Want to use Vector2, Rectangles or Points in your schema, then fine. Just ensure your data project (ignore this if you have your data in your game project) has a reference to the MonoGame.Framework. If you are using a PCL, there is even a package for that. Simply install the MonoGame.Framework.Portable library in your PCL project and you are good to go. Simples.
@@ -325,6 +342,7 @@ Want to use Vector2, Rectangles or Points in your schema, then fine. Just ensure
 ![image](/assets/img/wordpress/2017/05/image-11.png)
 
 _MonoGame.Framework.Portable on NuGet_
+
 
 ### Content Pipeline tool not opening when you double click on the Content Reference?
 
@@ -341,6 +359,7 @@ Then select the “MonoGame Pipeline Tool” from the list on the left and then 
 Now the handy tool will open with for your content project forevermore.
 
 > If the MonoGame Pipeline Tool is not in the list, then simple click on `Add` and locate it in the same folder indicated in the [Building XML from code section](#building-xml-from-code)
+
 
 ## Ship it
 

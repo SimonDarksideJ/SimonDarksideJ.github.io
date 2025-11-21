@@ -5,7 +5,7 @@ date: 2012-06-29 21:34:52
 tags: [ramblings]
 ---
 
-As I’ve been quiet a few weeks now I thought it was about time I let the cat out of the back of what I’ve been up to.  If you are been following me on twitter @DDReaper, then you should have a hint already.
+As I’ve been quite a few weeks now I thought it was about time I let the cat out of the back of what I’ve been up to.  If you are been following me on twitter @DDReaper, then you should have a hint already.
 
 I cannot give specifics for this tale because most of it is NDA with work, but I can tell you something’s about it, my experiences and a few pointers to watch out for in your own travels.
 
@@ -13,9 +13,10 @@ So this tale is about my own Windows Phone 7 business line application that is g
 
 * * *
 
+
 # Strange beginnings
 
-![File:Star wars episode one the phantom menace ver2.jpg](http://images3.wikia.nocookie.net/__cb20080506231561/starspoof/images/thumb/5/51/Star_wars_episode_one_the_phantom_menace_ver2.jpg/321px-Star_wars_episode_one_the_phantom_menace_ver2.jpg)
+![File:Star wars episode one the phantom menace ver2.jpg](assets/img/posts/image-not-found.png)
 
 Now the application started out as a proof of concept app by my work on the iPhone about a year ago.  A design was drawn up around specific healthcare tasks that could be recorded remotely where having a fill machine or carrying little bits of paper or notes is not really practical.
 
@@ -27,9 +28,10 @@ So ends the background.
 
 * * *
 
+
 # Where I got involved.
 
-![](http://www.njms.org/images/GetInvolved.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Well the app was demoed to use in the UK some time later and we were suitably impressed, then the impossible happened, Microsoft launched the Windows phone development kit for free.
 
@@ -41,9 +43,10 @@ Now being the person I am, I just contacted the guys who sponsored the iPhone ap
 
 * * *
 
+
 # Prototype
 
-![](http://oap.sourceforge.net/photos/input_module_prototype.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now, here is were the story started to get interesting, knowing how easy the tools were (I still had not used blend at this point) and having the basic design concept for the app I set to building it.
 
@@ -59,9 +62,10 @@ SO I published the app to the business and posted a few videos and a little pres
 
 * * *
 
+
 # The late night call
 
-![](http://www.cartoonstock.com/newscartoons/cartoonists/rma/lowres/rman2095l.jpg)
+![](assets/img/posts/image-not-found.png)
 
 3 weeks before the MS launch of the Windows phone 7 platform, I get a call.  How would I like to get the app ready for submission to the market and how long would that take.
 
@@ -75,9 +79,10 @@ Oh how I laughed, but I like a challenge and I would get to do a WP7 in work tim
 
 * * *
 
+
 # From POC to reality
 
-![](http://tucsoncitizen.com/retroflections/files/2010/07/reality-tv.jpg)
+![](assets/img/posts/image-not-found.png)
 
 Now I am a big fan of the proper way to developer nirvana, POC’s should stay POCs.
 
@@ -104,9 +109,10 @@ Now close to the wire I managed to finish in time, the UI team sent me all their
 
 * * *
 
+
 # End results
 
-![](http://www.comparequotes.net.au/Images/car-transport/auto-sport-car-transport.JPG)
+![](assets/img/posts/image-not-found.png)
 
 in the end I was happy with the app as if left my inbox and I learned a lot from the process.  To sum up here is a few pointers on my experiences:
 
@@ -139,6 +145,6 @@ in the end I was happy with the app as if left my inbox and I learned a lot from
 
 * * *
 
-Right, I’m off to write my other post-mortem about the XBOX XNA game I’ve been porting to the Phone ![Smile](http://xna-uk.net/cfs-file.ashx/__key/CommunityServer.Blogs.Components.WeblogFiles/darkgenesis.metablogapi/6864.wlEmoticon_2D00_smile_5F00_0EB3C210.png)
+Right, I’m off to write my other post-mortem about the XBOX XNA game I’ve been porting to the Phone ![Smile](assets/img/posts/image-not-found.png)
 
 Technorati Tags: [#WP7](http://technorati.com/tags/%23WP7),[Windows phone development](http://technorati.com/tags/Windows+phone+development),[WCF](http://technorati.com/tags/WCF),[Post-Mortem](http://technorati.com/tags/Post-Mortem)

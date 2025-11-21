@@ -17,7 +17,5 @@ TTFN and happy downloading.
 
 I will make one point, read the README that comes with the download first (I usually do not but hayho), there is an important point about uninstalling XNA beta 1 first, running C# Express before installing Beta 2 and also a registry fix for those of you who use the full studio on the same box (XNA uninstall reregisters stuff it really should not, although this is fixed in Beta 2)
 
- 
-
 [Link to XNA Team Blog : XNA Game Studio Express Beta 2 Available for Download](http://blogs.msdn.com/xna/archive/2006/11/01/xna-game-studio-express-beta-2-available-for-download)
 

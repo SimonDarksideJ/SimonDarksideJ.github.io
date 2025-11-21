@@ -28,6 +28,7 @@ MonoGame has even extended the Content pipeline that XNA introduces (an asset ma
 
 * * *
 
+
 # Welcome to 2017
 
 As of March 2017, Microsoft has now released their next generation development management suite called Visual Studio 2017 (actually I am running out of different things to call Visual Studio with all the hats it wears).  Visual Studio enables developers to Build / Manage / Deploy and maintain almost any software solution, especially on the Cloud.
@@ -55,6 +56,7 @@ Like its predecessor Visual 2015, Visual Studio 2017 has full free support (than
 
 * * *
 
+
 # Why not Unity, Unreal or Other Game thing X?
 
 When you are picking the Game Development framework or engine to start with (or jump to), it is important to choose what you want to build your game / project in using something that suits your development style.
@@ -72,6 +74,7 @@ Game Development is a very personal thing and the tool you choose should be your
  
 
 * * *
+
 
 # Getting Started with MonoGame using Visual Studio
 
@@ -92,13 +95,16 @@ Each also including hints/tips and gotcha’s for each platform (that relate to 
 
 * * *
 
+
 # The long version
 
 When I record such videos (as above), I also like to follow up with the slightly longer text version (just because some prefer not to watch videos).  It is a bit more work and sometimes when it is written down it is easier to refer to.  So I will run through here a summation of the videos.
 
+
 ## Getting Started with Visual Studio 2015
 
 > (Slides for reference, can be found [here on SlideShare](http://bit.ly/2mn3Aqm))
+
 
 ### 1. Clean Visual Studio 2015 Install
 
@@ -117,6 +123,7 @@ Following any of the many tutorials or samples using these templates will set yo
 > [http://bit.ly/monogamemulti-platform](http://bit.ly/monogamemulti-platform)
 
 If you are just starting out or want to “test” a new project, then you do not need the above. Just start your new project, roll up your sleeves, brew a fresh pot of your favourite cup and start coding.
+
 
 ### 2. Building for Android
 
@@ -140,6 +147,7 @@ If you follow the earlier advice for setting up a multi-platform project, this o
 > P.S. if you can, avoid the Google device emulator and you will keep some sanity in reserve for when you desperately need it. That thing is just a nightmare sadly.  Use the Microsoft Android emulator instead, provided your machine can support running it (min 8GB memory required), else use physical devices for test.
 
 Another service to also think about using is either the Xamarin Test Cloud or the recently announced Azure Mobile test ([http://mobile.azure.com](http://mobile.azure.com)). These platforms will test your android project on as many devices as you with and give you a full range of stats for how well it runs and what issues the devices may have. The new Azure solution is currently in preview so it is free to use for now, so check it out while it is free.
+
 
 ### 3. Building for iOS / MacOS
 
@@ -167,12 +175,14 @@ If you want to use Xamarin’s extended capabilities with the Mac Build host or 
 For more details on setting up your Mac so that Visual Studio can build against it, see this post:  
 [https://developer.xamarin.com/guides/ios/getting\_started/installation/mac/](https://developer.xamarin.com/guides/ios/getting_started/installation/mac/)
 
+
 ### 4. Building for Windows 8.1 / Windows Mobile 8.1
 
 To build for Windows 8.1, you still need a few extra bits. Mainly the development SDKs for Windows 8.1 and if you wish, the Phone emulators:  
  ![image](/assets/img/wordpress/2017/03/image-2.png)
 
 You will also need a Windows Store account to publish your game to the Windows Store as well, however, this is now a onetime low fee and then you have it for LIFE.  Not a bad investment since it also gives you access to publish UWP games as well (see below).
+
 
 ### 5. Building for Windows 10 UWP
 
@@ -184,6 +194,7 @@ You will also need to configure your Windows 10 machine in “Developer Mode” 
 
 > Settings -\> Update & Security -\> For Developers
 
+
 ## Getting Started with Visual Studio 2017
 
 > (Slides for reference, can be found [here on SlideShare](http://bit.ly/2lF1zqG))
@@ -193,6 +204,7 @@ The new Visual Studio 2017 installer is a lot more lightweight than what we had 
 ![image](/assets/img/wordpress/2017/03/image-4.png)
 
 By default, NOTHING is selected and all you will install is the Core Visual Studio framework and editor.  All you can do with this is inspect existing projects and create new blank solutions, functional but you ca not do much.  TO get going you will need to explore some of the additional components / modules.
+
 
 ### 1. Clean Visual Studio 2017 Install
 
@@ -212,6 +224,7 @@ With this you have pretty much the same as in the default install of 2015, namel
 > [http://bit.ly/monogamemulti-platform](http://bit.ly/monogamemulti-platform)  
 >  
 
+
 ### 2. Building for Android
 
 To build for Android you need to check the “Mobile Development with .NET” module:  
@@ -223,10 +236,12 @@ In this module you will need to check the additional properties pane on the righ
 Just check you have the current Android NDK and SDK’s selected and you will be fine.  There is one thing to take note of though, that the Microsoft Android Emulator is NOT available from this module (as well as other optional Android NDK/SDK libraries).  If you want these additional features, then you will also have to check out the “Mobile Development Kit with C++” as shown here:  
  ![image](/assets/img/wordpress/2017/03/image-8.png)
 
+
 ### 3. Building for iOS
 
 As with 2015, if you have installed an Android development setup, then you already have the necessary bits for iOS development in Visual Studio 2017, namely the “Mobile Development with .NET” module  
 You’ll still have to get a MAC as a build host to build your projects (and a Mac to develop on for Mac development).  Check the section for 2015 for more details, it is exactly the same.
+
 
 ### 4. Building for Windows 10 UWP
 
@@ -244,6 +259,7 @@ You can leave them out if you wish but you will have to Edit your project defini
 > **A fix has already been delivered but it was after the MonoGame 3.6 release.  To use Visual Studio 2017 on its own, use the current [“Development” release of MonoGame](http://bit.ly/monogamevsdevsetup) until a point release is submitted.  There is currently very little difference between 3.6 and the development release, so it is completely fine.**
 
 * * *
+
 
 # Now you are up and running
 

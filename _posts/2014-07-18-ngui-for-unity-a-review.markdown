@@ -7,7 +7,8 @@ tags: [book review,unity3d]
 
 Unity is by far outstripping all the competition with its multi-platform game framework, especially with their recent win in the Develop awards for best game engine (well done team).  So with the influx of new books to aid new developers, things are only going to keep moving and fast.
 
-![width=](http://www.packtpub.com/sites/default/files/8667OT_NGUI%20for%20Unity_Mini%20(MnM).jpg)
+![width=](assets/img/posts/image-not-found.png).jpg)
+
 
 ###### [NGUI for Unity](http://bit.ly/VXvd9I)
 
@@ -15,7 +16,7 @@ Anyone who has used or player with Unity knows that the UnityGUI is one of the p
 
 * * *
 
-![width=](http://i0.wp.com/1.bp.blogspot.com/_Un0JJ6ChsQE/TDMGeB1LpyI/AAAAAAAAABU/VORQN7I2LVg/s1600/27.jpg?w=660)
+![width=](assets/img/posts/image-not-found.png)
 
 So much is in flux at the moment but NGUI is still recognised as one of the leaders in GUI technology for Unity.  Within these pages the author aims to walk you through all the components of NGUI and leads to you building a full game using NGUI (certainly possible but not something I would recommend personally).  There is a good introduction to using each of NGUI’s components and how they fit in with Unity’s own system.
 
@@ -25,17 +26,20 @@ So let’s break down what this book has to offer above the competition.
 
 * * *
 
-![width=](http://i2.wp.com/1.bp.blogspot.com/-ura1_XT2-2g/Twob02iku-I/AAAAAAAAAKo/U4Uhirf68K0/s1600/HiRes.jpg?resize=361%2C301)
+![width=](assets/img/posts/image-not-found.png)
 
 Here is a brief run through what all the chapters are and what to expect from them:
+
 
 ###### Chapter 1 “Getting Started with NGUI”
 
 Starting with the basics, chapter 1 gives you a brief introduction to what NGUI is all about and steps to get it up and running in your project.   All the core points are covered ready for some in depth investigation in future chapters.
 
+
 ###### Chapter 2 “Creating Widgets”
 
 Widgets are NGUIs user controls, it provides the framework to create whatever UI components you need in your title and what interactions are needed whilst it is on screen.  The author does a good job of showing you several types of widgets and how to display them well, including labels, buttons, sliders, checkboxes and so on.
+
 
 ###### Chapter 3 “Enhancing Your UI”
 
@@ -43,29 +47,35 @@ In Chapter 3, the author extends on the previous chapter to walk through some of
 
 There is also a nice section on using Unity’s own animation system together with NGUI to further spruce up your layout.
 
+
 ###### Chapter 4 “C# with NGUI”
 
 It should come as no shock that NGUI is written in C#, it provides more flexibility than its JavaScript brother (although I have seen amazing things done with JavaScript in Unity).  Here the author goes through all the programmatic steps needed to access your NGUI creations, including working with events, animations and notifications / tooltips.
+
 
 ###### Chapter 5 “Building a Scrollable Viewport”
 
 Now we start to get interesting as by this point you realise that the book is leading you down a path to creating a game with NGUI, not just throwing lots of controls at you.  Here we build a scrollable game area and begin adding interactive controls and even built come coroutines to work with events.  Interesting beginnings.
 
+
 ###### Chapter 6 “Atlas and Font Customization”
 
 NGUI has an extensive texture atlas system built within its walls, which is very efficient at pooling your assets together efficiently for your UI using texture atlases.   It has some powerful features that were not available until recently in Unity and they work very well.  This chapter also works through the integration between NGUI and Unity regarding fonts and font bitmaps.
+
 
 ###### Chapter 7 “Creating a Game with NGUI”
 
 This chapter brings everything together to finish off the NGUI game.   It certainly is an interesting title full of hacking, dodging and clicking, making use of NGUI’s power in new and different ways.
 
+
 ###### 
+
 
 ###### 
 
 * * *
 
-![width=](http://i2.wp.com/1.bp.blogspot.com/-YJZ1X0X20x8/T6MOhBQk54I/AAAAAAAAB-8/WgJn-q4Ohaw/s1600/My+Thoughts.png?resize=354%2C109)
+![width=](assets/img/posts/image-not-found.png)
 
 Starting positively, this is certainly an interesting title and goes about explaining NGUI in a way I had not considered before, by building a game using NGUI.  Sure in my journeys I have seen titles created just using NGUI but this was the first time I would seen how to build one using it.  Not sure if it is something I would personally do but I am always open to new ways of doing things and finding alternate uses for stuff.  The title does a good factual job of explaining all the components of NGUI and how they fit together to achieve this goal.
 
@@ -73,11 +83,13 @@ Sadly the title is not without it is demerits through. Personally I dislike titl
 
  
 
+
 ###### Pros ![Smile with tongue out](/assets/img/wordpress/2014/07/wlEmoticon-smilewithtongueout.png)
 
 - Lots of good technical detail of NGUI’s components and features
 - Covers features in Unity that interact with NGUI, not just solely focused on NGUI alone
 - makes good alternative uses of NGUI
+
 
 ###### Cons:
 
@@ -86,7 +98,7 @@ Sadly the title is not without it is demerits through. Personally I dislike titl
 
 * * *
 
-![width=](http://i2.wp.com/www.magicalmaths.org/wp-content/uploads/2012/11/conclusion-introduction-starter-plenary.jpg?w=660)
+![width=](assets/img/posts/image-not-found.png)
 
 I’ve been itching for a good NGUI title for a while and while this book does a good job of detailing all the parts of the NGUI engine it did not go far enough for my liking to show how I could use those parts to build something well. (A lot of pointing and hand waving but when it comes to the assembly of the car, the architect is strangely absent).
 

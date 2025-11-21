@@ -5,8 +5,6 @@ date: 2006-11-28 20:01:43
 tags: [ramblings, xna]
 ---
 
- 
-
 # Quick update
 
 Bill has now migrated to WIndows Live spaces as well, find his new site on [http://xna101.spaces.live.com](http://xna101.spaces.live.com/) or [http://www.xna101.net](http://www.xna101.net/)
@@ -17,9 +15,9 @@ Back with a vengeance now with Beta2 tutorials and guides to creating a full 3D 
 
 Bill also brought us [Dr Popper](http://www.bluerosegames.com/dnn/) an excellent game which probably helped me in places with my own.  Find the game and Full source on the site.
 
-![](http://www.bluerosegames.com/dnn/Portals/0/drpopper.png)
+![Image not found](/assets/img/posts/image-not-found.png)
 
-One to give a look! 
+One to give a look!
 
 [Link to XNA101.NET](http://bluerosesystems.com/CS/blogs/xna101/default)
 

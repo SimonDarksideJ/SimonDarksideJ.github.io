@@ -24,11 +24,12 @@ In Short, MonoGame has embraced a more modern style approach to framework delive
 - Project templates are also available from the DotNet package repository.
 - All tools are published to the DotNet Tools repository, working for all Operating systems, including Linux.
 - Lots of major improvements to the framework (full change-list will be published with the 3.8 release)
-- The MonoGame 3.8 project definitions are not compatible with projects created in previous versions, 3.8 is also unable to open older projects, so you will still need to use the MSI’s to maintain older projects.   
+- The MonoGame 3.8 project definitions are not compatible with projects created in previous versions, 3.8 is also unable to open older projects, so you will still need to use the MSI’s to maintain older projects.
 The advice is simply to copy your code to the newer templates and continue on from there, no other code changes should be needed.
 - Still Free!
 
 ## A brief history of time MonoGame
+
 <figure class="wp-block-image size-large"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Microsoft_XNA_logo.svg/1200px-Microsoft_XNA_logo.svg.png" alt="/&gt;&lt;figcaption&gt;The forefather of MonoGame&lt;/figcaption&gt;&lt;/figure&gt;
 
 &lt;p&gt;MonoGame owes its roots to its predecessor, Microsoft’s XNA Game Framework. It was a fabulous framework that gave every C# coder (and Visual Basic devs too) access to build awesome games for Windows, Xbox and eventually Windows Phone (gone too soon). Sadly XNA left us at its peak, just as it was being introduced into education facilities and enabling many developers to get their first leg into the Game industry.&lt;/p&gt;

@@ -24,6 +24,7 @@ That is until NOW.
 
 * * *
 
+
 # Enter VS Code Version 0.8.0
 
 The VS Code team have not been sitting on their laurels, they have listened, they have watched and through it all (with the help of the community) they have acted.
@@ -32,17 +33,21 @@ The VS Code team have not been sitting on their laurels, they have listened, the
 
 You can grab VS Code direct from the [VS Code website](https://code.visualstudio.com/Docs/supporting/howtoupdate) at:
 
+
 ### [https://code.visualstudio.com/](https://code.visualstudio.com/ "https://code.visualstudio.com/")
 
 If you are on Windows, you will notice the installer also got an upgrade, so they can deliver more features directly to your machine.  If you do not like automatic updating, you can also turn that off if you wish ([https://code.visualstudio.com/Docs/supporting/FAQ#\_how-do-i-opt-out-of-vs-code-autoupdates](https://code.visualstudio.com/Docs/supporting/FAQ#_how-do-i-opt-out-of-vs-code-autoupdates "https://code.visualstudio.com/Docs/supporting/FAQ#\_how-do-i-opt-out-of-vs-code-autoupdates")).
+
 
 ## Documentation
 
 Starting with the documentation, Unity has been promoted as one of the main integration’s for VS code, now with its own documentation page, which you can find here:
 
+
 ### [https://code.visualstudio.com/Docs/runtimes/unity](https://code.visualstudio.com/Docs/runtimes/unity "https://code.visualstudio.com/Docs/runtimes/unity")
 
 There is lots of info in here, some of which I will highlight next.
+
 
 ## An integration asset
 
@@ -52,9 +57,10 @@ Thanks to a community member who jumped straight on the insider track for VS Cod
 
 This can be found at:
 
+
 ### [https://github.com/dotBunny/VSCode](https://github.com/dotBunny/VSCode "https://github.com/dotBunny/VSCode")
 
-[![VS Code in Unity](https://code.visualstudio.com/Content/images/unity_plugin.png)](https://github.com/dotBunny/VSCode)
+[![VS Code in Unity](assets/img/posts/image-not-found.png)](https://github.com/dotBunny/VSCode)
 
 This plugin works on both **MacOS** and **Windows** and gives you the following capabilities:
 
@@ -70,11 +76,13 @@ These are just the main highlights as there are more features in there as well.
 
 Currently you need to download the plugin files from [GitHub](https://github.com/dotBunny/VSCode) but a package is going on the Unity asset store, which when it is available, I will also post the link here.
 
+
 ## MAC Debugging
 
 Lucky Mac owners (thanks to the power of Mono) will also get debugging support in VSCode for Unity using the above plugin, which sets things all nice and neat for you.
 
 Sadly this is **Mac only** (you lucky Mac people!), although there are rumours of Windows and even Linux support on the way (hopefully in the not too distant future)
+
 
 ## OmniSharp Update
 
@@ -95,9 +103,10 @@ This updates and upgrades VS Code’s features in:
 
 Even more C# goodness being brought in to the editor (I’m guessing those pesky Web developers get an update as well in there somewhere)
 
+
 ## Full markdown support and markdown preview engine
 
-![Markdown Preview](https://code.visualstudio.com/Content/images/markdown_preview.png)
+![Markdown Preview](assets/img/posts/image-not-found.png)
 
 I am seriously considering running an offshoot blog with this feature, it will certainly help with my Source control markdown enabled readme files for the sites (GitHub and Bitbucket use this extensively)
 
@@ -111,9 +120,10 @@ You seriously do not realise how powerful this feature is until you use it, no m
 
 * * *
 
+
 # In to the Mix
 
-![width=](https://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/035---overloaded-power-boards-%5Bss%5D--tojpeg_1430212171878_x2.jpg)
+![width=](assets/img/posts/image-not-found.png)
 
 There is a lot to take in here and the steps to get up and running with Unity have become far simpler.  I would highly recommend reading the rest of the release notes for the latest release of VSCode ([https://code.visualstudio.com/updates](https://code.visualstudio.com/updates "https://code.visualstudio.com/updates")), there are some nice surprises in there.
 

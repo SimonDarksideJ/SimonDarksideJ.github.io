@@ -5,9 +5,11 @@ date: 2012-06-29 09:19:01
 tags: [2d tutorial, game development, xna]
 ---
 
+
 #### Functions are at the core of the C# programming language, they define jobs to do in code, setting out a group of instructions to perform an action or resolve some calculation based a set of input.  Functions of course do a lot more as you will see here.
 
 * * *
+
 
 ### 1. Definition
 
@@ -43,6 +45,7 @@ The parameters _a_ and _b_ receive the values of the arguments when the function
 
 * * *
 
+
 ### 2. Scope
 
 The code found in a function is private to the function and cannot be accessed by any statement from another function. Function code is accessed only through function call.
@@ -51,6 +54,7 @@ A _C#_ program starts from the function Main. All functions have a file scope. P
 
 * * *
 
+
 ### 3. Calling a Function
 
 A function is called by using its name followed by an opening and closing parenthesis including the arguments, if any. If the function has no arguments, then the argument list is left empty. When a function is called, the function parameters receive the value of the arguments by respecting their order. Parameter1 receives the value of argument1, and ParameterN receives the value of argumentN.
@@ -58,6 +62,7 @@ A function is called by using its name followed by an opening and closing parent
 When a function is called, the sequential execution flow is interrupted, and the program counter jumps to the first statement of the function called. Once the last statement is executed, or a return instruction is executed, the sequential execution flow is interrupted and the program counter is updated so it points to the next instruction after the function call. The return instruction or statement also returns a value since the function has a returning type. In other words, the function could be used as value specified by its type.
 
 * * *
+
 
 ### 4. “return” Statement Example
 
@@ -305,6 +310,7 @@ Example:
 
 * * *
 
+
 ### 5. Call by Value Function Arguments
 
 Arguments can be passed in two ways: Call by value and call by reference. The call by value method copies the value of the argument into the function parameter. Therefore, changes made to the parameter have no effect on the argument. In other words, the function code cannot modify the arguments used to call the function.
@@ -372,6 +378,7 @@ Example:
 <!--CRLF-->
 
 * * *
+
 
 ### 6. Call by Reference Function Arguments
 

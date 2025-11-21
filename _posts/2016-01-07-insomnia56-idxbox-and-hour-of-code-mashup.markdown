@@ -5,7 +5,7 @@ date: 2016-01-07 18:07:19
 tags: [events]
 ---
 
-![](http://bc-gb.com/wp-content/uploads/2015/09/i562-900x450.jpg)
+![](assets/img/posts/image-not-found.png)
 
 It is gaming festival season again and they really do not come much bigger than Insomnia in the UK.
 
@@ -16,6 +16,7 @@ The event is a real mix of gaming, eSports, games, tech and energy drinks (lots 
  
 
 For my sins, I offered my services to come and help out on the Microsoft stand at insomnia, walking the Xbox booths, supporting the indie devs with their stands and talking about the awesome new Hour of Code initiative bringing free code learning to the masses, from ages 6-106.
+
 
 # [ID@Xbox](mailto:ID@Xbox) Showcase
 
@@ -28,22 +29,26 @@ Many of the ID developer’s themselves were on hand to answer queries and probe
 [ID@Xbox](mailto:ID@Xbox) also took to stage to show the inner workng behind 3 of it is soon to be relased titles, namely:
 
 - 
+
 ### Elementales ([Total Monkery](http://totalmonkery.com/))  
- ![width=](http://elementalesgame.com/wp-content/uploads/2015/03/cropped-Screenshot1.png)
+ ![width=](assets/img/posts/image-not-found.png)
 - 
+
 ### Raging Justice ([MakinGames](http://www.makingames.com/))  
- ![width=](http://www.makingames.com/wp-content/uploads/2015/06/RagingJustice-09-Mansion-MakinGames.jpg)
+ ![width=](assets/img/posts/image-not-found.png)
 - 
+
 ### Aaero ([Mad Fellows](http://www.madfellowsgames.com/))  
- ![width=](http://www.madfellowsgames.com/wp-content/uploads/2015/10/Aaero-2015-09-30-16-40-03-39.png)
+ ![width=](assets/img/posts/image-not-found.png)
 
 Seeing all of these titles on the big stage and indeed, the big screen was totally awesome. You can get a sneak peek on the fun here on the Insomnia56 Flickr album
 
-[![i56 - ID@Xbox Showcase](https://farm6.staticflickr.com/5741/23099327513_9464375e9f_z.jpg)](https://www.flickr.com/photos/mpuk/albums/72157662224795381 "i56 - ID@Xbox Showcase")<script src="//embedr.flickr.com/assets/client-code.js" async=" charset=" utf-8></script>
+[![i56 - ID@Xbox Showcase](assets/img/posts/image-not-found.png)](https://www.flickr.com/photos/mpuk/albums/72157662224795381 "i56 - ID@Xbox Showcase")<script src="//embedr.flickr.com/assets/client-code.js" async=" charset=" utf-8></script>
+
 
 # Hour of Code
 
-![width=](http://www.jenaylor.co.uk/wp-content/uploads/2014/03/hourofcode_610x318.png)
+![width=](assets/img/posts/image-not-found.png)
 
 Starting with the most awesome part of the event I was supporting, the Hour of code is yet another initiative by Microsoft to get people involved in learning to code, this time they are lowering the barrier even further aiming at primary kids and higher (ages 6.106). This new track builds a more visual interface for understanding the base concepts behind coding, the logic and underlying bricks needed to chain commands together to achieve a task.  What is really nice this time around is that the lessons are now themed, taking the gamification of learning to a whole new level, see here:
 
@@ -56,6 +61,7 @@ Each theme follows a level paced course complete with teaching notes for assista
 As you can see, we were very busy.  it was like this most of the day, by the end both I and the two MSP’s (Microsoft Student Partners Khalid and Edward) were very tired, yet eager to help out the next student or parent.
 
 For my part the people mostly interested were the parents, eager to find out what was out there to help their kids achieve their best, they were extremely surprised and excited to find out that all the tools, resources, videos and content were being offered **COMPLETELY FREE** , no catches, no sign-ups (unless you want your achievements!).  We attracted parents and kids from all walks of life, whether they here in state education, private or even home schooled, all were very eager to know how to get started!.
+
 
 ## Hour of code does not stop at just one hour!
 
@@ -74,6 +80,7 @@ So what are you waiting for, get learning, get coding and get building your own 
 
  
 
+
 # Xbox marketing at its best
 
 [![image](/assets/img/wordpress/2015/12/image-1.png "image")](/assets/img/wordpress/2015/12/image-1.png)
@@ -86,7 +93,9 @@ P.S. If you spot this guy on an Xbox stand, give him a hug pat on the back from 
 
  
 
+
 # 
+
 
 # Rounding down
 

@@ -8,6 +8,7 @@ tags: [xna]
 
 So there has been a lot of kerfuffle of late about XNA’s future, some wins, some losses and such.
 
+
 ### But time to set the record straight.
 
 (again ![Smile with tongue out](/assets/img/wordpress/2012/07/wlEmoticon-smilewithtongueout5.png))
@@ -17,6 +18,7 @@ I have been involved with several XNA related efforts and in talks with some oth
 If you are headed down the C++ / DirectX route then I suggest you head over to the [RandomChaos blog](http://bit.ly/LMSHWD) or [GameDev-UK](http://www.gamedev-uk.net/) for more details there.
 
 * * *
+
 
 # [SunBurn Gaming Engine](https://www.synapsegaming.com/products/sunburn/engine/) – [Synapse Gaming](https://www.synapsegaming.com/)
 
@@ -29,9 +31,9 @@ If you are headed down the C++ / DirectX route then I suggest you head over to t
 <p>I am fairly certain at this point that this will become a reality and if so, then your XNA code today will be natively compiled by the SunBurn engine to run on a host of other platforms, with native support it could run on just about anything including, Windows Phone 8, Windows 8, IOS and even Android.  Very similar to Mono.</p>
 <p>At it is core games on the SunBurn gaming engine are written in managed code using XNA!</p>
 <hr />
-<h1><a href=](https://www.synapsegaming.com/images/banners/SunBurn-Engine-buynow.jpg)UnityXNA](https://www.synapsegaming.com/products/sunburn/engine/) – by MVI Network
+<h1><a href=](assets/img/posts/image-not-found.png)UnityXNA](https://www.synapsegaming.com/products/sunburn/engine/) – by MVI Network
 
-[![ width=](http://download.unity3d.com/images/unity-logo.png)](http://unity3d.com/unity/)[![ width=](http://mvinetwork.co.uk/wp-content/uploads/2012/02/MVIN1.png)](http://mvinetwork.co.uk/)
+[![ width=](assets/img/posts/image-not-found.png)](http://unity3d.com/unity/)[![ width=](assets/img/posts/image-not-found.png)](http://mvinetwork.co.uk/)
 
 Unless you were asleep last week then you must have missed out on a big announcement from a guy called “Barnaby Smith” who is a good friend of mine from the XNA-UK days.
 
@@ -53,9 +55,10 @@ The code has also been [pushed up to GIT](https://github.com/mvi/UnityXNA), so f
 
 * * *
 
+
 # [MonoGame](http://monogame.codeplex.com/) meets Windows 8
 
-[![ width=](http://download-codeplex.sec.s-msft.com/Download?ProjectName=monogame&DownloadId=331456&Build=19131)](http://monogame.codeplex.com/)[![ width=](http://www.mono-project.com/skins/MonoWaveWide/images/mp-mono-logo.png)](http://www.mono-project.com/Main_Page)
+[![ width=](assets/img/posts/image-not-found.png)](http://monogame.codeplex.com/)[![ width=](assets/img/posts/image-not-found.png)](http://www.mono-project.com/Main_Page)
 
 Mono has always been about multi-platform from the get go and with managed code none the less.
 
@@ -75,6 +78,7 @@ By all accounts once the XNA/MonoGame framework was made Windows 8 ready, the po
 
 * * *
 
+
 # The future’s so bright I’ve gotta wear shades
 
 Life in managed code is still the future, especially for individuals / small indie companies and in some larger game houses it is still used as a rapid prototyping tool before making it in C++.
@@ -87,7 +91,8 @@ If you want to know more about C++ / DirectX then I suggest you head over to the
 
 * * *
 
-# A parting gift
+
+# A partying gift
 
 Just one last thing to wrap up the conclusion of this article.
 

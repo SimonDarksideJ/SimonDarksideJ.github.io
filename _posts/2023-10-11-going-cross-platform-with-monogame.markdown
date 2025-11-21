@@ -106,7 +106,9 @@ You will need to repeat this process for every class file you add to the shared 
 To link files without Visual Studio, we need a PowerShell script to edit the csproj project definition and add the required XML for the linked file, the script I use is as follows:
 
 ```powershell
+
 # usage: .\Add-LinkedFile.ps1 -SourceProjectPath MyProject.csproj -LinkedFilePath ../Shared/mysharedclass.cs -LinkedFileName Shared/mysharedclass.cs -BuildAction Compile
+
 # output: <ItemGroup><Compile Include="../Shared/mysharedclass.cs"><Link>Shared/mysharedclass.cs</Link></Compile></ItemGroup>
 param(
     [Parameter(Mandatory=$true)][string] $SourceProjectPath,

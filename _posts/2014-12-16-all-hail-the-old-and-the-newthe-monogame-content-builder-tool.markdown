@@ -7,6 +7,7 @@ tags: [content pipeline, monogame]
 
 Thought I might try and write the longest title ever on my blog, not sure I have made it but it was a worthy effort.
 
+
 # The world of content
 
 Back in the hay day of XNA, we had a lovely little extension that allows us to create a separate project for all our games assets and then reference them with a single pointer, these were the content projects!
@@ -27,6 +28,7 @@ Once the content was built you had to either copy or link the XNB output files m
 
 * * *
 
+
 # Enter the MonoGame Content Builder GUI
 
 [![image](/assets/img/wordpress/2014/12/image2.png "image")](/assets/img/wordpress/2014/12/image2.png)
@@ -45,6 +47,7 @@ Now we’re cooking, if everything is set right, your content project will be bu
 
 * * *
 
+
 # Have an XNA content project already?
 
 If you already have an XNA content project setup the way you want and do not want to waste time building it all again!, then the MonoGame Content Builder GUI has your back.
@@ -54,6 +57,7 @@ If you already have an XNA content project setup the way you want and do not wan
 Using the “Import” option in the file menu, you simply select an existing “.contentproject”  then it will read the old definition and import all your settings and content in to the new Content Builder Project, as if by magic!
 
 * * *
+
 
 # So why all the fuss?
 
@@ -77,9 +81,11 @@ This means that not only will you be able to build content in your projects, you
 
 * * *
 
+
 # Getting started with MGCB
 
 If you want to use the MonoGame Content Builder GUI and MGCB processor now, you can. You will just need the latest MonoGame installer which can be found in the Development Builds section of the main MonoGame download page, there are installers for Visual Studio and MonoDevelop on Windows, Linux and Mac here:
+
 
 ### [http://www.monogame.net/downloads/](http://www.monogame.net/downloads/ "http://www.monogame.net/downloads/")
 
@@ -97,9 +103,11 @@ Start any new solution and it will look like the project solution shown earlier 
 
 * * *
 
+
 # Samples Updates
 
 AND there is even more, the multi-platform samples have been updated to use the new MGCB processor as well, you can find them at:
+
 
 ### [https://github.com/Mono-Game/MonoGame.Samples](https://github.com/Mono-Game/MonoGame.Samples "https://github.com/Mono-Game/MonoGame.Samples")
 
@@ -117,9 +125,11 @@ The team continues to advance the sample set as a “Best Practice” example of
 
 **Of note is that EACH sample only has ONE content project, this project is then shared by ALL platforms and built for the correct platform at build time!!**
 
+
 #### **DIDN’T EXPECT THAT DID YOU**
 
 * * *
+
 
 # Upgrading your project
 
@@ -162,6 +172,7 @@ Once all that is done, save your project file and reload your project in your co
 If you build your project now, it will spit out your compiled project together with your compiled assets automagically, never needing to link files or rely on a separate or scripted asset build again
 
 * * *
+
 
 # Ahh but for the roses
 

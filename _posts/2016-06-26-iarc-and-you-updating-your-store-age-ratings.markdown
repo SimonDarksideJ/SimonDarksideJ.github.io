@@ -7,13 +7,14 @@ tags: [information]
 
 Do you like making money? Or would you like to see your app in front of more users? Then read on.
 
-![](http://cdn0.dailydot.com/cache/97/e1/97e1c30f7012aa05b2f5a7ce88b7de7b.jpg)If you have any apps on the Windows Store you will have likely received a mail of late asking you to update your age ratings, the reason for this is twofold:
+![](assets/img/posts/image-not-found.png)If you have any apps on the Windows Store you will have likely received a mail of late asking you to update your age ratings, the reason for this is twofold:
 
 1: There is a new IIARC age rating process which has greatly simplified getting your game rated for the majority of countries (except Korea)
 
 2: There are many more markets now available (242 in total) to your projects, which you may not be targeting by default
 
 This opens up many new market opportunities that were not previously available, either because you did not want to spend the time getting / paying for additional age ratings or because new markets had been introduced since you added your app/game.
+
 
 # Getting your Store Project updated
 
@@ -24,6 +25,7 @@ Now the first thing you will be happy to know is that you do not need to build a
 From the dashboard you will be quickly able to see what packages you have live on the store, what state they are in and (more importantly) how many markets your projects are published in.  So once you are ready, you can begin the short journey to update it by clicking on it is name.
 
  
+
 
 ## 1: Update your submission
 
@@ -41,6 +43,7 @@ With your package open, you will get to see a lot more information available. Wh
 
  
 
+
 ## 2: Updating Ratings
 
 [![image](/assets/img/wordpress/2016/06/image-2.png "image")](/assets/img/wordpress/2016/06/image-2.png)
@@ -48,6 +51,7 @@ With your package open, you will get to see a lot more information available. Wh
 With your project open, first you will need to update it is ratings (after all, that was what the initial email was about) and generate all the new rating certificates for your project.  This will also automatically enable you to select more markets in the “Pricing and Availability” section which we will cover shortly.
 
 Simply click on the “Age Ratings” link to continue.
+
 
 ## 3: Selecting your project category
 
@@ -73,6 +77,7 @@ Fairly simple and the questions that follow next are pretty much the same for ev
 
 Just select the appropriate category / type and the actual questionnaire will appear.
 
+
 ## 4: The one million and one questions (just kidding)
 
 [![image](/assets/img/wordpress/2016/06/image-4.png "image")](/assets/img/wordpress/2016/06/image-4.png)
@@ -91,6 +96,7 @@ Once complete, you will see something like this:
 
 [![image](/assets/img/wordpress/2016/06/image-5.png "image")](/assets/img/wordpress/2016/06/image-5.png)
 
+
 ## 5: There is always one! (the optional step)
 
 When you have completed the above (just by filling in the questionnaire), you will have the ratings for 141 of the 142 countries and rating systems that are available.  The one remaining is South Korea, which still requires you to contact their agency separately to gain a rating certificate, which you then need to upload in the last option in the questionnaire:
@@ -98,6 +104,7 @@ When you have completed the above (just by filling in the questionnaire), you wi
 [![image](/assets/img/wordpress/2016/06/image-6.png "image")](/assets/img/wordpress/2016/06/image-6.png)
 
 This step is completely optional (unless you want to publish in South Korea) and you can continue on regardless should you so wish.
+
 
 ## 6: Setting up your markets
 
@@ -121,6 +128,7 @@ As you can see, there are several markets currently not selected (as this was a 
 
 Once you are happy with your selection, go to the bottom of the form, check the date you want the app published / updated (or select as soon as certified) to go back to the update screen.
 
+
 ## 7: The not so big red button
 
 [![image](/assets/img/wordpress/2016/06/image-9.png "image")](/assets/img/wordpress/2016/06/image-9.png)
@@ -130,6 +138,7 @@ Once you are happy and all the checks on the update screen are green (I did have
 Be aware, once you hit this button there is no going back or recalling the app from submission until it has completed it is journey. (There is a “Cancel Submission” link on the submission page but I’ve never tried it properly)
 
 This should be a fairly quick process, either a few hours or at worst a week and then everything will be green.  If anything comes back, just check through everything again and makes sure you have ticked all the right boxes.
+
 
 # Back to writing more apps / games
 

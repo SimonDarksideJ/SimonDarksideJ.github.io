@@ -5,6 +5,7 @@ date: 2012-06-29 09:17:40
 tags: [2d tutorial, game development, xna]
 ---
 
+
 ### 1. Value Types
 
 In _C#_, a value type can be either a struct or an enumeration. _C#_ contains a set of predefined struct types called the **_simple types_**. These simple types are identified through reserved words. All value types implicitly inherit form a class called **object**. Also, no type can derive from a value type. It is not possible for a value type to be **null** (_null_ means “nothing” or “no value”). Assigning a variable of a value type creates a _copy_ of the value. This is different from assigning a variable of a reference type, which copies the reference and not the object identified by the reference.
@@ -641,6 +642,7 @@ In _C#_, a value type can be either a struct or an enumeration. _C#_ contains a 
 
 * * *
 
+
 ### 2. Reference Types
 
 A reference type is one of the following: class, interface, array, or delegate. A reference type value is a reference to an **_instance_** of the type. “ **null** ” is compatible with all reference types and indicates the **absence** of an instance.
@@ -677,11 +679,11 @@ A reference type is one of the following: class, interface, array, or delegate. 
 
 * * *
 
+
 ### 3. Void
 
 When used as the return type for a method, **void** specifies that the method does not return a value. **void** is not allowed in a method’s parameter list. A method with no parameters and returning no value is declared as follows:
 
      1: void MyMethod();
 
-<!--CRLF-->
-
+<!--CRLF--

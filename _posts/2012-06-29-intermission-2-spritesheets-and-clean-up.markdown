@@ -14,11 +14,13 @@ Here is the first intermission for this section of the tutorial we will cover up
 
  
 
+
 ### Source updated for Final combined update project for GS 4.0 project [here on Codeplex](http://startrooper2dxna.codeplex.com/releases/view/61496) (Windows and WP7)
 
 * * *
 
  
+
 
 ### Why Spritesheets?
 
@@ -35,6 +37,7 @@ However since we are changing the image each frame of our animation, this does n
 If we use a spritesheet however, it is always the same image, what the spritebatch does in this case it that it only draws a portion of the image at a time.  This reduces the amount of images having to be sent to the card over time.
 
 * * *
+
 
 ### Creating the Spritesheet
 
@@ -81,5 +84,6 @@ It can also be useful as a post production tool, after you have created your sin
  
 
 * * *
+
 
 ### Next up the code changes

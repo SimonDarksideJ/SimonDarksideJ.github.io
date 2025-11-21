@@ -5,7 +5,7 @@ date: 2008-07-25 10:12:31
 tags: [3d, xna]
 ---
 
-![width=](http://www.digivision.com.tw/news/20080725/EmmanuelAsset_villefranche_s.jpg "caligari Truespace")
+![width=](assets/img/posts/image-not-found.png)
 
 One of the issues I (and from the look on the XNA blogs around) have always had problems getting into 3D modelling, usual problems being:
 
@@ -24,13 +24,16 @@ So leaving money behind I can embark on the search for a free 3d Modelling tool,
 - [Google Sketchup](http://sketchup.google.com/)(free and an importer has just been written for XNA, although I’ve not played with it Much)
 - [Truespace 3d](http://www.caligari.com/)
 
+
 ## 
+
 
 #### Hold on, Truespace, Doesn’t that cost $600, why is that in the list.
 
 Well, no longer does Truespace cost you any cash whatsoever now that Microsoft has acquired Calgari.
 
 Since Microsoft Bought it in order to offer a competitive product to Goolge’s sketchup, they have now released it for free, there’s also some nice training material and other free stuff.
+
 
 ### [See here](http://blogs.msdn.com/virtualearth/archive/2008/07/23/announcing-truespace-for-virtual-earth-3d-development)
 
@@ -72,5 +75,5 @@ And if your interested you can also import your creations to Virtual Earth, whic
 
 ![ /></p>
 </div>
-](http://blogs.msdn.com/blogfiles/virtualearth/WindowsLiveWriter/AnnouncingtrueSpaceforVirtualEarth3DDeve_A6A1/image_27.png)
+](assets/img/posts/image-not-found.png)
 

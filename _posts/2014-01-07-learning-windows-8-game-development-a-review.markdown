@@ -9,6 +9,7 @@ The game development landscape, especially for Indies is certainly changing.  Wi
 
 [![ src=]()](http://www.packtpub.com/learning-windows-8-game-development/book)
 
+
 ###### [Learning Windows 8 Game Development](http://www.packtpub.com/learning-windows-8-game-development/book)
 
 As the book title suggests, this is a Windows8 title, however what is not immediately apparent is that it is a C++ Windows game development title. Yes you can build games in XAML or even in C# with MonoGame and Unity but to get real under the covers multi-platform and highly performing code you are most likely to start looking into C++, so let’s see what this book gives us.
@@ -31,11 +32,13 @@ If you have also read my [“other” post about XboxOne development](http://dar
 
 Here is a brief run through what all the chapters are and what to expect from them:
 
+
 ### Chapter 1 “Getting Started with Direct3D”
 
 In the beginning there was a flash of light and in this case the turning on of the lights, this chapter starts at the very beginning of DirectX development and walks you through everything you need to know to start a new DirectX/C++ project up and running using the built-in Visual Studio templates.  It is nicely laid out explaining all the major components of the graphics pipeline and the realisation of the game loop.  Those familiar with previous game development will recognise a lot of the content and easily be able to translate it from what they understand currently but in a C++ light.  There is more to know and understand and this chapter does a very good job at easing you in to the new driving seat.
 
 For newcomers it is just as easy with all the basic elements of game development programming being laid out bare, even the naughty bits.
+
 
 ### Chapter 2 “Drawing 2D Sprites”
 
@@ -43,17 +46,21 @@ A short step from getting your project running is to get something actually draw
 
 This chapter also introduces you to opensource frameworks such as DirectXTK which make the job of loading, drawing and batching assets in your project.
 
+
 ### Chapter 3 “Adding the Input”
 
 Computer systems always seem to have lots of methods for input these days and the list is ever increasing.  This chapter goes over all the necessary components for getting input systems to work on Windows 8 and how to manage them effectively within your game.  It even covers some of the common tips and tricks to handle tricky situation with input such as deadzones with gamepads.
+
 
 ### Chapter 4 “Adding the Play in the Gameplay”
 
 A framework and input system is all well and good but what about the game itself, here Michael walks you through structuring your game and accounting for things like managing game object, working with collision systems and how to improve on your rendering pipeline to make it even more efficient.  It is always essential, no matter what platform you are building on, to get your game architecture right and performing well so this is a welcome addition to this book.
 
+
 ### Chapter 5 “Tilting the World”
 
 Extending from chapter 3, here the book goes over some of the more advanced input systems available on Windows 8 including the accelerometer, gyroscope, compass and inclinometer (granted so long as your device supports them). These are accessed and operated slightly differently to other input systems, usually because they need to be spun up and managed in a different way.  Although the book doesn’t cover it, you could use the approaches discussed in this chapter for other advanced sensors such as the Kinect.
+
 
 ### Chapter 6 “Bragging Rights”
 
@@ -61,9 +68,11 @@ Here we finish off the game by working with game states and giving the player so
 
 Once our game is ready, you really need to consider how your game will look when it is published, working with Windows 8’s live times, how to use the sharing features to publicise your players achievements in game leveraging Windows 8’s native sharing capabilities (Windows 8 really does do a lot for you these days) and how to use WinRT components to short-cut some of the hard work.
 
+
 ### Chapter 7 “Playing Games with Friends”
 
 Playing games by yourself if good but playing with friends is better and Windows 8 offers some unique features to create multi-player experiences especially if they are with you.  This chapter goes into depth on generic network systems and Windows 8’ proximity API (for device to device communications).  Everything you need to get your game hooked up and players going head to head,
+
 
 ### Chapter 8 “Getting into the Store”
 
@@ -71,9 +80,11 @@ once you have your Windows 8 game ready the next step is to get it certified and
 
 Having been through this myself several times, this chapter certainly has some eye openers that are so obvious now and will make your submission that much easier.
 
+
 ### Chapter 9 “Monetization”
 
 It is all well and good getting your game on the store but wouldn’t it also be nice to get something back from the whole experience, preferably in the form of good old money.  There are some very good tips for how to sell your game in this chapter, covering adding a trial mode to your game and in-app purchasing options.  This is all rounded off with some well-founded monetisation guidelines on how best to market and sell your wares.
+
 
 ### Appendix “Adding the Third Dimension”
 
@@ -93,11 +104,13 @@ you will be able to make basic games but to really be productive you are going t
 
 So if you want to get started then you will be in good stead here.
 
+
 #### Pros:
 
 - Great depth but very easy to read and follow chapters
 - Complex systems broken down in to very manageable chunks
 - Fully end to end, you will be able to make basic games and publish them by the end
+
 
 #### Cons:
 

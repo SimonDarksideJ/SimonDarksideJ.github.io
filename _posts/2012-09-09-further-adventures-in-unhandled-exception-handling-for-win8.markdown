@@ -9,6 +9,7 @@ Following the submission of my first Windows 8 app into the preview store I’m 
 
 To kick off (well I say Kick off, but I’ve already posted two of them while I was building the game) this article with extend on an original article I did for XNA / Windows phone
 
+
 #### [Adventures in Unhandled Exception Handling for XNA/Silverlight](http://darkgenesis.zenithmoon.com/adventures-in-unhandled-exception-handling-for-xnasilverlight/)
 
 Now when I was just about ready to publish to the store and going through the App Excellence labs, one of the certification criteria is to have friendly error handling, with XNA and Windows Phone this is (practically) built in or if you use the excellent Telerik controls you have a very clean component to just drop in.
@@ -16,6 +17,7 @@ Now when I was just about ready to publish to the store and going through the Ap
 With Windows 8 there is nothing ready, you have to build it all yourself.
 
 * * *
+
 
 # Enter my Windows 8 version of Little Watson
 
