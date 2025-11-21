@@ -34,20 +34,17 @@ Since the unveiling of the current generation of AI tooling, the curve keeps get
 
 The list goes on and keeps getting bigger, refinements, new tools, new features.  Like any technological "revolution" its speed is increasing.
 
-> [!NOTE]
-> However one thing remains clear and should not be underestimated, is that AI **STILL** does not know it is right.  So always be on your guard and check the facts!  But that does not mean you shouldn't use the tools, just learn the correct ways to work with the tools.
+> **Note:** However one thing remains clear and should not be underestimated, is that AI **STILL** does not know it is right.  So always be on your guard and check the facts!  But that does not mean you shouldn't use the tools, just learn the correct ways to work with the tools.
 
 Based on my understanding (at the time of writing), this article aims to impart how my workflow has evolved to a level where I can institute "some" level of trust in my processes with the results from AI.
 
-> [!NOTE]
-> Fun fact, even today when I started writing this post, I listened to a [podcast with Jesse Liberty](https://jesseliberty.com/2025/10/10/james-montemagno-on-vibe-coding/) that featured "James Montemagno on Vibe Coding" ( a term I do not like tbh).  In this episode James mentions a few "tricks" I had not considered before, such as using AI to generate the tool or a prompt based on your current activity to enable you to do that activity faster next time.  Effectively engineering your workflow as you DO IT.
+> **Note:** Fun fact, even today when I started writing this post, I listened to a [podcast with Jesse Liberty](https://jesseliberty.com/2025/10/10/james-montemagno-on-vibe-coding/) that featured "James Montemagno on Vibe Coding" ( a term I do not like tbh).  In this episode James mentions a few "tricks" I had not considered before, such as using AI to generate the tool or a prompt based on your current activity to enable you to do that activity faster next time.  Effectively engineering your workflow as you DO IT.
 
 ## It starts with a prompt - false
 
 I have said it previously, but it is worth repeating.  Long gone are the days when you put in a simple question to get an answer or complete a task to fulfil.  Sure, on your phone or via your browser, the results are FAR BETTER than dropping it into Bing/Google, but for any serious workflow. Without content/structure and even architecture, the most basic of queries will not result in anything that resembles what you desire.  (except for that one day in march where the hares are flocking).
 
-> [!IMPORTANT]
-> I will repeat my mantra:
+> **Important:** I will repeat my mantra:
 >
 > ### AI is suggestive, it is not indicative.  It NEVER knows if it is right, only that the probabilities align with a result compared to your query
 
@@ -94,5 +91,4 @@ Hopefully this article opens some additional thoughts patterns, as mine do almos
 
 Keeping up to date is a struggle, but it does not have to be, include all the tools available to you to make your life easier, or at least smoother.  The tools can simply type faster than you, so use that to your advantage.
 
-> [!IMPORTANT]
-> But even given all the resource, **DO NOT** trust the result, check it, validate it, challenge the generated pre-conceptions.  Even with the extra steps to read through what has been created, the workflow is still significantly faster.  So use it when it makes sense, and for those things you take joy in, don't, and keep having fun.
+> **Important:** But even given all the resource, **DO NOT** trust the result, check it, validate it, challenge the generated pre-conceptions.  Even with the extra steps to read through what has been created, the workflow is still significantly faster.  So use it when it makes sense, and for those things you take joy in, don't, and keep having fun.
