@@ -2144,12 +2144,26 @@ blockquote.note {
   padding: 12px 16px;
   margin: 16px 0;
 }
+blockquote.note::before {
+  content: "Note";
+  display: block;
+  font-weight: bold;
+  color: #0969da;
+  margin-bottom: 4px;
+}
 
 blockquote.tip {
   border-left: 4px solid #1a7f37;
   background-color: #dff6dd;
   padding: 12px 16px;
   margin: 16px 0;
+}
+blockquote.tip::before {
+  content: "Tip";
+  display: block;
+  font-weight: bold;
+  color: #1a7f37;
+  margin-bottom: 4px;
 }
 
 blockquote.important {
@@ -2158,12 +2172,26 @@ blockquote.important {
   padding: 12px 16px;
   margin: 16px 0;
 }
+blockquote.important::before {
+  content: "Important";
+  display: block;
+  font-weight: bold;
+  color: #8250df;
+  margin-bottom: 4px;
+}
 
 blockquote.warning {
   border-left: 4px solid #9a6700;
   background-color: #fff8c5;
   padding: 12px 16px;
   margin: 16px 0;
+}
+blockquote.warning::before {
+  content: "Warning";
+  display: block;
+  font-weight: bold;
+  color: #9a6700;
+  margin-bottom: 4px;
 }
 
 blockquote.caution {
@@ -2172,29 +2200,51 @@ blockquote.caution {
   padding: 12px 16px;
   margin: 16px 0;
 }
+blockquote.caution::before {
+  content: "Caution";
+  display: block;
+  font-weight: bold;
+  color: #d1242f;
+  margin-bottom: 4px;
+}
 
 /* Dark theme variants */
 html[data-theme="dark"] blockquote.note {
   border-left: 4px solid #2f81f7;
   background-color: #1c2e4a;
 }
+html[data-theme="dark"] blockquote.note::before {
+  color: #2f81f7;
+}
 
 html[data-theme="dark"] blockquote.tip {
   border-left: 4px solid #3fb950;
   background-color: #1a3329;
+}
+html[data-theme="dark"] blockquote.tip::before {
+  color: #3fb950;
 }
 
 html[data-theme="dark"] blockquote.important {
   border-left: 4px solid #a371f7;
   background-color: #2e2038;
 }
+html[data-theme="dark"] blockquote.important::before {
+  color: #a371f7;
+}
 
 html[data-theme="dark"] blockquote.warning {
   border-left: 4px solid #d29922;
   background-color: #332e1f;
 }
+html[data-theme="dark"] blockquote.warning::before {
+  color: #d29922;
+}
 
 html[data-theme="dark"] blockquote.caution {
   border-left: 4px solid #f85149;
   background-color: #3b1219;
+}
+html[data-theme="dark"] blockquote.caution::before {
+  color: #f85149;
 }
