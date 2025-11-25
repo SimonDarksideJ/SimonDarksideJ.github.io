@@ -38,7 +38,7 @@ Purple - Key information users need to know to achieve their goal.
 Yellow - Urgent info that needs immediate user attention to avoid problems.
 
 ```markdown
-> Warning: This might cause issues if not handled carefully.
+> This might cause issues if not handled carefully.
 {: .warning}
 ```
 
@@ -47,7 +47,7 @@ Yellow - Urgent info that needs immediate user attention to avoid problems.
 Red - Advises about risks or negative outcomes of certain actions.
 
 ```markdown
-> Caution: This is dangerous and should be avoided.
+> This is dangerous and should be avoided.
 {: .caution}
 ```
 
