@@ -1,6 +1,6 @@
 ---
 layout: post
-title: using-ai-tooling-a-lessons-learned-exercise
+title: Using AI tooling effectively - a lessons learned exercise
 date: 2025-11-21 00:00 +0000
 description: Whether you are for or against using AI tooling in your workflow, it is critical to know and understand the options.  The tooling can help you plan and even think better even without writing code for you.  Work smarter, not harder.
 img: posts/20251121/title.gif
