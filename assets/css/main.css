@@ -2137,3 +2137,64 @@ a.read-more:hover {
     .page__hero-caption a{color:#000 !important}
     .masthead,.toc,.page__share,.page__related,.pagination,.ads,.page__footer,.page__comments-form,.author__avatar,.author__content,.author__urls-wrapper,.nav__list,.sidebar,.adsbygoogle{display:none !important;height:1px !important}}
 
+/* GitHub-style Alert Blockquotes */
+blockquote.note {
+  border-left: 4px solid #0969da;
+  background-color: #ddf4ff;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+blockquote.tip {
+  border-left: 4px solid #1a7f37;
+  background-color: #dff6dd;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+blockquote.important {
+  border-left: 4px solid #8250df;
+  background-color: #fbefff;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+blockquote.warning {
+  border-left: 4px solid #9a6700;
+  background-color: #fff8c5;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+blockquote.caution {
+  border-left: 4px solid #d1242f;
+  background-color: #ffebe9;
+  padding: 12px 16px;
+  margin: 16px 0;
+}
+
+/* Dark theme variants */
+html[data-theme="dark"] blockquote.note {
+  border-left: 4px solid #2f81f7;
+  background-color: #1c2e4a;
+}
+
+html[data-theme="dark"] blockquote.tip {
+  border-left: 4px solid #3fb950;
+  background-color: #1a3329;
+}
+
+html[data-theme="dark"] blockquote.important {
+  border-left: 4px solid #a371f7;
+  background-color: #2e2038;
+}
+
+html[data-theme="dark"] blockquote.warning {
+  border-left: 4px solid #d29922;
+  background-color: #332e1f;
+}
+
+html[data-theme="dark"] blockquote.caution {
+  border-left: 4px solid #f85149;
+  background-color: #3b1219;
+}
