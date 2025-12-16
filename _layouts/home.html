@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="container">
+  <section class="hero hero--banner" aria-label="Site banner">
+    <div class="hero__media" aria-hidden="true">
+      <img class="hero__icon" src="{{ site.logo_icon | relative_url }}" alt="">
+    </div>
+    <div class="hero__content">
+      <h1 class="hero__title">{{ site.title }}</h1>
+      <p class="hero__subtitle">{{ site.description }}</p>
+    </div>
+  </section>
+  
+  {% include search-bar.html %}
+  
+  <div class="post-grid">
+    {% for post in paginator.posts %}
+      {% include post-card.html post=post %}
+    {% endfor %}
+  </div>
+  
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="btn">← Previous</a>
+    {% endif %}
+    
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="btn">Next →</a>
+    {% endif %}
+  </nav>
+  {% endif %}
+</div>

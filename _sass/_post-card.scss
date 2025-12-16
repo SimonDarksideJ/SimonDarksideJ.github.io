@@ -1,0 +1,98 @@
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing-xl);
+  margin: var(--spacing-xxl) 0;
+}
+
+.post-card {
+  background: var(--color-bg-secondary);
+  border-radius: var(--border-radius-lg);
+  overflow: hidden;
+  box-shadow: 0 2px 8px var(--color-shadow);
+  transition: transform var(--transition-speed) var(--transition-easing);
+  height: 100%;
+  
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px var(--color-shadow);
+  }
+}
+
+.post-card__link{
+  display:flex;
+  flex-direction:column;
+  height: 100%;
+  color: inherit;
+  text-decoration:none;
+}
+
+/* Prevent global anchor hover styles from making the whole card look like a big link */
+.post-card__link:hover,
+.post-card__link:focus,
+.post-card__link:active{
+  color: inherit;
+  text-decoration: none;
+}
+
+.post-card__link:focus-visible{
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+}
+
+.post-card__image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 60%;
+  overflow: hidden;
+  background-color: var(--color-bg-tertiary);
+  
+  img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.post-card__content {
+  padding-top: var(--spacing-lg);
+  padding-bottom: var(--spacing-lg);
+  padding-right: var(--spacing-xl);
+  padding-left: max(10%, var(--spacing-xl));
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.post-card__title {
+  font-size: var(--font-size-xl);
+  margin: 0 0 var(--spacing-sm) 0;
+  color: var(--color-text);
+}
+
+/* Only the title should present as the "link" affordance */
+.post-card__title:hover{
+  color: var(--color-secondary);
+  text-decoration: underline;
+}
+
+.post-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-sm);
+  margin-top: auto;
+  padding-top: var(--spacing-md);
+}
+
+.tag {
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-text-secondary);
+  border-radius: var(--border-radius-sm);
+  font-size: var(--font-size-sm);
+}

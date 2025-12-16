@@ -1,0 +1,70 @@
+<header class="site-header" role="banner">
+  <div class="container">
+    <nav class="site-nav" role="navigation" aria-label="Primary">
+      <div class="site-nav__left">
+        <a href="/" class="site-logo" aria-label="{{ site.title }} home">
+          <img class="site-logo__img site-logo__img--light" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
+          <img class="site-logo__img site-logo__img--dark" src="{{ site.logo_dark | relative_url }}" alt="{{ site.title }}">
+        </a>
+      </div>
+
+      <button id="mobile-menu-toggle" class="icon-btn site-nav__menu" type="button" aria-label="Toggle navigation" aria-controls="main-nav" aria-expanded="false">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+          <path fill="currentColor" d="M4 6h16v2H4V6Zm0 5h16v2H4v-2Zm0 5h16v2H4v-2Z"/>
+        </svg>
+      </button>
+
+      <ul id="main-nav" class="nav-links" role="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/tags/">Tags</a></li>
+        <li><a href="/books/">Books</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+
+      <div class="site-nav__right">
+        <div class="social-links" aria-label="Social links">
+          {% if site.author.github %}
+            <a class="icon-link" href="https://github.com/{{ site.author.github }}" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M12 .5C5.73.5.75 5.6.75 12c0 5.1 3.2 9.4 7.6 10.9.6.1.8-.3.8-.6v-2.1c-3.1.7-3.8-1.3-3.8-1.3-.5-1.4-1.3-1.8-1.3-1.8-1.1-.8.1-.8.1-.8 1.2.1 1.9 1.3 1.9 1.3 1.1 1.9 2.9 1.3 3.6 1 .1-.8.4-1.3.7-1.6-2.5-.3-5.1-1.3-5.1-5.7 0-1.3.4-2.3 1.1-3.1-.1-.3-.5-1.5.1-3.1 0 0 .9-.3 3.2 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.7.8 1.1 1.8 1.1 3.1 0 4.4-2.6 5.4-5.1 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.4-1.5 7.6-5.8 7.6-10.9C23.25 5.6 18.27.5 12 .5Z"/>
+              </svg>
+            </a>
+          {% endif %}
+
+          {% if site.author.linkedin %}
+            <a class="icon-link" href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M20.45 20.45h-3.55v-5.6c0-1.33-.03-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.69H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0Z"/>
+              </svg>
+            </a>
+          {% endif %}
+
+          {% if site.author.twitter %}
+            <a class="icon-link" href="https://twitter.com/{{ site.author.twitter | replace: '@','' }}" aria-label="Twitter/X" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23.3 22h-6.7l-5.2-6.7L5.6 22H2.5l7.3-8.4L1 2h6.9l4.7 6.1L18.9 2Zm-1.2 18h1.7L6.1 3.9H4.3L17.7 20Z"/>
+              </svg>
+            </a>
+          {% endif %}
+
+          {% if site.author.bluesky %}
+            <a class="icon-link" href="https://bsky.app/profile/{{ site.author.bluesky }}" aria-label="Bluesky" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037-.856 3.061-3.978 3.842-6.755 3.37 4.854.826 6.089 3.562 3.422 6.299-5.065 5.196-7.28-1.304-7.847-2.97-.104-.305-.152-.448-.153-.327 0-.121-.05.022-.153.327-.568 1.666-2.782 8.166-7.847 2.97-2.667-2.737-1.432-5.473 3.422-6.3-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/>
+              </svg>
+            </a>
+          {% endif %}
+
+          {% if site.author.mastodon %}
+            <a class="icon-link" href="{{ site.author.mastodon }}" aria-label="Mastodon" target="_blank" rel="me noopener noreferrer">
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"/>
+              </svg>
+            </a>
+          {% endif %}
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header>

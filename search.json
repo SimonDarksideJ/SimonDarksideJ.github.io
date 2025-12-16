@@ -1,0 +1,19 @@
+---
+layout: null
+---
+[
+  {% for post in site.posts %}
+    {
+      {% assign post_img = post.img | default: post.image | default: post.banner | default: post.featured_image | default: post.cover | default: post.header_image | default: post.hero_image | default: post.thumbnail %}
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "date": {{ post.date | date: "%B %d, %Y" | jsonify }},
+      "category": {{ post.category | jsonify }},
+      "tags": {{ post.tags | jsonify }},
+      "img": {{ post_img | jsonify }},
+      "description": {{ post.description | jsonify }},
+      "excerpt": {{ post.excerpt | strip_html | truncatewords: 50 | jsonify }},
+      "content": {{ post.content | strip_html | truncatewords: 200 | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

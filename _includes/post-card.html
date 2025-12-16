@@ -1,0 +1,35 @@
+<article class="post-card" data-tags="{{ include.post.tags | join: ',' | downcase }}">
+  <a class="post-card__link" href="{{ include.post.url | relative_url }}" aria-label="Read: {{ include.post.title }}">
+    <div class="post-card__image-wrapper">
+      {% assign post_img = include.post.img | default: include.post.image | default: include.post.banner | default: include.post.featured_image | default: include.post.cover | default: include.post.header_image | default: include.post.hero_image | default: include.post.thumbnail %}
+      {% if post_img %}
+        {% assign post_img_first = post_img | slice: 0, 1 %}
+        {% if post_img contains '://' %}
+          <img src="{{ post_img }}" alt="">
+        {% elsif post_img_first == '/' %}
+          <img src="{{ post_img | relative_url }}" alt="">
+        {% else %}
+          <img src="{{ '/assets/img/' | append: post_img | relative_url }}" alt="">
+        {% endif %}
+      {% else %}
+        <img src="{{ '/assets/img/banners/default-post-banner.svg' | relative_url }}" alt="">
+      {% endif %}
+    </div>
+    <div class="post-card__content">
+      <h2 class="post-card__title">{{ include.post.title }}</h2>
+      <time>{{ include.post.date | date: "%B %d, %Y" }}</time>
+      {% assign card_desc = include.post.description | default: include.post.excerpt %}
+      {% assign card_desc = card_desc | strip_html | strip_newlines | strip %}
+      {% if card_desc and card_desc != '' %}
+        <p>{{ card_desc | truncate: 160 }}</p>
+      {% endif %}
+      {% if include.post.tags %}
+        <div class="post-card__tags" aria-label="Tags">
+          {% for tag in include.post.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </a>
+</article>

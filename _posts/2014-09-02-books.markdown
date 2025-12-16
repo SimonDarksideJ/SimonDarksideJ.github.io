@@ -1,0 +1,104 @@
+---
+layout: post
+title: Books
+date: '2014-09-02 12:41:39'
+---
+
+
+# Welcome to the catalogue for my published works
+
+Here is where you will find all the details on my published articles, books and whatnot.  Click on the books or links to learn more about each title.
+
+
+## Accelerating Unity Through Automation
+
+Accelerating Unity Through Automation will help you to Power Up Your Unity Workflow by Offloading Intensive Tasks to automation and giving you more time to code and have fun.
+
+
+### **For more details click on the book image or link below:**
+
+<!--kg-card-begin: html-->
+<div align="center"><a title="Mastering Unity 2D Game Development"
+        href="https://www.amazon.co.uk/Accelerating-Unity-Through-Automation-Offloading/dp/1484295072/ref=sr_1_5?crid=1V55PE5STOPNN&_encoding=UTF8&tag=zenistud-21&linkCode=ur2&linkId=3d1d5a139a27aedad1fbc681e9a0e1d2&camp=1634&creative=6738"
+        target="_blank" rel="noopener"><img
+            src="https://m.media-amazon.com/images/I/41HjL5akrNL._SX348_BO1,204,203,200_.jpg"
+            alt="Accelerating Unity Through Automation by Simon Jackson" width="400" height="500"></a><br /> <a
+        title="Accelerating Unity Through Automation"
+        href="https://www.amazon.co.uk/Accelerating-Unity-Through-Automation-Offloading/dp/1484295072/ref=sr_1_5?crid=1V55PE5STOPNN&_encoding=UTF8&tag=zenistud-21&linkCode=ur2&linkId=3d1d5a139a27aedad1fbc681e9a0e1d2&camp=1634&creative=6738"
+        target="_blank" rel="noopener">Accelerating Unity Through Automation</a></div>
+<!--kg-card-end: html-->
+
+
+### About This Book
+
+- Build the automation of your dreams to accelerate your project
+- Get detailed examples for generating workflows tailored to your needs
+- Learn to save time and money by having a backend work for you
+- Discover the primary services for Unity automation using Unity Game Services Devops, Azure Pipelines and GitHub Actions
+
+
+### Who This Book Is For
+
+Developers having experience with Unity and interested in learning about (with no foreknowledge in) automation will greatly benefit from this book.
+
+
+## Mastering Unity 2D Game Development
+
+Mastering Unity 2D Game Development will give your game development skills a boost and help you begin creating and building an RPG with Unity 2D game framework.
+
+
+### **For more details click on the book image or link below:**
+
+<!--kg-card-begin: html-->
+<div align="center"><a title="Mastering Unity 2D Game Development"
+        href="https://www.amazon.co.uk/gp/product/1849697345/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1849697345&linkCode=as2&tag=zenistud-21&linkId=3c469276675c4d3a8de510a7a7b53421"
+        target="_blank" rel="noopener"><img
+            src="https://images-na.ssl-images-amazon.com/images/I/51iAHMURoPL._SX404_BO1,204,203,200_.jpg"
+            alt="Mastering Unity 2D Game Development by Simon Jackson" width="400" height="500"></a><br /> <a
+        title="Mastering Unity 2D Game Development"
+        href="https://www.amazon.co.uk/gp/product/1849697345/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=1849697345&linkCode=as2&tag=zenistud-21&linkId=3c469276675c4d3a8de510a7a7b53421"
+        target="_blank" rel="noopener">Mastering Unity 2D Game Development</a></div>
+<!--kg-card-end: html-->
+
+
+### About This Book
+
+- Learn the advanced features of Unity 2D to change and customize games to suit your needs
+- Discover tips and tricks for Unity2D’s new toolset
+- Understand scripting, deployment, and platform integration with an example at each step
+- Get a whole life-cycle overview of game development, from advanced scripting, monetization, marketing and deployment
+
+
+### Who This Book Is For
+
+If you have C# knowledge but now want to become truly confident in creating fully functional 2D RPG games with Unity, then this book will show you everything you need to know.
+
+
+## Unity 3D UI Essentials
+
+A complete end to end walk through the new Unity UI system, chock full of detail about each and every new feature with practical examples.  Includes an walk-through the of the Opensource project for the Unity UI codebase and how to work with it.
+
+
+### **For more information click on the image or link below.**
+
+<!--kg-card-begin: html-->
+<div align="center"><a title="Mastering Unity 2D Game Development"
+        href="https://www.amazon.co.uk/gp/product/B00T96XBYI/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00T96XBYI&linkCode=as2&tag=zenistud-21&linkId=aa43f2851c867cad0cc46387f113d0a5"
+        target="_blank" rel="noopener"><img src="https://m.media-amazon.com/images/I/517TIkZgFmL.jpg"
+            alt="Unity 3D UI Essentials by Simon Jackson" width="400" height="500"></a><br /> <a
+        title="Mastering Unity 2D Game Development"
+        href="https://www.amazon.co.uk/gp/product/B00T96XBYI/ref=as_li_tl?ie=UTF8&camp=1634&creative=6738&creativeASIN=B00T96XBYI&linkCode=as2&tag=zenistud-21&linkId=aa43f2851c867cad0cc46387f113d0a5"
+        target="_blank" rel="noopener">Unity 3D UI Essentials</a></div>
+<!--kg-card-end: html-->
+
+
+### About This Book
+
+- Discover how to build efficient UI layouts coping with multiple resolutions and screen sizes
+- In-depth overview of all the new UI features that give you creative freedom to drive your game development to new heights.
+- Walk through many different examples of UI layout from simple 2D overlays to in-game 3D implementations
+
+
+### Who This Book Is For
+
+If you have a good understanding of Unity’s core functionality and a decent grasp of C# scripting in Unity (although not essential if you are just using the Editor with the new UI), you’ll be well placed to take advantage of the new UI feature set.

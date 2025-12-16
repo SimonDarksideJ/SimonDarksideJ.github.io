@@ -1,0 +1,43 @@
+name: Check Links
+
+on:
+  pull_request:
+    paths:
+      - '**.md'
+      - '**.markdown'
+      - '_posts/**'
+  schedule:
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+
+jobs:
+  link-checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          
+      - name: Build site
+        run: bundle exec jekyll build
+        
+      - name: Check links
+        uses: lycheeverse/lychee-action@v1
+        with:
+          # Some sites (e.g. LinkedIn) rate-limit or block automated link checks.
+          # Reduce concurrency + add retries, and treat 429 as non-fatal to avoid false negatives.
+          args: >-
+            --verbose --no-progress
+            --exclude-mail
+            --timeout 30
+            --max-concurrency 2
+            --max-retries 3
+            --retry-wait-time 2
+            --accept 200,204,206,429
+            '_site/**/*.html'
+          fail: true

@@ -1,0 +1,23 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+
+    <div class="footer-links">
+      <a href="/privacy/">Privacy</a>
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>{% endif %}
+      {% if site.author.linkedin %}<a href="https://www.linkedin.com/in/{{ site.author.linkedin }}/" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+      {% if site.author.twitter %}<a href="https://twitter.com/{{ site.author.twitter | replace: '@','' }}" target="_blank" rel="noopener noreferrer">Twitter/X</a>{% endif %}
+      {% if site.author.bluesky %}<a href="https://bsky.app/profile/{{ site.author.bluesky }}" target="_blank" rel="noopener noreferrer">Bluesky</a>{% endif %}
+      {% if site.author.mastodon %}<a href="{{ site.author.mastodon }}" target="_blank" rel="me noopener noreferrer">Mastodon</a>{% endif %}
+      {% if site.author.stackoverflow %}
+        {% assign so = site.author.stackoverflow | strip %}
+        {% if so contains 'http://' or so contains 'https://' %}
+          <a href="{{ so }}" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
+        {% else %}
+          <a href="https://stackoverflow.com/users/{{ so }}" target="_blank" rel="noopener noreferrer">Stack Overflow</a>
+        {% endif %}
+      {% endif %}
+      {% if site.author.email %}<a href="mailto:{{ site.author.email }}">Email</a>{% endif %}
+    </div>
+  </div>
+</footer>

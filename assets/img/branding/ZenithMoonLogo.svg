@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="ZenithMoon">
+  <circle cx="64" cy="64" r="54" fill="#3498db" opacity="0.18"/>
+  <path d="M64 18a46 46 0 1 0 46 46A46 46 0 0 0 64 18Zm0 86a40 40 0 0 1 0-80 36 36 0 0 0 0 80Z" fill="#3498db"/>
+</svg>

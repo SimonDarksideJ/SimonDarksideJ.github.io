@@ -1,0 +1,132 @@
+# Site Settings
+title: DarkGenesis - Modern Indie Development
+description: >-
+  Modern indie development blog featuring tutorials, insights, and content 
+  all geared around Mixed Reality, Game Development, and emerging technologies.
+  
+# URLs and permalinks
+permalink: ':title:output_ext'  # Preserve existing URL structure for SEO
+baseurl: ""
+url: "https://darkgenesis.zenithmoon.com"
+
+# Site branding
+logo: "/assets/img/branding/darkgenesis-logo-full-light.png"
+logo_dark: "/assets/img/branding/darkgenesis-logo-full-dark.png"
+logo_icon: "/assets/img/branding/ZenithMoonLogo.png"
+favicon: "/assets/img/favicon/favicon.ico"
+
+# Author information
+author:
+  name: Simon (darkside) Jackson
+  email: darkside@zenithmoon.com
+  linkedin: xrconsultant
+  github: simondarksidej
+  bluesky: simondarksidej.bsky.social
+  mastodon: "https://mastodon.social/@SimonDarksideJ"
+  twitter: '@simondarksidej'
+  # Stack Overflow profiles are under /users/<id>/<slug>
+  stackoverflow: 606847/darkside
+  avatar: /assets/img/author/Myself_grey.jpg
+  bio: >-
+    Engineer, industry executive, research enthusiast. Avid learner with diverse 
+    interests in coding, game development, Mixed Reality (AR/VR/XR) and reinforcement 
+    learning. 25+ years of experience working in multinational corporations and startups.
+
+# Analytics
+google_analytics: G-S2P4W0VHVB
+
+# Comments (Utterances)
+comments:
+  provider: utteranc
+  utteranc:
+    repo: SimonDarksideJ/comments.SimonDarksideJ.github.io
+    issue_term: pathname
+    theme: github-dark
+    label: comments
+
+# Pagination
+paginate: 12
+paginate_path: '/page/:num/'
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+timezone: UTC
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      read_time: true
+      show_date: true
+      comments: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-category
+    tag: archive-tag
+  slug_mode: pretty
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+
+# Include/Exclude
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - gulpfile.js
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - README.md
+  - LICENSE
+  - docs
+  - tmp
+
+# Search settings
+search:
+  enabled: true
+  show_excerpts: true
+  
+# Social sharing
+social:
+  auto_crosspost: false  # Global default, can be overridden per post

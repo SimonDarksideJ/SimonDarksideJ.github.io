@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://darkgenesis.zenithmoon.com/sitemap.xml
