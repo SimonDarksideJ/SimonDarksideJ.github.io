@@ -27,7 +27,7 @@ jobs:
         run: bundle exec jekyll build
         
       - name: Check links
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           # Some sites (e.g. LinkedIn) rate-limit or block automated link checks.
           # Reduce concurrency + add retries, and treat 429 as non-fatal to avoid false negatives.
