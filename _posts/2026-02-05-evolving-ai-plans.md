@@ -10,7 +10,6 @@ tags:
   - ai
 author: Simon Jackson
 img: posts/20260215/aidetected.gif
-github: SimonDarksideJ/SimonDarksideJ.github.io/
 ---
 
 The world of AI is moving faster than most can keep up, by the time you have mastered one pattern, several others have cropped up.  If you do not keep a check on yourself, you could be left behind.  If you thought it was tough in the 80/90's (I am old, I get it) with how fast things were evolving, then buckle up, we are now reaching lightspeed.
