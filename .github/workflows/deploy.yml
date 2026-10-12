@@ -49,3 +49,32 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # zenithmoon.com mirrors these posts under /blogs at build time. This asks it to rebuild
+  # once DarkGenesis is live, so a new post appears there too without a second publish.
+  # It signs in as a private GitHub App installed only on ZenithMoon.Website. The app's key
+  # does not expire, and each run gets a token that lasts an hour and can only touch that repo.
+  # Needs the ZENITHMOON_APP_CLIENT_ID variable and the ZENITHMOON_APP_PRIVATE_KEY secret.
+  # The job is skipped until the variable exists.
+  notify-zenithmoon:
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: ${{ vars.ZENITHMOON_APP_CLIENT_ID != '' }}
+    permissions: {}
+    steps:
+      - name: Get a token for ZenithMoon.Website
+        id: app-token
+        uses: actions/create-github-app-token@v3
+        with:
+          client-id: ${{ vars.ZENITHMOON_APP_CLIENT_ID }}
+          private-key: ${{ secrets.ZENITHMOON_APP_PRIVATE_KEY }}
+          owner: SimonDarksideJ
+          repositories: ZenithMoon.Website
+          permission-contents: write
+
+      - name: Ask zenithmoon.com to rebuild its blog mirror
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh api repos/SimonDarksideJ/ZenithMoon.Website/dispatches -f event_type=blog-updated
+          echo "Requested a rebuild of zenithmoon.com for $GITHUB_SHA."
