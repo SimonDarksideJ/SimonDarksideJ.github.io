@@ -17,7 +17,7 @@
     </div>
     <div class="post-card__content">
       <h2 class="post-card__title">{{ include.post.title }}</h2>
-      <time>{{ include.post.date | date: "%B %d, %Y" }}</time>
+      <time datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: "%B %d, %Y" }}</time>
       {% assign card_desc = include.post.description | default: include.post.excerpt %}
       {% assign card_desc = card_desc | strip_html | strip_newlines | strip %}
       {% if card_desc and card_desc != '' %}

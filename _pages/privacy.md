@@ -10,18 +10,18 @@ This Privacy Policy explains what information this site may collect, how it may 
 ## Summary
 
 - This site is hosted as a static site (GitHub Pages).
-- This site may use analytics and third-party services to understand traffic and support comments.
+- This site uses Google Analytics to understand traffic, and Giscus (GitHub Discussions) for comments.
 - This site does not intentionally collect sensitive personal information.
 
 ## Information this site may collect
 
 ### Analytics
 
-This site may use analytics to understand aggregate usage (for example: pages visited, approximate location, device/browser information). If enabled, analytics providers may set cookies or use similar technologies.
+This site uses Google Analytics to understand aggregate usage (for example: pages visited, approximate location, device and browser information). Google Analytics sets cookies to do this. Google's own [privacy policy](https://policies.google.com/privacy) covers the data it collects.
 
 ### Comments
 
-If comments are enabled, a third-party comment provider may process information you submit (such as your GitHub account information and comment content).
+Comments use [Giscus](https://giscus.app), which stores each comment in GitHub Discussions on a public GitHub repository. To comment, you sign in with your GitHub account. Your comment, GitHub username and avatar are then public on GitHub, and the [GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) applies to them. You can edit or delete your own comments on GitHub at any time.
 
 ### Server logs
 
@@ -36,7 +36,7 @@ The hosting provider may collect basic request logs (for example: IP address, us
 ## Your choices
 
 - You can disable cookies via your browser settings.
-- If you post comments via a third-party provider, your information is governed by that provider’s policies.
+- If you post comments via a third-party provider, your information is governed by that provider's policies.
 
 ## Third-party services
 

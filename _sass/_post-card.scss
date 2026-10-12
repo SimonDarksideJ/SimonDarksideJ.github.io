@@ -47,7 +47,8 @@
   overflow: hidden;
   background-color: var(--color-bg-tertiary);
   
-  img {
+  img,
+  video {
     position: absolute;
     top: 0;
     left: 0;

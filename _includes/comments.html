@@ -1,0 +1,49 @@
+{% comment %}
+  Giscus comments (GitHub Discussions). Renders nothing until the IDs in _config.yml are set.
+  The widget theme follows the site's light/dark toggle.
+{% endcomment %}
+{% assign g = site.giscus %}
+{% if g and g.repo_id and g.category_id %}
+  {% assign repo_id_start = g.repo_id | slice: 0, 4 %}
+  {% assign category_id_start = g.category_id | slice: 0, 4 %}
+  {% unless repo_id_start == 'TODO' or category_id_start == 'TODO' %}
+    <section class="post-comments" aria-label="Comments">
+      <h2 class="post-comments__title">Comments</h2>
+      <div class="giscus"></div>
+    </section>
+    <script>
+      (function () {
+        function giscusTheme() {
+          var attr = document.documentElement.getAttribute('data-theme');
+          if (attr === 'dark' || attr === 'light') return attr;
+          return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+
+        var s = document.createElement('script');
+        s.src = 'https://giscus.app/client.js';
+        s.async = true;
+        s.crossOrigin = 'anonymous';
+        s.setAttribute('data-repo', {{ g.repo | jsonify }});
+        s.setAttribute('data-repo-id', {{ g.repo_id | jsonify }});
+        s.setAttribute('data-category', {{ g.category | jsonify }});
+        s.setAttribute('data-category-id', {{ g.category_id | jsonify }});
+        s.setAttribute('data-mapping', {{ g.mapping | default: 'pathname' | jsonify }});
+        s.setAttribute('data-strict', '0');
+        s.setAttribute('data-reactions-enabled', {{ g.reactions_enabled | default: '1' | jsonify }});
+        s.setAttribute('data-emit-metadata', '0');
+        s.setAttribute('data-input-position', {{ g.input_position | default: 'top' | jsonify }});
+        s.setAttribute('data-lang', {{ g.lang | default: 'en' | jsonify }});
+        s.setAttribute('data-loading', 'lazy');
+        s.setAttribute('data-theme', giscusTheme());
+        document.querySelector('.post-comments').appendChild(s);
+
+        // Keep the widget in step with the site toggle (see theme-toggle.js).
+        document.addEventListener('themechange', function (e) {
+          var frame = document.querySelector('iframe.giscus-frame');
+          if (!frame) return;
+          frame.contentWindow.postMessage({ giscus: { setConfig: { theme: e.detail.theme } } }, 'https://giscus.app');
+        });
+      })();
+    </script>
+  {% endunless %}
+{% endif %}

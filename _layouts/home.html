@@ -15,7 +15,7 @@ layout: default
   
   {% include search-bar.html %}
   
-  <div class="post-grid">
+  <div class="post-grid" data-page-size="{{ site.paginate | default: 12 }}" data-search-url="{{ '/search.json' | relative_url }}">
     {% for post in paginator.posts %}
       {% include post-card.html post=post %}
     {% endfor %}

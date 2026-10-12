@@ -316,3 +316,23 @@
     padding: var(--spacing-xl) 0;
   }
 }
+
+// Giscus comments (see _includes/comments.html)
+.post-comments{
+  margin-top: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  border-top: 1px solid var(--color-border);
+}
+
+.post-comments__title{
+  margin-bottom: var(--spacing-md);
+}
+
+// Former animated GIFs, now WebM videos (see .scratch/images/convert_gifs.py)
+.post-content video{
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: var(--spacing-md) 0;
+  border-radius: var(--border-radius-sm);
+}

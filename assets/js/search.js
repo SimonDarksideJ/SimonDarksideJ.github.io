@@ -1,9 +1,9 @@
 (function() {
   let searchIndex = [];
   
-  async function loadSearchIndex() {
+  async function loadSearchIndex(url) {
     try {
-      const response = await fetch('/search.json');
+      const response = await fetch(url || '/search.json');
       searchIndex = await response.json();
     } catch (error) {
       console.error('Failed to load search index:', error);
@@ -25,14 +25,6 @@
     return tokens.some(t => String(t).includes(token));
   }
   
-  function normalizePath(url) {
-    try {
-      return new URL(url, window.location.origin).pathname;
-    } catch {
-      return url;
-    }
-  }
-
   function search(query, limit) {
     if (!query || query.length < 2) return [];
     const queryTokens = tokenize(query, 2);
@@ -131,7 +123,9 @@
     const title = escapeHtml(post.title || '');
     const url = escapeHtml(post.url || '#');
     const date = escapeHtml(post.date || '');
-    const desc = escapeHtml((post.description || post.excerpt || '').trim());
+    // Truncate before escaping, so an entity such as &amp; is never cut in half.
+    const rawDesc = (post.description || post.excerpt || '').trim();
+    const desc = escapeHtml(rawDesc.length > 160 ? rawDesc.slice(0, 157) + '...' : rawDesc);
     const tags = Array.isArray(post.tags) ? post.tags : [];
     const tagsAttr = tags.map(t => String(t).toLowerCase()).join(',');
     const imgSrc = escapeHtml(resolveImageSrc(post.img));
@@ -145,7 +139,7 @@
     <div class="post-card__content">
       <h2 class="post-card__title">${title}</h2>
       <time>${date}</time>
-      ${desc ? `<p>${desc.length > 160 ? desc.slice(0, 157) + '…' : desc}</p>` : ''}
+      ${desc ? `<p>${desc}</p>` : ''}
       ${tags.length ? `<div class="post-card__tags" aria-label="Tags">${tags.map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('')}</div>` : ''}
     </div>
   </a>
@@ -195,33 +189,18 @@
     }
   }
 
-  function applyCardFilter(query, postCards) {
-    const q = (query || '').trim();
-
-    if (!postCards.length) return;
-
-    if (!q || q.length < 2) {
-      postCards.forEach(card => { card.style.display = ''; });
-      return;
-    }
-
-    const resultsAll = search(q);
-    const allowed = new Set(resultsAll.map(r => normalizePath(r.post.url)));
-    postCards.forEach(card => {
-      const link = card.querySelector('a');
-      const href = link ? normalizePath(link.getAttribute('href') || '') : '';
-      card.style.display = allowed.has(href) ? '' : 'none';
-    });
-  }
-  
   document.addEventListener('DOMContentLoaded', async function() {
-    await loadSearchIndex();
-    
     const searchInput = document.getElementById('search-input');
     const gridEl = document.querySelector('.post-grid');
+    // Only pages with a search box need the index, so skip the download everywhere else.
+    if (!searchInput || !gridEl) return;
+
+    await loadSearchIndex(gridEl.dataset.searchUrl);
+
     const paginationEl = document.querySelector('.pagination');
-    const initialPostCards = Array.from(document.querySelectorAll('.post-grid .post-card'));
-    const pageSize = initialPostCards.length || 12;
+    // Use the configured page size, not the card count: the last page can be short.
+    const configuredSize = parseInt(gridEl.dataset.pageSize, 10);
+    const pageSize = configuredSize > 0 ? configuredSize : 12;
 
     const original = {
       gridHtml: gridEl ? gridEl.innerHTML : '',

@@ -1,0 +1,9 @@
+{% comment %}
+  Shown at the top of older posts (see archive_notice_before in _config.yml).
+  A post can opt out with `archive_notice: false` or opt in with `archive_notice: true`.
+  Wording awaiting Simon's approval.
+{% endcomment %}
+<div class="markdown-alert markdown-alert--note archive-notice" role="note" aria-label="From the archive">
+  <p class="markdown-alert__title">From the archive</p>
+  <p>This post was written in {{ include.year }}. Technology has moved on a fair bit since then, so some of the tools, links and advice here may well be out of date. Treat it as a piece of history rather than a current guide.</p>
+</div>

@@ -63,7 +63,7 @@ layout: default
         {% if page.tags.size > 0 %}
           <div class="post-tags">
             {% for tag in page.tags %}
-              {% assign tag_slug = tag | slugify %}
+              {% assign tag_slug = tag | slugify: 'pretty' %}
               <a href="{{ '/tag/' | append: tag_slug | append: '/' | relative_url }}" class="tag">{{ tag }}</a>
             {% endfor %}
           </div>
@@ -71,8 +71,23 @@ layout: default
       </header>
 
       <div class="post-content">
+        {% comment %} Historical note on older posts (decision D9). {% endcomment %}
+        {% assign post_year = page.date | date: '%Y' | plus: 0 %}
+        {% assign notice_before = site.archive_notice_before | default: 0 %}
+        {% assign show_notice = false %}
+        {% if post_year < notice_before %}{% assign show_notice = true %}{% endif %}
+        {% if page.archive_notice == false %}{% assign show_notice = false %}{% endif %}
+        {% if page.archive_notice == true %}{% assign show_notice = true %}{% endif %}
+        {% if show_notice %}
+          {% include archive-notice.html year=post_year %}
+        {% endif %}
+
         {{ content }}
       </div>
+
+      {% unless page.comments == false %}
+        {% include comments.html %}
+      {% endunless %}
     </div>
   </div>
 </article>

@@ -4,17 +4,24 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
+
+  <!-- Apply a stored theme before first paint, so the page does not flash the auto theme. -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('theme-preference');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
 
   {% assign meta_desc = page.description | default: page.excerpt | default: site.description %}
   {% assign meta_desc = meta_desc | strip_html | strip_newlines | strip | truncate: 160 %}
   <meta name="description" content="{{ meta_desc }}">
   
-  {% if site.favicon %}
-    <link rel="icon" href="{{ site.favicon | relative_url }}" sizes="any">
-  {% endif %}
-  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" href="{{ site.favicon | default: '/favicon.ico' | relative_url }}" sizes="any">
   {% if site.logo_icon %}
     {% if site.logo_icon contains '.svg' %}
       <link rel="icon" type="image/svg+xml" href="{{ site.logo_icon | relative_url }}">
@@ -28,7 +35,8 @@
   {% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
-  
+  {% feed_meta %}
+
   <!-- OpenGraph -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{{ meta_desc }}">
@@ -36,25 +44,28 @@
   <meta property="og:url" content="{{ page.url | absolute_url }}">
 
   {% assign page_img = page.img | default: page.image | default: page.banner | default: page.featured_image | default: page.cover | default: page.header_image | default: page.hero_image | default: page.thumbnail %}
+  {% comment %} Social crawlers ignore SVG, so fall back to a raster image when there is no image or it is an SVG. {% endcomment %}
+  {% assign og_img = '/assets/img/posts/defaultpostimage.jpg' | absolute_url %}
   {% if page_img %}
-    {% assign page_img_first = page_img | slice: 0, 1 %}
-    {% if page_img contains '://' %}
-      <meta property="og:image" content="{{ page_img }}">
-      <meta name="twitter:image" content="{{ page_img }}">
-    {% elsif page_img_first == '/' %}
-      <meta property="og:image" content="{{ page_img | absolute_url }}">
-      <meta name="twitter:image" content="{{ page_img | absolute_url }}">
-    {% else %}
-      <meta property="og:image" content="{{ '/assets/img/' | append: page_img | absolute_url }}">
-      <meta name="twitter:image" content="{{ '/assets/img/' | append: page_img | absolute_url }}">
-    {% endif %}
+    {% unless page_img contains '.svg' %}
+      {% assign page_img_first = page_img | slice: 0, 1 %}
+      {% if page_img contains '://' %}
+        {% assign og_img = page_img %}
+      {% elsif page_img_first == '/' %}
+        {% assign og_img = page_img | absolute_url %}
+      {% else %}
+        {% assign og_img = '/assets/img/' | append: page_img | absolute_url %}
+      {% endif %}
+    {% endunless %}
   {% endif %}
+  <meta property="og:image" content="{{ og_img }}">
+  <meta name="twitter:image" content="{{ og_img }}">
   
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   
-  {% if site.google_analytics %}
+  {% if site.google_analytics and jekyll.environment == 'production' %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];

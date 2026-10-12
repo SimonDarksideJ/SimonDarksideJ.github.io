@@ -1,4 +1,8 @@
 (function () {
+  // GitHub-style alerts ("> [!NOTE]") are converted at build time by _plugins/markdown_alerts.rb.
+  // This script is a fallback: it skips blockquotes that are already converted, and it still
+  // styles older callouts written as "> **Note:** Something".
+
   function normalizeAlertType(raw) {
     var upper = raw.toUpperCase();
     if (upper === 'NOTE') return 'note';
@@ -7,20 +11,6 @@
     if (upper === 'WARNING') return 'warning';
     if (upper === 'CAUTION') return 'caution';
     return null;
-  }
-
-  function matchLegacyPrefix(text) {
-    // Matches common legacy patterns rendered from markdown like:
-    // > **Note:** Something
-    // which typically becomes textContent: "Note: Something"
-    // Only applied inside blockquotes.
-    var match = text.match(/^(Note|Tip|Important|Warning|Caution)\s*:\s*/i);
-    if (!match) return null;
-
-    var type = normalizeAlertType(match[1]);
-    if (!type) return null;
-
-    return { type: type, prefix: match[0] };
   }
 
   function titleForType(type) {
@@ -32,51 +22,65 @@
     return 'Note';
   }
 
+  var GITHUB_MARKER = /^\[!([A-Za-z]+)\]\s*/;
+  var LEGACY_MARKER = /^(Note|Tip|Important|Warning|Caution)\s*:\s*/i;
+  var LEGACY_WORD = /^(Note|Tip|Important|Warning|Caution)\s*:?$/i;
+
+  // Remove the marker from the start of the paragraph without touching the links,
+  // code or emphasis that follow it.
+  function stripLeadingMarker(p) {
+    var node = p.firstChild;
+    while (node && node.nodeType === Node.TEXT_NODE && !node.nodeValue.trim()) {
+      node = node.nextSibling;
+    }
+    if (!node) return;
+
+    if (node.nodeType === Node.TEXT_NODE) {
+      node.nodeValue = node.nodeValue.replace(/^\s+/, '').replace(GITHUB_MARKER, '').replace(LEGACY_MARKER, '');
+    } else if (node.nodeType === Node.ELEMENT_NODE && /^(STRONG|B|EM)$/.test(node.tagName) &&
+               LEGACY_WORD.test((node.textContent || '').trim())) {
+      var next = node.nextSibling;
+      node.remove();
+      if (next && next.nodeType === Node.TEXT_NODE) {
+        next.nodeValue = next.nodeValue.replace(/^\s*:?\s*/, '');
+      }
+    }
+  }
+
   function enhanceMarkdownAlerts(root) {
     var blockquotes = (root || document).querySelectorAll('.post-content blockquote');
 
     blockquotes.forEach(function (blockquote) {
+      if (blockquote.classList.contains('markdown-alert')) return;
+
       var firstParagraph = blockquote.querySelector('p');
       if (!firstParagraph) return;
 
       var text = (firstParagraph.textContent || '').trim();
-
-      // Preferred GitHub-style: [!NOTE]
-      var match = text.match(/^\[!([A-Za-z]+)\]\s*/);
       var type = null;
-      var markerPrefix = null;
 
+      var match = text.match(GITHUB_MARKER);
       if (match) {
         type = normalizeAlertType(match[1]);
-        markerPrefix = match[0];
       } else {
-        // Legacy: "Note: ..." (often from **Note:**)
-        var legacy = matchLegacyPrefix(text);
-        if (legacy) {
-          type = legacy.type;
-          markerPrefix = legacy.prefix;
-        }
+        var legacy = text.match(LEGACY_MARKER);
+        if (legacy) type = normalizeAlertType(legacy[1]);
       }
-
       if (!type) return;
 
       blockquote.classList.add('markdown-alert', 'markdown-alert--' + type);
 
-      // Remove the marker from the first paragraph text.
-      var updated = markerPrefix ? text.replace(markerPrefix, '').trim() : text;
-      if (updated.length === 0) {
+      stripLeadingMarker(firstParagraph);
+      if (!firstParagraph.textContent.trim() && !firstParagraph.querySelector('img, code, a')) {
         firstParagraph.remove();
-      } else {
-        firstParagraph.textContent = updated;
       }
 
-      // Prepend a title.
       var title = document.createElement('p');
       title.className = 'markdown-alert__title';
       title.textContent = titleForType(type);
       blockquote.prepend(title);
 
-      // Improve a11y: make it a labelled region.
+      // Accessibility: make it a labelled region.
       blockquote.setAttribute('role', 'note');
       blockquote.setAttribute('aria-label', titleForType(type));
     });
