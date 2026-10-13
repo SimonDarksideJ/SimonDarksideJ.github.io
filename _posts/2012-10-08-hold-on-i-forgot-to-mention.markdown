@@ -11,8 +11,7 @@ In the past this would require you to host your own web service or hold some XML
 
 * * *
 
-
-# Get me some updates!
+## Get me some updates!
 
 We noticed an amazing pattern being used by some apps where they were presenting their notifications to users as toasts or banners in their apps which is exactly how [AdRotator](http://wp7adrotator.codeplex.com/) works and we thought the idea was so fantastic that here is a separate post just for it.
 
@@ -20,6 +19,3 @@ The idea is simple thanks to the built in Remote House Ad Support available in A
 
 1. Create a XAML user control and host the XAML somewhere on the web, probably best where you host your remote AdRotator configuration (we recommend signing up for a FREE [Azure](http://www.windowsazure.com/en-us/) or [AppHarbour](https://appharbor.com/) account and link it to your source control of choice), we use AppHarbour for the AdRotator examples.
 2. Update your Remote XML configuration for AdRotator in your app to set a remote URL for the House Ad thus:
-
-    
-

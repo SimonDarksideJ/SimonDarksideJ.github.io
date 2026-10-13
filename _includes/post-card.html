@@ -2,7 +2,16 @@
   <a class="post-card__link" href="{{ include.post.url | relative_url }}" aria-label="Read: {{ include.post.title }}">
     <div class="post-card__image-wrapper">
       {% assign post_img = include.post.img | default: include.post.image | default: include.post.banner | default: include.post.featured_image | default: include.post.cover | default: include.post.header_image | default: include.post.hero_image | default: include.post.thumbnail %}
-      {% if post_img %}
+      {% if include.post.img_video %}
+        {% assign card_poster = post_img | default: '' %}
+        {% unless card_poster contains '://' or card_poster == '' %}{% assign card_poster_first = card_poster | slice: 0, 1 %}{% if card_poster_first != '/' %}{% assign card_poster = '/assets/img/' | append: card_poster %}{% endif %}{% endunless %}
+        {% assign card_video = include.post.img_video %}
+        {% assign card_video_first = card_video | slice: 0, 1 %}
+        {% if card_video_first != '/' %}{% assign card_video = '/assets/img/' | append: card_video %}{% endif %}
+        <video autoplay loop muted playsinline preload="none"{% if card_poster != '' %} poster="{{ card_poster | relative_url }}"{% endif %}>
+          <source src="{{ card_video | relative_url }}" type="video/webm">
+        </video>
+      {% elsif post_img %}
         {% assign post_img_first = post_img | slice: 0, 1 %}
         {% if post_img contains '://' %}
           <img src="{{ post_img }}" alt="">

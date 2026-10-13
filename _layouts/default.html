@@ -100,5 +100,16 @@
   <script src="{{ '/assets/js/search.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/toc.js' | relative_url }}"></script>
   <script src="{{ '/assets/js/markdown-alerts.js' | relative_url }}"></script>
+  <script>
+    // Former animated GIFs autoplay like GIFs did. Respect reduced motion: pause them and show controls.
+    (function () {
+      if (!window.matchMedia || !window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      document.querySelectorAll('video[autoplay]').forEach(function (v) {
+        v.removeAttribute('autoplay');
+        v.pause();
+        v.controls = true;
+      });
+    })();
+  </script>
 </body>
 </html>

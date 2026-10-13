@@ -7,7 +7,6 @@ tags: [2d tutorial, game development, xna]
 
 *Continued from previous post*
 
-
 ## 8. User Input
 
 An address is a number that is assigned to each byte in a computer’s memory. It is used to track where data and instructions are stored in memory. Each byte is assigned an address whether or not it is being used to store data.
@@ -15,7 +14,6 @@ An address is a number that is assigned to each byte in a computer’s memory. I
 Facts:
 
 - Instead of using the assignment operator to assign value to the variables, the input function ReadLine is used.
-- This is an arithmetic expression. 
 
 ```csharp
      class test
@@ -59,8 +57,7 @@ Facts:
 - This is why deltaX*deltaX is evaluated first to 25.
 - Next deltaY*deltaY is evaluated to 4.
 - Then 25 and 4 are added evaluating to 29.
-- Then the square root of 29 is evaluated to 5.3851648071345. 
-
+- Then the square root of 29 is evaluated to 5.3851648071345.
 
 ## 9. Conditional Expression
 
@@ -94,14 +91,13 @@ Facts:
 - If the expression is false then the statement following the condition is skipped.
 - The statement following the else is executed only when the conditional expression is false.
 - In other words, only one of the WriteLine statements will be executed.
-- The conditional statement starts with the keyword if followed by an opening parenthesis, followed by a Boolean expression, followed by a closing parenthesis, followed by an instruction: 
+- The conditional statement starts with the keyword if followed by an opening parenthesis, followed by a Boolean expression, followed by a closing parenthesis, followed by an instruction:
 
 ```csharp
      if(Boolean expression) instruction;
 ```
 
 Notice that there is no semicolon after the closing parenthesis of the Boolean expression because the conditional statement has not ended yet.
-
 
 ## 10. Loops
 
@@ -132,31 +128,29 @@ Notice that there is no semicolon after the closing parenthesis of the Boolean e
 
 Facts:
 
-- The for loop form is: 
+- The for loop form is:
 
-> for (expression1 ;expression2 ;expression3 ) statement
+`for (expression1 ;expression2 ;expression3 ) statement`
 
 - The loop is initialized through _expression1_ i=0;
 - _Expression2_ specifies the test made before each iteration i<10;
-- If _expression2_ is true, the statement Console.Write(“{0} “,i); is executed, then _expression 3_ i=i+1 is executed.
+- If _expression2_ is true, the statement Console.Write("{0} ",i); is executed, then _expression 3_ i=i+1 is executed.
 - The loop iterates until _expression2_ is false.
 - If _expression2_ is false, the for loop will exit, and the control is transferred to the statement following the statement.
 - _Expression3_ is evaluated after each iteration.
 - Any or all of the three for expressions may be omitted, but the semicolon must remain.
-- The while loop form is: while (expression) statement 
+- The while loop form is: while (expression) statement
 
 If _expression_ i<10 is true, the statement is executed until _expression_ becomes false. In our case the statement is made from a block enclosed between curly braces:
 
 ```csharp
-
      {
-          Console.WriteLine(“{0} “,i);
+          Console.WriteLine("{0} ",i);
           i=i+1;
      }
 ```
 
 If _expression_ is false, the execution resumes at the following statement. In our case, the following statement is the end of the program. The expression is evaluated before the statement is executed. When the expression is false from the first time, the statement will never be executed.
-
 
 ## 11. One-Dimensional Array
 
@@ -170,12 +164,12 @@ If _expression_ is false, the execution resumes at the following statement. In o
 
                for(i=0;i<10;i=i+1)
                {
-                    A=i;
+                    A[i]=i;
                }
 
                for(i=0;i<10;i=i+1)
                {
-                    Console.Write("{0} ",A);
+                    Console.Write("{0} ",A[i]);
                }
           }
      }
@@ -191,8 +185,7 @@ Facts:
 - The amount of storage required to hold an array depends on the type and the total number of elements; in our case it is 10 * 4=40, since each integer is 4 bytes.
 - The _C#_ compiler does not perform index range checking.
 - The array element is accessed by indexing the array name.
-- It is done by writing the index enclosed between brackets placed after the array name. _arrayName_[index] A=i; 
-
+- It is done by writing the index enclosed between brackets placed after the array name. _arrayName_[index] `A[i]=i;`
 
 ## 12. Structure
 
@@ -232,7 +225,7 @@ Facts:
 - A structure is an object consisting of a sequence of named members of various types.
 - It is a collection of variables referenced under one name.
 - The collection of variables is logically related.
-- It provides a convenient way in order to keep related information together. 
+- It provides a convenient way in order to keep related information together.
 
 A structure is declared by typing the keyword _struct_, followed by the structure name, followed by the structure members enclosed between curly braces; for example:
 
@@ -246,7 +239,7 @@ A structure is declared by typing the keyword _struct_, followed by the structur
 Once a structure is declared, variables having the structure type could be declared by typing the structure name followed by the variable name; for example:
 
 ```csharp
-     1: int deltaX;
+     point p1;
 ```
 
 The dot “.” operator is used to access the structure member. First write the structure variable name, followed by a dot, followed by a member; for example:
@@ -255,12 +248,10 @@ The dot “.” operator is used to access the structure member. First write the
      deltaX=p2.x - p1.x;
 ```
 
-
 ## Conclusion
 
-Well that is the overview done, next comes the full detail for the above.  As before read only if you wish but for beginners, I’d highly recommend it (also also check out the [docs](http://msdn.microsoft.com/en-us/library/618ayhy6(VS.71).aspx "C# programmers reference on MSDN") on the [MSDN library](http://msdn.microsoft.com/en-us/library/ms123401(v=MSDN.10).aspx "MSDN Library jump point (wealth of madness)") which has a vast amount of information and free samples for the above and so much more.
+Well that is the overview done, next comes the full detail for the above.  As before read only if you wish but for beginners, I’d highly recommend it (also check out the [docs](http://msdn.microsoft.com/en-us/library/618ayhy6(VS.71).aspx "C# programmers reference on MSDN") on the [MSDN library](http://msdn.microsoft.com/en-us/library/ms123401(v=MSDN.10).aspx "MSDN Library jump point (wealth of madness)") which has a vast amount of information and free samples for the above and so much more.
 
 More to come
 
 Simon (Darkside) Jackson
-

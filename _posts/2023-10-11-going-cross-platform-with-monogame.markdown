@@ -3,7 +3,8 @@ layout: post
 title: Going cross-platform with MonoGame
 date: 2023-10-11 00:00 +0000
 description: Building for one platform is great, but why not maximise your reach and potential sales with more using the SAME code!
-img: posts/20231011/title.gif
+img: posts/20231011/title.jpg
+img_video: posts/20231011/title.webm
 category: MonoGame
 tags:
 - game development
@@ -11,14 +12,13 @@ tags:
 - monogame
 author: Simon Jackson
 github: MonoGame/MonoGame
-mathjax: false
 ---
 
-![Coding is Life](/assets/img/posts/20231011/01-goingforglory.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231011/01-goingforglory.jpg" aria-label="Coding is Life"><source src="/assets/img/posts/20231011/01-goingforglory.webm" type="video/webm"></video>
 
 > TL;DR -> Today, cross-platform projects are easy to setup (except UWP), with .NET7, it gets easier.  Read the article for the How-to!
 
-Most Game projects when built are solely for a single platform, usually the same as the development machine they are being built upon.  Only later does the idea surface to maybe ship to another console, handheld or platform which then highlights issues in the games implementation that can lead to issues.
+Most Game projects when built are solely for a single platform, usually the same as the development machine they are being built upon.  Only later does the idea surface to maybe ship to another console, handheld or platform which then highlights issues in the game's implementation that can lead to problems.
 
 > You CAN just build and ship to one platform, there is no issue with that, but if you are possibly considering more than one, plan ahead!
 
@@ -51,29 +51,29 @@ It can seem a lot to take in, but let us walk through the major points step by s
 
 ## Sharing the code
 
-![Coding is Life](/assets/img/posts/20231011/02-sharing.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231011/02-sharing.jpg" aria-label="Coding is Life"><source src="/assets/img/posts/20231011/02-sharing.webm" type="video/webm"></video>
 
 No one likes to write the same code twice, let alone, keep writing it or copying it multiple times across multiple projects, so when you are planning for multi-platform games, you need to identify any and all code which will be the same across all the projects (which is usually about 90% of your code) and then find a pattern that works for you to ensure you write it once, no matter the platform it is running on.
 
-When it comes to sharing code, there are three patterns to consider, each with their pro's and con's:
+When it comes to sharing code, there are three patterns to consider, each with their pros and cons:
 
 ![Options for sharing code](/assets/img/posts/20231011/03-libraryoptions.png)
 
 Each of the options are easy to implement and run with, although Linked Files can become harder to manage the larger your project becomes, essentially because when you add a new class file, you have to remember to manually add it to all projects (or write a script to do so).
 
-> I Recommended to use a .NET Shared library for now unless you need UWP (Windows 10/11/Xbox Xaml), then use a shared library for now until the .Net8 upgrade.
+> I recommend a .NET class library for now unless you need UWP (Windows 10/11/Xbox Xaml), then use a Shared Project for now until the .Net8 upgrade.
 
 ### .NET Class Library (Recommended)
 
 The recommended approach is to create a .NET class library and add a reference to that project to all your MonoGame projects, which is a quick and easy task.  MonoGame even provides you with a project template specifically for MonoGame shared code.
 
-> ***Note** if you look at the references in the MonoGame Class Library project you will see the "DesktopGL" MonoGame reference.  You can ignore this as it is just a shim, this is ignored when the project is built and the proper MonoGame DLL from your Game project is used instead.  This is some magical wizardry performed by DotNEt during the build, much like the older MonoGame.Portable projects used to do.
+> ***Note** if you look at the references in the MonoGame Class Library project you will see the "DesktopGL" MonoGame reference.  You can ignore this as it is just a shim, this is ignored when the project is built and the proper MonoGame DLL from your Game project is used instead.  This is some magical wizardry performed by DotNet during the build, much like the older MonoGame.Portable projects used to do.
 
 To add a class library to an existing MonoGame project (assuming you have not created a Solution file already) is as follows:
 
 Assuming you have a folder containing your MonoGame Project, e.g. MyGame -> MyGame.DesktopGL, while in the MyGame folder.
 
-```text
+```shell
 dotnet new sln -n MyGame
 dotnet new mglib -o MyGame.SharedCode
 dotnet sln MyGame.sln add MyGame.DesktopGL\MyGame.DesktopGL.csproj
@@ -95,7 +95,7 @@ Repeat the last step for any additional MonoGame platform projects (just adding 
 
 ### Adding a linked file
 
-First make sure the folder containing the linked code is located relative to the MonoGame projects you are sharing it with (usually all at the same level, e.g. MG Project 1, MG Project 2, SHared Code). This helps maintain the consistency of the code and links for your project.
+First make sure the folder containing the linked code is located relative to the MonoGame projects you are sharing it with (usually all at the same level, e.g. MG Project 1, MG Project 2, Shared Code). This helps maintain the consistency of the code and links for your project.
 
 Due to the lack of support for automatically adding linked files using the DotNet CLI tool, it is recommended to use Visual Studio (any edition, including community) to create and manage the links, to do this in Visual Studio you can right-click in the Solution Explorer to add an existing file (Add existing item), then instead of just clicking the "Add" button (which will copy the file), click the drop-down on the button and select "Add as Link" as shown below:
 
@@ -138,7 +138,7 @@ You then simply run the script "**Within the folder of the project you want to u
 
 From the folder "MyAwesomeGame/Platforms/MyAwesomeGame.Android" (assuming you save the above script in the *MyAwesomeGame* folder), and your shared code is in a folder called "Shared", also within the MyAwesomeGame folder:
 
-```text
+```powershell
 ../../Add-LinkedFile.ps1 -SourceProjectPath MyAwesomeGame.Android.csproj -LinkedFilePath ../../Shared/mysharedclass.cs -LinkedFileName Shared/mysharedclass.cs -BuildAction Compile
 ```
 
@@ -170,63 +170,63 @@ The only advantage today of using a Shared Library instead of a class library is
 
 ## Interfaces are your friend
 
-![Friendly Interfaces](/assets/img/posts/20231011/03-interfaces.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231011/03-interfaces.jpg" aria-label="Friendly Interfaces"><source src="/assets/img/posts/20231011/03-interfaces.webm" type="video/webm"></video>
 
 If you are not aware of [Interfaces in the C# language](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/interface), they provide an "example" of what a class "should" do for your project, and you can decide later which class that implements the interface that is used.  It is a handy way of effectively swapping out which code does what, so long as each version implements the same interface (as the same public properties and methods of the interface).
 
 In short, if I define an interface as follows:
 
 ```csharp
-    public interface IAchievementService
-    {
-        bool IsInitialized { get; }
-        void Initialize();
-        void UnlockAchievement(string achievementName);
-    }
+public interface IAchievementService
+{
+    bool IsInitialized { get; }
+    void Initialize();
+    void UnlockAchievement(string achievementName);
+}
 ```
 
 And then define two implementations of the interface, one for Steam and one for Xbox:
 
 ```csharp
-    // Steam
-    public class SteamAchievementService : IAchievementService
+// Steam
+public class SteamAchievementService : IAchievementService
+{
+    private bool isInitialized = false;
+    public bool IsInitialized => isInitialized;
+
+    public void Initialize()
     {
-        private bool isInitialized = false;
-        public bool IsInitialized => isInitialized;
-
-        public void Initialize()
-        {
-            isInitialized = true;
-        }
-
-        public void UnlockAchievement(string achievementName)
-        {
-            // Do Steam Unlock Achievement Stuff
-        }
+        isInitialized = true;
     }
 
-    //Xbox
-    public class XboxAchievementService : IAchievementService
+    public void UnlockAchievement(string achievementName)
     {
-        private bool isInitialized = false;
-        public bool IsInitialized => isInitialized;
+        // Do Steam Unlock Achievement Stuff
+    }
+}
 
-        public void Initialize()
-        {
-            isInitialized = true;
-        }
+//Xbox
+public class XboxAchievementService : IAchievementService
+{
+    private bool isInitialized = false;
+    public bool IsInitialized => isInitialized;
 
-        public void UnlockAchievement(string achievementName)
-        {
-            // Do Xbox Unlock Achievement Stuff
-        }
-    }    
+    public void Initialize()
+    {
+        isInitialized = true;
+    }
+
+    public void UnlockAchievement(string achievementName)
+    {
+        // Do Xbox Unlock Achievement Stuff
+    }
+}    
 ```
 
 Finally, in your shared game project, all your code simply uses a variable for the "AchievementService", knowing it has a property for "Initialised" and two methods to Initialise the achievement service or grant an achievement:
 
 ```csharp
-    public IAchievementService TheAchivementService
+public IAchievementService TheAchievementService { get; set; }
 ```
 
 Then in each Platform project, they simply declare which service to use, and if you want to "AT RUNTIME" you can even swap them out, the shared code is none the wiser and in fact, DOES NOT CARE which service is it using for achievements, it just uses what it is told.
@@ -239,7 +239,7 @@ Interfaces allow you to put MORE into your shared code library, letting you put 
 
 ## Code first for platforms
 
-Having shared code makes it far easier to define a specific platform's own implementation, as it will only be contained within the platform project (as if you were building a single platform game), this includes the references and dependencies for that platform, which do not interfere with other platforms.  It also means you do not need to have pre-compiler definitions scatted through your code to #IFDEF this or this. (which can become a real nightmare).
+Having shared code makes it far easier to define a specific platform's own implementation, as it will only be contained within the platform project (as if you were building a single platform game), this includes the references and dependencies for that platform, which do not interfere with other platforms.  It also means you do not need to have pre-compiler definitions scattered through your code to #if this or this. (which can become a real nightmare).
 
 The short of the long in this case, is this:
 
@@ -264,19 +264,19 @@ To create a "content project" in the new DotNet land, you can either:
 
 Most developers do not realise that you are NOT limited to a single content project, you can in fact have as many as you like, or alternatively, maintain separate project definitions (csproj) which are identical except they use a different content project for each.
 
-Why would do this?  Because if your project ships on multiple devices that support different resolutions, like Xbox and Mobile, the source content (albeit similar) will have different requirements, e.g. High quality 4K textures on Xbox and 1k or low-res textures on mobile (put a 4k texture on some mobiles and they will just die).
+Why would you do this?  Because if your project ships on multiple devices that support different resolutions, like Xbox and Mobile, the source content (albeit similar) will have different requirements, e.g. High quality 4K textures on Xbox and 1k or low-res textures on mobile (put a 4k texture on some mobiles and they will just die).
 
 There is no hard and fast rule about which approach to take, and in fact, some developers ship BOTH types of content in a single project if it is small enough, but remember, the size of the content will affect the size of the final output, and it makes sense to keep downloads as small as possible for any platform.
 
 The choice is yours:
 
-* Ship all content to all platforms:
+* Ship all content to all platforms
 * Build out your game and swap WHICH content project gets compiled with which platform (or build, because Android)
 * Have separate project definitions for each "build type" (high-def/low-def), each pointing to different content projects.
 
 ## Building the project with DotNet commands
 
-![Getting it done](/assets/img/posts/20231011/04-gettingitdone.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231011/04-gettingitdone.jpg" aria-label="Getting it done"><source src="/assets/img/posts/20231011/04-gettingitdone.webm" type="video/webm"></video>
 
 Following on from the above, what follows are the set of commands that will generate a cross-platform project with the following setup:
 
@@ -288,7 +288,7 @@ Following on from the above, what follows are the set of commands that will gene
 
 Script as follows:
 
-```text
+```shell
 dotnet new sln -n MyAwesomeGame
 md Shared
 md Platforms
@@ -326,7 +326,7 @@ Additionally, you can delete the "Content" folder from the class library as it i
 
 ## Summary
 
-![Many hands make lite work](/assets/img/posts/20231011/05-manyhandsmakelitework.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231011/05-manyhandsmakelitework.jpg" aria-label="Many hands make light work"><source src="/assets/img/posts/20231011/05-manyhandsmakelitework.webm" type="video/webm"></video>
 
 Whether you build your project for a single platform, or consider the options of maximising your reach by adding more platforms to deliver to is a very important decision.  It does not come without a small amount of additional risk, but the rewards mean MORE users playing your game on more platforms.
 

@@ -12,9 +12,8 @@ They have been [posted here](http://xbox360homebrew.com/files/default) and I’d
 
 I’m happy with my entry, it works, the game plays fairly well (even if it’s only the basic connect mode so far) and I got the manual in the game as well as with it.
 
-The gam isn’t as as graphical as I’d like but the process showed me just how much work I got to do in that area along with learning [shaders](http://en.wikipedia.org/wiki/Shaders) (graphical touchup’s and effects).
+The game isn’t as graphical as I’d like but the process showed me just how much work I got to do in that area along with learning [shaders](http://en.wikipedia.org/wiki/Shaders) (graphical touch-ups and effects).
 
 Head over there if you have time and give your support to all the hard work of the contestants!
 
 Darkside
-

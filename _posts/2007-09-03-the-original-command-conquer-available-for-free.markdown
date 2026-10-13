@@ -6,26 +6,24 @@ tags:
 - ramblings
 ---
 
-![](assets/img/posts/image-not-found.png)
+![Command and Conquer banner announcing the free download of the original game](https://web.archive.org/web/20071013181915im_/http://www.commandandconquer.com/images/EAUpload/Intel/All_Intel/FlashHeader30.jpg)
 
-Nope I’m not drunk and your not dreaming.
+Nope I’m not drunk and you're not dreaming.
 
-The game that started a lot of peoples like for fast paced Strategy fondness and quite a few late nights (for me) playing against your friend (amassing a lot of tanks and laughing gleefully as they run straight over your fiends enemy base, ROFL) is now available **<u><em>for free</em></u>**.
+The game that started a lot of people's fondness for fast paced Strategy fondness and quite a few late nights (for me) playing against your friend (amassing a lot of tanks and laughing gleefully as they run straight over your friend's base, ROFL) is now available ***for free***.
 
-EA are distributing the original ISO’s for both the GDC and NOD campaigns (hopefully without the copy protection, else that would be just daft), which you can burn to CD and relive all the delights of a time gone by.
+EA are distributing the original ISOs for both the GDI and NOD campaigns (hopefully without the copy protection, else that would be just daft), which you can burn to CD and relive all the delights of a time gone by.
 
-
-### \*\*Warning this game is likely to set back your game development project by quite a few hours\*\*
+## Warning this game is likely to set back your game development project by quite a few hours
 
 SO enjoy and head over to [EA’s page](http://www.commandandconquer.com/intel/default?id=61#NewsMain) and play and play and then play some more.
 
->    [![](assets/img/posts/image-not-found.png)](http://www.commandandconquer.com/intel/default?id=61#NewsMain)
+[![Command and Conquer Gold game cover](https://web.archive.org/web/20071013181924im_/http://www.commandandconquer.com/images/EAUpload/Intel/All_Intel/CCGOLDsmall.jpg)](http://www.commandandconquer.com/intel/default?id=61#NewsMain)
 
 Meet you on the match server!!!!, mwuhahhahahaha
 
 Oh and on another note you can now also purchase your own Kane bobble-head doll to punch or hug depending on which camp you feel at home in.  Hmmm.
 
- [![](assets/img/posts/image-not-found.png)](http://www.kanelives.org/newsarticle.php?newsID=12)
+[![Command and Conquer 3 banner for the Kane bobble-head doll](https://web.archive.org/web/20170620020339im_/http://images.ea.com/games/cc3/FlashHeader26.jpg)](http://www.kanelives.org/newsarticle.php?newsID=12)
 
-And another even more freaky occurrence, Kane has made an appearance on YouTube of all places from [http://www.kanelives.org/. ](http://www.kanelives.org/.  "http://www.kanelives.org/") Now that is just spooky.
-
+And another even more freaky occurrence, Kane has made an appearance on YouTube of all places from [http://www.kanelives.org/](http://www.kanelives.org/). Now that is just spooky.

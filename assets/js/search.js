@@ -129,12 +129,16 @@
     const tags = Array.isArray(post.tags) ? post.tags : [];
     const tagsAttr = tags.map(t => String(t).toLowerCase()).join(',');
     const imgSrc = escapeHtml(resolveImageSrc(post.img));
+    // Animated headers are WebM videos with the still image as poster.
+    const media = post.video
+      ? `<video autoplay loop muted playsinline preload="none" poster="${imgSrc}"><source src="${escapeHtml(resolveImageSrc(post.video))}" type="video/webm"></video>`
+      : `<img src="${imgSrc}" alt="">`;
 
     return `
 <article class="post-card" data-tags="${escapeHtml(tagsAttr)}">
   <a class="post-card__link" href="${url}" aria-label="Read: ${title}">
     <div class="post-card__image-wrapper">
-      <img src="${imgSrc}" alt="">
+      ${media}
     </div>
     <div class="post-card__content">
       <h2 class="post-card__title">${title}</h2>

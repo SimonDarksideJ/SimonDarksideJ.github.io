@@ -7,7 +7,7 @@ tags: [game development]
 
 I came across several lists in my past about what book to read, where to go N Such, but over at [Next-Gen](http://www.next-gen.biz), they have [compiled a list](http://www.next-gen.biz/index.php?option=com_content&task=view&id=3962&Itemid=34&limit=1&limitstart=0) as a consensus from some big names in the industry.
 
-Not just about writing games either, the books range the following areas:
+Not just about writing games either, the books range over the following areas:
 
   - Theory
   - Design Practice
@@ -22,7 +22,6 @@ Not just about writing games either, the books range the following areas:
   - Deep Background
   - Inspirations
 
-Some truly helpfuly and inspiring stuff, so if you are new to the game creating area or even If you're looking for more (although you probably have your hands full already), header over to [Next-Gen](http://www.next-gen.biz/index.php?option=com_content&task=view&id=3962&Itemid=34&limit=1&limitstart=0) and see how many you have already and what could possibly be missing from your collection.
+Some truly helpful and inspiring stuff, so if you are new to the game creating area or even If you're looking for more (although you probably have your hands full already), head over to [Next-Gen](http://www.next-gen.biz/index.php?option=com_content&task=view&id=3962&Itemid=34&limit=1&limitstart=0) and see how many you have already and what could possibly be missing from your collection.
 
-One of the newer books that made it onto the list apparently has already sold out it’s first edition run, hmm
-
+One of the newer books that made it onto the list apparently has already sold out its first edition run, hmm

@@ -6,9 +6,9 @@ tags:
 - ramblings
 ---
 
-Seems I’m getting notice more and more these day’s, always good.
+Seems I’m getting noticed more and more these days, always good.
 
-I got a mention in an [interview](http://www.gamasutra.com/features/20061215/sheffield_01.shtml) with Microsoft Dave Mitchell about my involvement in the [XBOX360Homebrew](http://xbox360homebrew.com/default) contest. (Will get round to updating HACK-1 in time)
+I got a mention in an [interview](http://www.gamasutra.com/features/20061215/sheffield_01.shtml) with Dave Mitchell of Microsoft about my involvement in the [XBOX360Homebrew](http://xbox360homebrew.com/default) contest. (Will get round to updating HACK-1 in time)
 
 [XNATutorial](http://www.xnatutorial.com/) blog gave me a mention in the [monthly updates](http://www.xnatutorial.com/?p=60) (nice!)
 
@@ -20,9 +20,8 @@ Merry Xmas and a Happy new year to you all
 
 Darkside
 
-P.S
+P.S.
 
-As a bit of a teaser I should hopefully blogging up a more detailed Camera Guide (not tutorial, just reference) and some info on terrain creation and management.
+As a bit of a teaser I should hopefully be blogging up a more detailed Camera Guide (not tutorial, just reference) and some info on terrain creation and management.
 
 Sorry nothing on Shaders yet, just bussyyy, for some reason
-

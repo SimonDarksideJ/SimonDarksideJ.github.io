@@ -3,7 +3,8 @@ layout: post
 title: MonoGame on the Web, No Really!
 date: 2023-11-14 00:00 +0000
 description: By default, MonoGame does not, or cannot publish to WebGL/The Web, but thanks to NKast, there is a Fork of MonoGame that can! Read on for details.
-img: posts/20231114/title.gif
+img: posts/20231114/title.jpg
+img_video: posts/20231114/title.webm
 category: MonoGame
 tags:
 - game development
@@ -12,14 +13,14 @@ tags:
 - gamejam
 author: Simon Jackson
 github: kniEngine/kni
-mathjax: false
 ---
 
-![It shoots web?](/assets/img/posts/20231114/weblaunch.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231114/weblaunch.jpg" aria-label="It shoots web?"><source src="/assets/img/posts/20231114/weblaunch.webm" type="video/webm"></video>
 
 > TL;DR -> With a little effort, publishing MonoGame projects to the Web is possible, so long as you remember it is the Web and you cannot do EVERYTHING!
 
 When it comes to GameJams, [like the one mentioned in this post](https://darkgenesis.zenithmoon.com/gamedev-jamming-with-monodame.html), pushing out the finished project as an EXE or Appx usually results in your project either getting downvoted or ignored, because who wants to infect their machine with an unknown just to test out a Jam project.
+
 This applies to most Game Engines out there that are not web-based, including MonoGame, but thankfully due to the hard work of **[Nikos Kastellanos](https://community.monogame.net/u/nkast)** ([NKast](https://github.com/nkast)) there is an option available to us.
 
 Now you have to keep in mind, that the Web is NOT your desktop or some high-powered beast, sure, there are continual developments to make Web projects work better or support more features, but it is unlikely to match that of your modern desktops or consoles.  Some things either do not work because they are too complex, others because there is insufficient support in all web browsers or devices.  So long as you keep in mind the limitations (usually only found by trying to run your game in a browser), then you can truly fly.
@@ -36,7 +37,7 @@ Now you have to keep in mind, that the Web is NOT your desktop or some high-powe
 
 ## Welcome to the KNI project
 
-[MonoGame](https://monogame.net/) is an awesome game development framework, made even more awesome by the growing community that surrounds it.  A prime example of this is the [KNI Engine](https://github.com/kniEngine/kni) made and supported by one of MonoGame's long time supporters **[Nikos Kastellanos](https://community.monogame.net/u/nkast)** ([NKast](https://github.com/nkast)), their tireless devotion brings non-other than Web Support plus a host of other features for projects written using MonoGame.
+[MonoGame](https://monogame.net/) is an awesome game development framework, made even more awesome by the growing community that surrounds it.  A prime example of this is the [KNI Engine](https://github.com/kniEngine/kni) made and supported by one of MonoGame's long time supporters **[Nikos Kastellanos](https://community.monogame.net/u/nkast)** ([NKast](https://github.com/nkast)), their tireless devotion brings none other than Web Support plus a host of other features for projects written using MonoGame.
 
 ![KNI Engine](https://github.com/kniEngine/kni/blob/main/Images/Icon.png?raw=true)
 
@@ -64,11 +65,11 @@ Like MonoGame, most of the libraries behind the templates are published on NuGet
 > At the time of writing, there is a **Known** issue with the Visual Studio templates, which is mainly Visual Studio's fault (honest), whereby the templates may not immediately show up and require either:
 >
 > * Restarting Visual Studio a "few" times.
-> * Require running the command ```devenv /updateConfiguration``` in the Visual Studio installation folder, e.g. **C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE**.
+> * Require running the command `devenv /updateConfiguration` in the Visual Studio installation folder, e.g. **C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE**.
 >
 > If your User Profile is not in the default ```C:\Users``` folder, you might also have to check/update your Visual Studio "locations" setup and move/copy the installed templates there:
-> ![Visual Studio Templates Folder](assets/img/posts/image-not-found.png)
-> Just be sure to run the above ```devenv /updateConfiguration``` command **AFTER** moving them to update Visual Studio.
+>
+> Just be sure to run the above `devenv /updateConfiguration` command **AFTER** moving them to update Visual Studio.
 
 Maybe with your support, this situation can be improved.  All it takes is a little support.  But once you are working, you can be ready to fly.
 
@@ -76,15 +77,9 @@ Maybe with your support, this situation can be improved.  All it takes is a litt
 
 With the templates installed and everything ready, you should have access to the new KNI templates, and for this article more importantly, the **KNI Web Browser Template** as shown below:
 
-![KNI Web Browser Template](assets/img/posts/image-not-found.png)
-
 Just create your new project using this template and you are already 90% of the way there:
 
-![New KNI Web Browser project](assets/img/posts/image-not-found.png)
-
 Running the project results in a new Web Browser being launched against your local machine, ready to test and play with:
-
-![Web Browser Output](assets/img/posts/image-not-found.png)
 
 Fantastic, so what was too hard about that?
 
@@ -97,18 +92,18 @@ Looking into the project, you should see a few subtle differences, which we shou
 |File|Location|Description|
 |-|-|-|
 |Program.cs|Root|A custom version of Program.cs (like most platforms) designed for Web Builds, DO NOT TOUCH :D|
-|KNIBrowserGame.cs|Root|This is basically your normal Game1.cs definition, hack away freely.  But if you change the Class name, also update ```Index.razor.cs``` |
+|KNIBrowserGame.cs|Root|This is basically your normal Game1.cs definition, hack away freely.  But if you change the Class name, also update `Index.razor.cs` |
 |Index.razor|Pages|This is the Razor (web) equivalent of Program.cs, it is the initialization page for the project. It defines a renderable canvas on which to draw the game.|
 |Index.razor.cs|Pages (under Index.razor)|The c# code behind for the main Razor web page, this is the code initialization for the Web project|
 |KNIBrowserContent.mgcb|Content|The MGCB project for the Web solution, albeit, using KNI's own MGCB editor due to "Visual Studio"|
 |wwwroot|Root|The deployable web folder for the project, unless you are a seasoned web dev, best not to touch this :D|
-!Other files|Root|Just do not touch them, mainly Razor setup files and such|
+|Other files|Root|Just do not touch them, mainly Razor setup files and such|
 
-Out of the box, you should not need to change anything and the only thing you will need to keep in sync is the NAME of your Game class and the entry point in ```Index.razor.cs```, in the same way we do for other MonoGame projects between the Game class and the Program class.
+Out of the box, you should not need to change anything and the only thing you will need to keep in sync is the NAME of your Game class and the entry point in `Index.razor.cs`, in the same way we do for other MonoGame projects between the Game class and the Program class.
 
 Here is a GIF of the GameState Management sample (with a few alterations) running using a KNI Web Build.
 
-![GameState Management Web](/assets/img/posts/20231114/02-gamestatemanagement.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231114/02-gamestatemanagement.jpg" aria-label="GameState Management Web"><source src="/assets/img/posts/20231114/02-gamestatemanagement.webm" type="video/webm"></video>
 
 ## What could go wrong
 
@@ -118,7 +113,7 @@ Now, this is the web we are targeting and there is a lot of history and patches 
 * Some shaders may not work as expected, or require reduced features.
 * File access can be... Tricky, pesky permissions.
 
-To name but a few, no doubt there are more, much more.  But this being an Open Source project, if you have the skills and are willing to contribute to make it better, I encourage you to do so!!.
+To name but a few, no doubt there are more, much more.  But this being an Open Source project, if you have the skills and are willing to contribute to make it better, I encourage you to do so!!
 
 When you do hit an issue, and more likely than not I am afraid, you will, you will see the following result when you run your project:
 
@@ -134,7 +129,7 @@ These outputs are more friendly to Web Developers (Well, I assume so?) full of l
 
 > The sample was using a **GamePad** for input and GamePads are not currently supported using the KNI Engine for the web.
 
-If you are only doing a web project, just fix / remove the offending code, if you have a multi-platform project, then just encase the offending code with the following pre-compiler definition (#if):
+If you are only doing a web project, just fix / remove the offending code, if you have a multi-platform project, then just enclose the offending code with the following pre-compiler definition (#if):
 
 ```csharp
 #if !BLAZORGL
@@ -147,8 +142,6 @@ Which will exclude the offending lines from being included in the Web Build (jus
 Feel free to experiment and play, and for those cunning individuals who are experienced in Web Development, I encourage you to help enlighten those who are not.
 
 ## Extra credit, publish to GitHub Pages
-
-![Extra Credit](assets/img/posts/image-not-found.png)
 
 Having a web build on your machine that you can view locally is all well and good, but what about everyone else?  You cannot exactly ask them all to come to dinner to view your creation, what about pushing it to the web?
 
@@ -206,8 +199,8 @@ To get the result we want, we need to add the following:
 
 The updated YAML should be replaced with the following:
 
+{% raw %}
 ```yaml
-
 # Simple workflow for deploying static content to GitHub Pages
 name: Deploy MonoGame web project to GitHub Pages
 
@@ -261,11 +254,12 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v2
 ```
+{% endraw %}
 
 The critical elements to watch out for are:
 
 * "Publish .NET Core Project" - Make sure the **csproj** file path is correct.  In this instance it is "Platforms/Web/KNIBrowser.csproj"
-* The "Upload Artifact" path, which selects the files from the build to upload.  By default the "dotnet publish" command outputs to the root of the folder.
+* The "Upload artifact" path, which selects the files from the build to upload.  By default the "dotnet publish" command outputs to the root of the folder.
 
 If in doubt, run the commands locally in your project folder to make sure you get the output you expect.
 
@@ -289,19 +283,17 @@ Check out my build here:
 
 ### Danger Will Robinson
 
-![Danger](assets/img/posts/image-not-found.png)
-
 One issue I did hit which actually prevented my build completing, required me to edit my KNI Engine csproj file and remove a line.  The line in question was:
 
-```text
-  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
+```xml
+<Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder17.targets" />
 ```
 
 Rather ironically, local builds will work fine and run with this in, but automated builds will not.  Without it, everything is squeaky clean. (fingers crossed)
 
 ## The game is afoot
 
-![Let the games begin](/assets/img/posts/20231114/05-thegameisafoot.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231114/05-thegameisafoot.jpg" aria-label="Let the games begin"><source src="/assets/img/posts/20231114/05-thegameisafoot.webm" type="video/webm"></video>
 
 We have come to the end of this little web journey, I hope others are encouraged and excited to ship your games or hack projects to the web to demonstrate your skills, especially if there is a [GameJam going on :D](https://itch.io/jam/monogamejam5).
 

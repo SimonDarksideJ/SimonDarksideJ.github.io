@@ -32,7 +32,7 @@ Feel free to skip the rest and move on :P
 
 ## Example post image
 
-This post uses a date-based image folder so it’s obvious which images belong to which post:
+This post uses a date-based image folder so it's obvious which images belong to which post:
 
 `/assets/img/posts/20251215/redesign-in-progress/`
 
@@ -43,7 +43,7 @@ The banner image is referenced via front matter (`img:`) and can also be embedde
 ## What's Coming
 
 - Modern responsive design
-- Dark mode support  
+- Dark mode support
 - Enhanced search
 - Better accessibility
 - Social media integration

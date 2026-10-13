@@ -9,18 +9,17 @@ img: posts/20200918/RiemersOverview00.jpg
 tags: [monogame, xnagamestudio-archive, xna]
 author: Simon Jackson
 github:  
-mathjax: no
 ---
 
 Back in the day, [Riemer Grootjans](https://www.amazon.co.uk/Riemer-Grootjans/e/B002DP7P3U) had one of the best XNA tutorial sites available (along with some C++ and other series), featuring a great balance of beginner, intermediate and advanced content.
 
 Sadly some years ago, Riemers site failed (likely a DB issue) and all the content was lost, it was still available via the [wayback machine](https://web.archive.org/web/20170612214853/http://www.riemers.net/index.php), but this has its limitations, so not everything is there.
 
-Now thanks to the efforts of the team managing the [XNAGameStudio](https://github.com/SimonDarksideJ/XNAGameStudio)Archive, All of Riemers XNA tutorials have been archived and also migrated to MonoGame
+Now thanks to the efforts of the team managing the [XNAGameStudio](https://github.com/SimonDarksideJ/XNAGameStudio) Archive, all of Riemers XNA tutorials have been archived and also migrated to MonoGame
 
 ## [XNA Game Studio Archive](https://github.com/SimonDarksideJ/XNAGameStudio)
 
-<figure class="wp-block-image size-large is-resized"><a href="https://github.com/SimonDarksideJ/XNAGameStudio" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://github.com/simondarksidej/XNAGameStudio/raw/master/Images/xna_game_studio_logo.jpg?raw=true" alt=" width=" height="163"></a></figure>
+<figure class="wp-block-image size-large is-resized"><a href="https://github.com/SimonDarksideJ/XNAGameStudio" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://github.com/simondarksidej/XNAGameStudio/raw/master/Images/xna_game_studio_logo.jpg?raw=true" alt="XNA Game Studio Archive" height="163"></a></figure>
 
 In short, the [XNAGameStudio archive](https://github.com/SimonDarksideJ/XNAGameStudio) is a project aimed at preserving the wealth of XNA tutorials and resources available and where possible, updating them to the latest and greatest in [MonoGame](https://www.monogame.net/).
 
@@ -40,7 +39,7 @@ If you are ready for some 3D programming, you should give the first Series of 3D
 
 <figure class="wp-block-image"><a href="github.com/SimonDarksideJ/XNAGameStudio/wiki/Riemers3DXNA1Terrainoverview"><img src="https://github.com/simondarksidej/XNAGameStudio/raw/archive/Images/Riemers/RiemersOverview07.jpg?raw=true" alt="3D Series 1 - Terrain"></a></figure>
 
-### [3- 3D Series 2 – Flightsim](https://github.com/SimonDarksideJ/XNAGameStudio/wiki/Riemers3DXNA2flightsimoverview)
+### [3 - 3D Series 2 – Flightsim](https://github.com/SimonDarksideJ/XNAGameStudio/wiki/Riemers3DXNA2flightsimoverview)
 
 In this second series of 3D MonoGame Tutorials, you will learn how to create a complete flight simulator! This will include flying your aircraft in a true 3D city and firing bullets at objects! Including some basic collision detection, this series already contains enough content to write your own 3D game!!
 
@@ -77,6 +76,6 @@ There are also a set of additional educational reference resources for understan
 
 The XNA Game Studio archive keeps growing and growing and we still have lots more to do.
 
-Consider supporting the XNAGameStudio Archive if you can and enable is to keep doing the work we do.
+Consider supporting the XNAGameStudio Archive if you can and enable us to keep doing the work we do.
 
 <figure class="wp-block-image"><a href="https://ko-fi.com/U6U023ZGE"><img src="https://camo.githubusercontent.com/c8a9d4f1653d599167ef09852550c6810a7306bc/68747470733a2f2f7777772e6b6f2d66692e636f6d2f696d672f676974687562627574746f6e5f736d2e737667" alt="ko-fi"></a></figure>

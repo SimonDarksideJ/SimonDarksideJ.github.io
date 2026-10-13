@@ -4,9 +4,7 @@ title: The Unity 3D UI essentials launch competition - Terms and Conditions
 date: '2015-02-02 16:26:35'
 ---
 
-COMPETITIONS: STANDARD TERMS AND CONDITIONS
-
- 
+## Competitions: Standard Terms and Conditions
 
 - Competition details form part of these terms and conditions.
 - The competition is open worldwide (see Packt’s shipping conditions – [https://www.packtpub.com/books/info/packt/ordering](https://www.packtpub.com/books/info/packt/ordering))
@@ -32,8 +30,5 @@ COMPETITIONS: STANDARD TERMS AND CONDITIONS
 - The Promoter is Simon Jackson of ZenithMoon studios, on behalf of Packt Publishing and other competition contributors.
 - The promoter does not endorse any Prize supplied by a third party nor does it endorse the third party supplier.
 - In the event of a discrepancy between these standard terms and conditions and the details in the promotional material (or any other terms and conditions provided/referred to at the time of entry), the details of the promotional material (and any other terms and conditions provided/referred to at the time of entry) shall prevail.
-- A list of winners will be available by using the Contact page on the darkgenesis.zenithmoon.com blog no earlier than six weeks, unless otherwise stated, after the close of the competition. Only the avatar name and county (if available) of the winners will be disclosed.
+- A list of winners will be available by using the Contact page on the darkgenesis.zenithmoon.com blog no earlier than six weeks, unless otherwise stated, after the close of the competition. Only the avatar name and country (if available) of the winners will be disclosed.
 - Entry implies acceptance of these terms and conditions as final and binding.  Entries which are not in accordance with the terms and conditions will be disqualified.
-
- 
-

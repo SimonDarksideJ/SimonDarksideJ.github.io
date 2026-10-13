@@ -5,25 +5,23 @@ date: 2007-08-02 08:33:57
 tags: [ai, game development]
 ---
 
- 
+2 Posts in one week, what must I be thinking?? anyway
 
-2 Posts in one week, what must I be thinking, ?? anyway
+I suppose I thought this couldn’t wait, after my last post about researching in-game AI and finding that wonderful site [AIGameDev](http://aigamedev.com/), something magical happened.
 
-I suppose I thought this couldn’t wait, after my last post about researching in-game AI and finding that wonderful site [AIGameDev](http://aigamedev.com/), something magical happened. 
+![AIGameDev.com logo](https://web.archive.org/web/20120530071907im_/http://files.aigamedev.com/LOGO.png)
 
-![](assets/img/posts/image-not-found.png)
-
-Usually most of the information on the site and all the recent post have always been about the theory for AI, which always started sparks in your mind of all the fantastic things you could do with it, path-finding, machine learning, concurrent behaviors.  Visualizing all the snazzy reactions you could put in your game to make it more fun and challenging, but it was all just theory and down to you to implement.  Granted there were a few examples but it did feel like being back in college sometimes, lots to learning which required a lot of thought to digest.
+Usually most of the information on the site and all the recent post have always been about the theory for AI, which always started sparks in your mind of all the fantastic things you could do with it, path-finding, machine learning, concurrent behaviors, visualizing all the snazzy reactions you could put in your game to make it more fun and challenging, but it was all just theory and down to you to implement.  Granted there were a few examples but it did feel like being back in college sometimes, lots to learning which required a lot of thought to digest.
 
 Now Alex J Chapandard (the site author) has released the source code to what he calls Game::AI++, which is basically a work in progress AI engine written in C++ AND FULLY COMMENTED, basically a code based tutorial for AI, here’s what he has to say for the release:
 
 > A few weeks ago, I promised to release the whole source code of Game::AI++  
 > to subscribers of this newsletter on August 1st, so here it is!
-> 
+>
 > I will certainly spend many more months working on this project, but the time  
 > has come to let it face the world regardless of emotions — and watch it fall  
 > flat on its face if necessary 🙂  Release often, release early.
-> 
+>
 > What NOT to Expect  
 > ——————  
 > \* Production ready code… It’ll take a few more iterations to reach that.  
@@ -58,4 +56,3 @@ Now Alex J Chapandard (the site author) has released the source code to what he 
 Fantastic stuff and this is only his first release, the visual stuff sounds great as well.
 
 Enjoy all!
-

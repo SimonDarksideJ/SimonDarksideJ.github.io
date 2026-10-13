@@ -5,9 +5,7 @@ date: 2014-12-29 12:53:38
 tags: [information]
 ---
 
-[![image](/assets/img/wordpress/2014/12/image6.png "image")](http://bit.ly/1w1Vkps)
-
- 
+[![Packt Publishing $5 offer banner over a wall of book covers: every book, every topic](/assets/img/wordpress/2014/12/image6.png "image")](http://bit.ly/1w1Vkps)
 
 Following the success of last year’s festive offer, Packt Publishing will be celebrating the holiday season with an even bigger $5 offer.
 
@@ -17,12 +15,8 @@ With all $5 products available in a range of formats and DRM-free, customers wil
 
 * * *
 
+## Grab a bargain
 
-# Grab a bargain
+[![Cover of Mastering Unity 2D Game Development by Simon Jackson](/assets/img/wordpress/2014/10/FrontCover-234x300.png)](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development")
 
-[![FrontCover](/assets/img/wordpress/2014/10/FrontCover-234x300.png)](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development")
-
- 
-
-So if you have been sitting on the fence about buying my latest best selling title **Mastering Unity 2D Game Development** , then now is the perfect opportunity to pocket it for next to nothing. How will i feed my family on this? ah well, lots of small things are better than a few large things, or so I am told ![Open-mouthed smile](/assets/img/wordpress/2014/12/wlEmoticon-openmouthedsmile2.png).
-
+So if you have been sitting on the fence about buying my latest best selling title **Mastering Unity 2D Game Development** , then now is the perfect opportunity to pocket it for next to nothing. How will I feed my family on this?  Ah well, lots of small things are better than a few large things, or so I am told ![Open-mouthed smile](/assets/img/emoticons/openmouthedsmile-3.png).

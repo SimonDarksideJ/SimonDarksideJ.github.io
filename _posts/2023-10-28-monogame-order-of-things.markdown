@@ -3,7 +3,8 @@ layout: post
 title: MonoGame, the order of things!
 date: 2023-10-28 00:00 +0000
 description: Every engine, framework and operation has a specific order to their events.  This post outlines the execution order for MonoGame projects.
-img: posts/20231028/title.gif
+img: posts/20231028/title.jpg
+img_video: posts/20231028/title.webm
 category: MonoGame
 tags:
 - game development
@@ -11,10 +12,9 @@ tags:
 - monogame
 author: Simon Jackson
 github: SimonDarksideJ/MonoGameExecution
-mathjax: false
 ---
 
-![Coding is Life](/assets/img/posts/20231028/gettingtheorderright.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231028/gettingtheorderright.jpg" aria-label="Coding is Life"><source src="/assets/img/posts/20231028/gettingtheorderright.webm" type="video/webm"></video>
 
 > TL;DR -> It is as simple as Initialize, LoadContent, Update, Draw, UnloadContent and finish, with a little sauce in between.
 
@@ -82,11 +82,11 @@ Breaking down the core loop into a more digestible reference, the actual Game Lo
 To allow faster speeds, you will need to alter the timing setup for MonoGame by either setting the **TargetElapsedTime** to an expected framerate, e.g.
 
 ```csharp
-    // Target 30 FPS
-    this.TargetElapsedTime = TimeSpan.FromSeconds(1d / 30d); 
+// Target 30 FPS
+this.TargetElapsedTime = TimeSpan.FromSeconds(1d / 30d); 
 ```
 
-Or you can disable **FixedTimeStep** ```IsFixedTimeStep = false```, and manage all the timings yourself, although this too comes with its own specific considerations.  There is no spoon.
+Or you can disable **FixedTimeStep** `IsFixedTimeStep = false`, and manage all the timings yourself, although this too comes with its own specific considerations.  There is no spoon.
 
 > My recommendation is to just use the defaults until you run into an issue (or know specifically what you are doing), as the defaults will handle most situations all by themselves, in my honest opinion (for what it is worth).
 
@@ -117,7 +117,7 @@ The sample project linked to this article is available to demonstrate these call
 An underrated feature of the original XNA and now MonoGame Framework are components, essentially these are small implementations of Game Code that you simply pass on to the Framework to handle and run, and they just run (so long as they are registered).  Game Components come in two flavours, one building on top of the other:
 
 * A Game Component - A basic Game like class that is **Initialized** and then updated by the **Update** event in the game.  Like a spawning manager that just needs to kick things off as levels progress, or maintain the state of "things".  No drawing, just running.
-* A Drawable Game Component - An extended version of a Game Component that also received the Content Loading/Unloading events and the all-important **Draw** event.  Good for drawing enemies on the screen, or particles.
+* A Drawable Game Component - An extended version of a Game Component that also receives the Content Loading/Unloading events and the all-important **Draw** event.  Good for drawing enemies on the screen, or particles.
 
 Let us delve into these a little more, into how their events are handled.
 
@@ -151,10 +151,10 @@ The [XNAGameStudio Archive](https://github.com/SimonDarksideJ/XNAGameStudio) con
 
 But in all cases, you can walk the code and see the various patterns that demonstrate the MonoGame events in action.
 
-The sample [included with this article demonstrates](https://github.com/SimonDarksideJ/MonoGameExecution) the events described and shows how often events are fired.  It also outputs the events to a **CSV** file in the Game's run folder (by default ```/bin/Debug/net6.0```).
+The sample [included with this article demonstrates](https://github.com/SimonDarksideJ/MonoGameExecution) the events described and shows how often events are fired.  It also outputs the events to a **CSV** file in the Game's run folder (by default `/bin/Debug/net6.0`).
 
 ## Summary
 
-A very theological article to give you more of an understanding of what goes on under the hood of any MonoGame project and some hints if you specifically need to know when a piece of code will be executed and run.
+A very technical article to give you more of an understanding of what goes on under the hood of any MonoGame project and some hints if you specifically need to know when a piece of code will be executed and run.
 
 Hopefully, this will aid you on your MonoGame journey.

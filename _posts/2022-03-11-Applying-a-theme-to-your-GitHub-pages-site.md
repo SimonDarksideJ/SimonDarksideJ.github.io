@@ -10,9 +10,9 @@ tags:
 - jekyll
 author: Simon Jackson
 github:
-mathjax: false
 date: 2022-03-11 00:59 +0000
 ---
+
 > Following on from Part 1 in the GitHub Pages series - [Getting started with blogging using GitHub pages and Jekyll](/getting-started-with-blogging-using-github-pages-and-jekyll)
 
 Now that you have got a taste for your very own free site using GitHub Pages, let us start to personalize your site a little more to your liking.
@@ -35,16 +35,16 @@ When choosing a theme, there are a few points to take in to account, based on wh
 
 Each theme usually does a good job of showcasing what the theme supports and what can be enabled through configuration (by configuring the _config.yml for the site), so be as picky as you like for what your needs are.
 
-> It is still possible to extend the site beyond the theme yourself, but it takes a lot more care and knowledge to implement.  Easier of the theme already does what you want.
+> It is still possible to extend the site beyond the theme yourself, but it takes a lot more care and knowledge to implement.  Easier if the theme already does what you want.
 
 ## Where to get these mysterious themes
 
 There are a few places from which to get themes for your GitHub pages site, namely:
 
 |Site|Description|
-|---|---
-|[![screenshot of Jekyll Themes GitHub pages themes](/assets/img/posts/20220310/Jekyll-themes-github-pages.png)](https://jekyllthemes.io/github-pages-themes)|[Jekyll Themes - GitHub pages List](https://jekyllthemes.io/github-pages-themes)<br/>100% supported, some free but most paid|
-|[![GitHub filtered list of Jekyll themes](/assets/img/posts/20220310/GitHub-jekyll-theme-topic.png)](https://github.com/topics/jekyll-theme)|[Jekyll Themes GitHub filter](https://github.com/topics/jekyll-theme)<br/>90% supported - mostly open source|
+|---|---|
+|[![screenshot of Jekyll Themes GitHub pages themes](/assets/img/posts/20220310/Jekyll-themes-github-pages.jpg)](https://jekyllthemes.io/github-pages-themes)|[Jekyll Themes - GitHub pages List](https://jekyllthemes.io/github-pages-themes)<br/>100% supported, some free but most paid|
+|[![GitHub filtered list of Jekyll themes](/assets/img/posts/20220310/GitHub-jekyll-theme-topic.jpg)](https://github.com/topics/jekyll-theme)|[Jekyll Themes GitHub filter](https://github.com/topics/jekyll-theme)<br/>90% supported - mostly open source|
 |[![Free Jekyll themes](/assets/img/posts/20220310/Jekyll-themes-free.png)](https://jekyllthemes.io/free)|[Jekyll Themes - Free](https://jekyllthemes.io/free)<br/>70% supported with a mix of features|
 
 > The main thing to be aware of when browsing themes is that not all are 100% supported to run on GitHub pages.  There may be a bit of trial and error involved when selecting a theme that does not advertise being GitHub pages compatible.
@@ -60,7 +60,7 @@ The first step in installing a theme is to not install the theme :D, to begin, m
 ![GitHub repository download options](/assets/img/posts/20220310/GitHub-saving-repository.png)
 
 > My personal preference is to use [Microsoft VSCode](https://docs.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository) on the desktop, as it is also a markdown editor and has great GitHub support.  [Read more here](https://docs.microsoft.com/en-us/azure/developer/javascript/how-to/with-visual-studio-code/clone-github-repository).
-> 
+>
 > You might also recognize VS Code from the previous article, as it is the same interface GitHub uses on the web.
 
 ### 2. Delete your old **\<username\>.github.io** site
@@ -85,22 +85,22 @@ Now here there are TWO main options that theme writers provide (Check the Templa
     You simply click the "**Fork**" button in the upper right-hand corner of the screen, this will then begin the copy process.  Once complete, select the "**Settings**" tab and rename the Repository to \<username\>.github.io (replacing \<username\> with your GitHub username)
 
     ![GitHub rename repository](/assets/img/posts/20220310/GitHub-rename-repository.png)
-    
+
     Now you have a Theme to configure.
 
 > Buyer beware, the "**Installing through Gems**" path
-> 
-> Some themes offer you a programmatic way to generate your site, or an option called "Remote Theming".  it is simply best to avoid this path for most users as it is quite advanced and does require you to build the site locally on your machine.
-> 
+>
+> Some themes offer you a programmatic way to generate your site, or an option called "Remote Theming".  It is simply best to avoid this path for most users as it is quite advanced and does require you to build the site locally on your machine.
+>
 > I will cover some of this in a future article on "Setting up Jekyll for GitHub pages locally", for most users, however, you can just avoid this for now.
 
 ### 4. Configuring Your theme
 
-![This is where the fun begins](/assets/img/posts/20220310/han-solo-this-is-where-the-fun-begins.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20220310/han-solo-this-is-where-the-fun-begins.jpg" aria-label="This is where the fun begins"><source src="/assets/img/posts/20220310/han-solo-this-is-where-the-fun-begins.webm" type="video/webm"></video>
 
 The next step is to ensure your new repository is configured for GitHub pages. To begin, repeat the steps from the [Previous Article](/getting-started-with-blogging-using-github-pages-and-jekyll#activating-github-pages) and enable your github.io repository for GitHub pages.
 
-Next, [as we also did before](/getting-started-with-blogging-using-github-pages-and-jekyll#activating-github-pages#adding-content), enter the Web Console for editing your site by tapping "." or changing the web address from ".com" to ".dev".
+Next, [as we also did before](/getting-started-with-blogging-using-github-pages-and-jekyll#adding-content), enter the Web Console for editing your site by tapping "." or changing the web address from ".com" to ".dev".
 
 Once in the Web Console, you will find a file called "_config.yml", which is where all the primary configuration and customization for your site is managed from:
 

@@ -14,5 +14,4 @@ So have devoted a lot of my spare time now to getting thoughts down for Life (my
 
 Bustling on.
 
-On a side note, keep an eye on a project called [eXperience](http://www.codeplex.com/Wiki/View?ProjectName=eXperience) on [Codeplex](http://www.codeplex.com/), group of guys making a repository of Game Components for [Microsofts XNA Game Studio](http://msdn.com/directx/xna/gse) – Great work guys, keep up the good work!
-
+On a side note, keep an eye on a project called [eXperience](http://www.codeplex.com/Wiki/View?ProjectName=eXperience) on [Codeplex](http://www.codeplex.com/), group of guys making a repository of Game Components for [Microsoft's XNA Game Studio](http://msdn.com/directx/xna/gse) – Great work guys, keep up the good work!

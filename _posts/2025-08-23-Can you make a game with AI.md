@@ -3,18 +3,18 @@ layout: post
 title: Can you make a game with AI
 date: 2025-08-23 00:00 +0000
 description: In my yearly/biannual experiments with AI, I try and make games for popular engines using just AI. Oh what fun.
-img: posts/20250823/title.gif
+img: posts/20250823/title.jpg
+img_video: posts/20250823/title.webm
 category: XR
 tags:
 - ai
 - monogame
 - tools
 author: Simon Jackson
-mathjax: false
 github: SimonDarksideJ/MechRampage-AIGeneration/
 ---
 
-> TL; DR -> In short, NO, lol.  AI is a tool that can assist you in solving common problems and mixing many different AI tools and features you can help to accelerate your development and the creation of content (at least place holders for your artists to draw from).  But, it is also a great source of pain, frustration and injection of complex issues, which you end up using AI to solve only making the complexity worse and harder to understand if you are not familiar with it.
+> TL;DR -> In short, NO, lol.  AI is a tool that can assist you in solving common problems and by mixing many different AI tools and features you can help to accelerate your development and the creation of content (at least place holders for your artists to draw from).  But, it is also a great source of pain, frustration and injection of complex issues, which you end up using AI to solve only making the complexity worse and harder to understand if you are not familiar with it.
 >
 > Essentially, the AI **CANNOT** do it alone and still needs a human at the helm to guide it, correct it and use other tools to generate assets.
 >
@@ -43,7 +43,7 @@ For this run, I went with a more complicated outline than I have done in the pas
 > [!NOTE]
 > Past experiments involved simple block pusher games, 2D shooters, or even snake, just to give the AI a chance.
 >
-> *Note, no, it failed to even get close most times.
+> *Note, no, it failed to even get close most times.*
 
 This was the outline brief I went with:
 
@@ -77,7 +77,7 @@ The main thing that has changed in recent AI evolution is the level of planning 
 
 Everyone seems to believe that getting the best result out of AI is to create the perfect "Prompt".....
 
-|![this is a lie](/assets/img/posts/20250823/StarTrekLies.gif)|
+|<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20250823/StarTrekLies.jpg" aria-label="this is a lie"><source src="/assets/img/posts/20250823/StarTrekLies.webm" type="video/webm"></video>|
 | :---: |
 |**This is simply wrong, at least in this day and age.**|
 
@@ -105,9 +105,8 @@ And in the strictness sense of the term, MORE is better, the more you put in, th
 > |![Figure 2: CoPilot Chat - Generate Instructions](/assets/img/posts/20250823/generate-instructions.png)|
 > | :---: |
 > |**Figure 2: CoPilot Chat - Generate Instructions**|
->
 
-Some awesome resource for working with these instructions guides can be found at:
+Some awesome resources for working with these instructions guides can be found at:
 
 * The [`awesome-copilot`](https://github.com/github/awesome-copilot) repository, chock full of instructions, modes and more.
 * The [`awesome-copilot-instructions`](https://github.com/Code-and-Sorts/awesome-copilot-instructions) repository.
@@ -142,7 +141,7 @@ In the fight with AI, newer tools and features have come to our aid in the form 
 > [!IMPORTANT]
 > ALL AI tools have no memory - Every question you pose is new to the AI each time you ask it.
 
-|![Sorry, what was your question again?](/assets/img/posts/20250823/ihavenomemory.gif)|
+|<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20250823/ihavenomemory.jpg" aria-label="Sorry, what was your question again?"><source src="/assets/img/posts/20250823/ihavenomemory.webm" type="video/webm"></video>|
 | :---: |
 |**Sorry, what was your question again?**|
 
@@ -160,16 +159,16 @@ In my daily routine, the most common MCP servers I use are:
 
 |Server|Description|Use|
 |-|-|-|
-|Sequential Thinking|An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process.|Provides ordered ways for the AI to handle problems and assess potential solutions, used critically in the planning phases.|
-|Context7|Context7 MCP pulls up-to-date, version-specific documentation and code examples straight from the source — and places them directly into your prompt.|Great for forcing the AI to use product/platform specific documentation and reduces web calls to unknown third parties|
-|Memory|A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats.|INVALUABLE, used manually for the most part to stop you repeating yourself, just instruct the AI to "REMEMBER THIS" and it will add it to the Memory server to remind it both later and in-between sessions.|
+|Sequential Thinking|"An MCP server implementation that provides a tool for dynamic and reflective problem-solving through a structured thinking process." (Source: the [MCP servers repository](https://github.com/modelcontextprotocol/servers))|Provides ordered ways for the AI to handle problems and assess potential solutions, used critically in the planning phases.|
+|Context7|"Context7 MCP pulls up-to-date, version-specific documentation and code examples straight from the source - and places them directly into your prompt." (Source: the [Context7 README](https://github.com/upstash/context7))|Great for forcing the AI to use product/platform specific documentation and reduces web calls to unknown third parties|
+|Memory|"A basic implementation of persistent memory using a local knowledge graph. This lets Claude remember information about the user across chats." (Source: the [MCP servers repository](https://github.com/modelcontextprotocol/servers))|INVALUABLE, used manually for the most part to stop you repeating yourself, just instruct the AI to "REMEMBER THIS" and it will add it to the Memory server to remind it both later and in-between sessions.|
 
 There are many more kinds of server available as demonstrated on the [VSCode MCP agents site](https://code.visualstudio.com/mcp) as well as elsewhere on the web, or you can even [Build your own MCP server](https://devblogs.microsoft.com/dotnet/mcp-server-dotnet-nuget-quickstart/).
 
 > [!IMPORTANT]
 > If you host an MCP server, MAKE SURE to also tell the AI in the [Instructions](#instructions) that it is available.
 >
-> Also note, that MCP servers have to be started manually and ahead of time before you start your AI session!,  AI is not allowed to start MCP servers for you (even if you tell it to)
+> Also note, that MCP servers have to be started manually and ahead of time before you start your AI session!  AI is not allowed to start MCP servers for you (even if you tell it to)
 
 ### Documentation
 
@@ -210,7 +209,7 @@ This was the account of the journey in this round:
 
 Then at the end when the project was running and no new errors were found, we were done.  SHIP IT
 
-|![Ship it, what could possibly go wrong](/assets/img/posts/20250823/shipit.gif)|
+|<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20250823/shipit.jpg" aria-label="Ship it, what could possibly go wrong"><source src="/assets/img/posts/20250823/shipit.webm" type="video/webm"></video>|
 | :---: |
 |**Ship it, what could possibly go wrong?**|
 
@@ -242,9 +241,9 @@ In short, I would break the experience down to the following:
 
 AI has come a long way, vendors are now providing "thinking" models out of the box, although they still need support from MCP servers aligned to the goals and tools used in the project.
 
-But ultimately, it still needs a human at the helm to guide it, tell it when it is going off the rails and to provide assets needed for any game project.  If you are going fully AI, they you can still use AI generated content using other tools, or like most other devs prototyping, using free resources as placeholders until you can get what you want crafted.
+But ultimately, it still needs a human at the helm to guide it, tell it when it is going off the rails and to provide assets needed for any game project.  If you are going fully AI, then you can still use AI generated content using other tools, or like most other devs prototyping, using free resources as placeholders until you can get what you want crafted.
 
-It may still be possible to structure many more components together to achieve the complete goal (like Unity is experimenting with using its own AI platform, but still says "You should not make money with this, just pay them to play), but that was far beyond my normal exercise for using "out of the box" AI components.
+It may still be possible to structure many more components together to achieve the complete goal (like Unity is experimenting with using its own AI platform, but still says "You should not make money with this, just pay them to play"), but that was far beyond my normal exercise for using "out of the box" AI components.
 
 Have fun, and live long and prosper. I may return with another AI lesson later!
 

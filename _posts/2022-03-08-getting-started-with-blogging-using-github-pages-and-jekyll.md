@@ -11,9 +11,9 @@ tags:
 - jekyll
 author: Simon Jackson
 github: gamedevspace/gamedevspace.github.io.git
-mathjax: false
 date: 2022-03-08 14:47 +0000
 ---
+
 Finding somewhere to post your content, be it pages, blogs or material can be a tough decision these days.  There are many options, most of which require you to pay upfront to use the service, while others lure you in with a free trial hoping that you will stay after the amount of effort you have put in to get things set-up.
 
 ## TL;DR;
@@ -27,7 +27,7 @@ Finding somewhere to post your content, be it pages, blogs or material can be a 
 
 ## A small personal history (feel free to skip if you wish)
 
-In my own journey, I started with [Community Server by telligent](https://www.telligent.com/community-platform/) (now Community Platform) with Microsoft and the XNA-UK crowd (XNA, gone too soon), I even hosted a Community Server site (for free) for a charity, as a content, news and communication platform it worked well.  I then migrated my blog to wordpress and things were fine for a time, there was blogging, forums and a host of other useful tools, however, self-hosting wordpress became slower and slower and eventually became swamped by ads.
+In my own journey, I started with [Community Server by telligent](https://www.telligent.com/community-platform/) (now Community Platform) with Microsoft and the XNA-UK crowd (XNA, gone too soon), I even hosted a Community Server site (for free) for a charity, as a content, news and communication platform it worked well.  I then migrated my blog to WordPress and things were fine for a time, there was blogging, forums and a host of other useful tools, however, self-hosting wordpress became slower and slower and eventually became swamped by ads.
 
 I then took a week and migrated to [Ghost](https://ghost.org/), which proved troublesome to self-host, was prone to dropouts and while it looked great, it just was not working.
 
@@ -68,7 +68,7 @@ Any other variation will create an alternate endpoint, this still works but coul
 
 So simply browse to GitHub (create a new account if you do not have one already) and create a new repository using the naming convention above, for me this was:
 
-> The site also **HAS** to be a **Public** repository.  There are was to get private repositories to work, but you will have to spend money and upgrade your GitHub license/subscription.
+> The site also **HAS** to be a **Public** repository.  There are ways to get private repositories to work, but you will have to spend money and upgrade your GitHub license/subscription.
 
 ![Github repository creation](/assets/img/posts/20220307/github-setup-repository.png)
 
@@ -90,12 +90,12 @@ Provided everything is good, the highlighted section at the top should turn gree
 
 ## Adding content
 
-Now things start to get interesting, as the GitHub space has evolved to make our lives a lot easier. In the past you had to set-up your PC, then copy your site to your machine, start adding/changing content and then uploading it back to GitHub, **BUT NO MORE**.  
+Now things start to get interesting, as the GitHub space has evolved to make our lives a lot easier. In the past you had to set-up your PC, then copy your site to your machine, start adding/changing content and then uploading it back to GitHub, **BUT NO MORE**.
 
 GitHub now provides a web interface for managing and editing your repository, it does not do everything, but it does enough that for most use-cases you will not need to use anything other than a web browser.
 
 > To activate the GitHub Web editor, simply:
-> 
+>
 > * Hit the "." key on your keyboard while looking at the "Code" page on your repository
 >
 > * Or change ".com" to ".dev" in the address bar, e.g. "https://github.com/SimonDarksideJ/..." -> "https://github.dev/SimonDarksideJ/..."
@@ -108,8 +108,8 @@ GitHub now provides a web interface for managing and editing your repository, it
 
 To create your first post, we need two things:
 
-* A directory called "_posts" 
-    
+* A directory called "_posts"
+
     (obviously you only need to create this the first time)
 
 * A markdown file for your post.
@@ -124,13 +124,13 @@ Then select that folder in the list and click on the "*new file*" button to crea
 
 You will then have to enter the name of the file according to a specific pattern, as follows:
 
-```
+```text
  Year-month-day-YourPostName.md
 ```
 
 For example
 
-```
+```text
  2022-03-07-MyFirstNewAwesomePost.md
 ```
 
@@ -148,7 +148,7 @@ For Jekyll to properly categorize and describe your posts it needs a little "hea
 
 Select your new post on the left-hand bar and add the following in the right-hand pane at the top of the file (from line 1)
 
-```
+```yaml
 ---
 layout: post
 title: Blogging Like a Hacker
@@ -165,8 +165,8 @@ With that set, you are ready to blog.  So just leave a space after the Front Mat
 
 > **Pro Tip**
 > You can **Preview** how your page will look online by clicking on the "*Preview*" button in the top-right hand corner of the screen.   You are welcome.
-> 
-> ![Web Editor New File button](/assets/img/posts/20220307/github-web-editor-preview.png)
+>
+> ![Preview button in the web editor toolbar](/assets/img/posts/20220307/github-web-editor-preview.png)
 
 Now save your file and we are on to the last step - saving and publishing.
 
@@ -176,11 +176,11 @@ With source control, nothing is ever set in stone until you are ready to **Commi
 
 With the GitHub web editor, once you have made your changes they are marked as "changed" but have not yet gone anywhere.  To see what has changed since you were last editing, click on the "*Source Control*" button as shown below:
 
-![Web Editor New File button](/assets/img/posts/20220307/github-web-editor-sourcecontrol.png)
+![Source Control icon in the web editor showing one changed file](/assets/img/posts/20220307/github-web-editor-sourcecontrol.png)
 
 The button also has an icon on it to show how many changes were detected since you last published it.
- 
-> ***Note** Until you commit, changes are ONLY on your local machine and can be lost if you clear your browser cache (like not saving a file). So it is best to commit your changes BEFORE closing your browser or switching off your PC.
+
+> **\*Note** Until you commit, changes are ONLY on your local machine and can be lost if you clear your browser cache (like not saving a file). So it is best to commit your changes BEFORE closing your browser or switching off your PC.
 >
 > In a future article, I will also cover creating Drafts that can be saved but will not show up on your published page.
 
@@ -188,7 +188,7 @@ Once you are ready, enter a commit message into the "*Message*" box, to simply s
 
 And with that done, click the Tick button at the top of the screen to save your changes to the server.
 
-![Web Editor New File button](/assets/img/posts/20220307/github-web-editor-sourcecontrol-commit.png)
+![Source Control panel with a commit message entered and the Commit tick button hovered](/assets/img/posts/20220307/github-web-editor-sourcecontrol-commit.png)
 
 > You may sometimes get a warning about staging changes, this simply means you can be selective when committing by only clicking + next to the files you want to save.  But I normally just select "Yes" to save all my changes.
 
@@ -205,10 +205,10 @@ Depending on the Theme you selected, the new page will either be listed below yo
 
 ## Updating the README to show your posts
 
-As it stands, you have a front page (your README) and your post, but the two are not linked by default, so we will update your README with a little code to simply list links to your posts (its dynamic so you only have to do this once).
+As it stands, you have a front page (your README) and your post, but the two are not linked by default, so we will update your README with a little code to simply list links to your posts (it's dynamic so you only have to do this once).
 
-> When using a proper theme, these will come with capabilities to do this for you.  The GitHub default setup and built-in themes are centered around a single main page and you have to add links manually.  
-> 
+> When using a proper theme, these will come with capabilities to do this for you.  The GitHub default setup and built-in themes are centered around a single main page and you have to add links manually.
+>
 > It is just a basic simple setup after all
 
 Go back to the Web Editor for your repository (hitting "**.**" from the Code tab on your repository) and select your README file in your repository.
@@ -246,7 +246,7 @@ Nice and plain, but what about adding a little colour?
 
 To configure a theme we need to return back to the "Code" page for your site, either by clicking "*back*" in your browser or switching back to "**.com**" instead of "*.dev*".
 
-To select a theme for your site go to the "Settings -> Pages" you accessed earlier in the [Activating GitHub Pages](#activating-github-pages) section.  There you will find a "Choose a theme" button under "**Theme Chooser**".  Once clicked you should see the selection of built-in Jekyll themes GitHub has to offer themes to choose from:
+To select a theme for your site go to the "Settings -> Pages" you accessed earlier in the [Activating GitHub Pages](#activating-github-pages) section.  There you will find a "Choose a theme" button under "**Theme Chooser**".  Once clicked you should see the selection of built-in Jekyll themes GitHub has to offer:
 
 ![GitHub pages theme selection](/assets/img/posts/20220307/github-pages-theme-selection.png)
 

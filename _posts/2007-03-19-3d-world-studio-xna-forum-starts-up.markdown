@@ -19,5 +19,4 @@ Also [Johnnylightbulb](http://www.codeplex.com/johnnylightbulb "http://www.codep
 
 A little snippet of what is possible with the Mapping engine, hmmm
 
-![](assets/img/posts/image-not-found.png)
-
+![Level rendered with the 3D World Studio mapping engine](https://web.archive.org/web/20070802024919im_/http://www.leadwerks.com/screenshots/shot61.jpg)

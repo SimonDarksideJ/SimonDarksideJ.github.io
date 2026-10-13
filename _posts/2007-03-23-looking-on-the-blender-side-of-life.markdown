@@ -5,24 +5,19 @@ date: 2007-03-23 12:28:55
 tags: [blender]
 ---
 
-Along the trail of my ever growing Blog roll (must be up to about 50 rolls a day from about 300, it’s a wonder I’m not putting on weight!!), More Blender goodness has come my way.
-
+Along the trail of my ever growing Blog roll (must be up to about 50 rolls a day from about 300, it’s a wonder I’m not putting on weight!!), more Blender goodness has come my way.
 
 ## First off – The Blender Art Magazine
 
-This is a free [downloadable magazine](http://blenderart.org/download.html), contributed from the blender community, full of useful tips and fantastic artwork.  Each new edition covers another amazing facet of Blenders capabilities.
+This is a free [downloadable magazine](http://blenderart.org/download.html), contributed from the blender community, full of useful tips and fantastic artwork.  Each new edition covers another amazing facet of Blender's capabilities.
 
 [Check it out](http://blenderart.org/)
 
-![](assets/img/posts/image-not-found.png)  Issue 8, the current edition.
-
+![Cover of BlenderArt magazine issue 8](https://web.archive.org/web/20070312174223im_/http://blenderart.org/images/issue8_thumb.gif)  Issue 8, the current edition.
 
 ## Next – The Ten minute Drawing Techniques Blog
 
-[Mark Chong](http://tenminutedrawing.blogspot.com/) in Toronto, Ontario, CA, has a good blog roll going of a collection of 10 minute introductions into drawing, he uses [Autodesks Sketchbook](http://usa.autodesk.com/adsk/servlet/index?id=6848332&siteID=123112) but there are several other apps that can be used instead or even just grab out the old Pen and Paper!, more info also on the [Blender Nation site](http://www.blendernation.com/2007/03/21/learn-drawing-techniques/)
-
-![](assets/img/posts/image-not-found.png)
-
+[Mark Chong](http://tenminutedrawing.blogspot.com/) in Toronto, Ontario, CA, has a good blog roll going of a collection of 10 minute introductions into drawing, he uses [Autodesk's Sketchbook](http://usa.autodesk.com/adsk/servlet/index?id=6848332&siteID=123112) but there are several other apps that can be used instead or even just grab out the old Pen and Paper!, more info also on the [Blender Nation site](http://www.blendernation.com/2007/03/21/learn-drawing-techniques/)
 
 ## Lastly – An updated Blender script to fix Direct X exporting woes
 
@@ -32,8 +27,6 @@ you can find more detail at [http://sunday-lab.blogspot.com/2007/03/blender-plug
 
 the patch is intended to work in cooperation with the [Animation Component Library](http://www.codeplex.com/animationcomponents) on Codeplex.
 
-
-##### Happy Drawings
+Happy Drawings
 
 Darkside
-

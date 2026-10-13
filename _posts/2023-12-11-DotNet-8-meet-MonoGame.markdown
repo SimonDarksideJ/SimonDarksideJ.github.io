@@ -3,7 +3,8 @@ layout: post
 title: .NET 8, meet MonoGame
 date: 2023-12-11 00:00 +0000
 description: The journey has begun and the road to building .NET 8 based games has begun.
-img: posts/20231211/title.gif
+img: posts/20231211/title.jpg
+img_video: posts/20231211/title.webm
 category: MonoGame
 tags:
 - game development
@@ -11,12 +12,11 @@ tags:
 - monogame
 author: Simon Jackson
 github: ""
-mathjax: false
 ---
 
 > TL;DR -> .NET 8 language support is now available for MonoGame and opening up a whole new world of goodness and speed for games.
 
-![Get the .NET8 Party started](/assets/img/posts/20231211/getthepartystarted.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231211/getthepartystarted.jpg" aria-label="Get the .NET8 Party started"><source src="/assets/img/posts/20231211/getthepartystarted.webm" type="video/webm"></video>
 
 > ###### *Note, the information contained below is for those developers who want access to the cutting edge, as it requires access to the development source. (with the exception of [upgrading your game to .NET 8](#actually-you-can-build-net-8-already))
 >
@@ -28,7 +28,7 @@ Granted, the MonoGame Foundation board (the majority of the core developers) are
 
 So on to today's news (a few weeks late), that one of the first items brought up at the [MonoGame Foundation board meetings](https://monogame.net/foundation/meeting-2023-11-22.html) has now been completed, the **upgrade from .NET 6 to .NET 8** for the public version of MonoGame.  You can read the [nitty-gritty of the change here in the PR](https://github.com/MonoGame/MonoGame/pull/8089) for the update, and this article will help explain the rest.
 
-![Fan fare!! woop woop](/assets/img/posts/20231211/woopwoop.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231211/woopwoop.jpg" aria-label="Fan fare!! woop woop"><source src="/assets/img/posts/20231211/woopwoop.webm" type="video/webm"></video>
 
 > It may also be interesting to note, that the work was NOT done by a Foundation Board member, but by one of the MonoGame community, none other than [Aristurtle](https://github.com/AristurtleDev).  Make sure to give them a virtual clap on the back when you see them on Discord!!
 
@@ -94,11 +94,7 @@ To create a Personal Access token, simply:
 
     ![GitHub Personal Access Token](/assets/img/posts/20231211/01-GitHubPersonalAccessToken.png)
 
-6. As shown above, give the token a recognizable name, select the
-
-    **read:packages** scope
-
-    (which only allows this token to read packages, nothing else) and finally set the expiration date.  (For read tokens like this, I usually set the expiration to "Never expire", although GitHub will warn you if you do)
+6. As shown above, give the token a recognizable name, select the **read:packages** scope (which only allows this token to read packages, nothing else) and finally set the expiration date.  (For read tokens like this, I usually set the expiration to "Never expire", although GitHub will warn you if you do)
 7. When done, scroll to the bottom of the page and click **Generate Token**
 8. Finally, on the next screen, GitHub will show your new key in a highlighted row in the Token list, now **VERY IMPORTANT**, copy your key from here and save it somewhere securely as GitHub will **NEVER** show you this key again.  The only way to access the key again is to regenerate it by editing the Key and requesting a new one.
 
@@ -136,7 +132,7 @@ Starting with Visual Studio, as it is the simplest to do, upgrading MonoGame to 
 9. Now just click **OK** and select the new **Package Source** in the drop-down (if it is not selected already)
 
     > The first time you access the MonoGame developer NuGet source on GitHub, you will be asked for your authentication credentials.  Simply enter your **GitHub Username** (or email) and your **Personal Access Token** (for the password) that you generated earlier to progress.
-    >
+>
     > ![GitHub authentication](/assets/img/posts/20231211/04-GitHubAUthenticationPrompt.png)
 
 10. Sadly, all we can still see are the existing **Release** packages at this point, to see the development versions you need to also check the "**Includeprerelease**" checkbox next to the search bar at the top of the screen, and WHOOSH, the MonoGame packages list will update to show the VERY latest versions.
@@ -155,12 +151,12 @@ For Visual Studio Code, the flow is a little more manual and also a bit trickier
 2. Select the **CSPROJ** file in the folder tree.
 3. Change the **TargetFramework** value from **net6.0** to **net8.0**. (yay your project will now build for .NET 8)
 
-    > ```<TargetFramework>net8.0</TargetFramework>```
+    > `<TargetFramework>net8.0</TargetFramework>`
 
 4. Next, to be able to access the GitHub Packages, we need to authenticate with GitHub to access the developer packages, open a new **Terminal Window** in VSCode ("**Terminal -> New Terminal**" or "**Ctrl+Shift+'**") and then type the following:
 
-    ```dotnetcli
-    dotnet nuget add source --username <your GitHub Username/> --password <your GitHub PAT/> --name MonoGame "https://nuget.pkg.github.com/MonoGame/index.json"
+    ```shell
+    dotnet nuget add source --username <your GitHub username> --password <your GitHub PAT> --name MonoGame "https://nuget.pkg.github.com/MonoGame/index.json"
     ```
 
     > Making sure to replace the username and password with your GitHub credentials, your username and the Personal Access Token you generated.
@@ -169,54 +165,54 @@ For Visual Studio Code, the flow is a little more manual and also a bit trickier
 
 5. With the authentication in place, enter the following command for each package you have installed:
 
-    ```.NET add package MonoGame.Content.Builder.Task --version 3.8.1.534-develop```
+    `dotnet add package MonoGame.Content.Builder.Task --version 3.8.1.534-develop`
 
     > To check the correct version to use for the packages you want to install, visit the [Packages list](https://github.com/orgs/MonoGame/packages) on the GitHub repository and click on each package to see all the versions for the package and even the command-line command, as shown above.
 
-If you now check the **Solution Explorer** tab in the Browser window on the left, you will see the dependency packages updated to the development versions of MonoGame (assuming your *nuget.config* is configured with the right credentials)
+If you now check the **Explorer** tab on the left, you will see the dependency packages updated to the development versions of MonoGame (assuming your *nuget.config* is configured with the right credentials)
 
 ## Do not forget about the tools
 
-![MonoGame Tools need love too](/assets/img/posts/20231211/tools.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20231211/tools.jpg" aria-label="MonoGame Tools need love too"><source src="/assets/img/posts/20231211/tools.webm" type="video/webm"></video>
 
 You have updated your project to .NET 8 as well as your MonoGame Framework dependencies.  So, why when you do a build does it still use the old .NET 6 versions of the MonoGame Tools (like MGCB)?
 
 > The simple answer is because you are still telling it to.
 
-To update your project to use the newer .NET 8 version of the tools, you also need to update the **.NET-tools.json** configuration located in your projects **.config** folder.
+To update your project to use the newer .NET 8 version of the tools, you also need to update the **dotnet-tools.json** configuration located in your projects **.config** folder.
 
 Simply edit the file in Visual Studio or VSCode and swap out the older **3.8.1.303** version number with the newer version you installed with your packages, which at the time of writing was **3.8.1.534-develop**, as shown below:
 
-```xml
+```json
 {
   "version": 1,
   "isRoot": true,
   "tools": {
-    ".NET-mgcb": {
+    "dotnet-mgcb": {
       "version": "3.8.1.534-develop",
       "commands": [
         "mgcb"
       ]
     },
-    ".NET-mgcb-editor": {
+    "dotnet-mgcb-editor": {
       "version": "3.8.1.534-develop",
       "commands": [
         "mgcb-editor"
       ]
     },
-    ".NET-mgcb-editor-linux": {
+    "dotnet-mgcb-editor-linux": {
       "version": "3.8.1.534-develop",
       "commands": [
         "mgcb-editor-linux"
       ]
     },
-    ".NET-mgcb-editor-windows": {
+    "dotnet-mgcb-editor-windows": {
       "version": "3.8.1.534-develop",
       "commands": [
         "mgcb-editor-windows"
       ]
     },
-    ".NET-mgcb-editor-mac": {
+    "dotnet-mgcb-editor-mac": {
       "version": "3.8.1.534-develop",
       "commands": [
         "mgcb-editor-mac"
@@ -226,13 +222,13 @@ Simply edit the file in Visual Studio or VSCode and swap out the older **3.8.1.3
 }
 ```
 
-Done, next time you perform a ```.NET restore``` or build your project, the latest version of the tools with be downloaded and made available (they will not be available until you do your FIRST build after making the update)
+Done, next time you perform a `dotnet restore` or build your project, the latest version of the tools with be downloaded and made available (they will not be available until you do your FIRST build after making the update)
 
-> **Note* this is still a manual task. Every time you update the dependencies, you will also need to update the tools versions.
+> **Note** this is still a manual task. Every time you update the dependencies, you will also need to update the tools versions.
 
 ## Conclusion
 
-To the beginner, this upgrade will not mean much at all, except to state that you will be running on the latest "supported" version of Dot Net (as .NET 6 is now in maintenance only), which also means you will get all the latest fixes and updates to the backbone of your project. As well as the modest speed improvements from the latest and greatest of .NET.
+To the beginner, this upgrade will not mean much at all, except to state that you will be running on the latest "supported" version of .NET (as .NET 6 is now in maintenance only), which also means you will get all the latest fixes and updates to the backbone of your project. As well as the modest speed improvements from the latest and greatest of .NET.
 
 For the more adventurous, newer C# features and .NET 8 specific functionality are now within your project, so much so that I couldn't fit them into a single article :D
 

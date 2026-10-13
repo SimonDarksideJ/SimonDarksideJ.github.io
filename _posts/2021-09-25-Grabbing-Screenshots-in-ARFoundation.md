@@ -9,10 +9,9 @@ img: posts/20210925/arcamera.webp
 tags: [ar foundation, unity3d]
 author: Simon Jackson
 github:  
-mathjax: no
 ---
 
-An interesting challenge came across my desk that, on the face of it, should have been very easy.  
+An interesting challenge came across my desk that, on the face of it, should have been very easy.
 
 > Take a Screenshot of an Augmented Reality scene and then place that content in the AR scene as an anchored object.
 
@@ -26,7 +25,7 @@ Easy I said, no problem, forgetting a couple of little problems:
 
 This was the eventual result that was desired (apologies for the low res)
 
-![Gif of Placing Screenshot in an AR scene](/assets/img/posts/20210925/01-01-ARFoundationPictureResult.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20210925/01-01-ARFoundationPictureResult.jpg" aria-label="Gif of Placing Screenshot in an AR scene"><source src="/assets/img/posts/20210925/01-01-ARFoundationPictureResult.webm" type="video/webm"></video>
 
 Here is the journey to create this interesting little project for all to enjoy.
 
@@ -194,7 +193,7 @@ Placing an object in the scene and applying the grabbed texture to it, easy... O
 
 In this script, we simply:
 
-* To create a Primitive (a quad as it has the least amount of geometry)
+* Create a Primitive (a quad as it has the least amount of geometry)
 * Define a position in front of the camera and set the Quad there
 * Assign the texture to its renderer
 
@@ -204,9 +203,9 @@ In this script, we simply:
 > ```csharp
 >   // Use This
 >   Vector3 pos = gameObject.transform.position + gameObject.transform.forward;
-> 
+>
 >   // NOT this
->   Vector3 pos = gameObject.transform.position + Vector.forward;
+>   Vector3 pos = gameObject.transform.position + Vector3.forward;
 > ```
 >
 > Else you will be in for a little head-scratching when it does not appear where you expect!
@@ -276,7 +275,7 @@ The last trick is to place the Quad far enough away from the camera so that it f
 
 Adding **0.75f** units forward of the camera's position
 
-> In the example, I added an extra scene with a simply debug view to find the 0.75f magic number by moving the placed screenshot until it met my requirements.  There might be a neat mathematical way to figure this out, but sometimes the simplest solution is the best :D
+> In the example, I added an extra scene with a simple debug view to find the 0.75f magic number by moving the placed screenshot until it met my requirements.  There might be a neat mathematical way to figure this out, but sometimes the simplest solution is the best :D
 
 With these final changes in, our **Screenshot** code now looks like this:
 
@@ -401,7 +400,7 @@ So as described, we want to use an **Unlit shader** for our screenshot object, t
 > ```csharp
 >   //DO NOT do this
 >   renderer.material.shader = Shader.Find("Unlit/Texture");
-> 
+>
 >   // DO THIS
 >   var unlitTexture = Shader.Find("Unlit/Texture");
 >   renderer.material.shader = unlitTexture;
@@ -422,7 +421,7 @@ So as described, we want to use an **Unlit shader** for our screenshot object, t
 
 For our sample, we will implement the UnLit shader by caching the Shader instance to avoid calling "Find" every time we need to place a screenshot.  It isn't very often, but you should get in the habit of caching "anything" that needs a "Find" function wherever possible.
 
-Ths final update to the Screenshot code is as follows:
+The final update to the Screenshot code is as follows:
 
 ```csharp
 using UnityEngine;
@@ -538,5 +537,3 @@ Fun wasn't it.
 
 This was a fun ride that took me quite a few more hours than I would have expected as I had not taken into account I was using Unity..
 Things are not always as simple as they initially appear and there are almost always a few bumps in the road.  Being used to Unity, I should know better but it seems I am eternally bound to repeating past mistakes when trying to do something new.
-
-![Joey from friends suddenly being surprised by something he did not expect](assets/img/posts/image-not-found.png)

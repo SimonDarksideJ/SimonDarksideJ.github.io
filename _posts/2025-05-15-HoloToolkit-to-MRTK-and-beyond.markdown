@@ -3,17 +3,17 @@ layout: post
 title: HoloToolkit to MRTK and Beyond
 date: 2025-05-15 00:00 +0000
 description: The journey of the Microsoft HoloToolkit for HoloLens, the evolution of the MRTK and the journey onwards.
-img: posts/20250515/title.gif
+img: posts/20250515/title.jpg
+img_video: posts/20250515/title.webm
 category: XR
 tags:
 - xr
 - ar
 - unity3d
 author: Simon Jackson
-mathjax: false
 ---
 
-> TL; DR -> I am immensely proud of my achievements evolving the [MS HoloToolkit](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/2017.4.2.0) into the cross-platform framework that became the [MS Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v2.8.3), and the journey onwards to crafting framework components for the [XRTK](https://github.com/XRTK) and finally the [Reality Collective](https://www.realitycollective.net/).
+> TL;DR -> I am immensely proud of my achievements evolving the [MS HoloToolkit](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/2017.4.2.0) into the cross-platform framework that became the [MS Mixed Reality Toolkit](https://github.com/microsoft/MixedRealityToolkit-Unity/releases/tag/v2.8.3), and the journey onwards to crafting framework components for the [XRTK](https://github.com/XRTK) and finally the [Reality Collective](https://www.realitycollective.net/).
 
 ![The Journey](/assets/img/posts/20250515/HoloJourney.png)
 
@@ -21,7 +21,7 @@ It seems almost a lifetime ago before I was invited into the Microsoft HoloToolk
 
 ## [HoloToolkit for Unity](https://github.com/microsoft/MixedRealityToolkit-Unity/tree/2017.4.2.0)
 
-With the astounding launch of the [Microsoft HoloLens](https://learn.microsoft.com/en-us/previous-versions/mixed-reality/hololens-1/hololens1-hardware), the software toolkit that supported it already supported a vast array of features, tools and even baked in UX components.  This created one of the easiest toolkit's to use for building for any XR headset at the time.
+With the astounding launch of the [Microsoft HoloLens](https://learn.microsoft.com/en-us/previous-versions/mixed-reality/hololens-1/hololens1-hardware), the software toolkit that supported it already supported a vast array of features, tools and even baked in UX components.  This created one of the easiest toolkits to use for building for any XR headset at the time.
 
 |![HoloLens 1 Toolkit features](https://github.com/microsoft/MixedRealityToolkit-Unity/raw/2017.4.2.0/External/ReadMeImages/MRTK_BuildingBlocks.png)|
 | :---: |
@@ -78,7 +78,8 @@ HoloLens 2 slotted right in with the new framework, and any existing projects th
 
 With time and budgets, there was no scope to provide an upgrade path from the original HoloToolkit to the new MRTK, there had already been a lot of angst over recent changes to the HoloToolkit and refactoring/restructuring of how the legacy toolkit was delivered.  It was a short term pain and a lot of guidance was provided on how to "step up" quickly to upgrade projects.  But in reality, projects needed to be re-built from the ground up with how the new toolkit functioned.  (Sadly an experience to be repeated when the Microsoft team decided to re-engineer the MRTK with Unity's XRI Framework for MRTK3).
 
-Not long after the launch of the HoloLens 2 and its adoption into the MRTK, all external (non-Microsoft) were exited from the project due to some changes in the internal management of the Mixed Reality team, this effectively shut out developers such as myself and Stephen Hodgson (and several others) from further development of the project, after so much time and investment to build the framework for Microsoft, some felt this was a bridge too far.  A hard lesson to learn in how to build open projects for large companies.
+Not long after the launch of the HoloLens 2 and its adoption into the MRTK, all external (non-Microsoft) contributors were exited from the project due to some changes in the internal management of the Mixed Reality team, this effectively shut out developers such as myself and Stephen Hodgson (and several others) from further development of the project, after so much time and investment to build the framework for Microsoft, some felt this was a bridge too far.  A hard lesson to learn in how to build open projects for large companies.
+
 The wider team was still encouraged to participate in events and support the MRTK in the community for adoption, but all Microsoft projects and contracts were held in-house and limited information was shared regarding any issues or frustrations in its use.  This sadly limited the future development of the framework.
 
 Newer features became difficult to engineer and implement into the framework and some features that needed an overhaul were only migrated into the MRTK, while this did not cause specific problems, the advantages of the new platform were lost on these features and no time was given to upgrade them.
@@ -89,7 +90,7 @@ Newer features became difficult to engineer and implement into the framework and
 | :---: |
 |**Figure 3: The birth of the XRTK**|
 
-As the MRTK became more of an internal project, the community, spearheaded by Stephen Hodgson and myself (and later others) brought the heart of the MRTK v2 into the public domain, this was supported by Microsoft for wider community engagement as a way to cooperatively build out new features / platforms and components that were compatible with the base MRTK.  Numerous fixes and enhancements were driven into the framework (some ending as PR's into the MRTK while it was still accepting community changes) and newer platforms were added such as:
+As the MRTK became more of an internal project, the community, spearheaded by Stephen Hodgson and myself (and later others) brought the heart of the MRTK v2 into the public domain, this was supported by Microsoft for wider community engagement as a way to cooperatively build out new features / platforms and components that were compatible with the base MRTK.  Numerous fixes and enhancements were driven into the framework (some ending as PRs into the MRTK while it was still accepting community changes) and newer platforms were added such as:
 
 * OpenVR
 * Meta Quest
@@ -122,11 +123,11 @@ One of the most fundamental changes we agreed on was the breaking up of all the 
 | :---: |
 |**Figure 5: Service Design**|
 
-The service framework at his heart decouples functional services and runtimes from the Unity MonoBehaviour shackles, enabling high-frequency operations and reducing performance impacts by 80%, similar to what Unity is trying to achieve with its new DOTS/ECS framework (which requires drastic changes to the construction of your project).
+The service framework at its heart decouples functional services and runtimes from the Unity MonoBehaviour shackles, enabling high-frequency operations and reducing performance impacts by 80%, similar to what Unity is trying to achieve with its new DOTS/ECS framework (which requires drastic changes to the construction of your project).
 
 Functionality is effectively containerised into discrete components and through the service framework, they are immediately accessible throughout the project without any hard dependencies.
 
-Another core tenant of Service Design within the Service Framework is the decoupling of configuration for each service through configuration profiles:
+Another core tenet of Service Design within the Service Framework is the decoupling of configuration for each service through configuration profiles:
 
 |![Service Profiles](/assets/img/posts/20250515/Service-Framework-Profile.png)|
 | :---: |
@@ -145,7 +146,7 @@ There is so much more behind the Service Framework, so you can [read about it he
 
 ### Reality Toolkit
 
-The Reality Toolkit is where is all began, now stripped down to just the essential parts to be more efficient and maintainable, each feature given its own space in its own right to make building projects even easier:
+The Reality Toolkit is where it all began, now stripped down to just the essential parts to be more efficient and maintainable, each feature given its own space in its own right to make building projects even easier:
 
 * The Core - Input system, critical definitions and structures, and future proofed elements to be as fast as possible.
 * The Player framework - Defines playable areas, the XR rig definition and a multi-tiered Camera / vision setup, automatically setting up the environment in reaction to the headset / environment it is running on.

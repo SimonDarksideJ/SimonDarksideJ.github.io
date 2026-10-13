@@ -9,7 +9,6 @@ tags:
 - jekyll
 author: Simon Jackson
 github:
-mathjax: false
 ---
 
  Thanks to creating your pages in [Part 1](/getting-started-with-blogging-using-github-pages-and-jekyll) and then theming it in [Part 2](Applying-a-theme-to-your-GitHub-pages-site), you already have a nice looking site, maybe with a little flair. Now it is time to start writing some content, whether that is a blog post or a regular page for your site, you want to make writing easy and if at all possible, avoid installing any tools.
@@ -47,7 +46,7 @@ The Tabs on the left side are:
 
 * Explorer - for viewing the files in your repository
 * Search - to search for specific files and/or code
-* Source Control - for comiting changes to your repository
+* Source Control - for committing changes to your repository
 * Run and Debug - for testing / executing web apps (not relevant for writing)
 * Extensions - for extending your VS Code experience, the same as on the desktop
 * Remote Explorer - for running a [Microsoft Codespaces environment](https://visualstudio.microsoft.com/services/github-codespaces/) from VS Code - a bit too advanced for writing articles
@@ -96,7 +95,7 @@ As discussed in previous posts, your Front Matter describes your article in your
 
 For example:
 
-```
+```yaml
 ---
 layout: post
 title: Blogging Like a Hacker
@@ -107,7 +106,7 @@ category: my category
 
 Now, depending on the theme you have implemented for your site, you may need additional elements added to your Front Matter, so refer to your theme documentation for any additional information. For example, the Front Matter for my blog is as follows (which is also the Front Matter for this article):
 
-```
+```yaml
 ---
 layout: post
 title: Writing efficient markdown using GitHub Pages
@@ -131,15 +130,15 @@ Now a crucial feature for most articles is the Article header image, this makes 
 
 Now VS Code on the web also allows you to drag and drop images from your local computer right into the browser.
 
-![adding images on the web](/assets/img/posts/20220318/Adding-Images.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20220318/Adding-Images.jpg" aria-label="adding images on the web"><source src="/assets/img/posts/20220318/Adding-Images.webm" type="video/webm"></video>
 
 The only thing to be aware of is where you put them, as each theme is different.  For my blog, images are placed in the following folder structure:
 
-> ``` /Assets/img/posts/<date> ```
+> `/assets/img/posts/<date>`
 
 Just create a folder for the images and drag and drop to your hearts content.
 
-WHen you are ready, update the Front Matter of your article with the path to your image, as shown in my example Front Matter above.
+When you are ready, update the Front Matter of your article with the path to your image, as shown in my example Front Matter above.
 
 > Always check your theme documentation for how to use Header images for your posts.
 
@@ -154,27 +153,27 @@ If you are using Images on your blog site, just add them as you did for the head
 
 ### Images from your site
 
-To the image reference to your post, simply use the markup (VSCOde for GitHub also features a file browser, which autofills your selection based on what is on your site)
+To the image reference to your post, simply use the markup (VSCode for GitHub also features a file browser, which autofills your selection based on what is on your site)
 
-> "``` ![<alt text>](<path to image>) ```"
+> `![<alt text>](<path to image>)`
 
 For example, the above image path (for me) was (as demonstrated below)
- 
-> ``` ![adding images on the web](/assets/img/posts/20220318/Adding-Images.gif) ```
+
+> `![adding images on the web](/assets/img/posts/20220318/Adding-Images.gif)`
 
 And VSCode also makes it super easy by showing the path as you type:
 
-![adding images on the web](/assets/img/posts/20220318/adding-image-links.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20220318/adding-image-links.jpg" aria-label="adding images on the web"><source src="/assets/img/posts/20220318/adding-image-links.webm" type="video/webm"></video>
 
 > ***Note** at the time of writing, if you drag and drop images in to the Web editor and then use the above technique to reference your image "before you commit your files to the repository" (showing in green in the editor) it will **FORGET** the first character of the file name.  So instead of:
-> 
+>
 > "adding-image-links.gif"
-> 
+>
 > It will be:
-> 
+>
 > "dding-image-links.gif".
-> 
-> Simply check the link is correct before publishing.  
+>
+> Simply check the link is correct before publishing.
 
 > Always check the preview using the "Open Preview to the Side" button in the upper-right-hand corner of the screen to check that your images show.
 
@@ -184,29 +183,27 @@ You should note that the path is only "relative" to where your articles are and 
 
 If you have an image that is hosted online already (sometimes the preferred approach), you simply need the full URL to that image (if you can view it in your browser, it will work on your site).
 
-Then like the markdown for your site image, use the following syntax: 
+Then like the markdown for your site image, use the following syntax:
 
-> "``` ![<alt text>](<url to image>) ```"
+> `![<alt text>](<url to image>)`
 
 For example:
 
 This markdown:
 
->  ``` ![Am I doing this right?](assets/img/posts/image-not-found.png) ```
+>  ``
 
 Would show the below image:
-
-![Am I doing this right?](assets/img/posts/image-not-found.png)
 
 ## Linking to other posts
 
 After mastering images, linking to previous posts on your site works in pretty much the same way, except you do not need the leading "**!**" character, simply use:
 
-> ``` [<Readable Text>](<Local Link to post>) ```
+> `[<Readable Text>](<Local Link to post>)`
 
 For example, the link to the [previous chapter](/Applying-a-theme-to-your-GitHub-pages-site) would be:
 
-> ```[previous chapter](/Applying-a-theme-to-your-GitHub-pages-site)```
+> `[previous chapter](/Applying-a-theme-to-your-GitHub-pages-site)`
 
 Where you can see the text I used in the example.  Nice and simple.
 
@@ -216,7 +213,7 @@ But we can go further, if you also want to link to a specific section in your ar
 
 For Example, if you want to jump to the "Where to get these mysterious themes" section of the [Previous Post](/Applying-a-theme-to-your-GitHub-pages-site#where-to-get-these-mysterious-themes), you would simply append the name of the section to the end of the URL.
 
-![Jumping to a header section](/assets/img/posts/20220318/selecting-headers-in-posts.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20220318/selecting-headers-in-posts.jpg" aria-label="Jumping to a header section"><source src="/assets/img/posts/20220318/selecting-headers-in-posts.webm" type="video/webm"></video>
 
 Just be sure to:
 
@@ -239,11 +236,11 @@ While you are in draft, you can save your changes to the server at any time (be 
 
 To publish changes you need to **COMMIT** them to your repository, which is also very easy to do. Simply click on the "Source Control" tab on the left-hand side of the window to switch to the "Commit" view.  Next, enter a message to remind you what you have changed, then select the files you want to save and finally, click the **TICK** button to save/commit:
 
-![Commiting files to the repository](/assets/img/posts/20220318/commit-changes-to-the-repository.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20220318/commit-changes-to-the-repository.jpg" aria-label="Committing files to the repository"><source src="/assets/img/posts/20220318/commit-changes-to-the-repository.webm" type="video/webm"></video>
 
 Just make sure to be careful as to what you add and what you save, as undoing what you have uploaded can be tricky.  But GitHub remembers what you changed and you can view that in your [repository change history](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/making-changes-in-a-branch/viewing-the-branch-history) at any time.
 
-> Selectively "adding" files to the **Commit** before hitting the **Tick** button allows you to choose which files to push to the server.  ALternatively, if you just hit the **Tick** button without adding files, it will commit **ALL** changes to the server at once.
+> Selectively "adding" files to the **Commit** before hitting the **Tick** button allows you to choose which files to push to the server.  Alternatively, if you just hit the **Tick** button without adding files, it will commit **ALL** changes to the server at once.
 
 ## Advanced syntax
 
@@ -269,7 +266,7 @@ When you are ready "and sure", all you need to do is:
 For example:
 
 > 2022-03-18-writing-efficient-markdown-on-githubpages.md
-> 
+>
 > (This article)
 
 Check the Front Matter inside your article matches the publish date you want on the article, and you are done.
@@ -283,8 +280,6 @@ Then repeat the steps from the "[Commit your changes](#commit-your-changes)" sec
 This article you are reading was written using all the techniques described in this article, which includes all the gifs which were recorded while writing this article.
 No PC (other than my browser) was used in its creation.
 
-> If you want super scary.  I even wrote some of this article ON MY PHONE, as VSCode on the web is even FULLY supported on mobile, that includes commiting the changes!
+> If you want super scary.  I even wrote some of this article ON MY PHONE, as VSCode on the web is even FULLY supported on mobile, that includes committing the changes!
 
 I leave you now to get on with writing your own content while I get on with the next article which is a little more advanced and WILL involve getting your PC dirty.
-
-![Clint Eastward Nodding with headphones from the Magnificent Seven](assets/img/posts/image-not-found.png)

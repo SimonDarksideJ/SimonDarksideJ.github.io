@@ -11,6 +11,7 @@ layout: null
       "category": {{ post.category | jsonify }},
       "tags": {{ post.tags | jsonify }},
       "img": {{ post_img | jsonify }},
+      "video": {{ post.img_video | jsonify }},
       "description": {{ post.description | jsonify }},
       "excerpt": {{ post.excerpt | strip_html | truncatewords: 50 | jsonify }},
       "content": {{ post.content | strip_html | truncatewords: 200 | jsonify }}

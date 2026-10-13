@@ -7,7 +7,17 @@ layout: default
     <aside class="post-sidebar">
       <div class="post-hero" aria-hidden="true">
         {% assign page_img = page.img | default: page.image | default: page.banner | default: page.featured_image | default: page.cover | default: page.header_image | default: page.hero_image | default: page.thumbnail %}
-        {% if page_img %}
+        {% if page.img_video %}
+          {% comment %} Animated header: WebM video with the still image as its poster. {% endcomment %}
+          {% assign hero_poster = page_img | default: '' %}
+          {% unless hero_poster contains '://' or hero_poster == '' %}{% assign hero_poster_first = hero_poster | slice: 0, 1 %}{% if hero_poster_first != '/' %}{% assign hero_poster = '/assets/img/' | append: hero_poster %}{% endif %}{% endunless %}
+          {% assign hero_video = page.img_video %}
+          {% assign hero_video_first = hero_video | slice: 0, 1 %}
+          {% if hero_video_first != '/' %}{% assign hero_video = '/assets/img/' | append: hero_video %}{% endif %}
+          <video class="post-hero__img" autoplay loop muted playsinline{% if hero_poster != '' %} poster="{{ hero_poster | relative_url }}"{% endif %}>
+            <source src="{{ hero_video | relative_url }}" type="video/webm">
+          </video>
+        {% elsif page_img %}
           {% assign page_img_first = page_img | slice: 0, 1 %}
           {% if page_img contains '://' %}
             <img class="post-hero__img" src="{{ page_img }}" alt="">

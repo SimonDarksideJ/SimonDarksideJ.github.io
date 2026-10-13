@@ -2,17 +2,18 @@
 layout: post
 title: "Evolving AI Plans"
 date: 2026-02-05 16:00:00 +0000
-description: "To quote Bueller, Life moves pretty fast. If you do not stop and look around once in a while, you could miss it.  Which is what happens if you do not re-evaluate your AI tools often."
+description: "To quote Ferris Bueller (Ferris Bueller's Day Off, 1986), \"Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.\"  Which is what happens if you do not re-evaluate your AI tools often."
 category: Announcements
 tags:
   - agents
   - llm
   - ai
 author: Simon Jackson
-img: posts/20260215/aidetected.gif
+img: posts/20260215/aidetected.jpg
+img_video: posts/20260215/aidetected.webm
 ---
 
-The world of AI is moving faster than most can keep up, by the time you have mastered one pattern, several others have cropped up.  If you do not keep a check on yourself, you could be left behind.  If you thought it was tough in the 80/90's (I am old, I get it) with how fast things were evolving, then buckle up, we are now reaching lightspeed.
+The world of AI is moving faster than most can keep up, by the time you have mastered one pattern, several others have cropped up.  If you do not keep a check on yourself, you could be left behind.  If you thought it was tough in the 80s and 90s (I am old, I get it) with how fast things were evolving, then buckle up, we are now reaching lightspeed.
 
 > [!NOTE]
 >
@@ -20,7 +21,7 @@ The world of AI is moving faster than most can keep up, by the time you have mas
 
 ## New patterns for a new age
 
-The Bueller quote heading this article has never been more true, it seems almost daily I am reviewing the news, latest posts from ALL of the major partners involved with Agents and LLM's for new patterns, ideas and suggestions.  Thankfully, everyone is riffing off each other in a good way, someone suggests or posts something, then someone else builds on that and goes that bit further, whether it is:
+The Bueller quote heading this article has never been more true, it seems almost daily I am reviewing the news, latest posts from ALL of the major partners involved with Agents and LLMs for new patterns, ideas and suggestions.  Thankfully, everyone is riffing off each other in a good way, someone suggests or posts something, then someone else builds on that and goes that bit further, whether it is:
 
 - A new LLM logic.
 - Improved MCP interfaces and tools.
@@ -40,7 +41,7 @@ It almost sounds too true, but my workflow has improved, especially with some de
 > [!WARNING]
 > This is NOT a silver bullet, to get more out, you MUST put more in, and thus the cost, depending on what you are using will INCREASE.
 >
-> My recommendation, as is becoming more of the goal in today’s market, is to HOST your own LLM infrastructure (they have it [running on Raspberry Pi's now](https://github.com/sipeed/picoclaw)).  It is possible with a little effort, and you can reduce your downstream costs to all but the critical path.
+> My recommendation, as is becoming more of the goal in today's market, is to HOST your own LLM infrastructure (they have it [running on Raspberry Pis now](https://github.com/sipeed/picoclaw)).  It is possible with a little effort, and you can reduce your downstream costs to all but the critical path.
 >
 > Sadly, this is out of scope for this article, but I will try to add more later.
 
@@ -65,13 +66,13 @@ Your mileage may vary, but this singular change VASTLY improves my outcomes.  Gr
 
 ### Patterns
 
-Now to the other meat on the bone, the revised patterns that consume the living document.  I have long stated that LLM's are more tuned to the small tasks, a quick fix, diagnosis, but where you need to dig deeper, you have to keep a better handle on the outcome, thus these are the methods I have now turned to using:
+Now to the other meat on the bone, the revised patterns that consume the living document.  I have long stated that LLMs are more tuned to the small tasks, a quick fix, diagnosis, but where you need to dig deeper, you have to keep a better handle on the outcome, thus these are the methods I have now turned to using:
 
 ## It all starts with a defined and reviewed plan
 
 By far my biggest improvement through LLM use is to focus and narrow its path, to think and to constantly challenge its assumptions.  It is **NOT** foolproof, but it greatly improves your chances of a positive outcome.  The whole approach (which is token-heavy) is an almost constant state of review, approval, implementation and review, which when implemented, looks something like this:
 
-- First Agent session - Create the PRD (Product Definition) from a detailed set of requirements, this ensures a list of preferences and outcomes.
+- First Agent session - Create the PRD (Product Requirements Document) from a detailed set of requirements, this ensures a list of preferences and outcomes.
 - Build an instruction document using the PRD as a reference. Guiding the steps for planning, with KEY steps to avoid creating documents unless requested (stops the multi-document scenario).  This might sound counterintuitive, however, they serve very distinct purposes.  One directs how to think, the other tells the LLM what to think about.
 
   > [!IMPORTANT]
@@ -109,7 +110,7 @@ This approach feels more like the Agent working cooperatively than running the s
 At all points, question everything, it is simply good for the soul and makes the challenge more fun.  All that is left is to continue to the end, test everything and the result I have found to be vastly improved.
 
 > [!TIP]
-> Another fun step, but at the cost of tokens, is to ask the Agent from time to time to review what you have actually implemented against the plan and give a status report (helps to reduce human error), marking the document with AI's favourite thing, Icons and Emoji's.  As well as providing a summary, as well as giving you a visible checkpoint of your progress.
+> Another fun step, but at the cost of tokens, is to ask the Agent from time to time to review what you have actually implemented against the plan and give a status report (helps to reduce human error), marking the document with AI's favourite thing, Icons and Emojis.  As well as providing a summary, as well as giving you a visible checkpoint of your progress.
 
 ## Automated plan, automated deployment
 
@@ -141,4 +142,5 @@ Thus ends this page in our journey, but the destination is still far from sight.
 Learning should never end and we should always strive for improvement, and in my humble view, this is in **Cooperation** with an agent and not just handing over the keys on a prompt, no matter how detailed, as it is ultimately flawed.  We learn more along the journey, take those understandings and evolve a better plan.  It is strange, in the many years as a Project Manager, designer, QA and even analyst, this is ultimately how we humans work better, we plan, we question, we revise and ultimately deliver a better outcome.  It might not be perfect, but from that, we continue to build better.
 
 Enough musing, back to the code, which is where I feel most at home, with my new pal sitting on my shoulder.
+
 (Still not sure whether it is a little angel or devil, but let us see where this leads)

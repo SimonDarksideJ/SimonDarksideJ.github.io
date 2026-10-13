@@ -5,7 +5,7 @@ date: 2006-08-25 08:48:57
 tags: [ramblings, xna]
 ---
 
-## XNA Games Studio Express
+## XNA Game Studio Express
 
 Just sounds great when saying it and looks like it should be a great hit, reducing the time and effort required to build multi-platform titles (albeit Microsoft software only) and gives the community a low-cost option of getting their work seen by the outside world.
 
@@ -13,13 +13,12 @@ For those of you not in the know yet, I would suggest hiking over to the [Micros
 
 ## Back now to the main subject of this blog – the Game Loop
 
-Just recently I spent some time browsing through the rest of the XNA teams blogs (there are a few), I already knew and keep an eye out for [Tom Millers Blog](http://blogs.msdn.com/tmiller/default) (good info) and also read [Dave "Let's Kill Dave" Wellers](http://letskilldave.com/default) blog (for a funnier outlook on life and XNA).
+Just recently I spent some time browsing through the rest of the XNA team's blogs (there are a few), I already knew and keep an eye out for [Tom Miller's Blog](http://blogs.msdn.com/tmiller/default) (good info) and also read [Dave "Let's Kill Dave" Weller's](http://letskilldave.com/default) blog (for a funnier outlook on life and XNA).
 
-But today I came across Rick Hoskin's blog (who recently has started blogging in the team, so new he's not even done his profile yet, lol), he's a Pro game programmer and provides some very good insight to good programming styles, Do's and Do Not's.
+But today I came across Rick Hoskin's blog (who recently has started blogging in the team, so new he's not even done his profile yet, lol), he's a Pro game programmer and provides some very good insight to good programming styles, dos and do nots.
 
-Reading down I came across a nice little gem about [a better game loop to use,](http://blogs.msdn.com/rickhos/archive/2005/03/30/403952) he goes on further with [some updates](http://blogs.msdn.com/rickhos/archive/2005/05/06/415227) and even links to some further help on [Toms blog](https://blogs.msdn.com/tmiller/archive/2005/05/05/415008) (must have missed that one).
+Reading down I came across a nice little gem about [a better game loop to use,](http://blogs.msdn.com/rickhos/archive/2005/03/30/403952) he goes on further with [some updates](http://blogs.msdn.com/rickhos/archive/2005/05/06/415227) and even links to some further help on [Tom's blog](https://blogs.msdn.com/tmiller/archive/2005/05/05/415008) (must have missed that one).
 
 Just goes to show how much thought is required to choose a good game loop from the start and how much controversy there is on the subject.
 
 Happy Blogging/Reading!
-

@@ -3,7 +3,8 @@ layout: post
 title: Using Azure Pipelines with Unity
 date: 2022-11-16 14:00 +0000
 description: Making the most of GitHub Actions to automate your Unity testing
-img: posts/20221116/azurepipelines.gif
+img: posts/20221116/azurepipelines.jpg
+img_video: posts/20221116/azurepipelines.webm
 category: Azure Pipelines
 tags:
 - azure
@@ -11,12 +12,11 @@ tags:
 - unity3d
 author: Simon Jackson
 github:
-mathjax: false
 ---
 
 ![Azure Pipelines intro](/assets/img/posts/20221116/01-azuredevops.png)
 
-Similar to [GitHub Actions](https://darkgenesis.zenithmoon.com/using-github-actions-with-unity.html), Azure can automate the building / testing and deploying of your Unity solution.  It is true, that Microsoft is on a journey to migrate all build automation to GitHub to offer a more accessible way for developers to automate their project,  however,there are a few notable exceptions and capabilities that are still far superior in Azure Devops currently that are worth exploring, namely:
+Similar to [GitHub Actions](https://darkgenesis.zenithmoon.com/using-github-actions-with-unity.html), Azure can automate the building / testing and deploying of your Unity solution.  It is true, that Microsoft is on a journey to migrate all build automation to GitHub to offer a more accessible way for developers to automate their project,  however, there are a few notable exceptions and capabilities that are still far superior in Azure Devops currently that are worth exploring, namely:
 
 * Publish artifacts / builds per build.
 * Finer control / articulation of your automation.
@@ -27,7 +27,7 @@ Similar to [GitHub Actions](https://darkgenesis.zenithmoon.com/using-github-acti
 
 > On a personal note, I use a mix of GitHub Actions and Azure DevOps to utilise what each platform is best at.  GitHub for quick tests / builds and validation, Azure for producing release / production builds and automating delivery to test suites/stores.
 
-### Its FREE
+## It's free
 
 Like GitHub Actions, the majority of Azure Pipelines is free to use and run, and a free Azure account to boot (with even some free Azure credits).  The only time you start paying is for spinning up Build / Automation hosts to run your operations, there is a free tier but you can also offset this with your own Build Host (just like GitHub actions).
 
@@ -48,7 +48,7 @@ The list goes on and in most cases, you are just organising what you want to tes
 
 ## Azure Extensions
 
-Azure's library of extensions and features is well documented and has been in place for many years and there is an element if trustworthiness in the marketplace that GitHub simply cannot match.  A lot of the extensions provide integrations into many of the features provided by Microsoft and its partners that enable things you may not have even considered (how about a cost calculator to tell you how much your operations could cost you?).
+Azure's library of extensions and features is well documented and has been in place for many years and there is an element of trustworthiness in the marketplace that GitHub simply cannot match.  A lot of the extensions provide integrations into many of the features provided by Microsoft and its partners that enable things you may not have even considered (how about a cost calculator to tell you how much your operations could cost you?).
 
 > You can find the Azure DevOps Marketplace here - https://marketplace.visualstudio.com/azuredevops
 
@@ -80,14 +80,14 @@ Depending on the requirements to run your actions, Microsoft provides several "i
 
 | Image | YAML Label | Included Software | Rollout Progress of Latest Image Release |
 | --------------------|---------------------|--------------------|---------------------|
-| Ubuntu 22.04 | `ubuntu-22.04` | [ubuntu-22.04] | [![status22](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu22&redirect=1)
-| Ubuntu 20.04 | `ubuntu-latest` or `ubuntu-20.04` | [ubuntu-20.04] | [![status20](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu20&redirect=1)
-| Ubuntu 18.04 <sup>deprecated</sup>  | `ubuntu-18.04` | [ubuntu-18.04] | [![status18](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu18&redirect=1)
-| macOS 12 | `macos-12`| [macOS-12] | [![statusumac12](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-12&redirect=1)
-| macOS 11 | `macos-latest` or `macos-11`| [macOS-11] | [![statusmac11](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-11&redirect=1)
-| macOS 10.15 <sup>deprecated</sup> | `macos-10.15` | [macOS-10.15] | [![statusmac10](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-10.15&redirect=1)
-| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | [![statuswin22](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2022&redirect=1) |
-| Windows Server 2019 | `windows-2019` | [windows-2019] | [![statuswin19](assets/img/posts/image-not-found.png)](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2019&redirect=1)
+| Ubuntu 22.04 | `ubuntu-22.04` | [ubuntu-22.04] | [actionvirtualenvironmentsstatus.azurewebsites.net](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu22&redirect=1)
+| Ubuntu 20.04 | `ubuntu-latest` or `ubuntu-20.04` | [ubuntu-20.04] | [actionvirtualenvironmentsstatus.azurewebsites.net](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu20&redirect=1)
+| Ubuntu 18.04 <sup>deprecated</sup>  | `ubuntu-18.04` | [ubuntu-18.04] | [actionvirtualenvironmentsstatus.azurewebsites.net](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=ubuntu18&redirect=1)
+| macOS 12 | `macos-12`| [macOS-12] | [actionvirtualenvironmentsstatus.azurewebsites.net](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-12&redirect=1)
+| macOS 11 | `macos-latest` or `macos-11`| [macOS-11] | [actionvirtualenvironmentsstatus.azurewebsites.net](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-11&redirect=1)
+| macOS 10.15 <sup>deprecated</sup> | `macos-10.15` | [macOS-10.15] | [actionvirtualenvironmentsstatus.azurewebsites.net](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=macos-10.15&redirect=1)
+| Windows Server 2022 | `windows-latest` or `windows-2022` | [windows-2022] | [actionvirtualenvironmentsstatus.azurewebsites.net](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2022&redirect=1) |
+| Windows Server 2019 | `windows-2019` | [windows-2019] | [actionvirtualenvironmentsstatus.azurewebsites.net](https://actionvirtualenvironmentsstatus.azurewebsites.net/api/status?imageName=windows-2019&redirect=1)
 
 > You can find all the details on Microsoft's hosted images here - https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted
 
@@ -101,7 +101,7 @@ The alternative is to "**Self Host**", simply meaning that instead of using a Mi
 
 > Microsoft's guide to setting up your own self-hosted agent - https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/v2-windows?view=azure-devops
 
-Self-Hosting is by far the cheapest option as it is your own hardware running all the tasks and GitHub will not charge you a thing.
+Self-Hosting is by far the cheapest option as it is your own hardware running all the tasks and Azure DevOps will not charge you a thing.
 
 > [Setting up Self-hosted agents](/self-hosting-automation-agents)
 
@@ -119,7 +119,7 @@ As you can see there is quite a lot available, but for this article, we are just
 
 To begin, you need to [Logon to Azure Devops](https://dev.azure.com/) and create a "Project" for your Product/automation, choosing if you want it public or private.
 
-[Create a new Project](/assets/img/posts/20221116/03-create-new-project.png)
+![Create a new Project](/assets/img/posts/20221116/03-create-new-project.png)
 
 With the project setup, it is time to click on the "Pipelines" tab on the left and get the automation flowing.
 
@@ -129,13 +129,13 @@ With the project setup, it is time to click on the "Pipelines" tab on the left a
 
 Unlike GitHub, Azure pipelines does not hold your hand as much as GitHub does, although the syntax for building your automation is very similar.
 
-> However, as Azure Pipelines has been "around" a lot longer that GitHub actions, there are many more resources available to keep you going.
+> However, as Azure Pipelines has been "around" a lot longer than GitHub actions, there are many more resources available to keep you going.
 
 When you create your pipeline, you will be asked where the code (and essentially the automation configuration) is hosted, unlike GitHub, the code can be almost anywhere.
 
 ![Selecting your source](/assets/img/posts/20221116/05-selecting-your-source.png)
 
-Assuming your code is on GitHub, select that option and then you will be asked to find your repo.  By default, this shows you ALL the repositories your GitHub account has created or forked, to see all the repositories your account has access to (from other Organisations for example), then change the filter option (in the top-right) to "All Repositories, use the filter if you need to narrow down the search a bit.
+Assuming your code is on GitHub, select that option and then you will be asked to find your repo.  By default, this shows you ALL the repositories your GitHub account has created or forked, to see all the repositories your account has access to (from other Organisations for example), then change the filter option (in the top-right) to "All Repositories", use the filter if you need to narrow down the search a bit.
 
 > You may get asked for permission to install the Azure pipeline extension for your project, this is just to enable Azure to use the GitHub API for your project/repository.
 
@@ -207,7 +207,7 @@ The workflow is made up of several easy-to-understand sections:
 
 The [Trigger](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops) is an event that occurs in the Azure Pipeline, this can be overridden in the Pipeline Trigger configuration if you wish to make changes on the backend (also useful for making manual workflows run via command).
 
-The most common trigger is the "**Push**" (when code is pushed to a branch) or "**Pull_Request**"" (when a PR is raised or updated from a push), however, if you check the [list of things that can be "triggered"](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops) almost anything can be a trigger, from comments, to schedules and more.
+The most common trigger is the "**Push**" (when code is pushed to a branch) or "**Pull_Request**" (when a PR is raised or updated from a push), however, if you check the [list of things that can be "triggered"](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/triggers?view=azure-devops) almost anything can be a trigger, from comments, to schedules and more.
 
 The types of trigger can vary based upon where your source is held and what you are integrating with, from Azure Repos, GitHub, Bitbucket or even TFS (Team Foundation Server, the precursor to Azure Repositories/GitHub).
 
@@ -223,7 +223,7 @@ You can create your own or alternatively use one of the Microsoft-Hosted agents 
 * windows-2022 / windows-2019 (specify a specific version of windows)
 * ubuntu-latest (latest linux ubuntu host)
 * ubuntu-22.04 / ubuntu-20.04 / ubuntu-18.04 (specific versions of linux)
-* macOS-latest(yes, you can even build on a Mac in Azure)
+* macOS-latest (yes, you can even build on a Mac in Azure)
 * macOS-12 / macOS-11 / macOS-10.15 (specific versions of MacOS)
 
 Just remember that when you are using the Microsoft-Hosted agents, they are clean, any additional software you need (for example Unity) will need to be installed via the pipeline as it is running.
@@ -233,7 +233,7 @@ Just remember that when you are using the Microsoft-Hosted agents, they are clea
 If you wish, you can also set the Agent Pool at the Job level instead of at the top of the pipeline, this enables you to run concurrent builds on multiple hosts, for example:
 
 ```yaml
-  jobs:
+jobs:
 - job: Linux
   pool:
     vmImage: 'ubuntu-latest'
@@ -253,7 +253,7 @@ If you wish, you can also set the Agent Pool at the Job level instead of at the 
 
 ### 3. Jobs
 
-Jobs are simply a batch of work that will run on a single GitHub Runner (self-hosted or Github server).  Each job is **SELF-CONTAINED** meaning that the work it carries out is isolated from any other work when it performs its tasks (steps).  If two jobs are running on the same machine, they simply do not know about each other and cannot (by default) share work or information.
+Jobs are simply a batch of work that will run on a single Agent (self-hosted or Microsoft-hosted).  Each job is **SELF-CONTAINED** meaning that the work it carries out is isolated from any other work when it performs its tasks (steps).  If two jobs are running on the same machine, they simply do not know about each other and cannot (by default) share work or information.
 
 > Jobs are optional (as shown in the example earlier), if you only have one set of steps then you can skip the Job setup.
 
@@ -287,7 +287,7 @@ Now every time you push to the branch you have configured (if using the example 
 
 > **Just make sure that you have your Self Hosted agent setup correctly before running the pipeline, or ensure you have everything you need to run on a microsoft-hosted agent in the pipeline**
 
-I did find a [YAML definition for Azure Pipelines](https://github.com/microsoft/Azure-DevOps-YAML-for-Unity) to build Unity projects using a Microsoft-Hosts Windows Server agent that [installs and runs unity here](https://github.com/microsoft/Azure-DevOps-YAML-for-Unity/blob/master/azure-pipelines.yml).
+I did find a [YAML definition for Azure Pipelines](https://github.com/microsoft/Azure-DevOps-YAML-for-Unity) to build Unity projects using a Microsoft-hosted Windows Server agent that [installs and runs unity here](https://github.com/microsoft/Azure-DevOps-YAML-for-Unity/blob/master/azure-pipelines.yml).
 
 ## Too much more to mention
 

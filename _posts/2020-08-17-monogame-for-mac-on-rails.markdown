@@ -9,10 +9,9 @@ img: brands/monogame.png
 tags: [mac, monogame]
 author: Simon Jackson
 github:  
-mathjax: no
 ---
 
-<p>There are those who either do not like or prefer not to use big heavy-hitting coding IDE's, prefer the raw metal of cutting their teeth on code using nothing but their wits (and a good spellchecker), thanks to MonoGame 3.8's new .NET Core delivery approach they can.</p>
+<p>There are those who either do not like or prefer not to use big heavy-hitting coding IDEs, prefer the raw metal of cutting their teeth on code using nothing but their wits (and a good spellchecker), thanks to MonoGame 3.8's new .NET Core delivery approach they can.</p>
 
 <h2>MonoGame 3.8 Mac CLI</h2>
 
@@ -22,7 +21,7 @@ mathjax: no
 
 <h2>Getting started with CLI for MAC</h2>
 
-<p>The MonoGame team took particular interest in ensuring everything you need to know about setting up MonoGame 3.8 on your Mac for CLI was all up to scratch and you kind find the article (as well as others) here:</p>
+<p>The MonoGame team took particular interest in ensuring everything you need to know about setting up MonoGame 3.8 on your Mac for CLI was all up to scratch and you can find the article (as well as others) here:</p>
 
 <p><a href="https://docs.monogame.net/articles/getting_started/1_setting_up_your_development_environment_macos.html" target="_blank" rel="noreferrer noopener" title="Setting up your development environment for macOS">Setting up your development environment for macOS</a></p>
 
@@ -42,6 +41,6 @@ mathjax: no
 
 <p>A couple of extra tips when you are entering the world of MonoGame 3.8 to be aware of, are the following:</p>
 
-<ul><li><a href="https://docs.monogame.net/articles/migrate_37.html" target="_blank" rel="noreferrer noopener">If you are upgrading a project from MonoGame 3.7 or earlier, check out this guide</a></li><li><a href="https://docs.monogame.net/articles/migrate_xna.html" target="_blank" rel="noreferrer noopener">If you are upgrading or following an XNA Game Studio 4.0 project to MonoGame 3.8, check out this guide</a></li><li>if you want to package your project automatically from the command-line.  <a href="https://docs.monogame.net/articles/packaging_games.html" target="_blank" rel="noreferrer noopener">Check out the awesome guide on MonoGame packaging here.</a></li><li>MonoGame Samples are being updated for 3.8 which are available here. Stay tuned.</li></ul>
+<ul><li><a href="https://docs.monogame.net/articles/migrate_37.html" target="_blank" rel="noreferrer noopener">If you are upgrading a project from MonoGame 3.7 or earlier, check out this guide</a></li><li><a href="https://docs.monogame.net/articles/migrate_xna.html" target="_blank" rel="noreferrer noopener">If you are upgrading or following an XNA Game Studio 4.0 project to MonoGame 3.8, check out this guide</a></li><li>If you want to package your project automatically from the command-line.  <a href="https://docs.monogame.net/articles/packaging_games.html" target="_blank" rel="noreferrer noopener">Check out the awesome guide on MonoGame packaging here.</a></li><li>MonoGame Samples are being updated for 3.8 which are available here. Stay tuned.</li></ul>
 
 <p>So why are you still here reading this article? Get out there and get coding your game and if you are stuck, check in to the <a href="https://discord.gg/xCehJFD" target="_blank" rel="noreferrer noopener" title="MonoGame Discord server">MonoGame discord</a> and start chatting!</p>

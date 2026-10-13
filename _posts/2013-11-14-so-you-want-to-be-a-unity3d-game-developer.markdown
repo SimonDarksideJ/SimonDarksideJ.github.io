@@ -5,79 +5,69 @@ date: 2013-11-14 18:14:06
 tags: [information,unity3d]
 ---
 
-[![UnityDeveloper](/assets/img/wordpress/2013/11/UnityDeveloper.jpg "UnityDeveloper")](/assets/img/wordpress/2013/11/UnityDeveloper.jpg)
+[![Wartime aircraft dogfight painting with the Unity logo](/assets/img/wordpress/2013/11/UnityDeveloper.jpg "UnityDeveloper")](/assets/img/wordpress/2013/11/UnityDeveloper.jpg)
 
-Unity3D has been making great strides of late, it is has been one of the big go-to middleware engines for budding iOS and Android game developers and even expanded its reach to Web, Windows desktop and other platforms.
+Unity3D has been making great strides of late, it has been one of the big go-to middleware engines for budding iOS and Android game developers and even expanded its reach to Web, Windows desktop and other platforms.
 
-> Be sure to also  check out the sister post to this article “[Monster Set of Resources](http://darkgenesis.zenithmoon.com/monster-set-of-free-resources-for-game-design)” for even more content, I try to keep these up to date with new additions as I find them.
+> Be sure to also  check out the sister post to this article “[Monster Set of Resources](/monster-set-of-free-resources-for-game-design.html)” for even more content, I try to keep these up to date with new additions as I find them.
 
-It is recent Microsoft partnerships have also been making big waves and have spurred on its adoption, introducing both the Windows Phone 8 and Windows 8 platforms and more recently with the announcement of Xbox One support, best of all it is completely free for all Microsoft platforms.
+Its recent Microsoft partnerships have also been making big waves and have spurred on its adoption, introducing both the Windows Phone 8 and Windows 8 platforms and more recently with the announcement of Xbox One support, best of all it is completely free for all Microsoft platforms.
 
 Unity3D comes in three flavours:
 
-> ### ![align=](assets/img/posts/image-not-found.png) Unity3D Trial
-> 
-> When you first download Unity3D and setup a new account you get access to all of Unities tools and accessories that are included in the Pro version for 30 days, after that it will revert to the Free version or you can pay for Pro.
-> 
-> ### ![align=](assets/img/posts/image-not-found.png) Unity3D Free
-> 
+> ###  Unity3D Trial
+>
+> When you first download Unity3D and setup a new account you get access to all of Unity's tools and accessories that are included in the Pro version for 30 days, after that it will revert to the Free version or you can pay for Pro.
+>
+> ###  Unity3D Free
+>
 > As it says on the box, this is the default Free tier for Unity, you get access to the editor and all the basic features, however some advanced performance, profiling and graphics features are disabled.  You can still make one heck of a game if you do it right and it is perfect while you are learning Unity.  But once your game gets beyond a certain size you may find the lack of the pro features limiting.
-> 
+>
 > With Unity 5, this gap has closed a lot with the installed editor, the Pro version now focuses on the new Cloud features.
-> 
-> ### ![align=](assets/img/posts/image-not-found.png) Unity3D Pro
-> 
+>
+> ###  Unity3D Pro
+>
 > Basically every tool and feature of Unity at your disposal, for Unity 4 this includes LOD support, texture batching, asset streaming, custom splash screens, 3D textures and HDR. For Unity 5, most editor features (except splashscreen config) are included and Pro now focuses on the cloud features. For a detailed comparison check the [Unity download](http://unity3d.com/get-unity "Unity Pro") page for a view of the Pro vs Free features.
 
 * * *
 
+## So how to get started?
 
-# 
+As with my [Monster links post](/monster-set-of-free-resources-for-game-design.html), I have compiled an extensive list of resources at your disposal on your Unity3D journey, split up in to sections to allow you to target what you need.
 
-
-# So how to get started?
-
-As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of-free-resources-for-game-design), I have compiled an extensive list of resources at your disposable on your Unity3D journey, split up in to sections to allow you to target what you need.
-
-
-## Beginner tutorials
+### Beginner tutorials
 
 - Best starting place for newbies – Unity3D’s own live training catalogue – [http://unity3d.com/learn/live-training/archive](http://unity3d.com/learn/live-training/archive)
 - Unity basics video series by Infinite Ammo – [http://www.youtube.com/playlist?list=PLEEAEA1E6B11B4DAE](http://www.youtube.com/playlist?list=PLEEAEA1E6B11B4DAE)
 - UnityCG’s Unity3D crash course video series – [http://cgcookie.com/unity/cgc-courses/crash-course-learn-unity/](http://cgcookie.com/unity/cgc-courses/crash-course-learn-unity/)
 - Another guide similar to this one – [http://www.alabsoft.com/unity3d.shtml](http://www.alabsoft.com/unity3d.shtml)
 - Now you are thinking with components – [http://gamedev.tutsplus.com/articles/glossary/unity-thinking-with-components](http://gamedev.tutsplus.com/articles/glossary/unity-thinking-with-components)
-- Twexa have a new slow into for brand new Unity3D devs – [http://twexa.com/](http://twexa.com/)
-- 1 Game – 3 minutes, best into to Unity I’ve seen in a while – [http://www.youtube.com/watch?v=i30menw6gvU](http://www.youtube.com/watch?v=i30menw6gvU)
+- Twexa have a new slow intro for brand new Unity3D devs – [http://twexa.com/](http://twexa.com/)
+- 1 Game – 3 minutes, best intro to Unity I’ve seen in a while – [http://www.youtube.com/watch?v=i30menw6gvU](http://www.youtube.com/watch?v=i30menw6gvU)
 
-
-## Intermediate tutorials
+### Intermediate tutorials
 
 - Unity Gem’s breakdown series – [http://unitygems.com/](http://unitygems.com/)
 - Make a 2D platformer in Unity3D (pre 4.3) – [http://www.rocket5studios.com/tutorials/make-a-2d-game-in-unity3d-using-only-free-tools-part-1/](http://www.rocket5studios.com/tutorials/make-a-2d-game-in-unity3d-using-only-free-tools-part-1/)
 
-
-## 2D specific tutorials
+### 2D specific tutorials
 
 - A nice easy look into Unity’s new 2D system – [http://jessefreeman.com/game-dev/introduction-unitys-new-2d-workflow/](http://jessefreeman.com/game-dev/introduction-unitys-new-2d-workflow/)
 - Great view into 2D animation in Unity – [http://www.gamasutra.com/blogs/AlexRose/20130905/199662/Animation\_in\_2D\_Unity\_Games\_InDepth\_Starter\_Guide.php](http://www.gamasutra.com/blogs/AlexRose/20130905/199662/Animation_in_2D_Unity_Games_InDepth_Starter_Guide.php)
 
+### Books
 
-## Books
-
-- Mastering Unity 2D Game Development (by yours trully :D) – [http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development")
+- Mastering Unity 2D Game Development (by yours truly :D) – [http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/](http://darkgenesis.zenithmoon.com/portfolio/mastering-unity-2d-game-development/ "Mastering Unity 2D Game Development")
 - Unity 3D UI Essentials (also by me) – [http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
 
-
-## Project based training – learn by doing
+### Project based training – learn by doing
 
 - Unity’s own Project tutorials from beginner to advanced – [http://unity3d.com/learn/tutorials/projects](http://unity3d.com/learn/tutorials/projects)
-- Walker boys studio projects – [http://walkerboystudio.com/html/unity\_training\_\_\_free\_\_.html](http://walkerboystudio.com/html/unity_training ___free__.html)
+- Walker boys studio projects – [http://walkerboystudio.com/html/unity\_training\_\_\_free\_\_.html](http://walkerboystudio.com/html/unity_training___free__.html)
 - Unity3D platformer starter kit (must read) – [http://digitalerr0r.wordpress.com/2013/09/30/unity-game-starter-kit-for-windows-store-and-windows-phone-store-games/](http://digitalerr0r.wordpress.com/2013/09/30/unity-game-starter-kit-for-windows-store-and-windows-phone-store-games/)
 - Catlike coding’s side scrolling runner tutorial – [http://catlikecoding.com/unity/tutorials/runner/](http://catlikecoding.com/unity/tutorials/runner/)
 
-
-## Video based tutorials
+### Video based tutorials
 
 - Introduction to building games with Unity – [http://channel9.msdn.com/Events/Windows-Camp/Building-Windows-Games-with-Unity/Introduction-to-building-games-with-Unity](http://channel9.msdn.com/Events/Windows-Camp/Building-Windows-Games-with-Unity/Introduction-to-building-games-with-Unity)
 - Quill18’s game based video tutorials – [http://quill18.com/unity\_tutorials/](http://quill18.com/unity_tutorials/)
@@ -92,8 +82,7 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Building a Better Shooter in Unity – [http://fixbyproximity.com/2014/07/04/building-a-better-shooter-in-unity/](http://fixbyproximity.com/2014/07/04/building-a-better-shooter-in-unity/ "http://fixbyproximity.com/2014/07/04/building-a-better-shooter-in-unity/")
 - 7 Minute Tutorial on making a Hover Car in [**unity3d**](https://twitter.com/unity3d) – [https://www.youtube.com/watch?v=5B6ALcOX4b8](https://www.youtube.com/watch?v=5B6ALcOX4b8 "https://www.youtube.com/watch?v=5B6ALcOX4b8")
 
-
-## Unity3D component tutorials
+### Unity3D component tutorials
 
 - Unity3d’s own component tutorial videos – [http://unity3d.com/learn/tutorials/modules](http://unity3d.com/learn/tutorials/modules)
 - Jesse Etzlers awesome Unity 101 series (1-100) – [http://www.youtube.com/playlist?list=PLxLNqnnCshwlE0UebbpV\_v8M4kcLhXEz9](http://www.youtube.com/playlist?list=PLxLNqnnCshwlE0UebbpV_v8M4kcLhXEz9)
@@ -103,8 +92,7 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Unity 101 series by Cracked Spoon – [http://www.youtube.com/playlist?list=PL\_N\_IEJ7SLOr3k\_cd2Zcx07NOTjd-OnCP](http://www.youtube.com/playlist?list=PL_N_IEJ7SLOr3k_cd2Zcx07NOTjd-OnCP)
 - Unity3D coroutines in detail – [http://www.altdevblogaday.com/2011/07/07/unity3d-coroutines-in-detail/](http://www.altdevblogaday.com/2011/07/07/unity3d-coroutines-in-detail/)
 
-
-## Unity3D master sites – Unity training is just their thing
+### Unity3D master sites – Unity training is just their thing
 
 - Unity3D’s Unite conference recordings, a goldmine of beginner / intermediate / advanced stuff – [http://unity3d.com/unite](http://unity3d.com/unite)
 - CGCookies Unity section – [http://cgcookie.com/unity/](http://cgcookie.com/unity/)
@@ -112,16 +100,14 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Unity3D student, full of help and challenges – [http://www.unity3dstudent.com/](http://www.unity3dstudent.com/)
 - Unity tutorials on the Tuts+ network – [http://hub.tutsplus.com/search?utf8=%E2%9C%93&search%5Bkeywords%5D=unity&button=](http://hub.tutsplus.com/search?utf8=%E2%9C%93&search%5Bkeywords%5D=unity&button=)
 
-
-## Unity3D paid for training
+### Unity3D paid for training
 
 - Unity Magic, training and assets for Unity3D – [http://www.unitymagic.com/shop/en/](http://www.unitymagic.com/shop/en/)
 - Udemy’s Unity3D master class – [https://www.udemy.com/unity-3d-master-class-game-development-for-beginners](https://www.udemy.com/unity-3d-master-class-game-development-for-beginners)
 - GameDev Academys Unity training offer – [http://www.gamedevacademy.org/unity-training-anyone-can-learn-how-to-make-a-game/](http://www.gamedevacademy.org/unity-training-anyone-can-learn-how-to-make-a-game/)
 - Design 3’s profession training services and videos – [http://www.design3.com/](http://www.design3.com/)
 
-
-## Scripting links and help
+### Scripting links and help
 
 - Nick Gravelyn’s awesome Unity Toolbag crammed full of scripts – [https://github.com/nickgravelyn/UnityToolbag](https://github.com/nickgravelyn/UnityToolbag "Unity Toolbag by Nick Gravelyn")
 - Cat like codings scripting series – [http://catlikecoding.com/unity/tutorials/](http://catlikecoding.com/unity/tutorials/)
@@ -143,16 +129,14 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Walk through of pausing your game without pausing – [http://gamasutra.com/blogs/AdamWinkels/20140326/213972/Lovers\_in\_a\_Dangerous\_Spacetime\_DevLog\_9\_Pausing\_Without\_Pausing.php](http://gamasutra.com/blogs/AdamWinkels/20140326/213972/Lovers_in_a_Dangerous_Spacetime_DevLog_9_Pausing_Without_Pausing.php "Lovers in a Dangerous spacetime post mortem on pausing")
 - Twitter API helper library – [http://stevenyau.wordpress.com/2013/12/26/working-with-twitter-api-1-1-with-unity/](http://stevenyau.wordpress.com/2013/12/26/working-with-twitter-api-1-1-with-unity/)
 
-
-## Design or 3D modelling help
+### Design or 3D modelling help
 
 - Game Design Tutorials – [http://zooperstuff.com/game-design/game-design/game-design-tutorial-2-unity3d-blender-and-crazybump-level-up-literally/](http://zooperstuff.com/game-design/game-design/game-design-tutorial-2-unity3d-blender-and-crazybump-level-up-literally/ "http://zooperstuff.com/game-design/game-design/game-design-tutorial-2-unity3d-blender-and-crazybump-level-up-literally/")
 
-
-## Shader help and tutorials
+### Shader help and tutorials
 
 - Prime31’s advanced shader series – [http://www.youtube.com/playlist?list=PLb8LPjN5zpx1tauZfNE1cMIIPy15UlJNZ](http://www.youtube.com/playlist?list=PLb8LPjN5zpx1tauZfNE1cMIIPy15UlJNZ)
-- Retro flat shading by Kenneth Backus – [http://dev.tutsplus.com/tutorials/go-beyond-retro-pixel-art-with-flat-shaded-3d-in-unity–gamedev-12259](http://dev.tutsplus.com/tutorials/go-beyond-retro-pixel-art-with-flat-shaded-3d-in-unity--gamedev-12259)
+- Retro flat shading by Kenneth Backus – [http://dev.tutsplus.com/tutorials/go-beyond-retro-pixel-art-with-flat-shaded-3d-in-unity--gamedev-12259](http://dev.tutsplus.com/tutorials/go-beyond-retro-pixel-art-with-flat-shaded-3d-in-unity--gamedev-12259)
 - Selection of Shader tutorials by Kashif Riley – [http://www.youtube.com/user/JamesRayder2020/videos](http://www.youtube.com/user/JamesRayder2020/videos)
 - Clifford M Roche walks through Unity debugging in MonoDevelop – [http://www.cliffordroche.ca/monodevelop-4-xamarin-studio-debugging-in-unity/](http://www.cliffordroche.ca/monodevelop-4-xamarin-studio-debugging-in-unity/)
 - Shader help and free dissolve shader for Unity – [http://kylehalladay.com/all/graphics/2013/09/22/Dissolve-Shaders.html](http://kylehalladay.com/all/graphics/2013/09/22/Dissolve-Shaders.html)
@@ -160,8 +144,7 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Showing off the Shy Shaders – [http://blogs.unity3d.com/2014/05/01/showing-off-the-shy-shaders/](http://blogs.unity3d.com/2014/05/01/showing-off-the-shy-shaders/ "http://blogs.unity3d.com/2014/05/01/showing-off-the-shy-shaders/")
 - Replaced preprocessor in hlsl2glsl with a Mojoshader-based one. Fixes a bunch of stuff – [https://t.co/Oeyo8kl29i](https://t.co/Oeyo8kl29i "https://t.co/Oeyo8kl29i")
 
-
-## Performance and architecture
+### Performance and architecture
 
 - Richard Fine on best practice – [http://video.unity3d.com/video/4929984/luug-11-pt-2-of-4-](http://video.unity3d.com/video/4929984/luug-11-pt-2-of-4-)
 - C# Memory management by Wendelin Reich – [http://www.gamasutra.com/blogs/WendelinReich/20131109/203841/C\_Memory\_Management\_for\_Unity\_Developers\_part\_1\_of\_3.php](http://www.gamasutra.com/blogs/WendelinReich/20131109/203841/C_Memory_Management_for_Unity_Developers_part_1_of_3.php)
@@ -176,8 +159,7 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Build process automation for Unity3D – [http://www.justapixel.co.uk/pipeline-automation/](http://www.justapixel.co.uk/pipeline-automation/ "http://www.justapixel.co.uk/pipeline-automation/")
 - Focused article on mobile game optimisation in Unity – [http://indiedevspot.azurewebsites.net/2014/03/12/optimizing-mobile-games-in-unity/](http://indiedevspot.azurewebsites.net/2014/03/12/optimizing-mobile-games-in-unity/ "Mobile game optimisation")
 
-
-## Platform specific
+### Platform specific
 
 - Lee Stott’s getting started on Windows Phone with Unity – [http://bit.ly/18vM2rx](http://bit.ly/18vM2rx "http://bit.ly/18vM2rx")
 - Deep dive: Tips & tricks for porting games from other platforms to Windows 8 – [http://channel9.msdn.com/Events/Windows-Camp/Building-Windows-Games-with-Unity/Deep-dive-Tips-tricks-for-porting-games-from-other-platforms-to-Windows-8](http://channel9.msdn.com/Events/Windows-Camp/Building-Windows-Games-with-Unity/Deep-dive-Tips-tricks-for-porting-games-from-other-platforms-to-Windows-8)
@@ -188,14 +170,12 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Great post from Lee Stott about starting with Unity on Windows Phone – [http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2013/09/11/getting-started-building-windows-phone-games-with-unity](http://blogs.msdn.com/b/uk_faculty_connection/archive/2013/09/11/getting-started-building-windows-phone-games-with-unity)
 - Interesting series on tackling porting problems to Windows 8 for Unity – [http://www.npruehs.de/tag/unity3d/](http://www.npruehs.de/tag/unity3d/ "Windows 8 porting tips and tricks")
 
-
-## Animation and Mecanim
+### Animation and Mecanim
 
 - CGCookie breakout course on Mecanim – [http://cgcookie.com/unity/cgc-courses/crash-course-breakout-mecanim/](http://cgcookie.com/unity/cgc-courses/crash-course-breakout-mecanim/)
 - Mecanim Animations walkthrough and more – [http://blog.diabolicalgame.co.uk/2014/06/mecanim-animations.html](http://blog.diabolicalgame.co.uk/2014/06/mecanim-animations.html "http://blog.diabolicalgame.co.uk/2014/06/mecanim-animations.html") (also check the rest of the blog for interesting Unity stuff)
 
-
-## Generic Tips and Tricks
+### Generic Tips and Tricks
 
 - 50 Tips for working with Unity on DevMag – [http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/](http://devmag.org.za/2012/07/12/50-tips-for-working-with-unity-best-practices/)
 - Common pitfalls with Unity on UnityGems – [http://unitygems.com/mistakes1/](http://unitygems.com/mistakes1/)
@@ -222,38 +202,33 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Unity3D Resumable Downloads – [http://enva.to/1gATdIy](http://enva.to/1gATdIy)
 - Importing models with textures from Blender to Unity –  [http://bit.ly/VY9cHP](http://t.co/QRTxEwgW1T)
 
-
-## Multiplayer tutorials
+### Multiplayer tutorials
 
 - Online multiplayer by Paladin – [http://www.paladinstudios.com/2013/07/10/how-to-create-an-online-multiplayer-game-with-unity/](http://www.paladinstudios.com/2013/07/10/how-to-create-an-online-multiplayer-game-with-unity/)
 - Rocket5 studio’s 2 player 2D platformer tutorial – [http://www.rocket5studios.com/tutorials/skillswap-making-a-2-player-2d-game-with-unity/](http://www.rocket5studios.com/tutorials/skillswap-making-a-2-player-2d-game-with-unity/)
 - AppWarp and App42 integration – [http://blogs.shephertz.com/2013/08/23/bridging-the-gap-plugin-for-unity-and-ios/](http://blogs.shephertz.com/2013/08/23/bridging-the-gap-plugin-for-unity-and-ios/)
 - New Tanks multiplayer using the new native Unity networking – [http://forum.unity3d.com/threads/multiplayer-networked-tanks-demo-q-a.356443/](http://forum.unity3d.com/threads/multiplayer-networked-tanks-demo-q-a.356443/)
 
-
-## Music and Audio
+### Music and Audio
 
 - Managing music and audio with Unity3D – [http://www.bitsalive.com/audio-manager/](http://www.bitsalive.com/audio-manager/)
 
-
-## Unity addons and engines
+### Unity addons and engines
 
 - Futile 2D framework for Unity3D (pre 4.3 or for 3D scenes) – [http://struct.ca/futile/](http://struct.ca/futile/)
 - Cubiquity voxel (aka Minecraft) engine For Unity3D- [http://www.volumesoffun.com/blog/](http://www.volumesoffun.com/blog/)
-- ![Open-mouthed smile](/assets/img/wordpress/2013/11/wlEmoticon-openmouthedsmile.png) FFWD porting tool, create XNA games from Unity3D projects – [https://github.com/fehaar/FFWD](https://github.com/fehaar/FFWD)
+- ![Open-mouthed smile](/assets/img/emoticons/openmouthedsmile-3.png) FFWD porting tool, create XNA games from Unity3D projects – [https://github.com/fehaar/FFWD](https://github.com/fehaar/FFWD)
 - UnityVS getting started – [http://edrivengui.com/getting-started-with-unityvs/](http://edrivengui.com/getting-started-with-unityvs/)
 - Combining Pure Data with Unity3D – [http://kylehalladay.com/all/blog/2013/11/10/Libpd-and-Unity.html](http://kylehalladay.com/all/blog/2013/11/10/Libpd-and-Unity.html)
 - Multi-Platform tool kit with Unity3D – [http://blogs.unity3d.com/2013/07/18/tutorial-multiplatform-toolkit-by-owlchemy-labs/](http://blogs.unity3d.com/2013/07/18/tutorial-multiplatform-toolkit-by-owlchemy-labs/)
 
-
-## Cloud and backend systems
+### Cloud and backend systems
 
 - Using Cloud Services to make a Leaderboard for a Unity Game – [http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game](http://blogs.msdn.com/b/uk_faculty_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game "http://blogs.msdn.com/b/uk\_faculty\_connection/archive/2014/04/01/using-cloud-services-to-make-a-leaderboard-for-a-unity-game")
 - BitRave direct link from above post – [http://www.bitrave.com/azure-mobile-services-for-unity-3d/](http://www.bitrave.com/azure-mobile-services-for-unity-3d/ "http://www.bitrave.com/azure-mobile-services-for-unity-3d/")
 - Awesome New Gaming backend platform with literally everything (based on Azure) – [http://www.gamesparks.com/unity/](http://www.gamesparks.com/unity/ "http://www.gamesparks.com/unity/")
 
-
-## Help and forums
+### Help and forums
 
 - Unity3D’s main forum, the main go to for Q&A – [http://forum.unity3d.com/forum.php](http://forum.unity3d.com/forum.php)
 - Unity3D students get help and get started resources – [http://www.unity3dstudent.com/get-help/](http://www.unity3dstudent.com/get-help/)
@@ -262,29 +237,24 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 - Unity developers forums – [http://unity.freeforums.org/index.php](http://unity.freeforums.org/index.php)
 - Unity official Wiki (Must see) – [http://wiki.unity3d.com/index.php/Main\_Page](http://wiki.unity3d.com/index.php/Main_Page)
 
-
-## Sample Projects
+### Sample Projects
 
 - Departure – Unity3D Game – [http://unpolishedcreations.com/2014/07/06/departure-unity3d-game/](http://unpolishedcreations.com/2014/07/06/departure-unity3d-game/ "http://unpolishedcreations.com/2014/07/06/departure-unity3d-game/")
 - Unity SHMUP template in JS and C# – [http://davevoyles.azurewebsites.net/unity-shmup-template-js-c/](http://davevoyles.azurewebsites.net/unity-shmup-template-js-c/ "SHMUP game template in both JS and C#")
 - New TANKS sample Unity 5 game (also check the networked version) – [http://forum.unity3d.com/threads/tanks-tutorial-q-a.356440/](http://forum.unity3d.com/threads/tanks-tutorial-q-a.356440/)
 
-
-## The new UI system (uGUI)
+### The new UI system (uGUI)
 
 - Unity 3D UI Essentials (also by me) – [http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/](http://darkgenesis.zenithmoon.com/portfolio/unity-3d-ui-essentials/ "Unity 3D UI Essentials")
 - (Will add more shortly, got a host of links :D)
 
-
-## Resources
+### Resources
 
 - Forrest map pack free – [http://www.mediafire.com/download/s0c3i77e1471aa9/Forest+Map.zip](http://www.mediafire.com/download/s0c3i77e1471aa9/Forest+Map.zip)
 - Tons of free art – [http://www.graphic-buffet.com/freebies/](http://www.graphic-buffet.com/freebies/)
-- Book on creating assets for Unity – [http://www.monroyasesores.com.mx/manager/uploads/pdf/0240815637Creating3D.pdf](http://www.monroyasesores.com.mx/manager/uploads/pdf/0240815637Creating3D.pdf)
 - Huge collections of other links and tutorials – [http://www.virtualgamelab.com/unity-resources.html](http://www.virtualgamelab.com/unity-resources.html "http://www.virtualgamelab.com/unity-resources.html")
 
-
-## Other things to check
+### Other things to check
 
 - Minecraft in Unity3D, one week programming challenge – [http://www.youtube.com/watch?v=qdwUkYrHosk](http://www.youtube.com/watch?v=qdwUkYrHosk)
 - Unity3D creative Magazine free issues – [http://unity.freeforums.org/old-unity-creative-magazine-issues-for-free-t11.html](http://unity.freeforums.org/old-unity-creative-magazine-issues-for-free-t11.html)
@@ -299,9 +269,8 @@ As with my [Monster links post](http://darkgenesis.zenithmoon.com/monster-set-of
 
 On with the show
 
-If you know of any other stella resources out there that will help out a new comer to Unity3D or a set of advanced tutorials and resources then be sure to comment below and I will add them in.
+If you know of any other stellar resources out there that will help out a newcomer to Unity3D or a set of advanced tutorials and resources then be sure to comment below and I will add them in.
 
-Like the other “[Monster Set of Resources](http://darkgenesis.zenithmoon.com/monster-set-of-free-resources-for-game-design)” post, I try to keep these up to date with new additions as I find them.
+Like the other “[Monster Set of Resources](/monster-set-of-free-resources-for-game-design.html)” post, I try to keep these up to date with new additions as I find them.
 
 Party on.
-

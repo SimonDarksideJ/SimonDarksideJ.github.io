@@ -8,8 +8,6 @@ description: "Published works by Simon Jackson."
 <p>Here is where you will find all the details on my published articles, books and whatnot.  Click on the books or links
     to learn more about each title.</p>
 
-<p>Full disclosure: the Amazon links on this page are affiliate links. If you buy a book through one of them, I may earn a small commission, at no extra cost to you.</p>
-
 <h2>Currently Published</h2>
 
 <div class="book-grid">

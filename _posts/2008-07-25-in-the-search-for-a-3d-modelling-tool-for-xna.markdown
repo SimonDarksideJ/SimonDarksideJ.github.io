@@ -5,7 +5,7 @@ date: 2008-07-25 10:12:31
 tags: [3d, xna]
 ---
 
-![width=](assets/img/posts/image-not-found.png)
+![Rendered 3D scene of Villefranche from a modelling tool news item](https://web.archive.org/web/20160401185911im_/http://www.digivision.com.tw/news/20080725/EmmanuelAsset_villefranche_s.jpg)
 
 One of the issues I (and from the look on the XNA blogs around) have always had problems getting into 3D modelling, usual problems being:
 
@@ -19,23 +19,18 @@ Now I could just drag in an artist (which depending on your friends circle can a
 
 So leaving money behind I can embark on the search for a free 3d Modelling tool, so looking around we have:
 
-- [Blender](http://www.blender.org/)(free, powerful, tricky interface and not very intuitive.  Exports are tricky to use in XNA)
-- [Softimage XSI](http://community.softimage.com/index.php?)(Again free, has XNA integration, some training but still a bit clunky to use and importing seems hit and miss)
-- [Google Sketchup](http://sketchup.google.com/)(free and an importer has just been written for XNA, although I’ve not played with it Much)
+- [Blender](http://www.blender.org/) (free, powerful, tricky interface and not very intuitive.  Exports are tricky to use in XNA)
+- [Softimage XSI](http://community.softimage.com/index.php?) (Again free, has XNA integration, some training but still a bit clunky to use and importing seems hit and miss)
+- [Google Sketchup](http://sketchup.google.com/) (free and an importer has just been written for XNA, although I’ve not played with it much)
 - [Truespace 3d](http://www.caligari.com/)
 
+## Hold on, Truespace, Doesn’t that cost $600, why is that in the list.
 
-## 
+Well, no longer does Truespace cost you any cash whatsoever now that Microsoft has acquired Caligari.
 
+Since Microsoft Bought it in order to offer a competitive product to Google's sketchup, they have now released it for free, there’s also some nice training material and other free stuff.
 
-#### Hold on, Truespace, Doesn’t that cost $600, why is that in the list.
-
-Well, no longer does Truespace cost you any cash whatsoever now that Microsoft has acquired Calgari.
-
-Since Microsoft Bought it in order to offer a competitive product to Goolge’s sketchup, they have now released it for free, there’s also some nice training material and other free stuff.
-
-
-### [See here](http://blogs.msdn.com/virtualearth/archive/2008/07/23/announcing-truespace-for-virtual-earth-3d-development)
+[See here](http://blogs.msdn.com/virtualearth/archive/2008/07/23/announcing-truespace-for-virtual-earth-3d-development)
 
 It also supports the following formats
 
@@ -71,9 +66,6 @@ BVH motion capture
 
 So as you can see it supports the .X format for exporting to XNA, but it also supports the 3d Studio format, so if you find any good 3d studio community models, you no longer need full 3d Studio to use them (there’s $3000 saved already), what’s also strange is that it also supports Autocad, so if you happen to work in a CAD office you can also reuse your work?
 
-And if your interested you can also import your creations to Virtual Earth, which is what it was intended for but hay, XNA can benefit as well!.
+And if you're interested you can also import your creations to Virtual Earth, which is what it was intended for but hey, XNA can benefit as well!.
 
-![ /></p>
-</div>
-](assets/img/posts/image-not-found.png)
-
+![trueSpace model imported into Virtual Earth 3D](https://web.archive.org/web/20140512001459im_/http://blogs.msdn.com/blogfiles/virtualearth/WindowsLiveWriter/AnnouncingtrueSpaceforVirtualEarth3DDeve_A6A1/image_27.png)

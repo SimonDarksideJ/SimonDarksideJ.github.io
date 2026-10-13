@@ -5,11 +5,11 @@ date: 2006-10-06 12:56:58
 tags: [xna]
 ---
 
-From over in [Mitch Walkers Blog](http://blogs.msdn.com/mitchw/default "Mitch Walkers Blog"), he notes back in September some important facts about XNA component writing and things to take into consideration.
+From over in [Mitch Walker's Blog](http://blogs.msdn.com/mitchw/default "Mitch Walker's Blog"), he notes back in September some important facts about XNA component writing and things to take into consideration.
 
 If you've not read his blog I would recommend doing so.
 
-As an extract though it all centers around the availability of the graphics device while the component is being called, in pretty much the same way you must do in your main app, just have to remember that components are called separately to your main app and the state of the graphics device can change (I.e window resizes), this means any resources the component is using need to be re-initialized as they would no longer be valid on the graphics device.
+As an extract though it all centers around the availability of the graphics device while the component is being called, in pretty much the same way you must do in your main app, just have to remember that components are called separately to your main app and the state of the graphics device can change (i.e. window resizes), this means any resources the component is using need to be re-initialized as they would no longer be valid on the graphics device.
 
 A load of words really but put simply it's good practice to write your components so they are as portable as possible and not just rely on your implementation handling it.
 
@@ -75,8 +75,8 @@ private void ReleaseContent()
 }
 ```
 
-With this framework in place it will help prevent the annoyance of the "Device Lost" errors, hopefully Microsoft will include this in the template for new components later in the Beta or @ release.
+With this framework in place it will help prevent the annoyance of the "Device Lost" errors, hopefully Microsoft will include this in the template for new components later in the Beta or at release.
 
 One can only hope.
 
-Happy coding
+Happy coding.

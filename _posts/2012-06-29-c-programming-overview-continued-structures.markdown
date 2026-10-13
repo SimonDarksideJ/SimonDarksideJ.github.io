@@ -7,8 +7,7 @@ tags: [2d tutorial, game development, xna]
 
 * * *
 
-
-### 1. Definition of a Struct
+## 1. Definition of a Struct
 
 Structs are similar to classes in that they represent data structures that can contain data members and function members. Unlike classes, structs are value types and do not require heap allocation. A variable of a struct type directly contains the data of the struct, whereas a variable of a class type contains a reference to the data, the latter known as an object.
 
@@ -16,21 +15,17 @@ Structs are particularly useful for small data structures that have value semant
 
 * * *
 
-
-### 2. Struct Declaration
+## 2. Struct Declaration
 
 A _struct-declaration_ is a _type-declaration_ that declares a new struct.
-
 
 ### 2.1. Struct Modifiers
 
 A _struct-declaration_ may optionally include a sequence of struct modifiers. It is a compile-time error for the same modifier to appear multiple times in a struct declaration. The modifiers of a struct declaration have the same meaning as those of a class declaration.
 
-
 ### 2.2. Struct Interfaces
 
 A struct declaration may include a _struct-interfaces_ specification, in which case the struct is said to implement the given interface types.
-
 
 ### 2.3. Struct Body
 
@@ -38,15 +33,13 @@ The _struct-body_ of a struct defines the members of the struct.
 
 * * *
 
-
-### 3. Members of a Struct
+## 3. Members of a Struct
 
 The struct members are the members introduced by its _struct-member-declaration_s and the members inherited from System.ValueType, which inherits from object.
 
 * * *
 
-
-### 4. Class and Struct Differences
+## 4. Class and Struct Differences
 
 Structs are value types. All struct types implicitly inherit from class object. Instance field declarations for a struct are not permitted to include variable initialisers. Assignment to a variable of a struct type creates a copy of the value being assigned. The meaning of this is different for structs. A struct is not permitted to declare a destructor.
 
@@ -71,4 +64,3 @@ The default value of a struct consists of the value that results from setting al
 The _this_ variable of a struct instance constructor corresponds to an out parameter of the struct type, and, similar to an out parameter, this must be definitely assigned at every location where the instance constructor returns.
 
 A struct can declare instance constructors having parameters. It is not permitted to declare a destructor.
-

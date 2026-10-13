@@ -37,14 +37,17 @@
       };
     });
 
-    const html = items
-      .map((item) => {
-        const cls = item.level === 3 ? 'toc-item toc-item--h3' : 'toc-item';
-        return `<li class="${cls}"><a href="#${item.id}">${item.text}</a></li>`;
-      })
-      .join('');
-
-    tocRoot.innerHTML = html;
+    // Build real nodes, so heading text is never parsed as HTML.
+    tocRoot.textContent = '';
+    items.forEach((item) => {
+      const li = document.createElement('li');
+      li.className = item.level === 3 ? 'toc-item toc-item--h3' : 'toc-item';
+      const a = document.createElement('a');
+      a.href = '#' + item.id;
+      a.textContent = item.text;
+      li.appendChild(a);
+      tocRoot.appendChild(li);
+    });
     const tocContainer = document.querySelector('.post-toc');
     if (tocContainer) tocContainer.hidden = false;
   }

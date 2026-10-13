@@ -14,7 +14,7 @@ To summarize; here’s the highlights what Blender 2.5x will bring you:
 - New area-manager, allowing flexible division in sub-regions with each a distinctive task (like toolbars, button list views, channel views, etc).
 - The new area-manager will allow much easier custom editors (via python or C api)
 - New event system, based on ‘handlers’ with dynamic (= user definable) keymaps. Events will much better support other devices, or multi-touch even.
-- The new event system will also allow Macros, basic construction history, and since events are hanled centrally (separated from drawing) the UI will remain fully responsive (updated) while editing.
+- The new event system will also allow Macros, basic construction history, and since events are hanled (sic) centrally (separated from drawing) the UI will remain fully responsive (updated) while editing.
 - Generic "data api", giving uniform access to data properties for Blender’s UI, for Python, but especially for animation curves or drivers. This will enable the "get everything animated" feature.
 - Generic "tools api", which gives uniform access to every tool (option) Blender has. Together with the "data api" this will make scripting in Python much easier. Customizable UIs (toolbars, headers, menus, buttons) are simply possible  this  way
 
@@ -27,4 +27,3 @@ But for now, enjoy the holidays and the last days of 2008. And thanks to everyon
 December 24, 2008
 
 [Blender3d.org: Latest News](http://feeds.feedburner.com/Blender3d)
-

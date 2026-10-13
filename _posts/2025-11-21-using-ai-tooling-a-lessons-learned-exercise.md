@@ -3,7 +3,8 @@ layout: post
 title: Using AI tooling effectively - a lessons learned exercise
 date: 2025-11-21 00:00 +0000
 description: Whether you are for or against using AI tooling in your workflow, it is critical to know and understand the options.  The tooling can help you plan and even think better even without writing code for you.  Work smarter, not harder.
-img: posts/20251121/title.gif
+img: posts/20251121/title.jpg
+img_video: posts/20251121/title.webm
 category: AI
 tags:
 - ai
@@ -11,10 +12,9 @@ tags:
 - tools
 - planning
 author: Simon Jackson
-mathjax: false
 ---
 
-> TL; DR -> Whether or not you are for or against AI, if you do not at least read up on the landscape and the capabilities out there you WILL fall behind.  These tools can be used in many different ways and provide support where you least expect it.
+> TL;DR -> Whether or not you are for or against AI, if you do not at least read up on the landscape and the capabilities out there you WILL fall behind.  These tools can be used in many different ways and provide support where you least expect it.
 >
 > It is not about taking away the fun tasks, if you do not want it to code for you, then stop, want to create your own artwork, fine do that.  But do not discount the capabilities of the tools because of preconceptions.
 >
@@ -44,7 +44,7 @@ Based on my understanding (at the time of writing), this article aims to impart 
 
 ## It starts with a prompt - The Misconception
 
-I have said it previously, but it is worth repeating.  Long gone are the days when you put in a simple question to get an answer or complete a task to fulfil.  Sure, on your phone or via your browser, the results are FAR BETTER than dropping it into Bing/Google, but for any serious workflow. Without content/structure and even architecture, the most basic of queries will not result in anything that resembles what you desire.  (except for that one day in march where the hares are flocking).
+I have said it previously, but it is worth repeating.  Long gone are the days when you put in a simple question to get an answer or complete a task to fulfil.  Sure, on your phone or via your browser, the results are FAR BETTER than dropping it into Bing/Google, but for any serious workflow, without content/structure and even architecture, the most basic of queries will not result in anything that resembles what you desire.  (except for that one day in March where the hares are flocking).
 
 > [!IMPORTANT]
 > **AI is suggestive, it is not indicative.  It NEVER knows if it is right, only that the probabilities align with a result compared to your query.**
@@ -75,23 +75,23 @@ Above ALL, keep reviewing the instructions manually after generation, do **NOT**
 MCP servers are fast becoming the "go to" tool to assist in local AI support and cut down on the amount of traffic used by cloud agents, they help form, and in some cases, generate results to assist the AI in its journey, these can range from:
 
 > [!TIP]
-> Model Context Protocol servers, or MCP for short actually details the method used to communicate from an AI LLM with a local AI or context agent, a tool used to support AI on its journey.  Their capabilities can range from just an API for serving data or results, to full blown AI agents themselves.  The MCP protocol effectively allows AI's to talk to each other and work together to reach a goal.
+> Model Context Protocol servers, or MCP for short actually details the method used to communicate from an AI LLM with a local AI or context agent, a tool used to support AI on its journey.  Their capabilities can range from just an API for serving data or results, to full blown AI agents themselves.  The MCP protocol effectively allows AIs to talk to each other and work together to reach a goal.
 
 * Simple functions used in calculations or a fact table.
 * Headers for local AI agents or models, such as image generation.
-* Self-contained LLM's, primarily used for documentation or API references.  Useful for keeping the AI bound to accurate source information rather than just the web.
+* Self-contained LLMs, primarily used for documentation or API references.  Useful for keeping the AI bound to accurate source information rather than just the web.
 * Proxies to other cloud hosted AI agents, woven together to form a mesh.
 
 > [!NOTE]
-> Do not be afraid to AI your own MCP server locally, if you find certain areas where you are constantly correcting the AI agent, or need it to use pre-defined terms in its response, then just generate your own server to manage this for you and update your instructions to defer to the MCP server in responses.  This can lessen the load in your instructions if you can have an agent maintain it for you.
+> Do not be afraid to use AI to build your own MCP server locally, if you find certain areas where you are constantly correcting the AI agent, or need it to use pre-defined terms in its response, then just generate your own server to manage this for you and update your instructions to defer to the MCP server in responses.  This can lessen the load in your instructions if you can have an agent maintain it for you.
 
 Each MCP effectively adds another tool the AI can use in the construction of a response as well as off-loading tasks locally to save time or money (credits), or in some cases MANY tools.  And there is a growing movement where you can use AI to generate your own local MCP servers, especially for repeated tasks or guardrails.
 
 > [!IMPORTANT]
 > **Too many tools can degrade performance**
-> While having lots of MCP servers at the ready is fantastic, be aware you need to limit which Servers/Tools are active at any one time.  Giving the AI too many options can severely degrade performance as it need to check the toolset with each interaction (even within a response) to see if there is a tool to help.
+> While having lots of MCP servers at the ready is fantastic, be aware you need to limit which Servers/Tools are active at any one time.  Giving the AI too many options can severely degrade performance as it needs to check the toolset with each interaction (even within a response) to see if there is a tool to help.
 >
-> Make sure for each interaction/conversation, that you are using the tools that will assist with that thread.  Not asking it about code or pull requests, then disable the GitHub MCP tools.  Also critical for any language or toolset focused conversations.  Just use the tools that will help with your query.
+> Make sure for each interaction/conversation, that you are using the tools that will assist with that thread.  If you are not asking it about code or pull requests, then disable the GitHub MCP tools.  Also critical for any language or toolset focused conversations.  Just use the tools that will help with your query.
 
 ### Create custom prompts for repeated tasks
 
@@ -103,7 +103,7 @@ But you can also create your own, and again, use AI to help you generate it.  In
 
 ### Leverage resources online
 
-A common misconception when working with AI Agents, is to assume it is trawling the web for the current/latest information, sadly this is not true (in the most part), LLM's rely on historical information they have been trained on.  If there is newer information, it is best to direct the AI to also read specific documents, websites or other sources of information in addition to its trained model.
+A common misconception when working with AI Agents, is to assume it is trawling the web for the current/latest information, sadly this is not true (in the most part), LLMs rely on historical information they have been trained on.  If there is newer information, it is best to direct the AI to also read specific documents, websites or other sources of information in addition to its trained model.
 
 > [!IMPORTANT]
 > Although this does not "train" the AI in new information, the data that is gathered is only summarized and used as part of the current conversation.  If you asked it again in a new conversation without providing the source, it will not know.
@@ -137,7 +137,7 @@ AI tooling should not be just about work, used correctly, you can use the tools 
 * Architecture compliance.
 * General validation.
 
-And these are just from my building workflow over recent months/years.  Using AI to not just do work, but to plan, evolve, generate more tools to further accelerate your workflow, defining the ultimate development method of DRY - Do not Repeat Yourself.
+And these are just from my building workflow over recent months/years.  Using AI to not just do work, but to plan, evolve, generate more tools to further accelerate your workflow, defining the ultimate development method of DRY - Do not repeat yourself.
 
 > [!TIP]
 > Did you know there are several "MODES" of AI usage now?  Not just Agentic (Agent) or "ask" (query), but also "Plan", which is great for digging deep and coming up with a stepped plan of actions which you can either get the AI to start working from or do yourself, as well as several others and even custom modes you can create yourself, tailor the experience to meet your needs.
@@ -212,7 +212,7 @@ Defining a well architected solution leads into the next section for using AI to
 
 With any well defined architecture, adhering to that architecture can be challenging.  But you can use the AI to help provide a ground truth based on the defined architecture, as well as verifying how compliant any development work undertaken is.
 
-Additionally, the architecture itself can be used as a guide for any future work, using the implementation, design or instructions to inform work that is being undertaken.  
+Additionally, the architecture itself can be used as a guide for any future work, using the implementation, design or instructions to inform work that is being undertaken.
 
 As an example, I was building a new component within a service driven architecture and the AI tooling correctly identified all the key touchpoints within the architecture to add the new component, as well as adding Unit tests around the feature.  It derived everything it needed from:
 

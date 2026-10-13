@@ -10,14 +10,13 @@ tags:
 - ar
 author: Simon Jackson
 github: ""
-mathjax: false
 ---
 
 > TL;DR -> [Ethar](https://www.ethar.com/) is an XR powerhouse, using the latest technologies from leading partners and delivering award winning solutions, while also investing in XR research to make new experiences possible, quick and easy to deliver.
 
 ![Ethar](/assets/img/posts/20241222/Etharlogo.png)
 
-As an avid content creator and educator, these past few years have been tough since I joined [Ethar](https://www.ethar.com/) (the premier XR Experience platform). I've loved being here since I joined the team and worked hard to accelerate their vision of creating the worlds first truly cross platform and cross-vendor spatial aware platform, however due to my focus I've not had as much time as I have had in the past to share what I've been up to and demonstrate to others what they can achieve.
+As an avid content creator and educator, these past few years have been tough since I joined [Ethar](https://www.ethar.com/) (the premier XR Experience platform). I've loved being here since I joined the team and worked hard to accelerate their vision of creating the world's first truly cross-platform and cross-vendor spatial aware platform, however due to my focus I've not had as much time as I have had in the past to share what I've been up to and demonstrate to others what they can achieve.
 
 The goals at Ethar are huge and we have made great strides to overcome the many complexities of running an XR spatially aware platform, whilst also delivering beyond exceptional work for our clients and [AREA](https://thearea.org/) research projects.
 
@@ -43,14 +42,14 @@ Simply put, in the digital universe of content and data, we can reliably place a
 
 > Only what the user wants to see and is allowed to see is presented, a keen distinction, no clutter.
 
-<video controls width="500" height="400" preload="metadata">
+<video controls width="500" height="400" preload="metadata" aria-label="Retail demonstration where vendor content is discovered and displayed virtually">
 	<source src="{{ '/assets/img/posts/20241222/Retail_Clip.webm' | relative_url }}" type="video/webm">
 </video>
 
 | :---: |
 | **Retail solutions where vendor content is discovered and displayed virtually to meet the vendor's needs.** |
 
-<video controls width="500" height="400" preload="metadata">
+<video controls width="500" height="400" preload="metadata" aria-label="Entertainment demonstration browsing a high street and discovering vendor offers and promotions">
 	<source src="{{ '/assets/img/posts/20241222/Entertainment_Clip.webm' | relative_url }}" type="video/webm">
 </video>
 
@@ -59,7 +58,7 @@ Simply put, in the digital universe of content and data, we can reliably place a
 
 ## Enriched interactive content and exhibits
 
-Content on its own is not enough in the advancing world, seeing things through an augmented lens is cool, but being able to truly interact with experiences opens up a new world of exploration. There are many ways to introduce interactivity, but here at [Ethar](https://www.ethar.com/) that alone is not enough, the experiences need to be adaptable and updatable on demand according to our clients wishes.
+Content on its own is not enough in the advancing world, seeing things through an augmented lens is cool, but being able to truly interact with experiences opens up a new world of exploration. There are many ways to introduce interactivity, but here at [Ethar](https://www.ethar.com/) that alone is not enough, the experiences need to be adaptable and updatable on demand according to our clients' wishes.
 
 That engagement can be done in many ways:
 
@@ -80,18 +79,18 @@ At [Ethar](https://www.ethar.com/), we do not stand still, even in the AI revolu
 
 ## Merging the physical with the digital world
 
-There are many mechanisms available today to scan and digitize physical objects and people into augmented content, what many do not realize is that these capabilities are now a part of the hardware/software ecosystem of the devices we carry in our pockets every day, each with their own unique traits and rules. All that is required of vendors is to successfully integrate then with their solutions, which is where the challenge truly begins. These standards, API's, and capabilities are constantly evolving, even more so since the integration of AI into modern devices.
+There are many mechanisms available today to scan and digitize physical objects and people into augmented content, what many do not realize is that these capabilities are now a part of the hardware/software ecosystem of the devices we carry in our pockets every day, each with their own unique traits and rules. All that is required of vendors is to successfully integrate them with their solutions, which is where the challenge truly begins. These standards, APIs, and capabilities are constantly evolving, even more so since the integration of AI into modern devices.
 
-At [Ethar](https://www.ethar.com/), as we specialize in cross-platform integration which is highly componentized, so that any development in one vendor does not impact others, however, this does not affect our downstream applications as they all use a common interface. Adding more vendors only extends the Ethar platforms reach without causing massive rework in our infrastructure. This enables Ethar to stay ahead of the game with limited cost impact, further benefiting our clients and keeping costs down.
+At [Ethar](https://www.ethar.com/), as we specialize in cross-platform integration which is highly componentized, so that any development in one vendor does not impact others, however, this does not affect our downstream applications as they all use a common interface. Adding more vendors only extends the Ethar platform's reach without causing massive rework in our infrastructure. This enables Ethar to stay ahead of the game with limited cost impact, further benefiting our clients and keeping costs down.
 
 And we do not limit what kinds of content and capabilities can be achieved with the hardware available, such as the 2D holograms shown below that can be captured, preserved and then used in digital recreations in the augmented world.
 
-<video controls width="500" height="400" preload="metadata">
+<video controls width="500" height="400" preload="metadata" aria-label="Education demonstration of a 2D hologram captured on a device and placed in the world">
 	<source src="{{ '/assets/img/posts/20241222/Education_Clip.webm' | relative_url }}" type="video/webm">
 </video>
 
 | :---: |
-| **A 2D Hologram that has been captured on a device and then placed in the world world.** |
+| **A 2D Hologram that has been captured on a device and then placed in the world.** |
 
 Our vision for such creations is not limited to single subjects or capture, but intended to enable content creators to recreate entire scenes through augmented reality using characters and content they have captured.
 
@@ -103,7 +102,7 @@ VR training has already demonstrated significant cost reductions and higher adhe
 
 [Ethar](https://www.ethar.com/) is at the forefront of developing solutions fully integrated with XR and AI to both simplify and enhance training and processes, ultimately reducing the costs involved and also improving safety in the workplace. We are heavily invested in building solutions that are both extensible and effective in improving outcomes in training, rehearsal, and active engagement while performing processes. Work in essence should be assisted digitally and where needed, also tracked (should the need require validation) to greatly improve safety and reduce ongoing costs.
 
-<video controls width="500" height="400" preload="metadata">
+<video controls width="500" height="400" preload="metadata" aria-label="Industry demonstration of XR and AI assisted training seen from the operative's view">
 	<source src="{{ '/assets/img/posts/20241222/Industry_Clip.webm' | relative_url }}" type="video/webm">
 </video>
 
@@ -112,7 +111,7 @@ VR training has already demonstrated significant cost reductions and higher adhe
 
 ## Discovering hidden worlds through Augmented Reality
 
-<video controls width="500" height="400" preload="metadata">
+<video controls width="500" height="400" preload="metadata" aria-label="Augmented reality portal opening into another world">
 	<source src="{{ '/assets/img/posts/20241222/Portal-demonstration.webm' | relative_url }}" type="video/webm">
 </video>
 
@@ -125,16 +124,16 @@ Technology keeps moving on and the techniques are challenging to implement corre
 
 ## The Service Framework by the Reality Collective
 
-One of the partners we integrate with is the Reality Collective who specialize in a cross-platform framework for building XR solutions, they provide both an extensive [Service Framework](https://serviceframework.realitycollective.net/) that simplifies the creation of a robust multi-platform solution as well as an advanced cross-platform XR framework (the [Reality Toolkit](https://realitytoolkit.realitycollective.net/)) that accelerates XR development (primarily focused on VR solutions at the moment)
+One of the partners we integrate with is the Reality Collective who specialize in a cross-platform framework for building XR solutions, they provide both an extensive [Service Framework](https://serviceframework.realitycollective.net/) that simplifies the creation of a robust multi-platform solution as well as an advanced cross-platform XR framework (the [Reality Toolkit](https://realitytoolkit.realitycollective.net/)) that accelerates XR development (primarily focused on VR solutions at the moment).
 
 |![The Reality Toolkit by the Reality Collective](/assets/img/posts/20241222/RealityToolkit.png)|
 | :---: |
 | **The Reality Toolkit and Service Framework by the Reality Collective.** |
 
-[Ethar](https://www.ethar.com/) is a premier partner in this toolkit and helps to extend its functionality and capabilities as this greatly extends Ethar's capabilities as well, showing that with cooperation, it is far better to work together to build solutions and platforms that benefit all rather than dedicating resources to proprietary and locked down technologies. Ethar benefits from both the investments we make and also the further investments by the Reality Collective's other partners and host development team, essentially Open Source has more advantages to in-house development alone. Together we build better.
+[Ethar](https://www.ethar.com/) is a premier partner in this toolkit and helps to extend its functionality and capabilities as this greatly extends Ethar's capabilities as well, showing that with cooperation, it is far better to work together to build solutions and platforms that benefit all rather than dedicating resources to proprietary and locked down technologies. Ethar benefits from both the investments we make and also the further investments by the Reality Collective's other partners and host development team, essentially Open Source has more advantages over in-house development alone. Together we build better.
 
 ## Summary
 
 I have wanted to blog and showcase much of what is shown above (and more) but the world does not stop spinning for long enough for me to put pen to digital paper. Even my talking engagements have significantly reduced (here's hoping I got more time this year).
 
-But ever the tech-train continues and it is important to keep skills sharp and up to date, there is no such thing as "one solution to fit them all", so [Ethar](https://www.ethar.com/) has to remain agile and keep enhancing it's "toolbox" to meet the needs of our customers, and I endeavor to be at the front, driving that train to an unknown destination. I don't know what it looks like yet, but I am excited to find out!
+But ever the tech-train continues and it is important to keep skills sharp and up to date, there is no such thing as "one solution to fit them all", so [Ethar](https://www.ethar.com/) has to remain agile and keep enhancing its "toolbox" to meet the needs of our customers, and I endeavor to be at the front, driving that train to an unknown destination. I don't know what it looks like yet, but I am excited to find out!

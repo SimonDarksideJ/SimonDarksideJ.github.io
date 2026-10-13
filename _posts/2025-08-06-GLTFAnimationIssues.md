@@ -3,18 +3,18 @@ layout: post
 title: Solving GLTF Animation Issues in Unity AR Applications
 date: 2025-08-06 00:00 +0000
 description: The woes of using Animated content in connected solutions
-img: posts/20250806/title.gif
+img: posts/20250806/title.jpg
+img_video: posts/20250806/title.webm
 category: XR
 tags:
 - xr
 - ar
 - unity3d
 author: Simon Jackson
-mathjax: false
 ---
 
-> TL; DR -> Unity has its ways, and not all are obvious or easy to overcome, one such issue is with 3D model animations.  In short, although animations will play automatically, other times they just do not and it is very unclear why. In this solution, we FORCE animations to run, trusting not our fate to the Unity gods whims.
- 
+> TL;DR -> Unity has its ways, and not all are obvious or easy to overcome, one such issue is with 3D model animations.  In short, although animations will play automatically, other times they just do not and it is very unclear why. In this solution, we FORCE animations to run, trusting not our fate to the Unity gods whims.
+
 > Full disclosure, for once, this post was written supported by AI (Claude Sonnet 4 in this case), as it was the AI's intensified work that ended up finding the final solution, so it deserves some credit too.  Although as a rule, I generally only write myself, with the occasional help of a spell/grammar checker :D
 
 ## The Problem: Inconsistent Animation Playback
@@ -34,7 +34,7 @@ The project, whilst having its own complexity, is built using SOLID and DRY meth
 
 The application uses Unity's [GLTFast](https://github.com/atteneder/glTFast) library to load GLTF 2.0 files.
 
-The GLTF/GLB (Graphics Language Transmission Format) standard is a modern 3D file format that supports:
+The GLTF/GLB (GL Transmission Format) standard is a modern 3D file format that supports:
 
 - Geometry and materials
 - Embedded animations
@@ -69,7 +69,6 @@ await Task.Delay(100);
 await UnityMainThreadTaskScheduler.Factory.StartNew(() => {
     // Animation activation code
 });
-
 ```
 
 These solutions failed because they addressed symptoms rather than the root cause.
@@ -93,7 +92,7 @@ However, **it does not automatically start playing these animations**. The anima
 
 ## The Solution: Automatic Animation Activation
 
-To solve this, we implementing automatic animation activation immediately after GLTF instantiation in the `ContentHandler` (A component used to spawn 3D content programmatically):
+To solve this, we implemented automatic animation activation immediately after GLTF instantiation in the `ContentHandler` (A component used to spawn 3D content programmatically):
 
 ```csharp
 public async Task<GameObject> DisplayContent(/* parameters */)
@@ -198,7 +197,7 @@ This behavior is actually correct from a design perspective—it gives developer
 
 ## Implementation Best Practices
 
-The basic take away is to never assume Unity is going to do a job for you, do it yourself regardless.  Even though Unity will help you in some scenarios, it will by happenstance, just forget to in the next scenario.
+The basic takeaway is to never assume Unity is going to do a job for you, do it yourself regardless.  Even though Unity will help you in some scenarios, it will by happenstance, just forget to in the next scenario.
 
 ### 1. Always Activate Animations Explicitly
 

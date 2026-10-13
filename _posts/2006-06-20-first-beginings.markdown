@@ -41,13 +41,13 @@ This is one of the more adventurous goals, in this most of the guides suggest a 
 
 Concept – Design – Review – Prototype – Programming – Graphics/Modelling – Test – Bug fix – Review – Packaging – Documentation
 
-There are several good guides for following all this, most of the work (graft) will be done in the first three stages, without even touching a programming IDE, it's a lot of work you should only spend about 20% of the entire project-ish programming the beast (on your own)
+There are several good guides for following all this, most of the work (graft) will be done in the first three stages, without even touching a programming IDE, it's a lot of work you should only spend about 20% of the entire project-ish programming the beast (on your own).
 
 ### Learning for fun
 
 The approach I've been taking which suits me best at the moment is to learn more before I attempt the above, most guides tell you to start in deep and learn the tough way.
 
-Personally I enjoy the learning itself for now, use what time you can to understand what is required from a programming point of view, by all means layout a game design goal (2D, 3D, RTS, RPG, FPS) and learn across that route first, learn about the Game cycle (one thing I never thought of), the different methods for graphic placement, Bitmaps graphics and such.
+Personally I enjoy the learning itself for now, use what time you can to understand what is required from a programming point of view, by all means lay out a game design goal (2D, 3D, RTS, RPG, FPS) and learn across that route first, learn about the Game cycle (one thing I never thought of), the different methods for graphic placement, bitmap graphics and such.
 
 Learn the wilds of OOP (Object Oriented Programming) in a gaming concept, it does have its own wilds (so I've found)
 
@@ -62,4 +62,3 @@ Once you've thought about these points, choose the approach that fits you.
 My way may not suit others, everyone has their own path, albeit some through a fiery chasm, over a long wooden walkbridge just to answer my questions three. Ahem.
 
 If you're here for fun or do not mind my incessant ramblings (findings) then I hope you enjoy the future.
-

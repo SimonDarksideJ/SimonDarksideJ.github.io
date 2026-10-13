@@ -2,8 +2,9 @@
 layout: post
 title: Reusing automation on GitHub
 date: 2023-02-28 14:00 +0000
-description: I side note in automation, to keep things tidy and reduce impacts, let us reuse some workflow
-img: posts/20230228/00-title.gif
+description: A side note on automation, to keep things tidy and reduce impacts, let us reuse some workflow
+img: posts/20230228/00-title.jpg
+img_video: posts/20230228/00-title.webm
 category: Automation
 tags:
 - azure
@@ -11,18 +12,17 @@ tags:
 - automation
 author: Simon Jackson
 github:
-mathjax: false
 ---
 
 ![Reusing workflows across repositories](/assets/img/posts/20230228/01-reusable-workflows-ci-cd.png)
 
 Managing automation is hard enough without having to pollute your git history with changes to your actual workflows, in reality, the workflow itself is unlikely to change but there can be subtle updates in what each workflow action needs to do.
 
-As an example, in the Reality Collective we needed to change the versioning strategy for our packages due to upcoming changes in Unity (another nightmare to be sure), the actual flow is not changing but we simply needed some minor updates. All this required (although not in reality) was to update our automation to change the "Preview" tag we previously use to "Pre".  Now, if we had all the code and scripts inside our actual projects, this would have meant changing ALL the packages in all the projects we deploy for this one minor change, however, we had employed "Reusable workflows" in all our automations previously, so we could make the changes in a separate repository rather than pollute our core code projects.  (well, at least in theory).
+As an example, in the Reality Collective we needed to change the versioning strategy for our packages due to upcoming changes in Unity (another nightmare to be sure), the actual flow is not changing but we simply needed some minor updates. All this required (although not in reality) was to update our automation to change the "Preview" tag we previously used to "Pre".  Now, if we had all the code and scripts inside our actual projects, this would have meant changing ALL the packages in all the projects we deploy for this one minor change, however, we had employed "Reusable workflows" in all our automations previously, so we could make the changes in a separate repository rather than pollute our core code projects.  (well, at least in theory).
 
 ## What are [Reusable workflows](https://docs.github.com/en/actions/using-workflows/reusing-workflows)
 
-Reusable workflows come in several forms, the most common are the Published "Actions" on the GitHub Actions marketplace, such as the popular "Checkout" action to clone code at the beginning of an automation.  Actions are reusable scripts that can consumed in your workflow.
+Reusable workflows come in several forms, the most common are the Published "Actions" on the GitHub Actions marketplace, such as the popular "Checkout" action to clone code at the beginning of an automation.  Actions are reusable scripts that can be consumed in your workflow.
 
 But what if you do not want to publish your workflows to the public marketplace?  Well, that is where [Reusable Workflow repositories](https://github.blog/2022-02-10-using-reusable-workflows-github-actions/) come in, like Actions, they are workflows published to a GitHub repo and can be accessed from any other implemented workflow with a few "security" limitations:
 
@@ -37,7 +37,7 @@ As an example, here are all the reusable workflows the RealityCollective publish
 ![Reality Collective reusable workflows](/assets/img/posts/20230228/02-RCTReusableWorkflows.png)
 *Reality Collective reusable workflows*
 
-By default these can ONLY be consumed by other Reality Collective repositories, to use then in other organistions they must be manually copied and maintained.  
+By default these can ONLY be consumed by other Reality Collective repositories, to use them in other organisations they must be manually copied and maintained.
 
 > To actually share them, they would each have to be converted in to Marketplace Actions, but we have no need at this time to do that.
 
@@ -73,11 +73,11 @@ This subtlety with rebasing the Major Tag to the new commit is what eluded me in
 
 ## Making your own reusable workflows
 
-As a simple guide for making your own reusable workflows for your own repositories, here are some times to avoid some of the pitfalls I faced when building our first batch:
+As a simple guide for making your own reusable workflows for your own repositories, here are some tips to avoid some of the pitfalls I faced when building our first batch:
 
 1. Create a new repository in your organisation solely for Reusable Workflows, the name is not important but make it recognisable.
 2. Make the repository Public (until such time that GitHub allows us to have private reusable workflow access).
-3. Create, test and validate your first batch of workflows, test in other repositories using the "**Main**"" suffix (or the name of the branch used for testing).
+3. Create, test and validate your first batch of workflows, test in other repositories using the "**Main**" suffix (or the name of the branch used for testing).
 4. Once the workflows are Stable, create a Release commit to define a release point in your repository.
 5. Create a new Tag (V1 for example) for the release.
 6. Create a Release from the Tag for reference to document the release and what is contained.
@@ -102,7 +102,7 @@ No changes are needed to existing workflows as they will use the new updated V1 
 
 > If you do not recreate/update the Major release Tag commit, your workflows will not see changes unless you update them to the new minor release.
 
-### FOr a Major release
+### For a Major release
 
 1. Follow the same steps for a minor release, except you will only create a brand new Major release tag and Release.  Previous version is untouched.
 2. Update any workflows needing the new version with the new Major version number, e.g. @v1 -> @v2.
@@ -111,7 +111,7 @@ No changes are needed to existing workflows as they will use the new updated V1 
 
 ## Wrap up
 
-It has been a "not" fun time working through updating our pipelines recently, mainly because we followed the GitHub examples andd just use the Main branch (@main) which created headaches when we needed to make updates.
+It has been a "not" fun time working through updating our pipelines recently, mainly because we followed the GitHub examples and just use the Main branch (@main) which created headaches when we needed to make updates.
 After a few hours examining what GitHub does to manage its own workflows we built up the above flow (the Major Release re-tagging was the latest).
 
 But now we have a flow for maintaining our workflows better and we can get back to fighting Unity instead.

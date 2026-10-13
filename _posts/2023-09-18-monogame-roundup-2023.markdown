@@ -3,7 +3,8 @@ layout: post
 title: MonoGame roundup for 2023
 date: 2023-09-18 14:00 +0000
 description: Setting the record straight on MonoGame, past, present and more importantly, its future.
-img: posts/20230918/title.gif
+img: posts/20230918/title.jpg
+img_video: posts/20230918/title.webm
 category: MonoGame
 tags:
 - game development
@@ -11,10 +12,9 @@ tags:
 - monogame
 author: Simon Jackson
 github: MonoGame/MonoGame
-mathjax: false
 ---
 
-![The GameDev cycle](/assets/img/posts/20230918/01-gamedevsleep.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20230918/01-gamedevsleep.jpg" aria-label="The GameDev cycle"><source src="/assets/img/posts/20230918/01-gamedevsleep.webm" type="video/webm"></video>
 
 > TL;DR -> MonoGame rocks and continues to be one of the best open-source frameworks for building games.
 
@@ -38,7 +38,7 @@ The Framework of discussion today is MonoGame, which despite all talk to the con
 
 ## MonoGame
 
-![MonoGame](/assets/img/posts/20230918/HorizontalLogo_128px.png)
+![MonoGame](/assets/img/brands/monogame.png)
 
 MonoGame is a game development framework born from an implementation pioneered by Microsoft around 2004 called XNA (no acronym), it brought the dream of building games for Windows and Xbox (and later phones) using C#, it was a breath of fresh air and made programming games a breeze.  Sadly, XNA was discontinued by Microsoft but was reborn as MonoGame.
 
@@ -50,13 +50,13 @@ Now, MonoGame is a Framework (not an engine) and its power lies in the original 
 
 In basic terms, you write your game using MonoGame's implementation and it then generates a project to deploy on your target platform.
 
-> Contrary to some writers beliefs, Like the swan on the lake, there may not seem much movement on the water, but underneath, there is furious paddling going on to keep it moving.
+> Contrary to some writers' beliefs, like the swan on the lake, there may not seem much movement on the water, but underneath, there is furious paddling going on to keep it moving.
 >
 > P.S. I tried to find an appropriate GIF to demonstrate this and failed, for that I am sorry.  The best I could find was a worried cat learning to swim :S.
 
 ## The MonoGame Framework
 
-![MonoGame lives!](/assets/img/posts/20230918/iamalive.gif)
+<video class="gif-video" autoplay loop muted playsinline poster="/assets/img/posts/20230918/iamalive.jpg" aria-label="MonoGame lives!"><source src="/assets/img/posts/20230918/iamalive.webm" type="video/webm"></video>
 
 One thing that keeps coming up from time to time, and sometimes confused with "MonoGame is Dead", is that the XNA implementation used in MonoGame (the language and structure) has not changed for years, which is very true (much like a car has 4 wheels, doors and an engine), the "front end" of MonoGame, for the most part, has remained the same since XNA 4.0 (the last iteration of XNA).  This is not to say nothing has changed, but rather it has remained stable and secure, what you wrote 10 years ago, will still run today (with the obvious caveats for minor critical changes).
 
@@ -76,7 +76,7 @@ The MonoGame community is **VAST**, and as previously stated, most XNA/MonoGame 
 
 ![MonoGame Get Started](/assets/img/posts/20230918/MonoGameGetStarted.png)
 
-Amongst MonoGames community weaponry it includes:
+Amongst MonoGame's community weaponry it includes:
 
 * [A very active community site for Questions, Answers and showcases](https://community.monogame.net/)
 * [Loads of official and supported community sites](https://docs.monogame.net/articles/tutorials.html)
@@ -91,18 +91,18 @@ And so much more, since any XNA content is also valid (from the coding side) and
 
 ![MonoGame tooling](/assets/img/posts/20230918/MonoGameVisualStudio.png)
 
-The MonoGame toolchain has gone through many iterations since its first release, always moving with the times and updating to modern technology, from Separate plug-ins to Visual Studio extensions and in the past year, updated to use the .NET Runtime and toolset.  with each iteration, the API remains the same, so existing projects are not broken, but under the hood, things keep advancing.
+The MonoGame toolchain has gone through many iterations since its first release, always moving with the times and updating to modern technology, from separate plug-ins to Visual Studio extensions and in the past year, updated to use the .NET Runtime and toolset.  With each iteration, the API remains the same, so existing projects are not broken, but under the hood, things keep advancing.
 
 And MonoGame does not stop there, still planning ahead and looking further into the future as technology evolves, talk is already well underway for a .NET 8 upgrade which brings even more cross-platform capabilities and (if reports are true) faster compilation and execution (your game goes faster).  There is even talk that with the next .NET upgrade, tools such as [BRUTE](http://brute.rocks/) (which provides C++ compilation to some AOT native platforms, such as Switch) could even be retired. (depending on the capabilities published by Microsoft)
 
 For today, MonoGame 3.8.1 (and beyond) are all based on the .Net Runtime and getting started is as simple as:
 
 1. Install the latest [.NET 6 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) (comes with Visual Studio if you have it).
-2. Install the MonoGame templates - ```dotnet new --install MonoGame.Templates.CSharp``` from the command-line.
+2. Install the MonoGame templates - `dotnet new --install MonoGame.Templates.CSharp` from the command-line.
 3. Create a folder for your Game.
-4. From the folder, create a new MonoGame project for your target platform, for Desktop OpenGL - ```dotnet new mgdesktopgl -o MyGame```
+4. From the folder, create a new MonoGame project for your target platform, for Desktop OpenGL - `dotnet new mgdesktopgl -o MyGame`
 5. You now have a new MonoGame Project, go build your game.
-6. When you are ready, simply run ```dotnet build``` to create a build for your game and then run it.
+6. When you are ready, simply run `dotnet build` to create a build for your game and then run it.
 
 > For more details on getting started, check out the [documentation](https://docs.monogame.net/articles/getting_started/0_getting_started.html)
 
@@ -110,15 +110,15 @@ For today, MonoGame 3.8.1 (and beyond) are all based on the .Net Runtime and get
 
 ![Extending MonoGame](/assets/img/posts/20230918/monogameextensions.png)
 
-One of the biggest confusions and usually the reason commentor's state that MonoGame does not change is because it **does not change** from the **outside**.  The MonoGame team persevere to ensure the API for MonoGame retains its XNA origins.  It does not change for a reason, and thanks to that, games written yesterday will continue to work today (and beyond).
+One of the biggest confusions and usually the reason commenters state that MonoGame does not change is because it **does not change** from the **outside**.  The MonoGame team persevere to ensure the API for MonoGame retains its XNA origins.  It does not change for a reason, and thanks to that, games written yesterday will continue to work today (and beyond).
 
-MonoGame does however encourage and support community members building **ON TOP OF** MonoGame to further extend it and then helps to then promote those extensions for other MonoGame users. These can range from simple addons, to full-extending frameworks, even to engines built on MonoGame.  These Engines make full use of MonoGames platform capabilities to ship a game and focus on the parts they need to deliver an engine.
+MonoGame does however encourage and support community members building **ON TOP OF** MonoGame to further extend it and then helps to then promote those extensions for other MonoGame users. These can range from simple addons, to full-extending frameworks, even to engines built on MonoGame.  These Engines make full use of MonoGame's platform capabilities to ship a game and focus on the parts they need to deliver an engine.
 
 Some of the biggest out there include:
 
 * [MonoGame.Extended](https://github.com/craftworkgames/MonoGame.Extended) - If MonoGame doesn't do it, then MonoGame.Extended extends it (pun intended).
 * [FNA](https://github.com/FNA-XNA/FNA) - Not technically a MonoGame extension, more of a MonoGame competitor, but highly worth a mention, even admired by the MG team.
-* [FlatredBall](https://flatredball.com/) - A full-featured game development platform built on MonoGame.
+* [FlatRedBall](https://flatredball.com/) - A full-featured game development platform built on MonoGame.
 * [TiledSharp](https://github.com/marshallward/TiledSharp) - A fan of using the [Tiled](https://www.mapeditor.org/) editor for your 2D maps, then easily take those maps into your MonoGame project. Although I do see this project is no longer supported, at my last run it still worked very well.
 * Many Many more (your name here).
 
@@ -139,16 +139,16 @@ However, one of the biggest myths (or debates depending on where your sticks lan
 So whether you are a content pipeline user:
 
 ```csharp
-    var myTexture = Content.Load<Texture2D>("ball");
+var myTexture = Content.Load<Texture2D>("ball");
 ```
 
 Or a non-content pipeline user:
 
 ```csharp
-    using (var fileStream = new FileStream("test.png", FileMode.Open))
-    {
-        var myTexture = Texture2D.FromStream(GraphicsDevice, fileStream);
-    }
+using (var fileStream = new FileStream("test.png", FileMode.Open))
+{
+    var myTexture = Texture2D.FromStream(GraphicsDevice, fileStream);
+}
 ```
 
 The path is yours and MonoGame will never dictate or tell you how to build your game.
@@ -157,9 +157,9 @@ The path is yours and MonoGame will never dictate or tell you how to build your 
 
 This post has wrangled on for a while trying to set a few truths alongside the doubters or nay-sayers who call something dead because they don't see change happening.
 
-> Full disclosure, I have wondered the same because it sometimes takes a long time between releases.  But I work with the team, who are equally frustrated at times and things are ALWAYS in motion.  
+> Full disclosure, I have wondered the same because it sometimes takes a long time between releases.  But I work with the team, who are equally frustrated at times and things are ALWAYS in motion.
 
-Given no one gets paid to build MonoGame and all the supporters work in their spare time, rather generously I might add, it is still amazing how much love MonoGame gets.  But to those who still and continue to MonoGame, I salute you!
+Given no one gets paid to build MonoGame and all the supporters work in their spare time, rather generously I might add, it is still amazing how much love MonoGame gets.  But to those who still continue to use MonoGame, I salute you!
 
 In times of upheaval, you might want to give it a whirl, load up a tutorial and try building something and it is indeed surprising how easy it is.  Even without an editor/GUI to lean on, it is amazing how visceral and close to the metal MonoGame feels. Every pixel that moves, every change that happens is directly under your control and it is surprisingly freeing.
 

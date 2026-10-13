@@ -35,14 +35,23 @@ author:
 # Analytics
 google_analytics: G-S2P4W0VHVB
 
-# Comments (Utterances)
-comments:
-  provider: utteranc
-  utteranc:
-    repo: SimonDarksideJ/comments.SimonDarksideJ.github.io
-    issue_term: pathname
-    theme: github-dark
-    label: comments
+# Comments (Giscus, backed by GitHub Discussions)
+# Comments stay hidden until repo_id and category_id are filled in.
+# Get both values from https://giscus.app after enabling Discussions on the repo
+# and installing the giscus app on it.
+giscus:
+  repo: SimonDarksideJ/comments.SimonDarksideJ.github.io
+  repo_id: TODO-SIMON
+  category: Announcements
+  category_id: TODO-SIMON
+  mapping: pathname
+  reactions_enabled: "1"
+  input_position: top
+  lang: en
+
+# Historical note shown at the top of posts published before this year.
+# Set to 0 to turn it off. Posts can override with `archive_notice: true|false`.
+archive_notice_before: 2018
 
 # Pagination
 paginate: 12
@@ -78,6 +87,10 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  # Old posts hidden from listings, feed, search and tag pages. Each keeps its
+  # original URL through a `permalink:` in its front matter.
+  archive:
+    output: true
 
 # Defaults
 defaults:
@@ -94,6 +107,12 @@ defaults:
       type: "pages"
     values:
       layout: "page"
+  - scope:
+      path: ""
+      type: "archive"
+    values:
+      layout: "post"
+      sitemap: false
 
 # Archives
 jekyll-archives:
